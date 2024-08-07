@@ -1,0 +1,4 @@
+{
+  "packages": ["websocket-client"],
+  "apt_dependencies": ["libopencv-dev", "libgl1-mesa-glx", "libglib2.0-0"]
+}
