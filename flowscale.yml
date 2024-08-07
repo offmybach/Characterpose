@@ -4,3 +4,8 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows: []
+normal_workflows:
+  - id: bzyv64l6u8p
+    name: Charposefaceemot.json
+    file: characterposes&face/Charposefaceemot.json
+    version: 0
