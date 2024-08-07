@@ -1,0 +1,10 @@
+
+[
+  {
+    "name": "v1-5-pruned-emaonly.ckpt",
+    "url": "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt",
+    "path": "models/checkpoints",
+    "fetch_type": "download"
+  }
+]
+      
