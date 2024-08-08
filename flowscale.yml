@@ -9,3 +9,7 @@ normal_workflows:
     name: Charposefaceemot.json
     file: characterposes&face/Charposefaceemot.json
     version: 0
+  - id: lasnpaeyfd8
+    name: Bookfaces.json
+    file: characterposes&face/Bookfaces.json
+    version: 0
