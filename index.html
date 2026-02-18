@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clarence Gets a Bargain | Kid Lit Is a Hit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero hero--statement hero--storybook">
+    <nav class="top-nav" aria-label="Primary">
+      <span class="top-nav__brand">Clarence®</span>
+      <a href="#" class="top-nav__link">The Book</a>
+      <a href="#magazine" class="top-nav__link">Flip Preview</a>
+      <a href="#buy" class="top-nav__link">Buy Now</a>
+    </nav>
+    <div class="hero-statement">
+      <p class="eyebrow">Financial Literacy Adventure Series</p>
+      <h1>Clarence Gets a Bargain.</h1>
+      <p class="approval">Approved by at least 3 teachers (my mother (retired), brother, and neighbor)</p>
+
+      <p class="author-line">A clever tale for clever kids, by Jonathan Bach — author, illustrator, wordsmith supreme.</p>
+      <p class="mission-line">Financial literacy sneaks in behind a hilarious, high-stakes mission: Clarence will score a robot… IF he can make cents of his dollars.</p>
+
+      <div class="hero-stats" aria-label="Book highlights">
+        <div class="hero-stat"><strong>5</strong><span>Pages</span></div>
+        <div class="hero-stat"><strong>1</strong><span>Mission</span></div>
+        <div class="hero-stat"><strong>∞</strong><span>Giggles</span></div>
+      </div>
+
+      <p class="tagline">KID LIT IS A HIT! AND KID FIN IS A WIN!</p>
+      <p class="stealth-note">Stealthy Edutainment for growing money-smart minds.</p>
+
+      <div class="hero__cta">
+        <a href="#buy" class="btn btn--solid">Shop the Book</a>
+        <a href="#magazine" class="btn btn--ghost">Explore Coupon Adventure</a>
+      </div>
+      <div class="hero-flair" aria-label="Audience highlights">
+        <span>Parents</span>
+        <span>Educators</span>
+        <span>Storytime Leaders</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="story-ribbon" aria-label="Adventure ribbon">
+    <p>Wish You Were Here!</p>
+  </section>
+
+  <main>
+    <section id="magazine" class="magazine-launch section-card">
+      <div>
+        <h2>Step Into Clarence's Coupon Quest</h2>
+        <p class="quick-start">Quick start: drag a cover image into either side card (or click the card) and it saves automatically. Then click the center magazine to pop it front-and-center.</p>
+      </div>
+      <div class="magazine-centerline">
+        <div class="cover-card cover-card--side">
+          <h3>Book Cover</h3>
+          <div class="cover-placeholder cover-placeholder--image" id="frontCoverSlot" role="button" tabindex="0" aria-label="Drop or choose front cover image">
+            <img id="frontCoverPreview" alt="Front cover preview" hidden>
+            <p class="cover-placeholder__text"><strong>Drop Front Cover Here</strong><span>or click to choose</span></p>
+          </div>
+          <label class="cover-upload-btn" for="frontCoverInput">Choose Front Cover</label>
+          <input id="frontCoverInput" class="cover-upload-input" type="file" accept="image/*">
+        </div>
+
+        <div id="openMagazine" class="magazine-dock" role="button" tabindex="0" aria-label="Open 3D Coupon Magazine">
+          <div class="magazine-preview" aria-hidden="true">
+            <p class="magazine-preview__eyebrow">Coupon Magazine</p>
+            <h3>Clarence Gets a Bargain</h3>
+            <div class="magazine-preview__image-wrap">
+              <img id="magazineFrontPreview" alt="Magazine front preview" hidden>
+              <p class="magazine-preview__tag">Front Cover Preview</p>
+            </div>
+            <p class="magazine-preview__burst">KID LIT IS A HIT!<br>AND KID FIN IS A WIN!</p>
+          </div>
+          <p class="magazine-dock__cta">Click here to see about Clarence's quest for the perfect smart robot</p>
+        </div>
+
+        <div class="cover-card cover-card--side">
+          <h3>Alternate / Back Cover</h3>
+          <div class="cover-placeholder cover-placeholder--image" id="backCoverSlot" role="button" tabindex="0" aria-label="Drop or choose back cover image">
+            <img id="backCoverPreview" alt="Back cover preview" hidden>
+            <p class="cover-placeholder__text"><strong>Drop Back Cover Here</strong><span>or click to choose</span></p>
+          </div>
+          <label class="cover-upload-btn" for="backCoverInput">Choose Back Cover</label>
+          <input id="backCoverInput" class="cover-upload-input" type="file" accept="image/*">
+        </div>
+      </div>
+    </section>
+
+    <section class="dark-showcase" aria-label="Highlights">
+      <h2 class="section-title">Why Families & Educators Love It</h2>
+      <section class="feature-grid" aria-label="Highlights">
+      <article class="feature-card">
+        <h3>Read Together</h3>
+        <p>A polished, grown-up visual style made for parents and educators reading to kids.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Classroom Friendly</h3>
+        <p>Built-in coupon pages support activities, incentive moments, and lesson tie-ins.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Fully Editable Coupons</h3>
+        <p>Each page has multiple coupon spaces with resizable text areas and editable dotted cut-lines.</p>
+      </article>
+    </section>
+    </section>
+
+    <section class="scene-strip" aria-label="Scenic divider">
+      <p>Kid Lit Adventure + Money Mission = Big Fun</p>
+    </section>
+
+    <section class="quote-band" aria-label="Reader love">
+      <p>“A story with heart, humor, and practical money-smarts — perfect for read-aloud moments and classroom chats.”</p>
+    </section>
+
+    <section class="faq section-card" aria-label="FAQ">
+      <h2>FAQ</h2>
+      <details open><summary>Is this mostly for kids or adults?</summary><p>It's written so adults can enjoy reading it aloud while kids absorb the lessons through story and laughs.</p></details>
+      <details><summary>Can I edit the coupon content?</summary><p>Yes. Every coupon area and dotted cut-line text is editable right in the browser.</p></details>
+      <details><summary>Can schools place bulk orders?</summary><p>Absolutely. Use the bulk/school pricing button below for classroom and literacy-program orders.</p></details>
+    </section>
+
+    <section class="newsletter">
+      <h2>Join Our Mailing List for New Adventures</h2>
+      <p>Get updates, bonus classroom ideas, and launch specials.</p>
+      <form class="newsletter__form" onsubmit="event.preventDefault()">
+        <input type="email" placeholder="Email address" aria-label="Email address">
+        <button class="btn btn--solid" type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <section id="buy" class="payment section-card">
+      <h2>Purchase & Classroom Orders</h2>
+      <p>Ready to bring <em>Clarence Gets a Bargain</em> to your home, school, or literacy program?</p>
+      <div class="payment__actions">
+        <button class="btn btn--solid">Buy Single Copy</button>
+        <button class="btn btn--ghost">Bulk / School Pricing</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="magazineModal" class="modal" aria-hidden="true" role="dialog" aria-label="Coupon Magazine">
+    <div class="modal__overlay" id="closeMagazine"></div>
+    <button class="modal__close" id="closeMagazineBtn" aria-label="Close magazine">×</button>
+    <div class="stage-tilt">
+      <div class="magazine" id="magazineBook" aria-live="polite"></div>
+    </div>
+    <p class="hint">Tip: click lower-right corner to go forward, lower-left corner to go back.</p>
+  </div>
+
+  <template id="couponSlotTemplate">
+    <article class="coupon-slot" contenteditable="true">
+      <h4>Coupon Title</h4>
+      <p>Editable coupon details go here.</p>
+      <div class="coupon-slot__offer">$5 OFF</div>
+      <p class="coupon-slot__line">Terms & notes</p>
+      <div class="coupon-slot__cutline" contenteditable="true">Edit dotted cut-line text • bring to checkout</div>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
