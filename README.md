@@ -39,6 +39,23 @@ Short answer: **No**, not for normal use.
 
 So no — copying code into Notepad is **not** your only option, and usually you should avoid that.
 
+
+## Where is the GitHub page?
+
+If you are asking this, the project may **not be published to GitHub yet**.
+
+How to check quickly:
+- If someone gave you a GitHub link, that is the page to use.
+- If you have no link, ask the person who shared the files for the repository URL.
+- In this copy of the project, there is no configured Git remote URL, so a GitHub page cannot be auto-detected from here.
+
+If you want your own GitHub page for this project:
+1. Create a new empty repository on GitHub.
+2. Upload this folder (or push with Git/GitHub Desktop).
+3. Then use that new repo page's **Code → Download ZIP** button.
+
+So the issue is likely exactly what you suspected: you may be working from a local copy that is not connected to a GitHub repo URL yet.
+
 ## What to keep together
 
 Keep these files in the same extracted folder:
