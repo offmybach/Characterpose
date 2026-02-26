@@ -98,10 +98,11 @@
       <div>
         <h2>Step Into Clarence's Coupon Quest</h2>
         <p class="quick-start">Quick start: drag a cover image into either side card (or click the card) and it saves automatically. Then click the center magazine to pop it front-and-center.</p>
+        <p id="uploadStatus" class="upload-status" aria-live="polite"></p>
       </div>
       <div class="magazine-centerline">
         <div class="cover-card cover-card--side">
-          <h3>Book Cover</h3>
+          <h3>Front Cover Upload (3:2)</h3>
           <div class="cover-placeholder cover-placeholder--image" id="frontCoverSlot" role="button" tabindex="0" aria-label="Drop or choose front cover image">
             <img id="frontCoverPreview" alt="Front cover preview" hidden>
             <p class="cover-placeholder__text"><strong>Drop Front Cover Here</strong><span>or click to choose</span></p>
@@ -112,19 +113,23 @@
 
         <div id="openMagazine" class="magazine-dock" role="button" tabindex="0" aria-label="Open 3D Coupon Magazine">
           <div class="magazine-preview" aria-hidden="true">
-            <p class="magazine-preview__eyebrow">Coupon Magazine</p>
-            <h3>Clarence Gets a Bargain</h3>
-            <div class="magazine-preview__image-wrap">
-              <img id="magazineFrontPreview" alt="Magazine front preview" hidden>
-              <p class="magazine-preview__tag">Front Cover Preview</p>
+            <p class="magazine-preview__eyebrow">6-Page Flip Magazine</p>
+            <h3>Coupon Adventure Preview</h3>
+            <div class="magazine-preview__mock">
+              <div class="magazine-preview__bar"></div>
+              <p class="magazine-preview__save">Extra Savings</p>
+              <p class="magazine-preview__title">COUPONS</p>
+              <div class="magazine-preview__dash"></div>
+              <div class="magazine-preview__dash"></div>
+              <div class="magazine-preview__dash"></div>
             </div>
-            <p class="magazine-preview__burst">KID LIT IS A HIT!<br>AND KID FIN IS A WIN!</p>
+            <p class="magazine-preview__burst">Tap to launch the full-size flip magazine</p>
           </div>
           <p class="magazine-dock__cta">Click here to see about Clarence's quest for the perfect smart robot</p>
         </div>
 
         <div class="cover-card cover-card--side">
-          <h3>Alternate / Back Cover</h3>
+          <h3>Back Cover Upload (3:2)</h3>
           <div class="cover-placeholder cover-placeholder--image" id="backCoverSlot" role="button" tabindex="0" aria-label="Drop or choose back cover image">
             <img id="backCoverPreview" alt="Back cover preview" hidden>
             <p class="cover-placeholder__text"><strong>Drop Back Cover Here</strong><span>or click to choose</span></p>
