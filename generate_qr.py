@@ -122,33 +122,35 @@ for row in range(N):
 
 
 # ── STACKED 3-D FINDER EYES ───────────────────────────────────────────────────
-# Sharp-cornered square border frames stacked like paper layers.
-# Shadow copies offset toward bottom-right peek out behind the front frame.
+# Front purple frame + 2 back frames fanned wide toward bottom-right.
+# Back frames = gradient-coloured (teal/blue) thin border rings only.
+# Slight corner rounding to match reference.
 
 def draw_stacked_eye(r0c, c0c):
     c0 = c0c * cell
     r0 = r0c * cell
     S7 = 7 * cell
-    bw = cell * 0.85   # border ring thickness
+    bw = cell * 0.9          # border ring thickness ≈ 1 module
+    r  = cell * 0.5          # slight corner rounding
 
-    # ── shadow layers drawn back-to-front so front layer occludes top-left ──
-    for off, alpha in [(cell * 0.55, 100), (cell * 0.28, 160)]:
+    # ── back layers: wide fan, gradient colour, border ring only ──
+    # drawn back-to-front; front layer covers their top-left overlap
+    for off in (cell * 1.6, cell * 0.8):
         shade = grad(c0 + S7 / 2 + off, r0 + S7 / 2 + off)
-        # filled rect then hollow = border ring, sharp corners
-        draw.rectangle([c0+off, r0+off, c0+S7+off, r0+S7+off],
-                       fill=shade + (alpha,))
-        draw.rectangle([c0+off+bw, r0+off+bw, c0+S7+off-bw, r0+S7+off-bw],
-                       fill=(255, 255, 255, alpha))
+        draw.rounded_rectangle([c0+off,    r0+off,    c0+S7+off,    r0+S7+off],
+                               radius=r, fill=shade + (255,))
+        draw.rounded_rectangle([c0+off+bw, r0+off+bw, c0+S7+off-bw, r0+S7+off-bw],
+                               radius=max(r - bw * 0.5, 0), fill=(255, 255, 255, 255))
 
-    # ── front (main) layer — sharp corners ──────────────────────────────────
-    # outer border ring
-    draw.rectangle([c0, r0, c0+S7, r0+S7], fill=COLOR_A + (255,))
-    # white gap
+    # ── front (main) layer: purple border ring + inner solid core ──
+    draw.rounded_rectangle([c0,    r0,    c0+S7,    r0+S7],
+                           radius=r, fill=COLOR_A + (255,))
     g = cell
-    draw.rectangle([c0+g, r0+g, c0+S7-g, r0+S7-g], fill=(255, 255, 255, 255))
-    # inner solid core
+    draw.rounded_rectangle([c0+g,  r0+g,  c0+S7-g,  r0+S7-g],
+                           radius=max(r - g * 0.4, 0), fill=(255, 255, 255, 255))
     m = cell * 2
-    draw.rectangle([c0+m, r0+m, c0+S7-m, r0+S7-m], fill=COLOR_A + (255,))
+    draw.rounded_rectangle([c0+m,  r0+m,  c0+S7-m,  r0+S7-m],
+                           radius=max(r - m * 0.4, 0), fill=COLOR_A + (255,))
 
 draw_stacked_eye(QUIET,           QUIET)
 draw_stacked_eye(QUIET,           N - QUIET - 7)
