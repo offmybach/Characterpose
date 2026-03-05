@@ -121,36 +121,37 @@ for row in range(N):
             draw.rectangle([cx - BRIDGE_W, mid, cx + BRIDGE_W, ncy],  fill=bot_f + (255,))
 
 
-# ── STACKED 3-D FINDER EYES ───────────────────────────────────────────────────
-# Front purple frame + 2 back frames fanned wide toward bottom-right.
-# Back frames = gradient-coloured (teal/blue) thin border rings only.
-# Slight corner rounding to match reference.
+# ── FINDER EYES: heavily-rounded squircle frames with dark shadow blob ────────
+# Reference shows iOS-style squircle corners (large radius) and a dark blurred
+# blob/glow surrounding each frame — not offset stacked copies.
 
 def draw_stacked_eye(r0c, c0c):
     c0 = c0c * cell
     r0 = r0c * cell
     S7 = 7 * cell
-    bw = cell * 0.9          # border ring thickness ≈ 1 module
-    r  = cell * 0.5          # slight corner rounding
+    r  = cell * 2.0    # heavy rounding — squircle feel
 
-    # ── back layers: wide fan, gradient colour, border ring only ──
-    # drawn back-to-front; front layer covers their top-left overlap
-    for off in (cell * 1.6, cell * 0.8):
-        shade = grad(c0 + S7 / 2 + off, r0 + S7 / 2 + off)
-        draw.rounded_rectangle([c0+off,    r0+off,    c0+S7+off,    r0+S7+off],
-                               radius=r, fill=shade + (255,))
-        draw.rounded_rectangle([c0+off+bw, r0+off+bw, c0+S7+off-bw, r0+S7+off-bw],
-                               radius=max(r - bw * 0.5, 0), fill=(255, 255, 255, 255))
+    # ── dark shadow blob (blurred rounded rect on separate layer) ──
+    shadow = Image.new("RGBA", (QR_SIZE, QR_SIZE), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(shadow)
+    pad = cell * 1.0
+    sd.rounded_rectangle(
+        [c0 - pad, r0 - pad, c0 + S7 + pad, r0 + S7 + pad],
+        radius=r + pad, fill=(20, 15, 50, 210))
+    shadow = shadow.filter(ImageFilter.GaussianBlur(radius=cell * 1.4))
+    img.alpha_composite(shadow)
 
-    # ── front (main) layer: purple border ring + inner solid core ──
-    draw.rounded_rectangle([c0,    r0,    c0+S7,    r0+S7],
+    # ── outer border ring ──
+    draw.rounded_rectangle([c0, r0, c0 + S7, r0 + S7],
                            radius=r, fill=COLOR_A + (255,))
+    # white gap (1 module inset)
     g = cell
-    draw.rounded_rectangle([c0+g,  r0+g,  c0+S7-g,  r0+S7-g],
-                           radius=max(r - g * 0.4, 0), fill=(255, 255, 255, 255))
+    draw.rounded_rectangle([c0 + g, r0 + g, c0 + S7 - g, r0 + S7 - g],
+                           radius=max(r - g, 0), fill=(255, 255, 255, 255))
+    # inner solid core (2 modules inset)
     m = cell * 2
-    draw.rounded_rectangle([c0+m,  r0+m,  c0+S7-m,  r0+S7-m],
-                           radius=max(r - m * 0.4, 0), fill=COLOR_A + (255,))
+    draw.rounded_rectangle([c0 + m, r0 + m, c0 + S7 - m, r0 + S7 - m],
+                           radius=max(r - m, 0), fill=COLOR_A + (255,))
 
 draw_stacked_eye(QUIET,           QUIET)
 draw_stacked_eye(QUIET,           N - QUIET - 7)
