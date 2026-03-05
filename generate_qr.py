@@ -7,10 +7,12 @@ Visual style matching reference image:
   • Stacked 3-D finder eyes: 3 concentric frames offset toward bottom-right,
     giving a layered depth illusion
   • Purple → teal gradient
-  • 3-D piggy bank + coin centred in a white disc
+  • Magnific-upscaled 3-D piggy bank centred in a white disc
   • ERROR_CORRECT_H (30 % recovery) for logo coverage
 """
 
+import os
+import numpy as np
 import qrcode
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
@@ -23,8 +25,9 @@ QUIET     = 4
 COLOR_A = (123,  47, 190)   # purple  top-left
 COLOR_B = ( 26, 155, 108)   # teal    bottom-right
 
-EMOJI_FONT = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
-LOGO_FRAC  = 0.255
+EMOJI_FONT   = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
+LOGO_FRAC    = 0.255
+MAGNIFIC_IMG = os.path.join(os.path.dirname(__file__), "magnific-upscaled-1772739514871.png")
 
 
 # ── helpers ───────────────────────────────────────────────────────────────────
@@ -160,7 +163,7 @@ draw_stacked_eye(QUIET,           N - QUIET - 7)
 draw_stacked_eye(N - QUIET - 7,   QUIET)
 
 
-# ── CENTRE LOGO: 3-D PIGGY BANK + COIN ───────────────────────────────────────
+# ── CENTRE LOGO: MAGNIFIC-UPSCALED 3-D PIGGY BANK ────────────────────────────
 
 logo_px = int(QR_SIZE * LOGO_FRAC)
 logo    = Image.new("RGBA", (logo_px, logo_px), (0,0,0,0))
@@ -168,19 +171,22 @@ logo_d  = ImageDraw.Draw(logo)
 logo_d.ellipse([0, 0, logo_px-1, logo_px-1], fill=(255,255,255,248))
 
 try:
-    efont   = ImageFont.truetype(EMOJI_FONT, 109)
+    pig_src = Image.open(MAGNIFIC_IMG).convert("RGBA")
 
-    # Use the money bag + coin piggy-bank styled emoji combination
-    # 🐷 is flat; use 🪣 no — best available is 🐷 scaled large
-    pig_px  = int(logo_px * 0.74)
-    pig_img = render_emoji("🐷", pig_px, efont)
-    logo.paste(pig_img, ((logo_px-pig_px)//2, int(logo_px*0.18)), pig_img)
+    # The magnific image has a black background — make it transparent.
+    arr = np.array(pig_src, dtype=np.uint16)
+    r, g, b, a = arr[...,0], arr[...,1], arr[...,2], arr[...,3]
+    darkness = (r.astype(np.uint16) + g + b) // 3   # 0=black, 255=white
+    threshold = 30
+    new_alpha = np.where(darkness <= threshold, 0, a).astype(np.uint8)
+    result = np.dstack([arr[...,0], arr[...,1], arr[...,2], new_alpha]).astype(np.uint8)
+    pig_src = Image.fromarray(result, "RGBA")
 
-    coin_px  = int(logo_px * 0.29)
-    coin_img = render_emoji("🪙", coin_px, efont)
-    logo.paste(coin_img, ((logo_px-coin_px)//2, int(logo_px*0.01)), coin_img)
+    pig_px  = int(logo_px * 0.88)
+    pig_img = pig_src.resize((pig_px, pig_px), Image.LANCZOS)
+    logo.paste(pig_img, ((logo_px - pig_px) // 2, (logo_px - pig_px) // 2), pig_img)
 except Exception as e:
-    print(f"Emoji note: {e}")
+    print(f"Piggy bank logo note: {e}")
 
 # soft glow halo
 gp   = int(logo_px * 0.12)
