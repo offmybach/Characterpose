@@ -27,7 +27,7 @@ COLOR_B = ( 26, 155, 108)   # teal    bottom-right
 
 EMOJI_FONT   = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
 LOGO_FRAC    = 0.255
-MAGNIFIC_IMG = os.path.join(os.path.dirname(__file__), "magnific-upscaled-1772739514871.png")
+MAGNIFIC_IMG = os.path.join(os.path.dirname(__file__), "Gemini_Generated_Image_pld8zppld8zppld8.png")
 
 
 # ── helpers ───────────────────────────────────────────────────────────────────
