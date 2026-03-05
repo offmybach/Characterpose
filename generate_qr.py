@@ -121,43 +121,39 @@ for row in range(N):
             draw.rectangle([cx - BRIDGE_W, mid, cx + BRIDGE_W, ncy],  fill=bot_f + (255,))
 
 
-# ── FINDER EYES: trapezoid border rings fanned like a card deck ───────────────
-# Each back layer is a TRUE quadrilateral (trapezoid): top edge same width as
-# the front frame, bottom-right corner fans out diagonally — slanted right and
-# bottom edges give the card-fan perspective illusion.
+# ── FINDER EYES: parallelogram frames stacked like fanned cards ───────────────
+# Each layer is a TRUE parallelogram (slanted square): the top edge is shifted
+# right relative to the bottom edge, so every corner is non-90°.  Back layers
+# are the same shape, just offset toward bottom-right → card-fan stack effect.
 
 def draw_stacked_eye(r0c, c0c):
     c0 = c0c * cell
     r0 = r0c * cell
     S7 = 7 * cell
-    bw = cell * 0.9   # border ring thickness ≈ 1 module
+    bw    = cell * 0.95   # border ring ≈ 1 module
+    shear = cell * 2.0    # top edge shifted right → slanted edges, no 90° corners
 
-    # Back layers drawn back-to-front.
-    # near = top-left shift (small), far = bottom-right shift (large)
-    # → right edge slants outward; bottom drops lower → true trapezoid card-fan
-    for near, far in [(cell * 0.25, cell * 1.7), (cell * 0.12, cell * 0.88)]:
-        shade = grad(c0 + S7 / 2 + far, r0 + S7 / 2 + far)
-        outer = [
-            (c0 + near,      r0 + near),       # top-left
-            (c0 + S7 + near, r0 + near),       # top-right (same width as front)
-            (c0 + S7 + far,  r0 + S7 + far),   # bottom-right (fans out)
-            (c0 + near,      r0 + S7 + far),   # bottom-left
+    def pgram(ox, oy, inset=0):
+        """Parallelogram with top offset right by `shear`; inset shrinks it."""
+        return [
+            (ox + shear + inset,       oy + inset),       # top-left
+            (ox + S7 + shear - inset,  oy + inset),       # top-right
+            (ox + S7          - inset, oy + S7 - inset),  # bottom-right
+            (ox               + inset, oy + S7 - inset),  # bottom-left
         ]
-        inner = [
-            (c0 + near + bw,      r0 + near + bw),
-            (c0 + S7 + near - bw, r0 + near + bw),
-            (c0 + S7 + far  - bw, r0 + S7 + far - bw),
-            (c0 + near + bw,      r0 + S7 + far - bw),
-        ]
-        draw.polygon(outer, fill=shade + (255,))
-        draw.polygon(inner, fill=(255, 255, 255, 255))
 
-    # ── front frame: sharp-cornered border ring + white gap + inner core ──
-    draw.rectangle([c0,     r0,     c0 + S7,     r0 + S7],     fill=COLOR_A + (255,))
-    g = cell
-    draw.rectangle([c0 + g, r0 + g, c0 + S7 - g, r0 + S7 - g], fill=(255, 255, 255, 255))
-    m = cell * 2
-    draw.rectangle([c0 + m, r0 + m, c0 + S7 - m, r0 + S7 - m], fill=COLOR_A + (255,))
+    # Back layers drawn furthest-first (so front covers them)
+    for stack_off in [cell * 1.4, cell * 0.72]:
+        ox = c0 + stack_off
+        oy = r0 + stack_off
+        shade = grad(ox + S7 / 2, oy + S7 / 2)
+        draw.polygon(pgram(ox, oy),     fill=shade + (255,))
+        draw.polygon(pgram(ox, oy, bw), fill=(255, 255, 255, 255))
+
+    # Front layer on top — border ring + white gap + inner core
+    draw.polygon(pgram(c0, r0),          fill=COLOR_A + (255,))
+    draw.polygon(pgram(c0, r0, bw),      fill=(255, 255, 255, 255))
+    draw.polygon(pgram(c0, r0, bw * 2),  fill=COLOR_A + (255,))
 
 draw_stacked_eye(QUIET,           QUIET)
 draw_stacked_eye(QUIET,           N - QUIET - 7)
