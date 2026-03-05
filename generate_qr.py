@@ -121,37 +121,43 @@ for row in range(N):
             draw.rectangle([cx - BRIDGE_W, mid, cx + BRIDGE_W, ncy],  fill=bot_f + (255,))
 
 
-# ── FINDER EYES: heavily-rounded squircle frames with dark shadow blob ────────
-# Reference shows iOS-style squircle corners (large radius) and a dark blurred
-# blob/glow surrounding each frame — not offset stacked copies.
+# ── FINDER EYES: trapezoid border rings fanned like a card deck ───────────────
+# Each back layer is a TRUE quadrilateral (trapezoid): top edge same width as
+# the front frame, bottom-right corner fans out diagonally — slanted right and
+# bottom edges give the card-fan perspective illusion.
 
 def draw_stacked_eye(r0c, c0c):
     c0 = c0c * cell
     r0 = r0c * cell
     S7 = 7 * cell
-    r  = cell * 2.0    # heavy rounding — squircle feel
+    bw = cell * 0.9   # border ring thickness ≈ 1 module
 
-    # ── dark shadow blob (blurred rounded rect on separate layer) ──
-    shadow = Image.new("RGBA", (QR_SIZE, QR_SIZE), (0, 0, 0, 0))
-    sd = ImageDraw.Draw(shadow)
-    pad = cell * 1.0
-    sd.rounded_rectangle(
-        [c0 - pad, r0 - pad, c0 + S7 + pad, r0 + S7 + pad],
-        radius=r + pad, fill=(20, 15, 50, 210))
-    shadow = shadow.filter(ImageFilter.GaussianBlur(radius=cell * 1.4))
-    img.alpha_composite(shadow)
+    # Back layers drawn back-to-front.
+    # near = top-left shift (small), far = bottom-right shift (large)
+    # → right edge slants outward; bottom drops lower → true trapezoid card-fan
+    for near, far in [(cell * 0.25, cell * 1.7), (cell * 0.12, cell * 0.88)]:
+        shade = grad(c0 + S7 / 2 + far, r0 + S7 / 2 + far)
+        outer = [
+            (c0 + near,      r0 + near),       # top-left
+            (c0 + S7 + near, r0 + near),       # top-right (same width as front)
+            (c0 + S7 + far,  r0 + S7 + far),   # bottom-right (fans out)
+            (c0 + near,      r0 + S7 + far),   # bottom-left
+        ]
+        inner = [
+            (c0 + near + bw,      r0 + near + bw),
+            (c0 + S7 + near - bw, r0 + near + bw),
+            (c0 + S7 + far  - bw, r0 + S7 + far - bw),
+            (c0 + near + bw,      r0 + S7 + far - bw),
+        ]
+        draw.polygon(outer, fill=shade + (255,))
+        draw.polygon(inner, fill=(255, 255, 255, 255))
 
-    # ── outer border ring ──
-    draw.rounded_rectangle([c0, r0, c0 + S7, r0 + S7],
-                           radius=r, fill=COLOR_A + (255,))
-    # white gap (1 module inset)
+    # ── front frame: sharp-cornered border ring + white gap + inner core ──
+    draw.rectangle([c0,     r0,     c0 + S7,     r0 + S7],     fill=COLOR_A + (255,))
     g = cell
-    draw.rounded_rectangle([c0 + g, r0 + g, c0 + S7 - g, r0 + S7 - g],
-                           radius=max(r - g, 0), fill=(255, 255, 255, 255))
-    # inner solid core (2 modules inset)
+    draw.rectangle([c0 + g, r0 + g, c0 + S7 - g, r0 + S7 - g], fill=(255, 255, 255, 255))
     m = cell * 2
-    draw.rounded_rectangle([c0 + m, r0 + m, c0 + S7 - m, r0 + S7 - m],
-                           radius=max(r - m, 0), fill=COLOR_A + (255,))
+    draw.rectangle([c0 + m, r0 + m, c0 + S7 - m, r0 + S7 - m], fill=COLOR_A + (255,))
 
 draw_stacked_eye(QUIET,           QUIET)
 draw_stacked_eye(QUIET,           N - QUIET - 7)
