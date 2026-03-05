@@ -122,41 +122,33 @@ for row in range(N):
 
 
 # ── STACKED 3-D FINDER EYES ───────────────────────────────────────────────────
-# Three concentric frames drawn back-to-front with increasing offsets,
-# simulating physical layers stacked toward the viewer.
+# Sharp-cornered square border frames stacked like paper layers.
+# Shadow copies offset toward bottom-right peek out behind the front frame.
 
 def draw_stacked_eye(r0c, c0c):
-    c0  = c0c * cell
-    r0  = r0c * cell
-    S7  = 7 * cell
-    # corner radius — very large → trapezoidal-looking border segments
-    outer_r = S7 * 0.40
+    c0 = c0c * cell
+    r0 = r0c * cell
+    S7 = 7 * cell
+    bw = cell * 0.85   # border ring thickness
 
-    # ── back layers (offset down-right, progressively darker purple) ──
-    for i, (off, alpha) in enumerate([(cell*0.55, 120), (cell*0.30, 170)]):
-        shade = tuple(max(0, COLOR_A[j] - 35*(2-i)) for j in range(3))
-        # outer ring only (not filled — just the border rectangle)
-        draw.rounded_rectangle(
-            [c0+off, r0+off, c0+S7+off, r0+S7+off],
-            radius=outer_r * 0.95, fill=shade + (alpha,))
-        # white cutout for ring effect
-        g = cell * 1.05
-        draw.rounded_rectangle(
-            [c0+off+g, r0+off+g, c0+S7+off-g, r0+S7+off-g],
-            radius=outer_r * 0.55, fill=(255,255,255, alpha))
+    # ── shadow layers drawn back-to-front so front layer occludes top-left ──
+    for off, alpha in [(cell * 0.55, 100), (cell * 0.28, 160)]:
+        shade = grad(c0 + S7 / 2 + off, r0 + S7 / 2 + off)
+        # filled rect then hollow = border ring, sharp corners
+        draw.rectangle([c0+off, r0+off, c0+S7+off, r0+S7+off],
+                       fill=shade + (alpha,))
+        draw.rectangle([c0+off+bw, r0+off+bw, c0+S7+off-bw, r0+S7+off-bw],
+                       fill=(255, 255, 255, alpha))
 
-    # ── front (main) layer ────────────────────────────────────────────────────
-    # outer filled shield
-    draw.rounded_rectangle([c0, r0, c0+S7, r0+S7],
-                           radius=outer_r, fill=COLOR_A + (255,))
+    # ── front (main) layer — sharp corners ──────────────────────────────────
+    # outer border ring
+    draw.rectangle([c0, r0, c0+S7, r0+S7], fill=COLOR_A + (255,))
     # white gap
     g = cell
-    draw.rounded_rectangle([c0+g, r0+g, c0+S7-g, r0+S7-g],
-                           radius=outer_r * 0.48, fill=(255,255,255,255))
+    draw.rectangle([c0+g, r0+g, c0+S7-g, r0+S7-g], fill=(255, 255, 255, 255))
     # inner solid core
     m = cell * 2
-    draw.rounded_rectangle([c0+m, r0+m, c0+S7-m, r0+S7-m],
-                           radius=outer_r * 0.42, fill=COLOR_A + (255,))
+    draw.rectangle([c0+m, r0+m, c0+S7-m, r0+S7-m], fill=COLOR_A + (255,))
 
 draw_stacked_eye(QUIET,           QUIET)
 draw_stacked_eye(QUIET,           N - QUIET - 7)
