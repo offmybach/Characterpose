@@ -126,38 +126,61 @@ for row in range(N):
 # right relative to the bottom edge, so every corner is non-90°.  Back layers
 # are the same shape, just offset toward bottom-right → card-fan stack effect.
 
-def draw_stacked_eye(r0c, c0c):
+# fdx / fdy: outward fan direction for each eye (-1 = toward edge, +1 = toward centre)
+# Fanning INTO the quiet zone (away from data/format-info modules) keeps the QR scannable.
+def draw_stacked_eye(r0c, c0c, fdx, fdy):
     c0 = c0c * cell
     r0 = r0c * cell
     S7 = 7 * cell
-    bw    = cell * 0.95   # border ring ≈ 1 module
-    shear = cell * 2.0    # top edge shifted right → slanted edges, no 90° corners
+    bw    = cell * 1.0   # border ring = exactly 1 module (critical for scanner)
+    # Shear direction follows the fan so the parallelogram "points" outward
+    shear_x = cell * 1.4 * fdx
+    shear_y = cell * 1.4 * fdy
 
     def pgram(ox, oy, inset=0):
-        """Parallelogram with top offset right by `shear`; inset shrinks it."""
-        return [
-            (ox + shear + inset,       oy + inset),       # top-left
-            (ox + S7 + shear - inset,  oy + inset),       # top-right
-            (ox + S7          - inset, oy + S7 - inset),  # bottom-right
-            (ox               + inset, oy + S7 - inset),  # bottom-left
-        ]
+        """Parallelogram: corners shifted by (shear_x, shear_y) on the outer-corner side."""
+        ix = inset * (-fdx)   # inset sign depends on fan direction
+        iy = inset * (-fdy)
+        # Two corners pushed outward (the "back" of the card), two stay on front frame side
+        if fdx < 0 and fdy < 0:   # top-left eye: outer corner is top-left
+            return [
+                (ox + shear_x + inset, oy + shear_y + inset),  # outer top-left
+                (ox + S7      - inset, oy + shear_y + inset),  # outer top-right
+                (ox + S7      - inset, oy + S7      - inset),  # inner bottom-right
+                (ox +  inset,          oy + S7      - inset),  # inner bottom-left
+            ]
+        elif fdx > 0 and fdy < 0:  # top-right eye: outer corner is top-right
+            return [
+                (ox           + inset, oy + shear_y + inset),
+                (ox + S7 + shear_x - inset, oy + shear_y + inset),
+                (ox + S7 + shear_x - inset, oy + S7    - inset),
+                (ox           + inset, oy + S7    - inset),
+            ]
+        else:                       # bottom-left eye: outer corner is bottom-left
+            return [
+                (ox + inset,           oy           + inset),
+                (ox + S7 - inset,      oy           + inset),
+                (ox + S7 - inset,      oy + S7 + shear_y - inset),
+                (ox + shear_x + inset, oy + S7 + shear_y - inset),
+            ]
 
-    # Back layers drawn furthest-first (so front covers them)
-    for stack_off in [cell * 1.4, cell * 0.72]:
-        ox = c0 + stack_off
-        oy = r0 + stack_off
+    # Back layers fanned into the quiet zone (safe — no data modules there)
+    for stack_off in [cell * 1.1, cell * 0.55]:
+        ox = c0 + fdx * stack_off
+        oy = r0 + fdy * stack_off
         shade = grad(ox + S7 / 2, oy + S7 / 2)
         draw.polygon(pgram(ox, oy),     fill=shade + (255,))
         draw.polygon(pgram(ox, oy, bw), fill=(255, 255, 255, 255))
 
-    # Front layer on top — border ring + white gap + inner core
-    draw.polygon(pgram(c0, r0),          fill=COLOR_A + (255,))
-    draw.polygon(pgram(c0, r0, bw),      fill=(255, 255, 255, 255))
-    draw.polygon(pgram(c0, r0, bw * 2),  fill=COLOR_A + (255,))
+    # Front layer: exact RECTANGLE over the 7×7 finder — scanners depend on this
+    draw.rectangle([c0,        r0,        c0 + S7,        r0 + S7],        fill=COLOR_A + (255,))
+    draw.rectangle([c0 + bw,   r0 + bw,   c0 + S7 - bw,   r0 + S7 - bw],   fill=(255, 255, 255, 255))
+    draw.rectangle([c0 + bw*2, r0 + bw*2, c0 + S7 - bw*2, r0 + S7 - bw*2], fill=COLOR_A + (255,))
 
-draw_stacked_eye(QUIET,           QUIET)
-draw_stacked_eye(QUIET,           N - QUIET - 7)
-draw_stacked_eye(N - QUIET - 7,   QUIET)
+# Each eye fans outward into its quiet-zone corner
+draw_stacked_eye(QUIET,         QUIET,       -1, -1)   # top-left  → fans up-left
+draw_stacked_eye(QUIET,         N-QUIET-7,   +1, -1)   # top-right → fans up-right
+draw_stacked_eye(N-QUIET-7,     QUIET,       -1, +1)   # bot-left  → fans down-left
 
 
 # ── CENTRE LOGO: MAGNIFIC-UPSCALED 3-D PIGGY BANK ────────────────────────────
