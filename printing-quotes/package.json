@@ -1,0 +1,13 @@
+{
+  "name": "printing-quotes",
+  "version": "1.0.0",
+  "description": "Automated printing quote collector for children's book vendors",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "install-browsers": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}

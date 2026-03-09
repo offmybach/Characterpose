@@ -1,0 +1,4 @@
+node_modules/
+vendor_screenshots/*.png
+quotes.csv
+quotes_summary.md

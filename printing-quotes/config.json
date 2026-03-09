@@ -1,0 +1,58 @@
+{
+  "book_specs": {
+    "product": "children's book",
+    "trim_size": "11x8.5",
+    "trim_size_width": 11,
+    "trim_size_height": 8.5,
+    "orientation": "landscape",
+    "binding": "hardcover",
+    "page_count": 36,
+    "interior_color": "full color",
+    "interior_stock": "100# gloss text",
+    "interior_finish": "gloss",
+    "cover_type": "hardcover",
+    "cover_finish": "standard"
+  },
+  "quantities": [250, 500],
+  "shipping": {
+    "zip_code": "19971",
+    "country": "US"
+  },
+  "vendors": [
+    {
+      "name": "OnPress",
+      "enabled": true,
+      "url": "https://www.onpressprint.com"
+    },
+    {
+      "name": "48 Hour Books",
+      "enabled": true,
+      "url": "https://www.48hrbooks.com"
+    },
+    {
+      "name": "Mixam",
+      "enabled": true,
+      "url": "https://mixam.com"
+    },
+    {
+      "name": "BookBaby",
+      "enabled": true,
+      "url": "https://www.bookbaby.com"
+    },
+    {
+      "name": "Books.by",
+      "enabled": true,
+      "url": "https://books.by"
+    }
+  ],
+  "output": {
+    "csv_path": "quotes.csv",
+    "markdown_path": "quotes_summary.md",
+    "screenshot_dir": "vendor_screenshots"
+  },
+  "browser": {
+    "headless": true,
+    "timeout_ms": 30000,
+    "screenshot_on_failure": true
+  }
+}
