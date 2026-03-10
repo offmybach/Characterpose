@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clarence Gets a Bargain</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #FAF3E0;
+      color: #1a1a2e;
+    }
+
+    /* ============================================
+       1. BRAND HEADER
+       Gradient flipped: purple at top, green middle, orange bottom
+    ============================================ */
+    .brand-header {
+      position: relative;
+      background: linear-gradient(to bottom, #6B2D8B, #2E7D32, #F57C00);
+      padding: 40px 20px 60px;
+      text-align: center;
+      overflow: visible;
+    }
+
+    .title-block {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      background: #F57C00;
+      border-radius: 20px;
+      padding: 20px 30px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    .title-pill {
+      background: #fff;
+      border-radius: 12px;
+      padding: 10px 40px;
+      border: 3px solid #E65100;
+    }
+
+    .title-pill h1,
+    .title-pill h2 {
+      font-family: 'Fredoka One', cursive;
+      color: #1a1a1a;
+      letter-spacing: 1px;
+    }
+
+    .title-pill h1 {
+      font-size: clamp(2rem, 5vw, 3.5rem);
+    }
+
+    .title-pill h2 {
+      font-size: clamp(1.5rem, 4vw, 2.8rem);
+    }
+
+    /* "LOOK INSIDE!" Clearance Sticker */
+    .look-inside-sticker {
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      background: #FF6D00;
+      color: #fff;
+      font-family: 'Fredoka One', cursive;
+      font-size: clamp(0.9rem, 2vw, 1.3rem);
+      padding: 18px 22px;
+      border-radius: 50%;
+      transform: rotate(15deg);
+      box-shadow: 0 4px 16px rgba(255, 109, 0, 0.5);
+      cursor: pointer;
+      text-align: center;
+      line-height: 1.2;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+      z-index: 10;
+      border: 3px dashed #FFE082;
+      width: clamp(90px, 12vw, 130px);
+      height: clamp(90px, 12vw, 130px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .look-inside-sticker:hover {
+      transform: rotate(5deg) scale(1.1);
+      box-shadow: 0 6px 24px rgba(255, 109, 0, 0.7);
+    }
+
+    /* ============================================
+       2. HERO SECTION
+    ============================================ */
+    .hero-section {
+      background: #FAF3E0;
+      text-align: center;
+      padding: 40px 20px 20px;
+      position: relative;
+    }
+
+    .hero-section .hero-image-placeholder {
+      width: 220px;
+      height: 280px;
+      margin: 0 auto 20px;
+      background: #e8dcc8;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Fredoka One', cursive;
+      color: #8d7b5e;
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 20px;
+      border: 3px dashed #c4b594;
+    }
+
+    .hero-tagline {
+      font-family: 'Fredoka One', cursive;
+      font-size: clamp(1.2rem, 3vw, 1.8rem);
+      color: #1a3a5c;
+      margin-top: 10px;
+    }
+
+    .hero-subtitle {
+      font-size: 1rem;
+      color: #555;
+      margin-top: 8px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ============================================
+       3. COUPON NAVIGATION MENU
+       3-column grid of "cuttable" coupons
+    ============================================ */
+    .coupon-nav {
+      background: #FAF3E0;
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .coupon-nav-title {
+      text-align: center;
+      font-family: 'Fredoka One', cursive;
+      font-size: clamp(1.3rem, 3vw, 2rem);
+      color: #1a3a5c;
+      margin-bottom: 30px;
+    }
+
+    .coupon-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .coupon-card {
+      position: relative;
+      background: #fff;
+      border: 3px dashed #1a3a5c;
+      border-radius: 12px;
+      padding: 28px 24px 24px;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .coupon-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(26, 58, 92, 0.15);
+    }
+
+    .coupon-scissor {
+      position: absolute;
+      top: -2px;
+      right: 12px;
+      font-size: 1.6rem;
+      color: #7a8a9a;
+      transform: rotate(-45deg);
+    }
+
+    .coupon-card h3 {
+      font-family: 'Fredoka One', cursive;
+      font-size: 1.1rem;
+      color: #1a3a5c;
+      margin-bottom: 10px;
+    }
+
+    .coupon-card p {
+      font-size: 0.95rem;
+      color: #3a3a3a;
+      line-height: 1.5;
+    }
+
+    /* ============================================
+       4. PSYCHOLOGICAL ASSET MAPPING SECTIONS
+    ============================================ */
+    .asset-section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .asset-section:nth-child(even) {
+      background: #f5edd8;
+    }
+
+    .asset-row {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .asset-row.reverse {
+      flex-direction: row-reverse;
+    }
+
+    .asset-image-placeholder {
+      width: 260px;
+      height: 260px;
+      background: #e8dcc8;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Fredoka One', cursive;
+      color: #8d7b5e;
+      font-size: 0.85rem;
+      text-align: center;
+      padding: 20px;
+      border: 3px dashed #c4b594;
+      flex-shrink: 0;
+    }
+
+    .asset-text {
+      flex: 1;
+      min-width: 260px;
+    }
+
+    .asset-text h3 {
+      font-family: 'Fredoka One', cursive;
+      font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+      color: #1a3a5c;
+      margin-bottom: 12px;
+    }
+
+    .asset-text p {
+      font-size: 1rem;
+      color: #3a3a3a;
+      line-height: 1.7;
+    }
+
+    /* ============================================
+       SUCCESS STATE / BUY NOW SECTION
+    ============================================ */
+    .buy-section {
+      background: linear-gradient(135deg, #F57C00 0%, #FF9800 100%);
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .buy-section .success-image-placeholder {
+      width: 180px;
+      height: 220px;
+      margin: 0 auto 20px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Fredoka One', cursive;
+      color: #fff;
+      font-size: 0.85rem;
+      text-align: center;
+      padding: 20px;
+      border: 3px dashed rgba(255, 255, 255, 0.4);
+    }
+
+    .buy-section h2 {
+      font-family: 'Fredoka One', cursive;
+      font-size: clamp(1.5rem, 4vw, 2.5rem);
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .buy-section p {
+      color: #fff;
+      font-size: 1.1rem;
+      margin-bottom: 24px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      background: #1a3a5c;
+      color: #fff;
+      font-family: 'Fredoka One', cursive;
+      font-size: 1.3rem;
+      padding: 16px 48px;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.2s;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .buy-btn:hover {
+      background: #0d2a44;
+      transform: scale(1.05);
+    }
+
+    /* ============================================
+       FOOTER / AUTHORITY SECTION
+    ============================================ */
+    .authority-footer {
+      background: #1a3a5c;
+      color: #dce6f0;
+      padding: 50px 20px;
+      max-width: 100%;
+    }
+
+    .footer-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: center;
+    }
+
+    .footer-image-placeholder {
+      width: 200px;
+      height: 200px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Fredoka One', cursive;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.8rem;
+      text-align: center;
+      padding: 20px;
+      border: 3px dashed rgba(255, 255, 255, 0.2);
+      flex-shrink: 0;
+    }
+
+    .footer-text {
+      flex: 1;
+      min-width: 260px;
+    }
+
+    .footer-text h3 {
+      font-family: 'Fredoka One', cursive;
+      font-size: 1.4rem;
+      color: #FFB74D;
+      margin-bottom: 12px;
+    }
+
+    .footer-text p {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+
+    .footer-text h4 {
+      font-family: 'Fredoka One', cursive;
+      font-size: 1.1rem;
+      color: #FFB74D;
+      margin-bottom: 8px;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    /* ============================================
+       RESPONSIVE
+    ============================================ */
+    @media (max-width: 600px) {
+      .title-block {
+        padding: 14px 18px;
+      }
+      .title-pill {
+        padding: 8px 24px;
+      }
+      .look-inside-sticker {
+        width: 80px;
+        height: 80px;
+        font-size: 0.75rem;
+        top: 10px;
+        right: 10px;
+        padding: 12px;
+      }
+      .coupon-grid {
+        grid-template-columns: 1fr;
+      }
+      .asset-row, .asset-row.reverse {
+        flex-direction: column;
+        text-align: center;
+      }
+      .footer-inner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==========================================
+       1. BRAND HEADER
+       Gradient: Purple (top) -> Green -> Orange (bottom)
+  ========================================== -->
+  <header class="brand-header">
+    <a href="#flipbook" class="look-inside-sticker">LOOK INSIDE!</a>
+
+    <div class="title-block">
+      <div class="title-pill">
+        <h1>Clarence</h1>
+      </div>
+      <div class="title-pill">
+        <h2>Gets a Bargain</h2>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       2. HERO SECTION
+  ========================================== -->
+  <section class="hero-section">
+    <div class="hero-image-placeholder">
+      Clarence holding "?" robot<br>(Place character image here)
+    </div>
+    <h2 class="hero-tagline">A Playful Introduction to Real-World Money Skills</h2>
+    <p class="hero-subtitle">Cloaked in a fun story about a young boy and his quest to purchase a robot</p>
+  </section>
+
+  <!-- ==========================================
+       3. COUPON NAVIGATION MENU
+  ========================================== -->
+  <nav class="coupon-nav">
+    <h2 class="coupon-nav-title">Clip Your Savings</h2>
+    <div class="coupon-grid">
+
+      <div class="coupon-card" role="link" tabindex="0">
+        <span class="coupon-scissor">&#9986;</span>
+        <h3>BOGO: Buy the Story, Get the Lessons FREE!</h3>
+        <p>About the Adventure</p>
+      </div>
+
+      <div class="coupon-card" role="link" tabindex="0">
+        <span class="coupon-scissor">&#9986;</span>
+        <h3>100% OFF Boring Textbooks!</h3>
+        <p>The 2-Page Financial Glossary</p>
+      </div>
+
+      <div class="coupon-card" role="link" tabindex="0">
+        <span class="coupon-scissor">&#9986;</span>
+        <h3>5-STAR VALUE!</h3>
+        <p>Read Parent &amp; Teacher Reviews</p>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- ==========================================
+       4. PSYCHOLOGICAL ASSET MAPPING
+  ========================================== -->
+
+  <!-- Section A: The Concept - "Shopping Homework" -->
+  <section class="asset-section">
+    <div class="asset-row">
+      <div class="asset-image-placeholder">
+        Clarence with pile of ads<br>(Page 6 asset)
+      </div>
+      <div class="asset-text">
+        <h3>Shopping Homework? Yes, Really.</h3>
+        <p>Clarence learns that the best deals don't just fall in your lap. Through hands-on "shopping homework," he discovers how to compare prices, read ads, and find the real value behind every price tag. Your kids will too.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section B: The Proof - "Comparison Shopping" -->
+  <section class="asset-section" style="background: #f5edd8;">
+    <div class="asset-row reverse">
+      <div class="asset-image-placeholder">
+        Side-by-side robots<br>(Page 22 asset)
+      </div>
+      <div class="asset-text">
+        <h3>Comparison Shopping in Action</h3>
+        <p>Two robots. Two prices. One smart choice. Clarence proves that looking before you leap saves real money. This side-by-side lesson is one kids remember long after the story ends.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       BUY NOW / SUCCESS STATE
+  ========================================== -->
+  <section class="buy-section" id="buy">
+    <div class="success-image-placeholder">
+      Pump-fist Clarence<br>(Page 28 asset)
+    </div>
+    <h2>Clarence Did It. Your Kids Can Too.</h2>
+    <p>A book focusing on kid's financial literacy and education.</p>
+    <a href="#" class="buy-btn">Buy Now</a>
+  </section>
+
+  <!-- ==========================================
+       FOOTER / AUTHORITY SECTION C
+  ========================================== -->
+  <footer class="authority-footer">
+    <div class="footer-inner">
+      <div class="footer-image-placeholder">
+        Dad at the desk<br>(Page 26 asset)
+      </div>
+      <div class="footer-text">
+        <h3>A Note to Educators</h3>
+        <p>Clarence Gets a Bargain was designed to make financial literacy accessible and fun for young learners. Each chapter introduces a core money concept through story-driven scenarios that kids naturally engage with. Use it in classrooms, at home, or anywhere curiosity meets a price tag.</p>
+
+        <h4>About the Author</h4>
+        <p>Born from a passion for giving kids a head start on real-world money skills, this book bridges the gap between play and education. Because every kid deserves to know the value of a dollar before they spend one.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Clarence Gets a Bargain. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
