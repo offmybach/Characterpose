@@ -25,7 +25,7 @@
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--purple:#4a1a6b;--dpurple:#2d0f42;--orange:#ff6b2b;--gold:#ffd700;--cream:#FAF3E0;--blue:#0054a6;--seablue:#1a3a5c;--ltblue:#4fc3f7;--red:#d32f2f;--green:#2e7d32;--darkbg:#0f0520;--lavender:#c8a2e0;--ltlav:#d8bce8}
 html{scroll-behavior:smooth}
-body{font-family:'Nunito',sans-serif;background:#FAF3E0;color:#1a1a2e;overflow-x:hidden}
+body{font-family:'Nunito',sans-serif;background:linear-gradient(180deg,#b3d4e8 0%,#d4e8f5 30%,#eaf3f9 60%,#f7fafe 85%,#fcfdfe 100%);color:#1a1a2e;overflow-x:hidden;min-height:100vh}
 .particles{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:hidden}
 .particle{position:absolute;opacity:0;animation:floatUp linear infinite}
 @keyframes floatUp{0%{transform:translateY(110vh) rotate(0);opacity:0}10%{opacity:.5}90%{opacity:.5}100%{transform:translateY(-10vh) rotate(360deg);opacity:0}}
@@ -64,7 +64,7 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 .hero>*{position:relative;z-index:1}
 .hero-badge{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);border-radius:30px;padding:8px 24px;font-size:.85rem;color:#fff;font-weight:700;margin-bottom:24px;letter-spacing:2px;text-transform:uppercase;animation:fadeIn .8s ease-out both}
 @keyframes fadeIn{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
-.hero h1{font-family:'Fredoka One',cursive;font-size:clamp(2.8rem,7vw,4.8rem);color:#fff;line-height:1.1;margin-bottom:12px;animation:fadeIn .8s ease-out .15s both}
+.hero h1{font-family:'Fredoka One',cursive;font-size:clamp(2.8rem,7vw,4.8rem);color:#1a3a5c;line-height:1.1;margin-bottom:12px;animation:fadeIn .8s ease-out .15s both}
 .hero h1 .gold{color:var(--gold)}
 .hero .masthead{font-family:'Fredoka One',cursive;font-size:clamp(1.2rem,3vw,1.8rem);color:#FFE082;margin-bottom:16px;animation:fadeIn .8s ease-out .3s both}
 @keyframes shimmer{to{background-position:200% center}}
@@ -130,7 +130,7 @@ footer p{color:rgba(255,255,255,.25);font-size:.8rem}
 .look-inside-sticker:hover{transform:rotate(5deg) scale(1.1);box-shadow:0 6px 24px rgba(255,109,0,.7)}
 
 /* === COUPON NAVIGATION MENU === */
-.coupon-nav{background:#FAF3E0;padding:40px 20px;max-width:1000px;margin:0 auto}
+.coupon-nav{background:rgba(255,255,255,0.7);backdrop-filter:blur(8px);border-radius:16px;border:1px solid rgba(26,58,92,0.1);padding:40px 20px;max-width:1000px;margin:0 auto}
 .coupon-nav-title{text-align:center;font-family:'Fredoka One',cursive;font-size:clamp(1.3rem,3vw,2rem);color:#1a3a5c;margin-bottom:30px}
 .coupon-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
 .coupon-card{position:relative;background:#fff;border:3px dashed #1a3a5c;border-radius:12px;padding:28px 24px 24px;text-align:center;cursor:pointer;transition:transform .2s,box-shadow .2s}
@@ -141,7 +141,7 @@ footer p{color:rgba(255,255,255,.25);font-size:.8rem}
 
 /* === ASSET MAPPING SECTIONS === */
 .asset-section{padding:50px 20px;max-width:900px;margin:0 auto}
-.asset-section-alt{background:#f5edd8;padding:50px 0}
+.asset-section-alt{background:rgba(255,255,255,0.4);padding:50px 0}
 .asset-row{display:flex;align-items:center;gap:30px;flex-wrap:wrap;justify-content:center;max-width:900px;margin:0 auto}
 .asset-row.reverse{flex-direction:row-reverse}
 .asset-image-placeholder{width:260px;height:260px;background:#e8dcc8;border-radius:16px;display:flex;align-items:center;justify-content:center;font-family:'Fredoka One',cursive;color:#8d7b5e;font-size:.85rem;text-align:center;padding:20px;border:3px dashed #c4b594;flex-shrink:0}
@@ -173,7 +173,7 @@ footer p{color:rgba(255,255,255,.25);font-size:.8rem}
 .footer-bottom{text-align:center;margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,255,255,.15);font-size:.85rem;color:rgba(255,255,255,.5)}
 
 /* === MAGAZINE SECTION on cream bg === */
-.mag-section{background:linear-gradient(180deg,#FAF3E0 0%,#f0e6cc 50%,#FAF3E0 100%);padding:30px 10px 20px;text-align:center;position:relative}
+.mag-section{background:transparent;padding:30px 10px 20px;text-align:center;position:relative}
 .mag-section h2{font-family:'Fredoka One',cursive;color:#1a3a5c;font-size:clamp(1.6rem,4vw,2.4rem);margin-bottom:8px}
 .mag-section .hint{color:#888;margin-bottom:30px;font-size:.85rem;letter-spacing:1px}
 .mag-btn{padding:10px 24px;background:rgba(26,58,92,.08);border:1px solid #1a3a5c;color:#1a3a5c;border-radius:25px;font-family:'Fredoka One',cursive;font-size:.85rem;cursor:pointer;transition:.3s;letter-spacing:1px}
@@ -218,14 +218,15 @@ footer p{color:rgba(255,255,255,.25);font-size:.8rem}
   </div>
   <div class="hero-badge" style="margin-top:20px">Ages 5&ndash;9 &bull; 1st&ndash;5th Grade &bull; Edutainment at Its Finest</div>
   <div class="masthead">A Playful Introduction to Real-World Money Skills</div>
-  <div class="subtitle" style="color:#fff">Cloaked in a fun story about a young boy and his quest to purchase a robot</div>
+  <div class="subtitle" style="color:#1a3a5c">Cloaked in a fun story about a young boy and his quest to purchase a robot</div>
   <div class="author">Written &amp; Illustrated by Jonathan Bach</div>
   <div class="hero-cta"><a href="#buy">Invest in Your Kid&rsquo;s Future &mdash; $14.99</a></div>
 </section>
 
 <div class="banner"><div class="banner-track"><span>KID LIT IS A HIT! &bull; KID FIN IS A WIN! &bull;</span><span>EDUTAINMENT AT ITS FINEST &bull; STORY FIRST. MONEY SMARTS SNEAK IN. &bull;</span><span>KID LIT IS A HIT! &bull; KID FIN IS A WIN! &bull;</span><span>EDUTAINMENT AT ITS FINEST &bull; STORY FIRST. MONEY SMARTS SNEAK IN. &bull;</span><span>KID LIT IS A HIT! &bull; KID FIN IS A WIN! &bull;</span><span>EDUTAINMENT AT ITS FINEST &bull; STORY FIRST. MONEY SMARTS SNEAK IN. &bull;</span></div></div>
 
-<nav class="coupon-nav" id="coupons">
+<nav class="coupon-nav" id="coupons" style="position:relative">
+  <button onclick="this.parentElement.style.display='none'" style="position:absolute;top:12px;right:16px;background:none;border:2px solid #1a3a5c;border-radius:50%;width:32px;height:32px;font-size:1.2rem;color:#1a3a5c;cursor:pointer;display:flex;align-items:center;justify-content:center;font-weight:bold;transition:.2s" onmouseover="this.style.background='#1a3a5c';this.style.color='#fff'" onmouseout="this.style.background='none';this.style.color='#1a3a5c'">&times;</button>
   <h2 class="coupon-nav-title reveal">Clip Your Savings</h2>
   <div class="coupon-grid">
     <div class="coupon-card reveal" onclick="document.getElementById('magazine').scrollIntoView({behavior:'smooth'})">
@@ -749,27 +750,21 @@ var PW = 1.5, PH = 2.1, SX = 24, SY = 14;
 function makePageGeo(side) {
   var geo = new THREE.PlaneGeometry(PW, PH, SX, SY);
   var pos = geo.attributes.position;
-
   for (var i = 0; i < pos.count; i++) {
-    var x = pos.getX(i);
-    var y = pos.getY(i);
-
+    var x = pos.getX(i), y = pos.getY(i);
     if (side === 'right') x += PW / 2;
     else x -= PW / 2;
-
     // t = 0 at spine, 1 at outer edge
     var t = Math.abs(x) / PW;
-
-    // Spine lift with exponential decay to flat plateau
-    // Peak at t≈0.2, then slopes down, levels off by t≈0.6
-    var z = t > 0 ? (0.7 * t * Math.exp(-5.0 * t) + 0.015) : 0;
-
-    // Subtle bottom Y droop
-    var btm = Math.max(0, -(y / (PH / 2)));
-    var yDroop = -t * t * 0.025 * btm * btm;
-
+    // Realistic magazine curl: gentle inward fold at spine, slight outward curve at edges
+    // Like a real magazine lying open - pages curve up from the center crease
+    var spineRise = 0.08 * Math.pow(1 - t, 3);  // gentle lift near spine
+    var edgeCurl = 0.025 * Math.pow(t, 2);        // subtle outward curl at edges
+    var z = spineRise + edgeCurl;
+    // Center crease dip (the fold)
+    if (t < 0.05) z = 0.01 * t / 0.05;
     pos.setX(i, x);
-    pos.setY(i, y + yDroop);
+    pos.setY(i, y);
     pos.setZ(i, z);
   }
   geo.computeVertexNormals();
@@ -781,12 +776,12 @@ var bookGroup = new THREE.Group();
 bookGroup.rotation.x = -0.25; // Tilted to show mustache curve
 scene.add(bookGroup);
 
-// Spine — thin bar at x=0
+// Spine — thin crease line at center fold (no bulky box)
 var spineMesh = new THREE.Mesh(
-  new THREE.BoxGeometry(0.03, PH * 0.99, 0.04),
-  new THREE.MeshStandardMaterial({color: 0x5a4a3a, roughness: 0.85})
+  new THREE.BoxGeometry(0.005, PH * 0.98, 0.002),
+  new THREE.MeshStandardMaterial({color: 0x888888, roughness: 0.9, transparent: true, opacity: 0.4})
 );
-spineMesh.castShadow = true;
+spineMesh.position.z = 0.01;
 spineMesh.visible = false;
 bookGroup.add(spineMesh);
 
@@ -812,11 +807,12 @@ var turnMatFront = new THREE.MeshStandardMaterial({side: THREE.FrontSide, roughn
 var turnMatBack = new THREE.MeshStandardMaterial({side: THREE.BackSide, roughness: 0.6});
 // Need two meshes sharing same geometry for front/back
 var turnFront = new THREE.Mesh(turnGeo, turnMatFront);
-var turnBack = new THREE.Mesh(turnGeo.clone(), turnMatBack);
+var turnBackGeo = turnGeo.clone();
 // Flip the back mesh UVs horizontally so text reads correctly
-var backUV = turnBack.geometry.attributes.uv;
+var backUV = turnBackGeo.attributes.uv;
 for (var i = 0; i < backUV.count; i++) backUV.setX(i, 1 - backUV.getX(i));
-turnBack.geometry.attributes.uv.needsUpdate = true;
+backUV.needsUpdate = true;
+var turnBack = new THREE.Mesh(turnBackGeo, turnMatBack);
 
 var turnPivot = new THREE.Group();
 turnPivot.add(turnFront);
@@ -1025,17 +1021,43 @@ function flipForward() {
   turnPivot.visible = true;
   turnPivot.rotation.y = 0;
 
-  var t0 = performance.now(), dur = 650;
+  var t0 = performance.now(), dur = 800;
   (function a(now){
     var p = Math.min(1, (now-t0)/dur);
     var e = p < 0.5 ? 2*p*p : 1 - Math.pow(-2*p+2,2)/2;
     turnPivot.rotation.y = -Math.PI * e;
+    // Curl effect: deform Z during flip for realistic page bend
+    var curlAmt = Math.sin(p * Math.PI) * 0.15;
+    var tpos = turnGeo.attributes.position;
+    var bpos = turnBackGeo.attributes.position;
+    var origPos = turnGeo.userData.origPos;
+    if (!origPos) { origPos = tpos.array.slice(); turnGeo.userData.origPos = origPos; }
+    var origBPos = turnBackGeo.userData.origPos;
+    if (!origBPos) { origBPos = bpos.array.slice(); turnBackGeo.userData.origPos = origBPos; }
+    for (var vi = 0; vi < tpos.count; vi++) {
+      var ox = origPos[vi*3], oz = origPos[vi*3+2];
+      var t = Math.abs(ox) / PW;
+      var nz = oz + curlAmt * Math.sin(t * Math.PI);
+      tpos.setZ(vi, nz);
+      bpos.setZ(vi, origBPos[vi*3+2] + curlAmt * Math.sin(t * Math.PI));
+    }
+    tpos.needsUpdate = true; bpos.needsUpdate = true;
+    turnGeo.computeVertexNormals(); turnBackGeo.computeVertexNormals();
 
     if(p < 1) {
       requestAnimationFrame(a);
     } else {
       turnPivot.visible = false;
       turnPivot.rotation.y = 0;
+      // Reset curl deformation
+      if (origPos) {
+        for (var vi = 0; vi < tpos.count; vi++) {
+          tpos.setZ(vi, origPos[vi*3+2]);
+          bpos.setZ(vi, origBPos[vi*3+2]);
+        }
+        tpos.needsUpdate = true; bpos.needsUpdate = true;
+        turnGeo.computeVertexNormals(); turnBackGeo.computeVertexNormals();
+      }
       setSpread(nextSpread);
       rightMesh.visible = true;
       animating = false;
@@ -1055,16 +1077,16 @@ function flipBackward() {
   var isLastSpread = currentSpread >= totalSpreads - 1;
 
   if (isLastSpread) {
-    // Last spread: only rightMesh is visible (back cover). 
-    // Animate it flipping off to the left (same direction as flipForward).
-    var frontTex = pages[currentSpread * 2 + 1]; // back cover page
-    var backTex = pages[prevSpread * 2 + 1];     // prev spread's right page
+    // Last spread: only rightMesh is visible (back cover).
+    // Flip it away to reveal previous spread beneath.
+    var frontTex = rightMat.map; // current back cover showing
+    var backTex = pages[prevSpread * 2 + 1]; // prev spread's right page
     turnMatFront.map = frontTex; turnMatFront.needsUpdate = true;
     turnMatBack.map = backTex;  turnMatBack.needsUpdate = true;
     rightMesh.visible = false; // hide back cover — turn pivot takes over
     turnPivot.visible = true;
     turnPivot.rotation.y = 0;  // start covering right side (showing back cover)
-    var t0 = performance.now(), dur = 650;
+    var t0 = performance.now(), dur = 800;
     (function a(now){
       var p = Math.min(1, (now-t0)/dur);
       var e = p < 0.5 ? 2*p*p : 1 - Math.pow(-2*p+2,2)/2;
@@ -1075,7 +1097,9 @@ function flipBackward() {
         turnPivot.visible = false;
         turnPivot.rotation.y = 0;
         setSpread(prevSpread);
+        leftMesh.visible = true;
         rightMesh.visible = true;
+        spineMesh.visible = true;
         animating = false;
         updateUI();
       }
@@ -1093,7 +1117,7 @@ function flipBackward() {
   turnPivot.visible = true;
   turnPivot.rotation.y = -Math.PI;
 
-  var t0 = performance.now(), dur = 650;
+  var t0 = performance.now(), dur = 800;
   (function a(now){
     var p = Math.min(1, (now-t0)/dur);
     var e = p < 0.5 ? 2*p*p : 1 - Math.pow(-2*p+2,2)/2;
