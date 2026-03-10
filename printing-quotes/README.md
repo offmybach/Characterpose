@@ -39,6 +39,17 @@ Edit `config.json` to change:
 | Mixam | JS configurator | `vendor_handlers/mixam.js` |
 | BookBaby | Multi-step quoter | `vendor_handlers/bookbaby.js` |
 | Books.by | POD platform (no bulk) | `vendor_handlers/booksby.js` |
+| Lightning Press | Instant price calculator | `vendor_handlers/lightningpress.js` |
+| Gorham Printing | Online quote tool | `vendor_handlers/gorhamprinting.js` |
+| DiggyPOD | Quote form | `vendor_handlers/diggypod.js` |
+| Doxzoo | Instant quote configurator | `vendor_handlers/doxzoo.js` |
+| The Book Patch | Print calculator | `vendor_handlers/thebookpatch.js` |
+| Gatekeeper Press | Cost calculator | `vendor_handlers/gatekeeperpress.js` |
+| Greenerprinter | Eco-friendly printer | `vendor_handlers/greenerprinter.js` |
+| MCRL Printing | Custom quote request | `vendor_handlers/mcrlprinting.js` |
+| PRC Book Printing | Offset printer (PA) | `vendor_handlers/prcbookprinting.js` |
+| PrintIndustry | Multi-printer bid system | `vendor_handlers/printindustry.js` |
+| World Publishing Company | Custom quote | `vendor_handlers/worldpublishing.js` |
 
 ## Adding a New Vendor
 

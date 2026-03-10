@@ -10,6 +10,17 @@ const handlers = {
   'Mixam': require('./vendor_handlers/mixam'),
   'BookBaby': require('./vendor_handlers/bookbaby'),
   'Books.by': require('./vendor_handlers/booksby'),
+  'Lightning Press': require('./vendor_handlers/lightningpress'),
+  'Gorham Printing': require('./vendor_handlers/gorhamprinting'),
+  'DiggyPOD': require('./vendor_handlers/diggypod'),
+  'Doxzoo': require('./vendor_handlers/doxzoo'),
+  'The Book Patch': require('./vendor_handlers/thebookpatch'),
+  'Gatekeeper Press': require('./vendor_handlers/gatekeeperpress'),
+  'Greenerprinter': require('./vendor_handlers/greenerprinter'),
+  'MCRL Printing': require('./vendor_handlers/mcrlprinting'),
+  'PRC Book Printing': require('./vendor_handlers/prcbookprinting'),
+  'PrintIndustry': require('./vendor_handlers/printindustry'),
+  'World Publishing Company': require('./vendor_handlers/worldpublishing'),
 };
 
 function makeEmptyResult(vendor, quantity) {

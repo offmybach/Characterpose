@@ -43,6 +43,61 @@
       "name": "Books.by",
       "enabled": true,
       "url": "https://books.by"
+    },
+    {
+      "name": "Lightning Press",
+      "enabled": true,
+      "url": "https://lightning-press.com"
+    },
+    {
+      "name": "Gorham Printing",
+      "enabled": true,
+      "url": "https://gorhamprinting.com"
+    },
+    {
+      "name": "DiggyPOD",
+      "enabled": true,
+      "url": "https://www.diggypod.com"
+    },
+    {
+      "name": "Doxzoo",
+      "enabled": true,
+      "url": "https://doxzoo.com"
+    },
+    {
+      "name": "The Book Patch",
+      "enabled": true,
+      "url": "https://www.thebookpatch.com"
+    },
+    {
+      "name": "Gatekeeper Press",
+      "enabled": true,
+      "url": "https://gatekeeperpress.com"
+    },
+    {
+      "name": "Greenerprinter",
+      "enabled": true,
+      "url": "https://www.greenerprinter.com"
+    },
+    {
+      "name": "MCRL Printing",
+      "enabled": true,
+      "url": "https://www.mcrlprinting.com"
+    },
+    {
+      "name": "PRC Book Printing",
+      "enabled": true,
+      "url": "https://prcbookprinting.com"
+    },
+    {
+      "name": "PrintIndustry",
+      "enabled": true,
+      "url": "https://www.printindustry.com"
+    },
+    {
+      "name": "World Publishing Company",
+      "enabled": true,
+      "url": "https://theworldpublishingcompany.com"
     }
   ],
   "output": {
