@@ -7,9 +7,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&family=OpenDyslexic:wght@400;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--purple:#4a1a6b;--dpurple:#2d0f42;--orange:#ff6b2b;--gold:#ffd700;--cream:#fdf6e3;--blue:#0054a6;--ltblue:#4fc3f7;--red:#d32f2f;--green:#2e7d32;--darkbg:#0f0520;--lavender:#c8a2e0;--ltlav:#d8bce8}
+:root{--purple:#4a1a6b;--dpurple:#2d0f42;--orange:#ff6b2b;--gold:#ffd700;--cream:#FAF3E0;--blue:#0054a6;--seablue:#1a3a5c;--ltblue:#4fc3f7;--red:#d32f2f;--green:#2e7d32;--darkbg:#0f0520;--lavender:#c8a2e0;--ltlav:#d8bce8}
 html{scroll-behavior:smooth}
-body{font-family:'Nunito',sans-serif;background:var(--darkbg);color:#fff;overflow-x:hidden}
+body{font-family:'Nunito',sans-serif;background:#FAF3E0;color:#1a1a2e;overflow-x:hidden}
 .particles{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:hidden}
 .particle{position:absolute;opacity:0;animation:floatUp linear infinite}
 @keyframes floatUp{0%{transform:translateY(110vh) rotate(0);opacity:0}10%{opacity:.5}90%{opacity:.5}100%{transform:translateY(-10vh) rotate(360deg);opacity:0}}
@@ -35,22 +35,22 @@ body{font-family:'Nunito',sans-serif;background:var(--darkbg);color:#fff;overflo
 /* Small coupon particle — dashed border with scissors */
 .coupon-tag{display:inline-flex;align-items:center;gap:2px;padding:4px 8px;border:2px dashed rgba(255,107,43,.7);border-radius:5px;background:rgba(255,255,255,.08);color:var(--orange);font-family:'Fredoka One',cursive;font-size:.5rem;letter-spacing:.5px;backdrop-filter:blur(2px)}
 .coupon-tag .sci{font-size:.65rem;transform:rotate(-30deg);display:inline-block}
-nav{position:sticky;top:0;z-index:1000;background:rgba(15,5,32,.88);backdrop-filter:blur(20px);padding:14px 40px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,215,0,.12);transition:.3s}
-nav.scrolled{padding:10px 40px;background:rgba(15,5,32,.96);box-shadow:0 4px 30px rgba(0,0,0,.6)}
-nav .logo{font-family:'Fredoka One',cursive;font-size:1.3rem;color:var(--gold)}
+nav{position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:14px 40px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1a3a5c;transition:.3s}
+nav.scrolled{padding:10px 40px;background:rgba(250,243,224,.98);box-shadow:0 4px 20px rgba(26,58,92,.15)}
+nav .logo{font-family:'Fredoka One',cursive;font-size:1.3rem;color:#1a3a5c}
 nav .links{display:flex;align-items:center;gap:8px}
-nav .links a{color:rgba(255,255,255,.7);text-decoration:none;font-weight:700;font-size:.9rem;padding:8px 16px;border-radius:20px;transition:.3s}
-nav .links a:hover{color:#fff;background:rgba(255,215,0,.1)}
+nav .links a{color:#1a3a5c;text-decoration:none;font-weight:700;font-size:.9rem;padding:8px 16px;border-radius:20px;transition:.3s}
+nav .links a:hover{color:#ff6b2b;background:rgba(255,107,43,.08)}
 nav .links a.cta-nav{background:var(--orange);color:#fff;font-family:'Fredoka One',cursive;padding:10px 24px}
 nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
-.hero{position:relative;padding:100px 30px 80px;text-align:center;overflow:hidden;min-height:92vh;display:flex;flex-direction:column;align-items:center;justify-content:center}
-.hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse at 30% 20%,rgba(74,26,107,.8) 0%,transparent 50%),radial-gradient(ellipse at 70% 80%,rgba(0,84,166,.5) 0%,transparent 50%),radial-gradient(ellipse at 50% 50%,rgba(255,107,43,.12) 0%,transparent 40%),var(--darkbg);z-index:0}
+.hero{position:relative;padding:60px 30px 50px;text-align:center;overflow:hidden;min-height:auto;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.hero-bg{position:absolute;inset:0;background:linear-gradient(to bottom,#4a1a6b 0%,#6a2d8e 15%,#2e7d32 45%,#228B22 55%,#F57C00 85%,#ff6b2b 100%);z-index:0}
 .hero>*{position:relative;z-index:1}
-.hero-badge{display:inline-block;background:rgba(255,215,0,.1);border:1px solid rgba(255,215,0,.3);border-radius:30px;padding:8px 24px;font-size:.85rem;color:var(--gold);font-weight:700;margin-bottom:24px;letter-spacing:2px;text-transform:uppercase;animation:fadeIn .8s ease-out both}
+.hero-badge{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);border-radius:30px;padding:8px 24px;font-size:.85rem;color:#fff;font-weight:700;margin-bottom:24px;letter-spacing:2px;text-transform:uppercase;animation:fadeIn .8s ease-out both}
 @keyframes fadeIn{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
 .hero h1{font-family:'Fredoka One',cursive;font-size:clamp(2.8rem,7vw,4.8rem);color:#fff;line-height:1.1;margin-bottom:12px;animation:fadeIn .8s ease-out .15s both}
 .hero h1 .gold{color:var(--gold)}
-.hero .masthead{font-family:'Fredoka One',cursive;font-size:clamp(1.2rem,3vw,1.8rem);background:linear-gradient(90deg,var(--orange),var(--gold),var(--orange));background-size:200% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:16px;animation:fadeIn .8s ease-out .3s both,shimmer 3s linear infinite}
+.hero .masthead{font-family:'Fredoka One',cursive;font-size:clamp(1.2rem,3vw,1.8rem);color:#FFE082;margin-bottom:16px;animation:fadeIn .8s ease-out .3s both}
 @keyframes shimmer{to{background-position:200% center}}
 .hero .subtitle{font-family:'OpenDyslexic',sans-serif;font-size:clamp(.95rem,2vw,1.15rem);color:var(--ltblue);margin-bottom:8px;animation:fadeIn .8s ease-out .45s both}
 .hero .author{font-size:.95rem;color:rgba(255,255,255,.5);margin-bottom:40px;animation:fadeIn .8s ease-out .6s both}
@@ -101,23 +101,144 @@ footer p{color:rgba(255,255,255,.25);font-size:.8rem}
 .reveal.visible{opacity:1;transform:translateY(0)}
 .reveal-delay-1{transition-delay:.1s}.reveal-delay-2{transition-delay:.2s}.reveal-delay-3{transition-delay:.3s}
 @media(max-width:768px){nav{padding:12px 16px}nav .links a{padding:6px 10px;font-size:.78rem}.hero{padding:70px 20px 60px;min-height:auto}#magCanvasWrap{height:60vh;min-height:400px}}
+
+/* === BRAND TITLE BLOCK WITH PILLS === */
+.title-block{display:inline-flex;flex-direction:column;align-items:center;gap:12px;background:#F57C00;border-radius:20px;padding:20px 30px;box-shadow:0 8px 24px rgba(0,0,0,.3);position:relative;z-index:2;margin-bottom:20px}
+.title-pill{background:#fff;border-radius:12px;padding:10px 40px;border:3px solid #E65100}
+.title-pill h1,.title-pill h2{font-family:'Fredoka One',cursive;color:#1a1a1a;letter-spacing:1px;margin:0}
+.title-pill h1{font-size:clamp(2rem,5vw,3.5rem)}
+.title-pill h2{font-size:clamp(1.5rem,4vw,2.8rem)}
+
+/* === LOOK INSIDE STICKER === */
+.look-inside-sticker{position:absolute;top:18px;right:18px;background:#FF6D00;color:#fff;font-family:'Fredoka One',cursive;font-size:clamp(.85rem,2vw,1.2rem);padding:18px 22px;border-radius:50%;transform:rotate(15deg);box-shadow:0 4px 16px rgba(255,109,0,.5);cursor:pointer;text-align:center;line-height:1.2;text-decoration:none;transition:transform .2s,box-shadow .2s;z-index:10;border:3px dashed #FFE082;width:clamp(90px,12vw,130px);height:clamp(90px,12vw,130px);display:flex;align-items:center;justify-content:center}
+.look-inside-sticker:hover{transform:rotate(5deg) scale(1.1);box-shadow:0 6px 24px rgba(255,109,0,.7)}
+
+/* === COUPON NAVIGATION MENU === */
+.coupon-nav{background:#FAF3E0;padding:40px 20px;max-width:1000px;margin:0 auto}
+.coupon-nav-title{text-align:center;font-family:'Fredoka One',cursive;font-size:clamp(1.3rem,3vw,2rem);color:#1a3a5c;margin-bottom:30px}
+.coupon-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.coupon-card{position:relative;background:#fff;border:3px dashed #1a3a5c;border-radius:12px;padding:28px 24px 24px;text-align:center;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.coupon-card:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(26,58,92,.15)}
+.coupon-scissor{position:absolute;top:-2px;right:12px;font-size:1.6rem;color:#7a8a9a;transform:rotate(-45deg)}
+.coupon-card h3{font-family:'Fredoka One',cursive;font-size:1.1rem;color:#1a3a5c;margin-bottom:10px}
+.coupon-card p{font-size:.95rem;color:#3a3a3a;line-height:1.5}
+
+/* === ASSET MAPPING SECTIONS === */
+.asset-section{padding:50px 20px;max-width:900px;margin:0 auto}
+.asset-section-alt{background:#f5edd8;padding:50px 0}
+.asset-row{display:flex;align-items:center;gap:30px;flex-wrap:wrap;justify-content:center;max-width:900px;margin:0 auto}
+.asset-row.reverse{flex-direction:row-reverse}
+.asset-image-placeholder{width:260px;height:260px;background:#e8dcc8;border-radius:16px;display:flex;align-items:center;justify-content:center;font-family:'Fredoka One',cursive;color:#8d7b5e;font-size:.85rem;text-align:center;padding:20px;border:3px dashed #c4b594;flex-shrink:0}
+.asset-text{flex:1;min-width:260px}
+.asset-text h3{font-family:'Fredoka One',cursive;font-size:clamp(1.2rem,2.5vw,1.6rem);color:#1a3a5c;margin-bottom:12px}
+.asset-text p{font-size:1rem;color:#3a3a3a;line-height:1.7}
+
+/* === SUCCESS / BUY SECTION OVERRIDE === */
+.buy{position:relative;padding:60px 30px;text-align:center;overflow:hidden}
+.buy-bg{position:absolute;inset:0;background:linear-gradient(135deg,#F57C00 0%,#FF9800 100%);z-index:0}
+.buy h2{font-family:'Fredoka One',cursive;color:#fff;font-size:clamp(1.8rem,4vw,2.6rem);margin-bottom:6px}
+.buy .buy-sub{color:rgba(255,255,255,.85);margin-bottom:20px;font-size:.95rem}
+.buy .price{font-family:'Fredoka One',cursive;font-size:clamp(2.5rem,6vw,4rem);color:#fff;margin:20px 0 8px}
+.buy .price-note{color:rgba(255,255,255,.7);margin-bottom:35px;font-size:.9rem}
+.buy-btn.amazon{background:#1a3a5c;color:#fff;box-shadow:0 4px 16px rgba(0,0,0,.2);animation:none}
+.buy-btn.amazon:hover{background:#0d2a44}
+.buy-btn.bn{background:#fff;color:#1a3a5c}
+.buy-btn.indie{background:rgba(255,255,255,.2);color:#fff;border:2px solid rgba(255,255,255,.5)}
+.success-placeholder{width:180px;height:220px;margin:0 auto 20px;background:rgba(255,255,255,.2);border-radius:16px;display:flex;align-items:center;justify-content:center;font-family:'Fredoka One',cursive;color:#fff;font-size:.85rem;text-align:center;padding:20px;border:3px dashed rgba(255,255,255,.4)}
+
+/* === AUTHORITY FOOTER === */
+.authority-footer{background:#1a3a5c;color:#dce6f0;padding:50px 20px}
+.footer-inner{max-width:900px;margin:0 auto;display:flex;gap:30px;flex-wrap:wrap;align-items:flex-start;justify-content:center}
+.footer-image-placeholder{width:200px;height:200px;background:rgba(255,255,255,.1);border-radius:16px;display:flex;align-items:center;justify-content:center;font-family:'Fredoka One',cursive;color:rgba(255,255,255,.5);font-size:.8rem;text-align:center;padding:20px;border:3px dashed rgba(255,255,255,.2);flex-shrink:0}
+.footer-text{flex:1;min-width:260px}
+.footer-text h3{font-family:'Fredoka One',cursive;font-size:1.4rem;color:#FFB74D;margin-bottom:12px}
+.footer-text p{font-size:.95rem;line-height:1.7;margin-bottom:16px}
+.footer-text h4{font-family:'Fredoka One',cursive;font-size:1.1rem;color:#FFB74D;margin-bottom:8px}
+.footer-bottom{text-align:center;margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,255,255,.15);font-size:.85rem;color:rgba(255,255,255,.5)}
+
+/* === MAGAZINE SECTION on cream bg === */
+.mag-section{background:linear-gradient(180deg,#FAF3E0 0%,#f0e6cc 50%,#FAF3E0 100%);padding:30px 10px 20px;text-align:center;position:relative}
+.mag-section h2{font-family:'Fredoka One',cursive;color:#1a3a5c;font-size:clamp(1.6rem,4vw,2.4rem);margin-bottom:8px}
+.mag-section .hint{color:#888;margin-bottom:30px;font-size:.85rem;letter-spacing:1px}
+.mag-btn{padding:10px 24px;background:rgba(26,58,92,.08);border:1px solid #1a3a5c;color:#1a3a5c;border-radius:25px;font-family:'Fredoka One',cursive;font-size:.85rem;cursor:pointer;transition:.3s;letter-spacing:1px}
+.mag-btn:hover{background:#1a3a5c;color:#fff}
+.page-indicator{color:#888;margin-top:12px;font-size:.85rem;letter-spacing:1px;font-weight:700}
+.cover-upload{width:220px;height:170px;border:3px dashed #1a3a5c;border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;transition:.3s;position:relative;overflow:hidden;background:rgba(26,58,92,.03)}
+.cover-upload:hover{border-color:#ff6b2b;background:rgba(255,107,43,.05);transform:translateY(-3px)}
+.cover-upload .icon{font-size:1.8rem;margin-bottom:4px;color:#1a3a5c}
+.cover-upload .text{font-size:.65rem;color:#888}
+
+/* === PARTICLES — muted on light bg === */
+.particles{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:hidden;opacity:.35}
+
+/* === RESPONSIVE === */
+@media(max-width:600px){.title-block{padding:14px 18px}.title-pill{padding:8px 24px}.look-inside-sticker{width:80px;height:80px;font-size:.75rem;top:10px;right:10px;padding:12px}.coupon-grid{grid-template-columns:1fr}.asset-row,.asset-row.reverse{flex-direction:column;text-align:center}.footer-inner{flex-direction:column;align-items:center;text-align:center}}
+
 </style>
 </head>
 <body>
 <div class="particles" id="particles"></div>
-<nav id="mainNav"><div class="logo">Clarence Gets a Bargain</div><div class="links"><a href="#magazine">Peek Inside</a><a href="#buy" class="cta-nav">Buy Now</a></div></nav>
+<nav id="mainNav"><div class="logo">Clarence Gets a Bargain</div><div class="links"><a href="#magazine">Peek Inside</a><a href="#coupons">Explore</a><a href="#buy" class="cta-nav">Buy Now</a></div></nav>
 
 <section class="hero"><div class="hero-bg"></div>
-  <div class="hero-badge">Ages 5&ndash;9 &bull; 1st&ndash;5th Grade &bull; Edutainment at Its Finest</div>
-  <h1>Clarence Gets<br>a <span class="gold">Bargain</span></h1>
-  <div class="masthead">UNDERCOVER EDUTAINMENT</div>
-  <div class="subtitle">Where Kids Learn Money Smarts Through Adventure!</div>
-  <div class="author">Written &amp; Illustrated by a Parent Who Gets It</div>
-  <div class="stats"><div class="stat"><div class="num">32</div><div class="label">Pages</div></div><div class="stat"><div class="num">1</div><div class="label">Mission</div></div><div class="stat"><div class="num">&infin;</div><div class="label">Giggles</div></div></div>
+  <a href="#magazine" class="look-inside-sticker">LOOK INSIDE!</a>
+  <div class="title-block">
+    <div class="title-pill"><h1>Clarence</h1></div>
+    <div class="title-pill"><h2>Gets a Bargain</h2></div>
+  </div>
+  <div class="hero-badge" style="margin-top:20px">Ages 5&ndash;9 &bull; 1st&ndash;5th Grade &bull; Edutainment at Its Finest</div>
+  <div class="masthead">A Playful Introduction to Real-World Money Skills</div>
+  <div class="subtitle" style="color:#fff">Cloaked in a fun story about a young boy and his quest to purchase a robot</div>
+  <div class="author">Written &amp; Illustrated by Jonathan Bach</div>
   <div class="hero-cta"><a href="#buy">Invest in Your Kid&rsquo;s Future &mdash; $14.99</a></div>
 </section>
 
 <div class="banner"><div class="banner-track"><span>KID LIT IS A HIT! &bull; KID FIN IS A WIN! &bull;</span><span>EDUTAINMENT AT ITS FINEST &bull; STORY FIRST. MONEY SMARTS SNEAK IN. &bull;</span><span>KID LIT IS A HIT! &bull; KID FIN IS A WIN! &bull;</span><span>EDUTAINMENT AT ITS FINEST &bull; STORY FIRST. MONEY SMARTS SNEAK IN. &bull;</span><span>KID LIT IS A HIT! &bull; KID FIN IS A WIN! &bull;</span><span>EDUTAINMENT AT ITS FINEST &bull; STORY FIRST. MONEY SMARTS SNEAK IN. &bull;</span></div></div>
+
+<nav class="coupon-nav" id="coupons">
+  <h2 class="coupon-nav-title reveal">Clip Your Savings</h2>
+  <div class="coupon-grid">
+    <div class="coupon-card reveal" onclick="document.getElementById('magazine').scrollIntoView({behavior:'smooth'})">
+      <span class="coupon-scissor">&#9986;</span>
+      <h3>BOGO: Buy the Story, Get the Lessons FREE!</h3>
+      <p>About the Adventure</p>
+    </div>
+    <div class="coupon-card reveal reveal-delay-1" onclick="document.getElementById('magazine').scrollIntoView({behavior:'smooth'})">
+      <span class="coupon-scissor">&#9986;</span>
+      <h3>100% OFF Boring Textbooks!</h3>
+      <p>The 2-Page Financial Glossary</p>
+    </div>
+    <div class="coupon-card reveal reveal-delay-2" onclick="document.getElementById('magazine').scrollIntoView({behavior:'smooth'})">
+      <span class="coupon-scissor">&#9986;</span>
+      <h3>5-STAR VALUE!</h3>
+      <p>Read Parent &amp; Teacher Reviews</p>
+    </div>
+  </div>
+</nav>
+
+<!-- Section A: The Concept — Shopping Homework -->
+<section class="asset-section reveal">
+  <div class="asset-row">
+    <div class="asset-image-placeholder">Clarence with pile of ads<br>(Page 6 asset)</div>
+    <div class="asset-text">
+      <h3>Shopping Homework? Yes, Really.</h3>
+      <p>Clarence learns that the best deals don&rsquo;t just fall in your lap. Through hands-on &ldquo;shopping homework,&rdquo; he discovers how to compare prices, read ads, and find the real value behind every price tag. Your kids will too.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Section B: The Proof — Comparison Shopping -->
+<div class="asset-section-alt">
+  <section class="asset-section reveal">
+    <div class="asset-row reverse">
+      <div class="asset-image-placeholder">Side-by-side robots<br>(Page 22 asset)</div>
+      <div class="asset-text">
+        <h3>Comparison Shopping in Action</h3>
+        <p>Two robots. Two prices. One smart choice. Clarence proves that looking before you leap saves real money. This side-by-side lesson is one kids remember long after the story ends.</p>
+      </div>
+    </div>
+  </section>
+</div>
 
 <section class="mag-section" id="magazine">
   <h2 class="reveal">Flip Through Clarence&rsquo;s Coupon Book!</h2>
@@ -131,9 +252,31 @@ footer p{color:rgba(255,255,255,.25);font-size:.8rem}
   </div>
 </section>
 
-<section class="buy" id="buy"><div class="buy-bg"></div><div class="section-label reveal">Best Investment You&rsquo;ll Make All Year</div><h2 class="reveal">Get Your Copy</h2><div class="buy-sub reveal">36 pages of adventure, laughs, and money smarts</div><div class="price reveal">$14.99</div><div class="price-note reveal">Softcover &bull; Full Color &bull; Ages 5&ndash;9</div><div class="buy-btns reveal"><a class="buy-btn amazon" href="#">Amazon</a><a class="buy-btn bn" href="#">Barnes &amp; Noble</a><a class="buy-btn indie" href="#">IndieBound</a></div></section>
+<section class="buy" id="buy"><div class="buy-bg"></div>
+  <div class="success-placeholder reveal">Pump-fist Clarence<br>(Page 28 asset)</div>
+  <h2 class="reveal">Clarence Did It. Your Kids Can Too.</h2>
+  <div class="buy-sub reveal">A book focusing on kid&rsquo;s financial literacy and education.</div>
+  <div class="price reveal">$14.99</div>
+  <div class="price-note reveal">Softcover &bull; Full Color &bull; Ages 5&ndash;9</div>
+  <div class="buy-btns reveal">
+    <a class="buy-btn amazon" href="#">Buy Now</a>
+    <a class="buy-btn bn" href="#">Barnes &amp; Noble</a>
+    <a class="buy-btn indie" href="#">IndieBound</a>
+  </div>
+</section>
 
-<footer><div class="foot-banner">KID LIT IS A HIT! &bull; KID FIN IS A WIN!</div><p>&copy; 2026 Jonathan Bach. All rights reserved.</p></footer>
+<footer class="authority-footer">
+  <div class="footer-inner">
+    <div class="footer-image-placeholder">Dad at the desk<br>(Page 26 asset)</div>
+    <div class="footer-text">
+      <h3>A Note to Educators</h3>
+      <p>Clarence Gets a Bargain was designed to make financial literacy accessible and fun for young learners. Each chapter introduces a core money concept through story-driven scenarios that kids naturally engage with. Use it in classrooms, at home, or anywhere curiosity meets a price tag.</p>
+      <h4>About the Author</h4>
+      <p>Born from a passion for giving kids a head start on real-world money skills, this book bridges the gap between play and education. Because every kid deserves to know the value of a dollar before they spend one.</p>
+    </div>
+  </div>
+  <div class="footer-bottom">&copy; 2026 Jonathan Bach. All rights reserved.</div>
+</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
@@ -240,11 +383,11 @@ function drawCornerCurl(ctx, w, h) {
   ctx.restore();
 }
 
-// HEADER: gradient green top → orange middle → purple bottom + orange sticker
+// HEADER: gradient purple top → orange middle → green bottom + orange sticker
 function drawHeader(ctx, w, hH) {
-  // Gradient background
+  // Gradient background — flipped: purple at top, orange middle, green bottom
   var g=ctx.createLinearGradient(0,0,0,hH);
-  g.addColorStop(0,'#228B22');g.addColorStop(0.2,'#1a7a1a');g.addColorStop(0.45,'#ff8844');g.addColorStop(0.55,'#ff6b2b');g.addColorStop(0.8,'#6a2d8e');g.addColorStop(1,'#4a1a6b');
+  g.addColorStop(0,'#4a1a6b');g.addColorStop(0.2,'#6a2d8e');g.addColorStop(0.45,'#ff6b2b');g.addColorStop(0.55,'#ff8844');g.addColorStop(0.8,'#1a7a1a');g.addColorStop(1,'#228B22');
   ctx.fillStyle=g;ctx.fillRect(0,0,w,hH);
   // Draw sticker PNG centered, maintaining aspect ratio, no stretching
   if (stickerImg.complete && stickerImg.naturalWidth > 0) {
