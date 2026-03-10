@@ -3,7 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Clarence Gets a Bargain</title>
+<title>Clarence Gets a Bargain | Kids Financial Literacy Book | Ages 5-9</title>
+<meta name="description" content="Clarence Gets a Bargain is a children's book teaching financial literacy through adventure. Kids learn budgeting, comparison shopping, coupons, and smart money skills. Ages 5-9.">
+<meta name="keywords" content="children's book, financial literacy, kids money skills, edutainment, Clarence Gets a Bargain, Jonathan Bach, kids budgeting, comparison shopping, ages 5-9, elementary school">
+<meta name="author" content="Jonathan Bach">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Clarence Gets a Bargain | Kids Financial Literacy Book">
+<meta property="og:description" content="A playful introduction to real-world money skills. Cloaked in a fun story about a young boy and his quest to purchase a robot. Ages 5-9.">
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="Clarence Gets a Bargain">
+<meta property="book:author" content="Jonathan Bach">
+<meta property="book:isbn" content="">
+<meta property="book:tag" content="financial literacy">
+<meta property="book:tag" content="children's book">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Clarence Gets a Bargain | Kids Financial Literacy Book">
+<meta name="twitter:description" content="Where kids learn money smarts through adventure! Budgeting, coupons, comparison shopping. Ages 5-9.">
+<link rel="canonical" href="https://www.kidsmoneybook.com/">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&family=OpenDyslexic:wght@400;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -175,6 +191,20 @@ footer p{color:rgba(255,255,255,.25);font-size:.8rem}
 @media(max-width:600px){.title-block{padding:14px 18px}.title-pill{padding:8px 24px}.look-inside-sticker{width:80px;height:80px;font-size:.75rem;top:10px;right:10px;padding:12px}.coupon-grid{grid-template-columns:1fr}.asset-row,.asset-row.reverse{flex-direction:column;text-align:center}.footer-inner{flex-direction:column;align-items:center;text-align:center}}
 
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "Clarence Gets a Bargain",
+  "author": {"@type": "Person", "name": "Jonathan Bach"},
+  "description": "A children's book teaching financial literacy through a fun adventure about a young boy learning to shop smart, use coupons, and make wise money decisions.",
+  "genre": ["Children's Literature", "Financial Literacy", "Edutainment"],
+  "audience": {"@type": "Audience", "audienceType": "Children", "suggestedMinAge": 5, "suggestedMaxAge": 9},
+  "numberOfPages": 36,
+  "bookFormat": "Paperback",
+  "offers": {"@type": "Offer", "price": "14.99", "priceCurrency": "USD", "availability": "https://schema.org/InStock"}
+}
+</script>
 </head>
 <body>
 <div class="particles" id="particles"></div>
@@ -526,23 +556,87 @@ function drawPageBg(ctx, w, h) {
 // Sticker image source (triggers build when loaded)
 // Set src before pages — data URLs decode synchronously in all major browsers
 stickerImg.src = _stickerSrc;
+// Safety: rebuild textures if sticker loaded async
+stickerImg.onload = function() {
+  if (typeof pages !== 'undefined' && typeof coverTex !== 'undefined') {
+    // Rebuild pages that use drawHeader (sticker)
+    for (var i = 0; i < pages.length; i++) { if (pages[i]) pages[i].needsUpdate = true; }
+    if (coverTex) coverTex.needsUpdate = true;
+  }
+};
 
 var pages = [
-  // PAGE 0: FRONT COVER — intro
+  // PAGE 0: FRONT COVER — matches attached cover design
   makeTex(function(c, w, h) {
-    var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'The Adventure', 'Meet Clarence Wyze');
-    var top = hH + h*0.13, m = w*0.05, gap = h*0.02;
-    var cW = w - m*2, cH = (h - top - m) / 3 - gap;
-    drawCard(c, m, top, cW, cH,
-      '\uD83E\uDD16', 'Robot Rewards',
-      'Clarence earns awesome robots by completing his chores and getting great grades. Hard work pays off \u2014 literally! His reward? A trip to Sea-Mart to pick his very own smart robot.');
-    drawCard(c, m, top + cH + gap, cW, cH,
-      '\uD83D\uDCB0', 'Bargain Hunter',
-      'Armed with sale ads, coupons, and his mom\'s shopping wisdom, Clarence learns to stretch every dollar. Comparison shopping, smart timing, and checkout savvy \u2014 this kid\'s ROI? Return On Imagination.');
-    drawCard(c, m, top + (cH + gap)*2, cW, cH,
-      '\uD83E\uDDE0', 'Money Smarts',
-      'Budgets, bills, wants vs. needs, saving for college \u2014 all woven into one laugh-out-loud adventure. No worksheets. No lectures. Just a story that makes kids ask the right questions.');
+    // Header gradient: purple → green → orange
+    var hH = h * 0.15;
+    drawHeader(c, w, hH);
+    // Cream background
+    c.fillStyle = '#FAF3E0'; c.fillRect(0, hH, w, h - hH);
+    // Blue border around cream area
+    c.strokeStyle = '#1a3a5c'; c.lineWidth = 5;
+    c.strokeRect(w*0.04, hH+6, w*0.92, h-hH-12);
+
+    // Orange title block with pills (overlapping header)
+    var tbW = w * 0.52, tbH = h * 0.10;
+    var tbX = (w - tbW) / 2, tbY = hH * 0.25;
+    c.save(); c.shadowColor='rgba(0,0,0,.25)'; c.shadowBlur=12; c.shadowOffsetY=4;
+    rr(c, tbX, tbY, tbW, tbH, 14); c.fillStyle = '#F57C00'; c.fill(); c.restore();
+    // Clarence pill
+    var pillW = tbW * 0.88, pillH = tbH * 0.38, pillX = tbX + (tbW - pillW)/2;
+    var pillY = tbY + tbH * 0.08;
+    rr(c, pillX, pillY, pillW, pillH, 6); c.fillStyle='#fff'; c.fill();
+    c.strokeStyle='#E65100'; c.lineWidth=2; c.stroke();
+    c.fillStyle='#1a1a1a'; c.textAlign='center'; c.textBaseline='middle';
+    c.font='900 '+Math.floor(pillH*0.7)+'px Arial Black,Arial,sans-serif';
+    c.fillText('Clarence', tbX+tbW/2, pillY+pillH/2);
+    // Gets a Bargain pill
+    var p2Y = pillY + pillH + tbH*0.06;
+    rr(c, pillX, p2Y, pillW, pillH, 6); c.fillStyle='#fff'; c.fill();
+    c.strokeStyle='#E65100'; c.lineWidth=2; c.stroke();
+    c.fillStyle='#1a1a1a';
+    c.font='900 '+Math.floor(pillH*0.6)+'px Arial Black,Arial,sans-serif';
+    c.fillText('Gets a Bargain', tbX+tbW/2, p2Y+pillH/2);
+
+    // Green placeholder (Clarence character)
+    var gpY = hH + h*0.05, gpH = h*0.12, gpX = w*0.1, gpW = w*0.8;
+    c.fillStyle='#b8d4b0'; rr(c, gpX, gpY, gpW, gpH, 8); c.fill();
+    c.strokeStyle='#8aad80'; c.lineWidth=2; c.stroke();
+
+    // Coupon card 1
+    var m = w*0.08, cardW = w*0.84, cardH = h*0.14, cardY = gpY+gpH+h*0.025;
+    c.setLineDash([10,6]); c.strokeStyle='#5a4a3a'; c.lineWidth=3;
+    rr(c, m, cardY, cardW, cardH, 8); c.stroke(); c.setLineDash([]);
+    c.fillStyle='#faf3e0'; rr(c, m+1, cardY+1, cardW-2, cardH-2, 7); c.fill();
+    drawScissors(c, m+cardW-18, cardY+14, 20);
+    c.fillStyle='#1a1a4e'; c.textAlign='center'; c.textBaseline='middle';
+    c.font='900 '+Math.floor(cardH*0.17)+'px Arial Black,Arial,sans-serif';
+    c.fillText('A BOOK FOCUSING ON KID\'S', m+cardW/2, cardY+cardH*0.35);
+    c.fillText('FINANCIAL LITERACY AND EDUCATION', m+cardW/2, cardY+cardH*0.62);
+
+    // Coupon card 2
+    var c2Y = cardY+cardH+h*0.015;
+    c.setLineDash([10,6]); c.strokeStyle='#5a4a3a'; c.lineWidth=3;
+    rr(c, m, c2Y, cardW, cardH, 8); c.stroke(); c.setLineDash([]);
+    c.fillStyle='#faf3e0'; rr(c, m+1, c2Y+1, cardW-2, cardH-2, 7); c.fill();
+    drawScissors(c, m+cardW-18, c2Y+14, 20);
+    c.fillStyle='#cc2244'; c.font='900 '+Math.floor(cardH*0.15)+'px Arial Black,Arial,sans-serif';
+    c.fillText('A PLAYFUL INTRODUCTION TO', m+cardW/2, c2Y+cardH*0.28);
+    c.fillText('REAL-WORLD MONEY SKILLS', m+cardW/2, c2Y+cardH*0.48);
+    c.fillStyle='#cc6600'; c.font='italic 600 '+Math.floor(cardH*0.10)+'px Arial,sans-serif';
+    c.fillText('*Cloaked in a fun story about a young boy', m+cardW/2, c2Y+cardH*0.72);
+    c.fillText('and his quest to purchase a robot*', m+cardW/2, c2Y+cardH*0.86);
+
+    // Coupon card 3
+    var c3Y = c2Y+cardH+h*0.015; var c3H = h*0.16;
+    c.setLineDash([10,6]); c.strokeStyle='#5a4a3a'; c.lineWidth=3;
+    rr(c, m, c3Y, cardW, c3H, 8); c.stroke(); c.setLineDash([]);
+    c.fillStyle='#faf3e0'; rr(c, m+1, c3Y+1, cardW-2, c3H-2, 7); c.fill();
+    drawScissors(c, m+cardW-18, c3Y+14, 20);
+    c.fillStyle='#1a1a4e'; c.font='900 '+Math.floor(c3H*0.15)+'px Arial Black,Arial,sans-serif';
+    c.fillText('TURN THE PAGE FOR MORE', m+cardW/2, c3Y+c3H*0.22);
+    c.fillText('FUN AND INSIGHT ON', m+cardW/2, c3Y+c3H*0.48);
+    c.fillText('CLARENCE\'S MISSION!', m+cardW/2, c3Y+c3H*0.72);
   }),
 
   // PAGE 1: THE STORY
@@ -736,38 +830,97 @@ var coverGeo = makePageGeo('right');
 var cp = coverGeo.attributes.position;
 for (var i = 0; i < cp.count; i++) cp.setX(i, cp.getX(i) - PW/2);
 coverGeo.computeVertexNormals();
-// Dedicated front cover texture — distinct from interior pages[0]
+// Dedicated front cover texture — matches the sticker title block design
 var coverTex = makeTex(function(c, w, h) {
-  // Purple gradient background
-  var g = c.createLinearGradient(0, 0, 0, h);
-  g.addColorStop(0, '#5a1e80'); g.addColorStop(0.5, '#3d1260'); g.addColorStop(1, '#2d0f42');
-  c.fillStyle = g; c.fillRect(0, 0, w, h);
-  // Draw sticker centered in upper 40% of cover
-  if (stickerImg.complete && stickerImg.naturalWidth > 0) {
-    var aspect = stickerImg.naturalWidth / stickerImg.naturalHeight;
-    var sW = w * 0.72, sH = sW / aspect;
-    var sx = (w - sW) / 2, sy = h * 0.08;
-    c.save();
-    c.shadowColor = 'rgba(0,0,0,.5)'; c.shadowBlur = 20; c.shadowOffsetY = 8;
-    c.drawImage(stickerImg, sx, sy, sW, sH);
-    c.restore();
-  }
-  // Author line
-  c.fillStyle = 'rgba(255,255,255,0.85)';
-  c.font = '700 ' + Math.floor(w * 0.042) + 'px Arial,sans-serif';
-  c.textAlign = 'center'; c.textBaseline = 'top';
-  c.fillText('A Children\'s Book by Jonathan Bach', w/2, h * 0.58);
-  // Tagline
-  c.fillStyle = '#ffd700';
-  c.font = '600 italic ' + Math.floor(w * 0.036) + 'px Arial,sans-serif';
-  c.fillText('Financial Literacy for Young Wyze Shoppers', w/2, h * 0.64);
-  // Bottom decorative strip
-  c.fillStyle = '#ff6b2b';
-  c.fillRect(0, h * 0.88, w, h * 0.12);
-  c.fillStyle = '#fff';
-  c.font = '900 ' + Math.floor(w * 0.048) + 'px Arial Black,Arial,sans-serif';
-  c.textBaseline = 'middle';
-  c.fillText('Ages 5-9  •  Full Color  •  36 Pages', w/2, h * 0.94);
+  // Header gradient: purple top → green middle → orange bottom (top 18%)
+  var hH = h * 0.18;
+  var g = c.createLinearGradient(0, 0, 0, hH);
+  g.addColorStop(0, '#4a1a6b'); g.addColorStop(0.3, '#6a2d8e');
+  g.addColorStop(0.5, '#228B22'); g.addColorStop(0.7, '#1a7a1a');
+  g.addColorStop(0.9, '#F57C00'); g.addColorStop(1, '#ff6b2b');
+  c.fillStyle = g; c.fillRect(0, 0, w, hH);
+
+  // Cream body below header
+  c.fillStyle = '#FAF3E0'; c.fillRect(0, hH, w, h - hH);
+
+  // Blue border around the cream area
+  c.strokeStyle = '#1a3a5c'; c.lineWidth = 6;
+  c.strokeRect(w * 0.04, hH + 8, w * 0.92, h - hH - 16);
+
+  // === ORANGE TITLE BLOCK (centered, overlapping header/body) ===
+  var tbW = w * 0.55, tbH = h * 0.14;
+  var tbX = (w - tbW) / 2, tbY = hH * 0.15;
+  // Orange rounded rect
+  c.save();
+  c.shadowColor = 'rgba(0,0,0,.3)'; c.shadowBlur = 16; c.shadowOffsetY = 6;
+  rr(c, tbX, tbY, tbW, tbH, 16); c.fillStyle = '#F57C00'; c.fill();
+  c.restore();
+  // "Clarence" pill
+  var pillW = tbW * 0.88, pillH = tbH * 0.38;
+  var pillX = tbX + (tbW - pillW) / 2, pillY = tbY + tbH * 0.08;
+  rr(c, pillX, pillY, pillW, pillH, 8);
+  c.fillStyle = '#fff'; c.fill();
+  c.strokeStyle = '#E65100'; c.lineWidth = 2; c.stroke();
+  c.fillStyle = '#1a1a1a'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.font = '900 ' + Math.floor(pillH * 0.72) + 'px Arial Black,Arial,sans-serif';
+  c.fillText('Clarence', tbX + tbW / 2, pillY + pillH / 2);
+  // "Gets a Bargain" pill
+  var pill2Y = pillY + pillH + tbH * 0.06;
+  rr(c, pillX, pill2Y, pillW, pillH, 8);
+  c.fillStyle = '#fff'; c.fill();
+  c.strokeStyle = '#E65100'; c.lineWidth = 2; c.stroke();
+  c.fillStyle = '#1a1a1a';
+  c.font = '900 ' + Math.floor(pillH * 0.62) + 'px Arial Black,Arial,sans-serif';
+  c.fillText('Gets a Bargain', tbX + tbW / 2, pill2Y + pillH / 2);
+
+  // === GREEN PLACEHOLDER (for Clarence character image) ===
+  var gpY = hH + h * 0.06, gpH = h * 0.14;
+  var gpX = w * 0.1, gpW = w * 0.8;
+  c.fillStyle = '#b8d4b0';
+  rr(c, gpX, gpY, gpW, gpH, 10); c.fill();
+  c.strokeStyle = '#8aad80'; c.lineWidth = 2; c.stroke();
+
+  // === COUPON CARD 1: Financial Literacy ===
+  var cardY = gpY + gpH + h * 0.03;
+  var cardH = h * 0.16, cardX = w * 0.08, cardW = w * 0.84;
+  c.setLineDash([12, 8]); c.strokeStyle = '#5a4a3a'; c.lineWidth = 3;
+  rr(c, cardX, cardY, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
+  c.fillStyle = '#FAF3E0'; rr(c, cardX + 1, cardY + 1, cardW - 2, cardH - 2, 9); c.fill();
+  drawScissors(c, cardX + cardW - 20, cardY + 16, 22);
+  c.fillStyle = '#1a1a4e'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.font = '900 ' + Math.floor(cardH * 0.18) + 'px Arial Black,Arial,sans-serif';
+  c.fillText('A BOOK FOCUSING ON KID\'S', cardX + cardW / 2, cardY + cardH * 0.35);
+  c.fillText('FINANCIAL LITERACY AND EDUCATION', cardX + cardW / 2, cardY + cardH * 0.62);
+
+  // === COUPON CARD 2: Playful Introduction ===
+  var card2Y = cardY + cardH + h * 0.02;
+  var card2H = h * 0.16;
+  c.setLineDash([12, 8]); c.strokeStyle = '#5a4a3a'; c.lineWidth = 3;
+  rr(c, cardX, card2Y, cardW, card2H, 10); c.stroke(); c.setLineDash([]);
+  c.fillStyle = '#FAF3E0'; rr(c, cardX + 1, card2Y + 1, cardW - 2, card2H - 2, 9); c.fill();
+  drawScissors(c, cardX + cardW - 20, card2Y + 16, 22);
+  // Red 3D-ish title
+  c.fillStyle = '#cc2244'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.font = '900 ' + Math.floor(card2H * 0.16) + 'px Arial Black,Arial,sans-serif';
+  c.fillText('A PLAYFUL INTRODUCTION TO', cardX + cardW / 2, card2Y + card2H * 0.3);
+  c.fillText('REAL-WORLD MONEY SKILLS', cardX + cardW / 2, card2Y + card2H * 0.5);
+  // Subtitle
+  c.fillStyle = '#cc6600';
+  c.font = 'italic 600 ' + Math.floor(card2H * 0.11) + 'px Arial,sans-serif';
+  c.fillText('*Cloaked in a fun story about a young boy and his quest to purchase a robot*', cardX + cardW / 2, card2Y + card2H * 0.75);
+
+  // === COUPON CARD 3: Turn the Page ===
+  var card3Y = card2Y + card2H + h * 0.02;
+  var card3H = h * 0.18;
+  c.setLineDash([12, 8]); c.strokeStyle = '#5a4a3a'; c.lineWidth = 3;
+  rr(c, cardX, card3Y, cardW, card3H, 10); c.stroke(); c.setLineDash([]);
+  c.fillStyle = '#FAF3E0'; rr(c, cardX + 1, card3Y + 1, cardW - 2, card3H - 2, 9); c.fill();
+  drawScissors(c, cardX + cardW - 20, card3Y + 16, 22);
+  c.fillStyle = '#1a1a4e'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.font = '900 ' + Math.floor(card3H * 0.16) + 'px Arial Black,Arial,sans-serif';
+  c.fillText('TURN THE PAGE FOR MORE', cardX + cardW / 2, card3Y + card3H * 0.25);
+  c.fillText('FUN AND INSIGHT ON', cardX + cardW / 2, card3Y + card3H * 0.48);
+  c.fillText('CLARENCE\'S MISSION!', cardX + cardW / 2, card3Y + card3H * 0.72);
 });
 var coverMat = new THREE.MeshStandardMaterial({map: coverTex, side: THREE.DoubleSide, roughness: 0.6});
 var coverMesh = new THREE.Mesh(coverGeo, coverMat);
@@ -1038,6 +1191,8 @@ var ft=0;
   ren.render(scene, cam);
 })();
 
+// Initial size sync
+(function(){W=wrap.clientWidth;H=wrap.clientHeight;cam.aspect=W/H;cam.updateProjectionMatrix();ren.setSize(W,H);})();
 window.addEventListener('resize', function(){
   W=wrap.clientWidth; H=wrap.clientHeight;
   cam.aspect=W/H; cam.updateProjectionMatrix(); ren.setSize(W,H);
