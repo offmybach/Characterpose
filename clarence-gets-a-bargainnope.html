@@ -125,9 +125,9 @@ footer p{color:rgba(255,255,255,.25);font-size:.8rem}
 .title-pill h1{font-size:clamp(2rem,5vw,3.5rem)}
 .title-pill h2{font-size:clamp(1.5rem,4vw,2.8rem)}
 
-/* === LOOK INSIDE STICKER === */
-.look-inside-sticker{position:absolute;top:18px;right:18px;background:#FF6D00;color:#fff;font-family:'Fredoka One',cursive;font-size:clamp(.85rem,2vw,1.2rem);padding:18px 22px;border-radius:50%;transform:rotate(15deg);box-shadow:0 4px 16px rgba(255,109,0,.5);cursor:pointer;text-align:center;line-height:1.2;text-decoration:none;transition:transform .2s,box-shadow .2s;z-index:10;border:3px dashed #FFE082;width:clamp(90px,12vw,130px);height:clamp(90px,12vw,130px);display:flex;align-items:center;justify-content:center}
-.look-inside-sticker:hover{transform:rotate(5deg) scale(1.1);box-shadow:0 6px 24px rgba(255,109,0,.7)}
+/* === LOOK INSIDE STICKER — Neon Orange Starburst (Page 17 Clearance style) === */
+.look-inside-sticker{position:absolute;top:12px;right:12px;background:radial-gradient(circle at 40% 35%,#ff4400,#ff2200 50%,#cc0000 100%);color:#fff;font-family:'Fredoka One',cursive;font-size:clamp(.9rem,2.2vw,1.3rem);padding:0;border-radius:0;transform:rotate(-12deg);box-shadow:0 6px 24px rgba(200,0,0,.5);cursor:pointer;text-align:center;line-height:1.15;text-decoration:none;transition:transform .2s,box-shadow .2s;z-index:10;border:none;width:clamp(110px,14vw,150px);height:clamp(110px,14vw,150px);display:flex;align-items:center;justify-content:center;clip-path:polygon(50% 0%,56% 8%,63% 1%,66% 10%,74% 4%,75% 14%,83% 10%,82% 20%,91% 18%,88% 28%,96% 28%,92% 37%,100% 40%,94% 47%,100% 53%,94% 57%,99% 65%,91% 66%,95% 75%,87% 73%,89% 82%,80% 79%,80% 88%,72% 83%,70% 92%,63% 86%,58% 94%,53% 86%,47% 93%,43% 85%,36% 92%,34% 83%,26% 88%,26% 79%,18% 82%,20% 73%,12% 74%,16% 65%,7% 65%,13% 57%,5% 53%,12% 47%,5% 40%,14% 37%,8% 28%,18% 28%,15% 19%,24% 20%,23% 11%,32% 14%,33% 4%,40% 10%,43% 1%,48% 8%);text-shadow:0 2px 4px rgba(0,0,0,.4);letter-spacing:0.5px}
+.look-inside-sticker:hover{transform:rotate(-5deg) scale(1.12);box-shadow:0 8px 30px rgba(200,0,0,.7)}
 
 /* === COUPON NAVIGATION MENU === */
 .coupon-nav{background:rgba(255,255,255,0.7);backdrop-filter:blur(8px);border-radius:16px;border:1px solid rgba(26,58,92,0.1);padding:40px 20px;max-width:1000px;margin:0 auto}
@@ -162,9 +162,25 @@ footer p{color:rgba(255,255,255,.25);font-size:.8rem}
 .buy-btn.indie{background:rgba(255,255,255,.2);color:#fff;border:2px solid rgba(255,255,255,.5)}
 .success-placeholder{width:180px;height:220px;margin:0 auto 20px;background:rgba(255,255,255,.2);border-radius:16px;display:flex;align-items:center;justify-content:center;font-family:'Fredoka One',cursive;color:#fff;font-size:.85rem;text-align:center;padding:20px;border:3px dashed rgba(255,255,255,.4)}
 
+/* === TRUST BLOCK — FOR THE PROS === */
+.trust-block{background:#0d1f30;color:#fff;padding:70px 20px;position:relative}
+.trust-inner{max-width:960px;margin:0 auto;display:flex;gap:40px;flex-wrap:wrap;align-items:flex-start;justify-content:center}
+.trust-image{width:240px;height:300px;background:rgba(255,255,255,.08);border-radius:16px;display:flex;align-items:center;justify-content:center;font-family:'Fredoka One',cursive;color:rgba(255,255,255,.5);font-size:.85rem;text-align:center;padding:20px;border:3px dashed rgba(255,255,255,.15);flex-shrink:0}
+.trust-text{flex:1;min-width:280px}
+.trust-text .section-tag{font-family:'Fredoka One',cursive;font-size:.75rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:8px}
+.trust-text h3{font-family:'Fredoka One',cursive;font-size:clamp(1.4rem,3vw,1.9rem);color:#FFB74D;margin-bottom:16px;line-height:1.3}
+.trust-text p{font-size:1rem;line-height:1.8;margin-bottom:16px;color:rgba(255,255,255,.9);font-weight:500}
+.trust-text ul{list-style:none;padding:0;margin:0 0 20px 0}
+.trust-text ul li{padding:10px 0 10px 28px;position:relative;font-size:.95rem;line-height:1.6;color:rgba(255,255,255,.9);border-bottom:1px solid rgba(255,255,255,.06)}
+.trust-text ul li::before{content:'\2713';position:absolute;left:0;color:#ff6b2b;font-weight:900;font-size:1.1rem}
+.trust-text ul li strong{color:#FFB74D;font-weight:800}
+.trust-text .trust-cta{display:inline-block;padding:16px 40px;background:linear-gradient(135deg,#ff6b2b,#ff3d00);color:#fff;font-family:'Fredoka One',cursive;font-size:1rem;text-decoration:none;border-radius:40px;transition:.3s;box-shadow:0 4px 20px rgba(255,61,0,.35);margin-top:8px;letter-spacing:1px;border:none;cursor:pointer}
+.trust-text .trust-cta:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 8px 30px rgba(255,61,0,.5)}
+.trust-text .trust-closer{font-family:'Fredoka One',cursive;font-size:1.05rem;color:#ff6b2b;margin-top:20px}
+
 /* === AUTHORITY FOOTER === */
 .authority-footer{background:#1a3a5c;color:#fff;padding:50px 20px}
-.footer-inner{max-width:900px;margin:0 auto;display:flex;gap:30px;flex-wrap:wrap;align-items:flex-start;justify-content:center}
+.footer-inner{max-width:960px;margin:0 auto;display:flex;gap:30px;flex-wrap:wrap;align-items:flex-start;justify-content:center}
 .footer-image-placeholder{width:200px;height:200px;background:rgba(255,255,255,.1);border-radius:16px;display:flex;align-items:center;justify-content:center;font-family:'Fredoka One',cursive;color:rgba(255,255,255,.5);font-size:.8rem;text-align:center;padding:20px;border:3px dashed rgba(255,255,255,.2);flex-shrink:0}
 .footer-text{flex:1;min-width:260px}
 .footer-text h3{font-family:'Fredoka One',cursive;font-size:1.4rem;color:#FFB74D;margin-bottom:12px}
@@ -188,7 +204,7 @@ footer p{color:rgba(255,255,255,.25);font-size:.8rem}
 .particles{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:hidden;opacity:.35}
 
 /* === RESPONSIVE === */
-@media(max-width:600px){.title-block{padding:14px 18px}.title-pill{padding:8px 24px}.look-inside-sticker{width:80px;height:80px;font-size:.75rem;top:10px;right:10px;padding:12px}.coupon-grid{grid-template-columns:1fr}.asset-row,.asset-row.reverse{flex-direction:column;text-align:center}.footer-inner{flex-direction:column;align-items:center;text-align:center}}
+@media(max-width:600px){.title-block{padding:14px 18px}.title-pill{padding:8px 24px}.look-inside-sticker{width:90px;height:90px;font-size:.78rem;top:8px;right:8px}.coupon-grid{grid-template-columns:1fr}.asset-row,.asset-row.reverse{flex-direction:column;text-align:center}.footer-inner,.trust-inner{flex-direction:column;align-items:center;text-align:center}.trust-image{width:180px;height:220px}}
 
 </style>
 <script type="application/ld+json">
@@ -296,13 +312,33 @@ footer p{color:rgba(255,255,255,.25);font-size:.8rem}
   </div>
 </section>
 
+<!-- TRUST BLOCK — FOR THE PROS -->
+<section class="trust-block reveal">
+  <div class="trust-inner">
+    <div class="trust-image">Dad at the desk<br>(Page 26 asset)</div>
+    <div class="trust-text">
+      <div class="section-tag">For the Pros</div>
+      <h3>Why Clarence Belongs in Your Curriculum</h3>
+      <p>Financial literacy is usually treated as a &ldquo;high school&rdquo; topic, but research shows that money habits are formed by age seven. Most educational books on this subject are either too dry for a first-grader or too simplistic for a fifth-grader.</p>
+      <p><em>Clarence Gets a Bargain</em> bridges that gap. It is a 36-page narrative tool designed for K&ndash;5 classrooms, libraries, and financial education programs. We don&rsquo;t just tell a story; we provide a roadmap for the following core concepts:</p>
+      <ul>
+        <li><strong>Behavioral Economics:</strong> Navigating the &ldquo;Wants vs. Needs&rdquo; conflict through character-driven stakes.</li>
+        <li><strong>Real-World Math:</strong> Practical applications of sales tax, percentage markdowns, and coupon stacking.</li>
+        <li><strong>The 529 Account:</strong> A rare, age-appropriate introduction to long-term college savings and family budgeting.</li>
+        <li><strong>The Financial Glossary:</strong> Two full pages of page-referenced definitions that transform a &ldquo;picture book&rdquo; into a verifiable lesson plan.</li>
+      </ul>
+      <p class="trust-closer">Stop teaching money with abstract worksheets. Teach it with a mission.</p>
+      <a class="trust-cta" href="#">DOWNLOAD THE EDUCATOR&rsquo;S PREVIEW</a>
+    </div>
+  </div>
+</section>
+
+<!-- AUTHOR FOOTER -->
 <footer class="authority-footer">
   <div class="footer-inner">
-    <div class="footer-image-placeholder">Dad at the desk<br>(Page 26 asset)</div>
+    <div class="footer-image-placeholder">Jonathan Bach<br>(Author Photo)</div>
     <div class="footer-text">
-      <h3>A Note to Educators</h3>
-      <p>Clarence Gets a Bargain was designed to make financial literacy accessible and fun for young learners. Each chapter introduces a core money concept through story-driven scenarios that kids naturally engage with. Use it in classrooms, at home, or anywhere curiosity meets a price tag.</p>
-      <h4>About the Author</h4>
+      <h3>About the Author</h3>
       <p>Besides author and illustrator, Jonathan is an attorney and mixed-media artist. Been called out by many as being both right and left brained. He is a self-taught, honorary member of the Nerd Herd. Can also spot a typo from a mile away.</p>
       <p>What makes him qualified to author this book is his gift for finding the best deals on&hellip; well, everything. Through well-honed, relentless research both prior to and after the advent of the internet, he has earned the reputation as a &ldquo;deal master.&rdquo; Truly created this book to plant seeds in the noggins of the little ones and hopefully turn into full-grown lightbulbs before becoming teens.</p>
     </div>
