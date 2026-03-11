@@ -369,7 +369,7 @@ var W = wrap.clientWidth, H = wrap.clientHeight;
 
 var scene = new THREE.Scene();
 var cam = new THREE.PerspectiveCamera(34, W/H, 0.1, 100);
-cam.position.set(0, 1.7, 3.5);
+cam.position.set(0, 2.8, 3.0);
 cam.lookAt(0, 0, 0);
 
 var ren = new THREE.WebGLRenderer({canvas:canvas, antialias:true, alpha:true});
@@ -377,12 +377,18 @@ ren.setSize(W, H); ren.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 ren.shadowMap.enabled = true;
 
 scene.add(new THREE.AmbientLight(0xffffff, 0.5));
-var key = new THREE.DirectionalLight(0xffffff, 0.85);
-key.position.set(3, 6, 4); key.castShadow = true; key.shadow.mapSize.set(1024,1024); scene.add(key);
-var fill = new THREE.DirectionalLight(0x8888ff, 0.2); fill.position.set(-4, 3, -3); scene.add(fill);
-var rim = new THREE.DirectionalLight(0xffd700, 0.15); rim.position.set(0, -2, -4); scene.add(rim);
-var gnd = new THREE.Mesh(new THREE.PlaneGeometry(18,18), new THREE.ShadowMaterial({opacity:.3}));
-gnd.rotation.x=-Math.PI/2; gnd.position.y=-1.8; gnd.receiveShadow=true; scene.add(gnd);
+var key = new THREE.DirectionalLight(0xffffff, 0.9);
+key.position.set(2, 8, 3); key.castShadow = true;
+key.shadow.mapSize.set(2048,2048);
+key.shadow.camera.near = 0.5; key.shadow.camera.far = 20;
+key.shadow.camera.left = -5; key.shadow.camera.right = 5;
+key.shadow.camera.top = 5; key.shadow.camera.bottom = -5;
+key.shadow.bias = -0.001;
+key.shadow.radius = 4;
+scene.add(key);
+var fill = new THREE.DirectionalLight(0x8888ff, 0.15); fill.position.set(-4, 3, -3); scene.add(fill);
+var gnd = new THREE.Mesh(new THREE.PlaneGeometry(20,20), new THREE.ShadowMaterial({opacity:.55}));
+gnd.rotation.x=-Math.PI/2; gnd.position.y=-1.2; gnd.receiveShadow=true; scene.add(gnd);
 
 // ---- TEXTURES ----
 var TW=1200, TH=1680;
@@ -747,7 +753,7 @@ var totalSpreads = Math.ceil(pages.length / 2);
 // and slope back down. Far from spine they level off into a flat plateau.
 // Profile: sharp rise at spine → peak ~20% out → gradual slope → flat edge.
 // Backwards S curve: z = A * t * exp(-B*t) + baseline
-var PW = 1.5, PH = 2.1, SX = 32, SY = 16;
+var PW = 1.5, PH = 2.1, SX = 40, SY = 1;
 
 function makePageGeo(side) {
   var geo = new THREE.PlaneGeometry(PW, PH, SX, SY);
@@ -758,16 +764,14 @@ function makePageGeo(side) {
     else x -= PW / 2;
     // t = 0 at spine, 1 at outer edge
     var t = Math.abs(x) / PW;
-    // Flowing magazine arc — like real paper draping from the spine
-    // Pronounced lift near spine that smoothly curves down to the edges
-    // Uses exponential decay for a natural paper drape shape
-    var spineArc = 0.18 * t * Math.exp(-2.5 * t); // peak ~0.4 at t≈0.4
-    var bodyDrape = 0.06 * Math.pow(1 - t, 1.5);  // gentle residual lift
-    var edgeDrop = -0.03 * Math.pow(t, 3);          // slight droop at outer edge
-    var z = spineArc + bodyDrape + edgeDrop;
-    // Smooth crease transition at center fold
-    var creaseEase = 1 - Math.pow(1 - Math.min(t / 0.06, 1), 4);
-    z *= creaseEase;
+    // Dramatic magazine arch — like the reference: pages arch HIGH near spine,
+    // drape down significantly toward outer edges
+    // Think of it as a quarter-pipe: steep rise at spine, smooth rolloff to edge
+    var arch = 0.45 * Math.pow(1 - t, 2.2);          // strong lift from spine (peaks 0.45 at spine)
+    var edgeSag = -0.08 * Math.pow(t, 1.5);           // outer edges sag below center
+    var z = arch + edgeSag;
+    // Smooth the very center (spine crease) — tiny flat zone at fold
+    z *= Math.min(t / 0.03, 1);
     pos.setX(i, x);
     pos.setY(i, y);
     pos.setZ(i, z);
@@ -778,15 +782,15 @@ function makePageGeo(side) {
 
 // ---- BOOK GROUP ----
 var bookGroup = new THREE.Group();
-bookGroup.rotation.x = -0.25; // Tilted to show mustache curve
+bookGroup.rotation.x = -0.35; // Tilted to show dramatic arch from above
 scene.add(bookGroup);
 
-// Spine — thin crease line at center fold (no bulky box)
+// Spine — thin shadow line at center fold
 var spineMesh = new THREE.Mesh(
-  new THREE.BoxGeometry(0.005, PH * 0.98, 0.002),
-  new THREE.MeshStandardMaterial({color: 0x888888, roughness: 0.9, transparent: true, opacity: 0.4})
+  new THREE.BoxGeometry(0.02, PH * 0.98, 0.005),
+  new THREE.MeshStandardMaterial({color: 0x444444, roughness: 0.9, transparent: true, opacity: 0.3})
 );
-spineMesh.position.z = 0.01;
+spineMesh.position.z = 0.0;
 spineMesh.visible = false;
 bookGroup.add(spineMesh);
 
@@ -1217,7 +1221,7 @@ var ft=0;
   requestAnimationFrame(render); ft+=.012;
   bookGroup.position.y = Math.sin(ft)*.03;
   bookGroup.rotation.y += (tRY - bookGroup.rotation.y) * .05;
-  bookGroup.rotation.x += ((-0.25 + tRX) - bookGroup.rotation.x) * .05;
+  bookGroup.rotation.x += ((-0.35 + tRX) - bookGroup.rotation.x) * .05;
   ren.render(scene, cam);
 })();
 
