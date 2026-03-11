@@ -369,7 +369,7 @@ var W = wrap.clientWidth, H = wrap.clientHeight;
 
 var scene = new THREE.Scene();
 var cam = new THREE.PerspectiveCamera(34, W/H, 0.1, 100);
-cam.position.set(0, 2.8, 3.0);
+cam.position.set(0, 2.4, 3.2);
 cam.lookAt(0, 0, 0);
 
 var ren = new THREE.WebGLRenderer({canvas:canvas, antialias:true, alpha:true});
@@ -427,13 +427,13 @@ function drawHeader(ctx, w, hH) {
   var g=ctx.createLinearGradient(0,0,0,hH);
   g.addColorStop(0,'#4a1a6b');g.addColorStop(0.3,'#6a2d8e');g.addColorStop(0.5,'#228B22');g.addColorStop(0.7,'#1a7a1a');g.addColorStop(0.9,'#F57C00');g.addColorStop(1,'#ff6b2b');
   ctx.fillStyle=g;ctx.fillRect(0,0,w,hH);
-  // Draw sticker PNG centered, maintaining aspect ratio, no stretching
+  // Draw sticker PNG centered, maintaining aspect ratio, filling most of header
   if (stickerImg.complete && stickerImg.naturalWidth > 0) {
     var imgAspect = stickerImg.naturalWidth / stickerImg.naturalHeight;
-    var tH = hH * 0.80;
+    var tH = hH * 0.90;
     var tW = tH * imgAspect;
-    // Cap width at 60% of page width
-    if (tW > w * 0.60) { tW = w * 0.60; tH = tW / imgAspect; }
+    // Cap width at 80% of page width
+    if (tW > w * 0.80) { tW = w * 0.80; tH = tW / imgAspect; }
     var sx = (w - tW) / 2, sy = (hH - tH) / 2;
     ctx.save();
     ctx.shadowColor='rgba(0,0,0,.4)';ctx.shadowBlur=14;ctx.shadowOffsetY=5;
@@ -570,8 +570,10 @@ function drawPageBg(ctx, w, h) {
   drawHeader(ctx, w, hH);
   ctx.fillStyle = '#f5ecd7';
   ctx.fillRect(0, hH, w, h - hH);
-  // Orange/white CGB sticker at top right
-  drawCGBSticker(ctx, w - 60, hH + 40, 28);
+  // If sticker image failed to load, draw CGB text badge as fallback in header center
+  if (!stickerImg.complete || stickerImg.naturalWidth === 0) {
+    drawCGBSticker(ctx, w / 2, hH * 0.5, Math.floor(hH * 0.35));
+  }
   return hH;
 }
 
@@ -764,14 +766,13 @@ function makePageGeo(side) {
     else x -= PW / 2;
     // t = 0 at spine, 1 at outer edge
     var t = Math.abs(x) / PW;
-    // Dramatic magazine arch — like the reference: pages arch HIGH near spine,
-    // drape down significantly toward outer edges
-    // Think of it as a quarter-pipe: steep rise at spine, smooth rolloff to edge
-    var arch = 0.45 * Math.pow(1 - t, 2.2);          // strong lift from spine (peaks 0.45 at spine)
-    var edgeSag = -0.08 * Math.pow(t, 1.5);           // outer edges sag below center
-    var z = arch + edgeSag;
-    // Smooth the very center (spine crease) — tiny flat zone at fold
-    z *= Math.min(t / 0.03, 1);
+    // MUSTACHE / distant-bird shape:
+    // Low at spine (crease) → rises to peak ~35% out → slopes back down at outer edge
+    // Like sin(t * PI) but with the peak shifted inward
+    // Both pages together form the classic "handlebar-less mustache"
+    var z = 0.35 * Math.sin(t * Math.PI * 0.92);
+    // Gentle slope down at outer edge (no flat handlebar ends)
+    z *= (1 - 0.25 * Math.pow(t, 1.8));
     pos.setX(i, x);
     pos.setY(i, y);
     pos.setZ(i, z);
