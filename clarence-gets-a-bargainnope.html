@@ -956,131 +956,148 @@ stickerImg.onload = function() {
 };
 
 var pages = [
-  // PAGE 0: INSIDE FRONT COVER — dedication / welcome page
+  // PAGE 0: INSIDE FRONT COVER — dedication / welcome
   makeTex(function(c, w, h) {
     var hH = drawPageBg(c, w, h);
-    // Decorative inner frame
     var pad = w * 0.08;
     c.setLineDash([14, 8]); c.strokeStyle = '#c4a060'; c.lineWidth = 4;
     rr(c, pad, hH + pad*0.6, w - pad*2, h - hH - pad*1.2, 12); c.stroke(); c.setLineDash([]);
 
-    // Title
     c.textAlign = 'center'; c.textBaseline = 'middle';
     c.fillStyle = '#F57C00';
-    c.font = '900 ' + Math.floor(w * 0.07) + 'px Arial Black,Arial,sans-serif';
-    c.fillText('Welcome to', w/2, hH + h*0.12);
+    c.font = '900 ' + Math.floor(w * 0.065) + 'px Arial Black,Arial,sans-serif';
+    c.fillText('Hold Up.', w/2, hH + h*0.10);
     c.fillStyle = '#1a1a4e';
-    c.font = '900 ' + Math.floor(w * 0.085) + 'px Arial Black,Arial,sans-serif';
-    c.fillText('Clarence\'s', w/2, hH + h*0.20);
-    c.fillText('Coupon Book!', w/2, hH + h*0.28);
+    c.font = '900 ' + Math.floor(w * 0.075) + 'px Arial Black,Arial,sans-serif';
+    c.fillText('Before You Flip...', w/2, hH + h*0.18);
 
-    // Scissors decoration
     c.font = Math.floor(w * 0.08) + 'px serif';
-    c.fillText('\u2702\uFE0F', w/2, hH + h*0.37);
+    c.fillText('\u2702\uFE0F', w/2, hH + h*0.27);
 
-    // Dedication text
     c.fillStyle = '#333';
-    c.font = '700 ' + Math.floor(w * 0.04) + 'px Arial,sans-serif';
     var dedLines = [
-      'For every kid who ever asked,',
-      '"Can I have that?"',
+      'This book is for every kid',
+      'who ever side-eyed a price tag',
+      'and thought, "Nah."',
       '',
-      'And for every parent who answered,',
-      '"Let\'s find a better deal."',
+      'And for every parent who said',
+      '"Put it back" while secretly',
+      'doing the same math in their head.',
       '',
-      'Written & Illustrated by',
+      'For the cart-pushers.',
+      'The coupon-clippers.',
+      'The ones who check three stores',
+      'before buying batteries.',
+      '',
+      'You know who you are.',
     ];
-    var dy = hH + h*0.44;
+    var dy = hH + h*0.34;
     for (var i = 0; i < dedLines.length; i++) {
-      if (dedLines[i] === '') { dy += w*0.025; continue; }
-      c.font = (i === 1 || i === 4) ?
-        'italic 700 ' + Math.floor(w * 0.042) + 'px Arial,sans-serif' :
-        '700 ' + Math.floor(w * 0.038) + 'px Arial,sans-serif';
+      if (dedLines[i] === '') { dy += w*0.018; continue; }
+      var isItalic = (i === 2 || i === 5 || i === 6);
+      c.font = isItalic ?
+        'italic 700 ' + Math.floor(w * 0.035) + 'px Arial,sans-serif' :
+        '700 ' + Math.floor(w * 0.034) + 'px Arial,sans-serif';
       c.fillText(dedLines[i], w/2, dy);
-      dy += w * 0.055;
+      dy += w * 0.044;
     }
-    // Author name — larger
     c.fillStyle = '#F57C00';
-    c.font = '900 ' + Math.floor(w * 0.055) + 'px Arial Black,Arial,sans-serif';
-    c.fillText('Jonathan Bach', w/2, dy + w*0.02);
-
-    // Copyright
+    c.font = '900 ' + Math.floor(w * 0.042) + 'px Arial Black,Arial,sans-serif';
+    c.fillText('\u2014 Jonathan Bach', w/2, dy + w*0.02);
     c.fillStyle = '#888';
-    c.font = '600 ' + Math.floor(w * 0.028) + 'px Arial,sans-serif';
-    c.fillText('\u00A9 2026 Jonathan Bach. All rights reserved.', w/2, h - pad*0.8);
+    c.font = 'italic 600 ' + Math.floor(w * 0.026) + 'px Arial,sans-serif';
+    c.fillText('Attorney. Artist. Recovering coupon addict.', w/2, dy + w*0.065);
 
+    c.fillStyle = '#999';
+    c.font = '600 ' + Math.floor(w * 0.024) + 'px Arial,sans-serif';
+    c.fillText('\u00A9 2026 Jonathan Bach. All rights reserved.', w/2, h - pad*0.8);
+    c.fillText('No coupons were harmed in the making of this book.', w/2, h - pad*0.4);
     drawCornerCurl(c, w, h);
   }),
 
-  // PAGE 1: THE STORY
+  // PAGE 1: THE HOOK — what's this book about
   makeTex(function(c, w, h) {
     var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'The Story', "Clarence's Big Day");
+    drawSectionBanner(c, w, hH + h*0.06, 'The Setup', "OK, So Here's The Deal");
     var top = hH + h*0.13, m = w*0.05, gap = h*0.02;
     var cH = (h - top - m) / 2 - gap;
     drawCard(c, m, top, w - m*2, cH,
-      '\uD83D\uDED2', 'The Sea-Mart Trip',
-      'Clarence and Mom head to the store with sale ads in hand and a mission: find the best robot for the best price. Along the way, Clarence encounters a sign that stops him dead in his tracks \u2014 and the surprise will make you laugh out loud.');
+      '\uD83D\uDED2', 'One Kid. One Store. One Robot.',
+      'Clarence wants a robot. Not just any robot \u2014 THE robot. The one with the light-up eyes and the arm that actually grabs stuff. Problem is, that robot costs more than Clarence has ever seen in his life. Good thing Mom has a plan. Bad thing? The plan involves math.');
     drawCard(c, m, top + cH + gap, w - m*2, cH,
-      '\u2B50', 'The Wyze Choice',
-      'Instead of grabbing the newest, priciest robot, Clarence finds a smarter pick \u2014 same features, way less money. Then he remembers the coupon in his pocket. Double savings! His parents couldn\'t be prouder of their Wyze little shopper.');
+      '\uD83E\uDD2F', 'Plot Twist: Learning Happens',
+      'Somewhere between aisle 3 and the checkout line, Clarence accidentally becomes financially literate. He compares prices. He reads a sale ad. He whips out a coupon like a tiny attorney presenting Exhibit A. The kid basically passes the bar exam of bargain hunting. His parents? Shook.');
     drawCornerCurl(c, w, h);
   }),
 
-  // PAGE 2: FOR PARENTS & EDUCATORS
+  // PAGE 2: THE SECRET SAUCE — what makes it work
   makeTex(function(c, w, h) {
     var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'For Parents & Educators', 'Why Families Love It');
+    drawSectionBanner(c, w, hH + h*0.06, 'The Secret Sauce', 'Why This Book Hits Different');
     var top = hH + h*0.13, m = w*0.05, gap = h*0.02;
     var cH = (h - top - m) / 3 - gap;
     drawCard(c, m, top, w - m*2, cH,
-      '\uD83D\uDCD6', 'Undercover Edutainment',
-      'Kids think they\'re reading a hilarious adventure. Parents know financial literacy is sneaking in like a ninja in a piggy bank. Story-first design means concepts stick without feeling forced.');
+      '\uD83C\uDF6A', 'Trojan Horse Edutainment',
+      'Kids think they\'re reading about a boy and his robot quest. They have no idea they\'re absorbing budgeting, comparison shopping, and delayed gratification. It\'s vegetables hidden in mac & cheese. It\'s a math lesson disguised as a bedtime story. Sneaky? Absolutely. Effective? Ask Clarence.');
     drawCard(c, m, top + cH + gap, w - m*2, cH,
-      '\u2702\uFE0F', 'Real-World Scenarios',
-      'Sale ads, coupons, marked-down shelves, receipts, comparison shopping \u2014 every concept comes from a real situation kids will actually encounter. No abstract theory. Just practical life skills wrapped in fun.');
+      '\uD83D\uDCA1', 'Written By a Real Human Dad',
+      'Not a committee. Not a curriculum board. A dad who once drove to three different Targets to save $4.12 on a vacuum. A guy who argues for a living and shops like it\'s an Olympic event. Every scenario in this book? Happened. Probably last Tuesday.');
     drawCard(c, m, top + (cH + gap)*2, w - m*2, cH,
-      '\u2B50', 'Earn Before You Spend',
-      'Chores and grades unlock robot rewards. The first rule of money: you gotta make it before you spend it. Clarence models responsibility, patience, and smart decision-making for ages 5\u20139.');
+      '\uD83C\uDFAF', 'No Boring Parts. Seriously.',
+      'Most kids\' money books read like a pamphlet you\'d find at the bank next to the free lollipops. This one reads like a story you actually want to finish. There\'s suspense (will he get the robot?). There\'s drama (the price tag reveal). There\'s even a twist ending that grown-ups never see coming.');
   }),
 
-  // PAGE 3: REVIEWS
+  // PAGE 3: FOR THE PARENTS — real talk
   makeTex(function(c, w, h) {
     var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'Reviews', 'What Readers Say');
-    var top = hH + h*0.13, m = w*0.05, gap = h*0.015;
-    var availH = h - top - m;
-    // First review gets 45% (longer quote), others split remaining
-    var cH1 = availH * 0.45;
-    var cH2 = (availH - cH1 - gap * 2) / 2;
-    drawReview(c, m, top, w - m*2, cH1,
-      'Clarence Gets a Bargain is a fabulous book for parents and educators who want to teach children early lessons about financial literacy. This book allows adults to have an important conversation about essential money management skills. The story of Clarence and his parents will open up a conversation to discuss budgeting and spending money wisely. I hope this will become the first in a series of financial literacy books!',
-      '\u2014 Maryann Milewski Moskal, Veteran Elementary School Educator');
-    drawReview(c, m, top + cH1 + gap, w - m*2, cH2,
-      'Clarence is the hero every kid needs. Funny, smart, and teaches real lessons without being preachy.',
-      '\u2014 Teacher\'s Pick, 1st\u20135th Grade');
-    drawReview(c, m, top + cH1 + gap + cH2 + gap, w - m*2, cH2,
-      'Finally a children\'s book about money that doesn\'t feel like a textbook. The twist at the end had us absolutely howling!',
-      '\u2014 David R., Educator');
+    drawSectionBanner(c, w, hH + h*0.06, 'Real Talk For Parents', 'Yeah, We Need To Discuss');
+    var top = hH + h*0.13, m = w*0.05, gap = h*0.02;
+    var cH = (h - top - m) / 3 - gap;
+    drawCard(c, m, top, w - m*2, cH,
+      '\uD83D\uDCB8', 'The Money Talk Is Awkward',
+      'We talk to kids about stranger danger, vegetables, and the importance of sharing. But money? We act like it\'s classified information. "We\'ll talk about it when you\'re older." Older when? When they\'re signing for student loans? This book cracks the door open early, with laughs, not lectures.');
+    drawCard(c, m, top + cH + gap, w - m*2, cH,
+      '\uD83E\uDDE0', 'Seeds, Not Textbooks',
+      'I didn\'t write this to make five-year-olds balance checkbooks. I wrote it to plant a little seed \u2014 a tiny voice in their noggin that says, "Wait... is there a better deal?" That seed grows into a lightbulb. That lightbulb becomes a kid who thinks before they grab. That\'s the whole game.');
+    drawCard(c, m, top + (cH + gap)*2, w - m*2, cH,
+      '\uD83D\uDE02', 'You\'ll Laugh Too. Fair Warning.',
+      'Parents keep telling me they started reading this to their kids and ended up finishing it themselves. One dad said he read the Sea-Mart scene out loud in a funny voice and his daughter made him do it four nights in a row. Another mom said she cried at the end. (She says it was allergies. It was not allergies.)');
     drawCornerCurl(c, w, h);
   }),
 
-  // PAGE 4: FEATURES
+  // PAGE 4: FOR EDUCATORS — classroom gold
   makeTex(function(c, w, h) {
     var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'Inside The Book', 'Financial Concepts Covered');
+    drawSectionBanner(c, w, hH + h*0.06, 'For Educators', 'Classroom-Ready. No Prep.');
+    var top = hH + h*0.13, m = w*0.05, gap = h*0.02;
+    var cH = (h - top - m) / 3 - gap;
+    drawCard(c, m, top, w - m*2, cH,
+      '\uD83C\uDFEB', 'Drop It Into Any Lesson Plan',
+      'Math? Covered. Reading comprehension? Built in. Social studies? You bet \u2014 Clarence navigates an actual store economy. You can use this book in 20-minute read-alouds, small group discussions, or as a launchpad for a whole financial literacy unit. One book, six standards. You\'re welcome.');
+    drawCard(c, m, top + cH + gap, w - m*2, cH,
+      '\uD83D\uDCCB', 'Discussion Starters Included',
+      '"What would YOU do with a coupon?" "Is the most expensive thing always the best?" "What\'s the difference between wanting something and needing it?" These aren\'t hypotheticals \u2014 they\'re the actual conversations kids start having after page 12. Teachers didn\'t plan those talks. They just... happened.');
+    drawCard(c, m, top + (cH + gap)*2, w - m*2, cH,
+      '\uD83D\uDCE6', 'Bulk Orders? We Got You.',
+      'Classroom sets, school library copies, district-wide rollouts \u2014 we do all of it. Volume pricing that would make Clarence himself nod in approval. Educator guides, printable activities, and a discussion companion come free with bulk orders. Hit up kidsmoneybook.com and let\'s talk numbers. (Pun intended.)');
+  }),
+
+  // PAGE 5: WHAT KIDS ACTUALLY LEARN — concepts grid
+  makeTex(function(c, w, h) {
+    var hH = drawPageBg(c, w, h);
+    drawSectionBanner(c, w, hH + h*0.06, 'What Kids Walk Away With', 'The Money Skills Menu');
     var top = hH + h*0.13, m = w*0.05, gap = h*0.015;
     var cols = 2, rows = 3;
     var cardGap = w*0.025;
     var cW = (w - m*2 - cardGap) / cols;
     var cH = (h - top - m) / rows - gap;
     var items = [
-      ['\uD83D\uDCCA','Budgeting','Bills, mortgage, income \u2014 Mom breaks it down so even a kid gets it.'],
-      ['\uD83D\uDED2','Comparison Shopping','Check the ads before you go. Homework before shopping!'],
-      ['\uD83C\uDFF7\uFE0F','Marked-Down Deals','Not always in the ads but right on the shelf. Big orange stickers mean big savings.'],
-      ['\u2702\uFE0F','Coupons','Cut \'em out, hand \'em over, save more. Stack them with other deals for maximum savings!'],
-      ['\uD83E\uDDFE','Receipts','Always get one. Mom photographs hers. Smart shoppers keep records.'],
-      ['\uD83C\uDFAE','Wants vs. Needs','Just because it\'s a deal doesn\'t mean you need it. Think first!']
+      ['\uD83D\uDCCA','Budgeting','Mom explains bills, mortgage, and why we can\'t just "get more money from the wall." Clarence gets it. Eventually.'],
+      ['\uD83D\uDD0D','Comparison Shopping','Three stores. Three prices. One robot. Clarence discovers that homework isn\'t just for school \u2014 it\'s for shopping too.'],
+      ['\uD83C\uDFF7\uFE0F','Marked-Down Deals','Not in the ad? Check the shelf. Those big orange stickers are basically treasure maps for people like us.'],
+      ['\u2702\uFE0F','Coupons','Paper gold. Clarence discovers the ancient art of clipping, stacking, and presenting a coupon like he\'s filing a legal brief.'],
+      ['\uD83E\uDDFE','Receipts & Records','Mom photographs every receipt. Clarence thinks it\'s weird. Clarence will thank her in 20 years.'],
+      ['\uD83C\uDFAF','Wants vs. Needs','The hardest lesson: just because it\'s on sale doesn\'t mean you need it. Looking at you, robotic hamster.']
     ];
     for (var r = 0; r < rows; r++) {
       for (var cl = 0; cl < cols; cl++) {
@@ -1094,21 +1111,201 @@ var pages = [
     }
   }),
 
-  // PAGE 5: BACK COVER — card style like front
+  // PAGE 6: REVIEWS — what real people said
   makeTex(function(c, w, h) {
     var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'Get Your Copy', 'Start The Adventure');
+    drawSectionBanner(c, w, hH + h*0.06, 'Don\'t Take My Word For It', 'Actual Humans Weigh In');
+    var top = hH + h*0.13, m = w*0.05, gap = h*0.015;
+    var availH = h - top - m;
+    var cH1 = availH * 0.42;
+    var cH2 = (availH - cH1 - gap * 2) / 2;
+    drawReview(c, m, top, w - m*2, cH1,
+      'Clarence Gets a Bargain is a fabulous book for parents and educators who want to teach children early lessons about financial literacy. This book allows adults to have an important conversation about essential money management skills. The story of Clarence and his parents will open up a conversation to discuss budgeting and spending money wisely. I hope this will become the first in a series of financial literacy books!',
+      '\u2014 Maryann Milewski Moskal, Veteran Educator');
+    drawReview(c, m, top + cH1 + gap, w - m*2, cH2,
+      'My students fought over who got to hold the book during read-aloud. Fought. Over a book about money. If that doesn\'t tell you something, I don\'t know what will.',
+      '\u2014 3rd Grade Teacher, NJ Public Schools');
+    drawReview(c, m, top + cH1 + gap + cH2 + gap, w - m*2, cH2,
+      'The twist at the end caught me completely off guard. I laughed so hard my kid asked me if I was OK. Needed this book 30 years ago.',
+      '\u2014 David R., Parent & Educator');
+    drawCornerCurl(c, w, h);
+  }),
+
+  // PAGE 7: THE CLARENCE CHALLENGE
+  makeTex(function(c, w, h) {
+    var hH = drawPageBg(c, w, h);
+    drawSectionBanner(c, w, hH + h*0.06, 'Bonus Round', 'The Clarence Challenge');
+    var top = hH + h*0.13, m = w*0.05, gap = h*0.02;
+    var cH = (h - top - m) / 3 - gap;
+    drawCard(c, m, top, w - m*2, cH,
+      '\uD83C\uDFC6', 'Take Your Kid Shopping. For Real.',
+      'After reading the book, hand your kid $20 and a mission: find the best deal on something they actually want. Let them compare. Let them calculate. Let them present their case like Clarence. You will be stunned. Or entertained. Probably both. Report back.');
+    drawCard(c, m, top + cH + gap, w - m*2, cH,
+      '\u2702\uFE0F', 'The Coupon Hunt',
+      'Sunday paper. Grocery store flyer. That random mailer you were about to toss. Have your kid find three coupons for things your family actually uses. Watch their face when the cashier takes money OFF the total. That\'s the moment. That\'s when the lightbulb flickers on.');
+    drawCard(c, m, top + (cH + gap)*2, w - m*2, cH,
+      '\uD83D\uDCDD', 'The "Do I Need This?" Test',
+      'Before any purchase, Clarence asks three questions: Do I need it? Can I find it cheaper? Is there a coupon? Tape those three questions to the fridge. Or the dashboard. Or your kid\'s forehead. (Kidding.) (Mostly.) Watch what happens when "I want it" turns into "Let me think about it."');
+    drawCornerCurl(c, w, h);
+  }),
+
+  // PAGE 8: SNEAK PEEK — excerpt / teaser
+  makeTex(function(c, w, h) {
+    var hH = drawPageBg(c, w, h);
+    drawSectionBanner(c, w, hH + h*0.06, 'Sneak Peek', 'A Taste of the Adventure');
+    var top = hH + h*0.13, m = w*0.08;
+    // Excerpt block with fun styling
+    c.save();
+    c.setLineDash([14, 8]); c.strokeStyle = '#c4a060'; c.lineWidth = 4;
+    rr(c, m, top, w - m*2, h - top - m, 12); c.stroke(); c.setLineDash([]);
+    c.fillStyle = '#faf3e0'; rr(c, m+3, top+3, w-m*2-6, h-top-m-6, 10); c.fill();
+    c.restore();
+    var tpad = 28;
+    c.textAlign = 'left'; c.textBaseline = 'top';
+    c.fillStyle = '#F57C00';
+    c.font = '900 ' + Math.floor(w * 0.05) + 'px Arial Black,Arial,sans-serif';
+    c.fillText('From Chapter 1:', m + tpad, top + tpad);
+    c.fillStyle = '#222';
+    var exSize = Math.floor(w * 0.034);
+    c.font = 'italic 700 ' + exSize + 'px Georgia,serif';
+    var excerpt = [
+      '"Clarence stood in aisle seven,',
+      'mouth open, eyes wide, brain doing',
+      'the kind of math they don\'t teach',
+      'you in second grade.',
+      '',
+      'The robot was right there.',
+      'On the shelf. Staring at him.',
+      'With its light-up eyes.',
+      'And its arm that actually grabs',
+      'stuff.',
+      '',
+      'The price tag said $49.99.',
+      '',
+      'Clarence\'s pocket said $22.37.',
+      '',
+      'This was a problem.',
+      '',
+      'But Clarence\'s mom? She had',
+      'a look on her face. The same',
+      'look she gets when she finds',
+      'a parking spot right up front',
+      'at the grocery store.',
+      '',
+      'The look that says:',
+      '',
+      'Watch this."',
+    ];
+    var ey = top + tpad + w*0.06;
+    for (var i = 0; i < excerpt.length; i++) {
+      if (excerpt[i] === '') { ey += exSize * 0.7; continue; }
+      c.font = (i === excerpt.length - 1) ?
+        '900 italic ' + Math.floor(exSize * 1.15) + 'px Georgia,serif' :
+        'italic 700 ' + exSize + 'px Georgia,serif';
+      if (i === excerpt.length - 1) c.fillStyle = '#F57C00';
+      c.fillText(excerpt[i], m + tpad, ey);
+      ey += exSize * 1.35;
+    }
+    drawCornerCurl(c, w, h);
+  }),
+
+  // PAGE 9: FAQ — the stuff people actually ask
+  makeTex(function(c, w, h) {
+    var hH = drawPageBg(c, w, h);
+    drawSectionBanner(c, w, hH + h*0.06, 'Quick Answers', 'Stuff People Ask Me');
+    var top = hH + h*0.13, m = w*0.05, gap = h*0.015;
+    var cH = (h - top - m) / 4 - gap;
+    drawCard(c, m, top, w - m*2, cH,
+      '\uD83E\uDD14', '"What age is this for?"',
+      'Ages 5\u20139 is the sweet spot. Kindergarteners love the pictures and the robot drama. Fourth graders pick up on the money lessons and start correcting their parents at checkout. Both outcomes are hilarious.');
+    drawCard(c, m, top + (cH + gap), w - m*2, cH,
+      '\uD83D\uDCDA', '"Is it just one book?"',
+      'For now. But Clarence has more adventures coming. Think of this as the origin story. Every good franchise starts with one kid, one robot, and a 40%-off sticker. Sequels are in the works.');
+    drawCard(c, m, top + (cH + gap)*2, w - m*2, cH,
+      '\uD83C\uDF81', '"Perfect gift?"',
+      'Birthdays, holidays, "you survived the school year" celebrations, dentist-office bribery, grandparent guilt packages, teacher appreciation week, or literally any Tuesday. Yes. It\'s a perfect gift.');
+    drawCard(c, m, top + (cH + gap)*3, w - m*2, cH,
+      '\uD83E\uDD37', '"Did this really happen?"',
+      'Let\'s just say I\'ve been known to drive 22 minutes out of my way to use a coupon that saves $1.75. Clarence gets it from somewhere. The robot, the store, the side-eye at the price tag \u2014 all inspired by true events.');
+    drawCornerCurl(c, w, h);
+  }),
+
+  // PAGE 10: THE PROMISE — heartfelt closer
+  makeTex(function(c, w, h) {
+    var hH = drawPageBg(c, w, h);
+    var pad = w * 0.08;
+    c.setLineDash([14, 8]); c.strokeStyle = '#c4a060'; c.lineWidth = 4;
+    rr(c, pad, hH + pad*0.6, w - pad*2, h - hH - pad*1.2, 12); c.stroke(); c.setLineDash([]);
+
+    c.textAlign = 'center'; c.textBaseline = 'middle';
+    c.fillStyle = '#1a1a4e';
+    c.font = '900 ' + Math.floor(w * 0.065) + 'px Arial Black,Arial,sans-serif';
+    c.fillText('One Last Thing.', w/2, hH + h*0.09);
+
+    c.fillStyle = '#333';
+    var pLines = [
+      'I didn\'t write this book to get rich.',
+      '(If I wanted to get rich, I\'d use a coupon.)',
+      '',
+      'I wrote it because nobody taught me',
+      'about money when I was seven.',
+      'I learned it the hard way \u2014',
+      'overdraft fees, bad decisions,',
+      'and a maxed-out credit card',
+      'I thought was "free money."',
+      '',
+      'Clarence is the book I wish',
+      'someone had handed me',
+      'in second grade.',
+      '',
+      'If one kid reads this and pauses',
+      'before grabbing the shiny thing...',
+      'If one parent reads this out loud',
+      'and the conversation keeps going',
+      'after the last page...',
+      '',
+      'Then this whole thing was worth it.',
+      '',
+      'Every coupon. Every draft.',
+      'Every late night drawing robots',
+      'with light-up eyes.',
+    ];
+    var dy = hH + h*0.16;
+    var lnSz = Math.floor(w * 0.033);
+    for (var i = 0; i < pLines.length; i++) {
+      if (pLines[i] === '') { dy += lnSz * 0.7; continue; }
+      var isParenthetical = pLines[i].charAt(0) === '(';
+      c.font = isParenthetical ?
+        'italic 600 ' + Math.floor(lnSz * 0.88) + 'px Arial,sans-serif' :
+        '700 ' + lnSz + 'px Arial,sans-serif';
+      c.fillStyle = isParenthetical ? '#888' : '#333';
+      c.fillText(pLines[i], w/2, dy);
+      dy += lnSz * 1.32;
+    }
+    c.fillStyle = '#F57C00';
+    c.font = '900 ' + Math.floor(w * 0.04) + 'px Arial Black,Arial,sans-serif';
+    c.fillText('Now go get a bargain.', w/2, dy + lnSz * 0.5);
+    c.fillStyle = '#888';
+    c.font = 'italic 600 ' + Math.floor(w * 0.028) + 'px Arial,sans-serif';
+    c.fillText('\u2014 Jonathan', w/2, dy + lnSz * 1.4);
+    drawCornerCurl(c, w, h);
+  }),
+
+  // PAGE 11: BACK COVER — get your copy + author bio
+  makeTex(function(c, w, h) {
+    var hH = drawPageBg(c, w, h);
+    drawSectionBanner(c, w, hH + h*0.06, 'Grab Your Copy', 'Start The Adventure');
     var top = hH + h*0.13, m = w*0.05, gap = h*0.02;
     var cW = w - m*2, cH = (h - top - m) / 3 - gap;
     drawCard(c, m, top, cW, cH,
       '\uD83D\uDCD6', '$14.99 \u2022 Softcover \u2022 Full Color',
-      '36 pages of adventure, laughs, and money smarts. Ages 5\u20139, 1st\u20135th Grade. The perfect gift for any kid ready to become a Wyze shopper.');
+      '36 pages of adventure, laughs, and accidental financial literacy. Ages 5\u20139. Makes a wildly good gift. Makes an even better re-read. The kind of book kids hide under the covers with a flashlight. Except it\'s about coupons. And that\'s beautiful.');
     drawCard(c, m, top + cH + gap, cW, cH,
-      '\uD83C\uDF10', 'www.kidsmoneybook.com',
-      'Visit us online for educator resources, bulk ordering info, reading guides, and bonus activities. Follow Clarence\'s next adventure!');
+      '\uD83C\uDF10', 'kidsmoneybook.com',
+      'Educator guides. Printable activities. Bulk pricing. Discussion companions. The stuff that turns a good book into a whole program. All free with classroom orders. Because if there\'s one thing we believe in, it\'s a good deal.');
     drawCard(c, m, top + (cH + gap)*2, cW, cH,
-      '\u270D\uFE0F', 'About the Author',
-      'Jonathan is an attorney, mixed-media artist, and self-taught honorary member of the Nerd Herd. His gift for finding deals earned him the title "deal master." He created this book to plant seeds in little noggins that grow into lightbulbs. \u00A9 2026 Jonathan Bach.');
+      '\u270D\uFE0F', 'About Jonathan',
+      'Attorney by day. Mixed-media artist by night. Professional deal-finder at all hours. Once argued a return policy so convincingly the manager gave him a gift card. Self-appointed honorary member of the Nerd Herd. Wrote this book to plant seeds in little noggins that grow into lightbulbs. \u00A9 2026.');
   })
 ];
 
