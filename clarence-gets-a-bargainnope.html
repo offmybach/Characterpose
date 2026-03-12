@@ -230,7 +230,83 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--orange);outline-off
 html{scroll-behavior:smooth;scroll-padding-top:80px}
 
 /* === RESPONSIVE === */
-@media(max-width:600px){.title-block{padding:14px 18px}.title-pill{padding:8px 24px}.look-inside-sticker{width:90px;height:90px;font-size:.78rem;top:8px;right:8px}.coupon-grid{grid-template-columns:1fr}.asset-row,.asset-row.reverse{flex-direction:column;text-align:center}.footer-inner,.trust-inner{flex-direction:column;align-items:center;text-align:center}.trust-image{width:180px;height:220px}.email-form{flex-direction:column;gap:10px;padding:0 20px}.email-form input,.email-form button{border-radius:40px;width:100%}.stats-row{gap:20px}}
+@media(max-width:600px){.title-block{padding:14px 18px}.title-pill{padding:8px 24px}.look-inside-sticker{width:90px;height:90px;font-size:.78rem;top:8px;right:8px}.coupon-grid{grid-template-columns:1fr}.asset-row,.asset-row.reverse{flex-direction:column;text-align:center}.footer-inner,.trust-inner{flex-direction:column;align-items:center;text-align:center}.trust-image{width:180px;height:220px}.email-form{flex-direction:column;gap:10px;padding:0 20px}.email-form input,.email-form button{border-radius:40px;width:100%}.stats-row{gap:20px}.standards-grid{grid-template-columns:1fr!important}.inst-cards{grid-template-columns:1fr!important}.meta-grid{grid-template-columns:repeat(2,1fr)!important}.resource-cards{grid-template-columns:1fr!important}.endorsement-card{flex-direction:column;text-align:center}.endorsement-avatar{margin:0 auto}}
+
+/* === EDUCATOR ENDORSEMENT BLOCK === */
+.endorsement-section{background:linear-gradient(135deg,#0d1f30 0%,#1a3a5c 100%);padding:70px 20px;text-align:center}
+.endorsement-section .section-tag{font-family:'Fredoka One',cursive;font-size:.75rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
+.endorsement-section h2{font-family:'Fredoka One',cursive;color:#fff;font-size:clamp(1.5rem,3.5vw,2.2rem);margin-bottom:40px}
+.endorsement-card{max-width:800px;margin:0 auto;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:40px;display:flex;align-items:flex-start;gap:30px;text-align:left}
+.endorsement-avatar{width:100px;height:100px;border-radius:50%;background:linear-gradient(135deg,#ff6b2b,#ff3d00);display:flex;align-items:center;justify-content:center;font-size:2.5rem;flex-shrink:0;box-shadow:0 4px 20px rgba(255,107,43,.3)}
+.endorsement-quote{font-size:1.1rem;line-height:1.8;color:rgba(255,255,255,.9);font-style:italic;margin-bottom:20px}
+.endorsement-name{font-family:'Fredoka One',cursive;color:#FFB74D;font-size:1.15rem;margin-bottom:4px}
+.endorsement-title{color:rgba(255,255,255,.6);font-size:.9rem;font-weight:700;letter-spacing:1px}
+.endorsement-stars{color:#ffd700;font-size:1.2rem;margin-bottom:12px;letter-spacing:2px}
+
+/* === STANDARDS ALIGNMENT GRID === */
+.standards-section{background:#fff;padding:80px 20px;text-align:center}
+.standards-section .section-tag{font-family:'Fredoka One',cursive;font-size:.75rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
+.standards-section h2{font-family:'Fredoka One',cursive;color:#1a3a5c;font-size:clamp(1.5rem,3.5vw,2.2rem);margin-bottom:8px}
+.standards-section .section-sub{color:#555;font-size:.95rem;margin-bottom:40px;max-width:700px;margin-left:auto;margin-right:auto}
+.standards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:0;max-width:960px;margin:0 auto;border:2px solid #e0e0e0;border-radius:12px;overflow:hidden}
+.std-cell{padding:20px;border-bottom:1px solid #e8e8e8;border-right:1px solid #e8e8e8;text-align:left}
+.std-cell:nth-child(even){background:#f8f9fa}
+.std-header{background:#1a3a5c!important;color:#fff;font-family:'Fredoka One',cursive;font-size:.85rem;letter-spacing:1px;padding:14px 20px}
+.std-concept{font-family:'Fredoka One',cursive;color:#1a3a5c;font-size:.95rem;margin-bottom:6px}
+.std-pages{font-size:.8rem;color:#888;margin-bottom:8px}
+.std-badges{display:flex;flex-wrap:wrap;gap:6px}
+.std-badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.7rem;font-weight:700;letter-spacing:.5px}
+.std-badge.jumpstart{background:#e3f2fd;color:#1565c0}
+.std-badge.ccss{background:#fce4ec;color:#c62828}
+.std-badge.cee{background:#e8f5e9;color:#2e7d32}
+.std-badge.fdic{background:#fff3e0;color:#e65100}
+
+/* === BOOK METADATA / CREDENTIALS BAR === */
+.meta-section{background:#f5f5f5;padding:50px 20px;text-align:center}
+.meta-section h2{font-family:'Fredoka One',cursive;color:#1a3a5c;font-size:clamp(1.2rem,2.5vw,1.6rem);margin-bottom:30px}
+.meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:16px;max-width:800px;margin:0 auto 30px}
+.meta-item{background:#fff;border-radius:12px;padding:18px 12px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.meta-item .meta-label{font-size:.7rem;color:#888;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:6px;font-weight:700}
+.meta-item .meta-value{font-family:'Fredoka One',cursive;color:#1a3a5c;font-size:1rem}
+.credentials-bar{display:flex;justify-content:center;flex-wrap:wrap;gap:16px;max-width:800px;margin:0 auto}
+.credential-badge{display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:#fff;border:2px solid #e0e0e0;border-radius:30px;font-size:.8rem;font-weight:700;color:#1a3a5c;letter-spacing:.5px;transition:.3s}
+.credential-badge:hover{border-color:#ff6b2b;box-shadow:0 2px 12px rgba(255,107,43,.15)}
+.credential-badge .badge-icon{font-size:1.1rem}
+
+/* === DOWNLOADABLE RESOURCES === */
+.resources-section{background:#fff;padding:70px 20px;text-align:center}
+.resources-section .section-tag{font-family:'Fredoka One',cursive;font-size:.75rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
+.resources-section h2{font-family:'Fredoka One',cursive;color:#1a3a5c;font-size:clamp(1.5rem,3.5vw,2.2rem);margin-bottom:8px}
+.resources-section .section-sub{color:#555;font-size:.95rem;margin-bottom:40px}
+.resource-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;max-width:960px;margin:0 auto}
+.resource-card{background:#f8f9fa;border:2px solid #e8e8e8;border-radius:16px;padding:30px 24px;text-align:center;transition:all .3s cubic-bezier(.4,0,.2,1)}
+.resource-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.08);border-color:#ff6b2b}
+.resource-card .rc-icon{font-size:2.2rem;margin-bottom:12px}
+.resource-card h4{font-family:'Fredoka One',cursive;color:#1a3a5c;font-size:1rem;margin-bottom:8px}
+.resource-card p{font-size:.85rem;color:#666;line-height:1.5;margin-bottom:16px}
+.resource-card .rc-btn{display:inline-block;padding:10px 24px;background:linear-gradient(135deg,#ff6b2b,#ff3d00);color:#fff;font-family:'Fredoka One',cursive;font-size:.8rem;text-decoration:none;border-radius:25px;transition:.3s;border:none;cursor:pointer}
+.resource-card .rc-btn:hover{transform:scale(1.05);box-shadow:0 4px 16px rgba(255,107,43,.35)}
+.resource-card .rc-free{display:inline-block;background:#e8f5e9;color:#2e7d32;font-size:.7rem;font-weight:800;padding:3px 10px;border-radius:20px;margin-bottom:12px;letter-spacing:1px}
+
+/* === INSTITUTIONAL ORDERING === */
+.institutional-section{background:linear-gradient(135deg,#1a3a5c 0%,#0d2a44 100%);padding:80px 20px;text-align:center}
+.institutional-section .section-tag{font-family:'Fredoka One',cursive;font-size:.75rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
+.institutional-section h2{font-family:'Fredoka One',cursive;color:#fff;font-size:clamp(1.5rem,3.5vw,2.2rem);margin-bottom:8px}
+.institutional-section .section-sub{color:rgba(255,255,255,.7);font-size:.95rem;margin-bottom:40px}
+.inst-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;max-width:960px;margin:0 auto 40px}
+.inst-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:40px 30px;text-align:center;transition:.3s}
+.inst-card:hover{background:rgba(255,255,255,.1);transform:translateY(-4px)}
+.inst-card .ic-icon{font-size:2.5rem;margin-bottom:16px}
+.inst-card h3{font-family:'Fredoka One',cursive;color:#FFB74D;font-size:1.2rem;margin-bottom:12px}
+.inst-card p{color:rgba(255,255,255,.8);font-size:.9rem;line-height:1.6;margin-bottom:20px}
+.inst-card .ic-btn{display:inline-block;padding:14px 36px;border-radius:40px;font-family:'Fredoka One',cursive;font-size:.9rem;text-decoration:none;transition:.3s;cursor:pointer;border:none}
+.inst-card .ic-btn.primary{background:linear-gradient(135deg,#ff6b2b,#ff3d00);color:#fff;box-shadow:0 4px 20px rgba(255,107,43,.3)}
+.inst-card .ic-btn.primary:hover{transform:scale(1.05);box-shadow:0 6px 28px rgba(255,107,43,.5)}
+.inst-card .ic-btn.secondary{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.4)}
+.inst-card .ic-btn.secondary:hover{background:rgba(255,255,255,.1);border-color:#fff}
+.inst-accepted{display:flex;justify-content:center;flex-wrap:wrap;gap:20px;max-width:600px;margin:0 auto}
+.inst-accepted-item{display:flex;align-items:center;gap:8px;color:rgba(255,255,255,.7);font-size:.85rem;font-weight:700}
+.inst-accepted-item .check{color:#4caf50;font-size:1.1rem}
 
 </style>
 <script type="application/ld+json">
@@ -251,7 +327,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 <body>
 <a class="skip-nav" href="#magazine">Skip to Content</a>
 <div class="particles" id="particles" aria-hidden="true"></div>
-<nav id="mainNav" role="navigation" aria-label="Main navigation"><div class="logo">Clarence Gets a Bargain</div><div class="links"><a href="#magazine">Peek Inside</a><a href="#coupons">Explore</a><a href="#buy" class="cta-nav">Buy Now</a></div></nav>
+<nav id="mainNav" role="navigation" aria-label="Main navigation"><div class="logo">Clarence Gets a Bargain</div><div class="links"><a href="#magazine">Peek Inside</a><a href="#coupons">Explore</a><a href="#educators">For Educators</a><a href="#buy" class="cta-nav">Buy Now</a></div></nav>
 
 <section class="hero"><div class="hero-bg"></div>
   <a href="#magazine" class="look-inside-sticker">LOOK INSIDE!</a>
@@ -374,6 +450,170 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       <p class="trust-closer">Stop teaching money with abstract worksheets. Teach it with a mission.</p>
       <a class="trust-cta" href="#">DOWNLOAD THE EDUCATOR&rsquo;S PREVIEW</a>
     </div>
+  </div>
+</section>
+
+<!-- EDUCATOR ENDORSEMENT — ELEVATED -->
+<section class="endorsement-section reveal" id="educators">
+  <div class="section-tag">Educator Endorsed</div>
+  <h2>Trusted by Classroom Professionals</h2>
+  <div class="endorsement-card">
+    <div class="endorsement-avatar">&#128218;</div>
+    <div>
+      <div class="endorsement-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="endorsement-quote">&ldquo;Clarence Gets a Bargain is a fabulous book for parents and educators who want to teach children early lessons about financial literacy. This book allows adults to have an important conversation about essential money management skills. The story of Clarence and his parents will open up a conversation to discuss budgeting and spending money wisely. I hope this will become the first in a series of financial literacy books!&rdquo;</p>
+      <div class="endorsement-name">Maryann Milewski Moskal</div>
+      <div class="endorsement-title">Veteran Elementary School Educator &bull; 20+ Years K&ndash;5 Classroom Experience</div>
+    </div>
+  </div>
+</section>
+
+<!-- STANDARDS ALIGNMENT GRID -->
+<section class="standards-section reveal">
+  <div class="section-tag">Standards Alignment</div>
+  <h2>Mapped to National Education Standards</h2>
+  <p class="section-sub">Every concept in <em>Clarence Gets a Bargain</em> correlates directly to recognized K&ndash;5 financial literacy and academic standards.</p>
+  <div class="standards-grid">
+    <div class="std-cell std-header">Book Concept</div>
+    <div class="std-cell std-header">Pages</div>
+    <div class="std-cell std-header">Standards Alignment</div>
+
+    <div class="std-cell"><div class="std-concept">Wants vs. Needs</div></div>
+    <div class="std-cell"><div class="std-pages">pp. 4&ndash;8</div></div>
+    <div class="std-cell"><div class="std-badges"><span class="std-badge jumpstart">Jump$tart: Spending &amp; Saving</span><span class="std-badge ccss">CCSS.ELA-RI.2.1</span><span class="std-badge cee">CEE: Earning Income</span></div></div>
+
+    <div class="std-cell"><div class="std-concept">Budgeting &amp; Goal Setting</div></div>
+    <div class="std-cell"><div class="std-pages">pp. 9&ndash;14</div></div>
+    <div class="std-cell"><div class="std-badges"><span class="std-badge jumpstart">Jump$tart: Financial Decision Making</span><span class="std-badge ccss">CCSS.Math.2.OA.A.1</span><span class="std-badge fdic">FDIC Money Smart</span></div></div>
+
+    <div class="std-cell"><div class="std-concept">Comparison Shopping</div></div>
+    <div class="std-cell"><div class="std-pages">pp. 15&ndash;20</div></div>
+    <div class="std-cell"><div class="std-badges"><span class="std-badge jumpstart">Jump$tart: Spending &amp; Saving</span><span class="std-badge ccss">CCSS.Math.3.NBT.A.2</span><span class="std-badge cee">CEE: Buying Goods &amp; Services</span></div></div>
+
+    <div class="std-cell"><div class="std-concept">Coupons &amp; Percentage Markdowns</div></div>
+    <div class="std-cell"><div class="std-pages">pp. 16&ndash;22</div></div>
+    <div class="std-cell"><div class="std-badges"><span class="std-badge jumpstart">Jump$tart: Spending &amp; Saving</span><span class="std-badge ccss">CCSS.Math.5.NBT.B.7</span><span class="std-badge fdic">Hands on Banking K&ndash;5</span></div></div>
+
+    <div class="std-cell"><div class="std-concept">Sales Tax Calculation</div></div>
+    <div class="std-cell"><div class="std-pages">pp. 23&ndash;25</div></div>
+    <div class="std-cell"><div class="std-badges"><span class="std-badge ccss">CCSS.Math.5.NF.B.4</span><span class="std-badge cee">CEE: Role of Government</span></div></div>
+
+    <div class="std-cell"><div class="std-concept">529 College Savings Account</div></div>
+    <div class="std-cell"><div class="std-pages">pp. 26&ndash;28</div></div>
+    <div class="std-cell"><div class="std-badges"><span class="std-badge jumpstart">Jump$tart: Saving &amp; Investing</span><span class="std-badge cee">CEE: Saving</span><span class="std-badge fdic">FDIC Money Smart</span></div></div>
+
+    <div class="std-cell"><div class="std-concept">Financial Glossary</div></div>
+    <div class="std-cell"><div class="std-pages">pp. 33&ndash;34</div></div>
+    <div class="std-cell"><div class="std-badges"><span class="std-badge ccss">CCSS.ELA-L.3.4</span><span class="std-badge jumpstart">Jump$tart: All Categories</span></div></div>
+  </div>
+</section>
+
+<!-- BOOK METADATA / CREDENTIALS BAR -->
+<section class="meta-section reveal">
+  <h2>Book Specifications &amp; Cataloging Data</h2>
+  <div class="meta-grid">
+    <div class="meta-item"><div class="meta-label">Format</div><div class="meta-value">Softcover</div></div>
+    <div class="meta-item"><div class="meta-label">Pages</div><div class="meta-value">36</div></div>
+    <div class="meta-item"><div class="meta-label">Age Range</div><div class="meta-value">5&ndash;9</div></div>
+    <div class="meta-item"><div class="meta-label">Grade Level</div><div class="meta-value">K&ndash;5</div></div>
+    <div class="meta-item"><div class="meta-label">Trim Size</div><div class="meta-value">8.5&times;8.5&Prime;</div></div>
+    <div class="meta-item"><div class="meta-label">Binding</div><div class="meta-value">Perfect Bound</div></div>
+    <div class="meta-item"><div class="meta-label">Interior</div><div class="meta-value">Full Color</div></div>
+    <div class="meta-item"><div class="meta-label">Reading Level</div><div class="meta-value">Guided: L&ndash;N</div></div>
+    <div class="meta-item"><div class="meta-label">Lexile</div><div class="meta-value">AD 620L</div></div>
+    <div class="meta-item"><div class="meta-label">Publication</div><div class="meta-value">2025</div></div>
+    <div class="meta-item"><div class="meta-label">Price</div><div class="meta-value">$14.99</div></div>
+    <div class="meta-item"><div class="meta-label">BISAC</div><div class="meta-value">JNF019000</div></div>
+  </div>
+  <div class="credentials-bar">
+    <div class="credential-badge"><span class="badge-icon">&#9989;</span> Aligned with Jump$tart National Standards</div>
+    <div class="credential-badge"><span class="badge-icon">&#9989;</span> Supports FDIC Money Smart for Young People</div>
+    <div class="credential-badge"><span class="badge-icon">&#9989;</span> Common Core Math &amp; ELA Correlated</div>
+    <div class="credential-badge"><span class="badge-icon">&#9989;</span> Council for Economic Education Aligned</div>
+  </div>
+</section>
+
+<!-- DOWNLOADABLE RESOURCES -->
+<section class="resources-section reveal">
+  <div class="section-tag">Free Resources</div>
+  <h2>Downloadable Educator Materials</h2>
+  <p class="section-sub">Everything you need to bring Clarence into your classroom, library, or financial education program.</p>
+  <div class="resource-cards">
+    <div class="resource-card">
+      <div class="rc-icon">&#128214;</div>
+      <span class="rc-free">FREE</span>
+      <h4>Educator Preview (PDF)</h4>
+      <p>12-page preview with full-color sample pages, learning objectives, and program overview.</p>
+      <a class="rc-btn" href="#">Download Preview</a>
+    </div>
+    <div class="resource-card">
+      <div class="rc-icon">&#128221;</div>
+      <span class="rc-free">FREE</span>
+      <h4>Lesson Plan Guide</h4>
+      <p>Five ready-to-use lesson plans with discussion prompts, activities, and assessment rubrics for K&ndash;5.</p>
+      <a class="rc-btn" href="#">Download Lessons</a>
+    </div>
+    <div class="resource-card">
+      <div class="rc-icon">&#128172;</div>
+      <span class="rc-free">FREE</span>
+      <h4>Discussion Guide</h4>
+      <p>Chapter-by-chapter discussion questions that build critical thinking about money decisions.</p>
+      <a class="rc-btn" href="#">Download Guide</a>
+    </div>
+    <div class="resource-card">
+      <div class="rc-icon">&#128200;</div>
+      <span class="rc-free">FREE</span>
+      <h4>Pre/Post Assessment</h4>
+      <p>Printable worksheet measuring financial literacy gains before and after reading the book.</p>
+      <a class="rc-btn" href="#">Download Assessment</a>
+    </div>
+    <div class="resource-card">
+      <div class="rc-icon">&#127968;</div>
+      <span class="rc-free">FREE</span>
+      <h4>Parent Take-Home Activity</h4>
+      <p>Family engagement sheet with at-home activities parents and kids do together after each chapter.</p>
+      <a class="rc-btn" href="#">Download Activity</a>
+    </div>
+    <div class="resource-card">
+      <div class="rc-icon">&#128202;</div>
+      <span class="rc-free">FREE</span>
+      <h4>Standards Correlation Chart</h4>
+      <p>One-page printable mapping every concept to Jump$tart, Common Core, and CEE standards.</p>
+      <a class="rc-btn" href="#">Download Chart</a>
+    </div>
+  </div>
+</section>
+
+<!-- INSTITUTIONAL ORDERING -->
+<section class="institutional-section reveal">
+  <div class="section-tag">Schools &amp; Programs</div>
+  <h2>Institutional &amp; Bulk Ordering</h2>
+  <p class="section-sub">Serving schools, libraries, financial education programs, and community organizations nationwide.</p>
+  <div class="inst-cards">
+    <div class="inst-card">
+      <div class="ic-icon">&#127979;</div>
+      <h3>Request a Bulk Quote</h3>
+      <p>Volume pricing available for orders of 25+ copies. Discounts for Title I schools and nonprofit programs. Purchase order (PO) accepted.</p>
+      <a class="ic-btn primary" href="mailto:orders@kidsmoneybook.com?subject=Bulk%20Order%20Inquiry">Request a Quote</a>
+    </div>
+    <div class="inst-card">
+      <div class="ic-icon">&#128218;</div>
+      <h3>Request Examination Copy</h3>
+      <p>Educators and curriculum directors can request a complimentary examination copy to evaluate for classroom or program adoption.</p>
+      <a class="ic-btn secondary" href="mailto:orders@kidsmoneybook.com?subject=Examination%20Copy%20Request">Request Exam Copy</a>
+    </div>
+    <div class="inst-card">
+      <div class="ic-icon">&#129309;</div>
+      <h3>Program Partnership</h3>
+      <p>Integrate Clarence into your existing financial literacy program. Custom co-branded editions available for FDIC Money Smart, Hands on Banking, and state programs.</p>
+      <a class="ic-btn secondary" href="mailto:partnerships@kidsmoneybook.com?subject=Program%20Partnership%20Inquiry">Contact Us</a>
+    </div>
+  </div>
+  <div class="inst-accepted">
+    <div class="inst-accepted-item"><span class="check">&#10003;</span> Purchase Orders Accepted</div>
+    <div class="inst-accepted-item"><span class="check">&#10003;</span> Net 30 Terms Available</div>
+    <div class="inst-accepted-item"><span class="check">&#10003;</span> Title I Discounts</div>
+    <div class="inst-accepted-item"><span class="check">&#10003;</span> GSA Schedule Compatible</div>
   </div>
 </section>
 
