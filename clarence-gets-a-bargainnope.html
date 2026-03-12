@@ -1132,12 +1132,14 @@ function makePageGeo(side) {
     // t = 0 at spine, 1 at outer edge
     var t = Math.abs(x) / PW;
     // MUSTACHE / distant-bird shape:
-    // Low at spine (crease) → rises to peak ~35% out → slopes back down at outer edge
-    // Like sin(t * PI) but with the peak shifted inward
-    // Both pages together form the classic "handlebar-less mustache"
-    var z = 0.35 * Math.sin(t * Math.PI * 0.92);
-    // Gentle slope down at outer edge (no flat handlebar ends)
-    z *= (1 - 0.25 * Math.pow(t, 1.8));
+    // Spine dips DOWN (valley at crease) → arches UP to peak ~30-40% out →
+    // gentle slope back down at wingtips. Like a bird soaring in the distance
+    // or a flowing handlebar mustache viewed from the front.
+    var z = 0.42 * Math.sin(t * Math.PI * 0.88);
+    // Spine valley: pull the spine crease down for a visible V-fold
+    z -= 0.06 * Math.exp(-t * 8);
+    // Wingtip droop: outer edges slope down gracefully
+    z *= (1 - 0.3 * Math.pow(t, 1.6));
     pos.setX(i, x);
     pos.setY(i, y);
     pos.setZ(i, z);
@@ -1148,7 +1150,7 @@ function makePageGeo(side) {
 
 // ---- BOOK GROUP ----
 var bookGroup = new THREE.Group();
-bookGroup.rotation.x = -0.35; // Tilted to show dramatic arch from above
+bookGroup.rotation.x = -0.38; // Tilted to show dramatic mustache arch from above
 scene.add(bookGroup);
 
 // Spine — thin shadow line at center fold
@@ -1156,7 +1158,7 @@ var spineMesh = new THREE.Mesh(
   new THREE.BoxGeometry(0.02, PH * 0.98, 0.005),
   new THREE.MeshStandardMaterial({color: 0x444444, roughness: 0.9, transparent: true, opacity: 0.3})
 );
-spineMesh.position.z = 0.0;
+spineMesh.position.z = -0.04; // Sit below page surface to prevent z-fighting
 spineMesh.visible = false;
 bookGroup.add(spineMesh);
 
@@ -1467,11 +1469,34 @@ function flipBackward() {
       var p = Math.min(1, (now-t0)/dur);
       var e = p < 0.5 ? 2*p*p : 1 - Math.pow(-2*p+2,2)/2;
       turnPivot.rotation.y = -Math.PI * e; // sweep left (flipping back)
+      // Curl effect on back-cover flip
+      var curlAmt = Math.sin(p * Math.PI) * 0.28;
+      var tpos = turnGeo.attributes.position;
+      var bpos = turnBackGeo.attributes.position;
+      var origPos = turnGeo.userData.origPos;
+      if (!origPos) { origPos = tpos.array.slice(); turnGeo.userData.origPos = origPos; }
+      var origBPos = turnBackGeo.userData.origPos;
+      if (!origBPos) { origBPos = bpos.array.slice(); turnBackGeo.userData.origPos = origBPos; }
+      for (var vi = 0; vi < tpos.count; vi++) {
+        var ox = origPos[vi*3];
+        var ct = Math.abs(ox) / PW;
+        tpos.setZ(vi, origPos[vi*3+2] + curlAmt * Math.sin(ct * Math.PI));
+        bpos.setZ(vi, origBPos[vi*3+2] + curlAmt * Math.sin(ct * Math.PI));
+      }
+      tpos.needsUpdate = true; bpos.needsUpdate = true;
+      turnGeo.computeVertexNormals(); turnBackGeo.computeVertexNormals();
       if(p < 1) {
         requestAnimationFrame(a);
       } else {
         turnPivot.visible = false;
         turnPivot.rotation.y = 0;
+        // Reset curl
+        for (var vi = 0; vi < tpos.count; vi++) {
+          tpos.setZ(vi, origPos[vi*3+2]);
+          bpos.setZ(vi, origBPos[vi*3+2]);
+        }
+        tpos.needsUpdate = true; bpos.needsUpdate = true;
+        turnGeo.computeVertexNormals(); turnBackGeo.computeVertexNormals();
         setSpread(prevSpread);
         leftMesh.visible = true;
         rightMesh.visible = true;
@@ -1499,11 +1524,36 @@ function flipBackward() {
     var e = p < 0.5 ? 2*p*p : 1 - Math.pow(-2*p+2,2)/2;
     turnPivot.rotation.y = -Math.PI * (1 - e);
 
+    // Curl effect on backward flip (same as forward flip)
+    var curlAmt = Math.sin(p * Math.PI) * 0.28;
+    var tpos = turnGeo.attributes.position;
+    var bpos = turnBackGeo.attributes.position;
+    var origPos = turnGeo.userData.origPos;
+    if (!origPos) { origPos = tpos.array.slice(); turnGeo.userData.origPos = origPos; }
+    var origBPos = turnBackGeo.userData.origPos;
+    if (!origBPos) { origBPos = bpos.array.slice(); turnBackGeo.userData.origPos = origBPos; }
+    for (var vi = 0; vi < tpos.count; vi++) {
+      var ox = origPos[vi*3], oz = origPos[vi*3+2];
+      var ct = Math.abs(ox) / PW;
+      var nz = oz + curlAmt * Math.sin(ct * Math.PI);
+      tpos.setZ(vi, nz);
+      bpos.setZ(vi, origBPos[vi*3+2] + curlAmt * Math.sin(ct * Math.PI));
+    }
+    tpos.needsUpdate = true; bpos.needsUpdate = true;
+    turnGeo.computeVertexNormals(); turnBackGeo.computeVertexNormals();
+
     if(p < 1) {
       requestAnimationFrame(a);
     } else {
       turnPivot.visible = false;
       turnPivot.rotation.y = 0;
+      // Reset curl deformation
+      for (var vi = 0; vi < tpos.count; vi++) {
+        tpos.setZ(vi, origPos[vi*3+2]);
+        bpos.setZ(vi, origBPos[vi*3+2]);
+      }
+      tpos.needsUpdate = true; bpos.needsUpdate = true;
+      turnGeo.computeVertexNormals(); turnBackGeo.computeVertexNormals();
       setSpread(prevSpread);
       leftMesh.visible = true;
       animating = false;
@@ -1587,7 +1637,7 @@ var ft=0;
   requestAnimationFrame(render); ft+=.012;
   bookGroup.position.y = Math.sin(ft)*.03;
   bookGroup.rotation.y += (tRY - bookGroup.rotation.y) * .05;
-  bookGroup.rotation.x += ((-0.35 + tRX) - bookGroup.rotation.x) * .05;
+  bookGroup.rotation.x += ((-0.38 + tRX) - bookGroup.rotation.x) * .05;
   ren.render(scene, cam);
 })();
 
