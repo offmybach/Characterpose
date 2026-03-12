@@ -232,16 +232,8 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 /* === RESPONSIVE === */
 @media(max-width:600px){.title-block{padding:14px 18px}.title-pill{padding:8px 24px}.look-inside-sticker{width:90px;height:90px;font-size:.78rem;top:8px;right:8px}.coupon-grid{grid-template-columns:1fr}.asset-row,.asset-row.reverse{flex-direction:column;text-align:center}.footer-inner,.trust-inner{flex-direction:column;align-items:center;text-align:center}.trust-image{width:180px;height:220px}.email-form{flex-direction:column;gap:10px;padding:0 20px}.email-form input,.email-form button{border-radius:40px;width:100%}.stats-row{gap:20px}.standards-grid{grid-template-columns:1fr!important}.inst-cards{grid-template-columns:1fr!important}.meta-grid{grid-template-columns:repeat(2,1fr)!important}.resource-cards{grid-template-columns:1fr!important}.endorsement-card{flex-direction:column;text-align:center}.endorsement-avatar{margin:0 auto}}
 
-/* === EDUCATOR ENDORSEMENT BLOCK === */
-.endorsement-section{background:linear-gradient(135deg,#0d1f30 0%,#1a3a5c 100%);padding:70px 20px;text-align:center}
-.endorsement-section .section-tag{font-family:'Fredoka One',cursive;font-size:.75rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
-.endorsement-section h2{font-family:'Fredoka One',cursive;color:#fff;font-size:clamp(1.5rem,3.5vw,2.2rem);margin-bottom:40px}
-.endorsement-card{max-width:800px;margin:0 auto;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:40px;display:flex;align-items:flex-start;gap:30px;text-align:left}
-.endorsement-avatar{width:100px;height:100px;border-radius:50%;background:linear-gradient(135deg,#ff6b2b,#ff3d00);display:flex;align-items:center;justify-content:center;font-size:2.5rem;flex-shrink:0;box-shadow:0 4px 20px rgba(255,107,43,.3)}
-.endorsement-quote{font-size:1.1rem;line-height:1.8;color:rgba(255,255,255,.9);font-style:italic;margin-bottom:20px}
-.endorsement-name{font-family:'Fredoka One',cursive;color:#FFB74D;font-size:1.15rem;margin-bottom:4px}
-.endorsement-title{color:rgba(255,255,255,.6);font-size:.9rem;font-weight:700;letter-spacing:1px}
-.endorsement-stars{color:#ffd700;font-size:1.2rem;margin-bottom:12px;letter-spacing:2px}
+/* === SECTION 1: AUTHORITY ANCHOR BLOCK === */
+.endorsement-section{background:#0a0f18;padding:90px 20px;text-align:center}
 
 /* === STANDARDS ALIGNMENT GRID === */
 .standards-section{background:#fff;padding:80px 20px;text-align:center}
@@ -307,6 +299,38 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .inst-accepted{display:flex;justify-content:center;flex-wrap:wrap;gap:20px;max-width:600px;margin:0 auto}
 .inst-accepted-item{display:flex;align-items:center;gap:8px;color:rgba(255,255,255,.7);font-size:.85rem;font-weight:700}
 .inst-accepted-item .check{color:#4caf50;font-size:1.1rem}
+
+/* === AUTHORITY ANCHOR (Massive Clean Quote Block) === */
+.authority-anchor{max-width:820px;margin:0 auto;padding:20px 0}
+.anchor-line{height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent);margin:20px 0}
+.anchor-quote{font-size:clamp(1.1rem,2.5vw,1.4rem);line-height:1.9;color:rgba(255,255,255,.92);font-style:italic;font-weight:500;margin:0;padding:0;border:none;text-align:center;letter-spacing:.2px}
+.anchor-attribution{text-align:center;margin-top:28px}
+.anchor-name{font-family:'Fredoka One',cursive;color:#FFB74D;font-size:1.2rem;letter-spacing:1px}
+.anchor-credential{color:rgba(255,255,255,.5);font-size:.85rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-top:6px}
+
+/* === CLEAN ICON REPLACEMENTS (No Emojis) === */
+.rc-icon-clean{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;background:#1a3a5c;color:#fff;font-family:'Fredoka One',cursive;font-size:.85rem;border-radius:10px;margin:0 auto 12px;letter-spacing:1px}
+.ic-icon-clean{display:inline-flex;align-items:center;justify-content:center;width:56px;height:56px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:#FFB74D;font-family:'Fredoka One',cursive;font-size:1.1rem;border-radius:12px;margin-bottom:16px;letter-spacing:1px}
+
+/* === PROCUREMENT NOTE === */
+.inst-procurement-note{color:rgba(255,255,255,.5);font-size:.8rem;font-weight:600;letter-spacing:.5px;max-width:700px;margin:0 auto 24px;line-height:1.6}
+
+/* === CLOSING PITCH BLOCK — THE CFO'S DESK === */
+.pitch-section{background:linear-gradient(180deg,#0a0a0a 0%,#111827 50%,#0a0a0a 100%);padding:100px 20px;text-align:center;position:relative}
+.pitch-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,#ff6b2b,transparent)}
+.pitch-inner{max-width:780px;margin:0 auto}
+.pitch-label{font-family:'Fredoka One',cursive;font-size:.7rem;color:#ff6b2b;letter-spacing:5px;text-transform:uppercase;margin-bottom:20px}
+.pitch-headline{font-family:'Fredoka One',cursive;color:#fff;font-size:clamp(1.6rem,4vw,2.6rem);line-height:1.3;margin-bottom:36px}
+.pitch-body{text-align:left;max-width:680px;margin:0 auto 40px}
+.pitch-body p{color:rgba(255,255,255,.75);font-size:1rem;line-height:1.9;margin-bottom:20px;font-weight:500}
+.pitch-body .pitch-kicker{font-family:'Fredoka One',cursive;color:#FFB74D;font-size:1.15rem;text-align:center;margin-top:32px;letter-spacing:.5px}
+.pitch-cta-row{display:flex;justify-content:center;gap:16px;flex-wrap:wrap}
+.pitch-cta-primary{display:inline-block;padding:18px 44px;background:linear-gradient(135deg,#ff6b2b,#ff3d00);color:#fff;font-family:'Fredoka One',cursive;font-size:.95rem;text-decoration:none;border-radius:40px;transition:.3s;box-shadow:0 4px 24px rgba(255,107,43,.35);letter-spacing:.5px}
+.pitch-cta-primary:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 8px 36px rgba(255,107,43,.55)}
+.pitch-cta-secondary{display:inline-block;padding:18px 44px;color:rgba(255,255,255,.5);font-family:'Fredoka One',cursive;font-size:.95rem;text-decoration:none;border:1px solid rgba(255,255,255,.15);border-radius:40px;transition:.3s;letter-spacing:.5px}
+.pitch-cta-secondary:hover{color:#fff;border-color:rgba(255,255,255,.4)}
+
+@media(max-width:600px){.pitch-cta-row{flex-direction:column;align-items:center}.pitch-cta-primary,.pitch-cta-secondary{width:100%;max-width:320px;text-align:center}}
 
 </style>
 <script type="application/ld+json">
@@ -453,18 +477,18 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   </div>
 </section>
 
-<!-- EDUCATOR ENDORSEMENT — ELEVATED -->
+<!-- SECTION 1: THE AUTHORITY ANCHOR -->
 <section class="endorsement-section reveal" id="educators">
-  <div class="section-tag">Educator Endorsed</div>
-  <h2>Trusted by Classroom Professionals</h2>
-  <div class="endorsement-card">
-    <div class="endorsement-avatar">&#128218;</div>
-    <div>
-      <div class="endorsement-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-      <p class="endorsement-quote">&ldquo;Clarence Gets a Bargain is a fabulous book for parents and educators who want to teach children early lessons about financial literacy. This book allows adults to have an important conversation about essential money management skills. The story of Clarence and his parents will open up a conversation to discuss budgeting and spending money wisely. I hope this will become the first in a series of financial literacy books!&rdquo;</p>
-      <div class="endorsement-name">Maryann Milewski Moskal</div>
-      <div class="endorsement-title">Veteran Elementary School Educator &bull; 20+ Years K&ndash;5 Classroom Experience</div>
+  <div class="authority-anchor">
+    <div class="anchor-line"></div>
+    <blockquote class="anchor-quote">
+      &ldquo;An absolute masterclass in early-stage financial literacy. This book seamlessly bridges the gap between engaging, character-driven storytelling and core economic competencies. It allows adults to have an important conversation about essential money management skills&mdash;budgeting, comparison shopping, and spending wisely. The story of Clarence and his parents opens a direct dialogue that most picture books never attempt. I hope this will become the first in a series of financial literacy books.&rdquo;
+    </blockquote>
+    <div class="anchor-attribution">
+      <div class="anchor-name">Maryann Milewski Moskal</div>
+      <div class="anchor-credential">Veteran Elementary School Educator&ensp;|&ensp;20+ Years K&ndash;5 Classroom Experience</div>
     </div>
+    <div class="anchor-line"></div>
   </div>
 </section>
 
@@ -516,104 +540,125 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     <div class="meta-item"><div class="meta-label">Pages</div><div class="meta-value">36</div></div>
     <div class="meta-item"><div class="meta-label">Age Range</div><div class="meta-value">5&ndash;9</div></div>
     <div class="meta-item"><div class="meta-label">Grade Level</div><div class="meta-value">K&ndash;5</div></div>
-    <div class="meta-item"><div class="meta-label">Trim Size</div><div class="meta-value">8.5&times;8.5&Prime;</div></div>
+    <div class="meta-item"><div class="meta-label">Trim Size</div><div class="meta-value">8.5&times;11&Prime;</div></div>
     <div class="meta-item"><div class="meta-label">Binding</div><div class="meta-value">Perfect Bound</div></div>
+    <div class="meta-item"><div class="meta-label">Library</div><div class="meta-value">Binding Avail.</div></div>
     <div class="meta-item"><div class="meta-label">Interior</div><div class="meta-value">Full Color</div></div>
     <div class="meta-item"><div class="meta-label">Reading Level</div><div class="meta-value">Guided: L&ndash;N</div></div>
     <div class="meta-item"><div class="meta-label">Lexile</div><div class="meta-value">AD 620L</div></div>
     <div class="meta-item"><div class="meta-label">Publication</div><div class="meta-value">2025</div></div>
     <div class="meta-item"><div class="meta-label">Price</div><div class="meta-value">$14.99</div></div>
-    <div class="meta-item"><div class="meta-label">BISAC</div><div class="meta-value">JNF019000</div></div>
+    <div class="meta-item"><div class="meta-label">BISAC</div><div class="meta-value">JNF013000</div></div>
   </div>
   <div class="credentials-bar">
-    <div class="credential-badge"><span class="badge-icon">&#9989;</span> Aligned with Jump$tart National Standards</div>
-    <div class="credential-badge"><span class="badge-icon">&#9989;</span> Supports FDIC Money Smart for Young People</div>
-    <div class="credential-badge"><span class="badge-icon">&#9989;</span> Common Core Math &amp; ELA Correlated</div>
-    <div class="credential-badge"><span class="badge-icon">&#9989;</span> Council for Economic Education Aligned</div>
+    <div class="credential-badge"><span class="badge-icon">&check;</span> Aligned with Jump$tart National Standards</div>
+    <div class="credential-badge"><span class="badge-icon">&check;</span> Supports FDIC Money Smart for Young People</div>
+    <div class="credential-badge"><span class="badge-icon">&check;</span> Common Core Math &amp; ELA Correlated</div>
+    <div class="credential-badge"><span class="badge-icon">&check;</span> Council for Economic Education Aligned</div>
+    <div class="credential-badge"><span class="badge-icon">&check;</span> Hands on Banking K&ndash;5 Compatible</div>
   </div>
 </section>
 
-<!-- DOWNLOADABLE RESOURCES -->
+<!-- SECTION 3: TURNKEY ECOSYSTEM — PROGRAM IN A BOX -->
 <section class="resources-section reveal">
-  <div class="section-tag">Free Resources</div>
-  <h2>Downloadable Educator Materials</h2>
-  <p class="section-sub">Everything you need to bring Clarence into your classroom, library, or financial education program.</p>
+  <div class="section-tag">Turnkey Ecosystem</div>
+  <h2>Program in a Box: A Complete 4-Week Financial Literacy Module</h2>
+  <p class="section-sub">You don&rsquo;t just get a book. You get a turnkey, standards-aligned financial literacy module complete with pre- and post-assessments for your chapter directors, curriculum coordinators, and classroom educators. All materials are free.</p>
   <div class="resource-cards">
     <div class="resource-card">
-      <div class="rc-icon">&#128214;</div>
-      <span class="rc-free">FREE</span>
-      <h4>Educator Preview (PDF)</h4>
-      <p>12-page preview with full-color sample pages, learning objectives, and program overview.</p>
+      <div class="rc-icon-clean">PDF</div>
+      <span class="rc-free">FREE DOWNLOAD</span>
+      <h4>Educator Preview</h4>
+      <p>12-page institutional preview with full-color sample pages, learning objectives, standards mapping, and program overview.</p>
       <a class="rc-btn" href="#">Download Preview</a>
     </div>
     <div class="resource-card">
-      <div class="rc-icon">&#128221;</div>
-      <span class="rc-free">FREE</span>
-      <h4>Lesson Plan Guide</h4>
-      <p>Five ready-to-use lesson plans with discussion prompts, activities, and assessment rubrics for K&ndash;5.</p>
+      <div class="rc-icon-clean">LP</div>
+      <span class="rc-free">FREE DOWNLOAD</span>
+      <h4>45-Minute Classroom Lesson Plans</h4>
+      <p>Five ready-to-use lesson modules with discussion prompts, group activities, and assessment rubrics. Designed for K&ndash;5 instructors with no prep required.</p>
       <a class="rc-btn" href="#">Download Lessons</a>
     </div>
     <div class="resource-card">
-      <div class="rc-icon">&#128172;</div>
-      <span class="rc-free">FREE</span>
+      <div class="rc-icon-clean">DG</div>
+      <span class="rc-free">FREE DOWNLOAD</span>
       <h4>Discussion Guide</h4>
-      <p>Chapter-by-chapter discussion questions that build critical thinking about money decisions.</p>
+      <p>Chapter-by-chapter facilitation guide with critical thinking prompts mapped to CEE and Jump$tart competency frameworks.</p>
       <a class="rc-btn" href="#">Download Guide</a>
     </div>
     <div class="resource-card">
-      <div class="rc-icon">&#128200;</div>
-      <span class="rc-free">FREE</span>
-      <h4>Pre/Post Assessment</h4>
-      <p>Printable worksheet measuring financial literacy gains before and after reading the book.</p>
+      <div class="rc-icon-clean">A/B</div>
+      <span class="rc-free">FREE DOWNLOAD</span>
+      <h4>Pre/Post Assessment Worksheet</h4>
+      <p>Data-driven outcomes measurement. Printable pre- and post-assessment showing measurable financial literacy gains. Required for grant reporting.</p>
       <a class="rc-btn" href="#">Download Assessment</a>
     </div>
     <div class="resource-card">
-      <div class="rc-icon">&#127968;</div>
-      <span class="rc-free">FREE</span>
-      <h4>Parent Take-Home Activity</h4>
-      <p>Family engagement sheet with at-home activities parents and kids do together after each chapter.</p>
+      <div class="rc-icon-clean">2G</div>
+      <span class="rc-free">FREE DOWNLOAD</span>
+      <h4>Family Take-Home Activity</h4>
+      <p>Two-generation engagement sheet: activities parents and kids complete together. Supports family reading initiatives and meets Gates/Kellogg two-generation grant criteria.</p>
       <a class="rc-btn" href="#">Download Activity</a>
     </div>
     <div class="resource-card">
-      <div class="rc-icon">&#128202;</div>
-      <span class="rc-free">FREE</span>
+      <div class="rc-icon-clean">SC</div>
+      <span class="rc-free">FREE DOWNLOAD</span>
       <h4>Standards Correlation Chart</h4>
-      <p>One-page printable mapping every concept to Jump$tart, Common Core, and CEE standards.</p>
+      <p>One-page printable mapping every book concept to Jump$tart National Standards, Common Core Math/ELA, CEE, and FDIC Money Smart frameworks.</p>
       <a class="rc-btn" href="#">Download Chart</a>
     </div>
   </div>
 </section>
 
-<!-- INSTITUTIONAL ORDERING -->
+<!-- SECTION 5: THE PROCUREMENT PORTAL -->
 <section class="institutional-section reveal">
-  <div class="section-tag">Schools &amp; Programs</div>
+  <div class="section-tag">Procurement</div>
   <h2>Institutional &amp; Bulk Ordering</h2>
-  <p class="section-sub">Serving schools, libraries, financial education programs, and community organizations nationwide.</p>
+  <p class="section-sub">We seamlessly integrate with institutional procurement workflows. Schools, libraries, financial education programs, credit unions, and corporate partners nationwide.</p>
   <div class="inst-cards">
     <div class="inst-card">
-      <div class="ic-icon">&#127979;</div>
-      <h3>Request a Bulk Quote</h3>
-      <p>Volume pricing available for orders of 25+ copies. Discounts for Title I schools and nonprofit programs. Purchase order (PO) accepted.</p>
-      <a class="ic-btn primary" href="mailto:orders@kidsmoneybook.com?subject=Bulk%20Order%20Inquiry">Request a Quote</a>
-    </div>
-    <div class="inst-card">
-      <div class="ic-icon">&#128218;</div>
+      <div class="ic-icon-clean">01</div>
       <h3>Request Examination Copy</h3>
-      <p>Educators and curriculum directors can request a complimentary examination copy to evaluate for classroom or program adoption.</p>
-      <a class="ic-btn secondary" href="mailto:orders@kidsmoneybook.com?subject=Examination%20Copy%20Request">Request Exam Copy</a>
+      <p>For school curriculum directors, PTA leadership, and Jump$tart board members. Submit your institutional email to receive a complimentary review copy for adoption evaluation.</p>
+      <a class="ic-btn primary" href="mailto:orders@kidsmoneybook.com?subject=Examination%20Copy%20Request">Request Exam Copy</a>
     </div>
     <div class="inst-card">
-      <div class="ic-icon">&#129309;</div>
-      <h3>Program Partnership</h3>
-      <p>Integrate Clarence into your existing financial literacy program. Custom co-branded editions available for FDIC Money Smart, Hands on Banking, and state programs.</p>
-      <a class="ic-btn secondary" href="mailto:partnerships@kidsmoneybook.com?subject=Program%20Partnership%20Inquiry">Contact Us</a>
+      <div class="ic-icon-clean">02</div>
+      <h3>Request Bulk Quote (25+ Copies)</h3>
+      <p>Volume pricing for school districts, local credit unions, real estate brokerages, Scout troops, and community organizations. Title I volume discounts available.</p>
+      <a class="ic-btn primary" href="mailto:orders@kidsmoneybook.com?subject=Bulk%20Order%20Inquiry%20(25%2B%20Copies)">Request a Quote</a>
+    </div>
+    <div class="inst-card">
+      <div class="ic-icon-clean">03</div>
+      <h3>Enterprise &amp; Co-Branding Partnerships</h3>
+      <p>Custom co-branded editions for corporate sponsors, financial institutions, and national programs. White-label available for FDIC Money Smart, Hands on Banking, CRA initiatives, and state-level programs.</p>
+      <a class="ic-btn secondary" href="mailto:partnerships@kidsmoneybook.com?subject=Enterprise%20%26%20Co-Branding%20Partnership">Contact Us</a>
     </div>
   </div>
+  <p class="inst-procurement-note">We accept Purchase Orders (POs), offer Net 30 terms, Title I volume discounts, and are GSA Schedule compatible. Seamless integration with your existing procurement process.</p>
   <div class="inst-accepted">
-    <div class="inst-accepted-item"><span class="check">&#10003;</span> Purchase Orders Accepted</div>
-    <div class="inst-accepted-item"><span class="check">&#10003;</span> Net 30 Terms Available</div>
-    <div class="inst-accepted-item"><span class="check">&#10003;</span> Title I Discounts</div>
-    <div class="inst-accepted-item"><span class="check">&#10003;</span> GSA Schedule Compatible</div>
+    <div class="inst-accepted-item"><span class="check">&check;</span> Purchase Orders (PO)</div>
+    <div class="inst-accepted-item"><span class="check">&check;</span> Net 30 Terms</div>
+    <div class="inst-accepted-item"><span class="check">&check;</span> Title I Discounts</div>
+    <div class="inst-accepted-item"><span class="check">&check;</span> GSA Compatible</div>
+    <div class="inst-accepted-item"><span class="check">&check;</span> CRA Grant Eligible</div>
+  </div>
+</section>
+
+<!-- SECTION 6: THE COMPLIANT EDUCATIONAL ASSET — CLOSING PITCH -->
+<section class="pitch-section reveal">
+  <div class="pitch-inner">
+    <div class="pitch-label">For Institutional Decision Makers</div>
+    <h2 class="pitch-headline">This Is Not Just a Book.<br>It Is a Compliant Educational Asset.</h2>
+    <div class="pitch-body">
+      <p><em>Clarence Gets a Bargain</em> is a turnkey, Lexile-rated (AD 620L) financial literacy asset aligned with FDIC Money Smart for Young People and Jump$tart National Standards for K&ndash;12 Personal Finance Education. It includes pre-built family engagement assessments, making it fully compliant for CRA (Community Reinvestment Act) grant disbursements, Title I supplemental material funding, and corporate philanthropy reporting.</p>
+      <p>When your compliance team asks why you selected this asset, the answer is on a spreadsheet: Jump$tart Standard 4.1. Common Core CCSS.Math.5.NBT.B.7. FDIC Money Smart K&ndash;5. Council for Economic Education Benchmarks. Pre- and post-assessment data included.</p>
+      <p class="pitch-kicker">And the kids actually think it&rsquo;s hilarious.</p>
+    </div>
+    <div class="pitch-cta-row">
+      <a class="pitch-cta-primary" href="mailto:orders@kidsmoneybook.com?subject=Institutional%20Inquiry">Request Institutional Information Packet</a>
+      <a class="pitch-cta-secondary" href="#buy">Individual Purchase</a>
+    </div>
   </div>
 </section>
 
