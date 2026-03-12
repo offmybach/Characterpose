@@ -752,8 +752,7 @@ key.shadow.bias = -0.001;
 key.shadow.radius = 4;
 scene.add(key);
 var fill = new THREE.DirectionalLight(0x8888ff, 0.15); fill.position.set(-4, 3, -3); scene.add(fill);
-var gnd = new THREE.Mesh(new THREE.PlaneGeometry(20,20), new THREE.ShadowMaterial({opacity:.55}));
-gnd.rotation.x=-Math.PI/2; gnd.position.y=-1.2; gnd.receiveShadow=true; scene.add(gnd);
+// Shadow ground removed — clean floating look
 
 // ---- TEXTURES ----
 var TW=1200, TH=1680;
@@ -786,24 +785,38 @@ function drawCornerCurl(ctx, w, h) {
   ctx.restore();
 }
 
-// HEADER: gradient purple top → orange middle → green bottom + orange sticker
-function drawHeader(ctx, w, hH) {
+// HEADER: gradient + sticker with page title overlay
+function drawHeader(ctx, w, hH, pageTitle) {
   // Gradient background — matches cover: purple top → green middle → orange bottom
   var g=ctx.createLinearGradient(0,0,0,hH);
   g.addColorStop(0,'#4a1a6b');g.addColorStop(0.3,'#6a2d8e');g.addColorStop(0.5,'#228B22');g.addColorStop(0.7,'#1a7a1a');g.addColorStop(0.9,'#F57C00');g.addColorStop(1,'#ff6b2b');
   ctx.fillStyle=g;ctx.fillRect(0,0,w,hH);
-  // Draw sticker PNG centered, maintaining aspect ratio, filling most of header
+  // Draw sticker PNG centered, maintaining aspect ratio
   if (stickerImg.complete && stickerImg.naturalWidth > 0) {
     var imgAspect = stickerImg.naturalWidth / stickerImg.naturalHeight;
     var tH = hH * 0.90;
     var tW = tH * imgAspect;
-    // Cap width at 80% of page width
     if (tW > w * 0.80) { tW = w * 0.80; tH = tW / imgAspect; }
     var sx = (w - tW) / 2, sy = (hH - tH) / 2;
-    ctx.save();
-    ctx.shadowColor='rgba(0,0,0,.4)';ctx.shadowBlur=14;ctx.shadowOffsetY=5;
     ctx.drawImage(stickerImg, sx, sy, tW, tH);
-    ctx.restore();
+    // Overlay page title in black on the white pill area of the sticker
+    // The white pills sit roughly in the lower 55% of the sticker image
+    if (pageTitle) {
+      ctx.save();
+      ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.fillStyle = '#1a1a1a';
+      // Size to fit inside the white pill — scale down for longer titles
+      var maxTitleW = tW * 0.52;
+      var titleSz = Math.floor(tH * 0.14);
+      ctx.font = '900 ' + titleSz + 'px Arial Black,Arial,sans-serif';
+      while (ctx.measureText(pageTitle).width > maxTitleW && titleSz > 8) {
+        titleSz--;
+        ctx.font = '900 ' + titleSz + 'px Arial Black,Arial,sans-serif';
+      }
+      // Position over the lower white pill area
+      ctx.fillText(pageTitle, sx + tW / 2, sy + tH * 0.68);
+      ctx.restore();
+    }
   }
 }
 
@@ -930,12 +943,11 @@ function drawCGBSticker(ctx, x, y, sz) {
   ctx.fillText('CGB', x, y);
   ctx.restore();
 }
-function drawPageBg(ctx, w, h) {
+function drawPageBg(ctx, w, h, pageTitle) {
   var hH = h * 0.15;
-  drawHeader(ctx, w, hH);
+  drawHeader(ctx, w, hH, pageTitle);
   ctx.fillStyle = '#f5ecd7';
   ctx.fillRect(0, hH, w, h - hH);
-  // If sticker image failed to load, draw CGB text badge as fallback in header center
   if (!stickerImg.complete || stickerImg.naturalWidth === 0) {
     drawCGBSticker(ctx, w / 2, hH * 0.5, Math.floor(hH * 0.35));
   }
@@ -958,7 +970,7 @@ stickerImg.onload = function() {
 var pages = [
   // PAGE 0: INSIDE FRONT COVER — dedication / welcome
   makeTex(function(c, w, h) {
-    var hH = drawPageBg(c, w, h);
+    var hH = drawPageBg(c, w, h, 'Hold Up.');
     var pad = w * 0.08;
     c.setLineDash([14, 8]); c.strokeStyle = '#c4a060'; c.lineWidth = 4;
     rr(c, pad, hH + pad*0.6, w - pad*2, h - hH - pad*1.2, 12); c.stroke(); c.setLineDash([]);
@@ -1017,9 +1029,8 @@ var pages = [
 
   // PAGE 1: THE HOOK — what's this book about
   makeTex(function(c, w, h) {
-    var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'The Setup', "OK, So Here's The Deal");
-    var top = hH + h*0.13, m = w*0.05, gap = h*0.02;
+    var hH = drawPageBg(c, w, h, "Here's The Deal");
+    var top = hH + h*0.04, m = w*0.05, gap = h*0.02;
     var cH = (h - top - m) / 2 - gap;
     drawCard(c, m, top, w - m*2, cH,
       '\uD83D\uDED2', 'One Kid. One Store. One Robot.',
@@ -1032,9 +1043,8 @@ var pages = [
 
   // PAGE 2: THE SECRET SAUCE — what makes it work
   makeTex(function(c, w, h) {
-    var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'The Secret Sauce', 'Why This Book Hits Different');
-    var top = hH + h*0.13, m = w*0.05, gap = h*0.02;
+    var hH = drawPageBg(c, w, h, 'Secret Sauce');
+    var top = hH + h*0.04, m = w*0.05, gap = h*0.02;
     var cH = (h - top - m) / 3 - gap;
     drawCard(c, m, top, w - m*2, cH,
       '\uD83C\uDF6A', 'Trojan Horse Edutainment',
@@ -1049,9 +1059,8 @@ var pages = [
 
   // PAGE 3: FOR THE PARENTS — real talk
   makeTex(function(c, w, h) {
-    var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'Real Talk For Parents', 'Yeah, We Need To Discuss');
-    var top = hH + h*0.13, m = w*0.05, gap = h*0.02;
+    var hH = drawPageBg(c, w, h, 'Real Talk');
+    var top = hH + h*0.04, m = w*0.05, gap = h*0.02;
     var cH = (h - top - m) / 3 - gap;
     drawCard(c, m, top, w - m*2, cH,
       '\uD83D\uDCB8', 'The Money Talk Is Awkward',
@@ -1067,9 +1076,8 @@ var pages = [
 
   // PAGE 4: FOR EDUCATORS — classroom gold
   makeTex(function(c, w, h) {
-    var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'For Educators', 'Classroom-Ready. No Prep.');
-    var top = hH + h*0.13, m = w*0.05, gap = h*0.02;
+    var hH = drawPageBg(c, w, h, 'Educators');
+    var top = hH + h*0.04, m = w*0.05, gap = h*0.02;
     var cH = (h - top - m) / 3 - gap;
     drawCard(c, m, top, w - m*2, cH,
       '\uD83C\uDFEB', 'Drop It Into Any Lesson Plan',
@@ -1084,9 +1092,8 @@ var pages = [
 
   // PAGE 5: WHAT KIDS ACTUALLY LEARN — concepts grid
   makeTex(function(c, w, h) {
-    var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'What Kids Walk Away With', 'The Money Skills Menu');
-    var top = hH + h*0.13, m = w*0.05, gap = h*0.015;
+    var hH = drawPageBg(c, w, h, 'Money Skills');
+    var top = hH + h*0.04, m = w*0.05, gap = h*0.015;
     var cols = 2, rows = 3;
     var cardGap = w*0.025;
     var cW = (w - m*2 - cardGap) / cols;
@@ -1113,9 +1120,8 @@ var pages = [
 
   // PAGE 6: REVIEWS — what real people said
   makeTex(function(c, w, h) {
-    var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'Don\'t Take My Word For It', 'Actual Humans Weigh In');
-    var top = hH + h*0.13, m = w*0.05, gap = h*0.015;
+    var hH = drawPageBg(c, w, h, 'Reviews');
+    var top = hH + h*0.04, m = w*0.05, gap = h*0.015;
     var availH = h - top - m;
     var cH1 = availH * 0.42;
     var cH2 = (availH - cH1 - gap * 2) / 2;
@@ -1133,9 +1139,8 @@ var pages = [
 
   // PAGE 7: THE CLARENCE CHALLENGE
   makeTex(function(c, w, h) {
-    var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'Bonus Round', 'The Clarence Challenge');
-    var top = hH + h*0.13, m = w*0.05, gap = h*0.02;
+    var hH = drawPageBg(c, w, h, 'Challenge');
+    var top = hH + h*0.04, m = w*0.05, gap = h*0.02;
     var cH = (h - top - m) / 3 - gap;
     drawCard(c, m, top, w - m*2, cH,
       '\uD83C\uDFC6', 'Take Your Kid Shopping. For Real.',
@@ -1151,9 +1156,8 @@ var pages = [
 
   // PAGE 8: SNEAK PEEK — excerpt / teaser
   makeTex(function(c, w, h) {
-    var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'Sneak Peek', 'A Taste of the Adventure');
-    var top = hH + h*0.13, m = w*0.08;
+    var hH = drawPageBg(c, w, h, 'Sneak Peek');
+    var top = hH + h*0.04, m = w*0.08;
     // Excerpt block with fun styling
     c.save();
     c.setLineDash([14, 8]); c.strokeStyle = '#c4a060'; c.lineWidth = 4;
@@ -1211,9 +1215,8 @@ var pages = [
 
   // PAGE 9: FAQ — the stuff people actually ask
   makeTex(function(c, w, h) {
-    var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'Quick Answers', 'Stuff People Ask Me');
-    var top = hH + h*0.13, m = w*0.05, gap = h*0.015;
+    var hH = drawPageBg(c, w, h, 'FAQ');
+    var top = hH + h*0.04, m = w*0.05, gap = h*0.015;
     var cH = (h - top - m) / 4 - gap;
     drawCard(c, m, top, w - m*2, cH,
       '\uD83E\uDD14', '"What age is this for?"',
@@ -1232,7 +1235,7 @@ var pages = [
 
   // PAGE 10: THE PROMISE — heartfelt closer
   makeTex(function(c, w, h) {
-    var hH = drawPageBg(c, w, h);
+    var hH = drawPageBg(c, w, h, 'One Last Thing');
     var pad = w * 0.08;
     c.setLineDash([14, 8]); c.strokeStyle = '#c4a060'; c.lineWidth = 4;
     rr(c, pad, hH + pad*0.6, w - pad*2, h - hH - pad*1.2, 12); c.stroke(); c.setLineDash([]);
@@ -1293,9 +1296,8 @@ var pages = [
 
   // PAGE 11: BACK COVER — get your copy + author bio
   makeTex(function(c, w, h) {
-    var hH = drawPageBg(c, w, h);
-    drawSectionBanner(c, w, hH + h*0.06, 'Grab Your Copy', 'Start The Adventure');
-    var top = hH + h*0.13, m = w*0.05, gap = h*0.02;
+    var hH = drawPageBg(c, w, h, 'Get Yours');
+    var top = hH + h*0.04, m = w*0.05, gap = h*0.02;
     var cW = w - m*2, cH = (h - top - m) / 3 - gap;
     drawCard(c, m, top, cW, cH,
       '\uD83D\uDCD6', '$14.99 \u2022 Softcover \u2022 Full Color',
@@ -1317,7 +1319,7 @@ var totalSpreads = Math.ceil(pages.length / 2);
 // and slope back down. Far from spine they level off into a flat plateau.
 // Profile: sharp rise at spine → peak ~20% out → gradual slope → flat edge.
 // Backwards S curve: z = A * t * exp(-B*t) + baseline
-var PW = 1.5, PH = 2.1, SX = 40, SY = 1;
+var PW = 1.5, PH = 2.1, SX = 40, SY = 30;
 
 function makePageGeo(side) {
   var geo = new THREE.PlaneGeometry(PW, PH, SX, SY);
@@ -1326,17 +1328,54 @@ function makePageGeo(side) {
     var x = pos.getX(i), y = pos.getY(i);
     if (side === 'right') x += PW / 2;
     else x -= PW / 2;
-    // t = 0 at spine, 1 at outer edge
+    // t = 0 at spine, 1 at outer edge (horizontal)
     var t = Math.abs(x) / PW;
-    // MUSTACHE / distant-bird shape:
-    // Spine dips DOWN (valley at crease) → arches UP to peak ~30-40% out →
-    // gentle slope back down at wingtips. Like a bird soaring in the distance
-    // or a flowing handlebar mustache viewed from the front.
-    var z = 0.42 * Math.sin(t * Math.PI * 0.88);
-    // Spine valley: pull the spine crease down for a visible V-fold
-    z -= 0.06 * Math.exp(-t * 8);
-    // Wingtip droop: outer edges slope down gracefully
-    z *= (1 - 0.3 * Math.pow(t, 1.6));
+    // v = 0 at top edge, 1 at bottom edge (vertical — gravity axis)
+    var v = (y + PH / 2) / PH; // y goes from -PH/2 (bottom) to +PH/2 (top)
+    v = 1 - v; // flip so v=0 is top, v=1 is bottom
+
+    // === HORIZONTAL PROFILE: the mustache / bird-in-flight ===
+    // Spine crease dips into a valley → rises to a peak ~30% out →
+    // outer edges slope back down like drooping wingtips
+    var arch = 0.38 * Math.sin(t * Math.PI * 0.85);
+    // Spine valley — sharp crease fold
+    arch -= 0.07 * Math.exp(-t * 10);
+    // Wingtip droop at outer edges
+    arch *= (1 - 0.32 * Math.pow(t, 1.5));
+
+    // === VERTICAL MODULATION: gravity and paper stiffness ===
+    // Top edge: spine holds pages firmly — stiff, less curve
+    // Middle: full arch — the "hero" cross-section
+    // Bottom edge: gravity pulls pages down — more droop, deeper sag
+    //
+    // Paper stiffness envelope: strong at top (held by binding),
+    // full expression in the middle, sags at bottom
+    var stiffness = 1.0;
+    // Top 20%: stiffer (spine binding holds it)
+    if (v < 0.2) stiffness = 0.7 + 0.3 * (v / 0.2);
+    // Bottom 35%: gravity sag increases — pages droop and curl under
+    if (v > 0.65) {
+      var sag = (v - 0.65) / 0.35; // 0→1 over bottom 35%
+      stiffness = 1.0 + 0.25 * sag; // arch gets BIGGER (pages sag outward)
+    }
+
+    var z = arch * stiffness;
+
+    // === BOTTOM EDGE CURL: pages curl slightly inward at very bottom ===
+    // Real paper's bottom edge lifts slightly from gravity + page weight
+    if (v > 0.8) {
+      var curl = (v - 0.8) / 0.2; // 0→1 over bottom 20%
+      // Slight downward tuck at the very bottom — the "lip"
+      z -= 0.04 * curl * curl * (1 - t * 0.5);
+    }
+
+    // === OUTER EDGE WAVE: slight undulation along vertical at outer edge ===
+    // Real pages don't have perfectly straight outer edges — they ripple slightly
+    if (t > 0.7) {
+      var edgeFactor = (t - 0.7) / 0.3;
+      z += 0.012 * edgeFactor * Math.sin(v * Math.PI * 3.5);
+    }
+
     pos.setX(i, x);
     pos.setY(i, y);
     pos.setZ(i, z);
