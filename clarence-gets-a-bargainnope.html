@@ -734,8 +734,9 @@ var W = wrap.clientWidth, H = wrap.clientHeight;
 
 var scene = new THREE.Scene();
 var cam = new THREE.PerspectiveCamera(34, W/H, 0.1, 100);
-cam.position.set(0, 2.4, 3.2);
-cam.lookAt(0, 0, 0);
+// Slightly above and left — reading perspective matching Framer ref
+cam.position.set(-0.3, 2.0, 3.6);
+cam.lookAt(0, -0.1, 0);
 
 var ren = new THREE.WebGLRenderer({canvas:canvas, antialias:true, alpha:true});
 ren.setSize(W, H); ren.setPixelRatio(Math.min(window.devicePixelRatio, 2));
@@ -1320,6 +1321,7 @@ var totalSpreads = Math.ceil(pages.length / 2);
 // Profile: sharp rise at spine → peak ~20% out → gradual slope → flat edge.
 // Backwards S curve: z = A * t * exp(-B*t) + baseline
 var PW = 1.5, PH = 2.1, SX = 40, SY = 30;
+var PAGE_THICKNESS = 0.012; // visible paper edge thickness
 
 function makePageGeo(side) {
   var geo = new THREE.PlaneGeometry(PW, PH, SX, SY);
@@ -1330,50 +1332,48 @@ function makePageGeo(side) {
     else x -= PW / 2;
     // t = 0 at spine, 1 at outer edge (horizontal)
     var t = Math.abs(x) / PW;
-    // v = 0 at top edge, 1 at bottom edge (vertical — gravity axis)
-    var v = (y + PH / 2) / PH; // y goes from -PH/2 (bottom) to +PH/2 (top)
-    v = 1 - v; // flip so v=0 is top, v=1 is bottom
+    // v = 0 at top, 1 at bottom (gravity axis)
+    var v = 1 - (y + PH / 2) / PH;
 
-    // === HORIZONTAL PROFILE: the mustache / bird-in-flight ===
-    // Spine crease dips into a valley → rises to a peak ~30% out →
-    // outer edges slope back down like drooping wingtips
-    var arch = 0.38 * Math.sin(t * Math.PI * 0.85);
-    // Spine valley — sharp crease fold
-    arch -= 0.07 * Math.exp(-t * 10);
-    // Wingtip droop at outer edges
-    arch *= (1 - 0.32 * Math.pow(t, 1.5));
+    // === HORIZONTAL: gentle realistic paper curve ===
+    // Subtle lift from spine — pages are mostly flat with just enough
+    // rise near the fold to look like real paper held open.
+    // Matches Framer reference: gentle, not dramatic.
+    var arch = 0.14 * Math.sin(t * Math.PI * 0.82);
+    // Spine crease valley — visible V-fold where pages meet
+    arch -= 0.04 * Math.exp(-t * 12);
+    // Outer edges droop very slightly
+    arch *= (1 - 0.18 * Math.pow(t, 2.0));
 
-    // === VERTICAL MODULATION: gravity and paper stiffness ===
-    // Top edge: spine holds pages firmly — stiff, less curve
-    // Middle: full arch — the "hero" cross-section
-    // Bottom edge: gravity pulls pages down — more droop, deeper sag
-    //
-    // Paper stiffness envelope: strong at top (held by binding),
-    // full expression in the middle, sags at bottom
-    var stiffness = 1.0;
-    // Top 20%: stiffer (spine binding holds it)
-    if (v < 0.2) stiffness = 0.7 + 0.3 * (v / 0.2);
-    // Bottom 35%: gravity sag increases — pages droop and curl under
-    if (v > 0.65) {
-      var sag = (v - 0.65) / 0.35; // 0→1 over bottom 35%
-      stiffness = 1.0 + 0.25 * sag; // arch gets BIGGER (pages sag outward)
+    // === VERTICAL: gravity drape — the key visual ===
+    // Top: binding holds firm, minimal curve
+    // Middle: gentle arch (the "hero" cross-section)
+    // Bottom: gravity pulls corners down — the flowing drape
+    var vMod = 1.0;
+    // Top 25%: stiffer — binding supports
+    if (v < 0.25) vMod = 0.6 + 0.4 * (v / 0.25);
+    // Bottom 40%: increasing gravity sag — the "smile" bottom edge
+    if (v > 0.6) {
+      var sag = (v - 0.6) / 0.4;
+      // Outer corners droop MORE than center — concave bottom edge
+      var cornerDroop = t * t * 0.7; // more droop at outer edges
+      vMod = 1.0 - 0.15 * sag * (1 - cornerDroop);
     }
 
-    var z = arch * stiffness;
+    var z = arch * vMod;
 
-    // === BOTTOM EDGE CURL: pages curl slightly inward at very bottom ===
-    // Real paper's bottom edge lifts slightly from gravity + page weight
-    if (v > 0.8) {
-      var curl = (v - 0.8) / 0.2; // 0→1 over bottom 20%
-      // Slight downward tuck at the very bottom — the "lip"
-      z -= 0.04 * curl * curl * (1 - t * 0.5);
+    // === BOTTOM CORNER SAG: outer bottom corners pull down ===
+    // This creates the "flowing" bottom silhouette from the Framer ref
+    if (v > 0.7) {
+      var botFactor = (v - 0.7) / 0.3;
+      // Corners droop more than center
+      z -= 0.05 * botFactor * botFactor * t * t;
     }
 
-    // === OUTER EDGE WAVE: slight undulation along vertical at outer edge ===
-    // Real pages don't have perfectly straight outer edges — they ripple slightly
-    if (t > 0.7) {
-      var edgeFactor = (t - 0.7) / 0.3;
-      z += 0.012 * edgeFactor * Math.sin(v * Math.PI * 3.5);
+    // === SUBTLE OUTER EDGE RIPPLE ===
+    if (t > 0.75) {
+      var edgeFactor = (t - 0.75) / 0.25;
+      z += 0.006 * edgeFactor * Math.sin(v * Math.PI * 2.8);
     }
 
     pos.setX(i, x);
@@ -1384,9 +1384,86 @@ function makePageGeo(side) {
   return geo;
 }
 
+// Page edge thickness — thin strip along outer/top/bottom edges
+function makeEdgeGeo(side) {
+  // Outer vertical edge strip
+  var edgeGeo = new THREE.BufferGeometry();
+  var segs = SY;
+  var verts = [], norms = [], uvs = [], idxs = [];
+  // Sample positions from the page geo to build a matching edge strip
+  var pageGeo = makePageGeo(side);
+  var pp = pageGeo.attributes.position;
+  // Find the outermost column of vertices
+  var outerX = side === 'right' ? PW : -PW;
+  var edgeVerts = [];
+  for (var i = 0; i < pp.count; i++) {
+    if (Math.abs(pp.getX(i) - outerX) < 0.01) {
+      edgeVerts.push({x: pp.getX(i), y: pp.getY(i), z: pp.getZ(i)});
+    }
+  }
+  edgeVerts.sort(function(a, b) { return b.y - a.y; }); // top to bottom
+  // Build strip: top face vertex → bottom face vertex (offset by thickness)
+  for (var j = 0; j < edgeVerts.length; j++) {
+    var ev = edgeVerts[j];
+    // Top surface
+    verts.push(ev.x, ev.y, ev.z);
+    // Bottom surface (offset down by thickness)
+    verts.push(ev.x, ev.y, ev.z - PAGE_THICKNESS);
+    var nx = side === 'right' ? 1 : -1;
+    norms.push(nx, 0, 0); norms.push(nx, 0, 0);
+    uvs.push(0, j / (edgeVerts.length - 1));
+    uvs.push(1, j / (edgeVerts.length - 1));
+  }
+  for (var j = 0; j < edgeVerts.length - 1; j++) {
+    var a = j * 2, b = a + 1, c = a + 2, d = a + 3;
+    idxs.push(a, b, c); idxs.push(b, d, c);
+  }
+  edgeGeo.setAttribute('position', new THREE.Float32BufferAttribute(verts, 3));
+  edgeGeo.setAttribute('normal', new THREE.Float32BufferAttribute(norms, 3));
+  edgeGeo.setAttribute('uv', new THREE.Float32BufferAttribute(uvs, 2));
+  edgeGeo.setIndex(idxs);
+  pageGeo.dispose();
+  return edgeGeo;
+}
+
+// Bottom edge strip — thin strip along bottom of page
+function makeBottomEdgeGeo(side) {
+  var edgeGeo = new THREE.BufferGeometry();
+  var pageGeo = makePageGeo(side);
+  var pp = pageGeo.attributes.position;
+  var minY = -PH / 2;
+  var botVerts = [];
+  for (var i = 0; i < pp.count; i++) {
+    if (Math.abs(pp.getY(i) - minY) < 0.01) {
+      botVerts.push({x: pp.getX(i), y: pp.getY(i), z: pp.getZ(i)});
+    }
+  }
+  botVerts.sort(function(a, b) { return a.x - b.x; });
+  var verts = [], norms = [], uvs = [], idxs = [];
+  for (var j = 0; j < botVerts.length; j++) {
+    var bv = botVerts[j];
+    verts.push(bv.x, bv.y, bv.z);
+    verts.push(bv.x, bv.y, bv.z - PAGE_THICKNESS);
+    norms.push(0, -1, 0); norms.push(0, -1, 0);
+    uvs.push(j / (botVerts.length - 1), 0);
+    uvs.push(j / (botVerts.length - 1), 1);
+  }
+  for (var j = 0; j < botVerts.length - 1; j++) {
+    var a = j * 2, b = a + 1, c = a + 2, d = a + 3;
+    idxs.push(a, b, c); idxs.push(b, d, c);
+  }
+  edgeGeo.setAttribute('position', new THREE.Float32BufferAttribute(verts, 3));
+  edgeGeo.setAttribute('normal', new THREE.Float32BufferAttribute(norms, 3));
+  edgeGeo.setAttribute('uv', new THREE.Float32BufferAttribute(uvs, 2));
+  edgeGeo.setIndex(idxs);
+  pageGeo.dispose();
+  return edgeGeo;
+}
+
 // ---- BOOK GROUP ----
 var bookGroup = new THREE.Group();
-bookGroup.rotation.x = -0.38; // Tilted to show dramatic mustache arch from above
+// Gentle tilt — reading angle matching Framer reference
+bookGroup.rotation.x = -0.32;
 scene.add(bookGroup);
 
 // Spine — thin shadow line at center fold
@@ -1412,6 +1489,21 @@ bookGroup.add(leftMesh);
 var rightMesh = new THREE.Mesh(rightGeo, rightMat);
 rightMesh.castShadow = true; rightMesh.receiveShadow = true; rightMesh.visible = false;
 bookGroup.add(rightMesh);
+
+// PAGE EDGE THICKNESS — visible paper edges matching Framer reference
+var edgeMat = new THREE.MeshStandardMaterial({color: 0xf5ecd0, roughness: 0.8, side: THREE.DoubleSide});
+var leftEdge = new THREE.Mesh(makeEdgeGeo('left'), edgeMat);
+leftEdge.visible = false; bookGroup.add(leftEdge);
+var rightEdge = new THREE.Mesh(makeEdgeGeo('right'), edgeMat);
+rightEdge.visible = false; bookGroup.add(rightEdge);
+var leftBotEdge = new THREE.Mesh(makeBottomEdgeGeo('left'), edgeMat);
+leftBotEdge.visible = false; bookGroup.add(leftBotEdge);
+var rightBotEdge = new THREE.Mesh(makeBottomEdgeGeo('right'), edgeMat);
+rightBotEdge.visible = false; bookGroup.add(rightBotEdge);
+function showEdges(l, r) {
+  leftEdge.visible = l; leftBotEdge.visible = l;
+  rightEdge.visible = r; rightBotEdge.visible = r;
+}
 
 // TURNING PAGE — for flip animation
 // Uses right-side geometry, pivots at x=0 (spine)
@@ -1572,6 +1664,7 @@ function setSpread(idx) {
   var isLast = idx >= totalSpreads - 1;
   leftMesh.visible = !isLast;
   spineMesh.visible = !isLast;
+  showEdges(!isLast, true);
   if (!isLast) {
     leftMat.map = pages[li] || pages[pages.length - 1];
     leftMat.needsUpdate = true;
@@ -1587,6 +1680,7 @@ function openMag() {
   playWhoosh();
   setSpread(0);
   leftMesh.visible = true; rightMesh.visible = true; spineMesh.visible = true;
+  showEdges(true, true);
   var t0 = performance.now();
   (function a(now){
     var p = Math.min(1, (now-t0)/500);
@@ -1603,6 +1697,7 @@ function closeMag() {
   animating = true; bookState = 'closed';
   playWhoosh();
   leftMesh.visible = false; rightMesh.visible = false; spineMesh.visible = false;
+  showEdges(false, false);
   turnPivot.visible = false;
   coverMesh.visible = true; coverMesh.material.opacity = 0;
   var t0 = performance.now();
@@ -1873,7 +1968,7 @@ var ft=0;
   requestAnimationFrame(render); ft+=.012;
   bookGroup.position.y = Math.sin(ft)*.03;
   bookGroup.rotation.y += (tRY - bookGroup.rotation.y) * .05;
-  bookGroup.rotation.x += ((-0.38 + tRX) - bookGroup.rotation.x) * .05;
+  bookGroup.rotation.x += ((-0.32 + tRX) - bookGroup.rotation.x) * .05;
   ren.render(scene, cam);
 })();
 
