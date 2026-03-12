@@ -1335,45 +1335,52 @@ function makePageGeo(side) {
     // v = 0 at top, 1 at bottom (gravity axis)
     var v = 1 - (y + PH / 2) / PH;
 
-    // === HORIZONTAL: gentle realistic paper curve ===
-    // Subtle lift from spine — pages are mostly flat with just enough
-    // rise near the fold to look like real paper held open.
-    // Matches Framer reference: gentle, not dramatic.
-    var arch = 0.14 * Math.sin(t * Math.PI * 0.82);
-    // Spine crease valley — visible V-fold where pages meet
-    arch -= 0.04 * Math.exp(-t * 12);
-    // Outer edges droop very slightly
-    arch *= (1 - 0.18 * Math.pow(t, 2.0));
+    // === HORIZONTAL: SPINE IS THE PEAK — tent/roof shape ===
+    // From the close-up screenshots: the binding fold pushes pages UP
+    // at the spine. Pages slope DOWN from spine to outer edges.
+    // The spine is the HIGHEST point — like an open book on a table.
+    //
+    // Profile: high at spine (t=0) → smooth slope down → outer edge lowest
+    // With a tiny V-notch crease right at the fold line.
+    var peak = 0.22; // height at spine ridge
+    var z0 = peak * Math.pow(1 - t, 1.4); // smooth falloff from spine to edge
+    // Tiny V-crease notch right at the spine fold
+    z0 -= 0.025 * Math.exp(-t * 18);
 
-    // === VERTICAL: gravity drape — the key visual ===
-    // Top: binding holds firm, minimal curve
-    // Middle: gentle arch (the "hero" cross-section)
-    // Bottom: gravity pulls corners down — the flowing drape
+    // === VERTICAL: gravity drape ===
+    // Top edge: binding holds firm — full tent shape (visible in screenshot 2)
+    // Middle: still has the tent shape but slightly relaxed
+    // Bottom edge: gravity pulls outer corners down MORE — the flowing
+    // drape from screenshot 1. Spine stays high, corners sag.
     var vMod = 1.0;
-    // Top 25%: stiffer — binding supports
-    if (v < 0.25) vMod = 0.6 + 0.4 * (v / 0.25);
-    // Bottom 40%: increasing gravity sag — the "smile" bottom edge
-    if (v > 0.6) {
-      var sag = (v - 0.6) / 0.4;
-      // Outer corners droop MORE than center — concave bottom edge
-      var cornerDroop = t * t * 0.7; // more droop at outer edges
-      vMod = 1.0 - 0.15 * sag * (1 - cornerDroop);
+    // Top 15%: crisp tent shape — binding is strongest here
+    if (v < 0.15) vMod = 0.85 + 0.15 * (v / 0.15);
+    // Bottom 45%: gravity increases the overall droop at outer edges
+    if (v > 0.55) {
+      var sag = (v - 0.55) / 0.45;
+      // Amplify the slope — outer edges drop MORE at bottom
+      // but spine stays high (supported by binding)
+      vMod = 1.0 + 0.4 * sag * sag * t;
     }
 
-    var z = arch * vMod;
+    var z = z0 * vMod;
 
-    // === BOTTOM CORNER SAG: outer bottom corners pull down ===
-    // This creates the "flowing" bottom silhouette from the Framer ref
-    if (v > 0.7) {
-      var botFactor = (v - 0.7) / 0.3;
-      // Corners droop more than center
-      z -= 0.05 * botFactor * botFactor * t * t;
+    // === BOTTOM CORNER SAG: the signature drape ===
+    // Outer bottom corners pull DOWN hard under gravity.
+    // Spine bottom stays relatively high (binding supports it).
+    // This creates the concave "smile" bottom silhouette.
+    if (v > 0.55) {
+      var botFactor = (v - 0.55) / 0.45;
+      // Corners droop — stronger at outer edge, zero at spine
+      z -= 0.16 * botFactor * botFactor * Math.pow(t, 1.2);
+      // Slight overall bottom sag
+      z -= 0.02 * botFactor * botFactor;
     }
 
     // === SUBTLE OUTER EDGE RIPPLE ===
-    if (t > 0.75) {
-      var edgeFactor = (t - 0.75) / 0.25;
-      z += 0.006 * edgeFactor * Math.sin(v * Math.PI * 2.8);
+    if (t > 0.80) {
+      var edgeFactor = (t - 0.80) / 0.20;
+      z += 0.005 * edgeFactor * Math.sin(v * Math.PI * 2.5);
     }
 
     pos.setX(i, x);
