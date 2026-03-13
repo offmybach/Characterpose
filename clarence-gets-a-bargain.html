@@ -1473,10 +1473,9 @@ var pages = [
 var totalSpreads = Math.ceil(pages.length / 2);
 
 // ---- CURVED PAGE GEOMETRY ----
-// PHYSICS: Spine fold forces pages UP. Away from spine they lose support
-// and slope back down. Far from spine they level off into a flat plateau.
-// Profile: sharp rise at spine → peak ~20% out → gradual slope → flat edge.
-// Backwards S curve: z = A * t * exp(-B*t) + baseline
+// Matched to Framer 3D magazine reference images:
+// - BOTTOM EDGE: "mustache/bird" — spine dips, mid-section rises, outer edges droop
+// - SPINE: "butt crack" — deep rounded crease with convex ridges flanking it
 var PW = 1.5, PH = 2.1, SX = 40, SY = 30;
 var PAGE_THICKNESS = 0.012; // visible paper edge thickness
 
@@ -1493,45 +1492,41 @@ function makePageGeo(side) {
     var v = 1 - (y + PH / 2) / PH;
 
     // === HORIZONTAL: SPINE IS THE PEAK — tent/roof shape ===
-    // From the close-up screenshots: the binding fold pushes pages UP
-    // at the spine. Pages slope DOWN from spine to outer edges.
-    // The spine is the HIGHEST point — like an open book on a table.
-    //
-    // Profile: high at spine (t=0) → smooth slope down → outer edge lowest
-    // With a tiny V-notch crease right at the fold line.
+    // Binding fold pushes pages UP at spine. Pages slope down to edges.
     var peak = 0.22; // height at spine ridge
     var z0 = peak * Math.pow(1 - t, 1.4); // smooth falloff from spine to edge
-    // Tiny V-crease notch right at the spine fold
-    z0 -= 0.025 * Math.exp(-t * 18);
+
+    // === SPINE CREASE: deep rounded "butt crack" ===
+    // Deep Gaussian crease at the fold — much wider and deeper than a V-notch.
+    // Creates the dark central valley visible in the Framer spine close-up.
+    z0 -= 0.07 * Math.exp(-Math.pow(t * 12, 2));
+    // Convex "cheek" ridge just outside the crease — the rounded bulge
+    // on each side of the crack. Peaks ~8-10% from spine, then fades.
+    z0 += 0.035 * Math.pow(Math.min(t, 0.5), 0.4) * Math.exp(-t * 5);
 
     // === VERTICAL: gravity drape ===
-    // Top edge: binding holds firm — full tent shape (visible in screenshot 2)
-    // Middle: still has the tent shape but slightly relaxed
-    // Bottom edge: gravity pulls outer corners down MORE — the flowing
-    // drape from screenshot 1. Spine stays high, corners sag.
+    // Top edge: binding holds firm — crisp tent shape
+    // Middle: slightly relaxed
     var vMod = 1.0;
-    // Top 15%: crisp tent shape — binding is strongest here
     if (v < 0.15) vMod = 0.85 + 0.15 * (v / 0.15);
-    // Bottom 45%: gravity increases the overall droop at outer edges
-    if (v > 0.55) {
-      var sag = (v - 0.55) / 0.45;
-      // Amplify the slope — outer edges drop MORE at bottom
-      // but spine stays high (supported by binding)
-      vMod = 1.0 + 0.4 * sag * sag * t;
-    }
 
     var z = z0 * vMod;
 
-    // === BOTTOM CORNER SAG: the signature drape ===
-    // Outer bottom corners pull DOWN hard under gravity.
-    // Spine bottom stays relatively high (binding supports it).
-    // This creates the concave "smile" bottom silhouette.
+    // === BOTTOM EDGE: "mustache/bird" curve ===
+    // From the Framer bottom-edge reference:
+    // - Spine bottom DROPS (gravity, unsupported bottom of binding)
+    // - Mid-section (20-40% out) stays HIGH (paper stiffness arches up)
+    // - Outer edges droop gently
+    // The tent shape (spine=high) combined with a strong spine drop
+    // creates the mustache: net spine is LOW, mid-section is peak, edges droop.
     if (v > 0.55) {
       var botFactor = (v - 0.55) / 0.45;
-      // Corners droop — stronger at outer edge, zero at spine
-      z -= 0.16 * botFactor * botFactor * Math.pow(t, 1.2);
-      // Slight overall bottom sag
-      z -= 0.02 * botFactor * botFactor;
+      var bf2 = botFactor * botFactor;
+      // Strong spine drop — concentrated near spine (exp decay from t=0)
+      // This fights the tent shape at the bottom, pulling the spine DOWN
+      z -= 0.24 * bf2 * Math.exp(-t * 3.0);
+      // Outer edge gentle droop
+      z -= 0.04 * bf2 * Math.pow(t, 2.5);
     }
 
     // === SUBTLE OUTER EDGE RIPPLE ===
@@ -1630,12 +1625,12 @@ var bookGroup = new THREE.Group();
 bookGroup.rotation.x = -0.32;
 scene.add(bookGroup);
 
-// Spine — thin shadow line at center fold
+// Spine — deep shadow crease at center fold ("butt crack" shadow)
 var spineMesh = new THREE.Mesh(
-  new THREE.BoxGeometry(0.02, PH * 0.98, 0.005),
-  new THREE.MeshStandardMaterial({color: 0x444444, roughness: 0.9, transparent: true, opacity: 0.3})
+  new THREE.BoxGeometry(0.04, PH * 0.98, 0.008),
+  new THREE.MeshStandardMaterial({color: 0x333333, roughness: 0.95, transparent: true, opacity: 0.45})
 );
-spineMesh.position.z = -0.04; // Sit below page surface to prevent z-fighting
+spineMesh.position.z = -0.06; // Deep in the crease for pronounced shadow
 spineMesh.visible = false;
 bookGroup.add(spineMesh);
 
