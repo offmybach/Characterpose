@@ -1318,57 +1318,20 @@ var pages = [
     drawCornerCurl(c, w, h);
   }),
 
-  // PAGE 8: SNEAK PEEK — excerpt / teaser
+  // PAGE 8: WHAT KIDS LEARN — skills at a glance
   makeTex(function(c, w, h) {
-    var hH = drawPageBg(c, w, h, 'Sneak Peek');
-    var top = hH + h*0.04, m = w*0.08;
-    // Excerpt block with fun styling
-    c.save();
-    c.setLineDash([14, 8]); c.strokeStyle = '#c4a060'; c.lineWidth = 4;
-    rr(c, m, top, w - m*2, h - top - m, 12); c.stroke(); c.setLineDash([]);
-    c.fillStyle = '#faf3e0'; rr(c, m+3, top+3, w-m*2-6, h-top-m-6, 10); c.fill();
-    c.restore();
-    var tpad = 28;
-    c.textAlign = 'left'; c.textBaseline = 'top';
-    c.fillStyle = '#F57C00';
-    c.font = '900 ' + Math.floor(w * 0.05) + 'px Arial Black,Arial,sans-serif';
-    c.fillText('From the Book:', m + tpad, top + tpad);
-    c.fillStyle = '#222';
-    var exSize = Math.floor(w * 0.034);
-    c.font = 'italic 700 ' + exSize + 'px Georgia,serif';
-    var excerpt = [
-      'Mom handed Clarence a stack of',
-      'newspaper ads and said,',
-      '"Your homework before we go',
-      'to Sea-Mart."',
-      '',
-      'Clarence looked confused.',
-      '"Homework? It\'s Saturday."',
-      '',
-      '"Shopping homework," Mom said.',
-      '"Find the best deal on a',
-      'smart robot. Compare prices.',
-      'Circle the winners."',
-      '',
-      'Clarence grabbed a marker',
-      'and got to work.',
-      '',
-      'Twenty minutes later he had',
-      'circled, crossed out, and',
-      'ranked every robot in the ads.',
-      '',
-      '"I think I found it," he said.',
-    ];
-    var ey = top + tpad + w*0.06;
-    for (var i = 0; i < excerpt.length; i++) {
-      if (excerpt[i] === '') { ey += exSize * 0.7; continue; }
-      c.font = (i === excerpt.length - 1) ?
-        '900 italic ' + Math.floor(exSize * 1.15) + 'px Georgia,serif' :
-        'italic 700 ' + exSize + 'px Georgia,serif';
-      if (i === excerpt.length - 1) c.fillStyle = '#F57C00';
-      c.fillText(excerpt[i], m + tpad, ey);
-      ey += exSize * 1.35;
-    }
+    var hH = drawPageBg(c, w, h, 'What Kids Learn');
+    var top = hH + h*0.04, m = w*0.05, gap = h*0.02;
+    var cH = (h - top - m) / 3 - gap;
+    drawCard(c, m, top, w - m*2, cH,
+      '\uD83D\uDCB0', 'Budgeting & Comparison Shopping',
+      'Clarence learns to compare prices across store ads before spending a dime. Kids absorb the habit of looking before buying \u2014 a skill most adults wish they\u2019d picked up earlier.');
+    drawCard(c, m, top + cH + gap, w - m*2, cH,
+      '\uD83C\uDFF7\uFE0F', 'Coupons, Sales & Smart Deals',
+      'From clipping coupons to spotting clearance tags, the book walks kids through real ways families save money every day \u2014 without it ever feeling like a lesson.');
+    drawCard(c, m, top + (cH + gap)*2, w - m*2, cH,
+      '\uD83E\uDDE0', 'Wants vs. Needs',
+      'The big one. Clarence faces real choices about what he wants versus what makes sense. It\u2019s the financial literacy seed that every standard framework says matters most.');
     drawCornerCurl(c, w, h);
   }),
 
