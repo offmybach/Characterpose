@@ -101,26 +101,21 @@ footer p{color:rgba(255,255,255,.25);font-size:.8rem}
 .reveal.visible{opacity:1;transform:translateY(0)}
 .reveal-delay-1{transition-delay:.1s}.reveal-delay-2{transition-delay:.2s}.reveal-delay-3{transition-delay:.3s}
 @media(max-width:768px){nav{padding:12px 16px}nav .links a{padding:6px 10px;font-size:.78rem}.hero{padding:70px 20px 60px;min-height:auto}#magCanvasWrap{height:60vh;min-height:400px}}
-/* ===== Educators / Program-in-a-Box section ===== */
-.educators{background:#f8fafc;padding:80px 40px;color:#1a3a5c}
-.educators-inner{max-width:1140px;margin:0 auto}
-.edu-header{display:flex;align-items:flex-start;gap:14px;margin-bottom:20px}
-.edu-plus{font-size:2.2rem;color:#3b82f6;font-weight:900;line-height:1;flex-shrink:0;margin-top:6px}
-.educators h2{font-family:'Fredoka One',cursive;font-size:clamp(1.7rem,3.5vw,2.5rem);color:#1a3a5c;line-height:1.2}
-.edu-sub{color:#555;font-size:1rem;max-width:880px;margin:0 auto 50px;line-height:1.7;text-align:center}
-.dl-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
-.dl-row-2{grid-column:1/-1;display:flex;justify-content:center;gap:22px}
-.dl-row-2 .dl-card{width:calc(25% - 11px);max-width:262px}
-.dl-card{background:#fff;border:1.5px solid #e2e8f0;border-radius:16px;padding:30px 20px 22px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px;transition:.3s}
-.dl-card:hover{transform:translateY(-4px);box-shadow:0 10px 32px rgba(0,0,0,.1);border-color:var(--orange)}
-.dl-icon{width:60px;height:60px;background:#1a3a5c;border-radius:14px;display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Fredoka One',cursive;font-size:1.05rem;margin-bottom:6px;flex-shrink:0}
-.dl-free{background:#dcfce7;color:#16a34a;font-size:.7rem;font-weight:800;letter-spacing:1.5px;padding:4px 14px;border-radius:20px;text-transform:uppercase}
-.dl-card h3{font-family:'Fredoka One',cursive;color:#1a3a5c;font-size:1.05rem;line-height:1.3}
-.dl-card p{color:#6b7280;font-size:.875rem;line-height:1.6;flex:1}
-.dl-btn{display:inline-block;padding:12px 28px;background:var(--orange);color:#fff;font-family:'Fredoka One',cursive;font-size:.95rem;text-decoration:none;border-radius:30px;transition:.3s;margin-top:6px}
-.dl-btn:hover{background:#ff5500;transform:translateY(-2px)}
-@media(max-width:960px){.dl-grid{grid-template-columns:repeat(2,1fr)}.dl-row-2 .dl-card{width:calc(50% - 11px);max-width:none}}
-@media(max-width:580px){.dl-grid{grid-template-columns:1fr}.dl-row-2{flex-direction:column;align-items:center}.dl-row-2 .dl-card{width:100%;max-width:100%}.educators{padding:60px 20px}}
+/* ===== Program in a Box — Sea-Mart Coupon Aesthetic ===== */
+.resources-section{background:#faf3e0;padding:70px 20px;text-align:center}
+.resources-section .section-tag{font-family:'Fredoka One',cursive;font-size:.85rem;color:#ff6b2b;letter-spacing:3px;text-transform:uppercase;margin-bottom:12px}
+.resources-section h2{font-family:'Fredoka One',cursive;color:#0054a6;font-size:clamp(1.6rem,4vw,2.4rem);margin-bottom:12px}
+.resources-section .section-sub{color:#333;font-size:1.05rem;margin-bottom:40px;font-weight:600;max-width:800px;margin-left:auto;margin-right:auto;line-height:1.6}
+.resource-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;max-width:1100px;margin:0 auto}
+.resource-card{background:#fff;border:4px dashed #0054a6;border-radius:12px;padding:35px 25px 25px;text-align:center;transition:all .3s cubic-bezier(.4,0,.2,1);position:relative}
+.resource-card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(0,84,166,.15)}
+.resource-card::before{content:'\2702';position:absolute;top:-16px;right:15px;font-size:28px;color:#666;transform:rotate(-30deg);background:#faf3e0;padding:0 5px}
+.resource-card .rc-free{display:inline-flex;align-items:center;justify-content:center;width:60px;height:60px;background:#d32f2f;color:#fff;font-family:'Fredoka One',cursive;font-size:.9rem;border-radius:50%;margin-bottom:16px;letter-spacing:1px;clip-path:polygon(50% 0%,61% 16%,80% 9%,82% 27%,100% 31%,91% 48%,100% 66%,83% 73%,83% 91%,63% 85%,50% 100%,37% 85%,17% 91%,17% 73%,0% 66%,9% 48%,0% 31%,18% 27%,20% 9%,39% 16%);box-shadow:0 4px 10px rgba(211,47,47,.4)}
+.resource-card h4{font-family:'Fredoka One',cursive;color:#1a1a4e;font-size:1.3rem;margin-bottom:12px;line-height:1.2}
+.resource-card p{font-size:.95rem;color:#444;line-height:1.6;margin-bottom:24px;font-weight:600}
+.resource-card .rc-btn{display:inline-block;padding:14px 30px;background:#ff6b2b;color:#fff;font-family:'Fredoka One',cursive;font-size:.95rem;text-decoration:none;border-radius:40px;transition:.3s;border:none;cursor:pointer;box-shadow:0 4px 15px rgba(255,107,43,.4)}
+.resource-card .rc-btn:hover{transform:scale(1.05);background:#ff5500;box-shadow:0 6px 20px rgba(255,107,43,.6)}
+@media(max-width:640px){.resource-cards{grid-template-columns:1fr}.resources-section{padding:50px 16px}}
 </style>
 </head>
 <body>
@@ -151,60 +146,48 @@ footer p{color:rgba(255,255,255,.25);font-size:.8rem}
   </div>
 </section>
 
-<section class="buy" id="buy"><div class="buy-bg"></div><div class="section-label reveal">Best Investment You&rsquo;ll Make All Year</div><h2 class="reveal">Get Your Copy</h2><div class="buy-sub reveal">36 pages of adventure, laughs, and money smarts</div><div class="price reveal">$14.99</div><div class="price-note reveal">Softcover &bull; Full Color &bull; Ages 5&ndash;9</div><div class="buy-btns reveal"><a class="buy-btn amazon" href="#">Amazon</a><a class="buy-btn bn" href="#">Barnes &amp; Noble</a><a class="buy-btn indie" href="#">IndieBound</a></div></section>
+<section class="buy" id="buy"><div class="buy-bg"></div><div class="section-label reveal">Best Investment You&rsquo;ll Make All Year</div><h2 class="reveal">Get Your Copy</h2><div class="buy-sub reveal">36 pages of adventure, laughs, and money smarts</div><div class="price reveal">$14.99</div><div class="price-note reveal">Softcover &bull; Full Color &bull; Ages 5&ndash;9</div><div class="buy-btns reveal"><a class="buy-btn amazon" href="#" style="background:#ff6b2b;box-shadow:0 4px 20px rgba(255,107,43,.4);">Buy Direct &mdash; $14.99</a><a class="buy-btn bn" href="#">Barnes &amp; Noble</a><a class="buy-btn indie" href="#">IndieBound</a></div></section>
 
-<section class="educators reveal" id="educators">
-  <div class="educators-inner">
-    <div class="edu-header">
-      <span class="edu-plus">+</span>
-      <h2>Program in a Box: A Complete 4-Week Financial Literacy Module</h2>
+<section class="resources-section reveal" id="educators">
+  <div class="section-tag">Program in a Box</div>
+  <h2>A Complete 4-Week Financial Literacy Module</h2>
+  <p class="section-sub">You don&rsquo;t just get a book. You get a turnkey financial literacy module with discussion guides and activities for your chapter directors, curriculum coordinators, and classroom educators. All materials are free.</p>
+  <div class="resource-cards">
+    <div class="resource-card reveal">
+      <span class="rc-free">FREE</span>
+      <h4>Educator Preview</h4>
+      <p>12-page institutional preview with full-color sample pages, learning objectives, standards mapping, and program overview.</p>
+      <a class="rc-btn" href="downloads/educator-preview.pdf" download>Download Preview</a>
     </div>
-    <p class="edu-sub">You don&rsquo;t just get a book. You get a turnkey financial literacy module with discussion guides and activities for your chapter directors, curriculum coordinators, and classroom educators. All materials are free.</p>
-    <div class="dl-grid">
-      <div class="dl-card reveal">
-        <div class="dl-icon">PDF</div>
-        <span class="dl-free">Free Download</span>
-        <h3>Educator Preview</h3>
-        <p>12-page institutional preview with full-color sample pages, learning objectives, standards mapping, and program overview.</p>
-        <a class="dl-btn" href="downloads/educator-preview.pdf" download>Download Preview</a>
-      </div>
-      <div class="dl-card reveal reveal-delay-1">
-        <div class="dl-icon">LP</div>
-        <span class="dl-free">Free Download</span>
-        <h3>45-Minute Classroom Lesson Plans</h3>
-        <p>Five ready-to-use lesson modules with discussion prompts, group activities, and assessment rubrics. Designed for K&ndash;5 instructors with no prep required.</p>
-        <a class="dl-btn" href="downloads/lesson-plans.pdf" download>Download Lessons</a>
-      </div>
-      <div class="dl-card reveal reveal-delay-2">
-        <div class="dl-icon">DG</div>
-        <span class="dl-free">Free Download</span>
-        <h3>Discussion Guide</h3>
-        <p>Chapter-by-chapter facilitation guide with critical thinking prompts mapped to CEE and Jump$tart competency frameworks.</p>
-        <a class="dl-btn" href="downloads/discussion-guide.pdf" download>Download Guide</a>
-      </div>
-      <div class="dl-card reveal reveal-delay-3">
-        <div class="dl-icon">A/B</div>
-        <span class="dl-free">Free Download</span>
-        <h3>Pre/Post Assessment Worksheet</h3>
-        <p>Data-driven outcomes measurement. Printable pre- and post-assessment showing measurable financial literacy gains. Required for grant reporting.</p>
-        <a class="dl-btn" href="downloads/assessment-worksheet.pdf" download>Download Assessment</a>
-      </div>
-      <div class="dl-row-2">
-        <div class="dl-card reveal">
-          <div class="dl-icon">2G</div>
-          <span class="dl-free">Free Download</span>
-          <h3>Family Take-Home Activity</h3>
-          <p>Two-generation engagement sheet: activities parents and kids complete together. Supports family reading initiatives and meets Gates/Kellogg two-generation grant criteria.</p>
-          <a class="dl-btn" href="downloads/family-activity.pdf" download>Download Activity</a>
-        </div>
-        <div class="dl-card reveal reveal-delay-1">
-          <div class="dl-icon">SC</div>
-          <span class="dl-free">Free Download</span>
-          <h3>Standards Correlation Chart</h3>
-          <p>One-page printable mapping every book concept to Jump$tart National Standards, Common Core Math/ELA, CEE, and FDIC Money Smart frameworks.</p>
-          <a class="dl-btn" href="downloads/standards-chart.pdf" download>Download Chart</a>
-        </div>
-      </div>
+    <div class="resource-card reveal reveal-delay-1">
+      <span class="rc-free">FREE</span>
+      <h4>45-Minute Lesson Plans</h4>
+      <p>Five ready-to-use lesson modules with discussion prompts, group activities, and assessment rubrics. No prep required.</p>
+      <a class="rc-btn" href="downloads/lesson-plans.pdf" download>Download Lessons</a>
+    </div>
+    <div class="resource-card reveal reveal-delay-2">
+      <span class="rc-free">FREE</span>
+      <h4>Discussion Guide</h4>
+      <p>Chapter-by-chapter facilitation guide with critical thinking prompts mapped to CEE and Jump$tart competency frameworks.</p>
+      <a class="rc-btn" href="downloads/discussion-guide.pdf" download>Download Guide</a>
+    </div>
+    <div class="resource-card reveal reveal-delay-3">
+      <span class="rc-free">FREE</span>
+      <h4>Pre/Post Assessment</h4>
+      <p>Data-driven outcomes measurement. Printable assessments showing measurable financial literacy gains for grant reporting.</p>
+      <a class="rc-btn" href="downloads/assessment-worksheet.pdf" download>Download Assessment</a>
+    </div>
+    <div class="resource-card reveal">
+      <span class="rc-free">FREE</span>
+      <h4>Family Take-Home Activity</h4>
+      <p>Two-generation engagement sheet: activities parents and kids complete together. Meets Gates/Kellogg two-gen grant criteria.</p>
+      <a class="rc-btn" href="downloads/family-activity.pdf" download>Download Activity</a>
+    </div>
+    <div class="resource-card reveal reveal-delay-1">
+      <span class="rc-free">FREE</span>
+      <h4>Standards Correlation Chart</h4>
+      <p>One-page printable mapping every book concept to Jump$tart National Standards, Common Core Math/ELA, CEE, and FDIC.</p>
+      <a class="rc-btn" href="downloads/standards-chart.pdf" download>Download Chart</a>
     </div>
   </div>
 </section>
