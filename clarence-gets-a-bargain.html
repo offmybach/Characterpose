@@ -36,7 +36,7 @@
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--purple:#4a1a6b;--dpurple:#2d0f42;--orange:#ff6b2b;--gold:#ffd700;--cream:#FAF3E0;--blue:#0054a6;--seablue:#1a3a5c;--ltblue:#4fc3f7;--red:#d32f2f;--green:#2e7d32;--darkbg:#0f0520;--lavender:#c8a2e0;--ltlav:#d8bce8}
 html{scroll-behavior:smooth}
-body{font-family:'Nunito',sans-serif;background:linear-gradient(180deg,#b3d4e8 0%,#d4e8f5 30%,#eaf3f9 60%,#f7fafe 85%,#fcfdfe 100%);color:#1a1a2e;overflow-x:hidden;min-height:100vh}
+body{font-family:'Hold','Nunito',sans-serif;background:linear-gradient(180deg,#b3d4e8 0%,#d4e8f5 30%,#eaf3f9 60%,#f7fafe 85%,#fcfdfe 100%);color:#1a1a2e;overflow-x:hidden;min-height:100vh}
 .particles{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:hidden}
 .particle{position:absolute;opacity:0;animation:floatUp linear infinite}
 @keyframes floatUp{0%{transform:translateY(110vh) rotate(0);opacity:0}10%{opacity:.5}90%{opacity:.5}100%{transform:translateY(-10vh) rotate(360deg);opacity:0}}
@@ -114,7 +114,7 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 /* === BRAND TITLE BLOCK WITH PILLS === */
 .title-block{display:inline-flex;flex-direction:column;align-items:center;gap:12px;background:#F57C00;border-radius:20px;padding:20px 30px;box-shadow:0 8px 24px rgba(0,0,0,.3);position:relative;z-index:2;margin-bottom:20px}
 .title-pill{background:#fff;border-radius:12px;padding:10px 40px;border:3px solid #E65100;width:100%}
-.title-pill h1,.title-pill h2{font-family:'Nunito',sans-serif;font-weight:400;color:#1a1a1a;letter-spacing:1px;margin:0;text-align:center}
+.title-pill h1,.title-pill h2{font-family:'Hold',sans-serif;font-weight:400;color:#1a1a1a;letter-spacing:1px;margin:0;text-align:center}
 .title-pill h1{font-size:clamp(2rem,5vw,3.5rem)}
 .title-pill h2{font-size:clamp(1.5rem,4vw,2.8rem)}
 
@@ -234,7 +234,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--orange);outline-off
 .email-signup h3{font-family:'Hold',sans-serif;color:#fff;font-size:clamp(1.3rem,3vw,1.8rem);margin-bottom:8px}
 .email-signup p{color:rgba(255,255,255,.85);margin-bottom:24px;font-size:.95rem}
 .email-form{display:flex;justify-content:center;gap:0;max-width:480px;margin:0 auto}
-.email-form input{flex:1;padding:14px 20px;border:none;border-radius:40px 0 0 40px;font-size:1rem;font-family:'Nunito',sans-serif;outline:none}
+.email-form input{flex:1;padding:14px 20px;border:none;border-radius:40px 0 0 40px;font-size:1rem;font-family:'Hold',sans-serif;outline:none}
 .email-form button{padding:14px 28px;background:#1a3a5c;color:#fff;border:none;border-radius:0 40px 40px 0;font-family:'Hold',sans-serif;font-size:.95rem;cursor:pointer;transition:.3s;white-space:nowrap}
 .email-form button:hover{background:#0d2a44}
 
@@ -287,7 +287,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .resource-card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(0,84,166,0.15)}
 .resource-card::before{content:'\2702';position:absolute;top:-16px;right:15px;font-size:28px;color:#666;transform:rotate(-30deg);background:#FAF3E0;padding:0 5px}
 .resource-card .rc-free{display:inline-flex;align-items:center;justify-content:center;width:60px;height:60px;background:#d32f2f;color:#fff;font-family:'Hold',sans-serif;font-size:0.9rem;border-radius:50%;margin-bottom:16px;letter-spacing:1px;clip-path:polygon(50% 0%,61% 16%,80% 9%,82% 27%,100% 31%,91% 48%,100% 66%,83% 73%,83% 91%,63% 85%,50% 100%,37% 85%,17% 91%,17% 73%,0% 66%,9% 48%,0% 31%,18% 27%,20% 9%,39% 16%);box-shadow:0 4px 10px rgba(211,47,47,0.4)}
-.resource-card h4{font-family:'Hold',sans-serif;color:#1a1a4e;font-size:1.3rem;margin-bottom:12px;line-height:1.2}
+.resource-card h4{font-family:'Hold',sans-serif;color:#0054a6;font-size:1.3rem;margin-bottom:12px;line-height:1.2}
 .resource-card p{font-size:0.95rem;color:#444;line-height:1.6;margin-bottom:24px;font-weight:600}
 .resource-card .rc-btn{display:inline-block;padding:14px 30px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:0.95rem;text-decoration:none;border-radius:40px;transition:.3s;border:none;cursor:pointer;box-shadow:0 4px 15px rgba(255,107,43,0.4)}
 .resource-card .rc-btn:hover{transform:scale(1.05);background:#ff5500;box-shadow:0 6px 20px rgba(255,107,43,0.6)}
@@ -315,7 +315,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 /* === AUTHORITY ANCHOR (Massive Clean Quote Block) === */
 .authority-anchor{max-width:820px;margin:0 auto;padding:20px 0}
 .anchor-line{height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent);margin:20px 0}
-.anchor-quote{font-family:'Hold',Georgia,serif;font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.7;color:rgba(255,255,255,.92);font-style:normal;font-weight:normal;margin:0;padding:0;border:none;text-align:center;letter-spacing:.3px}
+.anchor-quote{font-family:'Hold',Georgia,serif;font-size:clamp(0.9rem,2vw,1.3rem);line-height:1.7;color:rgba(255,255,255,.92);font-style:normal;font-weight:normal;margin:0;padding:0;border:none;text-align:center;letter-spacing:.3px}
 .anchor-attribution{text-align:center;margin-top:28px}
 .anchor-name{font-family:'Hold',sans-serif;color:#FFB74D;font-size:1.2rem;letter-spacing:1px}
 .anchor-credential{color:rgba(255,255,255,.5);font-size:.85rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-top:6px}
@@ -456,7 +456,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
         {
           "@type": "Question",
           "name": "What financial concepts does the book teach?",
-          "acceptedAnswer": {"@type": "Answer", "text": "The book covers budgeting, comparison shopping, sale pricing, coupons and percentage markdowns, wants vs. needs, receipts and record-keeping, savings and delayed gratification, college savings accounts, and consumer awareness."}
+          "acceptedAnswer": {"@type": "Answer", "text": "The book covers budgeting, comparison shopping, sale pricing, coupons and percentage markdowns, Wants vs. Needs, receipts and record-keeping, savings and delayed gratification, college savings accounts, and consumer awareness."}
         }
       ]
     }
@@ -582,7 +582,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       <p>Financial literacy is usually treated as a &ldquo;high school&rdquo; topic, but research shows that money habits are formed by age seven. Most educational books on this subject are either too dry for a first-grader or too simplistic for a fifth-grader.</p>
       <p><em>Clarence Gets a Bargain</em> bridges that gap. It is a 36-page narrative tool designed for K&ndash;5 classrooms, libraries, and financial education programs. We don&rsquo;t just tell a story; we provide a roadmap for the following core concepts:</p>
       <ul>
-        <li><strong>Behavioral Economics:</strong> Navigating the &ldquo;Wants vs. Needs&rdquo; conflict through character-driven stakes.</li>
+        <li><strong>Behavioral Economics:</strong> Navigating the &ldquo;<strong><em>Wants vs. Needs</em></strong>&rdquo; conflict through character-driven stakes.</li>
         <li><strong>Real-World Math:</strong> Practical applications of percentage markdowns, sale pricing, and coupon savings.</li>
         <li><strong>College Savings:</strong> A rare, age-appropriate introduction to long-term college savings accounts and family budgeting.</li>
         <li><strong>The Financial Glossary:</strong> Two full pages of page-referenced definitions that transform a &ldquo;picture book&rdquo; into a verifiable lesson plan.</li>
@@ -602,7 +602,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     </blockquote>
     <div class="anchor-attribution">
       <div class="anchor-name">Maryann Milewski Moskal</div>
-      <div class="anchor-credential">Veteran Elementary School Educator&ensp;|&ensp;20+ Years K&ndash;5 Classroom Experience</div>
+      <div class="anchor-credential">Veteran Elementary School Educator&ensp;|&ensp;30+ Years K&ndash;5 Classroom Experience</div>
     </div>
     <div class="anchor-line"></div>
   </div>
@@ -634,7 +634,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     <div class="std-cell"><div class="std-pages">p. 4</div></div>
     <div class="std-cell"><div class="std-badges"><span class="std-badge jumpstart">Jump$tart: Spending</span><span class="std-badge cee">CEE: Saving</span><span class="std-badge ccss">CCSS.ELA-RL.2.2</span></div></div>
 
-    <div class="std-cell"><div class="std-concept">Wants vs. Needs</div></div>
+    <div class="std-cell"><div class="std-concept"><strong><em>Wants vs. Needs</em></strong></div></div>
     <div class="std-cell"><div class="std-pages">pp. 4&ndash;8</div></div>
     <div class="std-cell"><div class="std-badges"><span class="std-badge jumpstart">Jump$tart: Spending</span><span class="std-badge ccss">CCSS.ELA-RI.2.1</span><span class="std-badge cee">CEE: Spending</span></div></div>
 
@@ -1024,8 +1024,9 @@ function drawCard(ctx, x, y, w, h, emoji, title, body) {
   ctx.fillText(emoji, x + pad, y + pad);
   // Title — scale with card, no arbitrary cap
   var titleSize = Math.floor(h * 0.13);
-  ctx.font = '900 ' + titleSize + 'px "Hold",sans-serif';
-  ctx.fillStyle = '#1a1a4e';
+  var isWvN = title.indexOf('Wants vs') !== -1;
+  ctx.font = (isWvN ? '900 italic ' : '900 ') + titleSize + 'px "Hold",sans-serif';
+  ctx.fillStyle = '#0054a6';
   ctx.textAlign = 'left'; ctx.textBaseline = 'top';
   var titleY = y + pad + h * 0.13;
   var titleLines = wrapText(ctx, title, w - pad * 2 - 14);
@@ -1095,6 +1096,11 @@ function drawReview(ctx, x, y, w, h, quote, name) {
   }
   ctx.font = '900 ' + nameSize + 'px "Hold",sans-serif';
   ctx.fillStyle = '#ff6b2b';
+  var maxNameW = w - pad * 2 - 14;
+  while (ctx.measureText(name).width > maxNameW && nameSize > 10) {
+    nameSize--;
+    ctx.font = '900 ' + nameSize + 'px "Hold",sans-serif';
+  }
   var nY = qY + qLines.length * (qSize * 1.28) + 8;
   ctx.fillText(name, x + pad, nY);
   ctx.restore();
@@ -1106,7 +1112,7 @@ function drawSectionBanner(ctx, w, y, label, title) {
   ctx.fillStyle = '#ff6b2b';
   ctx.font = '900 ' + Math.floor(w * 0.038) + 'px "Hold",sans-serif';
   ctx.fillText(label.toUpperCase(), w/2, y);
-  ctx.fillStyle = '#1a1a4e';
+  ctx.fillStyle = '#0054a6';
   ctx.font = '900 ' + Math.floor(w * 0.065) + 'px "Hold",sans-serif';
   ctx.fillText(title, w/2, y + w * 0.05);
 }
@@ -1167,14 +1173,14 @@ var pages = [
 
     c.textAlign = 'center'; c.textBaseline = 'middle';
     c.fillStyle = '#F57C00';
-    c.font = '900 ' + Math.floor(w * 0.065) + 'px "Hold",sans-serif';
-    c.fillText('Hold Up.', w/2, hH + h*0.10);
-    c.fillStyle = '#1a1a4e';
-    c.font = '900 ' + Math.floor(w * 0.075) + 'px "Hold",sans-serif';
-    c.fillText('Before You Flip...', w/2, hH + h*0.18);
+    c.font = '900 ' + Math.floor(w * 0.055) + 'px "Hold",sans-serif';
+    c.fillText('Hold Up.', w/2, hH + h*0.08);
+    c.fillStyle = '#0054a6';
+    c.font = '900 ' + Math.floor(w * 0.060) + 'px "Hold",sans-serif';
+    c.fillText('Before You Flip...', w/2, hH + h*0.15);
 
-    c.font = Math.floor(w * 0.08) + 'px serif';
-    c.fillText('\u2702\uFE0F', w/2, hH + h*0.27);
+    c.font = Math.floor(w * 0.06) + 'px serif';
+    c.fillText('\u2702\uFE0F', w/2, hH + h*0.22);
 
     c.fillStyle = '#333';
     var dedLines = [
@@ -1193,25 +1199,25 @@ var pages = [
       '',
       'You know who you are.',
     ];
-    var dy = hH + h*0.34;
+    var dy = hH + h*0.28;
     for (var i = 0; i < dedLines.length; i++) {
-      if (dedLines[i] === '') { dy += w*0.018; continue; }
+      if (dedLines[i] === '') { dy += w*0.012; continue; }
       var isItalic = (i === 2 || i === 5 || i === 6);
       c.font = isItalic ?
-        'italic 700 ' + Math.floor(w * 0.035) + 'px "Hold",sans-serif' :
-        '700 ' + Math.floor(w * 0.034) + 'px "Hold",sans-serif';
+        'italic 700 ' + Math.floor(w * 0.030) + 'px "Hold",sans-serif' :
+        '700 ' + Math.floor(w * 0.029) + 'px "Hold",sans-serif';
       c.fillText(dedLines[i], w/2, dy);
-      dy += w * 0.044;
+      dy += w * 0.038;
     }
     c.fillStyle = '#F57C00';
-    c.font = '900 ' + Math.floor(w * 0.042) + 'px "Hold",sans-serif';
-    c.fillText('\u2014 Jonathan Bach', w/2, dy + w*0.02);
+    c.font = '900 ' + Math.floor(w * 0.036) + 'px "Hold",sans-serif';
+    c.fillText('\u2014 Jonathan Bach', w/2, dy + w*0.015);
     c.fillStyle = '#888';
-    c.font = 'italic 600 ' + Math.floor(w * 0.026) + 'px "Hold",sans-serif';
-    c.fillText('Attorney. Artist. Recovering coupon addict.', w/2, dy + w*0.065);
+    c.font = 'italic 600 ' + Math.floor(w * 0.022) + 'px "Hold",sans-serif';
+    c.fillText('Attorney. Artist. Recovering coupon addict.', w/2, dy + w*0.050);
 
     c.fillStyle = '#999';
-    c.font = '600 ' + Math.floor(w * 0.024) + 'px "Hold",sans-serif';
+    c.font = '600 ' + Math.floor(w * 0.020) + 'px "Hold",sans-serif';
     c.fillText('\u00A9 2026 Jonathan Bach. All rights reserved.', w/2, h - pad*0.8);
     c.fillText('No coupons were harmed in the making of this book.', w/2, h - pad*0.4);
     drawCornerCurl(c, w, h);
@@ -1313,15 +1319,14 @@ var pages = [
     var hH = drawPageBg(c, w, h, 'Reviews');
     var top = hH + h*0.04, m = w*0.05, gap = h*0.015;
     var availH = h - top - m;
-    var cH1 = availH * 0.42;
-    var cH2 = (availH - cH1 - gap * 2) / 2;
-    drawReview(c, m, top, w - m*2, cH1,
+    var cH = (availH - gap * 2) / 3;
+    drawReview(c, m, top, w - m*2, cH,
       'An absolute masterclass in early-stage financial literacy. This book seamlessly bridges the gap between engaging, character-driven storytelling and core economic competencies.',
       '\u2014 Maryann Milewski Moskal, Veteran Educator');
-    drawReview(c, m, top + cH1 + gap, w - m*2, cH2,
+    drawReview(c, m, top + cH + gap, w - m*2, cH,
       'My students fought over who got to hold the book during read-aloud. Fought. Over a book about money. If that doesn\'t tell you something, I don\'t know what will.',
       '\u2014 3rd Grade Teacher, NJ Public Schools');
-    drawReview(c, m, top + cH1 + gap + cH2 + gap, w - m*2, cH2,
+    drawReview(c, m, top + (cH + gap) * 2, w - m*2, cH,
       'The twist at the end caught me completely off guard. I laughed so hard my kid asked me if I was OK. Needed this book 30 years ago.',
       '\u2014 David R., Parent & Educator');
     drawCornerCurl(c, w, h);
@@ -1389,7 +1394,7 @@ var pages = [
     rr(c, pad, hH + pad*0.6, w - pad*2, h - hH - pad*1.2, 12); c.stroke(); c.setLineDash([]);
 
     c.textAlign = 'center'; c.textBaseline = 'middle';
-    c.fillStyle = '#1a1a4e';
+    c.fillStyle = '#0054a6';
     c.font = '900 ' + Math.floor(w * 0.065) + 'px "Hold",sans-serif';
     c.fillText('One Last Thing.', w/2, hH + h*0.09);
 
@@ -1730,7 +1735,7 @@ var coverTex = makeTex(function(c, w, h) {
   rr(c, cardX, cardY, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
   c.fillStyle = '#FAF3E0'; rr(c, cardX + 3, cardY + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, cardY + 16, 22);
-  c.fillStyle = '#1a1a4e'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.fillStyle = '#0054a6'; c.textAlign = 'center'; c.textBaseline = 'middle';
   c.font = '900 ' + Math.floor(cardH * 0.13) + 'px "Hold",sans-serif';
   c.fillText('A BOOK FOCUSING ON KID\'S', cardX + cardW / 2, cardY + cardH * 0.35);
   c.fillText('FINANCIAL LITERACY AND EDUCATION', cardX + cardW / 2, cardY + cardH * 0.62);
@@ -1748,7 +1753,7 @@ var coverTex = makeTex(function(c, w, h) {
   c.fillText('A PLAYFUL INTRODUCTION TO', cardX + cardW / 2, card2Y + card2H * 0.3);
   c.fillText('REAL-WORLD MONEY SKILLS', cardX + cardW / 2, card2Y + card2H * 0.5);
   // Subtitle
-  c.fillStyle = '#1a1a4e';
+  c.fillStyle = '#0054a6';
   c.font = 'italic 900 ' + Math.floor(card2H * 0.09) + 'px "Hold",sans-serif';
   c.fillText('*Cloaked in a fun story about a young boy', cardX + cardW / 2, card2Y + card2H * 0.72);
   c.fillText('and his quest to earn a robot reward*', cardX + cardW / 2, card2Y + card2H * 0.88);
@@ -1760,7 +1765,7 @@ var coverTex = makeTex(function(c, w, h) {
   rr(c, cardX, card3Y, cardW, card3H, 10); c.stroke(); c.setLineDash([]);
   c.fillStyle = '#FAF3E0'; rr(c, cardX + 3, card3Y + 3, cardW - 6, card3H - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, card3Y + 16, 22);
-  c.fillStyle = '#1a1a4e'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.fillStyle = '#0054a6'; c.textAlign = 'center'; c.textBaseline = 'middle';
   c.font = '900 ' + Math.floor(card3H * 0.12) + 'px "Hold",sans-serif';
   c.fillText('TURN THE PAGE FOR MORE', cardX + cardW / 2, card3Y + card3H * 0.25);
   c.fillText('FUN AND INSIGHT ON', cardX + cardW / 2, card3Y + card3H * 0.48);
