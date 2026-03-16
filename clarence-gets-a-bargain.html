@@ -36,7 +36,7 @@
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--purple:#4a1a6b;--dpurple:#2d0f42;--orange:#ff6b2b;--gold:#ffd700;--cream:#FAF3E0;--blue:#0054a6;--seablue:#1a3a5c;--ltblue:#4fc3f7;--red:#d32f2f;--green:#2e7d32;--darkbg:#0f0520;--lavender:#c8a2e0;--ltlav:#d8bce8}
 html{scroll-behavior:smooth}
-body{font-family:'Hold','Nunito',sans-serif;background:linear-gradient(180deg,#b3d4e8 0%,#d4e8f5 30%,#eaf3f9 60%,#f7fafe 85%,#fcfdfe 100%);color:#1a1a2e;overflow-x:hidden;min-height:100vh}
+body{font-family:'Hold','Nunito',sans-serif;background:linear-gradient(180deg,#b3d4e8 0%,#d4e8f5 30%,#eaf3f9 60%,#f7fafe 85%,#fcfdfe 100%);color:#0054a6;overflow-x:hidden;min-height:100vh}
 .particles{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:hidden}
 .particle{position:absolute;opacity:0;animation:floatUp linear infinite}
 @keyframes floatUp{0%{transform:translateY(110vh) rotate(0);opacity:0}10%{opacity:.5}90%{opacity:.5}100%{transform:translateY(-10vh) rotate(360deg);opacity:0}}
@@ -114,7 +114,7 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 /* === BRAND TITLE BLOCK WITH PILLS === */
 .title-block{display:inline-flex;flex-direction:column;align-items:center;gap:12px;background:#F57C00;border-radius:20px;padding:20px 30px;box-shadow:0 8px 24px rgba(0,0,0,.3);position:relative;z-index:2;margin-bottom:20px}
 .title-pill{background:#fff;border-radius:12px;padding:10px 40px;border:3px solid #E65100;width:100%}
-.title-pill h1,.title-pill h2{font-family:'Hold',sans-serif;font-weight:400;color:#1a1a1a;letter-spacing:1px;margin:0;text-align:center}
+.title-pill h1,.title-pill h2{font-family:'Hold',sans-serif;font-weight:400;color:#0054a6;letter-spacing:1px;margin:0;text-align:center}
 .title-pill h1{font-size:clamp(2rem,5vw,3.5rem)}
 .title-pill h2{font-size:clamp(1.5rem,4vw,2.8rem)}
 
@@ -129,11 +129,11 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 .coupon-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
 .coupon-close{position:absolute;top:12px;right:16px;background:none;border:2px solid #1a3a5c;border-radius:50%;width:32px;height:32px;font-size:1.2rem;color:#1a3a5c;cursor:pointer;display:flex;align-items:center;justify-content:center;font-weight:bold;transition:.2s;padding:0;line-height:1}
 .coupon-close:hover{background:#1a3a5c;color:#fff}
-.coupon-card{position:relative;background:#fff;border:3px dashed #1a3a5c;border-radius:12px;padding:28px 24px 24px;text-align:center;cursor:pointer;transition:transform .3s cubic-bezier(.4,0,.2,1),box-shadow .3s}
-.coupon-card:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(26,58,92,.15)}
+.coupon-card{position:relative;background:#fff;border:4px dashed #0054a6;border-radius:12px;padding:28px 24px 24px;text-align:center;cursor:pointer;transition:transform .3s cubic-bezier(.4,0,.2,1),box-shadow .3s}
+.coupon-card:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(0,84,166,.15)}
 .coupon-scissor{position:absolute;top:-2px;right:12px;font-size:1.6rem;color:#7a8a9a;transform:rotate(-45deg)}
-.coupon-card h3{font-family:'Hold',sans-serif;font-size:1.1rem;color:#1a3a5c;margin-bottom:10px}
-.coupon-card p{font-size:.95rem;color:#3a3a3a;line-height:1.5}
+.coupon-card h3{font-family:'Hold',sans-serif;font-size:1.1rem;color:#0054a6;margin-bottom:10px}
+.coupon-card p{font-size:.95rem;color:#0054a6;line-height:1.5}
 
 /* === ASSET MAPPING SECTIONS === */
 .asset-section{padding:50px 20px;max-width:900px;margin:0 auto}
@@ -143,7 +143,7 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 .asset-image-placeholder{width:260px;height:260px;background:#e8dcc8;border-radius:16px;display:flex;align-items:center;justify-content:center;font-family:'Hold',sans-serif;color:#8d7b5e;font-size:.85rem;text-align:center;padding:20px;border:3px dashed #c4b594;flex-shrink:0}
 .asset-text{flex:1;min-width:260px}
 .asset-text h3{font-family:'Hold',sans-serif;font-size:clamp(1.2rem,2.5vw,1.6rem);color:#1a3a5c;margin-bottom:12px}
-.asset-text p{font-size:1rem;color:#3a3a3a;line-height:1.7}
+.asset-text p{font-size:1rem;color:#0054a6;line-height:1.7}
 
 /* === SUCCESS / BUY SECTION OVERRIDE === */
 .buy{position:relative;padding:60px 30px;text-align:center;overflow:hidden}
@@ -187,7 +187,7 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 /* === MAGAZINE SECTION on cream bg === */
 .mag-section{background:transparent;padding:30px 10px 20px;text-align:center;position:relative;z-index:1;overflow:hidden}
 .mag-section h2{font-family:'Hold',sans-serif;color:#1a3a5c;font-size:clamp(1.6rem,4vw,2.4rem);margin-bottom:8px}
-.mag-section .hint{color:#888;margin-bottom:30px;font-size:.85rem;letter-spacing:1px}
+.mag-section .hint{color:#0054a6;margin-bottom:30px;font-size:.85rem;letter-spacing:1px}
 .mag-btn{padding:10px 24px;background:rgba(26,58,92,.08);border:1px solid #1a3a5c;color:#1a3a5c;border-radius:25px;font-family:'Hold',sans-serif;font-size:.85rem;cursor:pointer;transition:.3s;letter-spacing:1px}
 .mag-btn:hover{background:#1a3a5c;color:#fff}
 .page-indicator{color:#888;margin-top:12px;font-size:.85rem;letter-spacing:1px;font-weight:700}
@@ -227,7 +227,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--orange);outline-off
 .stats-row{display:flex;justify-content:center;gap:clamp(30px,6vw,70px);flex-wrap:wrap;padding:50px 20px;background:rgba(255,255,255,.5);backdrop-filter:blur(6px)}
 .stat-item{text-align:center}
 .stat-item .stat-num{font-family:'Hold',sans-serif;font-size:clamp(2rem,5vw,3.2rem);color:var(--orange);line-height:1}
-.stat-item .stat-label{font-size:.8rem;color:#555;text-transform:uppercase;letter-spacing:2px;margin-top:6px;font-weight:700}
+.stat-item .stat-label{font-size:.8rem;color:#0054a6;text-transform:uppercase;letter-spacing:2px;margin-top:6px;font-weight:700}
 
 /* === EMAIL SIGNUP === */
 .email-signup{background:linear-gradient(135deg,var(--orange) 0%,#ff3d00 100%);padding:50px 20px;text-align:center}
@@ -251,7 +251,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .standards-section{background:#fff;padding:80px 20px;text-align:center}
 .standards-section .section-tag{font-family:'Hold',sans-serif;font-size:.75rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
 .standards-section h2{font-family:'Hold',sans-serif;color:#1a3a5c;font-size:clamp(1.5rem,3.5vw,2.2rem);margin-bottom:8px}
-.standards-section .section-sub{color:#555;font-size:.95rem;margin-bottom:40px;max-width:700px;margin-left:auto;margin-right:auto}
+.standards-section .section-sub{color:#0054a6;font-size:.95rem;margin-bottom:40px;max-width:700px;margin-left:auto;margin-right:auto}
 .standards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:0;max-width:960px;margin:0 auto;border:2px solid #e0e0e0;border-radius:12px;overflow:hidden}
 .std-cell{padding:20px;border-bottom:1px solid #e8e8e8;border-right:1px solid #e8e8e8;text-align:left}
 .std-cell:nth-child(even){background:#f8f9fa}
@@ -281,14 +281,14 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .resources-section{background:#FAF3E0;padding:70px 20px;text-align:center}
 .resources-section .section-tag{font-family:'Hold',sans-serif;font-size:.85rem;color:#ff6b2b;letter-spacing:3px;text-transform:uppercase;margin-bottom:12px}
 .resources-section h2{font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(1.6rem,4vw,2.4rem);margin-bottom:12px}
-.resources-section .section-sub{color:#333;font-size:1.05rem;margin-bottom:40px;font-weight:600;max-width:800px;margin-left:auto;margin-right:auto;line-height:1.6}
+.resources-section .section-sub{color:#0054a6;font-size:1.05rem;margin-bottom:40px;font-weight:600;max-width:800px;margin-left:auto;margin-right:auto;line-height:1.6}
 .resource-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;max-width:1100px;margin:0 auto}
 .resource-card{background:#fff;border:4px dashed #0054a6;border-radius:12px;padding:35px 25px 25px;text-align:center;transition:all .3s cubic-bezier(.4,0,.2,1);position:relative}
 .resource-card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(0,84,166,0.15)}
 .resource-card::before{content:'\2702';position:absolute;top:-16px;right:15px;font-size:28px;color:#666;transform:rotate(-30deg);background:#FAF3E0;padding:0 5px}
 .resource-card .rc-free{display:inline-flex;align-items:center;justify-content:center;width:60px;height:60px;background:#d32f2f;color:#fff;font-family:'Hold',sans-serif;font-size:0.9rem;border-radius:50%;margin-bottom:16px;letter-spacing:1px;clip-path:polygon(50% 0%,61% 16%,80% 9%,82% 27%,100% 31%,91% 48%,100% 66%,83% 73%,83% 91%,63% 85%,50% 100%,37% 85%,17% 91%,17% 73%,0% 66%,9% 48%,0% 31%,18% 27%,20% 9%,39% 16%);box-shadow:0 4px 10px rgba(211,47,47,0.4)}
 .resource-card h4{font-family:'Hold',sans-serif;color:#0054a6;font-size:1.3rem;margin-bottom:12px;line-height:1.2}
-.resource-card p{font-size:0.95rem;color:#444;line-height:1.6;margin-bottom:24px;font-weight:600}
+.resource-card p{font-size:0.95rem;color:#0054a6;line-height:1.6;margin-bottom:24px;font-weight:600}
 .resource-card .rc-btn{display:inline-block;padding:14px 30px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:0.95rem;text-decoration:none;border-radius:40px;transition:.3s;border:none;cursor:pointer;box-shadow:0 4px 15px rgba(255,107,43,0.4)}
 .resource-card .rc-btn:hover{transform:scale(1.05);background:#ff5500;box-shadow:0 6px 20px rgba(255,107,43,0.6)}
 
