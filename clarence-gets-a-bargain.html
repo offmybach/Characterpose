@@ -113,7 +113,7 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 /* === BRAND TITLE BLOCK WITH PILLS === */
 .title-block{display:inline-flex;flex-direction:column;align-items:center;gap:12px;background:#F57C00;border-radius:20px;padding:20px 30px;box-shadow:0 8px 24px rgba(0,0,0,.3);position:relative;z-index:2;margin-bottom:20px}
 .title-pill{background:#fff;border-radius:12px;padding:10px 40px;border:3px solid #E65100;width:100%}
-.title-pill h1,.title-pill h2{font-family:'Fredoka One',cursive;color:#1a1a1a;letter-spacing:1px;margin:0;text-align:center}
+.title-pill h1,.title-pill h2{font-family:'Nunito',sans-serif;font-weight:400;color:#1a1a1a;letter-spacing:1px;margin:0;text-align:center}
 .title-pill h1{font-size:clamp(2rem,5vw,3.5rem)}
 .title-pill h2{font-size:clamp(1.5rem,4vw,2.8rem)}
 
@@ -967,10 +967,10 @@ function drawHeader(ctx, w, hH, pageTitle) {
       // Size to fit inside the white pill — scale down for longer titles
       var maxTitleW = tW * 0.52;
       var titleSz = Math.floor(tH * 0.14);
-      ctx.font = '900 ' + titleSz + 'px Arial Black,Arial,sans-serif';
+      ctx.font = titleSz + 'px Nunito,sans-serif';
       while (ctx.measureText(pageTitle).width > maxTitleW && titleSz > 8) {
         titleSz--;
-        ctx.font = '900 ' + titleSz + 'px Arial Black,Arial,sans-serif';
+        ctx.font = titleSz + 'px Nunito,sans-serif';
       }
       // Position over the lower white pill area
       ctx.fillText(pageTitle, sx + tW / 2, sy + tH * 0.68);
@@ -1028,16 +1028,16 @@ function drawCard(ctx, x, y, w, h, emoji, title, body) {
   ctx.textAlign = 'left'; ctx.textBaseline = 'top';
   var titleY = y + pad + h * 0.13;
   var titleLines = wrapText(ctx, title, w - pad * 2 - 14);
-  for (var i = 0; i < Math.min(titleLines.length, 3); i++) {
+  for (var i = 0; i < Math.min(titleLines.length, 4); i++) {
     ctx.fillText(titleLines[i], x + pad, titleY + i * (titleSize * 1.15));
   }
-  // Body — larger for readability, fills card space
-  var bodySize = Math.min(Math.floor(h * 0.10), 34);
+  // Body — sized to fill card space without truncation
+  var bodySize = Math.min(Math.floor(h * 0.085), 30);
   ctx.font = '700 ' + bodySize + 'px Arial,sans-serif';
   ctx.fillStyle = '#111';
-  var bodyY = titleY + Math.min(titleLines.length, 3) * (titleSize * 1.15) + 8;
+  var bodyY = titleY + Math.min(titleLines.length, 4) * (titleSize * 1.15) + 8;
   var bodyLines = wrapText(ctx, body, w - pad * 2 - 14);
-  for (var j = 0; j < Math.min(bodyLines.length, 5); j++) {
+  for (var j = 0; j < Math.min(bodyLines.length, 8); j++) {
     ctx.fillText(bodyLines[j], x + pad, bodyY + j * (bodySize * 1.3));
   }
   ctx.restore();
@@ -1063,17 +1063,17 @@ function drawReview(ctx, x, y, w, h, quote, name) {
   ctx.font = Math.floor(h * 0.11) + 'px serif';
   ctx.textAlign = 'left'; ctx.textBaseline = 'top';
   ctx.fillText('\u2B50\u2B50\u2B50\u2B50\u2B50', x + pad, y + pad);
-  var qSize = Math.min(Math.floor(h * 0.085), 26);
+  var qSize = Math.min(Math.floor(h * 0.11), 34);
   ctx.font = '700 italic ' + qSize + 'px Arial,sans-serif';
   ctx.fillStyle = '#111';
   var qY = y + pad + h * 0.13;
   var qLines = wrapText(ctx, '\u201C' + quote + '\u201D', w - pad * 2 - 14);
-  for (var i = 0; i < Math.min(qLines.length, 6); i++) {
+  for (var i = 0; i < Math.min(qLines.length, 8); i++) {
     ctx.fillText(qLines[i], x + pad, qY + i * (qSize * 1.25));
   }
   ctx.font = '900 ' + Math.floor(qSize * 0.9) + 'px Arial Black,Arial,sans-serif';
   ctx.fillStyle = '#ff6b2b';
-  var nY = qY + Math.min(qLines.length, 6) * (qSize * 1.25) + 8;
+  var nY = qY + Math.min(qLines.length, 8) * (qSize * 1.25) + 8;
   ctx.fillText(name, x + pad, nY);
   ctx.restore();
 }
@@ -1098,7 +1098,7 @@ function drawCGBSticker(ctx, x, y, sz) {
   ctx.restore();
   ctx.save();
   ctx.fillStyle = '#fff'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-  ctx.font = '900 ' + Math.floor(sz * 0.75) + 'px Arial Black,Arial,sans-serif';
+  ctx.font = '900 ' + Math.floor(sz * 0.75) + 'px Nunito,sans-serif';
   ctx.fillText('CGB', x, y);
   ctx.restore();
 }
@@ -1681,7 +1681,7 @@ var coverTex = makeTex(function(c, w, h) {
   c.fillStyle = '#fff'; c.fill();
   c.strokeStyle = '#E65100'; c.lineWidth = 2; c.stroke();
   c.fillStyle = '#1a1a1a'; c.textAlign = 'center'; c.textBaseline = 'middle';
-  c.font = '900 ' + Math.floor(pillH * 0.72) + 'px Arial Black,Arial,sans-serif';
+  c.font = Math.floor(pillH * 0.72) + 'px Nunito,sans-serif';
   c.fillText('Clarence', tbX + tbW / 2, pillY + pillH / 2);
   // "Gets a Bargain" pill
   var pill2Y = pillY + pillH + tbH * 0.06;
@@ -1689,18 +1689,11 @@ var coverTex = makeTex(function(c, w, h) {
   c.fillStyle = '#fff'; c.fill();
   c.strokeStyle = '#E65100'; c.lineWidth = 2; c.stroke();
   c.fillStyle = '#1a1a1a';
-  c.font = '900 ' + Math.floor(pillH * 0.62) + 'px Arial Black,Arial,sans-serif';
+  c.font = Math.floor(pillH * 0.62) + 'px Nunito,sans-serif';
   c.fillText('Gets a Bargain', tbX + tbW / 2, pill2Y + pillH / 2);
 
-  // === GREEN PLACEHOLDER (for Clarence character image) ===
-  var gpY = hH + h * 0.06, gpH = h * 0.14;
-  var gpX = w * 0.1, gpW = w * 0.8;
-  c.fillStyle = '#b8d4b0';
-  rr(c, gpX, gpY, gpW, gpH, 10); c.fill();
-  c.strokeStyle = '#8aad80'; c.lineWidth = 2; c.stroke();
-
   // === COUPON CARD 1: Financial Literacy ===
-  var cardY = gpY + gpH + h * 0.03;
+  var cardY = hH + h * 0.08;
   var cardH = h * 0.16, cardX = w * 0.08, cardW = w * 0.84;
   c.setLineDash([12, 6]); c.strokeStyle = '#3a2a1a'; c.lineWidth = 6;
   rr(c, cardX, cardY, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
