@@ -184,7 +184,7 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 .footer-bottom{text-align:center;margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,255,255,.15);font-size:.85rem;color:rgba(255,255,255,.5)}
 
 /* === MAGAZINE SECTION on cream bg === */
-.mag-section{background:transparent;padding:30px 10px 20px;text-align:center;position:relative}
+.mag-section{background:transparent;padding:30px 10px 20px;text-align:center;position:relative;z-index:1;overflow:hidden}
 .mag-section h2{font-family:'Fredoka One',cursive;color:#1a3a5c;font-size:clamp(1.6rem,4vw,2.4rem);margin-bottom:8px}
 .mag-section .hint{color:#888;margin-bottom:30px;font-size:.85rem;letter-spacing:1px}
 .mag-btn{padding:10px 24px;background:rgba(26,58,92,.08);border:1px solid #1a3a5c;color:#1a3a5c;border-radius:25px;font-family:'Fredoka One',cursive;font-size:.85rem;cursor:pointer;transition:.3s;letter-spacing:1px}
@@ -276,20 +276,20 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .credential-badge:hover{border-color:#ff6b2b;box-shadow:0 2px 12px rgba(255,107,43,.15)}
 .credential-badge .badge-icon{font-size:1.1rem}
 
-/* === DOWNLOADABLE RESOURCES === */
-.resources-section{background:#fff;padding:70px 20px;text-align:center}
-.resources-section .section-tag{font-family:'Fredoka One',cursive;font-size:.75rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
-.resources-section h2{font-family:'Fredoka One',cursive;color:#1a3a5c;font-size:clamp(1.5rem,3.5vw,2.2rem);margin-bottom:8px}
-.resources-section .section-sub{color:#555;font-size:.95rem;margin-bottom:40px}
-.resource-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;max-width:960px;margin:0 auto}
-.resource-card{background:#f8f9fa;border:2px solid #e8e8e8;border-radius:16px;padding:30px 24px;text-align:center;transition:all .3s cubic-bezier(.4,0,.2,1)}
-.resource-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.08);border-color:#ff6b2b}
-.resource-card .rc-icon{font-size:2.2rem;margin-bottom:12px}
-.resource-card h4{font-family:'Fredoka One',cursive;color:#1a3a5c;font-size:1rem;margin-bottom:8px}
-.resource-card p{font-size:.85rem;color:#666;line-height:1.5;margin-bottom:16px}
-.resource-card .rc-btn{display:inline-block;padding:10px 24px;background:linear-gradient(135deg,#ff6b2b,#ff3d00);color:#fff;font-family:'Fredoka One',cursive;font-size:.8rem;text-decoration:none;border-radius:25px;transition:.3s;border:none;cursor:pointer}
-.resource-card .rc-btn:hover{transform:scale(1.05);box-shadow:0 4px 16px rgba(255,107,43,.35)}
-.resource-card .rc-free{display:inline-block;background:#e8f5e9;color:#2e7d32;font-size:.7rem;font-weight:800;padding:3px 10px;border-radius:20px;margin-bottom:12px;letter-spacing:1px}
+/* === DOWNLOADABLE RESOURCES (Program in a Box) === */
+.resources-section{background:#FAF3E0;padding:70px 20px;text-align:center}
+.resources-section .section-tag{font-family:'Fredoka One',cursive;font-size:.85rem;color:#ff6b2b;letter-spacing:3px;text-transform:uppercase;margin-bottom:12px}
+.resources-section h2{font-family:'Fredoka One',cursive;color:#0054a6;font-size:clamp(1.6rem,4vw,2.4rem);margin-bottom:12px}
+.resources-section .section-sub{color:#333;font-size:1.05rem;margin-bottom:40px;font-weight:600;max-width:800px;margin-left:auto;margin-right:auto;line-height:1.6}
+.resource-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;max-width:1100px;margin:0 auto}
+.resource-card{background:#fff;border:4px dashed #0054a6;border-radius:12px;padding:35px 25px 25px;text-align:center;transition:all .3s cubic-bezier(.4,0,.2,1);position:relative}
+.resource-card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(0,84,166,0.15)}
+.resource-card::before{content:'\2702';position:absolute;top:-16px;right:15px;font-size:28px;color:#666;transform:rotate(-30deg);background:#FAF3E0;padding:0 5px}
+.resource-card .rc-free{display:inline-flex;align-items:center;justify-content:center;width:60px;height:60px;background:#d32f2f;color:#fff;font-family:'Fredoka One',cursive;font-size:0.9rem;border-radius:50%;margin-bottom:16px;letter-spacing:1px;clip-path:polygon(50% 0%,61% 16%,80% 9%,82% 27%,100% 31%,91% 48%,100% 66%,83% 73%,83% 91%,63% 85%,50% 100%,37% 85%,17% 91%,17% 73%,0% 66%,9% 48%,0% 31%,18% 27%,20% 9%,39% 16%);box-shadow:0 4px 10px rgba(211,47,47,0.4)}
+.resource-card h4{font-family:'Fredoka One',cursive;color:#1a1a4e;font-size:1.3rem;margin-bottom:12px;line-height:1.2}
+.resource-card p{font-size:0.95rem;color:#444;line-height:1.6;margin-bottom:24px;font-weight:600}
+.resource-card .rc-btn{display:inline-block;padding:14px 30px;background:#ff6b2b;color:#fff;font-family:'Fredoka One',cursive;font-size:0.95rem;text-decoration:none;border-radius:40px;transition:.3s;border:none;cursor:pointer;box-shadow:0 4px 15px rgba(255,107,43,0.4)}
+.resource-card .rc-btn:hover{transform:scale(1.05);background:#ff5500;box-shadow:0 6px 20px rgba(255,107,43,0.6)}
 
 /* === INSTITUTIONAL ORDERING === */
 .institutional-section{background:linear-gradient(135deg,#1a3a5c 0%,#0d2a44 100%);padding:80px 20px;text-align:center}
@@ -555,7 +555,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   <div class="price reveal">$14.99</div>
   <div class="price-note reveal">Softcover &bull; Full Color &bull; Ages 5&ndash;9</div>
   <div class="buy-btns reveal">
-    <a class="buy-btn amazon" href="#">Buy Now</a>
+    <a class="buy-btn amazon" style="background:#ff6b2b; box-shadow:0 4px 20px rgba(255,107,43,.4);" href="https://buy.stripe.com/YOUR_LINK_HERE">Buy Direct - $14.99</a>
     <a class="buy-btn bn" href="#">Barnes &amp; Noble</a>
     <a class="buy-btn indie" href="#">IndieBound</a>
   </div>
@@ -721,45 +721,39 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   <p class="section-sub">You don&rsquo;t just get a book. You get a turnkey financial literacy module with discussion guides and activities for your chapter directors, curriculum coordinators, and classroom educators. All materials are free.</p>
   <div class="resource-cards">
     <div class="resource-card">
-      <div class="rc-icon-clean">PDF</div>
-      <span class="rc-free">FREE DOWNLOAD</span>
+      <span class="rc-free">FREE</span>
       <h4>Educator Preview</h4>
       <p>12-page institutional preview with full-color sample pages, learning objectives, standards mapping, and program overview.</p>
       <a class="rc-btn" href="downloads/educator-preview.pdf" download>Download Preview</a>
     </div>
     <div class="resource-card">
-      <div class="rc-icon-clean">LP</div>
-      <span class="rc-free">FREE DOWNLOAD</span>
-      <h4>45-Minute Classroom Lesson Plans</h4>
-      <p>Five ready-to-use lesson modules with discussion prompts, group activities, and assessment rubrics. Designed for K&ndash;5 instructors with no prep required.</p>
+      <span class="rc-free">FREE</span>
+      <h4>45-Minute Lesson Plans</h4>
+      <p>Five ready-to-use lesson modules with discussion prompts, group activities, and assessment rubrics. No prep required.</p>
       <a class="rc-btn" href="downloads/lesson-plans.pdf" download>Download Lessons</a>
     </div>
     <div class="resource-card">
-      <div class="rc-icon-clean">DG</div>
-      <span class="rc-free">FREE DOWNLOAD</span>
+      <span class="rc-free">FREE</span>
       <h4>Discussion Guide</h4>
       <p>Chapter-by-chapter facilitation guide with critical thinking prompts mapped to CEE and Jump$tart competency frameworks.</p>
       <a class="rc-btn" href="downloads/discussion-guide.pdf" download>Download Guide</a>
     </div>
     <div class="resource-card">
-      <div class="rc-icon-clean">A/B</div>
-      <span class="rc-free">FREE DOWNLOAD</span>
-      <h4>Pre/Post Assessment Worksheet</h4>
-      <p>Data-driven outcomes measurement. Printable pre- and post-assessment showing measurable financial literacy gains. Required for grant reporting.</p>
+      <span class="rc-free">FREE</span>
+      <h4>Pre/Post Assessment</h4>
+      <p>Data-driven outcomes measurement. Printable assessments showing measurable financial literacy gains for grant reporting.</p>
       <a class="rc-btn" href="downloads/assessment-worksheet.pdf" download>Download Assessment</a>
     </div>
     <div class="resource-card">
-      <div class="rc-icon-clean">2G</div>
-      <span class="rc-free">FREE DOWNLOAD</span>
+      <span class="rc-free">FREE</span>
       <h4>Family Take-Home Activity</h4>
-      <p>Two-generation engagement sheet: activities parents and kids complete together. Supports family reading initiatives and meets Gates/Kellogg two-generation grant criteria.</p>
+      <p>Two-generation engagement sheet: activities parents and kids complete together. Meets Gates/Kellogg two-gen grant criteria.</p>
       <a class="rc-btn" href="downloads/family-activity.pdf" download>Download Activity</a>
     </div>
     <div class="resource-card">
-      <div class="rc-icon-clean">SC</div>
-      <span class="rc-free">FREE DOWNLOAD</span>
+      <span class="rc-free">FREE</span>
       <h4>Standards Correlation Chart</h4>
-      <p>One-page printable mapping every book concept to Jump$tart National Standards, Common Core Math/ELA, CEE, and FDIC Money Smart frameworks.</p>
+      <p>One-page printable mapping every book concept to Jump$tart National Standards, Common Core Math/ELA, CEE, and FDIC.</p>
       <a class="rc-btn" href="downloads/standards-chart.pdf" download>Download Chart</a>
     </div>
   </div>
@@ -1291,7 +1285,7 @@ var pages = [
     var cH1 = availH * 0.42;
     var cH2 = (availH - cH1 - gap * 2) / 2;
     drawReview(c, m, top, w - m*2, cH1,
-      'Clarence Gets a Bargain is a fabulous book for parents and educators who want to teach children early lessons about financial literacy. This book allows adults to have an important conversation about essential money management skills. The story of Clarence and his parents will open up a conversation to discuss budgeting and spending money wisely. I hope this will become the first in a series of financial literacy books!',
+      'An absolute masterclass in early-stage financial literacy. This book seamlessly bridges the gap between engaging, character-driven storytelling and core economic competencies.',
       '\u2014 Maryann Milewski Moskal, Veteran Educator');
     drawReview(c, m, top + cH1 + gap, w - m*2, cH2,
       'My students fought over who got to hold the book during read-aloud. Fought. Over a book about money. If that doesn\'t tell you something, I don\'t know what will.',
