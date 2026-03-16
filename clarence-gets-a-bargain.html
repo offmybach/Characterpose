@@ -29,7 +29,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="book:release_date" content="2025">
 <link rel="canonical" href="https://www.kidsmoneybook.com/">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=OpenDyslexic:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=OpenDyslexic:wght@400;700&family=Lato:wght@700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
 <link rel="preload" href="fonts/Hold.woff2" as="font" type="font/woff2" crossorigin>
 <style>
 @font-face{font-family:'Hold';src:url('fonts/Hold.woff2') format('woff2'),url('fonts/Hold.woff') format('woff'),url('fonts/Hold.otf') format('opentype');font-weight:normal;font-style:normal;font-display:swap}
@@ -288,8 +288,8 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .resource-card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(0,84,166,0.15)}
 .resource-card::before{content:'\2702';position:absolute;top:-16px;right:15px;font-size:28px;color:#666;transform:rotate(-30deg);background:#FAF3E0;padding:0 5px}
 .resource-card .rc-free{display:inline-flex;align-items:center;justify-content:center;width:60px;height:60px;background:#d32f2f;color:#fff;font-family:'Hold',sans-serif;font-size:0.9rem;border-radius:50%;margin-bottom:16px;letter-spacing:1px;clip-path:polygon(50% 0%,61% 16%,80% 9%,82% 27%,100% 31%,91% 48%,100% 66%,83% 73%,83% 91%,63% 85%,50% 100%,37% 85%,17% 91%,17% 73%,0% 66%,9% 48%,0% 31%,18% 27%,20% 9%,39% 16%);box-shadow:0 4px 10px rgba(211,47,47,0.4)}
-.resource-card h4{font-family:'Hold',sans-serif;color:#0054a6;font-size:1.3rem;margin-bottom:12px;line-height:1.2}
-.resource-card p{font-size:0.95rem;color:#0054a6;line-height:1.6;margin-bottom:24px;font-weight:600}
+.resource-card h4{font-family:'Montserrat',sans-serif;font-weight:700;color:#0054a6;font-size:1.3rem;margin-bottom:12px;line-height:1.2}
+.resource-card p{font-family:'Lato',sans-serif;font-size:0.95rem;color:#0054a6;line-height:1.6;margin-bottom:24px;font-weight:700}
 .resource-card .rc-btn{display:inline-block;padding:14px 30px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:0.95rem;text-decoration:none;border-radius:40px;transition:.3s;border:none;cursor:pointer;box-shadow:0 4px 15px rgba(255,107,43,0.4)}
 .resource-card .rc-btn:hover{transform:scale(1.05);background:#ff5500;box-shadow:0 6px 20px rgba(255,107,43,0.6)}
 
@@ -1026,7 +1026,7 @@ function drawCard(ctx, x, y, w, h, emoji, title, body) {
   // Title — scale with card, no arbitrary cap
   var titleSize = Math.floor(h * 0.13);
   var isWvN = title.indexOf('Wants vs') !== -1;
-  ctx.font = (isWvN ? '900 italic ' : '900 ') + titleSize + 'px "Hold",sans-serif';
+  ctx.font = (isWvN ? 'bold italic ' : 'bold ') + titleSize + 'px "Montserrat",sans-serif';
   ctx.fillStyle = '#0054a6';
   ctx.textAlign = 'left'; ctx.textBaseline = 'top';
   var titleY = y + pad + h * 0.13;
@@ -1040,12 +1040,12 @@ function drawCard(ctx, x, y, w, h, emoji, title, body) {
   var remainingH = (y + h - pad) - bodyTop;
   // Try body text — start large, shrink to fit
   var bodySize = Math.floor(h * 0.11);
-  ctx.font = '700 ' + bodySize + 'px "Hold",sans-serif';
+  ctx.font = 'bold ' + bodySize + 'px "Lato",sans-serif';
   var bodyLines = wrapText(ctx, body, w - pad * 2 - 14);
   var neededH = bodyLines.length * (bodySize * 1.32);
   while (neededH > remainingH && bodySize > 14) {
     bodySize--;
-    ctx.font = '700 ' + bodySize + 'px "Hold",sans-serif';
+    ctx.font = 'bold ' + bodySize + 'px "Lato",sans-serif';
     bodyLines = wrapText(ctx, body, w - pad * 2 - 14);
     neededH = bodyLines.length * (bodySize * 1.32);
   }
@@ -1078,7 +1078,7 @@ function drawReview(ctx, x, y, w, h, quote, name) {
   ctx.fillText('\u2B50\u2B50\u2B50\u2B50\u2B50', x + pad, y + pad);
   // Auto-size quote to fill card
   var qSize = Math.floor(h * 0.13);
-  ctx.font = '700 italic ' + qSize + 'px "Hold",sans-serif';
+  ctx.font = 'bold italic ' + qSize + 'px "Lato",sans-serif';
   ctx.fillStyle = '#0054a6';
   var qY = y + pad + h * 0.14;
   var nameSize = Math.floor(qSize * 0.85);
@@ -1088,7 +1088,7 @@ function drawReview(ctx, x, y, w, h, quote, name) {
   while (neededH > availH && qSize > 14) {
     qSize--;
     nameSize = Math.floor(qSize * 0.85);
-    ctx.font = '700 italic ' + qSize + 'px "Hold",sans-serif';
+    ctx.font = 'bold italic ' + qSize + 'px "Lato",sans-serif';
     qLines = wrapText(ctx, '\u201C' + quote + '\u201D', w - pad * 2 - 14);
     neededH = qLines.length * (qSize * 1.28) + nameSize * 1.5;
   }
