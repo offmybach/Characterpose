@@ -124,14 +124,15 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 .look-inside-sticker:hover{transform:rotate(-3deg) scale(1.1)}
 
 /* === COUPON NAVIGATION MENU === */
-.coupon-nav{background:rgba(255,255,255,0.7);backdrop-filter:blur(8px);border-radius:16px;border:1px solid rgba(26,58,92,0.1);padding:40px 20px;max-width:1000px;margin:0 auto}
+.coupon-nav{background:#FAF3E0;backdrop-filter:blur(8px);border-radius:16px;border:1px solid rgba(26,58,92,0.1);padding:40px 20px;max-width:1000px;margin:0 auto}
 .coupon-nav-title{text-align:center;font-family:'Hold',sans-serif;font-size:clamp(1.3rem,3vw,2rem);color:#1a3a5c;margin-bottom:30px}
 .coupon-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
 .coupon-close{position:absolute;top:12px;right:16px;background:none;border:2px solid #1a3a5c;border-radius:50%;width:32px;height:32px;font-size:1.2rem;color:#1a3a5c;cursor:pointer;display:flex;align-items:center;justify-content:center;font-weight:bold;transition:.2s;padding:0;line-height:1}
 .coupon-close:hover{background:#1a3a5c;color:#fff}
-.coupon-card{position:relative;background:#fff;border:4px dashed #0054a6;border-radius:12px;padding:28px 24px 24px;text-align:center;cursor:pointer;transition:transform .3s cubic-bezier(.4,0,.2,1),box-shadow .3s}
-.coupon-card:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(0,84,166,.15)}
-.coupon-scissor{position:absolute;top:-2px;right:12px;font-size:1.6rem;color:#7a8a9a;transform:rotate(-45deg)}
+.coupon-card{position:relative;background:#fff;border:4px dashed #0054a6;border-radius:12px;padding:35px 25px 25px;text-align:center;cursor:pointer;transition:transform .3s cubic-bezier(.4,0,.2,1),box-shadow .3s}
+.coupon-card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(0,84,166,0.15)}
+.coupon-scissor{display:none}
+.coupon-card::before{content:'\2702';position:absolute;top:-16px;right:15px;font-size:28px;color:#666;transform:rotate(-30deg);background:#FAF3E0;padding:0 5px}
 .coupon-card h3{font-family:'Hold',sans-serif;font-size:1.1rem;color:#0054a6;margin-bottom:10px}
 .coupon-card p{font-size:.95rem;color:#0054a6;line-height:1.5}
 
