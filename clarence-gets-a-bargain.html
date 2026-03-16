@@ -1004,13 +1004,13 @@ function drawCard(ctx, x, y, w, h, emoji, title, body) {
   // Dashed border — bold and thick
   ctx.save();
   ctx.setLineDash([12, 6]);
-  ctx.strokeStyle = '#3a2a1a';
+  ctx.strokeStyle = '#0054a6';
   ctx.lineWidth = 6;
   rr(ctx, x, y, w, h, 10);
   ctx.stroke();
   ctx.restore();
-  // Cream fill
-  ctx.fillStyle = '#faf3e0';
+  // White fill
+  ctx.fillStyle = '#fff';
   rr(ctx, x+3, y+3, w-6, h-6, 8);
   ctx.fill();
   // Clip all text to card interior
@@ -1049,7 +1049,7 @@ function drawCard(ctx, x, y, w, h, emoji, title, body) {
     bodyLines = wrapText(ctx, body, w - pad * 2 - 14);
     neededH = bodyLines.length * (bodySize * 1.32);
   }
-  ctx.fillStyle = '#111';
+  ctx.fillStyle = '#0054a6';
   for (var j = 0; j < bodyLines.length; j++) {
     ctx.fillText(bodyLines[j], x + pad, bodyTop + j * (bodySize * 1.32));
   }
@@ -1060,12 +1060,12 @@ function drawCard(ctx, x, y, w, h, emoji, title, body) {
 function drawReview(ctx, x, y, w, h, quote, name) {
   ctx.save();
   ctx.setLineDash([12, 6]);
-  ctx.strokeStyle = '#3a2a1a';
+  ctx.strokeStyle = '#0054a6';
   ctx.lineWidth = 6;
   rr(ctx, x, y, w, h, 10);
   ctx.stroke();
   ctx.restore();
-  ctx.fillStyle = '#faf3e0';
+  ctx.fillStyle = '#fff';
   rr(ctx, x+3, y+3, w-6, h-6, 8);
   ctx.fill();
   // Clip text
@@ -1079,7 +1079,7 @@ function drawReview(ctx, x, y, w, h, quote, name) {
   // Auto-size quote to fill card
   var qSize = Math.floor(h * 0.13);
   ctx.font = '700 italic ' + qSize + 'px "Hold",sans-serif';
-  ctx.fillStyle = '#111';
+  ctx.fillStyle = '#0054a6';
   var qY = y + pad + h * 0.14;
   var nameSize = Math.floor(qSize * 0.85);
   var availH = (y + h - pad) - qY;
@@ -1169,7 +1169,7 @@ var pages = [
   makeTex(function(c, w, h) {
     var hH = drawPageBg(c, w, h, 'Hold Up.');
     var pad = w * 0.08;
-    c.setLineDash([14, 8]); c.strokeStyle = '#c4a060'; c.lineWidth = 4;
+    c.setLineDash([14, 8]); c.strokeStyle = '#0054a6'; c.lineWidth = 4;
     rr(c, pad, hH + pad*0.6, w - pad*2, h - hH - pad*1.2, 12); c.stroke(); c.setLineDash([]);
 
     c.textAlign = 'center'; c.textBaseline = 'middle';
@@ -1183,7 +1183,7 @@ var pages = [
     c.font = Math.floor(w * 0.06) + 'px serif';
     c.fillText('\u2702\uFE0F', w/2, hH + h*0.22);
 
-    c.fillStyle = '#333';
+    c.fillStyle = '#0054a6';
     var dedLines = [
       'This book is for every kid',
       'who ever side-eyed a price tag',
@@ -1391,7 +1391,7 @@ var pages = [
   makeTex(function(c, w, h) {
     var hH = drawPageBg(c, w, h, 'One Last Thing');
     var pad = w * 0.08;
-    c.setLineDash([14, 8]); c.strokeStyle = '#c4a060'; c.lineWidth = 4;
+    c.setLineDash([14, 8]); c.strokeStyle = '#0054a6'; c.lineWidth = 4;
     rr(c, pad, hH + pad*0.6, w - pad*2, h - hH - pad*1.2, 12); c.stroke(); c.setLineDash([]);
 
     c.textAlign = 'center'; c.textBaseline = 'middle';
@@ -1399,7 +1399,7 @@ var pages = [
     c.font = '900 ' + Math.floor(w * 0.065) + 'px "Hold",sans-serif';
     c.fillText('One Last Thing.', w/2, hH + h*0.09);
 
-    c.fillStyle = '#333';
+    c.fillStyle = '#0054a6';
     var pLines = [
       'I didn\'t write this book to get rich.',
       '(If I wanted to get rich, I\'d use a coupon.)',
@@ -1435,7 +1435,7 @@ var pages = [
       c.font = isParenthetical ?
         'italic 600 ' + Math.floor(lnSz * 0.88) + 'px "Hold",sans-serif' :
         '700 ' + lnSz + 'px "Hold",sans-serif';
-      c.fillStyle = isParenthetical ? '#888' : '#333';
+      c.fillStyle = isParenthetical ? '#6b8db5' : '#0054a6';
       c.fillText(pLines[i], w/2, dy);
       dy += lnSz * 1.32;
     }
