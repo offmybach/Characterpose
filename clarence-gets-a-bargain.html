@@ -133,7 +133,7 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 .coupon-card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(0,84,166,0.15)}
 .coupon-scissor{display:none}
 .coupon-card::before{content:'\2702';position:absolute;top:-16px;right:15px;font-size:28px;color:#666;transform:rotate(-30deg);background:#FAF3E0;padding:0 5px}
-.coupon-card h3{font-family:'Hold',sans-serif;font-size:1.1rem;color:#007FFF;margin-bottom:10px}
+.coupon-card h3{font-family:'Hold',sans-serif;font-size:1.1rem;color:#1a3a5c;margin-bottom:10px}
 .coupon-card p{font-size:.95rem;color:#0054a6;line-height:1.5}
 
 /* === ASSET MAPPING SECTIONS === */
@@ -281,14 +281,14 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 /* === DOWNLOADABLE RESOURCES (Program in a Box) === */
 .resources-section{background:#FAF3E0;padding:70px 20px;text-align:center}
 .resources-section .section-tag{font-family:'Hold',sans-serif;font-size:.85rem;color:#ff6b2b;letter-spacing:3px;text-transform:uppercase;margin-bottom:12px}
-.resources-section h2{font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(1.6rem,4vw,2.4rem);margin-bottom:12px}
+.resources-section h2{font-family:'Hold',sans-serif;color:#1a3a5c;font-size:clamp(1.6rem,4vw,2.4rem);margin-bottom:12px}
 .resources-section .section-sub{color:#0054a6;font-size:1.05rem;margin-bottom:40px;font-weight:600;max-width:800px;margin-left:auto;margin-right:auto;line-height:1.6}
 .resource-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;max-width:1100px;margin:0 auto}
 .resource-card{background:#fff;border:4px dashed #0054a6;border-radius:12px;padding:35px 25px 25px;text-align:center;transition:all .3s cubic-bezier(.4,0,.2,1);position:relative}
 .resource-card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(0,84,166,0.15)}
 .resource-card::before{content:'\2702';position:absolute;top:-16px;right:15px;font-size:28px;color:#666;transform:rotate(-30deg);background:#FAF3E0;padding:0 5px}
 .resource-card .rc-free{display:inline-flex;align-items:center;justify-content:center;width:60px;height:60px;background:#d32f2f;color:#fff;font-family:'Hold',sans-serif;font-size:0.9rem;border-radius:50%;margin-bottom:16px;letter-spacing:1px;clip-path:polygon(50% 0%,61% 16%,80% 9%,82% 27%,100% 31%,91% 48%,100% 66%,83% 73%,83% 91%,63% 85%,50% 100%,37% 85%,17% 91%,17% 73%,0% 66%,9% 48%,0% 31%,18% 27%,20% 9%,39% 16%);box-shadow:0 4px 10px rgba(211,47,47,0.4)}
-.resource-card h4{font-family:'Montserrat',sans-serif;font-weight:700;color:#007FFF;font-size:1.3rem;margin-bottom:12px;line-height:1.2}
+.resource-card h4{font-family:'Hold',sans-serif;font-weight:700;color:#1a3a5c;font-size:1.3rem;margin-bottom:12px;line-height:1.2}
 .resource-card p{font-family:'Lato',sans-serif;font-size:0.95rem;color:#0054a6;line-height:1.6;margin-bottom:24px;font-weight:700}
 .resource-card .rc-btn{display:inline-block;padding:14px 30px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:0.95rem;text-decoration:none;border-radius:40px;transition:.3s;border:none;cursor:pointer;box-shadow:0 4px 15px rgba(255,107,43,0.4)}
 .resource-card .rc-btn:hover{transform:scale(1.05);background:#ff5500;box-shadow:0 6px 20px rgba(255,107,43,0.6)}
@@ -1730,48 +1730,52 @@ var coverTex = makeTex(function(c, w, h) {
   c.font = '900 ' + Math.floor(pillH * 0.68) + 'px "Hold",sans-serif';
   c.fillText('Gets a Bargain', tbX + tbW / 2, pill2Y + pillH / 2);
 
-  // === COUPON CARD 1: Financial Literacy ===
-  var cardY = hH + h * 0.08;
-  var cardH = h * 0.16, cardX = w * 0.08, cardW = w * 0.84;
+  // === COUPON CARDS — larger, evenly spread ===
+  var cardX = w * 0.06, cardW = w * 0.88;
+  var topStart = hH + h * 0.045;
+  var bottomEnd = h * 0.96;
+  var totalSpace = bottomEnd - topStart;
+  var cardGapV = h * 0.02;
+  var cardH = (totalSpace - cardGapV * 2) / 3;
+
+  // CARD 1: Financial Literacy
+  var cardY = topStart;
   c.setLineDash([12, 6]); c.strokeStyle = '#3a2a1a'; c.lineWidth = 6;
   rr(c, cardX, cardY, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
   c.fillStyle = '#FAF3E0'; rr(c, cardX + 3, cardY + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, cardY + 16, 22);
-  c.fillStyle = '#007FFF'; c.textAlign = 'center'; c.textBaseline = 'middle';
-  c.font = '900 ' + Math.floor(cardH * 0.13) + 'px "Hold",sans-serif';
+  c.fillStyle = '#1a3a5c'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.font = '900 ' + Math.floor(cardH * 0.15) + 'px "Hold",sans-serif';
   c.fillText('A BOOK FOCUSING ON KID\'S', cardX + cardW / 2, cardY + cardH * 0.35);
-  c.fillText('FINANCIAL LITERACY AND EDUCATION', cardX + cardW / 2, cardY + cardH * 0.62);
+  c.fillText('FINANCIAL LITERACY AND EDUCATION', cardX + cardW / 2, cardY + cardH * 0.65);
 
-  // === COUPON CARD 2: Playful Introduction ===
-  var card2Y = cardY + cardH + h * 0.02;
-  var card2H = h * 0.16;
+  // CARD 2: Playful Introduction
+  var card2Y = cardY + cardH + cardGapV;
   c.setLineDash([12, 6]); c.strokeStyle = '#3a2a1a'; c.lineWidth = 6;
-  rr(c, cardX, card2Y, cardW, card2H, 10); c.stroke(); c.setLineDash([]);
-  c.fillStyle = '#FAF3E0'; rr(c, cardX + 3, card2Y + 3, cardW - 6, card2H - 6, 8); c.fill();
+  rr(c, cardX, card2Y, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
+  c.fillStyle = '#FAF3E0'; rr(c, cardX + 3, card2Y + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, card2Y + 16, 22);
-  // Red 3D-ish title
-  c.fillStyle = '#cc2244'; c.textAlign = 'center'; c.textBaseline = 'middle';
-  c.font = '900 ' + Math.floor(card2H * 0.12) + 'px "Hold",sans-serif';
-  c.fillText('A PLAYFUL INTRODUCTION TO', cardX + cardW / 2, card2Y + card2H * 0.3);
-  c.fillText('REAL-WORLD MONEY SKILLS', cardX + cardW / 2, card2Y + card2H * 0.5);
-  // Subtitle
-  c.fillStyle = '#007FFF';
-  c.font = 'italic 900 ' + Math.floor(card2H * 0.09) + 'px "Hold",sans-serif';
-  c.fillText('*Cloaked in a fun story about a young boy', cardX + cardW / 2, card2Y + card2H * 0.72);
-  c.fillText('and his quest to earn a robot reward*', cardX + cardW / 2, card2Y + card2H * 0.88);
+  c.fillStyle = '#1a3a5c'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.font = '900 ' + Math.floor(cardH * 0.14) + 'px "Hold",sans-serif';
+  c.fillText('A PLAYFUL INTRODUCTION TO', cardX + cardW / 2, card2Y + cardH * 0.28);
+  c.fillText('REAL-WORLD MONEY SKILLS', cardX + cardW / 2, card2Y + cardH * 0.48);
+  // Subtitle — lighter blue
+  c.fillStyle = '#0054a6';
+  c.font = 'italic 900 ' + Math.floor(cardH * 0.10) + 'px "Hold",sans-serif';
+  c.fillText('*Cloaked in a fun story about a young boy', cardX + cardW / 2, card2Y + cardH * 0.70);
+  c.fillText('and his quest to earn a robot reward*', cardX + cardW / 2, card2Y + cardH * 0.88);
 
-  // === COUPON CARD 3: Turn the Page ===
-  var card3Y = card2Y + card2H + h * 0.02;
-  var card3H = h * 0.18;
+  // CARD 3: Turn the Page
+  var card3Y = card2Y + cardH + cardGapV;
   c.setLineDash([12, 6]); c.strokeStyle = '#3a2a1a'; c.lineWidth = 6;
-  rr(c, cardX, card3Y, cardW, card3H, 10); c.stroke(); c.setLineDash([]);
-  c.fillStyle = '#FAF3E0'; rr(c, cardX + 3, card3Y + 3, cardW - 6, card3H - 6, 8); c.fill();
+  rr(c, cardX, card3Y, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
+  c.fillStyle = '#FAF3E0'; rr(c, cardX + 3, card3Y + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, card3Y + 16, 22);
-  c.fillStyle = '#007FFF'; c.textAlign = 'center'; c.textBaseline = 'middle';
-  c.font = '900 ' + Math.floor(card3H * 0.12) + 'px "Hold",sans-serif';
-  c.fillText('TURN THE PAGE FOR MORE', cardX + cardW / 2, card3Y + card3H * 0.25);
-  c.fillText('FUN AND INSIGHT ON', cardX + cardW / 2, card3Y + card3H * 0.48);
-  c.fillText('CLARENCE\'S MISSION!', cardX + cardW / 2, card3Y + card3H * 0.72);
+  c.fillStyle = '#1a3a5c'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.font = '900 ' + Math.floor(cardH * 0.15) + 'px "Hold",sans-serif';
+  c.fillText('TURN THE PAGE FOR MORE', cardX + cardW / 2, card3Y + cardH * 0.25);
+  c.fillText('FUN AND INSIGHT ON', cardX + cardW / 2, card3Y + cardH * 0.50);
+  c.fillText('CLARENCE\'S MISSION!', cardX + cardW / 2, card3Y + cardH * 0.75);
 });
 var coverMat = new THREE.MeshStandardMaterial({map: coverTex, side: THREE.DoubleSide, roughness: 0.6});
 var coverMesh = new THREE.Mesh(coverGeo, coverMat);
