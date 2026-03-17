@@ -1027,8 +1027,8 @@ function drawCard(ctx, x, y, w, h, emoji, title, body) {
   // Title — scale with card, no arbitrary cap
   var titleSize = Math.floor(h * 0.13);
   var isWvN = title.indexOf('Wants vs') !== -1;
-  ctx.font = (isWvN ? 'bold italic ' : 'bold ') + titleSize + 'px "Montserrat",sans-serif';
-  ctx.fillStyle = '#007FFF';
+  ctx.font = (isWvN ? 'bold italic ' : 'bold ') + titleSize + 'px "Hold",sans-serif';
+  ctx.fillStyle = '#0054a6';
   ctx.textAlign = 'left'; ctx.textBaseline = 'top';
   var titleY = y + pad + h * 0.13;
   var titleLines = wrapText(ctx, title, w - pad * 2 - 14);
@@ -1740,39 +1740,41 @@ var coverTex = makeTex(function(c, w, h) {
 
   // CARD 1: Financial Literacy
   var cardY = topStart;
-  c.setLineDash([12, 6]); c.strokeStyle = '#3a2a1a'; c.lineWidth = 6;
+  c.setLineDash([12, 6]); c.strokeStyle = '#0054a6'; c.lineWidth = 4;
   rr(c, cardX, cardY, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
-  c.fillStyle = '#FAF3E0'; rr(c, cardX + 3, cardY + 3, cardW - 6, cardH - 6, 8); c.fill();
+  c.fillStyle = '#ffffff'; rr(c, cardX + 3, cardY + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, cardY + 16, 22);
   c.fillStyle = '#1a3a5c'; c.textAlign = 'center'; c.textBaseline = 'middle';
-  c.font = '900 ' + Math.floor(cardH * 0.15) + 'px "Hold",sans-serif';
-  c.fillText('A BOOK FOCUSING ON KID\'S', cardX + cardW / 2, cardY + cardH * 0.35);
-  c.fillText('FINANCIAL LITERACY AND EDUCATION', cardX + cardW / 2, cardY + cardH * 0.65);
+  c.font = '900 ' + Math.floor(cardH * 0.12) + 'px "Hold",sans-serif';
+  c.fillText('A BOOK FOCUSING ON KID\'S', cardX + cardW / 2, cardY + cardH * 0.30);
+  c.fillText('FINANCIAL LITERACY', cardX + cardW / 2, cardY + cardH * 0.53);
+  c.fillText('AND EDUCATION', cardX + cardW / 2, cardY + cardH * 0.76);
 
   // CARD 2: Playful Introduction
   var card2Y = cardY + cardH + cardGapV;
-  c.setLineDash([12, 6]); c.strokeStyle = '#3a2a1a'; c.lineWidth = 6;
+  c.setLineDash([12, 6]); c.strokeStyle = '#0054a6'; c.lineWidth = 4;
   rr(c, cardX, card2Y, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
-  c.fillStyle = '#FAF3E0'; rr(c, cardX + 3, card2Y + 3, cardW - 6, cardH - 6, 8); c.fill();
+  c.fillStyle = '#ffffff'; rr(c, cardX + 3, card2Y + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, card2Y + 16, 22);
   c.fillStyle = '#1a3a5c'; c.textAlign = 'center'; c.textBaseline = 'middle';
-  c.font = '900 ' + Math.floor(cardH * 0.14) + 'px "Hold",sans-serif';
-  c.fillText('A PLAYFUL INTRODUCTION TO', cardX + cardW / 2, card2Y + cardH * 0.28);
-  c.fillText('REAL-WORLD MONEY SKILLS', cardX + cardW / 2, card2Y + cardH * 0.48);
+  c.font = '900 ' + Math.floor(cardH * 0.12) + 'px "Hold",sans-serif';
+  c.fillText('A PLAYFUL INTRODUCTION', cardX + cardW / 2, card2Y + cardH * 0.22);
+  c.fillText('TO REAL-WORLD', cardX + cardW / 2, card2Y + cardH * 0.40);
+  c.fillText('MONEY SKILLS', cardX + cardW / 2, card2Y + cardH * 0.55);
   // Subtitle — lighter blue
   c.fillStyle = '#0054a6';
-  c.font = 'italic 900 ' + Math.floor(cardH * 0.10) + 'px "Hold",sans-serif';
-  c.fillText('*Cloaked in a fun story about a young boy', cardX + cardW / 2, card2Y + cardH * 0.70);
+  c.font = 'italic 900 ' + Math.floor(cardH * 0.08) + 'px "Hold",sans-serif';
+  c.fillText('*Cloaked in a fun story about a young boy', cardX + cardW / 2, card2Y + cardH * 0.73);
   c.fillText('and his quest to earn a robot reward*', cardX + cardW / 2, card2Y + cardH * 0.88);
 
   // CARD 3: Turn the Page
   var card3Y = card2Y + cardH + cardGapV;
-  c.setLineDash([12, 6]); c.strokeStyle = '#3a2a1a'; c.lineWidth = 6;
+  c.setLineDash([12, 6]); c.strokeStyle = '#0054a6'; c.lineWidth = 4;
   rr(c, cardX, card3Y, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
-  c.fillStyle = '#FAF3E0'; rr(c, cardX + 3, card3Y + 3, cardW - 6, cardH - 6, 8); c.fill();
+  c.fillStyle = '#ffffff'; rr(c, cardX + 3, card3Y + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, card3Y + 16, 22);
   c.fillStyle = '#1a3a5c'; c.textAlign = 'center'; c.textBaseline = 'middle';
-  c.font = '900 ' + Math.floor(cardH * 0.15) + 'px "Hold",sans-serif';
+  c.font = '900 ' + Math.floor(cardH * 0.13) + 'px "Hold",sans-serif';
   c.fillText('TURN THE PAGE FOR MORE', cardX + cardW / 2, card3Y + cardH * 0.25);
   c.fillText('FUN AND INSIGHT ON', cardX + cardW / 2, card3Y + cardH * 0.50);
   c.fillText('CLARENCE\'S MISSION!', cardX + cardW / 2, card3Y + cardH * 0.75);
