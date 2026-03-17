@@ -1027,8 +1027,8 @@ function drawCard(ctx, x, y, w, h, emoji, title, body) {
   // Title — scale with card, no arbitrary cap
   var titleSize = Math.floor(h * 0.13);
   var isWvN = title.indexOf('Wants vs') !== -1;
-  ctx.font = (isWvN ? 'bold italic ' : 'bold ') + titleSize + 'px "Montserrat",sans-serif';
-  ctx.fillStyle = '#007FFF';
+  ctx.font = (isWvN ? 'bold italic ' : 'bold ') + titleSize + 'px "Hold",sans-serif';
+  ctx.fillStyle = '#1a3a5c';
   ctx.textAlign = 'left'; ctx.textBaseline = 'top';
   var titleY = y + pad + h * 0.13;
   var titleLines = wrapText(ctx, title, w - pad * 2 - 14);
@@ -1697,82 +1697,107 @@ var coverTex = makeTex(function(c, w, h) {
   g.addColorStop(0.9, '#F57C00'); g.addColorStop(1, '#ff6b2b');
   c.fillStyle = g; c.fillRect(0, 0, w, hH);
 
-  // Cream body below header
-  c.fillStyle = '#FAF3E0'; c.fillRect(0, hH, w, h - hH);
+  // Rich warm body below header — waffle cone cream with subtle texture
+  var bodyG = c.createLinearGradient(0, hH, 0, h);
+  bodyG.addColorStop(0, '#F5E6C8');   // warm vanilla bean
+  bodyG.addColorStop(0.3, '#EDD9B3');  // toffee cream
+  bodyG.addColorStop(0.6, '#E8D1A0');  // coffee heath crunch
+  bodyG.addColorStop(1, '#DFC78E');    // deep waffle cone
+  c.fillStyle = bodyG; c.fillRect(0, hH, w, h - hH);
 
-  // Blue border around the cream area
-  c.strokeStyle = '#1a3a5c'; c.lineWidth = 6;
+  // Chocolate drizzle border around the cream area
+  c.save();
+  c.strokeStyle = '#3E2723'; c.lineWidth = 8;
+  c.shadowColor = 'rgba(62,39,35,.4)'; c.shadowBlur = 10; c.shadowOffsetY = 3;
   c.strokeRect(w * 0.04, hH + 8, w * 0.92, h - hH - 16);
+  c.restore();
+  // Inner pistachio accent line
+  c.strokeStyle = '#7CB342'; c.lineWidth = 2;
+  c.strokeRect(w * 0.04 + 6, hH + 14, w * 0.92 - 12, h - hH - 28);
 
   // === ORANGE TITLE BLOCK (centered, overlapping header/body) ===
   var tbW = w * 0.55, tbH = h * 0.14;
   var tbX = (w - tbW) / 2, tbY = hH * 0.15;
-  // Orange rounded rect
+  // Rich chocolate-orange rounded rect
   c.save();
-  c.shadowColor = 'rgba(0,0,0,.3)'; c.shadowBlur = 16; c.shadowOffsetY = 6;
+  c.shadowColor = 'rgba(0,0,0,.4)'; c.shadowBlur = 20; c.shadowOffsetY = 8;
   rr(c, tbX, tbY, tbW, tbH, 16); c.fillStyle = '#F57C00'; c.fill();
   c.restore();
+  // Hot fudge drizzle outline on title block
+  c.strokeStyle = '#4E342E'; c.lineWidth = 3;
+  rr(c, tbX, tbY, tbW, tbH, 16); c.stroke();
   // "Clarence" pill
   var pillW = tbW * 0.88, pillH = tbH * 0.38;
   var pillX = tbX + (tbW - pillW) / 2, pillY = tbY + tbH * 0.08;
   rr(c, pillX, pillY, pillW, pillH, 8);
-  c.fillStyle = '#fff'; c.fill();
-  c.strokeStyle = '#E65100'; c.lineWidth = 2; c.stroke();
-  c.fillStyle = '#1a1a1a'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.fillStyle = '#FFF8E1'; c.fill();
+  c.strokeStyle = '#5D4037'; c.lineWidth = 2; c.stroke();
+  c.fillStyle = '#3E2723'; c.textAlign = 'center'; c.textBaseline = 'middle';
   c.font = '900 ' + Math.floor(pillH * 0.78) + 'px "Hold",sans-serif';
   c.fillText('Clarence', tbX + tbW / 2, pillY + pillH / 2);
   // "Gets a Bargain" pill
   var pill2Y = pillY + pillH + tbH * 0.06;
   rr(c, pillX, pill2Y, pillW, pillH, 8);
-  c.fillStyle = '#fff'; c.fill();
-  c.strokeStyle = '#E65100'; c.lineWidth = 2; c.stroke();
-  c.fillStyle = '#1a1a1a';
+  c.fillStyle = '#FFF8E1'; c.fill();
+  c.strokeStyle = '#5D4037'; c.lineWidth = 2; c.stroke();
+  c.fillStyle = '#3E2723';
   c.font = '900 ' + Math.floor(pillH * 0.68) + 'px "Hold",sans-serif';
   c.fillText('Gets a Bargain', tbX + tbW / 2, pill2Y + pillH / 2);
 
-  // === COUPON CARDS — larger, evenly spread ===
-  var cardX = w * 0.06, cardW = w * 0.88;
-  var topStart = hH + h * 0.045;
-  var bottomEnd = h * 0.96;
+  // === COUPON CARDS — hot fudge sundae style ===
+  var cardX = w * 0.08, cardW = w * 0.84;
+  var topStart = hH + h * 0.05;
+  var bottomEnd = h * 0.95;
   var totalSpace = bottomEnd - topStart;
   var cardGapV = h * 0.02;
   var cardH = (totalSpace - cardGapV * 2) / 3;
 
   // CARD 1: Financial Literacy
   var cardY = topStart;
-  c.setLineDash([12, 6]); c.strokeStyle = '#3a2a1a'; c.lineWidth = 6;
+  c.save();
+  c.shadowColor = 'rgba(62,39,35,.3)'; c.shadowBlur = 8; c.shadowOffsetY = 3;
+  c.setLineDash([10, 5]); c.strokeStyle = '#5D4037'; c.lineWidth = 5;
   rr(c, cardX, cardY, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
-  c.fillStyle = '#FAF3E0'; rr(c, cardX + 3, cardY + 3, cardW - 6, cardH - 6, 8); c.fill();
+  c.restore();
+  c.fillStyle = '#FFF8E1'; rr(c, cardX + 3, cardY + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, cardY + 16, 22);
-  c.fillStyle = '#1a3a5c'; c.textAlign = 'center'; c.textBaseline = 'middle';
-  c.font = '900 ' + Math.floor(cardH * 0.15) + 'px "Hold",sans-serif';
-  c.fillText('A BOOK FOCUSING ON KID\'S', cardX + cardW / 2, cardY + cardH * 0.35);
-  c.fillText('FINANCIAL LITERACY AND EDUCATION', cardX + cardW / 2, cardY + cardH * 0.65);
+  c.fillStyle = '#3E2723'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.font = '900 ' + Math.floor(cardH * 0.13) + 'px "Hold",sans-serif';
+  c.fillText('A BOOK FOCUSING ON KID\'S', cardX + cardW / 2, cardY + cardH * 0.32);
+  c.fillText('FINANCIAL LITERACY', cardX + cardW / 2, cardY + cardH * 0.55);
+  c.fillText('AND EDUCATION', cardX + cardW / 2, cardY + cardH * 0.78);
 
   // CARD 2: Playful Introduction
   var card2Y = cardY + cardH + cardGapV;
-  c.setLineDash([12, 6]); c.strokeStyle = '#3a2a1a'; c.lineWidth = 6;
+  c.save();
+  c.shadowColor = 'rgba(62,39,35,.3)'; c.shadowBlur = 8; c.shadowOffsetY = 3;
+  c.setLineDash([10, 5]); c.strokeStyle = '#5D4037'; c.lineWidth = 5;
   rr(c, cardX, card2Y, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
-  c.fillStyle = '#FAF3E0'; rr(c, cardX + 3, card2Y + 3, cardW - 6, cardH - 6, 8); c.fill();
+  c.restore();
+  c.fillStyle = '#FFF8E1'; rr(c, cardX + 3, card2Y + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, card2Y + 16, 22);
-  c.fillStyle = '#1a3a5c'; c.textAlign = 'center'; c.textBaseline = 'middle';
-  c.font = '900 ' + Math.floor(cardH * 0.14) + 'px "Hold",sans-serif';
-  c.fillText('A PLAYFUL INTRODUCTION TO', cardX + cardW / 2, card2Y + cardH * 0.28);
-  c.fillText('REAL-WORLD MONEY SKILLS', cardX + cardW / 2, card2Y + cardH * 0.48);
-  // Subtitle — lighter blue
-  c.fillStyle = '#0054a6';
-  c.font = 'italic 900 ' + Math.floor(cardH * 0.10) + 'px "Hold",sans-serif';
-  c.fillText('*Cloaked in a fun story about a young boy', cardX + cardW / 2, card2Y + cardH * 0.70);
-  c.fillText('and his quest to earn a robot reward*', cardX + cardW / 2, card2Y + cardH * 0.88);
+  c.fillStyle = '#3E2723'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.font = '900 ' + Math.floor(cardH * 0.12) + 'px "Hold",sans-serif';
+  c.fillText('A PLAYFUL INTRODUCTION', cardX + cardW / 2, card2Y + cardH * 0.22);
+  c.fillText('TO REAL-WORLD', cardX + cardW / 2, card2Y + cardH * 0.40);
+  c.fillText('MONEY SKILLS', cardX + cardW / 2, card2Y + cardH * 0.58);
+  // Subtitle — pistachio green italic
+  c.fillStyle = '#558B2F';
+  c.font = 'italic 900 ' + Math.floor(cardH * 0.08) + 'px "Hold",sans-serif';
+  c.fillText('*Cloaked in a fun story about a young boy', cardX + cardW / 2, card2Y + cardH * 0.76);
+  c.fillText('and his quest to earn a robot reward*', cardX + cardW / 2, card2Y + cardH * 0.90);
 
   // CARD 3: Turn the Page
   var card3Y = card2Y + cardH + cardGapV;
-  c.setLineDash([12, 6]); c.strokeStyle = '#3a2a1a'; c.lineWidth = 6;
+  c.save();
+  c.shadowColor = 'rgba(62,39,35,.3)'; c.shadowBlur = 8; c.shadowOffsetY = 3;
+  c.setLineDash([10, 5]); c.strokeStyle = '#5D4037'; c.lineWidth = 5;
   rr(c, cardX, card3Y, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
-  c.fillStyle = '#FAF3E0'; rr(c, cardX + 3, card3Y + 3, cardW - 6, cardH - 6, 8); c.fill();
+  c.restore();
+  c.fillStyle = '#FFF8E1'; rr(c, cardX + 3, card3Y + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, card3Y + 16, 22);
-  c.fillStyle = '#1a3a5c'; c.textAlign = 'center'; c.textBaseline = 'middle';
-  c.font = '900 ' + Math.floor(cardH * 0.15) + 'px "Hold",sans-serif';
+  c.fillStyle = '#3E2723'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.font = '900 ' + Math.floor(cardH * 0.13) + 'px "Hold",sans-serif';
   c.fillText('TURN THE PAGE FOR MORE', cardX + cardW / 2, card3Y + cardH * 0.25);
   c.fillText('FUN AND INSIGHT ON', cardX + cardW / 2, card3Y + cardH * 0.50);
   c.fillText('CLARENCE\'S MISSION!', cardX + cardW / 2, card3Y + cardH * 0.75);
