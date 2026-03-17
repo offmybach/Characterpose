@@ -132,7 +132,7 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 .coupon-card{position:relative;background:#fff;border:5px dashed #1a3a5c;border-radius:12px;padding:35px 25px 25px;text-align:center;cursor:pointer;transition:transform .3s cubic-bezier(.4,0,.2,1),box-shadow .3s}
 .coupon-card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(26,58,92,.18)}
 .coupon-scissor{display:none}
-.coupon-card::before{content:'\2702';position:absolute;top:-16px;right:15px;font-size:28px;color:#666;transform:rotate(-30deg);background:#FAF3E0;padding:0 5px}
+.coupon-card::before{content:'';position:absolute;top:-14px;right:10px;width:30px;height:30px;background:url('images/scissors.svg') no-repeat center/contain;z-index:1}
 .coupon-card h3{font-family:'Hold',sans-serif;font-size:1.1rem;color:#1a3a5c;margin-bottom:10px}
 .coupon-card p{font-size:.95rem;color:#0054a6;line-height:1.5}
 
@@ -286,7 +286,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .resource-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;max-width:1100px;margin:0 auto}
 .resource-card{background:#fff;border:5px dashed #1a3a5c;border-radius:12px;padding:35px 25px 25px;text-align:center;transition:all .3s cubic-bezier(.4,0,.2,1);position:relative}
 .resource-card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(26,58,92,.18)}
-.resource-card::before{content:'\2702';position:absolute;top:-16px;right:15px;font-size:28px;color:#666;transform:rotate(-30deg);background:#FAF3E0;padding:0 5px}
+.resource-card::before{content:'';position:absolute;top:-14px;right:10px;width:30px;height:30px;background:url('images/scissors.svg') no-repeat center/contain;z-index:1}
 .resource-card .rc-free{display:inline-flex;align-items:center;justify-content:center;width:60px;height:60px;background:#d32f2f;color:#fff;font-family:'Hold',sans-serif;font-size:0.9rem;border-radius:50%;margin-bottom:16px;letter-spacing:1px;clip-path:polygon(50% 0%,61% 16%,80% 9%,82% 27%,100% 31%,91% 48%,100% 66%,83% 73%,83% 91%,63% 85%,50% 100%,37% 85%,17% 91%,17% 73%,0% 66%,9% 48%,0% 31%,18% 27%,20% 9%,39% 16%);box-shadow:0 4px 10px rgba(211,47,47,0.4)}
 .resource-card h4{font-family:'Hold',sans-serif;font-weight:700;color:#1a3a5c;font-size:1.3rem;margin-bottom:12px;line-height:1.2}
 .resource-card p{font-family:'Lato',sans-serif;font-size:0.95rem;color:#0054a6;line-height:1.6;margin-bottom:24px;font-weight:700}
@@ -982,10 +982,24 @@ function drawHeader(ctx, w, hH, pageTitle) {
   }
 }
 
+var _scissorsImg = new Image();
+_scissorsImg.src = 'images/scissors.svg';
+_scissorsImg.onload = function() {
+  if (typeof pages !== 'undefined') {
+    for (var i = 0; i < pages.length; i++) { if (pages[i]) pages[i].needsUpdate = true; }
+  }
+};
+
 function drawScissors(ctx, x, y, sz) {
-  ctx.save(); ctx.font=sz+'px serif'; ctx.fillStyle='#999';
-  ctx.textAlign='center'; ctx.textBaseline='middle';
-  ctx.fillText('\u2702', x, y); ctx.restore();
+  if (_scissorsImg.complete && _scissorsImg.naturalWidth > 0) {
+    ctx.save();
+    ctx.drawImage(_scissorsImg, x - sz/2, y - sz/2, sz, sz);
+    ctx.restore();
+  } else {
+    ctx.save(); ctx.font=sz+'px serif'; ctx.fillStyle='#999';
+    ctx.textAlign='center'; ctx.textBaseline='middle';
+    ctx.fillText('\u2702', x, y); ctx.restore();
+  }
 }
 
 // Wrap text into lines

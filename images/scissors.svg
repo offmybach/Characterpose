@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Scissor icon matching book: dark navy outline, steel gray blades, white handles -->
+  <!-- Handles upper-right, blades crossing lower-left -->
+  <defs>
+    <linearGradient id="blade1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8d4de"/>
+      <stop offset="100%" stop-color="#8ea0b2"/>
+    </linearGradient>
+    <linearGradient id="blade2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d0dae4"/>
+      <stop offset="100%" stop-color="#96a8b8"/>
+    </linearGradient>
+  </defs>
+  <!-- Blade 1 (lower-left pointing, behind) -->
+  <path d="M68,58 L18,88 C14,90 12,88 14,84 L58,48 Z" fill="url(#blade1)" stroke="#2c4a6e" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Blade 2 (upper-left pointing, front) -->
+  <path d="M58,52 L22,16 C20,12 22,10 26,12 L68,62 Z" fill="url(#blade2)" stroke="#2c4a6e" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Pivot screw -->
+  <circle cx="63" cy="55" r="3.5" fill="#2c4a6e"/>
+  <circle cx="63" cy="55" r="1.5" fill="#8ea0b2"/>
+  <!-- Handle 1 (upper-right) -->
+  <ellipse cx="88" cy="30" rx="16" ry="11" transform="rotate(40,88,30)" fill="white" stroke="#2c4a6e" stroke-width="4"/>
+  <!-- Handle 2 (lower-right) -->
+  <ellipse cx="88" cy="80" rx="16" ry="11" transform="rotate(-40,88,80)" fill="white" stroke="#2c4a6e" stroke-width="4"/>
+</svg>
