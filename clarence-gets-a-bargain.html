@@ -852,7 +852,11 @@ function openResourceModal(id) {
   var el = document.getElementById(id);
   if (!el) return;
   var frame = document.getElementById('resourceModalFrame');
-  frame.srcdoc = el.textContent;
+  var html = el.textContent.split('<\\/script>').join('</' + 'script>');
+  // Inject a <base> tag so relative URLs (fonts, images) resolve from the resources folder
+  var baseTag = '<base href="resources/">';
+  html = html.replace(/<head>/i, '<head>' + baseTag);
+  frame.srcdoc = html;
   document.getElementById('resourceModalOverlay').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
