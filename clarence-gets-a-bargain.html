@@ -592,7 +592,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 <!-- TRUST BLOCK — FOR THE PROS -->
 <section class="trust-block reveal">
   <div class="trust-inner">
-    <img src="images/clarence-armsfolded.png" alt="Clarence sizing up the options in the toy aisle" class="trust-image" style="object-fit:cover;border-radius:16px;flex-shrink:0">
+    <img src="images/daddesk.png" alt="Dad explaining savings to Clarence after the Sea-Mart trip" class="trust-image" style="object-fit:cover;border-radius:16px;flex-shrink:0">
     <div class="trust-text">
       <div class="section-tag">For the Pros</div>
       <h3>Why Clarence Belongs in Your Curriculum</h3>
@@ -917,6 +917,8 @@ document.querySelectorAll('.reveal').forEach(function(el){new IntersectionObserv
 var magWrap = document.getElementById('magCanvasWrap');
 new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){magWrap.classList.add('zoomed');}});},{threshold:.1}).observe(magWrap);
 ['front','back'].forEach(function(s){var inp=document.getElementById(s+'Input'),prev=document.getElementById(s+'Preview');document.getElementById(s+'Upload').addEventListener('click',function(){inp.click();});inp.addEventListener('change',function(){var f=this.files[0];if(!f)return;var r=new FileReader();r.onload=function(e){prev.src=e.target.result;prev.style.display='block';};r.readAsDataURL(f);});});
+// Default cover previews
+(function(){var fp=document.getElementById('frontPreview');fp.src='images/frontcover.png';fp.style.display='block';})();
 
 // ============================================================
 // THREE.JS 3D MAGAZINE — v4 FIXED ARCHITECTURE
@@ -1742,97 +1744,7 @@ var cp = coverGeo.attributes.position;
 for (var i = 0; i < cp.count; i++) cp.setX(i, cp.getX(i) - PW/2);
 coverGeo.computeVertexNormals();
 // Dedicated front cover texture — matches the sticker title block design
-var coverTex = makeTex(function(c, w, h) {
-  // Header gradient: purple top → green middle → orange bottom (top 18%)
-  var hH = h * 0.18;
-  var g = c.createLinearGradient(0, 0, 0, hH);
-  g.addColorStop(0, '#4a1a6b'); g.addColorStop(0.3, '#6a2d8e');
-  g.addColorStop(0.5, '#228B22'); g.addColorStop(0.7, '#1a7a1a');
-  g.addColorStop(0.9, '#F57C00'); g.addColorStop(1, '#ff6b2b');
-  c.fillStyle = g; c.fillRect(0, 0, w, hH);
-
-  // Cream body below header
-  c.fillStyle = '#FAF3E0'; c.fillRect(0, hH, w, h - hH);
-
-  // Blue border around the cream area
-  c.strokeStyle = '#1a3a5c'; c.lineWidth = 6;
-  c.strokeRect(w * 0.04, hH + 8, w * 0.92, h - hH - 16);
-
-  // === ORANGE TITLE BLOCK (centered, overlapping header/body) ===
-  var tbW = w * 0.55, tbH = h * 0.14;
-  var tbX = (w - tbW) / 2, tbY = hH * 0.15;
-  // Orange rounded rect
-  c.save();
-  c.shadowColor = 'rgba(0,0,0,.3)'; c.shadowBlur = 16; c.shadowOffsetY = 6;
-  rr(c, tbX, tbY, tbW, tbH, 16); c.fillStyle = '#F57C00'; c.fill();
-  c.restore();
-  // "Clarence" pill
-  var pillW = tbW * 0.88, pillH = tbH * 0.38;
-  var pillX = tbX + (tbW - pillW) / 2, pillY = tbY + tbH * 0.08;
-  rr(c, pillX, pillY, pillW, pillH, 8);
-  c.fillStyle = '#fff'; c.fill();
-  c.strokeStyle = '#E65100'; c.lineWidth = 2; c.stroke();
-  c.fillStyle = '#1a1a1a'; c.textAlign = 'center'; c.textBaseline = 'middle';
-  c.font = '900 ' + Math.floor(pillH * 0.78) + 'px "Hold",sans-serif';
-  c.fillText('Clarence', tbX + tbW / 2, pillY + pillH / 2);
-  // "Gets a Bargain" pill
-  var pill2Y = pillY + pillH + tbH * 0.06;
-  rr(c, pillX, pill2Y, pillW, pillH, 8);
-  c.fillStyle = '#fff'; c.fill();
-  c.strokeStyle = '#E65100'; c.lineWidth = 2; c.stroke();
-  c.fillStyle = '#1a1a1a';
-  c.font = '900 ' + Math.floor(pillH * 0.68) + 'px "Hold",sans-serif';
-  c.fillText('Gets a Bargain', tbX + tbW / 2, pill2Y + pillH / 2);
-
-  // === COUPON CARDS — larger, evenly spread ===
-  var cardX = w * 0.06, cardW = w * 0.88;
-  var topStart = hH + h * 0.045;
-  var bottomEnd = h * 0.96;
-  var totalSpace = bottomEnd - topStart;
-  var cardGapV = h * 0.02;
-  var cardH = (totalSpace - cardGapV * 2) / 3;
-
-  // CARD 1: Financial Literacy
-  var cardY = topStart;
-  c.setLineDash([14, 8]); c.strokeStyle = '#1a3a5c'; c.lineWidth = 7;
-  rr(c, cardX, cardY, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
-  c.fillStyle = '#ffffff'; rr(c, cardX + 3, cardY + 3, cardW - 6, cardH - 6, 8); c.fill();
-  drawScissors(c, cardX + cardW - 20, cardY + 16, 22);
-  c.fillStyle = '#1a3a5c'; c.textAlign = 'center'; c.textBaseline = 'middle';
-  c.font = '900 ' + Math.floor(cardH * 0.12) + 'px "Hold",sans-serif';
-  c.fillText('A BOOK FOCUSING ON KID\'S', cardX + cardW / 2, cardY + cardH * 0.30);
-  c.fillText('FINANCIAL LITERACY', cardX + cardW / 2, cardY + cardH * 0.53);
-  c.fillText('AND EDUCATION', cardX + cardW / 2, cardY + cardH * 0.76);
-
-  // CARD 2: Playful Introduction
-  var card2Y = cardY + cardH + cardGapV;
-  c.setLineDash([14, 8]); c.strokeStyle = '#1a3a5c'; c.lineWidth = 7;
-  rr(c, cardX, card2Y, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
-  c.fillStyle = '#ffffff'; rr(c, cardX + 3, card2Y + 3, cardW - 6, cardH - 6, 8); c.fill();
-  drawScissors(c, cardX + cardW - 20, card2Y + 16, 22);
-  c.fillStyle = '#1a3a5c'; c.textAlign = 'center'; c.textBaseline = 'middle';
-  c.font = '900 ' + Math.floor(cardH * 0.12) + 'px "Hold",sans-serif';
-  c.fillText('A PLAYFUL INTRODUCTION', cardX + cardW / 2, card2Y + cardH * 0.22);
-  c.fillText('TO REAL-WORLD', cardX + cardW / 2, card2Y + cardH * 0.40);
-  c.fillText('MONEY SKILLS', cardX + cardW / 2, card2Y + cardH * 0.55);
-  // Subtitle — lighter blue
-  c.fillStyle = '#0054a6';
-  c.font = 'italic 900 ' + Math.floor(cardH * 0.08) + 'px "Hold",sans-serif';
-  c.fillText('*Cloaked in a fun story about a young boy', cardX + cardW / 2, card2Y + cardH * 0.73);
-  c.fillText('and his quest to earn a robot reward*', cardX + cardW / 2, card2Y + cardH * 0.88);
-
-  // CARD 3: Turn the Page
-  var card3Y = card2Y + cardH + cardGapV;
-  c.setLineDash([14, 8]); c.strokeStyle = '#1a3a5c'; c.lineWidth = 7;
-  rr(c, cardX, card3Y, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
-  c.fillStyle = '#ffffff'; rr(c, cardX + 3, card3Y + 3, cardW - 6, cardH - 6, 8); c.fill();
-  drawScissors(c, cardX + cardW - 20, card3Y + 16, 22);
-  c.fillStyle = '#1a3a5c'; c.textAlign = 'center'; c.textBaseline = 'middle';
-  c.font = '900 ' + Math.floor(cardH * 0.13) + 'px "Hold",sans-serif';
-  c.fillText('TURN THE PAGE FOR MORE', cardX + cardW / 2, card3Y + cardH * 0.25);
-  c.fillText('FUN AND INSIGHT ON', cardX + cardW / 2, card3Y + cardH * 0.50);
-  c.fillText('CLARENCE\'S MISSION!', cardX + cardW / 2, card3Y + cardH * 0.75);
-});
+var coverTex = new THREE.TextureLoader().load('images/frontcover.png');
 var coverMat = new THREE.MeshStandardMaterial({map: coverTex, side: THREE.DoubleSide, roughness: 0.6});
 var coverMesh = new THREE.Mesh(coverGeo, coverMat);
 coverMesh.castShadow = true;
