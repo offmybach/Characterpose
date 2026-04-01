@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curriculum Alignment Matrix | Clarence Gets a Bargain!</title>
+<style>
+@font-face{font-family:'Hold';src:url('../fonts/Hold.woff2') format('woff2'),url('../fonts/Hold.woff') format('woff'),url('../fonts/Hold.otf') format('opentype');font-weight:normal;font-style:normal;font-display:swap}
+@font-face{font-family:'Lato';src:url('../fonts/Lato-Semibold.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap}
+:root{--cream:#FAF3E0;--blue:#0054a6;--orange:#ff6b2b;--navy:#1a3a5c;--lgray:#f5f0e6;--green:#4CAF50;--red:#e74c3c;--gold:#FFD700;--teal:#009688;--purple:#7B2D8E;--seablue:#1a3a5c}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--cream);font-family:'Lato','Nunito',sans-serif;color:#1a3a5c}
+.hd{font-family:'Hold','Nunito',sans-serif}
+.hero{background:linear-gradient(160deg,var(--navy) 0%,var(--blue) 60%,var(--teal) 100%);position:relative;overflow:hidden;text-align:center}
+.hero-inner{display:flex;align-items:center;justify-content:center;gap:20px;padding:36px 20px 0;flex-wrap:wrap;position:relative;z-index:1}
+.hero-char img{width:90px;height:auto;border-radius:50%;border:4px solid rgba(255,255,255,.3);padding:4px;background:linear-gradient(135deg,var(--blue),var(--navy))}
+.speech{position:absolute;top:-8px;right:-90px;background:#fff;border-radius:14px 14px 14px 4px;padding:6px 12px;font-family:'Hold','Nunito',sans-serif;font-size:10px;font-weight:700;color:var(--navy);box-shadow:0 2px 8px rgba(0,0,0,.1);white-space:nowrap}
+.hero h1{font-family:'Hold','Nunito',sans-serif;font-weight:900;font-size:clamp(22px,5vw,38px);color:#fff;line-height:1.1}
+.hero h1 em{color:var(--gold);font-style:normal}
+.pill{display:inline-block;font-family:'Hold','Nunito',sans-serif;font-size:11px;font-weight:800;letter-spacing:4px;text-transform:uppercase;padding:5px 16px;border-radius:40px;margin:0 4px 10px}
+.wave{display:block;width:100%}
+.filter-panel{background:#fff;border-radius:16px;padding:18px 20px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.filter-label{font-family:'Hold','Nunito',sans-serif;font-size:12px;font-weight:800;letter-spacing:4px;text-transform:uppercase;margin-bottom:8px;color:var(--navy)}
+.filter-row{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.filter-row:last-child{margin-bottom:0}
+.fbtn{font-family:'Hold','Nunito',sans-serif;font-size:11px;font-weight:700;padding:6px 14px;border-radius:8px;border:2px solid #ddd;background:#fff;cursor:pointer;transition:.2s;color:var(--navy)}
+.fbtn:hover{transform:translateY(-1px)}
+.fbtn.active{color:#fff}
+.stats{background:#fff;border-radius:12px;padding:16px;display:flex;justify-content:space-between;box-shadow:0 2px 8px rgba(0,0,0,.05);margin-bottom:16px;flex-wrap:wrap;gap:8px;align-items:center}
+.stat{text-align:center;min-width:50px}
+.stat .n{font-family:'Hold','Nunito',sans-serif;font-weight:900}
+.stat .l{font-family:'Hold','Nunito',sans-serif;font-size:10px;font-weight:700;color:#999}
+.legend{display:flex;gap:14px;margin-bottom:16px;flex-wrap:wrap}
+.legend-item{display:flex;align-items:center;gap:5px}
+.legend-dot{width:10px;height:10px;border-radius:50%}
+.legend-item span{font-family:'Lato',sans-serif;font-size:11px;color:#999;font-weight:700}
+.concept-row{border:5px dashed #1a3a5c;border-radius:18px;background:#fff;margin-bottom:12px;overflow:hidden;transition:.3s;position:relative}
+.concept-row::before{content:'\2702';position:absolute;top:-9px;right:18px;font-size:14px;background:var(--cream);padding:0 4px;color:#1a3a5c;z-index:1}
+.concept-row:nth-child(even){background:var(--lgray)}
+.concept-row:nth-child(even)::before{background:var(--lgray)}
+.concept-row.expanded{border-color:var(--blue);box-shadow:0 4px 16px rgba(0,84,166,.1)}
+.crow-head{padding:16px 18px;cursor:pointer;display:flex;align-items:center;gap:12px}
+.crow-head .emoji{font-size:26px;flex-shrink:0}
+.crow-head .cname{font-family:'Hold','Nunito',sans-serif;font-size:15px;font-weight:800}
+.crow-head .cpages{font-size:12px;color:#999;font-weight:600}
+.crow-head .grades{display:flex;gap:3px;flex-wrap:wrap}
+.crow-head .gbadge{font-family:'Hold','Nunito',sans-serif;font-size:9px;font-weight:800;background:var(--blue);color:#fff;padding:2px 7px;border-radius:4px}
+.crow-head .dots{display:flex;gap:3px;margin-left:8px}
+.crow-head .dot{width:8px;height:8px;border-radius:50%}
+.crow-head .arrow{color:#ccc;font-size:14px;transition:transform .2s;flex-shrink:0}
+.concept-row.expanded .crow-head .arrow{transform:rotate(180deg)}
+.crow-body{padding:0 18px 18px;display:none}
+.concept-row.expanded .crow-body{display:block;animation:slideUp .3s ease}
+.std-card{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:10px;margin-bottom:6px}
+.std-card .fw-tag{font-family:'Hold','Nunito',sans-serif;font-size:10px;font-weight:800;color:#fff;padding:2px 8px;border-radius:4px;flex-shrink:0;margin-top:2px}
+.std-card .code{font-family:'Hold','Nunito',sans-serif;font-size:12px;font-weight:700}
+.std-card .desc{font-size:12px;color:#666;margin-top:2px}
+.report-gen{background:linear-gradient(160deg,var(--navy),var(--blue));border-radius:20px;padding:28px 24px;text-align:center;margin-top:20px;position:relative;overflow:hidden}
+.report-gen input{font-family:'Lato',sans-serif;font-size:14px;padding:10px 16px;border-radius:10px;border:none;outline:none;min-width:200px;text-align:center}
+.gen-btn{font-family:'Hold','Nunito',sans-serif;font-size:14px;font-weight:800;padding:10px 24px;border-radius:10px;border:none;cursor:pointer;margin-left:10px}
+.compliance{background:#fff;border-radius:12px;padding:14px 18px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin-bottom:16px}
+.compliance .badges{display:flex;flex-wrap:wrap;justify-content:center;gap:14px}
+.compliance .bdg{display:flex;align-items:center;gap:5px;font-family:'Hold','Nunito',sans-serif;font-size:11px;font-weight:700;color:var(--blue)}
+.cta-row{display:flex;gap:12px;margin-top:20px;flex-wrap:wrap}
+.cta-row button,.cta-row a{font-family:'Hold','Nunito',sans-serif;font-size:14px;font-weight:700;padding:12px 24px;border-radius:40px;cursor:pointer;flex:1;min-width:140px;text-align:center;text-decoration:none;display:flex;align-items:center;justify-content:center}
+.bulk-cta{background:linear-gradient(135deg,var(--orange),#E64A19);border-radius:20px;padding:24px;text-align:center;margin-top:16px}
+.bulk-cta a{font-family:'Hold','Nunito',sans-serif;font-size:13px;font-weight:700;color:var(--gold);text-decoration:none}
+.footer{text-align:center;margin-top:48px;padding:20px 0;font-size:11px;color:#bbb}
+.empty{background:#fff;border-radius:16px;padding:40px 24px;text-align:center}
+.fade-sec{opacity:0;transform:translateY(40px);transition:all .8s cubic-bezier(.4,0,.2,1)}
+.fade-sec.visible{opacity:1;transform:translateY(0)}
+@keyframes btnGlow{0%,100%{box-shadow:0 4px 20px rgba(255,107,43,.35)}50%{box-shadow:0 4px 35px rgba(255,107,43,.6)}}
+@keyframes slideUp{0%{transform:translateY(40px);opacity:0}100%{transform:translateY(0);opacity:1}}
+@media(max-width:500px){.hero-inner{flex-direction:column;gap:12px}.cta-row{flex-direction:column}.stats{justify-content:center}}
+</style>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EC7YNHV890"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-EC7YNHV890");</script>
+</head>
+<body>
+<nav style="position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1a3a5c;"><a href="../clarence-gets-a-bargain.html" style="font-family:'Hold','Nunito',sans-serif;font-size:1rem;color:#1a3a5c;text-decoration:none;display:flex;align-items:center;gap:8px;" data-es="&larr; Volver al Inicio">← Clarence Gets a Bargain</a><a href="../clarence-gets-a-bargain.html#buy" style="display:inline-block;padding:8px 20px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;text-decoration:none;border-radius:40px;transition:.3s;" data-es="Comprar el Libro">Order the Book</a><button id="langToggle" onclick="toggleLang()" style="font-family:'Hold',sans-serif;font-size:.75rem;padding:6px 14px;border-radius:20px;border:2px solid #1a3a5c;background:transparent;color:#1a3a5c;cursor:pointer;font-weight:700;letter-spacing:1px;transition:.2s;">ES</button></nav>
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-char" style="position:relative">
+      <img src="data:image/webp;base64,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" alt="Dad">
+      <div class="speech">Standards? Covered.</div>
+    </div>
+    <div style="max-width:440px">
+      <div><span class="pill" style="background:var(--orange);color:#fff;" data-es="Para Administradores">For Administrators</span><span class="pill" style="background:rgba(255,255,255,.12);color:#fff;">Grades 1&ndash;5</span></div>
+      <h1 data-es="Matriz de<br><em>Alineaci&oacute;n Curricular</em>">Curriculum<br><em>Alignment Matrix</em></h1>
+      <p style="color:rgba(255,255,255,.82);font-size:14px;margin-top:8px;line-height:1.5;">Mapping <i>Clarence Gets a Bargain!</i> to Jump$tart, Common Core, and CEE national frameworks</p>
+    </div>
+  </div>
+  <svg class="wave" viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#FAF3E0"/></svg>
+</div>
+<div style="max-width:720px;margin:0 auto;padding:0 20px 60px;">
+  <div class="filter-panel">
+    <div class="filter-label" data-es="Marco de Referencia">Framework</div>
+    <div class="filter-row" id="fwFilters"></div>
+    <div class="filter-label" data-es="Grado Escolar">Grade Level</div>
+    <div class="filter-row" id="gradeFilters"></div>
+  </div>
+  <div class="stats" id="statsBar"></div>
+  <div class="legend" id="legend"></div>
+  <div id="conceptRows"></div>
+  <div class="report-gen">
+    <div style="font-size:36px;margin-bottom:8px;">&#x1F4CA;</div>
+    <p class="hd" style="font-size:17px;font-weight:900;color:#fff;margin-bottom:6px;" data-es="Generar Reporte Personalizado">Generate Custom Alignment Report</p>
+    <p id="reportDesc" style="font-size:13px;color:rgba(255,255,255,.7);margin-bottom:18px;"></p>
+    <div id="reportForm" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
+      <input type="email" id="reportEmail" placeholder="your@email.com">
+      <button class="gen-btn" style="background:var(--gold);color:var(--navy);" onclick="generateReport()" data-es="Generar Reporte">Generate Report</button>
+    </div>
+    <div id="reportResult" style="display:none;"></div>
+  </div>
+  <div class="compliance">
+    <div class="badges">
+      <div class="bdg">&#x2705; Title I Eligible</div><div class="bdg">&#x1F4C4; CRA Grant Ready</div><div class="bdg">&#x1F3E6; FDIC Money Smart</div><div class="bdg">&#x1F4E8; PO Accepted</div><div class="bdg">&#x1F4C5; Net 30 Terms</div>
+    </div>
+    <p style="font-size:12px;color:#999;text-align:center;margin-top:10px;">Lexile Measure: <strong>AD 620L</strong> &bull; Ages 6&ndash;10 &bull; 36 pages &bull; $14.99 retail</p>
+  </div>
+  <div class="cta-row">
+    <button onclick="window.print()" style="border:2px solid var(--blue);background:#fff;color:var(--blue);" data-es="Imprimir Matriz">&#x1F5A8;&#xFE0F; Print Matrix</button>
+    <a href="mailto:orders@clarencegetsabargain.com?subject=Purchase Order Inquiry" style="border:none;background:var(--orange);color:#fff;" data-es="Enviar Orden de Compra">Submit Purchase Order</a>
+  </div>
+  <div class="bulk-cta">
+    <p class="hd" style="font-size:17px;font-weight:900;color:#fff;margin-bottom:6px;" data-es="Lleva a Clarence a Tu Distrito">Bring Clarence to Your District</p>
+    <p style="font-size:13px;color:rgba(255,255,255,.8);margin-bottom:4px;">PO accepted &bull; Net 30 terms &bull; Title I volume discounts</p>
+    <a href="mailto:orders@clarencegetsabargain.com?subject=Bulk Order Inquiry">orders@clarencegetsabargain.com</a>
+  </div>
+  <div class="footer">Clarence Gets a Bargain! &bull; www.clarencegetsabargain.com</div>
+</div>
+
+<script>
+var FW={jumpstart:{name:"Jump$tart",color:"#0054a6",abbr:"J$"},ccss_math:{name:"Common Core Math",color:"#ff6b2b",abbr:"CCSS-M"},ccss_ela:{name:"Common Core ELA",color:"#009688",abbr:"CCSS-E"},cee:{name:"CEE",color:"#7B2D8E",abbr:"CEE"}};
+var GRADES=["K","1","2","3","4","5"];
+var CONCEPTS=[
+  {id:1,name:"Needs vs. Wants",pages:"1\u20138",icon:"\u{1F6D2}",desc:"Clarence and Mom discuss what they need versus what Clarence wants.",grades:["K","1","2","3"],stds:[{fw:"jumpstart",code:"SPD-1",text:"Differentiate between needs and wants."},{fw:"jumpstart",code:"SPD-3",text:"Identify factors that influence spending decisions."},{fw:"ccss_ela",code:"CCSS.ELA-RI.2.1",text:"Ask and answer questions about key details."},{fw:"cee",code:"CEE Standard 2",text:"People buy goods and services to satisfy wants."}]},
+  {id:2,name:"Earning & Income",pages:"3\u20136",icon:"\u{1F4B5}",desc:"Clarence learns money comes from work. Chores and good grades earned him the chance to shop.",grades:["1","2","3"],stds:[{fw:"jumpstart",code:"EI-1",text:"Identify sources of income."},{fw:"ccss_ela",code:"CCSS.ELA-RI.2.6",text:"Identify the main purpose of a text."},{fw:"cee",code:"CEE Standard 1",text:"People earn income by working."}]},
+  {id:3,name:"Budgeting",pages:"6\u201312",icon:"\u{1F4CB}",desc:"Mom gives Clarence a fixed amount. He must decide how to allocate it.",grades:["2","3","4"],stds:[{fw:"jumpstart",code:"SPD-1",text:"Create a simple budget/spending plan."},{fw:"ccss_math",code:"CCSS.MATH.2.OA.A.1",text:"Add and subtract within 100 to solve word problems."},{fw:"ccss_math",code:"CCSS.MATH.3.NBT.A.2",text:"Fluently add and subtract within 1000."},{fw:"cee",code:"CEE Standard 2",text:"A budget is a plan for allocating income."}]},
+  {id:4,name:"Comparison Shopping",pages:"15\u201320",icon:"\u{1F50D}",desc:"Clarence checks prices at multiple stores. The same product can cost different amounts.",grades:["2","3","4","5"],stds:[{fw:"jumpstart",code:"SPD-3",text:"Compare prices to determine best value."},{fw:"ccss_math",code:"CCSS.MATH.3.NBT.A.2",text:"Fluently add and subtract within 1000."},{fw:"ccss_math",code:"CCSS.MATH.4.OA.A.3",text:"Solve multi-step word problems."},{fw:"cee",code:"CEE Standard 2",text:"Comparing benefits and costs of alternatives."}]},
+  {id:5,name:"Coupons & Discounts",pages:"16\u201324",icon:"\u{1F3F7}\uFE0F",desc:"Clarence discovers coupons and sale stickers. The sticker price is not always the final price.",grades:["2","3","4","5"],stds:[{fw:"jumpstart",code:"SPD-3",text:"Use coupons, sales, and comparison shopping."},{fw:"ccss_math",code:"CCSS.MATH.5.NBT.B.7",text:"Add, subtract, multiply, and divide decimals."},{fw:"cee",code:"CEE Standard 2",text:"Strategies like coupons reduce costs."}]},
+  {id:6,name:"Making Change",pages:"22\u201326",icon:"\u{1FA99}",desc:"Clarence pays the cashier and receives change. Real-world subtraction.",grades:["1","2","3"],stds:[{fw:"ccss_math",code:"CCSS.MATH.2.OA.A.1",text:"Add and subtract within 100."},{fw:"ccss_math",code:"CCSS.MATH.2.MD.C.8",text:"Solve problems involving dollar bills and coins."},{fw:"cee",code:"CEE Standard 2",text:"Understanding money as medium of exchange."}]},
+  {id:7,name:"Saving & 529 Accounts",pages:"26\u201332",icon:"\u{1F437}",desc:"Clarence saves his leftover change. Mom introduces 529 college savings.",grades:["2","3","4","5"],stds:[{fw:"jumpstart",code:"SVG-1",text:"Explain the reasons for saving."},{fw:"jumpstart",code:"SVG-2",text:"Describe how saving improves financial well-being."},{fw:"ccss_ela",code:"CCSS.ELA-RI.3.1",text:"Ask and answer questions to demonstrate understanding."},{fw:"cee",code:"CEE Standard 3",text:"Saving is income not spent on current consumption."},{fw:"cee",code:"CEE Standard 4",text:"People can invest in education savings accounts."}]},
+  {id:8,name:"Opportunity Cost",pages:"28\u201334",icon:"\u2696\uFE0F",desc:"Clarence faces a choice: spend now or save for something bigger.",grades:["3","4","5"],stds:[{fw:"jumpstart",code:"SPD-1",text:"People must make choices because resources are limited."},{fw:"ccss_ela",code:"CCSS.ELA-RL.3.3",text:"Describe characters and explain how their actions contribute."},{fw:"cee",code:"CEE Standard 1",text:"Every decision has an opportunity cost."}]}
+];
+var fwFilter="all",gradeFilter="all";
+
+function initFilters(){
+  var fwC=document.getElementById("fwFilters");
+  function makeFWBtn(key,label,isAll){
+    var b=document.createElement("button");b.className="fbtn"+(isAll?" active":"");b.textContent=label;
+    if(!isAll)b.dataset.fw=key;
+    if(isAll){b.style.background="var(--blue)";b.style.borderColor="var(--blue)";b.style.color="#fff";}
+    b.addEventListener("click",function(){setFW(isAll?"all":key)});fwC.appendChild(b);
+  }
+  makeFWBtn("all","All",true);for(var k in FW)makeFWBtn(k,FW[k].name,false);
+  var gC=document.getElementById("gradeFilters");
+  function makeGBtn(g,isAll){
+    var b=document.createElement("button");b.className="fbtn"+(isAll?" active":"");b.textContent=isAll?"All":g;
+    if(!isAll)b.dataset.grade=g;
+    if(isAll){b.style.background="var(--blue)";b.style.borderColor="var(--blue)";b.style.color="#fff";}
+    b.addEventListener("click",function(){setGrade(isAll?"all":g)});gC.appendChild(b);
+  }
+  makeGBtn("all",true);GRADES.forEach(function(g){makeGBtn(g,false)});
+  renderLegend();
+}
+function setFW(fw){fwFilter=fw;var btns=document.querySelectorAll("#fwFilters .fbtn");btns.forEach(function(b){var bfw=b.dataset.fw||"all";var isA=(fw==="all"&&!b.dataset.fw)||(bfw===fw);b.classList.toggle("active",isA);var c=bfw==="all"?"var(--blue)":(FW[bfw]?FW[bfw].color:"var(--blue)");b.style.background=isA?c:"#fff";b.style.borderColor=isA?c:"#ddd";b.style.color=isA?"#fff":"var(--navy)";});render();}
+function setGrade(g){gradeFilter=g;var btns=document.querySelectorAll("#gradeFilters .fbtn");btns.forEach(function(b){var bg=b.dataset.grade||"all";var isA=(g==="all"&&!b.dataset.grade)||(bg===g);b.classList.toggle("active",isA);b.style.background=isA?"var(--orange)":"#fff";b.style.borderColor=isA?"var(--orange)":"#ddd";b.style.color=isA?"#fff":"var(--navy)";});var allB=btns[0];if(g==="all"){allB.style.background="var(--blue)";allB.style.borderColor="var(--blue)";allB.style.color="#fff";}else{allB.style.background="#fff";allB.style.borderColor="#ddd";allB.style.color="var(--navy)";}render();}
+function getFiltered(){return CONCEPTS.filter(function(c){return(gradeFilter==="all"||c.grades.indexOf(gradeFilter)!==-1)&&(fwFilter==="all"||c.stds.some(function(s){return s.fw===fwFilter}));});}
+function render(){
+  var filtered=getFiltered();var c=document.getElementById("conceptRows");
+  if(!filtered.length){c.innerHTML='<div class="empty"><div style="font-size:40px;margin-bottom:12px;">\u{1F50D}</div><p class="hd" style="font-size:18px;font-weight:900;color:var(--blue);">No matches</p><p style="font-size:14px;color:#999;">Try adjusting your filters.</p></div>';updateStats(filtered);updateReportDesc(filtered);return;}
+  c.innerHTML="";filtered.forEach(function(item){
+    var stds=fwFilter==="all"?item.stds:item.stds.filter(function(s){return s.fw===fwFilter});
+    var fws={};item.stds.forEach(function(s){fws[s.fw]=true});
+    var dotsH="";for(var f in fws)dotsH+='<div class="dot" style="background:'+FW[f].color+';"></div>';
+    var gradesH=item.grades.map(function(g){return '<span class="gbadge">'+g+'</span>'}).join("");
+    var stdsH=stds.map(function(s){var fw=FW[s.fw];return '<div class="std-card" style="background:'+fw.color+'08;border:1px solid '+fw.color+'20;"><span class="fw-tag" style="background:'+fw.color+';">'+fw.abbr+'</span><div><div class="code">'+s.code+'</div><div class="desc">'+s.text+'</div></div></div>';}).join("");
+    var div=document.createElement("div");div.className="concept-row";div.id="cr"+item.id;
+    div.innerHTML='<div class="crow-head" onclick="toggleConcept('+item.id+')"><span class="emoji">'+item.icon+'</span><div style="flex:1"><div class="cname">'+item.name+'</div><div class="cpages">Pages '+item.pages+'</div></div><div class="grades">'+gradesH+'</div><div class="dots">'+dotsH+'</div><span class="arrow">\u25BC</span></div><div class="crow-body"><p style="font-size:13px;color:#666;line-height:1.5;margin-bottom:14px;border-left:3px solid var(--orange);padding-left:12px;">'+item.desc+'</p>'+stdsH+'</div>';
+    c.appendChild(div);
+  });updateStats(filtered);updateReportDesc(filtered);
+}
+function toggleConcept(id){document.getElementById("cr"+id).classList.toggle("expanded")}
+function updateStats(filtered){var t=0;var bc={};for(var k in FW)bc[k]=0;filtered.forEach(function(c){c.stds.forEach(function(s){t++;bc[s.fw]++})});var h='<div class="stat"><div class="n" style="font-size:26px;color:var(--blue);">'+filtered.length+'</div><div class="l">Concepts</div></div><div class="stat"><div class="n" style="font-size:26px;color:var(--orange);">'+t+'</div><div class="l">Standards</div></div>';for(var k in FW)if(bc[k]>0)h+='<div class="stat"><div class="n" style="font-size:20px;color:'+FW[k].color+';">'+bc[k]+'</div><div class="l">'+FW[k].abbr+'</div></div>';document.getElementById("statsBar").innerHTML=h;}
+function updateReportDesc(filtered){document.getElementById("reportDesc").textContent=(fwFilter!=="all"||gradeFilter!=="all")?"Filtered: "+(fwFilter!=="all"?FW[fwFilter].name:"All")+" \u2022 "+(gradeFilter!=="all"?"Grade "+gradeFilter:"All grades")+" \u2022 "+filtered.length+" concepts":"Complete matrix: "+filtered.length+" concepts across all frameworks";}
+function renderLegend(){var h="";for(var k in FW)h+='<div class="legend-item"><div class="legend-dot" style="background:'+FW[k].color+';"></div><span>'+FW[k].abbr+": "+FW[k].name+'</span></div>';document.getElementById("legend").innerHTML=h;}
+function generateReport(){var email=document.getElementById("reportEmail").value;if(email.indexOf("@")===-1)return;window.location.href="mailto:orders@clarencegetsabargain.com?subject=Alignment Report Request&body=Please send me a curriculum alignment report.%0A%0AMy email: "+encodeURIComponent(email);document.getElementById("reportForm").style.display="none";document.getElementById("reportResult").style.display="block";document.getElementById("reportResult").innerHTML='<div style="background:rgba(255,255,255,.12);border-radius:12px;padding:16px 20px;"><div class="hd" style="font-size:16px;font-weight:900;color:var(--gold);">\u2705 Request Sent</div><p style="font-size:13px;color:rgba(255,255,255,.8);margin-top:6px;">Check your email app to send the request.</p></div>';}
+initFilters();render();
+</script>
+<script>
+var LANG="en";
+function toggleLang(){
+  LANG=LANG==="en"?"es":"en";
+  var b=document.getElementById("langToggle");
+  b.textContent=LANG==="en"?"ES":"EN";
+  b.style.background=LANG==="es"?"#1a3a5c":"transparent";
+  b.style.color=LANG==="es"?"#fff":"#1a3a5c";
+  document.querySelectorAll("[data-es]").forEach(function(el){
+    if(LANG==="es"){if(!el.dataset.en)el.dataset.en=el.innerHTML;el.innerHTML=el.dataset.es;}
+    else{if(el.dataset.en)el.innerHTML=el.dataset.en;}
+  });
+}
+</script>
+</body>
+</html>
