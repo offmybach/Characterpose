@@ -138,13 +138,13 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 
 /* === ASSET MAPPING SECTIONS === */
 .asset-section{padding:50px 20px;max-width:900px;margin:0 auto}
-.asset-section-alt{background:rgba(255,255,255,0.4);padding:50px 0}
+.asset-section-alt{background:rgba(255,255,255,0.7);padding:50px 0}
 .asset-row{display:flex;align-items:center;gap:30px;flex-wrap:wrap;justify-content:center;max-width:900px;margin:0 auto}
 .asset-row.reverse{flex-direction:row-reverse}
 .asset-image-placeholder{width:260px;height:260px;background:#e8dcc8;border-radius:16px;display:flex;align-items:center;justify-content:center;font-family:'Hold',sans-serif;color:#8d7b5e;font-size:.85rem;text-align:center;padding:20px;border:3px dashed #c4b594;flex-shrink:0}
 .asset-text{flex:1;min-width:260px}
 .asset-text h3{font-family:'Hold',sans-serif;font-size:clamp(1.2rem,2.5vw,1.6rem);color:#1a3a5c;margin-bottom:12px}
-.asset-text p{font-size:1rem;color:#0054a6;line-height:1.7}
+.asset-text p{font-size:1rem;color:#003d7a;line-height:1.7}
 
 /* === SUCCESS / BUY SECTION OVERRIDE === */
 .buy{position:relative;padding:60px 30px;text-align:center;overflow:hidden}
@@ -162,7 +162,7 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 /* === TRUST BLOCK — FOR THE PROS === */
 .trust-block{background:#0d1f30;color:#fff;padding:70px 20px;position:relative}
 .trust-inner{max-width:960px;margin:0 auto;display:flex;gap:40px;flex-wrap:wrap;align-items:flex-start;justify-content:center}
-.trust-image{width:240px;height:300px;background:rgba(255,255,255,.08);border-radius:16px;display:flex;align-items:center;justify-content:center;font-family:'Hold',sans-serif;color:rgba(255,255,255,.5);font-size:.85rem;text-align:center;padding:20px;border:3px dashed rgba(255,255,255,.15);flex-shrink:0}
+.trust-image{width:240px;height:300px;object-fit:cover;border-radius:16px;flex-shrink:0;display:block}
 .trust-text{flex:1;min-width:280px}
 .trust-text .section-tag{font-family:'Hold',sans-serif;font-size:.75rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:8px}
 .trust-text h3{font-family:'Hold',sans-serif;font-size:clamp(1.4rem,3vw,1.9rem);color:#FFB74D;margin-bottom:16px;line-height:1.3}
@@ -517,10 +517,10 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   <button class="coupon-close" onclick="var g=this.parentElement.querySelector('.coupon-grid');if(g.style.display==='none'){g.style.display='';this.textContent='\u00D7';this.setAttribute('aria-label','Collapse coupon section')}else{g.style.display='none';this.textContent='+';this.setAttribute('aria-label','Expand coupon section')}" aria-label="Collapse coupon section">&times;</button>
   <h2 class="coupon-nav-title reveal">What’s Inside</h2>
   <div class="coupon-grid">
-    <div class="coupon-card reveal" onclick="document.getElementById('magazine').scrollIntoView({behavior:'smooth'})">
+    <div class="coupon-card reveal" onclick="document.getElementById('story').scrollIntoView({behavior:'smooth'})">
       <span class="coupon-scissor">&#9986;</span>
       <h3>The Book That Does Double Duty</h3>
-      <p>About the Adventure</p>
+      <p>A kid. A robot. A shopping trip that turns into a masterclass in spending smart.</p>
     </div>
     <div class="coupon-card reveal reveal-delay-1" onclick="document.getElementById('magazine').scrollIntoView({behavior:'smooth'})">
       <span class="coupon-scissor">&#9986;</span>
@@ -536,7 +536,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 </nav>
 
 <!-- Section A: The Concept — Shopping Homework -->
-<section class="asset-section reveal">
+<section class="asset-section reveal" id="story">
   <div class="asset-row">
     <img src="images/clarence-desk.jpg" alt="Clarence doing his shopping homework" style="width:260px;border-radius:16px;flex-shrink:0;box-shadow:0 6px 24px rgba(0,0,0,.12)">
     <div class="asset-text">
@@ -638,7 +638,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 <!-- TRUST BLOCK — FOR THE PROS -->
 <section class="trust-block reveal">
   <div class="trust-inner">
-    <img src="images/daddesk.jpg" alt="Dad explaining savings to Clarence after the Sea-Mart trip" class="trust-image" style="object-fit:cover;border-radius:16px;flex-shrink:0">
+    <img src="images/daddesk.jpg" alt="Dad explaining savings to Clarence after the Sea-Mart trip" class="trust-image">
     <div class="trust-text">
       <div class="section-tag">Why It Works</div>
       <h3>The Book That Belongs in Every K&ndash;5 Classroom</h3>
