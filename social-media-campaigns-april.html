@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clarence Gets a Bargain — April Social Media Campaigns</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0a;color:#e8e8e8;line-height:1.7}
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+
+/* HEADER */
+header{background:linear-gradient(135deg,#0054a6 0%,#003d7a 40%,#ff6b2b 100%);padding:80px 0 60px;text-align:center;position:relative;overflow:hidden}
+header::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:repeating-linear-gradient(45deg,transparent,transparent 35px,rgba(255,255,255,.03) 35px,rgba(255,255,255,.03) 70px);animation:drift 20s linear infinite}
+@keyframes drift{from{transform:translateX(0)}to{transform:translateX(70px)}}
+header h1{font-size:3.2rem;font-weight:900;color:#fff;text-shadow:0 2px 20px rgba(0,0,0,.3);position:relative;z-index:1}
+header h1 span{color:#ffe066}
+header p.sub{font-size:1.15rem;color:rgba(255,255,255,.9);margin-top:12px;position:relative;z-index:1;font-weight:500}
+header .badge{display:inline-block;background:#ffe066;color:#0054a6;font-weight:800;padding:8px 20px;border-radius:50px;margin-top:20px;font-size:.85rem;letter-spacing:1px;text-transform:uppercase;position:relative;z-index:1}
+
+/* NAV */
+nav{background:#111;border-bottom:2px solid #ff6b2b;padding:14px 0;position:sticky;top:0;z-index:100}
+nav .container{display:flex;gap:24px;justify-content:center;flex-wrap:wrap}
+nav a{color:#ccc;text-decoration:none;font-weight:600;font-size:.85rem;text-transform:uppercase;letter-spacing:1.5px;transition:color .2s}
+nav a:hover{color:#ff6b2b}
+nav a.active{color:#ff6b2b;border-bottom:2px solid #ff6b2b;padding-bottom:2px}
+
+/* SECTIONS */
+section{padding:60px 0}
+section.dark{background:#0f0f0f}
+section.blue{background:#0a1628}
+h2{font-size:2rem;font-weight:800;margin-bottom:8px}
+h2 .orange{color:#ff6b2b}
+h2 .blue{color:#4da6ff}
+h3{font-size:1.3rem;font-weight:700;margin-bottom:6px;color:#ffe066}
+h4{font-size:1rem;font-weight:700;color:#ff6b2b;margin-bottom:4px;text-transform:uppercase;letter-spacing:1px}
+.section-intro{color:#aaa;font-size:1rem;margin-bottom:40px;max-width:750px}
+.divider{width:60px;height:4px;background:linear-gradient(90deg,#ff6b2b,#ffe066);border-radius:2px;margin:12px 0 30px}
+
+/* STRATEGY BOX */
+.strategy-box{background:#161616;border:1px solid #222;border-radius:16px;padding:32px;margin-bottom:30px}
+.strategy-box h3{color:#4da6ff;margin-bottom:10px}
+.strategy-box ul{padding-left:20px;color:#ccc}
+.strategy-box li{margin-bottom:6px}
+.strategy-box li strong{color:#ffe066}
+
+/* POST CARD */
+.post-card{background:#161616;border:1px solid #222;border-radius:16px;overflow:hidden;margin-bottom:28px;transition:border-color .3s}
+.post-card:hover{border-color:#ff6b2b}
+.post-card-header{display:flex;align-items:center;gap:12px;padding:20px 24px 0;flex-wrap:wrap}
+.platform-tag{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:2px;padding:4px 12px;border-radius:50px;display:inline-block}
+.platform-tag.fb{background:#1877f2;color:#fff}
+.platform-tag.ig{background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);color:#fff}
+.platform-tag.both{background:linear-gradient(135deg,#1877f2,#bc1888);color:#fff}
+.post-type{font-size:.7rem;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:1.5px}
+.day-label{font-size:.75rem;font-weight:700;color:#ff6b2b;margin-left:auto;text-transform:uppercase;letter-spacing:1px}
+.post-card-body{padding:20px 24px 24px}
+.post-copy{background:#1a1a1a;border-left:3px solid #ff6b2b;padding:16px 20px;border-radius:0 8px 8px 0;margin:12px 0;font-size:.92rem;color:#ddd;white-space:pre-line;line-height:1.8}
+.post-copy strong{color:#fff}
+.post-copy em{color:#ffe066;font-style:normal}
+.visual-note{display:flex;align-items:flex-start;gap:10px;background:#111;border:1px dashed #333;padding:14px 16px;border-radius:8px;margin:12px 0;font-size:.82rem;color:#999}
+.visual-note .icon{font-size:1.2rem;flex-shrink:0}
+.hashtags{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.hashtags span{background:#1a1a2e;color:#4da6ff;font-size:.72rem;padding:3px 10px;border-radius:50px;font-weight:600}
+.engagement-tip{background:linear-gradient(135deg,#1a1a0a,#1a1a1a);border:1px solid #333;padding:12px 16px;border-radius:8px;margin-top:12px;font-size:.8rem;color:#ccc}
+.engagement-tip strong{color:#ffe066}
+
+/* WEEK HEADER */
+.week-header{background:linear-gradient(135deg,#0054a6,#003366);padding:28px 32px;border-radius:16px;margin:40px 0 24px;position:relative;overflow:hidden}
+.week-header::after{content:'';position:absolute;right:20px;top:50%;transform:translateY(-50%);font-size:4rem;opacity:.15}
+.week-header h2{color:#fff;font-size:1.6rem;margin-bottom:4px}
+.week-header p{color:rgba(255,255,255,.7);font-size:.9rem}
+.week-header .week-num{background:#ff6b2b;color:#fff;font-size:.7rem;font-weight:800;padding:4px 14px;border-radius:50px;display:inline-block;margin-bottom:10px;letter-spacing:2px;text-transform:uppercase}
+
+/* CALENDAR */
+.calendar-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin:20px 0}
+.cal-day{background:#161616;border:1px solid #222;border-radius:8px;padding:10px 8px;text-align:center;min-height:80px}
+.cal-day.header{background:#0054a6;color:#fff;font-weight:700;font-size:.7rem;text-transform:uppercase;letter-spacing:1px;min-height:auto;padding:8px}
+.cal-day .num{font-size:1.1rem;font-weight:700;color:#666}
+.cal-day.has-post .num{color:#ff6b2b}
+.cal-day .dots{display:flex;gap:3px;justify-content:center;margin-top:6px}
+.cal-day .dot{width:6px;height:6px;border-radius:50%}
+.dot.fb{background:#1877f2}
+.dot.ig{background:#e6683c}
+
+/* IMAGE REF */
+.img-ref{display:inline-flex;align-items:center;gap:6px;background:#0d2137;border:1px solid #1a3a5c;padding:4px 12px;border-radius:6px;font-size:.75rem;color:#4da6ff;font-weight:600;margin:2px}
+
+/* STATS */
+.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:24px 0}
+.stat-card{background:#161616;border:1px solid #222;border-radius:12px;padding:20px;text-align:center}
+.stat-card .num{font-size:2rem;font-weight:900;color:#ff6b2b}
+.stat-card .label{font-size:.75rem;color:#888;text-transform:uppercase;letter-spacing:1px;margin-top:4px}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  header h1{font-size:2rem}
+  .calendar-grid{grid-template-columns:repeat(7,1fr);font-size:.7rem}
+  .cal-day{padding:6px 4px;min-height:60px}
+  .stats-row{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header>
+  <div class="container">
+    <h1>Clarence Gets a Bargain<br><span>April Campaign Playbook</span></h1>
+    <p class="sub">Facebook + Instagram &bull; Financial Literacy Month 2026</p>
+    <div class="badge">30 Days of Money-Smart Content</div>
+  </div>
+</header>
+
+<!-- ========== NAV ========== -->
+<nav>
+  <div class="container">
+    <a href="#strategy">Strategy</a>
+    <a href="#assets">Assets</a>
+    <a href="#calendar">Calendar</a>
+    <a href="#facebook">Facebook</a>
+    <a href="#instagram">Instagram</a>
+    <a href="#stories-reels">Stories &amp; Reels</a>
+    <a href="#hashtags">Hashtags</a>
+  </div>
+</nav>
+
+<!-- ========== CAMPAIGN STRATEGY ========== -->
+<section id="strategy">
+  <div class="container">
+    <h2><span class="orange">Campaign</span> Strategy</h2>
+    <div class="divider"></div>
+    <p class="section-intro">April is Financial Literacy Month. Schools are buzzing with money lessons, parents are Googling "how to teach kids about money," and educators are hunting for curriculum-ready resources. We ride that wave with a 4-week campaign that's equal parts wit, warmth, and urgency.</p>
+
+    <div class="stats-row">
+      <div class="stat-card"><div class="num">60+</div><div class="label">Total Posts</div></div>
+      <div class="stat-card"><div class="num">4</div><div class="label">Weekly Themes</div></div>
+      <div class="stat-card"><div class="num">2</div><div class="label">Platforms</div></div>
+      <div class="stat-card"><div class="num">12</div><div class="label">Image Assets</div></div>
+    </div>
+
+    <div class="strategy-box">
+      <h3>The Big Idea</h3>
+      <p style="color:#ccc;margin-bottom:14px">"<strong style="color:#ffe066">Every kid deserves a money moment.</strong>" &mdash; The campaign positions Clarence as THE book of Financial Literacy Month: the one that sneaks real money skills into a story kids actually fight over.</p>
+    </div>
+
+    <div class="strategy-box">
+      <h3>4-Week Arc</h3>
+      <ul>
+        <li><strong>Week 1 (Apr 1&ndash;7) &mdash; THE HOOK:</strong> "It's Financial Literacy Month &mdash; and nobody told the kids." Awareness, intrigue, bold claims.</li>
+        <li><strong>Week 2 (Apr 8&ndash;14) &mdash; THE PROOF:</strong> Reviews, educator endorsements, real classroom moments. Social proof heavy.</li>
+        <li><strong>Week 3 (Apr 15&ndash;21) &mdash; THE EDUCATION:</strong> Actual money concepts from the book. Value-driven, shareable content parents and teachers screenshot.</li>
+        <li><strong>Week 4 (Apr 22&ndash;30) &mdash; THE CLOSE:</strong> Urgency, gift-giving angle, bulk orders, "don't let the month end without this book."</li>
+      </ul>
+    </div>
+
+    <div class="strategy-box">
+      <h3>Audience Targeting</h3>
+      <ul>
+        <li><strong>Primary &mdash; Parents (Ages 28&ndash;45):</strong> Parents of K&ndash;5 kids. Interested in education, parenting, children's books, financial literacy.</li>
+        <li><strong>Secondary &mdash; Educators:</strong> K&ndash;5 teachers, curriculum coordinators, school librarians. Target with educator-specific content.</li>
+        <li><strong>Tertiary &mdash; Gift-Givers:</strong> Grandparents, aunts/uncles. "Better than another toy" messaging.</li>
+      </ul>
+    </div>
+
+    <div class="strategy-box">
+      <h3>Voice &amp; Tone</h3>
+      <ul>
+        <li><strong>Witty but warm.</strong> Think: the cool teacher who makes you laugh AND learn.</li>
+        <li><strong>Confident, not salesy.</strong> We have a 5-star book and award-winning endorsements. Let them speak.</li>
+        <li><strong>Slightly irreverent.</strong> "No coupons were harmed." "Recovering coupon addict." Lean into it.</li>
+        <li><strong>Always purposeful.</strong> Every post either entertains, educates, or converts. Ideally two of three.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ASSETS ========== -->
+<section id="assets" class="dark">
+  <div class="container">
+    <h2><span class="blue">Image</span> Assets &amp; Visual Direction</h2>
+    <div class="divider"></div>
+    <p class="section-intro">Every post references a specific image from the project. Here's your asset library and how to deploy each one.</p>
+
+    <div class="strategy-box">
+      <h3>Asset Library</h3>
+      <ul>
+        <li><span class="img-ref">frontcover.png</span> &mdash; <strong>The Hero.</strong> Full book cover. Use for launch posts, buy CTAs, carousel openers.</li>
+        <li><span class="img-ref">clarence-arms.png</span> &mdash; <strong>The Welcome.</strong> Clarence with arms out. Friendly, inviting. Great for introductions &amp; "meet Clarence" posts.</li>
+        <li><span class="img-ref">clarence-armsfoldedcrop.png</span> &mdash; <strong>The Confidence.</strong> Clarence arms folded, looking savvy. Perfect for "money skills" and "smart shopper" content.</li>
+        <li><span class="img-ref">clarence-desk.png</span> &mdash; <strong>The Student.</strong> Clarence at his desk doing homework. Ideal for educator posts &amp; "shopping homework" content.</li>
+        <li><span class="img-ref">clarence-laugh.png</span> &mdash; <strong>The Joy.</strong> Clarence laughing. Use for fun facts, humor posts, kid review features.</li>
+        <li><span class="img-ref">clarence_point.png</span> &mdash; <strong>The Teacher.</strong> Clarence pointing. Perfect for "Did you know?" tips and money facts.</li>
+        <li><span class="img-ref">daddesk.png</span> &mdash; <strong>The Parent Moment.</strong> Dad at desk. Use for parent-targeted content, "the money talk" posts.</li>
+        <li><span class="img-ref">robimimie_pink.png</span> / <span class="img-ref">robimmie-yellow.png</span> &mdash; <strong>The Want.</strong> RoBimmie robots. Use for wants-vs-needs content, comparison shopping.</li>
+        <li><span class="img-ref">robots-store.png</span> &mdash; <strong>The Aisle.</strong> Store scene with robots. Use for clearance/deal-finding content.</li>
+        <li><span class="img-ref">CGBpage3020260319_2338 (2).png</span> &mdash; <strong>Interior Spread.</strong> Book page spread. Use for "peek inside" content.</li>
+        <li><span class="img-ref">CGBpage3120260303 (4).png</span> &mdash; <strong>Interior Spread 2.</strong> Another book page. Great for Story Sunday and read-aloud teasers.</li>
+        <li><span class="img-ref">clarence-og-card.jpg</span> &mdash; <strong>Social Card.</strong> Pre-made OG card (1200x630). Use as link preview image.</li>
+      </ul>
+    </div>
+
+    <div class="strategy-box">
+      <h3>Visual Design Notes (for graphic overlays)</h3>
+      <ul>
+        <li><strong>Brand Colors:</strong> Blue #0054a6 (headlines), Orange #ff6b2b (accents/CTAs), Cream #f5ecd7 (backgrounds), Yellow #ffe066 (highlights)</li>
+        <li><strong>Font:</strong> Use "Hold" (the brand font) for all overlay text when possible</li>
+        <li><strong>Style:</strong> Coupon-style dashed borders on quote cards. Scissors icon (&#9986;) as a recurring motif.</li>
+        <li><strong>Text Overlays:</strong> Keep minimal. Let the illustrations breathe. Bold stat or quote + book cover = winning formula.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CALENDAR ========== -->
+<section id="calendar" class="blue">
+  <div class="container">
+    <h2><span class="orange">April 2026</span> Content Calendar</h2>
+    <div class="divider"></div>
+    <p class="section-intro">Visual overview. Blue dots = Facebook. Orange dots = Instagram. Many days have both.</p>
+    <div class="calendar-grid">
+      <div class="cal-day header">Sun</div><div class="cal-day header">Mon</div><div class="cal-day header">Tue</div><div class="cal-day header">Wed</div><div class="cal-day header">Thu</div><div class="cal-day header">Fri</div><div class="cal-day header">Sat</div>
+      <div class="cal-day"></div><div class="cal-day"></div><div class="cal-day"></div>
+      <div class="cal-day has-post"><div class="num">1</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">2</div><div class="dots"><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">3</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">4</div><div class="dots"><div class="dot fb"></div></div></div>
+      <div class="cal-day has-post"><div class="num">5</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">6</div><div class="dots"><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">7</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">8</div><div class="dots"><div class="dot fb"></div></div></div>
+      <div class="cal-day has-post"><div class="num">9</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">10</div><div class="dots"><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">11</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">12</div><div class="dots"><div class="dot fb"></div></div></div>
+      <div class="cal-day has-post"><div class="num">13</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">14</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">15</div><div class="dots"><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">16</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">17</div><div class="dots"><div class="dot fb"></div></div></div>
+      <div class="cal-day has-post"><div class="num">18</div><div class="dots"><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">19</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">20</div><div class="dots"><div class="dot fb"></div></div></div>
+      <div class="cal-day has-post"><div class="num">21</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">22</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">23</div><div class="dots"><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">24</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">25</div><div class="dots"><div class="dot fb"></div></div></div>
+      <div class="cal-day has-post"><div class="num">26</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">27</div><div class="dots"><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">28</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+      <div class="cal-day has-post"><div class="num">29</div><div class="dots"><div class="dot fb"></div></div></div>
+      <div class="cal-day has-post"><div class="num">30</div><div class="dots"><div class="dot fb"></div><div class="dot ig"></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== -->
+<!-- FACEBOOK CAMPAIGN - WEEK 1     -->
+<!-- ============================== -->
+<section id="facebook">
+  <div class="container">
+    <h2>&#x1f535; <span class="blue">Facebook</span> Campaign</h2>
+    <div class="divider"></div>
+    <p class="section-intro">Longer-form storytelling, link shares, parent community engagement, educator outreach. Optimized for shares and comments.</p>
+
+    <!-- WEEK 1 -->
+    <div class="week-header">
+      <div class="week-num">Week 1</div>
+      <h2>THE HOOK &mdash; "Nobody Told the Kids"</h2>
+      <p>April 1&ndash;7 &bull; Awareness, intrigue, bold claims. Introduce Clarence to the world.</p>
+    </div>
+
+    <!-- FB Post 1 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Image Post</span>
+        <span class="day-label">Apr 1 &bull; Tue</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Grand Opening</h3>
+        <div class="post-copy">April is Financial Literacy Month.
+
+And somewhere, a 7-year-old just asked their parent what a mortgage is.
+
+That parent had no answer. We do. It's 36 pages, full color, and costs less than two lattes.
+
+Meet <strong>Clarence Gets a Bargain</strong> &mdash; the children's book where kids learn budgeting, comparison shopping, coupons, and <strong><em>wants vs. needs</em></strong>... and actually BEG to read it again.
+
+&#9733;&#9733;&#9733;&#9733;&#9733; "My students fought over who got to hold the book during read-aloud. <em>Fought. Over a book about money.</em>" &mdash; 3rd Grade Teacher, NJ
+
+Story first. Money smarts sneak in.
+
+&#128218; $14.99 &bull; Ages 6&ndash;10 &bull; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">frontcover.png</span> as hero image. Add text overlay: "It's Financial Literacy Month. This is the only book you need."</div>
+        <div class="hashtags">
+          <span>#FinancialLiteracyMonth</span><span>#KidsAndMoney</span><span>#ClarenceGetsABargain</span><span>#TeachKidsMoney</span><span>#FinLitMonth</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- FB Post 2 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Carousel Post</span>
+        <span class="day-label">Apr 3 &bull; Thu</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Meet Clarence (Character Intro)</h3>
+        <div class="post-copy">This is Clarence. &#128075;
+
+He earned a robot reward for good grades and chores.
+His mom said: "Great. Now do your shopping homework."
+
+Clarence thought homework was for math. Turns out, it's also for not getting ripped off at the store.
+
+Swipe to meet the kid who turned a trip to Sea-Mart into a masterclass in money skills &#128073;</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> Carousel: Slide 1: <span class="img-ref">clarence-arms.png</span> "Meet Clarence." / Slide 2: <span class="img-ref">clarence-desk.png</span> "Shopping homework? Yep, it's a thing." / Slide 3: <span class="img-ref">robots-store.png</span> "The mission: find the best deal." / Slide 4: <span class="img-ref">frontcover.png</span> "$14.99 &bull; clarencegetsabargain.com"</div>
+        <div class="engagement-tip"><strong>Engagement hook:</strong> "What's the first money lesson you remember learning as a kid? Drop it below. &#128071;"</div>
+      </div>
+    </div>
+
+    <!-- FB Post 3 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Image Post</span>
+        <span class="day-label">Apr 4 &bull; Fri</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Dad Desk Drop</h3>
+        <div class="post-copy">Real talk: Nobody taught us about money when we were seven.
+
+We learned through overdraft fees, maxed-out credit cards someone told us was "free money," and that one purchase we still can't explain to our spouse.
+
+<strong>Clarence Gets a Bargain</strong> is the book Jonathan Bach wished someone had handed him in second grade. So he wrote it himself.
+
+Attorney by day. Artist by night. Recovering coupon addict around the clock.
+
+Your kid deserves a better financial education than "we'll figure it out later."
+
+&#128218; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">daddesk.png</span> &mdash; the author/dad-at-desk image. Warm, relatable. Overlay: "The book I wish I had at age 7."</div>
+      </div>
+    </div>
+
+    <!-- FB Post 4 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Link Share + Poll</span>
+        <span class="day-label">Apr 5 &bull; Sat</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Weekend Poll &mdash; Wants vs. Needs</h3>
+        <div class="post-copy">Pop quiz for parents. &#9986;&#65039;
+
+Your kid is at the store. They spot a shiny new toy on the end cap. It costs $29.99. They already have three just like it at home.
+
+They look at you with those eyes. You know the eyes.
+
+What do you do?
+
+&#x1f1e6; Buy it. Pick your battles.
+&#x1f1e7; Explain <strong><em>wants vs. needs</em></strong> in the checkout line while people stare.
+&#x1f1e8; Hand them a copy of <strong>Clarence Gets a Bargain</strong> and let a fictional 7-year-old do the parenting for you.
+
+(C is the correct answer. We checked.)
+
+&#128218; clarencegetsabargain.com &bull; $14.99</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">clarence-armsfoldedcrop.png</span> &mdash; Clarence looking confident/knowing. Text overlay: "Wants vs. Needs. The hardest lesson."</div>
+        <div class="engagement-tip"><strong>Engagement hook:</strong> Poll format drives comments. Pin the best parent horror stories in replies.</div>
+      </div>
+    </div>
+
+    <!-- FB Post 5 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Image Post &mdash; Story Sunday</span>
+        <span class="day-label">Apr 7 &bull; Mon</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Sneak Peek Sunday &mdash; Inside the Book</h3>
+        <div class="post-copy">&#128214; SNEAK PEEK SUNDAY
+
+Here's what happens on pages 6&ndash;14 of <strong>Clarence Gets a Bargain</strong>:
+
+Mom hands Clarence a stack of sale ads and coupon inserts. His mission? Do his "shopping homework" before they hit Sea-Mart.
+
+He compares prices. He circles deals. He learns that the flashiest robot on the shelf isn't always the smartest buy.
+
+He's seven. He's already better at this than most adults.
+
+36 pages of adventure, laughs, and accidental financial literacy.
+
+&#9733;&#9733;&#9733;&#9733;&#9733; 5-star reviews &bull; Ages 6&ndash;10 &bull; $14.99</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">CGBpage3020260319_2338 (2).png</span> &mdash; interior book spread. Let the art sell itself.</div>
+      </div>
+    </div>
+
+    <!-- WEEK 2 -->
+    <div class="week-header">
+      <div class="week-num">Week 2</div>
+      <h2>THE PROOF &mdash; "Don't Take Our Word For It"</h2>
+      <p>April 8&ndash;14 &bull; Reviews, endorsements, educator credibility. Let others sell the book.</p>
+    </div>
+
+    <!-- FB Post 6 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Quote Card</span>
+        <span class="day-label">Apr 8 &bull; Tue</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Review That Stops You Cold</h3>
+        <div class="post-copy">"My students <strong>fought</strong> over who got to hold the book during read-aloud.
+
+Fought. Over a book about money.
+
+If that doesn't tell you something, I don't know what will."
+
+&mdash; 3rd Grade Teacher, NJ Public Schools
+&#9733;&#9733;&#9733;&#9733;&#9733;
+
+When was the last time kids fought over a <em>book</em>? Not a tablet. Not a video game. A book. About coupons.
+
+That's <strong>Clarence Gets a Bargain</strong>.
+
+&#128218; $14.99 &bull; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> Quote card with dashed coupon border on cream #f5ecd7 background. Scissors icon top-left. Use <span class="img-ref">clarence-laugh.png</span> beside the quote.</div>
+      </div>
+    </div>
+
+    <!-- FB Post 7 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Authority Post</span>
+        <span class="day-label">Apr 9 &bull; Wed</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Educator Endorsement</h3>
+        <div class="post-copy">When an award-winning financial literacy educator with a doctorate says your children's book is legit, you listen.
+
+&#9733;&#9733;&#9733;&#9733;&#9733; "I love the hands-on moments like using the coupon at the register and learning why saving money is important. The introduction to 529 accounts is a great way to show how saving for the future works."
+
+&mdash; <strong>Wally Luckeydoo, Ed.D.</strong>
+&#127942; 2026 Jump$tart Corey Carlisle Public Policy Award Winner
+&#127942; 2025 TETA Outstanding Teacher of the Year
+&#127942; 2024 TN Jump$tart Educator of the Year
+
+This isn't a sticker book with a piggy bank on the cover. This is curriculum-grade financial literacy disguised as the best bedtime story your kid has ever heard.
+
+&#128218; clarencegetsabargain.com &bull; Educator guides available FREE</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">clarence_point.png</span> alongside a styled quote card. Add award badges/icons as graphic elements.</div>
+      </div>
+    </div>
+
+    <!-- FB Post 8 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Kid Review Feature</span>
+        <span class="day-label">Apr 11 &bull; Fri</span>
+      </div>
+      <div class="post-card-body">
+        <h3>From the Mouths of Babes</h3>
+        <div class="post-copy">We could tell you why this book matters. But Josie, age 10, said it better than we ever could:
+
+"This book was really interesting and fun to read! It taught me how to get sales to save money, which made me feel more grown-up and smart.
+
+My favorite part was learning that small decisions, like saving a little at a time, can make a big difference later.
+
+I would recommend this book to other kids who want to learn about money in a fun and simple way!"
+
+&mdash; <strong>Josie K., Age 10</strong> &#9733;&#9733;&#9733;&#9733;&#9733;
+
+She felt "more grown-up and smart."
+
+That's not a review. That's the whole point. &#128167;
+
+&#128218; $14.99 &bull; Ages 6&ndash;10 &bull; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">clarence-laugh.png</span> with kid-style quote card. Handwriting-style font for quote overlay. Stars prominent.</div>
+        <div class="engagement-tip"><strong>Engagement hook:</strong> "Tag a parent who needs to see this. Or a teacher. Or both. &#128588;"</div>
+      </div>
+    </div>
+
+    <!-- FB Post 9 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Educator Feature</span>
+        <span class="day-label">Apr 12 &bull; Sat</span>
+      </div>
+      <div class="post-card-body">
+        <h3>For the Teachers &mdash; The Masterclass Quote</h3>
+        <div class="post-copy">&#127979; TEACHERS: This one's for you.
+
+"An absolute masterclass in early-stage financial literacy. This book seamlessly bridges the gap between engaging, character-driven storytelling and core economic competencies."
+
+&mdash; <strong>Maryann Milewski Moskal</strong>
+Veteran Elementary School Educator &bull; 30+ Years K&ndash;5
+
+She said "masterclass." About a $14.99 children's book. During Financial Literacy Month.
+
+Here's what you get FREE with your classroom order:
+&#9989; Lesson plans aligned to Jump$tart, CCSS, CEE &amp; FDIC standards
+&#9989; Discussion guides (3 depth levels: ages 5&ndash;6, 7&ndash;8, 8&ndash;9+)
+&#9989; Assessment worksheets
+&#9989; Family activity sheets
+&#9989; Printable certificates
+
+One book. A whole program.
+
+&#128218; clarencegetsabargain.com/educators &bull; Bulk pricing available</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">clarence-desk.png</span> &mdash; Clarence at desk, perfect for educator audience. Add standards logos as trust badges.</div>
+      </div>
+    </div>
+
+    <!-- FB Post 10 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Carousel &mdash; Review Roundup</span>
+        <span class="day-label">Apr 14 &bull; Mon</span>
+      </div>
+      <div class="post-card-body">
+        <h3>5 Stars Across the Board</h3>
+        <div class="post-copy">&#9733;&#9733;&#9733;&#9733;&#9733; from a doctorate-level educator.
+&#9733;&#9733;&#9733;&#9733;&#9733; from a veteran teacher with 30+ years experience.
+&#9733;&#9733;&#9733;&#9733;&#9733; from a 3rd grade classroom in NJ.
+&#9733;&#9733;&#9733;&#9733;&#9733; from a 10-year-old named Josie.
+
+Four very different reviewers. One verdict: This book works.
+
+Swipe to read each review. Then grab a copy for the kid in your life who deserves a head start. &#128073;
+
+&#128218; $14.99 &bull; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> Carousel: Each slide = 1 review on a coupon-border card with scissors icon. Cream background. Slide 5 = <span class="img-ref">frontcover.png</span> + CTA.</div>
+      </div>
+    </div>
+
+    <!-- WEEK 3 -->
+    <div class="week-header">
+      <div class="week-num">Week 3</div>
+      <h2>THE EDUCATION &mdash; "Money Skills, No Textbook Required"</h2>
+      <p>April 15&ndash;21 &bull; Value-driven content. The 6 money concepts from the book, made shareable.</p>
+    </div>
+
+    <!-- FB Post 11 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Tip Post &mdash; Money Skill #1</span>
+        <span class="day-label">Apr 16 &bull; Wed</span>
+      </div>
+      <div class="post-card-body">
+        <h3>&#128202; Money Skill #1: Budgeting</h3>
+        <div class="post-copy">&#128202; MONEY SKILL #1: BUDGETING
+
+In <strong>Clarence Gets a Bargain</strong>, Mom explains it simply:
+
+"Every dollar has a job."
+
+Bills. Mortgage. Groceries. And yes &mdash; even robot rewards for kids who earn them.
+
+Clarence doesn't just hear about budgeting. He watches his mom map it out. He sees where the money goes. And for the first time, he understands why Mom says "not today" sometimes.
+
+That's not a lecture. That's a lightbulb.
+
+&#128161; This Financial Literacy Month, give your kid the lightbulb moment.
+
+&#128218; $14.99 &bull; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">clarence_point.png</span> with text overlay: "Every dollar has a job." Blue #0054a6 headline on cream background.</div>
+      </div>
+    </div>
+
+    <!-- FB Post 12 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Tip Post &mdash; Money Skill #2</span>
+        <span class="day-label">Apr 17 &bull; Thu</span>
+      </div>
+      <div class="post-card-body">
+        <h3>&#128270; Money Skill #2: Comparison Shopping</h3>
+        <div class="post-copy">&#128270; MONEY SKILL #2: COMPARISON SHOPPING
+
+Clarence's shopping homework:
+&#10004; Grab the sale ads
+&#10004; Check the coupon inserts
+&#10004; Compare prices across stores
+&#10004; THEN go shopping
+
+He's seven. He's doing more research than most adults do before buying a car.
+
+In <strong>Clarence Gets a Bargain</strong>, kids learn that the flashiest option isn't always the smartest one. The newer robot has a bigger screen, sure &mdash; but the marked-down one works just as well.
+
+Teach your kids to compare before they swipe. (Your future wallet will thank you.)
+
+&#128218; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> Side-by-side: <span class="img-ref">robimimie_pink.png</span> vs <span class="img-ref">robimmie-yellow.png</span> &mdash; "Which is the smarter buy?"</div>
+        <div class="engagement-tip"><strong>Engagement hook:</strong> "What's the best deal you've ever found? Brag below. We love a good deal story. &#128071;"</div>
+      </div>
+    </div>
+
+    <!-- FB Post 13 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Tip Post &mdash; Money Skill #3</span>
+        <span class="day-label">Apr 19 &bull; Sat</span>
+      </div>
+      <div class="post-card-body">
+        <h3>&#9986;&#65039; Money Skill #3: Coupons &amp; Clearance</h3>
+        <div class="post-copy">&#9986;&#65039; MONEY SKILL #3: COUPONS &amp; CLEARANCE DEALS
+
+In <strong>Clarence Gets a Bargain</strong>, Clarence discovers two superpowers:
+
+<strong>Superpower #1:</strong> Coupons. He finds a 10% off coupon and presents it at checkout like a tiny lawyer presenting evidence. (His dad IS an attorney. It runs in the family.)
+
+<strong>Superpower #2:</strong> Clearance aisles. Those neon-orange stickers? Treasure maps. Older doesn't mean worse &mdash; it means someone else didn't know what they were missing.
+
+Jonathan Bach once talked a cruise ship retailer into price-matching AND negotiated $300 shoes down to one cent.
+
+The apple doesn't fall far from the clearance rack.
+
+&#128218; $14.99 (no coupon needed, but we respect the instinct) &bull; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">robots-store.png</span> &mdash; the store aisle scene. Add coupon-style dashed border frame around the image.</div>
+      </div>
+    </div>
+
+    <!-- FB Post 14 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Tip Post &mdash; The Big One</span>
+        <span class="day-label">Apr 20 &bull; Sun</span>
+      </div>
+      <div class="post-card-body">
+        <h3>&#127919; Money Skill #4: <em>Wants vs. Needs</em></h3>
+        <div class="post-copy">&#127919; THE BIG ONE: <strong><em>WANTS VS. NEEDS</em></strong>
+
+This is the hardest money lesson in the book. It's also the most important one.
+
+Clarence wants the newest, shiniest RoBimmie. The one with the big screen and the antenna.
+
+But does he <em>need</em> it? Or does the clearance model do everything he actually wants?
+
+Being a smart shopper means buying what you'll actually use &mdash; not just what catches your eye on the end cap.
+
+This is the seed. The one that, years from now, makes your kid pause before the impulse buy. Before the "but everyone has one." Before the credit card comes out.
+
+Plant it now. &#127793;
+
+&#128218; Clarence Gets a Bargain &bull; $14.99 &bull; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">clarence-armsfoldedcrop.png</span> &mdash; Clarence looking thoughtful/wise. Bold text overlay: "<strong><em>Wants vs. Needs</em></strong> &mdash; The Hardest Lesson"</div>
+      </div>
+    </div>
+
+    <!-- FB Post 15 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Tip Post &mdash; 529 Bonus</span>
+        <span class="day-label">Apr 21 &bull; Mon</span>
+      </div>
+      <div class="post-card-body">
+        <h3>&#128218; Bonus Concept: 529 College Savings</h3>
+        <div class="post-copy">Wait. A children's book about coupons... also teaches 529 college savings accounts?
+
+Yep.
+
+In <strong>Clarence Gets a Bargain</strong>, the money conversation doesn't stop at the checkout. Dad explains that saving for the future starts NOW &mdash; even when "the future" feels like a million years away to a seven-year-old.
+
+It's one page. It's organic. It plants a seed that most adults didn't get until they were filling out FAFSA forms at midnight in a panic.
+
+"The introduction to 529 accounts is a great way to show how saving for the future works." &mdash; <strong>Wally Luckeydoo, Ed.D.</strong>
+
+Your kid's first introduction to long-term investing? It's in a picture book. And it's perfect.
+
+&#128218; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">daddesk.png</span> &mdash; dad explaining savings. Text overlay: "529s at age 7. FAFSA panic at 17. Choose wisely."</div>
+      </div>
+    </div>
+
+    <!-- WEEK 4 -->
+    <div class="week-header">
+      <div class="week-num">Week 4</div>
+      <h2>THE CLOSE &mdash; "Don't Let April End Without This"</h2>
+      <p>April 22&ndash;30 &bull; Urgency, gift angle, bulk orders, final push. Convert intent into action.</p>
+    </div>
+
+    <!-- FB Post 16 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Urgency Post</span>
+        <span class="day-label">Apr 22 &bull; Tue</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Clock Is Ticking</h3>
+        <div class="post-copy">Financial Literacy Month is winding down. &#9203;
+
+But here's the thing: your kid's relationship with money doesn't end on April 30th.
+
+The habits start NOW. The conversations start NOW. The seeds get planted NOW.
+
+<strong>Clarence Gets a Bargain</strong> isn't a seasonal book. But this IS the perfect season to start.
+
+36 pages. 6 money concepts. 1 kid who shops smarter than most adults.
+
+$14.99. That's less than the impulse buy your kid talked you into last weekend.
+
+&#128218; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">frontcover.png</span> with countdown-style overlay: "Financial Literacy Month &mdash; 8 Days Left. Don't Miss This."</div>
+      </div>
+    </div>
+
+    <!-- FB Post 17 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Gift Angle</span>
+        <span class="day-label">Apr 24 &bull; Thu</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Gift That Keeps Compounding</h3>
+        <div class="post-copy">Birthday coming up? &#127873;
+End-of-year teacher gift? &#127979;
+"Just because" gift for your favorite kid? &#128156;
+
+<strong>Clarence Gets a Bargain</strong> is the gift that teaches AND entertains. The kind of book kids hide under the covers with a flashlight. Except it's about coupons. And that's beautiful.
+
+While other gifts end up in the toy graveyard by June, this one plants money skills that compound for life.
+
+&#9733;&#9733;&#9733;&#9733;&#9733; "It taught me how to get sales to save money, which made me feel more grown-up and smart." &mdash; Josie K., Age 10
+
+Available at clarencegetsabargain.com, Barnes &amp; Noble, and IndieBound.
+
+$14.99 &bull; The best ROI you'll spend on a children's book. Ever.</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">frontcover.png</span> styled as a gift &mdash; add ribbon/bow graphic overlay. Warm, inviting composition.</div>
+      </div>
+    </div>
+
+    <!-- FB Post 18 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Educator Bulk CTA</span>
+        <span class="day-label">Apr 25 &bull; Fri</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Calling All Classrooms</h3>
+        <div class="post-copy">&#127979; TEACHERS &amp; CURRICULUM COORDINATORS:
+
+Financial Literacy Month doesn't have to end when April does.
+
+<strong>Clarence Gets a Bargain</strong> comes with a full classroom toolkit &mdash; FREE:
+
+&#9989; Lesson plans (Jump$tart, CCSS, CEE &amp; FDIC aligned)
+&#9989; Discussion guides (3 depth levels by age)
+&#9989; Assessment worksheets
+&#9989; Family activity sheets
+&#9989; Smart Shopper Challenge Quiz with printable certificates
+&#9989; Standards alignment chart
+
+"The curriculum alignment made my Title I grant application effortless. Standards were already mapped."
+
+Bulk pricing that would make Clarence himself nod in approval. &#128588;
+
+&#128218; clarencegetsabargain.com &bull; Email: clarencegetsabargain@gmail.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">clarence-desk.png</span> with overlay listing the free resources. Clean, professional styling for educator audience.</div>
+      </div>
+    </div>
+
+    <!-- FB Post 19 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Author's Letter</span>
+        <span class="day-label">Apr 28 &bull; Mon</span>
+      </div>
+      <div class="post-card-body">
+        <h3>A Letter From Jonathan</h3>
+        <div class="post-copy">I didn't write this book to get rich. (If I wanted to get rich, I'd use a coupon.)
+
+I wrote it because nobody taught me about money at age seven. I learned through overdraft fees, bad decisions, and a credit card someone told me was "free money."
+
+Clarence is the book I wish someone had handed me in second grade.
+
+If one kid reads this and pauses before grabbing the shiny thing...
+
+If one parent reads this out loud and the conversation keeps going after the last page...
+
+Then this whole thing was worth it.
+
+Now go get a bargain.
+
+&mdash; Jonathan
+
+&#128218; Clarence Gets a Bargain &bull; $14.99 &bull; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">daddesk.png</span> &mdash; warm, personal. This is the emotional closer. No hard sell. Let the sincerity do the work.</div>
+        <div class="engagement-tip"><strong>Engagement hook:</strong> This post will get shared by parents who relate to the "nobody taught us" sentiment. Let it breathe organically.</div>
+      </div>
+    </div>
+
+    <!-- FB Post 20 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Final Push</span>
+        <span class="day-label">Apr 30 &bull; Wed</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Last Day of Financial Literacy Month</h3>
+        <div class="post-copy">Today is April 30th. Financial Literacy Month ends at midnight.
+
+But let's be honest: teaching kids about money shouldn't need a designated month. It needs a designated book.
+
+&#128218; <strong>Clarence Gets a Bargain</strong>
+
+&#10004; 36 pages of full-color adventure
+&#10004; 6 real-world money skills
+&#10004; 2-page financial glossary
+&#10004; 5-star reviews from educators with 30+ years experience
+&#10004; Endorsed by award-winning financial literacy educators
+&#10004; Ages 6&ndash;10 &bull; Lexile AD 620L
+&#10004; $14.99
+
+Story first. Money smarts sneak in. Every single time.
+
+KID LIT IS A HIT. KID FIN IS A WIN. &#127942;
+
+&#128218; clarencegetsabargain.com &bull; Barnes &amp; Noble &bull; IndieBound</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">frontcover.png</span> hero shot with all the stats overlaid. Make it the definitive "everything you need to know" image.</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================== -->
+<!-- INSTAGRAM CAMPAIGN             -->
+<!-- ============================== -->
+<section id="instagram" class="dark">
+  <div class="container">
+    <h2>&#x1f7e0; <span class="orange">Instagram</span> Campaign</h2>
+    <div class="divider"></div>
+    <p class="section-intro">Visual-first, punchy captions, carousel education, Reels hooks. Optimized for saves, shares, and Explore page discovery.</p>
+
+    <!-- WEEK 1 -->
+    <div class="week-header">
+      <div class="week-num">Week 1 &mdash; The Hook</div>
+      <h2>"This Book Shouldn't Work. But It Does."</h2>
+      <p>April 1&ndash;7 &bull; Stop the scroll. Introduce Clarence. Make people curious.</p>
+    </div>
+
+    <!-- IG Post 1 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Single Image</span>
+        <span class="day-label">Apr 1 &bull; Tue</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Announcement</h3>
+        <div class="post-copy">It's Financial Literacy Month. &#128176;
+
+And the best financial literacy tool for kids isn't an app. It isn't a worksheet. It isn't a YouTube video.
+
+It's a 36-page picture book about a boy, a robot, and a coupon.
+
+&#9733;&#9733;&#9733;&#9733;&#9733; five-star reviews. Endorsed by award-winning educators. Written by an attorney who once negotiated $300 shoes down to one cent.
+
+Meet Clarence. He's seven. He shops smarter than you.
+
+&#128218; Link in bio.
+
+#FinancialLiteracyMonth #ClarenceGetsABargain #KidsAndMoney #TeachKidsMoney #FinLitMonth #ChildrensBooks #MoneySmarts #Edutainment #KidLitIsAHit #ParentingWin #SmartKids #FinancialLiteracy #MoneySkillsForKids #ReadAloud #BookstagramKids</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">frontcover.png</span> &mdash; clean, centered, no text overlay needed. The cover is the star. Square crop for feed.</div>
+      </div>
+    </div>
+
+    <!-- IG Post 2 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Carousel (5 slides)</span>
+        <span class="day-label">Apr 2 &bull; Wed</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Meet Clarence &mdash; Swipe Carousel</h3>
+        <div class="post-copy">Meet the 7-year-old who out-shops adults. &#128073;
+
+(Swipe for the full story)
+
+This is Clarence. He earned a robot reward. His mom gave him shopping homework instead of a credit card. Smart woman.
+
+What happens next? 36 pages of laughs, deals, and accidental financial genius.
+
+&#128218; Link in bio &bull; $14.99
+
+#ClarenceGetsABargain #FinancialLiteracyMonth #KidsAndMoney #Bookstagram</div>
+        <div class="visual-note"><span class="icon">&#127912;</span>
+Slide 1: <span class="img-ref">clarence-arms.png</span> &mdash; "Meet Clarence." (bold Hold font)
+Slide 2: <span class="img-ref">clarence-desk.png</span> &mdash; "He does shopping homework."
+Slide 3: <span class="img-ref">robimmie-yellow.png</span> &mdash; "His mission: find the best robot deal."
+Slide 4: <span class="img-ref">robots-store.png</span> &mdash; "Welcome to Sea-Mart."
+Slide 5: <span class="img-ref">frontcover.png</span> &mdash; "$14.99 &bull; Link in bio"</div>
+      </div>
+    </div>
+
+    <!-- IG Post 3 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Quote Card</span>
+        <span class="day-label">Apr 3 &bull; Thu</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Quote That Sells Itself</h3>
+        <div class="post-copy">"My students FOUGHT over who got to hold the book during read-aloud. Fought. Over a book about money."
+
+&mdash; 3rd Grade Teacher, NJ &#9733;&#9733;&#9733;&#9733;&#9733;
+
+When kids fight over your book, you did something right. &#128588;
+
+#ClarenceGetsABargain #TeacherApproved #FinancialLiteracyMonth #KidLit #ReadAloud</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> Cream #f5ecd7 background, dashed coupon border, scissors top-left. Quote in Hold font. Stars below. Clean, iconic, saveable.</div>
+      </div>
+    </div>
+
+    <!-- IG Post 4 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Single Image</span>
+        <span class="day-label">Apr 5 &bull; Sat</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Dad Behind the Book</h3>
+        <div class="post-copy">Attorney by day. Artist by night. Recovering coupon addict around the clock. &#9986;&#65039;
+
+Jonathan Bach wrote the book he wished someone had handed him in second grade. Nobody taught him about money at age seven. He learned through overdraft fees and a credit card someone called "free money."
+
+So he made Clarence. And Clarence is changing that story for a whole new generation.
+
+Now go get a bargain.
+
+#ClarenceGetsABargain #AuthorLife #KidsFinancialLiteracy #FinancialLiteracyMonth #WritersOfInstagram</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">daddesk.png</span> &mdash; warm, creative energy. This is the "about the author" moment for Instagram.</div>
+      </div>
+    </div>
+
+    <!-- IG Post 5 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Carousel &mdash; Peek Inside</span>
+        <span class="day-label">Apr 7 &bull; Mon</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Sneak Peek Sunday</h3>
+        <div class="post-copy">&#128214; Sneak peek inside Clarence Gets a Bargain...
+
+Swipe to see what happens when a 7-year-old takes on the clearance aisle. &#128073;
+
+(Spoiler: the clearance aisle loses.)
+
+36 pages &bull; Full color &bull; Ages 6&ndash;10 &bull; $14.99
+&#128218; Link in bio
+
+#ClarenceGetsABargain #SneakPeek #ChildrensBook #FinancialLiteracyMonth #BookstagramKids</div>
+        <div class="visual-note"><span class="icon">&#127912;</span>
+Slide 1: <span class="img-ref">CGBpage3020260319_2338 (2).png</span> (interior spread)
+Slide 2: <span class="img-ref">CGBpage3120260303 (4).png</span> (interior spread 2)
+Slide 3: <span class="img-ref">frontcover.png</span> with CTA</div>
+      </div>
+    </div>
+
+    <!-- WEEK 2 -->
+    <div class="week-header">
+      <div class="week-num">Week 2 &mdash; The Proof</div>
+      <h2>"Educators, Kids, and Parents Agree"</h2>
+      <p>April 8&ndash;14 &bull; Social proof carousels, review spotlights, authority content.</p>
+    </div>
+
+    <!-- IG Post 6 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Carousel &mdash; Review Cards</span>
+        <span class="day-label">Apr 9 &bull; Wed</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Review Carousel</h3>
+        <div class="post-copy">4 reviews. 4 different people. 1 verdict: &#9733;&#9733;&#9733;&#9733;&#9733;
+
+Swipe to read what an Ed.D., a veteran teacher, a 3rd grade classroom, and a 10-year-old all said about the same book. &#128073;
+
+When a doctorate and a fifth-grader agree, you've got something special.
+
+&#128218; Link in bio &bull; $14.99
+
+#ClarenceGetsABargain #5Stars #BookReview #FinancialLiteracyMonth #TeacherApproved #KidApproved</div>
+        <div class="visual-note"><span class="icon">&#127912;</span>
+Slide 1: Wally Luckeydoo, Ed.D. quote on cream coupon card
+Slide 2: Maryann Milewski Moskal quote on cream coupon card
+Slide 3: Anonymous NJ Teacher quote on cream coupon card
+Slide 4: Josie K., Age 10 quote on cream coupon card
+Slide 5: <span class="img-ref">frontcover.png</span> + "Get yours"</div>
+      </div>
+    </div>
+
+    <!-- IG Post 7 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Single Image &mdash; Authority</span>
+        <span class="day-label">Apr 11 &bull; Fri</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Award Winner Speaks</h3>
+        <div class="post-copy">"The introduction to 529 accounts is a great way to show how saving for the future works."
+
+That's from Wally Luckeydoo, Ed.D. &mdash; 2026 Jump$tart Award Winner, 2025 Outstanding Teacher of the Year, and 2024 TN Educator of the Year.
+
+He reviews financial literacy resources for a living. He gave this one five stars.
+
+A children's book. About coupons. Five stars. From an Ed.D.
+
+&#128218; Link in bio
+
+#ClarenceGetsABargain #EducatorEndorsed #FinancialLiteracyMonth #529Plan #TeachKidsMoney</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">clarence_point.png</span> with the quote and award credentials listed. Professional but warm.</div>
+      </div>
+    </div>
+
+    <!-- IG Post 8 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Kid Review Spotlight</span>
+        <span class="day-label">Apr 13 &bull; Sun</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Josie's Review</h3>
+        <div class="post-copy">"It taught me how to get sales to save money, which made me feel more grown-up and smart."
+
+Josie is 10. She read this book and felt "grown-up and smart."
+
+Not bored. Not lectured. Grown-up and smart.
+
+That's not a review. That's the whole mission statement. &#128167;
+
+&#128218; Link in bio &bull; $14.99 &bull; Ages 6&ndash;10
+
+#ClarenceGetsABargain #KidReview #FinancialLiteracyMonth #SmartKids #ChildrensBooks</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">clarence-laugh.png</span> &mdash; kid-energy vibes. Quote in large text overlay with stars.</div>
+      </div>
+    </div>
+
+    <!-- WEEK 3 -->
+    <div class="week-header">
+      <div class="week-num">Week 3 &mdash; The Education</div>
+      <h2>"6 Money Skills in 36 Pages"</h2>
+      <p>April 15&ndash;21 &bull; Saveable tip carousels, shareable money facts, the content teachers screenshot.</p>
+    </div>
+
+    <!-- IG Post 9 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Carousel &mdash; 6 Money Skills</span>
+        <span class="day-label">Apr 15 &bull; Tue</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Big Carousel &mdash; 6 Skills Kids Learn</h3>
+        <div class="post-copy">6 money skills hiding inside a bedtime story. &#128073;
+
+Save this for later. Share it with a teacher. Send it to that parent who asks "how do I teach my kid about money?"
+
+This is how. &#128071;
+
+&#128218; Link in bio &bull; $14.99
+
+#ClarenceGetsABargain #MoneySkills #FinancialLiteracyMonth #TeachKidsMoney #FinancialLiteracy #ParentingTips #MoneyTips</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> THIS IS THE HERO CAROUSEL. Design each slide on cream #f5ecd7 with dashed coupon borders:
+Slide 1: "6 Money Skills Hiding in a Bedtime Story" (title card with <span class="img-ref">frontcover.png</span>)
+Slide 2: &#128202; BUDGETING &mdash; "Every dollar has a job." Mom explains bills, mortgage, why money doesn't grow on trees.
+Slide 3: &#128270; COMPARISON SHOPPING &mdash; Sale ads, coupon inserts, homework before spending. Research before you buy.
+Slide 4: &#9986;&#65039; COUPONS &amp; CLEARANCE &mdash; 10% off coupons, neon-orange clearance stickers = treasure maps.
+Slide 5: &#127919; <strong><em>WANTS VS. NEEDS</em></strong> &mdash; The hardest lesson. Being smart means buying what you'll actually use.
+Slide 6: &#129534; RECEIPTS &amp; RECORDS &mdash; Mom photographs receipts. Tracking what you spend matters.
+Slide 7: &#127919; 529 COLLEGE SAVINGS &mdash; Saving for the future starts now, even at age 7.
+Slide 8: <span class="img-ref">frontcover.png</span> &mdash; "All 6. One book. $14.99. Link in bio."</div>
+        <div class="engagement-tip"><strong>Strategy:</strong> This is the most saveable post of the campaign. Optimize for saves &mdash; ask "Save this for your next bookstore trip &#128278;"</div>
+      </div>
+    </div>
+
+    <!-- IG Post 10 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Single Image &mdash; Wants vs Needs</span>
+        <span class="day-label">Apr 18 &bull; Fri</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Wants vs. Needs Showdown</h3>
+        <div class="post-copy">Left: The shiny new RoBimmie. Big screen. Antenna. Full price.
+
+Right: The clearance RoBimmie. Smaller screen. No antenna. Works perfectly. Half the price.
+
+Clarence chose right. Would your kid? &#129300;
+
+<strong><em>Wants vs. Needs</em></strong> &mdash; the hardest lesson in the book, and the most important one.
+
+&#128218; Link in bio
+
+#ClarenceGetsABargain #WantsVsNeeds #FinancialLiteracyMonth #SmartShopper #KidsAndMoney</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> Split image: <span class="img-ref">robimimie_pink.png</span> (left, "WANT") vs <span class="img-ref">robimmie-yellow.png</span> (right, "SMART BUY"). VS graphic in the middle. Bold, graphic, saveable.</div>
+      </div>
+    </div>
+
+    <!-- IG Post 11 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Carousel &mdash; For Educators</span>
+        <span class="day-label">Apr 19 &bull; Sat</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Teacher Carousel</h3>
+        <div class="post-copy">&#127979; Teachers: This is your Financial Literacy Month cheat code.
+
+One book. A full program. Everything aligned. Everything free (except the book).
+
+Swipe to see what's included. &#128073;
+
+#ClarenceGetsABargain #TeacherResources #FinancialLiteracyMonth #ClassroomReady #EduTwitter #TeachersOfInstagram</div>
+        <div class="visual-note"><span class="icon">&#127912;</span>
+Slide 1: "A Complete Financial Literacy Program &mdash; In One Book" + <span class="img-ref">clarence-desk.png</span>
+Slide 2: "FREE Lesson Plans" &mdash; Jump$tart, CCSS, CEE, FDIC aligned
+Slide 3: "FREE Discussion Guides" &mdash; 3 depth levels (ages 5&ndash;6, 7&ndash;8, 8&ndash;9+)
+Slide 4: "FREE Assessment Worksheets" &mdash; Pre/post assessment ready
+Slide 5: "FREE Family Activity Sheets" &mdash; Extends learning to home
+Slide 6: "FREE Smart Shopper Challenge Quiz" &mdash; Printable certificates
+Slide 7: "Bulk Pricing Available" &mdash; <span class="img-ref">frontcover.png</span> + contact info</div>
+      </div>
+    </div>
+
+    <!-- WEEK 4 -->
+    <div class="week-header">
+      <div class="week-num">Week 4 &mdash; The Close</div>
+      <h2>"Now Go Get a Bargain"</h2>
+      <p>April 22&ndash;30 &bull; Final push. Emotional closers, gift angle, last-chance energy.</p>
+    </div>
+
+    <!-- IG Post 12 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Carousel &mdash; By the Numbers</span>
+        <span class="day-label">Apr 22 &bull; Tue</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Clarence By the Numbers</h3>
+        <div class="post-copy">The numbers don't lie. They just shop smarter. &#128073;
+
+&#128218; Link in bio &bull; $14.99
+
+#ClarenceGetsABargain #FinancialLiteracyMonth #ByTheNumbers #KidsAndMoney #Bookstagram</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> Bold stat cards, one per slide. Orange numbers on dark blue background:
+Slide 1: "Clarence By the Numbers"
+Slide 2: "36" &mdash; Pages of full-color adventure
+Slide 3: "6" &mdash; Real-world money skills taught
+Slide 4: "5" &mdash; Star average across all reviews
+Slide 5: "30+" &mdash; Years of K&ndash;5 experience behind the top endorsement
+Slide 6: "1" &mdash; Cent. What the author paid for $300 shoes. (True story.)
+Slide 7: "$14.99" &mdash; The best investment in your kid's future. Link in bio.</div>
+      </div>
+    </div>
+
+    <!-- IG Post 13 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Single Image &mdash; Emotional Close</span>
+        <span class="day-label">Apr 24 &bull; Thu</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Author's Heart</h3>
+        <div class="post-copy">"If one kid reads this and pauses before grabbing the shiny thing...
+
+If one parent reads this out loud and the conversation keeps going after the last page...
+
+Then this whole thing was worth it."
+
+&mdash; Jonathan Bach, author of Clarence Gets a Bargain
+
+He's an attorney. An artist. A dad. And a recovering coupon addict who wrote the book he needed at age seven.
+
+Now go get a bargain. &#128156;
+
+&#128218; Link in bio
+
+#ClarenceGetsABargain #AuthorQuote #WhyIWrite #FinancialLiteracyMonth #KidLit #ChildrensBooks</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">daddesk.png</span> &mdash; soft, warm treatment. Quote overlay in Hold font. This is the emotional peak of the IG campaign.</div>
+      </div>
+    </div>
+
+    <!-- IG Post 14 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Carousel &mdash; Gift Guide</span>
+        <span class="day-label">Apr 26 &bull; Sat</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Gift That Compounds</h3>
+        <div class="post-copy">Stop gifting toys that end up in the donation pile by July. &#128073;
+
+Start gifting money skills that compound for life.
+
+Swipe for every reason Clarence Gets a Bargain is the smartest gift you'll buy this year.
+
+&#128218; Link in bio &bull; $14.99 &bull; Also at Barnes &amp; Noble &amp; IndieBound
+
+#ClarenceGetsABargain #GiftIdeas #KidsGifts #SmartGifts #FinancialLiteracyMonth #ChildrensBooks</div>
+        <div class="visual-note"><span class="icon">&#127912;</span>
+Slide 1: <span class="img-ref">frontcover.png</span> with gift bow overlay &mdash; "The Gift That Compounds"
+Slide 2: "For the birthday kid" &#127873;
+Slide 3: "For the end-of-year teacher gift" &#127979;
+Slide 4: "For the grandchild who has everything" &#128150;
+Slide 5: "For the 'just because' moment" &#10024;
+Slide 6: "$14.99 &bull; Ages 6&ndash;10 &bull; 5 Stars &bull; Link in bio"</div>
+      </div>
+    </div>
+
+    <!-- IG Post 15 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Single Image &mdash; Final</span>
+        <span class="day-label">Apr 30 &bull; Wed</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Closer</h3>
+        <div class="post-copy">Financial Literacy Month ends tonight.
+
+Your kid's money education doesn't have to.
+
+$14.99. 36 pages. 6 money skills. 5 stars.
+
+One book that does what worksheets, apps, and lectures never could: make a kid actually WANT to learn about money.
+
+Story first. Money smarts sneak in.
+
+Now go get a bargain. &#9986;&#65039;
+
+&#128218; Link in bio
+
+#ClarenceGetsABargain #FinancialLiteracyMonth #LastChance #KidsAndMoney #TeachKidsMoney #Edutainment #KidLitIsAHit #KidFinIsAWin #NowGoGetABargain</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">frontcover.png</span> &mdash; clean, bold, final. Text overlay: "Now go get a bargain." This is the mic drop.</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================== -->
+<!-- STORIES & REELS                -->
+<!-- ============================== -->
+<section id="stories-reels" class="blue">
+  <div class="container">
+    <h2><span class="orange">Stories</span> &amp; <span class="blue">Reels</span> Concepts</h2>
+    <div class="divider"></div>
+    <p class="section-intro">Daily Stories keep you top-of-feed. Weekly Reels hit the Explore page. Here are 10 ready-to-shoot concepts for both platforms.</p>
+
+    <div class="strategy-box">
+      <h3>&#127916; Reel #1 &mdash; "Things My Kid Learned From a Book About Coupons"</h3>
+      <h4>Format: Trending Audio + Text Overlay &bull; 15&ndash;30 sec</h4>
+      <p style="color:#ccc">Hook: "My kid read ONE book and now..." Cut to text cards:<br>
+      &bull; Won't buy anything without checking the clearance aisle first<br>
+      &bull; Asked me what a mortgage is (at dinner)<br>
+      &bull; Presented a coupon at Target like a tiny attorney<br>
+      &bull; Told grandma her gift was "a want, not a need"<br>
+      End card: <strong>Clarence Gets a Bargain &bull; $14.99 &bull; Link in bio</strong></p>
+      <div class="visual-note"><span class="icon">&#127912;</span> Use <span class="img-ref">clarence-armsfoldedcrop.png</span> and <span class="img-ref">clarence_point.png</span> as reaction images between text cards.</div>
+    </div>
+
+    <div class="strategy-box">
+      <h3>&#127916; Reel #2 &mdash; "POV: Your 7-Year-Old After Reading This Book"</h3>
+      <h4>Format: POV Trend &bull; 15 sec</h4>
+      <p style="color:#ccc">Show <span class="img-ref">clarence-armsfoldedcrop.png</span> with confident music. Text overlays flash:<br>
+      &bull; *walks into store* "Where's the clearance section?"<br>
+      &bull; *checks price tag* "Is this the BEST deal though?"<br>
+      &bull; *pulls out coupon* "I believe this is 10% off."<br>
+      &bull; *walks out* "Shopping homework: complete."<br>
+      End: <strong>Clarence Gets a Bargain &bull; Link in bio</strong></p>
+    </div>
+
+    <div class="strategy-box">
+      <h3>&#127916; Reel #3 &mdash; "The Money Talk Nobody Had With Us"</h3>
+      <h4>Format: Emotional/Relatable &bull; 30 sec</h4>
+      <p style="color:#ccc">Soft piano. Text over <span class="img-ref">daddesk.png</span>:<br>
+      "Nobody taught us about money at age 7.<br>
+      We learned through overdraft fees.<br>
+      Through maxed-out 'free money' credit cards.<br>
+      Through that one purchase we still can't explain.<br><br>
+      So someone wrote the book he wished he had in second grade."<br>
+      Cut to <span class="img-ref">frontcover.png</span>: <strong>Clarence Gets a Bargain. $14.99. Now go get a bargain.</strong></p>
+    </div>
+
+    <div class="strategy-box">
+      <h3>&#127916; Reel #4 &mdash; "6 Money Skills Hiding in a Bedtime Story"</h3>
+      <h4>Format: Quick-Cut Educational &bull; 20 sec</h4>
+      <p style="color:#ccc">Fast cuts, upbeat audio. Each skill flashes with an icon:<br>
+      &#128202; Budgeting &rarr; &#128270; Comparison Shopping &rarr; &#9986; Coupons &rarr; &#127919; <strong><em>Wants vs. Needs</em></strong> &rarr; &#129534; Receipts &rarr; &#128176; 529 Savings<br>
+      End: "All in one $14.99 picture book. Teachers are calling it a masterclass."<br>
+      Use <span class="img-ref">clarence_point.png</span> as the "teacher" pointing to each skill.</p>
+    </div>
+
+    <div class="strategy-box">
+      <h3>&#127916; Reel #5 &mdash; "Kids Fought Over This Book" (Teacher POV)</h3>
+      <h4>Format: Storytime &bull; 20 sec</h4>
+      <p style="color:#ccc">Text overlay on classroom-style background:<br>
+      "A teacher in NJ read this book to her 3rd graders."<br>
+      "The kids FOUGHT over who got to hold it."<br>
+      "Fought. Over a book. About money."<br>
+      "If that doesn't tell you something..."<br>
+      Cut to <span class="img-ref">frontcover.png</span> with five stars.</p>
+    </div>
+
+    <div class="strategy-box">
+      <h3>&#128247; Stories Strategy (Daily / Both Platforms)</h3>
+      <h4>Run these throughout the month as recurring daily content</h4>
+      <ul style="color:#ccc">
+        <li><strong>Money Fact Monday:</strong> Quick stat about kids &amp; financial literacy + "Clarence teaches this on page X"</li>
+        <li><strong>Tip Tuesday:</strong> One money skill from the book as a saveable tip card</li>
+        <li><strong>Would You Rather Wednesday:</strong> Poll sticker &mdash; "Would you rather: Buy the shiny robot at full price OR find the same one on clearance for half off?" (drives engagement)</li>
+        <li><strong>Throwback Thursday:</strong> "What was YOUR first money lesson?" Question sticker. Repost best answers.</li>
+        <li><strong>Feature Friday:</strong> Spotlight a review, an image from the book, or a free resource download</li>
+        <li><strong>Sneak Peek Saturday:</strong> Interior book pages, behind-the-scenes art, or upcoming content teasers</li>
+        <li><strong>Story Sunday:</strong> Extended excerpt from the book with "read more &mdash; link in bio" CTA</li>
+      </ul>
+    </div>
+
+    <div class="strategy-box">
+      <h3>&#128247; 5 Bonus Story Ideas</h3>
+      <ul style="color:#ccc">
+        <li><strong>"This or That" Polls:</strong> Show two robots &mdash; <span class="img-ref">robimimie_pink.png</span> vs <span class="img-ref">robimmie-yellow.png</span>. "Which would YOU buy?" Results reveal the lesson.</li>
+        <li><strong>Countdown Sticker:</strong> "Financial Literacy Month ends in X days &mdash; have you grabbed your copy?"</li>
+        <li><strong>Quiz Sticker:</strong> "What does Clarence learn at Sea-Mart?" A) How to use coupons B) How to ride a skateboard C) How to cook dinner. Drive engagement.</li>
+        <li><strong>Swipe Up / Link:</strong> "Teachers: Free lesson plans, discussion guides, and assessment worksheets. Swipe up."</li>
+        <li><strong>Behind the Art:</strong> Show <span class="img-ref">clarence-arms.png</span>, <span class="img-ref">clarence-laugh.png</span>, <span class="img-ref">clarence-desk.png</span> as a mini gallery. "Every expression hand-illustrated by the author."</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== -->
+<!-- HASHTAG STRATEGY               -->
+<!-- ============================== -->
+<section id="hashtags">
+  <div class="container">
+    <h2><span class="orange">Hashtag</span> Strategy</h2>
+    <div class="divider"></div>
+
+    <div class="strategy-box">
+      <h3>Brand Hashtags (Use on EVERY post)</h3>
+      <ul>
+        <li><strong>#ClarenceGetsABargain</strong> &mdash; Primary brand tag</li>
+        <li><strong>#NowGoGetABargain</strong> &mdash; Campaign CTA tag</li>
+        <li><strong>#KidLitIsAHit</strong> &mdash; From the book's own banner</li>
+        <li><strong>#KidFinIsAWin</strong> &mdash; From the book's own banner</li>
+      </ul>
+    </div>
+
+    <div class="strategy-box">
+      <h3>Financial Literacy Month Tags (April only)</h3>
+      <ul>
+        <li>#FinancialLiteracyMonth</li>
+        <li>#FinLitMonth</li>
+        <li>#FinancialLiteracy</li>
+        <li>#MoneySmartKids</li>
+        <li>#TeachKidsMoney</li>
+        <li>#KidsAndMoney</li>
+        <li>#MoneySkillsForKids</li>
+        <li>#FinancialEducation</li>
+      </ul>
+    </div>
+
+    <div class="strategy-box">
+      <h3>Audience-Specific Tags</h3>
+      <ul>
+        <li><strong>Parents:</strong> #ParentingWin #ParentingTips #MomLife #DadLife #RaisingSmartKids #SmartKids</li>
+        <li><strong>Educators:</strong> #TeachersOfInstagram #TeacherLife #ClassroomReady #EduTwitter #TeacherResources #ElementaryTeacher #K5Teacher</li>
+        <li><strong>Book Community:</strong> #Bookstagram #BookstagramKids #ChildrensBooks #KidLit #ReadAloud #PictureBooks #BookRecommendation</li>
+        <li><strong>Gift-Givers:</strong> #GiftIdeas #KidsGifts #SmartGifts #MeaningfulGifts #BookGift</li>
+      </ul>
+    </div>
+
+    <div class="strategy-box">
+      <h3>Concept Tags (rotate based on post topic)</h3>
+      <ul>
+        <li>#WantsVsNeeds #Budgeting #ComparisonShopping #CouponLife #SmartShopper</li>
+        <li>#Edutainment #MoneySmarts #FinancialLiteracyForKids #MoneyLessons</li>
+        <li>#529Plan #CollegeSavings #SavingMoney #TeachThemYoung</li>
+      </ul>
+    </div>
+
+    <div class="strategy-box">
+      <h3>Instagram Hashtag Rules</h3>
+      <ul>
+        <li><strong>Use 20&ndash;25 hashtags per post</strong> (mix of brand + category + discovery)</li>
+        <li><strong>Put hashtags in the first comment</strong>, not the caption (cleaner look)</li>
+        <li><strong>Rotate sets</strong> &mdash; don't use the same 25 every time or Instagram flags it</li>
+        <li><strong>Mix sizes:</strong> 5 large tags (500K+ posts), 10 medium (50K&ndash;500K), 5&ndash;10 small/niche (under 50K)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== -->
+<!-- FOOTER                         -->
+<!-- ============================== -->
+<footer style="background:#0a0a0a;border-top:2px solid #222;padding:40px 0;text-align:center">
+  <div class="container">
+    <p style="color:#666;font-size:.85rem"><strong style="color:#ff6b2b">Clarence Gets a Bargain</strong> &bull; April 2026 Social Media Campaign Playbook</p>
+    <p style="color:#444;font-size:.75rem;margin-top:8px">Written &amp; Illustrated by Jonathan Bach &bull; clarencegetsabargain.com &bull; $14.99</p>
+    <p style="color:#333;font-size:.7rem;margin-top:16px">No coupons were harmed in the making of this campaign.</p>
+  </div>
+</footer>
+
+</body>
+</html>
