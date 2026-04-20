@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LinkedIn Carousel | Clarence Gets a Bargain</title>
+<style>
+@font-face{font-family:'Hold';src:url('fonts/Hold.woff2') format('woff2'),url('fonts/Hold.woff') format('woff')}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--blue:#0054a6;--orange:#ff6b2b;--gold:#ffe066;--cream:#f5ecd7;--li:#0077b5}
+body{font-family:'Inter',sans-serif;background:#0d0d0d;color:#e8e8e8;min-height:100vh}
+.site-header{background:#111;border-bottom:2px solid #0077b5;padding:14px 30px;display:flex;justify-content:space-between;align-items:center}
+.site-header a{color:#ccc;text-decoration:none;font-size:.8rem;font-weight:600}.site-header a:hover{color:#0077b5}
+.brand{font-family:'Hold',sans-serif;color:#fff;font-size:1rem}
+.hero{background:linear-gradient(135deg,#0077b5,#004d87);padding:50px 30px;text-align:center}
+.hero h1{font-family:'Hold',sans-serif;font-size:2.2rem;color:#fff;margin-bottom:8px}
+.hero p{color:rgba(255,255,255,.85);font-size:.9rem;max-width:600px;margin:0 auto}
+.container{max-width:1200px;margin:0 auto;padding:40px 24px}
+h2{font-family:'Hold',sans-serif;color:#fff;font-size:1.5rem;margin-bottom:6px}
+.sub{color:#888;font-size:.82rem;margin-bottom:24px}
+/* SLIDER */
+.slider-wrap{position:relative;overflow:hidden;border-radius:16px;background:#111;margin-bottom:24px}
+.slider-track{display:flex;transition:transform .4s cubic-bezier(.4,0,.2,1)}
+.slide-item{flex-shrink:0;width:100%;display:flex;align-items:center;justify-content:center;padding:20px}
+.slide-item canvas{max-width:480px;max-height:480px;width:100%;height:auto;border-radius:12px;box-shadow:0 12px 40px rgba(0,0,0,.5);display:block}
+.slider-nav{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:24px}
+.nav-btn{background:#1a1a1a;border:1px solid #333;color:#ccc;width:44px;height:44px;border-radius:50%;font-size:1.2rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s}
+.nav-btn:hover{background:#333;color:#fff;border-color:#0077b5}
+.nav-btn:disabled{opacity:.3;cursor:not-allowed}
+.slide-count{font-size:.85rem;font-weight:700;color:#888;min-width:60px;text-align:center}
+.dots{display:flex;gap:6px;justify-content:center;margin-bottom:8px}
+.dot{width:8px;height:8px;border-radius:50%;background:#333;cursor:pointer;transition:all .2s}
+.dot.active{background:#0077b5;width:24px;border-radius:4px}
+/* THUMBNAILS */
+.thumbs-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:8px;margin-bottom:28px}
+.thumb{flex-shrink:0;cursor:pointer;border-radius:8px;overflow:hidden;border:2px solid transparent;transition:all .2s;opacity:.6}
+.thumb:hover{opacity:.85}
+.thumb.active{border-color:#0077b5;opacity:1}
+.thumb canvas{width:80px;height:80px;display:block}
+/* ACTIONS */
+.actions-bar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:32px}
+.btn{padding:12px 24px;border-radius:50px;font-family:'Hold','Inter',sans-serif;font-size:.82rem;font-weight:700;cursor:pointer;border:none;transition:all .2s;text-transform:uppercase;letter-spacing:.5px}
+.btn.primary{background:#0077b5;color:#fff}.btn.primary:hover{background:#005d91}
+.btn.orange{background:#ff6b2b;color:#fff}.btn.orange:hover{background:#e55000}
+.btn.secondary{background:#1a1a1a;color:#ccc;border:1px solid #333}.btn.secondary:hover{background:#222;color:#fff}
+/* INSTRUCTIONS */
+.instructions{background:#0a1628;border:1px solid #0077b5;border-radius:16px;padding:28px 24px;margin-bottom:24px}
+.instructions h3{font-family:'Hold',sans-serif;color:#fff;margin-bottom:14px;font-size:1.1rem}
+.step{display:flex;gap:14px;margin-bottom:14px;align-items:flex-start}
+.step-num{background:#0077b5;color:#fff;width:28px;height:28px;border-radius:50%;font-size:.8rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
+.step-text{font-size:.85rem;color:#ccc;line-height:1.6}
+.step-text strong{color:#ffe066}
+.stat-chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.stat-chip{background:#0d2137;border:1px solid #0077b5;padding:6px 14px;border-radius:50px;font-size:.72rem;font-weight:700;color:#4da6ff}
+</style>
+</head>
+<body>
+<div class="site-header">
+  <a href="index.html">← Back to Site</a>
+  <span class="brand">LinkedIn Carousel Generator</span>
+</div>
+<div class="hero">
+  <h1>LinkedIn Carousel — 8 Slides</h1>
+  <p>"6 Money Frameworks From a $14.99 Children's Book." Upload as a LinkedIn Document post for 3× the reach of a regular image.</p>
+</div>
+<div class="container">
+  <div class="instructions">
+    <h3>How to Upload to LinkedIn (3× Reach Hack)</h3>
+    <div class="step"><div class="step-num">1</div><div class="step-text">Download all 8 slides below. They'll save as individual PNG files.</div></div>
+    <div class="step"><div class="step-num">2</div><div class="step-text">On LinkedIn, click <strong>"Start a post"</strong> → click the <strong>document icon</strong> (📄) — NOT the image icon.</div></div>
+    <div class="step"><div class="step-num">3</div><div class="step-text">Upload all 8 PNGs at once. LinkedIn will assemble them as a swipeable carousel document.</div></div>
+    <div class="step"><div class="step-num">4</div><div class="step-text">Add the post copy from the <strong>AI Post Writer</strong> — use "LinkedIn" + "6 Frameworks" theme + "LinkedIn Bro" tone for best results.</div></div>
+    <div class="step"><div class="step-num">5</div><div class="step-text"><strong>Put the book link in the first comment</strong> — not the post itself. LinkedIn throttles posts with external links.</div></div>
+    <div class="stat-chips">
+      <span class="stat-chip">📊 Document posts get 3× organic reach</span>
+      <span class="stat-chip">⏱️ Average dwell time: 2.8× longer</span>
+      <span class="stat-chip">💬 Comment rate 40% higher vs. image posts</span>
+    </div>
+  </div>
+
+  <h2>Preview All 8 Slides</h2>
+  <p class="sub">Use arrows or thumbnails to preview. Download individually or all at once.</p>
+
+  <div class="slider-wrap">
+    <div class="slider-track" id="slider-track"></div>
+  </div>
+  <div class="dots" id="dots"></div>
+  <div class="slider-nav">
+    <button class="nav-btn" id="prev-btn" onclick="prevSlide()" disabled>←</button>
+    <span class="slide-count" id="slide-count">1 / 8</span>
+    <button class="nav-btn" id="next-btn" onclick="nextSlide()">→</button>
+  </div>
+  <div class="thumbs-row" id="thumbs-row"></div>
+
+  <div class="actions-bar">
+    <button class="btn primary" onclick="dlAll()">📥 Download All 8 Slides</button>
+    <button class="btn orange" onclick="dlCurrent()">📥 Download Current Slide</button>
+    <button class="btn secondary" onclick="copyPostCopy()">📋 Copy LinkedIn Post Copy</button>
+    <a href="post-writer.html" class="btn secondary">✍️ Open AI Post Writer →</a>
+  </div>
+</div>
+
+<script>
+const frameworks=[
+  {num:'02',icon:'📊',title:'Budgeting',body:'"Every dollar has a job." Mom explains bills, mortgage, and why money doesn\'t grow on trees. Knowing where money goes is the first skill.'},
+  {num:'03',icon:'🔍',title:'Comparison Shopping',body:'Read the sale ads. Check coupon inserts. Research BEFORE you shop. Walking in cold is for amateurs. Operators do the homework first.'},
+  {num:'04',icon:'🏷️',title:'Clearance Arbitrage',body:'The neon-orange sticker is a treasure map. Older doesn\'t mean worse. Most people walk past it. The ones who lean in get the deal.'},
+  {num:'05',icon:'✂️',title:'Coupon Leverage',body:'Always ask for the discount. The worst they can say is "no." The best is 10% off. Present it like a lawyer presenting evidence.'},
+  {num:'06',icon:'🎯',title:'Wants vs. Needs',body:'The hardest decision isn\'t "buy." It\'s "pass." A good deal on something you don\'t need isn\'t a deal. Intentional spending compounds.'},
+  {num:'07',icon:'🧾',title:'Receipt Auditing',body:'Mom photographs receipts after every shop. If it\'s not tracked, it didn\'t happen. Accountability creates awareness. Awareness creates better decisions.'}
+];
+
+const allSlides=[];
+let current=0;
+
+function wrapText(ctx,text,x,y,maxW,lineH){
+  const words=text.split(' ');let line='';
+  for(let n=0;n<words.length;n++){
+    const t=line+words[n]+' ';
+    if(ctx.measureText(t).width>maxW&&n>0){ctx.fillText(line,x,y);line=words[n]+' ';y+=lineH;}
+    else line=t;
+  }
+  ctx.fillText(line,x,y);
+}
+
+function drawCover(){
+  const c=document.createElement('canvas');c.width=1080;c.height=1080;
+  const ctx=c.getContext('2d');
+  ctx.fillStyle='#0054a6';ctx.fillRect(0,0,1080,1080);
+  ctx.strokeStyle='#ffe066';ctx.lineWidth=6;ctx.setLineDash([22,12]);
+  ctx.strokeRect(36,36,1008,1008);ctx.setLineDash([]);
+  // Big 6
+  ctx.font='bold 380px serif';ctx.fillStyle='rgba(255,255,255,.06)';ctx.textAlign='center';ctx.fillText('6',540,620);
+  // Top label
+  ctx.font='bold 28px Inter,sans-serif';ctx.fillStyle='rgba(255,230,102,.6)';ctx.fillText('CLARENCE GETS A BARGAIN  ·  FINANCIAL LITERACY MONTH',540,80);
+  // Main headline
+  ctx.font='bold 88px serif';ctx.fillStyle='#ffe066';ctx.fillText('6 Money',540,310);
+  ctx.fillText('Frameworks',540,410);
+  ctx.font='bold 42px Inter,sans-serif';ctx.fillStyle='rgba(255,255,255,.8)';ctx.fillText('From a $14.99 Children\'s Book',540,490);
+  ctx.font='34px Inter,sans-serif';ctx.fillStyle='rgba(255,255,255,.5)';ctx.fillText('That Outsmarted Most MBAs',540,542);
+  // Swipe hint
+  ctx.font='bold 32px Inter,sans-serif';ctx.fillStyle='rgba(255,255,255,.4)';ctx.fillText('→ Swipe to learn all 6 frameworks',540,720);
+  ctx.font='26px Inter,sans-serif';ctx.fillStyle='rgba(255,255,255,.3)';ctx.fillText('clarencegetsabargain.com  ·  $14.99  ·  Ages 6–10',540,980);
+  return c;
+}
+
+function drawFramework(f){
+  const c=document.createElement('canvas');c.width=1080;c.height=1080;
+  const ctx=c.getContext('2d');
+  ctx.fillStyle='#fff';ctx.fillRect(0,0,1080,1080);
+  // Header bar
+  ctx.fillStyle='#0054a6';ctx.fillRect(0,0,1080,220);
+  // Watermark number
+  ctx.font='bold 200px serif';ctx.fillStyle='rgba(255,255,255,.1)';ctx.textAlign='right';ctx.fillText(f.num,1050,210);
+  // Icon
+  ctx.font='80px serif';ctx.fillStyle='#ffe066';ctx.textAlign='left';ctx.fillText(f.icon,60,178);
+  // Title
+  ctx.font='bold 72px serif';ctx.fillStyle='#fff';ctx.textAlign='center';ctx.fillText(f.title,540,172);
+  // Content area
+  ctx.fillStyle='#f5ecd7';ctx.fillRect(40,240,1000,570);
+  ctx.strokeStyle='#ff6b2b';ctx.lineWidth=4;ctx.setLineDash([18,10]);
+  ctx.strokeRect(40,240,1000,570);ctx.setLineDash([]);
+  // Body text
+  ctx.fillStyle='#1a1a1a';ctx.font='600 40px Inter,sans-serif';ctx.textAlign='center';
+  wrapText(ctx,f.body,540-430,360,860,62);
+  // Bottom branding
+  ctx.fillStyle='#0054a6';ctx.font='bold 28px serif';ctx.textAlign='center';ctx.fillText('Clarence Gets a Bargain',540,900);
+  ctx.fillStyle='#888';ctx.font='24px Inter,sans-serif';ctx.fillText('clarencegetsabargain.com  ·  $14.99  ·  Ages 6–10',540,940);
+  // Progress dots
+  ctx.fillStyle='#0054a6';ctx.globalAlpha=.15;
+  for(let i=0;i<6;i++){ctx.beginPath();ctx.arc(414+i*42,1008,6,0,Math.PI*2);ctx.fill();}
+  ctx.globalAlpha=1;
+  const dotIdx=parseInt(f.num)-2;
+  ctx.fillStyle='#ff6b2b';ctx.beginPath();ctx.arc(414+dotIdx*42,1008,8,0,Math.PI*2);ctx.fill();
+  return c;
+}
+
+function drawCTA(){
+  const c=document.createElement('canvas');c.width=1080;c.height=1080;
+  const ctx=c.getContext('2d');
+  ctx.fillStyle='#ff6b2b';ctx.fillRect(0,0,1080,1080);
+  ctx.strokeStyle='rgba(255,255,255,.35)';ctx.lineWidth=6;ctx.setLineDash([22,12]);
+  ctx.strokeRect(36,36,1008,1008);ctx.setLineDash([]);
+  ctx.font='bold 96px serif';ctx.fillStyle='#fff';ctx.textAlign='center';
+  ctx.fillText('Now Go Get',540,260);ctx.fillText('a Bargain.',540,370);
+  ctx.font='bold 44px Inter,sans-serif';ctx.fillStyle='rgba(255,255,255,.9)';
+  ctx.fillText('6 frameworks. 36 pages. $14.99.',540,500);
+  ctx.font='36px Inter,sans-serif';ctx.fillStyle='rgba(255,255,255,.7)';
+  ctx.fillText('Ages 6–10  ·  ★★★★★  ·  Award-Winning',540,560);
+  ctx.fillStyle='rgba(255,255,255,.18)';
+  ctx.beginPath();ctx.roundRect(150,640,780,110,28);ctx.fill();
+  ctx.font='bold 42px serif';ctx.fillStyle='#fff';ctx.textAlign='center';
+  ctx.fillText('clarencegetsabargain.com',540,706);
+  ctx.font='bold 28px Inter,sans-serif';ctx.fillStyle='rgba(255,255,255,.6)';
+  ctx.fillText('Link in first comment ↓',540,850);
+  ctx.font='22px Inter,sans-serif';ctx.fillStyle='rgba(255,255,255,.35)';
+  ctx.fillText('#ClarenceGetsABargain  #FinancialLiteracyMonth  #6Frameworks',540,980);
+  return c;
+}
+
+function buildSlider(){
+  const track=document.getElementById('slider-track');
+  const thumbsRow=document.getElementById('thumbs-row');
+  const dotsEl=document.getElementById('dots');
+
+  const slides=[drawCover(),...frameworks.map(drawFramework),drawCTA()];
+  const names=['slide-01-cover.png',...frameworks.map(f=>`slide-${f.num}-${f.title.toLowerCase().replace(/ /g,'-')}.png`),'slide-08-cta.png'];
+
+  slides.forEach((c,i)=>{
+    allSlides.push({canvas:c,name:names[i]});
+    // Slider item
+    const item=document.createElement('div');item.className='slide-item';
+    const cc=document.createElement('canvas');cc.width=c.width;cc.height=c.height;
+    cc.getContext('2d').drawImage(c,0,0);
+    item.appendChild(cc);track.appendChild(item);
+    // Thumbnail
+    const thumb=document.createElement('div');thumb.className='thumb'+(i===0?' active':'');
+    thumb.onclick=()=>goTo(i);
+    const tc=document.createElement('canvas');tc.width=c.width;tc.height=c.height;
+    tc.getContext('2d').drawImage(c,0,0);tc.style.objectFit='cover';
+    thumb.appendChild(tc);thumbsRow.appendChild(thumb);
+    // Dot
+    const dot=document.createElement('div');dot.className='dot'+(i===0?' active':'');
+    dot.onclick=()=>goTo(i);dotsEl.appendChild(dot);
+  });
+}
+
+function goTo(i){
+  current=i;
+  const n=allSlides.length;
+  document.getElementById('slider-track').style.transform=`translateX(-${i*100}%)`;
+  document.getElementById('slide-count').textContent=`${i+1} / ${n}`;
+  document.getElementById('prev-btn').disabled=i===0;
+  document.getElementById('next-btn').disabled=i===n-1;
+  document.querySelectorAll('.thumb').forEach((t,j)=>t.classList.toggle('active',j===i));
+  document.querySelectorAll('.dot').forEach((d,j)=>d.classList.toggle('active',j===i));
+}
+function nextSlide(){goTo(Math.min(current+1,allSlides.length-1));}
+function prevSlide(){goTo(Math.max(current-1,0));}
+function dlAll(){allSlides.forEach((s,i)=>setTimeout(()=>{const a=document.createElement('a');a.download=s.name;a.href=s.canvas.toDataURL('image/png');a.click();},i*350));}
+function dlCurrent(){const s=allSlides[current];const a=document.createElement('a');a.download=s.name;a.href=s.canvas.toDataURL('image/png');a.click();}
+function copyPostCopy(){
+  const copy=`I asked ChatGPT to write me a children's book about financial literacy.
+
+It gave me 12 pages of sanitized corporate content with zero soul.
+
+Here are 6 frameworks I found in a $14.99 picture book instead:
+
+1/ Budgeting — Every dollar has a job
+2/ Comparison Shopping — Do the homework before the meeting
+3/ Clearance Arbitrage — The neon-orange sticker is a treasure map
+4/ Coupon Leverage — Always ask for the discount
+5/ Wants vs. Needs — The hardest decision isn't "buy." It's "pass."
+6/ Receipt Auditing — If it's not tracked, it didn't happen
+
+All of this is in Clarence Gets a Bargain by Jonathan Bach.
+
+An attorney who once negotiated $300 shoes down to $0.01.
+
+(Not a typo. One. Cent.)
+
+Which framework resonates most with how you operate?
+
+↓ Link in comments
+
+#ClarenceGetsABargain #FinancialLiteracyMonth #6Frameworks #Leadership #OperatorMindset`;
+  navigator.clipboard.writeText(copy).then(()=>alert('LinkedIn post copy copied! ✓\nPaste it into your post, then add the book link in the first comment.'));
+}
+window.onload=buildSlider;
+</script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shareable Review Cards | Clarence Gets a Bargain</title>
+<style>
+@font-face{font-family:'Hold';src:url('fonts/Hold.woff2') format('woff2'),url('fonts/Hold.woff') format('woff')}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--blue:#0054a6;--orange:#ff6b2b;--gold:#ffe066;--cream:#f5ecd7}
+body{font-family:'Inter',sans-serif;background:#0d0d0d;color:#e8e8e8;min-height:100vh}
+.site-header{background:#111;border-bottom:2px solid #ff6b2b;padding:14px 30px;display:flex;justify-content:space-between;align-items:center}
+.site-header a{color:#ccc;text-decoration:none;font-size:.8rem;font-weight:600}.site-header a:hover{color:#ff6b2b}
+.brand{font-family:'Hold',sans-serif;color:#fff;font-size:1rem}
+.hero{background:linear-gradient(135deg,#0054a6,#003d7a);padding:50px 30px;text-align:center}
+.hero h1{font-family:'Hold',sans-serif;font-size:2.2rem;color:#fff;margin-bottom:8px}
+.hero p{color:rgba(255,255,255,.8);font-size:.9rem;max-width:560px;margin:0 auto}
+.container{max-width:1100px;margin:0 auto;padding:40px 24px}
+.section-label{font-family:'Hold',sans-serif;font-size:.75rem;color:#ff6b2b;letter-spacing:3px;text-transform:uppercase;margin-bottom:6px}
+h2{font-family:'Hold',sans-serif;color:#fff;font-size:1.5rem;margin-bottom:6px}
+.sub{color:#888;font-size:.82rem;margin-bottom:32px}
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(460px,1fr));gap:32px}
+.card-wrap{background:#161616;border:1px solid #2a2a2a;border-radius:16px;overflow:hidden;transition:border-color .2s}
+.card-wrap:hover{border-color:#ff6b2b}
+.preview-area{background:#111;padding:20px;display:flex;align-items:center;justify-content:center;min-height:260px;position:relative}
+.size-badge{position:absolute;top:10px;right:10px;background:rgba(0,0,0,.8);color:#fff;font-size:.6rem;font-weight:700;padding:3px 8px;border-radius:4px}
+canvas{max-width:100%;height:auto;border-radius:6px;display:block}
+.card-meta{padding:18px 20px}
+.card-meta h3{font-family:'Hold',sans-serif;color:#fff;font-size:.95rem;margin-bottom:4px}
+.card-meta .reviewer{color:#888;font-size:.75rem;margin-bottom:14px}
+.btn-row{display:flex;gap:8px;flex-wrap:wrap}
+.btn{padding:9px 18px;border-radius:50px;font-size:.75rem;font-weight:800;cursor:pointer;border:none;transition:all .2s;text-transform:uppercase;letter-spacing:.5px}
+.btn.primary{background:#ff6b2b;color:#fff}.btn.primary:hover{background:#e55000}
+.btn.secondary{background:#222;color:#ccc;border:1px solid #333}.btn.secondary:hover{background:#2a2a2a;color:#fff}
+.bulk-section{margin-top:40px;background:#161616;border:1px solid #2a2a2a;border-radius:16px;padding:28px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
+.bulk-section h3{font-family:'Hold',sans-serif;color:#fff;font-size:1.1rem;margin-bottom:4px}
+.bulk-section p{color:#888;font-size:.82rem}
+</style>
+</head>
+<body>
+<div class="site-header">
+  <a href="index.html">← Back to Site</a>
+  <span class="brand">Clarence Gets a Bargain</span>
+</div>
+<div class="hero">
+  <h1>Shareable Review Cards</h1>
+  <p>All 4 five-star reviews as downloadable 1200×628 coupon-border graphics. Post-ready for Facebook, LinkedIn, Twitter, or anywhere.</p>
+</div>
+<div class="container">
+  <div class="section-label">✂ Download Ready</div>
+  <h2>Four Reviews. One Mission.</h2>
+  <p class="sub">Cream background · Dashed coupon border · Scissors icon · 1200×628px · No Canva needed.</p>
+  <div class="cards-grid" id="cards-grid"></div>
+  <div class="bulk-section">
+    <div>
+      <h3>📥 Download All 4 Reviews</h3>
+      <p>Get every review card at once — one click, four PNG files.</p>
+    </div>
+    <button class="btn primary" onclick="downloadAll()" style="padding:14px 32px;font-size:.85rem">Download All 4 Cards</button>
+  </div>
+</div>
+<script>
+const reviews=[
+  {name:"Maryann Milewski Moskal",title:"Veteran Educator · 30+ Years K–5",cred:"2026 Jump$tart Corey Carlisle Award Winner",emoji:"🎓",text:"An absolute masterclass in early-stage financial literacy. This book seamlessly bridges the gap between engaging, character-driven storytelling and core economic competencies.",img:'forsite/clarence-desk.png'},
+  {name:"Wally Luckeydoo, Ed.D.",title:"Award-Winning Financial Literacy Educator",cred:"Jump$tart Educator of the Year",emoji:"🏆",text:"I love the hands-on moments like using the coupon at the register and learning why saving money is important. The introduction to 529 accounts is a great way to show how saving for the future works.",img:'forsite/clarence_point.png'},
+  {name:"3rd Grade Teacher",title:"NJ Public Schools",cred:"Anonymous · Verified Classroom Use",emoji:"✏️",text:"My students fought over who got to hold the book during read-aloud. Fought. Over a book about money. If that doesn't tell you something, I don't know what will.",img:'forsite/clarence-laugh.png'},
+  {name:"Josie K., Age 10",title:"Student Reader · 5th Grade",cred:"Youngest Reviewer",emoji:"⭐",text:"This book was really interesting and fun to read! It taught me how to get sales to save money, which made me feel more grown-up and smart.",img:'forsite/clarence-arms.png'}
+];
+const canvases=[];
+
+function wrapText(ctx,text,x,y,maxW,lineH){
+  const words=text.split(' ');let line='';
+  for(let n=0;n<words.length;n++){
+    const t=line+words[n]+' ';
+    if(ctx.measureText(t).width>maxW&&n>0){ctx.fillText(line,x,y);line=words[n]+' ';y+=lineH;}
+    else line=t;
+  }
+  ctx.fillText(line,x,y);
+}
+
+function makeCard(r,charImg){
+  const c=document.createElement('canvas');
+  c.width=1200;c.height=628;
+  const ctx=c.getContext('2d');
+  // BG
+  ctx.fillStyle='#f5ecd7';ctx.fillRect(0,0,1200,628);
+  // Dashed border
+  ctx.strokeStyle='#ff6b2b';ctx.lineWidth=5;ctx.setLineDash([20,12]);
+  ctx.strokeRect(28,28,1144,572);ctx.setLineDash([]);
+  // Scissors icon top-left
+  ctx.font='32px serif';ctx.fillStyle='#ff6b2b';ctx.textAlign='left';ctx.fillText('✂',46,66);
+  // Brand top-right
+  ctx.font='bold 18px Inter,sans-serif';ctx.fillStyle='#0054a6';ctx.textAlign='right';
+  ctx.fillText('Clarence Gets a Bargain',1152,66);
+  // Character image right side
+  if(charImg&&charImg.complete&&charImg.naturalHeight>0){
+    const ih=340,iw=ih*(charImg.naturalWidth/charImg.naturalHeight);
+    ctx.drawImage(charImg,1200-iw-50,628-ih-20,iw,ih);
+  }
+  // Stars
+  ctx.font='38px serif';ctx.fillStyle='#FFD700';ctx.textAlign='left';ctx.fillText('★★★★★',60,142);
+  // Big opening quote
+  ctx.fillStyle='rgba(0,84,166,.1)';ctx.font='bold 180px serif';ctx.fillText('"',40,290);
+  // Quote text
+  ctx.fillStyle='#222';ctx.font='600 27px Inter,sans-serif';ctx.textAlign='left';
+  wrapText(ctx,'"'+r.text+'"',60,200,800,43);
+  // Name
+  ctx.fillStyle='#0054a6';ctx.font='bold 26px Inter,sans-serif';
+  ctx.fillText('— '+r.name,60,488);
+  // Title & cred
+  ctx.fillStyle='#666';ctx.font='600 20px Inter,sans-serif';
+  ctx.fillText(r.title,60,518);
+  ctx.fillStyle='#ff6b2b';ctx.font='bold 17px Inter,sans-serif';
+  ctx.fillText(r.cred,60,544);
+  // Emoji
+  ctx.font='52px serif';ctx.textAlign='right';ctx.fillText(r.emoji,1140,540);
+  return c;
+}
+
+function buildGrid(){
+  const grid=document.getElementById('cards-grid');
+  reviews.forEach((r,i)=>{
+    const img=new Image();
+    img.onload=()=>{
+      const c=makeCard(r,img);
+      c.style.maxWidth='100%';c.style.height='auto';
+      canvases[i]=c;
+      const wrap=document.createElement('div');wrap.className='card-wrap';
+      const prev=document.createElement('div');prev.className='preview-area';
+      const badge=document.createElement('span');badge.className='size-badge';badge.textContent='1200×628';
+      prev.appendChild(badge);prev.appendChild(c);
+      const meta=document.createElement('div');meta.className='card-meta';
+      const name=r.name.split(',')[0].split(' ').pop().toLowerCase();
+      meta.innerHTML=`<h3>${r.emoji} ${r.name}</h3><p class="reviewer">${r.title}</p>
+        <div class="btn-row">
+          <button class="btn primary" onclick="dl(${i},'review-${name}.png')">📥 Download 1200×628</button>
+          <button class="btn secondary" onclick="dlSquare(${i},'review-${name}-square.png')">⬜ Download 1080×1080</button>
+        </div>`;
+      wrap.appendChild(prev);wrap.appendChild(meta);
+      grid.appendChild(wrap);
+    };
+    img.onerror=()=>{
+      const c=makeCard(r,null);c.style.maxWidth='100%';c.style.height='auto';canvases[i]=c;
+      const wrap=document.createElement('div');wrap.className='card-wrap';
+      const prev=document.createElement('div');prev.className='preview-area';
+      const badge=document.createElement('span');badge.className='size-badge';badge.textContent='1200×628';
+      prev.appendChild(badge);prev.appendChild(c);
+      const meta=document.createElement('div');meta.className='card-meta';
+      const name=r.name.split(',')[0].split(' ').pop().toLowerCase();
+      meta.innerHTML=`<h3>${r.emoji} ${r.name}</h3><p class="reviewer">${r.title}</p>
+        <div class="btn-row"><button class="btn primary" onclick="dl(${i},'review-${name}.png')">📥 Download 1200×628</button></div>`;
+      wrap.appendChild(prev);wrap.appendChild(meta);grid.appendChild(wrap);
+    };
+    img.src=r.img;
+  });
+}
+
+function dl(i,name){const a=document.createElement('a');a.download=name;a.href=canvases[i].toDataURL('image/png');a.click();}
+
+function dlSquare(i,name){
+  const src=canvases[i];
+  const c=document.createElement('canvas');c.width=1080;c.height=1080;
+  const ctx=c.getContext('2d');
+  // Pad to square with cream bg
+  ctx.fillStyle='#f5ecd7';ctx.fillRect(0,0,1080,1080);
+  const scale=1080/1200;
+  const drawH=628*scale;
+  ctx.drawImage(src,0,(1080-drawH)/2,1080,drawH);
+  const a=document.createElement('a');a.download=name;a.href=c.toDataURL('image/png');a.click();
+}
+
+function downloadAll(){reviews.forEach((_,i)=>{setTimeout(()=>dl(i,'review-'+(i+1)+'.png'),i*400);});}
+window.onload=buildGrid;
+</script>
+</body>
+</html>

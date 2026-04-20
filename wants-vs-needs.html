@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wants vs. Needs Graphic | Clarence Gets a Bargain</title>
+<style>
+@font-face{font-family:'Hold';src:url('fonts/Hold.woff2') format('woff2'),url('fonts/Hold.woff') format('woff')}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--blue:#0054a6;--orange:#ff6b2b;--gold:#ffe066;--cream:#f5ecd7}
+body{font-family:'Inter',sans-serif;background:#0d0d0d;color:#e8e8e8;min-height:100vh}
+.site-header{background:#111;border-bottom:2px solid #ff6b2b;padding:14px 30px;display:flex;justify-content:space-between;align-items:center}
+.site-header a{color:#ccc;text-decoration:none;font-size:.8rem;font-weight:600}.site-header a:hover{color:#ff6b2b}
+.brand{font-family:'Hold',sans-serif;color:#fff;font-size:1rem}
+.hero{background:linear-gradient(135deg,#0054a6 0%,#003d7a 50%,#ff6b2b 100%);padding:50px 30px;text-align:center}
+.hero h1{font-family:'Hold',sans-serif;font-size:2.2rem;color:#fff;margin-bottom:8px}
+.hero p{color:rgba(255,255,255,.85);font-size:.9rem;max-width:600px;margin:0 auto}
+.container{max-width:1000px;margin:0 auto;padding:40px 24px}
+h2{font-family:'Hold',sans-serif;color:#fff;font-size:1.4rem;margin-bottom:6px}
+.sub{color:#888;font-size:.82rem;margin-bottom:24px}
+.preview-card{background:#161616;border:1px solid #2a2a2a;border-radius:20px;overflow:hidden;margin-bottom:24px}
+.preview-inner{background:#111;padding:24px;display:flex;align-items:center;justify-content:center}
+#main-canvas{max-width:100%;height:auto;border-radius:10px;display:block;box-shadow:0 12px 40px rgba(0,0,0,.5)}
+.size-row{display:flex;gap:10px;padding:16px 20px;border-top:1px solid #222;flex-wrap:wrap}
+.size-chip{background:#1a1a1a;border:1px solid #333;padding:6px 14px;border-radius:50px;font-size:.72rem;font-weight:700;color:#888}
+.size-chip.active{border-color:#ff6b2b;color:#ff6b2b;background:rgba(255,107,43,.08)}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:32px}
+.btn{padding:13px 26px;border-radius:50px;font-family:'Hold','Inter',sans-serif;font-size:.82rem;font-weight:700;cursor:pointer;border:none;transition:all .2s;text-transform:uppercase;letter-spacing:.5px}
+.btn.primary{background:#ff6b2b;color:#fff;box-shadow:0 4px 16px rgba(255,107,43,.3)}.btn.primary:hover{background:#e55000}
+.btn.blue{background:#0054a6;color:#fff}.btn.blue:hover{background:#003d7a}
+.btn.secondary{background:#1a1a1a;color:#ccc;border:1px solid #333}.btn.secondary:hover{background:#222;color:#fff}
+.context-card{background:#0a1628;border:1px solid #0054a6;border-radius:16px;padding:24px;margin-bottom:24px}
+.context-card h3{font-family:'Hold',sans-serif;color:#ffe066;font-size:1rem;margin-bottom:12px}
+.context-card p{font-size:.85rem;color:#ccc;line-height:1.7;margin-bottom:10px}
+.context-card strong{color:#fff}
+.caption-box{background:#161616;border:1px solid #2a2a2a;border-radius:16px;padding:24px}
+.caption-box h3{font-family:'Hold',sans-serif;color:#fff;margin-bottom:12px;font-size:1rem}
+.caption{background:#111;border:1px solid #222;border-radius:10px;padding:16px;font-size:.82rem;line-height:1.8;color:#ccc;white-space:pre-line;margin-bottom:10px}
+.copy-btn{background:#333;color:#ccc;border:1px solid #444;padding:7px 16px;border-radius:50px;font-size:.72rem;font-weight:700;cursor:pointer}.copy-btn:hover{background:#444;color:#fff}
+.copy-btn.copied{background:#2e7d32;color:#fff;border-color:#2e7d32}
+</style>
+</head>
+<body>
+<div class="site-header">
+  <a href="index.html">← Back to Site</a>
+  <span class="brand">Clarence Gets a Bargain</span>
+</div>
+<div class="hero">
+  <h1>Wants vs. Needs Graphic</h1>
+  <p>The RoBimmie showdown. Available in 4 platform-optimized sizes. The most shareable concept in the book.</p>
+</div>
+<div class="container">
+  <h2>The RoBimmie Showdown</h2>
+  <p class="sub">Select your format. Download. Post. Watch the comments come in.</p>
+
+  <div class="preview-card">
+    <div class="preview-inner"><canvas id="main-canvas"></canvas></div>
+    <div class="size-row" id="size-row">
+      <div class="size-chip active" onclick="setFormat(this,'fb',1200,628)">Facebook/LinkedIn (1200×628)</div>
+      <div class="size-chip" onclick="setFormat(this,'square',1080,1080)">Instagram Square (1080×1080)</div>
+      <div class="size-chip" onclick="setFormat(this,'story',1080,1920)">Story (1080×1920)</div>
+      <div class="size-chip" onclick="setFormat(this,'twitter',1200,675)">Twitter (1200×675)</div>
+    </div>
+  </div>
+
+  <div class="actions">
+    <button class="btn primary" onclick="downloadCurrent()">📥 Download Current Format</button>
+    <button class="btn blue" onclick="downloadAll()">📥 Download All 4 Formats</button>
+    <button class="btn secondary" onclick="copyCaption(0)">📋 Copy Facebook Caption</button>
+    <button class="btn secondary" onclick="copyCaption(1)">📋 Copy Instagram Caption</button>
+  </div>
+
+  <div class="context-card">
+    <h3>🎯 Why This Graphic Performs</h3>
+    <p>The <strong>Wants vs. Needs</strong> concept is the emotional heart of Clarence Gets a Bargain. Parents immediately recognize the dilemma. Teachers use it as a classroom discussion starter. It's the question every kid faces at every checkout line.</p>
+    <p>Two robots. Same function. Different price. Which one does Clarence choose? The visual tension drives clicks, comments, and shares — especially from parents tagging other parents who need to see this.</p>
+    <p><strong>Best-performing format by platform:</strong> Facebook feed (1200×628), LinkedIn feed (1200×628), Instagram Story (1080×1920).</p>
+  </div>
+
+  <div class="caption-box">
+    <h3>Ready-to-Post Captions</h3>
+    <div id="captions-list"></div>
+  </div>
+</div>
+
+<script>
+let currentFormat={id:'fb',w:1200,h:628};
+const pinkImg=new Image(),yellowImg=new Image();
+let imagesLoaded=0;
+
+function onImgLoad(){if(++imagesLoaded===2) render();}
+pinkImg.onload=pinkImg.onerror=onImgLoad;
+yellowImg.onload=yellowImg.onerror=onImgLoad;
+pinkImg.src='forsite/robimimie_pink.png';
+yellowImg.src='forsite/robimmie-yellow.png';
+
+function render(){
+  const {w,h}=currentFormat;
+  const canvas=document.getElementById('main-canvas');
+  canvas.width=w;canvas.height=h;
+  const ctx=canvas.getContext('2d');
+  const cx=w/2,cy=h/2;
+  // BG gradient
+  const grad=ctx.createLinearGradient(0,0,w,0);
+  grad.addColorStop(0,'#0054a6');grad.addColorStop(.48,'#003d7a');
+  grad.addColorStop(.52,'#1a0a00');grad.addColorStop(1,'#7a2e00');
+  ctx.fillStyle=grad;ctx.fillRect(0,0,w,h);
+  // Left accent
+  ctx.fillStyle='rgba(255,255,255,.05)';ctx.fillRect(0,0,w/2,h);
+  // Right accent
+  ctx.fillStyle='rgba(255,107,43,.1)';ctx.fillRect(w/2,0,w/2,h);
+  // Vertical divider
+  ctx.strokeStyle='rgba(255,255,255,.15)';ctx.lineWidth=2;
+  ctx.beginPath();ctx.moveTo(w/2,0);ctx.lineTo(w/2,h);ctx.stroke();
+
+  const isStory=h>w;
+  const scale=Math.min(w,h)/600;
+
+  // VS badge
+  const vsR=isStory?55*scale:44*scale;
+  ctx.fillStyle='#ffe066';
+  ctx.beginPath();ctx.arc(cx,cy,vsR,0,Math.PI*2);ctx.fill();
+  ctx.font=`bold ${isStory?38*scale:30*scale}px serif`;ctx.fillStyle='#0054a6';
+  ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText('VS',cx,cy);ctx.textBaseline='alphabetic';
+
+  // Robot images
+  const rH=isStory?h*.35:h*.72;
+  if(pinkImg.naturalHeight>0){
+    const rW=rH*(pinkImg.naturalWidth/pinkImg.naturalHeight);
+    ctx.drawImage(pinkImg,w*.25-rW/2,isStory?h*.22:h*.14,rW,rH);
+  }
+  if(yellowImg.naturalHeight>0){
+    const rW=rH*(yellowImg.naturalWidth/yellowImg.naturalHeight);
+    ctx.drawImage(yellowImg,w*.75-rW/2,isStory?h*.22:h*.14,rW,rH);
+  }
+
+  const fy=isStory;
+  // WANT label
+  ctx.font=`bold ${fy?80*scale:56*scale}px serif`;ctx.fillStyle='rgba(255,255,255,.85)';
+  ctx.textAlign='center';ctx.fillText('WANT',w*.25,fy?h*.16:h*.12);
+  // SMART BUY label
+  ctx.fillStyle='#ffe066';ctx.fillText('SMART BUY',w*.75,fy?h*.16:h*.12);
+
+  // Descriptions
+  const descY=isStory?h*.65:h*.86;
+  ctx.font=`600 ${fy?24*scale:18*scale}px Inter,sans-serif`;
+  ctx.fillStyle='rgba(255,255,255,.55)';ctx.textAlign='center';
+  ctx.fillText('Full price · Larger screen',w*.25,descY);
+  ctx.fillStyle='rgba(255,230,102,.7)';
+  ctx.fillText('Clearance · Same features · Half price',w*.75,descY);
+
+  // Bottom caption bar
+  ctx.fillStyle='rgba(255,255,255,.07)';ctx.fillRect(0,isStory?h*.88:h*.89,w,isStory?h*.12:h*.11);
+  ctx.font=`bold ${fy?26*scale:20*scale}px serif`;ctx.fillStyle='rgba(255,255,255,.5)';
+  ctx.textAlign='center';
+  ctx.fillText('Wants vs. Needs — The Hardest Lesson in Clarence Gets a Bargain',cx,isStory?h*.94:h*.94);
+  ctx.font=`${fy?20*scale:15*scale}px Inter,sans-serif`;ctx.fillStyle='rgba(255,255,255,.3)';
+  ctx.fillText('clarencegetsabargain.com  ·  $14.99  ·  Ages 6–10',cx,isStory?h*.97:h*.97);
+}
+
+function setFormat(el,id,w,h){
+  document.querySelectorAll('.size-chip').forEach(c=>c.classList.remove('active'));
+  el.classList.add('active');
+  currentFormat={id,w,h};
+  render();
+}
+
+function downloadCurrent(){
+  const c=document.getElementById('main-canvas');
+  const a=document.createElement('a');
+  a.download=`wants-vs-needs-${currentFormat.id}.png`;
+  a.href=c.toDataURL('image/png');a.click();
+}
+
+function downloadAll(){
+  const formats=[{id:'fb',w:1200,h:628},{id:'square',w:1080,h:1080},{id:'story',w:1080,h:1920},{id:'twitter',w:1200,h:675}];
+  formats.forEach((f,i)=>{
+    setTimeout(()=>{
+      currentFormat=f;render();
+      const c=document.getElementById('main-canvas');
+      const a=document.createElement('a');a.download=`wants-vs-needs-${f.id}.png`;a.href=c.toDataURL('image/png');a.click();
+    },i*500);
+  });
+}
+
+const captions=[
+  `Left: The shiny new RoBimmie. Big screen. Antenna. Full price.
+
+Right: The clearance RoBimmie. Smaller screen. No antenna. Works perfectly. Half the price.
+
+Clarence chose right. Would your kid? 🤔
+
+Wants vs. Needs — the hardest lesson in the book, and the most important one.
+
+📚 Clarence Gets a Bargain · $14.99 · clarencegetsabargain.com
+
+#ClarenceGetsABargain #WantsVsNeeds #FinancialLiteracyMonth #SmartShopper #KidsAndMoney #TeachKidsMoney`,
+
+  `Wants vs. Needs. 🎯
+
+Two robots. Same function. Different price.
+
+One has a bigger screen. One has an antenna.
+
+Clarence stood in that aisle and asked himself: do I NEED the expensive one, or do I just WANT it?
+
+He chose right. Your kid can too.
+
+📚 Link in bio · $14.99
+
+#ClarenceGetsABargain #WantsVsNeeds #FinancialLiteracyMonth #SmartKids #MoneySkills`
+];
+
+function buildCaptions(){
+  const list=document.getElementById('captions-list');
+  ['Facebook / LinkedIn Caption','Instagram Caption'].forEach((label,i)=>{
+    const wrap=document.createElement('div');wrap.style.marginBottom='16px';
+    wrap.innerHTML=`<div style="font-size:.72rem;font-weight:700;color:#ff6b2b;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">${label}</div>
+      <div class="caption">${captions[i]}</div>
+      <button class="copy-btn" id="copy-${i}" onclick="copyCaption(${i})">📋 Copy Caption</button>`;
+    list.appendChild(wrap);
+  });
+}
+
+function copyCaption(i){
+  navigator.clipboard.writeText(captions[i]).then(()=>{
+    const btn=document.getElementById('copy-'+i);
+    if(btn){btn.textContent='✓ Copied!';btn.classList.add('copied');setTimeout(()=>{btn.textContent='📋 Copy Caption';btn.classList.remove('copied');},2000);}
+  });
+}
+
+window.onload=buildCaptions;
+</script>
+</body>
+</html>

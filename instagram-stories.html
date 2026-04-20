@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Instagram Story Templates | Clarence Gets a Bargain</title>
+<style>
+@font-face{font-family:'Hold';src:url('fonts/Hold.woff2') format('woff2'),url('fonts/Hold.woff') format('woff')}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--blue:#0054a6;--orange:#ff6b2b;--gold:#ffe066;--cream:#f5ecd7}
+body{font-family:'Inter',sans-serif;background:#0d0d0d;color:#e8e8e8;min-height:100vh}
+.site-header{background:#111;border-bottom:2px solid #ff6b2b;padding:14px 30px;display:flex;justify-content:space-between;align-items:center}
+.site-header a{color:#ccc;text-decoration:none;font-size:.8rem;font-weight:600}.site-header a:hover{color:#ff6b2b}
+.brand{font-family:'Hold',sans-serif;color:#fff;font-size:1rem}
+.hero{background:linear-gradient(135deg,#e1306c,#833ab4,#fd1d1d);padding:50px 30px;text-align:center}
+.hero h1{font-family:'Hold',sans-serif;font-size:2.2rem;color:#fff;margin-bottom:8px}
+.hero p{color:rgba(255,255,255,.85);font-size:.9rem;max-width:560px;margin:0 auto}
+.container{max-width:1100px;margin:0 auto;padding:40px 24px}
+h2{font-family:'Hold',sans-serif;color:#fff;font-size:1.5rem;margin-bottom:6px}
+.sub{color:#888;font-size:.82rem;margin-bottom:32px}
+.stories-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:24px}
+.story-card{background:#161616;border:1px solid #2a2a2a;border-radius:16px;overflow:hidden;transition:border-color .2s}
+.story-card:hover{border-color:#e1306c}
+.story-preview{background:#111;padding:12px;position:relative}
+.story-preview canvas{width:100%;height:auto;display:block;border-radius:8px}
+.size-badge{position:absolute;top:18px;right:18px;background:rgba(0,0,0,.8);color:#fff;font-size:.58rem;font-weight:700;padding:3px 7px;border-radius:4px}
+.story-meta{padding:14px 16px}
+.story-meta h3{font-family:'Hold',sans-serif;color:#fff;font-size:.88rem;margin-bottom:3px}
+.story-meta .week{color:#888;font-size:.72rem;margin-bottom:12px}
+.btn-row{display:flex;gap:6px;flex-wrap:wrap}
+.btn{padding:8px 14px;border-radius:50px;font-size:.7rem;font-weight:800;cursor:pointer;border:none;transition:all .2s;text-transform:uppercase;letter-spacing:.5px}
+.btn.primary{background:linear-gradient(135deg,#e1306c,#833ab4);color:#fff}
+.btn.primary:hover{opacity:.88}
+.btn.secondary{background:#222;color:#ccc;border:1px solid #333}.btn.secondary:hover{background:#2a2a2a;color:#fff}
+.tip-box{background:#161616;border:1px solid #2a2a2a;border-radius:16px;padding:24px;margin-top:32px}
+.tip-box h3{font-family:'Hold',sans-serif;color:#fff;margin-bottom:10px}
+.tip-box ul{padding-left:20px;color:#888;font-size:.82rem;line-height:1.9}
+.tip-box li strong{color:#ffe066}
+.dl-all{margin-top:24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;background:#161616;border:1px solid #2a2a2a;border-radius:16px;padding:20px 24px}
+</style>
+</head>
+<body>
+<div class="site-header">
+  <a href="index.html">← Back to Site</a>
+  <span class="brand">Clarence Gets a Bargain</span>
+</div>
+<div class="hero">
+  <h1>Instagram Story Templates</h1>
+  <p>1080×1920px. One template per campaign week. Screenshot = post. No design app needed.</p>
+</div>
+<div class="container">
+  <h2>4 Week Themes — Ready to Post</h2>
+  <p class="sub">Each story is Canvas-generated at full 1080×1920px resolution. Download and upload directly to Instagram Stories.</p>
+  <div class="stories-grid" id="stories-grid"></div>
+  <div class="dl-all">
+    <div>
+      <h3 style="font-family:'Hold',sans-serif;color:#fff;font-size:1rem;margin-bottom:4px">📥 Download All 4 Stories</h3>
+      <p style="color:#888;font-size:.78rem">All four 1080×1920 PNGs at once</p>
+    </div>
+    <button class="btn primary" onclick="dlAll()" style="padding:12px 28px;font-size:.8rem">Download All Stories</button>
+  </div>
+  <div class="tip-box">
+    <h3>Pro Tips for Instagram Stories</h3>
+    <ul>
+      <li><strong>Post during peak hours:</strong> 7–9 AM or 6–8 PM in your audience's timezone</li>
+      <li><strong>Add interactive stickers:</strong> Layer a Poll or Question sticker after uploading for extra engagement</li>
+      <li><strong>Use the Link sticker:</strong> Point it to clarencegetsabargain.com or the quiz page</li>
+      <li><strong>Stories disappear after 24h — save them to Highlights:</strong> Create a "Financial Literacy" highlight reel</li>
+      <li><strong>Post all 4 in sequence on a single day</strong> for maximum reach during Financial Literacy Month</li>
+    </ul>
+  </div>
+</div>
+<script>
+const themes=[
+  {week:"Week 1",title:"The Hook",bg:'#0054a6',accent:'#ffe066',text:'#fff',headline:["It's Financial","Literacy Month."],sub:"One book changes\neverything.",cta:"clarencegetsabargain.com",img:'forsite/clarence-arms.png',tag:"Awareness"},
+  {week:"Week 2",title:"The Proof",bg:'#f5ecd7',accent:'#0054a6',text:'#0054a6',headline:['"Students FOUGHT',"over this book.""],sub:"— 3rd Grade Teacher, NJ  ★★★★★",cta:"Clarence Gets a Bargain",img:'forsite/clarence-laugh.png',tag:"Social Proof"},
+  {week:"Week 3",title:"Tip Card",bg:'#ff6b2b',accent:'#fff',text:'#fff',headline:["Wants vs.","Needs."],sub:"The hardest lesson.\nThe most important one.",cta:"Teach it with Clarence",img:'forsite/clarence-armsfoldedcrop.png',tag:"Education"},
+  {week:"Week 4",title:"The Close",bg:'#1a1a2e',accent:'#ffe066',text:'#fff',headline:["Last chance,","Financial","Lit Month."],sub:"$14.99 · Ages 6–10 · ★★★★★",cta:"clarencegetsabargain.com",img:'forsite/clarence_point.png',tag:"Urgency"}
+];
+const storyCanvases=[];
+
+function wrapText(ctx,text,x,y,maxW,lineH){
+  const words=text.split(' ');let line='';
+  for(let n=0;n<words.length;n++){
+    const t=line+words[n]+' ';
+    if(ctx.measureText(t).width>maxW&&n>0){ctx.fillText(line,x,y);line=words[n]+' ';y+=lineH;}
+    else line=t;
+  }
+  ctx.fillText(line,x,y);
+}
+
+function drawStory(theme,img){
+  const c=document.createElement('canvas');c.width=1080;c.height=1920;
+  const ctx=c.getContext('2d');
+  ctx.fillStyle=theme.bg;ctx.fillRect(0,0,1080,1920);
+  // Border
+  ctx.strokeStyle=theme.accent;ctx.lineWidth=8;ctx.setLineDash([28,16]);
+  ctx.strokeRect(40,40,1000,1840);ctx.setLineDash([]);
+  // Scissors
+  ctx.font='48px serif';ctx.fillStyle=theme.accent;ctx.textAlign='left';ctx.fillText('✂',62,110);
+  // Brand
+  ctx.font='bold 26px Inter,sans-serif';ctx.fillStyle=theme.accent;ctx.textAlign='center';
+  ctx.globalAlpha=.65;ctx.fillText('CLARENCE GETS A BARGAIN',540,112);ctx.globalAlpha=1;
+  // Tag badge
+  ctx.fillStyle=theme.accent;ctx.globalAlpha=.18;
+  const tw=ctx.measureText(theme.tag).width+40;
+  ctx.beginPath();ctx.roundRect(540-tw/2,130,tw,36,18);ctx.fill();ctx.globalAlpha=1;
+  ctx.font='bold 20px Inter,sans-serif';ctx.fillStyle=theme.accent;ctx.textAlign='center';
+  ctx.fillText(theme.tag,540,154);
+  // Character image
+  if(img&&img.complete&&img.naturalHeight>0){
+    const ih=620,iw=ih*(img.naturalWidth/img.naturalHeight);
+    ctx.drawImage(img,540-iw/2,195,iw,ih);
+  }
+  // Headline lines
+  const hlY=theme.headline.length===3?890:940;
+  ctx.font='bold 106px serif';ctx.fillStyle=theme.text;ctx.textAlign='center';
+  theme.headline.forEach((l,i)=>{
+    if(i===0&&theme.text==='#fff')ctx.fillStyle=theme.accent;
+    else ctx.fillStyle=theme.text;
+    ctx.fillText(l,540,hlY+i*118);
+  });
+  // Sub
+  ctx.font='bold 46px Inter,sans-serif';ctx.fillStyle=theme.text;ctx.globalAlpha=.8;ctx.textAlign='center';
+  const subLines=theme.sub.split('\n');
+  const subY=hlY+theme.headline.length*118+40;
+  subLines.forEach((l,i)=>ctx.fillText(l,540,subY+i*60));
+  ctx.globalAlpha=1;
+  // CTA bar
+  ctx.fillStyle=theme.accent;ctx.globalAlpha=.15;
+  ctx.beginPath();ctx.roundRect(60,1698,960,144,20);ctx.fill();ctx.globalAlpha=1;
+  ctx.strokeStyle=theme.accent;ctx.lineWidth=3;ctx.setLineDash([14,8]);
+  ctx.beginPath();ctx.roundRect(60,1698,960,144,20);ctx.stroke();ctx.setLineDash([]);
+  ctx.font='bold 38px serif';ctx.fillStyle=theme.accent;ctx.textAlign='center';
+  ctx.fillText(theme.cta,540,1778);
+  ctx.font='26px Inter,sans-serif';ctx.fillStyle=theme.accent;ctx.globalAlpha=.55;
+  ctx.fillText('Financial Literacy Month 2026  ·  #ClarenceGetsABargain',540,1820);ctx.globalAlpha=1;
+  return c;
+}
+
+function buildGrid(){
+  const grid=document.getElementById('stories-grid');
+  themes.forEach((t,i)=>{
+    const img=new Image();
+    const render=()=>{
+      const c=drawStory(t,img);
+      storyCanvases[i]=c;
+      c.style.width='100%';c.style.height='auto';
+      const card=document.createElement('div');card.className='story-card';
+      const prev=document.createElement('div');prev.className='story-preview';
+      const badge=document.createElement('span');badge.className='size-badge';badge.textContent='1080×1920';
+      prev.appendChild(badge);prev.appendChild(c);
+      const meta=document.createElement('div');meta.className='story-meta';
+      meta.innerHTML=`<h3>${t.week}: ${t.title}</h3><p class="week">${t.tag} · 1080×1920px</p>
+        <div class="btn-row">
+          <button class="btn primary" onclick="dlStory(${i})">📥 Download</button>
+          <button class="btn secondary" onclick="copyCaption(${i})">📋 Caption</button>
+        </div>`;
+      card.appendChild(prev);card.appendChild(meta);grid.appendChild(card);
+    };
+    img.onload=render;img.onerror=render;img.src=t.img;
+  });
+}
+
+const captions=[
+  "It's Financial Literacy Month. 🗓️\n\nAnd the best tool isn't an app. It isn't a worksheet.\n\nIt's 36 pages about a boy, a robot, and a coupon.\n\nMeet Clarence. He's 7. He shops smarter than you.\n\n📚 Link in bio · $14.99\n\n#ClarenceGetsABargain #FinancialLiteracyMonth #KidsAndMoney #TeachKidsMoney",
+  "\"My students FOUGHT over who got to hold the book during read-aloud.\n\nFought. Over a book about money.\"\n\n— 3rd Grade Teacher, NJ ★★★★★\n\nWhen kids fight over your book, you did something right. 🙌\n\n📚 Link in bio\n\n#ClarenceGetsABargain #TeacherApproved #FinancialLiteracyMonth",
+  "Wants vs. Needs. 🎯\n\nThe hardest lesson in the book.\nThe most important one in life.\n\nClarence learns it at Sea-Mart.\nYour kid can learn it at bedtime.\n\n📚 Link in bio · $14.99\n\n#ClarenceGetsABargain #WantsVsNeeds #FinancialLiteracyMonth #MoneySkills",
+  "Financial Literacy Month ends tonight. ⏰\n\nBut your kid's money education doesn't have to.\n\n$14.99. 36 pages. 6 money skills. 5 stars.\n\nStory first. Money smarts sneak in.\n\nNow go get a bargain. ✂️\n\n📚 Link in bio\n\n#ClarenceGetsABargain #FinancialLiteracyMonth #NowGoGetABargain"
+];
+
+function dlStory(i){const a=document.createElement('a');a.download=`story-week${i+1}-${themes[i].title.toLowerCase().replace(/ /g,'-')}.png`;a.href=storyCanvases[i].toDataURL('image/png');a.click();}
+function dlAll(){themes.forEach((_,i)=>setTimeout(()=>dlStory(i),i*400));}
+function copyCaption(i){navigator.clipboard.writeText(captions[i]).then(()=>alert('Caption copied! ✓ Paste into Instagram.'));}
+window.onload=buildGrid;
+</script>
+</body>
+</html>
