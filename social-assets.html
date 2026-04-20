@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Social Media Assets | Clarence Gets a Bargain</title>
+<style>
+@font-face{font-family:'Hold';src:url('fonts/Hold.woff2') format('woff2'),url('fonts/Hold.woff') format('woff')}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--blue:#0054a6;--orange:#ff6b2b;--gold:#ffe066;--cream:#f5ecd7;--dark:#111}
+body{font-family:'Inter',sans-serif;background:#0d0d0d;color:#e8e8e8;min-height:100vh}
+
+.site-header{background:#111;border-bottom:2px solid #ff6b2b;padding:14px 30px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
+.site-header a{color:#ccc;text-decoration:none;font-size:.8rem;font-weight:600;letter-spacing:1px}
+.site-header a:hover{color:#ff6b2b}
+.brand{font-family:'Hold',sans-serif;color:#fff;font-size:1rem}
+
+.hero{background:linear-gradient(135deg,#0054a6,#003d7a);padding:50px 30px;text-align:center}
+.hero h1{font-family:'Hold',sans-serif;font-size:2.4rem;color:#fff;margin-bottom:8px}
+.hero p{color:rgba(255,255,255,.8);font-size:1rem;max-width:600px;margin:0 auto 24px}
+
+/* TABS */
+.tabs{background:#161616;border-bottom:1px solid #222;padding:0 30px;display:flex;gap:0;overflow-x:auto}
+.tab{padding:16px 24px;font-size:.82rem;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;cursor:pointer;border-bottom:3px solid transparent;color:#666;white-space:nowrap;transition:all .2s}
+.tab:hover{color:#ccc}
+.tab.active{color:#ff6b2b;border-bottom-color:#ff6b2b}
+
+.tab-content{display:none;padding:40px 30px;max-width:1200px;margin:0 auto}
+.tab-content.active{display:block}
+
+/* ASSET CARD */
+.asset-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:28px}
+.asset-card{background:#1a1a1a;border:1px solid #2a2a2a;border-radius:16px;overflow:hidden;transition:border-color .2s}
+.asset-card:hover{border-color:#ff6b2b}
+.asset-preview{background:#111;display:flex;align-items:center;justify-content:center;padding:20px;min-height:200px;position:relative}
+.asset-preview .size-badge{position:absolute;top:10px;right:10px;background:rgba(0,0,0,.7);color:#fff;font-size:.65rem;font-weight:700;padding:3px 8px;border-radius:4px}
+.asset-meta{padding:20px}
+.asset-meta h3{font-family:'Hold',sans-serif;color:#fff;font-size:1rem;margin-bottom:4px}
+.asset-meta p{font-size:.8rem;color:#888;margin-bottom:14px;line-height:1.5}
+.asset-btns{display:flex;gap:8px}
+.dl-btn{padding:8px 16px;border-radius:50px;font-size:.75rem;font-weight:700;cursor:pointer;border:none;transition:all .2s}
+.dl-btn.primary{background:#ff6b2b;color:#fff}
+.dl-btn.primary:hover{background:#e55000}
+.dl-btn.secondary{background:#2a2a2a;color:#ccc;border:1px solid #333}
+.dl-btn.secondary:hover{background:#333}
+
+/* INLINE ASSET DISPLAYS */
+canvas.preview-canvas{max-width:100%;height:auto;border-radius:8px;display:block}
+
+/* REVIEW CARDS */
+.review-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(420px,1fr));gap:28px}
+
+/* LINKEDIN CAROUSEL */
+.carousel-wrap{display:flex;gap:16px;overflow-x:auto;padding-bottom:12px}
+.carousel-slide{flex-shrink:0;border-radius:12px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.4)}
+.carousel-slide canvas{display:block}
+
+/* STORY GRID */
+.story-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px}
+.story-wrap{border-radius:12px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.4);position:relative}
+.story-wrap canvas{width:100%;height:auto;display:block}
+.story-label{background:#111;padding:10px 14px;font-size:.75rem;font-weight:700;color:#888;display:flex;justify-content:space-between;align-items:center}
+
+/* SECTION TITLE */
+.section-title{font-family:'Hold',sans-serif;font-size:1.4rem;color:#fff;margin-bottom:6px}
+.section-sub{color:#888;font-size:.85rem;margin-bottom:24px}
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <a href="index.html">← Back to Site</a>
+  <span class="brand">Clarence Gets a Bargain — Social Assets</span>
+</div>
+
+<div class="hero">
+  <h1>Ready-to-Post Social Assets</h1>
+  <p>Review cards, Instagram Stories, LinkedIn carousel, Wants vs. Needs graphic — all generated in-browser. No Canva. No Photoshop. Just download and post.</p>
+</div>
+
+<div class="tabs">
+  <div class="tab active" onclick="showTab('reviews')">Review Cards</div>
+  <div class="tab" onclick="showTab('stories')">Instagram Stories</div>
+  <div class="tab" onclick="showTab('linkedin')">LinkedIn Carousel</div>
+  <div class="tab" onclick="showTab('wvn')">Wants vs. Needs</div>
+</div>
+
+<!-- REVIEW CARDS TAB -->
+<div class="tab-content active" id="tab-reviews">
+  <div class="section-title">Review Coupon Cards</div>
+  <div class="section-sub">All 4 five-star reviews. Cream background, dashed border, scissors icon. Each 1200×628px — perfect for Facebook, LinkedIn, and Twitter feed.</div>
+  <div class="review-grid" id="review-grid"></div>
+</div>
+
+<!-- INSTAGRAM STORIES TAB -->
+<div class="tab-content" id="tab-stories">
+  <div class="section-title">Instagram Story Templates</div>
+  <div class="section-sub">1080×1920px. One per week theme. Screenshot = post. No Canva needed.</div>
+  <div class="story-grid" id="story-grid"></div>
+</div>
+
+<!-- LINKEDIN CAROUSEL TAB -->
+<div class="tab-content" id="tab-linkedin">
+  <div class="section-title">LinkedIn Carousel — "6 Money Frameworks"</div>
+  <div class="section-sub">8 slides formatted for LinkedIn document upload (3× reach vs image). Scroll right to preview all slides.</div>
+  <div class="carousel-wrap" id="carousel-wrap"></div>
+  <br>
+  <button class="dl-btn primary" onclick="downloadAllSlides()" style="padding:14px 32px;font-size:.9rem">📥 Download All 8 Slides as PNG</button>
+</div>
+
+<!-- WANTS VS NEEDS TAB -->
+<div class="tab-content" id="tab-wvn">
+  <div class="section-title">Wants vs. Needs — RoBimmie Showdown</div>
+  <div class="section-sub">1200×628px — optimized for Facebook and LinkedIn feed. The robot comparison that drives engagement.</div>
+  <div id="wvn-wrap"></div>
+</div>
+
+<script>
+// ── UTILITIES ────────────────────────────────────────────────
+function makeCanvas(w,h){const c=document.createElement('canvas');c.width=w;c.height=h;return c;}
+function dl(canvas,name){const a=document.createElement('a');a.download=name;a.href=canvas.toDataURL('image/png');a.click();}
+function wrapText(ctx,text,x,y,maxW,lineH){
+  const words=text.split(' ');let line='';
+  for(let n=0;n<words.length;n++){
+    const test=line+words[n]+' ';
+    if(ctx.measureText(test).width>maxW&&n>0){ctx.fillText(line,x,y);line=words[n]+' ';y+=lineH;}
+    else{line=test;}
+  }
+  ctx.fillText(line,x,y);return y;
+}
+
+// ── REVIEW CARDS ─────────────────────────────────────────────
+const reviews=[
+  {name:"Maryann Milewski Moskal",title:"Veteran Educator · 30+ Years K–5",stars:5,text:"An absolute masterclass in early-stage financial literacy. This book seamlessly bridges the gap between engaging, character-driven storytelling and core economic competencies.",emoji:"🎓"},
+  {name:"Wally Luckeydoo, Ed.D.",title:"Award-Winning Financial Literacy Educator",stars:5,text:"I love the hands-on moments like using the coupon at the register and learning why saving money is important. The introduction to 529 accounts is a great way to show how saving for the future works.",emoji:"🏆"},
+  {name:"3rd Grade Teacher",title:"NJ Public Schools",stars:5,text:"My students fought over who got to hold the book during read-aloud. Fought. Over a book about money. If that doesn't tell you something, I don't know what will.",emoji:"✏️"},
+  {name:"Josie K., Age 10",title:"Student Reader",stars:5,text:"This book was really interesting and fun to read! It taught me how to get sales to save money, which made me feel more grown-up and smart.",emoji:"⭐"}
+];
+
+function drawReviewCard(review, idx){
+  const c=makeCanvas(1200,628);
+  const ctx=c.getContext('2d');
+  // BG
+  ctx.fillStyle='#f5ecd7';
+  ctx.fillRect(0,0,1200,628);
+  // Dashed border
+  ctx.strokeStyle='#ff6b2b';
+  ctx.lineWidth=5;
+  ctx.setLineDash([20,12]);
+  ctx.strokeRect(30,30,1140,568);
+  ctx.setLineDash([]);
+  // Scissors
+  ctx.font='32px serif';
+  ctx.fillStyle='#ff6b2b';
+  ctx.textAlign='left';
+  ctx.fillText('✂',48,68);
+  // Brand top right
+  ctx.fillStyle='#0054a6';
+  ctx.font='bold 18px Inter,sans-serif';
+  ctx.textAlign='right';
+  ctx.fillText('Clarence Gets a Bargain',1152,68);
+  // Stars
+  ctx.font='40px serif';
+  ctx.textAlign='left';
+  ctx.fillText('★★★★★',70,145);
+  // Quote marks
+  ctx.fillStyle='rgba(0,84,166,.12)';
+  ctx.font='bold 200px serif';
+  ctx.fillText('"',55,310);
+  // Quote text
+  ctx.fillStyle='#1a1a1a';
+  ctx.font='600 28px Inter,sans-serif';
+  ctx.textAlign='left';
+  wrapText(ctx,'"'+review.text+'"',70,210,1060,44);
+  // Reviewer name
+  ctx.fillStyle='#0054a6';
+  ctx.font='bold 26px Inter,sans-serif';
+  ctx.fillText('— '+review.name,70,490);
+  // Title
+  ctx.fillStyle='#888';
+  ctx.font='22px Inter,sans-serif';
+  ctx.fillText(review.title,70,522);
+  // Emoji
+  ctx.font='52px serif';
+  ctx.textAlign='right';
+  ctx.fillText(review.emoji,1140,520);
+  return c;
+}
+
+function buildReviewGrid(){
+  const grid=document.getElementById('review-grid');
+  reviews.forEach((r,i)=>{
+    const card=document.createElement('div');
+    card.className='asset-card';
+    const preview=document.createElement('div');
+    preview.className='asset-preview';
+    const badge=document.createElement('span');
+    badge.className='size-badge';
+    badge.textContent='1200×628';
+    const c=drawReviewCard(r,i);
+    c.className='preview-canvas';
+    c.style.width='100%';
+    preview.appendChild(badge);
+    preview.appendChild(c);
+    const meta=document.createElement('div');
+    meta.className='asset-meta';
+    meta.innerHTML=`<h3>${r.emoji} ${r.name}</h3><p>${r.title}</p>
+      <div class="asset-btns">
+        <button class="dl-btn primary" onclick="dl(document.querySelectorAll('#review-grid canvas')[${i}],'review-${i+1}-${r.name.split(' ')[0].toLowerCase()}.png')">📥 Download PNG</button>
+      </div>`;
+    card.appendChild(preview);
+    card.appendChild(meta);
+    grid.appendChild(card);
+  });
+}
+
+// ── INSTAGRAM STORIES ────────────────────────────────────────
+const storyThemes=[
+  {title:"Week 1: The Hook",bg:'#0054a6',accent:'#ffe066',headline:"It's Financial\nLiteracy Month.",sub:"One book changes everything.",cta:"Get it: clarencegetsabargain.com",img:'forsite/clarence-arms.png'},
+  {title:"Week 2: The Review",bg:'#f5ecd7',accent:'#0054a6',headline:'"Students FOUGHT\nover this book."',sub:"— 3rd Grade Teacher, NJ  ★★★★★",cta:"Clarence Gets a Bargain",img:'forsite/clarence-laugh.png'},
+  {title:"Week 3: Tip Card",bg:'#ff6b2b',accent:'#fff',headline:"Wants vs. Needs.",sub:"The hardest lesson. The most important one.",cta:"Teach it with Clarence",img:'forsite/clarence-armsfoldedcrop.png'},
+  {title:"Week 4: The Close",bg:'#1a1a2e',accent:'#ffe066',headline:"Last chance,\nFinancial Lit\nMonth.",sub:"$14.99 · Ages 6–10 · 5 Stars",cta:"clarencegetsabargain.com",img:'forsite/clarence_point.png'}
+];
+
+const storyImgs={};
+
+function preloadStoryImgs(cb){
+  let loaded=0;
+  storyThemes.forEach(t=>{
+    const img=new Image();
+    img.onload=()=>{storyImgs[t.img]=img;loaded++;if(loaded===storyThemes.length)cb();};
+    img.onerror=()=>{loaded++;if(loaded===storyThemes.length)cb();};
+    img.src=t.img;
+  });
+}
+
+function drawStory(theme){
+  const c=makeCanvas(1080,1920);
+  const ctx=c.getContext('2d');
+  ctx.fillStyle=theme.bg;
+  ctx.fillRect(0,0,1080,1920);
+  // Dashed border
+  ctx.strokeStyle=theme.accent;
+  ctx.lineWidth=8;
+  ctx.setLineDash([28,16]);
+  ctx.strokeRect(40,40,1000,1840);
+  ctx.setLineDash([]);
+  // Scissors
+  ctx.font='48px serif';
+  ctx.fillStyle=theme.accent;
+  ctx.textAlign='left';
+  ctx.fillText('✂',60,110);
+  // Brand
+  ctx.font='bold 28px Inter,sans-serif';
+  ctx.textAlign='center';
+  ctx.fillStyle=theme.accent;
+  ctx.globalAlpha=.7;
+  ctx.fillText('CLARENCE GETS A BARGAIN',540,110);
+  ctx.globalAlpha=1;
+  // Character image
+  const img=storyImgs[theme.img];
+  if(img){
+    const imgH=640,imgW=imgH*(img.naturalWidth/img.naturalHeight);
+    ctx.drawImage(img,540-imgW/2,220,imgW,imgH);
+  } else {
+    ctx.fillStyle=theme.accent;ctx.globalAlpha=.2;
+    ctx.fillRect(240,220,600,640);ctx.globalAlpha=1;
+  }
+  // Headline
+  const lines=theme.headline.split('\n');
+  ctx.font='bold 108px serif';
+  ctx.fillStyle=theme.accent;
+  ctx.textAlign='center';
+  lines.forEach((l,i)=>ctx.fillText(l,540,940+i*120));
+  // Sub
+  ctx.font='bold 48px Inter,sans-serif';
+  ctx.fillStyle=theme.accent;
+  ctx.globalAlpha=.85;
+  const subY=940+lines.length*120+60;
+  wrapText(ctx,theme.sub,540-420,subY,840,64);
+  ctx.globalAlpha=1;
+  // CTA bar
+  ctx.fillStyle=theme.accent;
+  ctx.globalAlpha=.15;
+  ctx.fillRect(60,1700,960,140);
+  ctx.globalAlpha=1;
+  ctx.strokeStyle=theme.accent;
+  ctx.lineWidth=3;
+  ctx.setLineDash([14,8]);
+  ctx.strokeRect(60,1700,960,140);
+  ctx.setLineDash([]);
+  ctx.font='bold 38px serif';
+  ctx.fillStyle=theme.accent;
+  ctx.textAlign='center';
+  ctx.fillText(theme.cta,540,1782);
+  ctx.font='28px Inter,sans-serif';
+  ctx.fillStyle=theme.accent;
+  ctx.globalAlpha=.6;
+  ctx.fillText('Financial Literacy Month 2026',540,1820);
+  ctx.globalAlpha=1;
+  return c;
+}
+
+function buildStoryGrid(){
+  preloadStoryImgs(()=>{
+    const grid=document.getElementById('story-grid');
+    storyThemes.forEach((t,i)=>{
+      const wrap=document.createElement('div');
+      wrap.className='story-wrap';
+      const c=drawStory(t);
+      c.style.width='100%';c.style.height='auto';
+      const label=document.createElement('div');
+      label.className='story-label';
+      label.innerHTML=`<span>${t.title}</span><button class="dl-btn primary" style="padding:5px 12px;font-size:.7rem" onclick="dl(this.closest('.story-wrap').querySelector('canvas'),'story-${i+1}.png')">↓</button>`;
+      wrap.appendChild(c);
+      wrap.appendChild(label);
+      grid.appendChild(wrap);
+    });
+  });
+}
+
+// ── LINKEDIN CAROUSEL ────────────────────────────────────────
+const frameworks=[
+  {num:'01',icon:'📊',title:'Budgeting',body:'"Every dollar has a job." Mom explains bills, mortgage, and why money doesn\'t grow on trees.'},
+  {num:'02',icon:'🔍',title:'Comparison Shopping',body:'Read the sale ads. Check coupon inserts. Research BEFORE you shop. Walking in cold is for amateurs.'},
+  {num:'03',icon:'🏷️',title:'Clearance Arbitrage',body:'The neon-orange sticker is a treasure map. Older doesn\'t mean worse. Most people walk past it. Operators lean in.'},
+  {num:'04',icon:'✂️',title:'Coupon Leverage',body:'Always ask for the discount. The worst they can say is "no." The best is 10% off. Present it like a lawyer.'},
+  {num:'05',icon:'🎯',title:'Wants vs. Needs',body:'The hardest exec decision isn\'t "buy." It\'s "pass." Discipline compounds. Intentional spending = wealth.'},
+  {num:'06',icon:'🧾',title:'Receipt Auditing',body:'Document everything. Mom photographs receipts in the car. If it\'s not tracked, it didn\'t happen.'}
+];
+
+function drawSlide(data, type){
+  const c=makeCanvas(1080,1080);
+  const ctx=c.getContext('2d');
+  if(type==='cover'){
+    ctx.fillStyle='#0054a6';
+    ctx.fillRect(0,0,1080,1080);
+    ctx.strokeStyle='#ffe066';
+    ctx.lineWidth=6;
+    ctx.setLineDash([22,12]);
+    ctx.strokeRect(40,40,1000,1000);
+    ctx.setLineDash([]);
+    ctx.font='bold 220px serif';
+    ctx.fillStyle='rgba(255,255,255,.06)';
+    ctx.textAlign='center';
+    ctx.fillText('6',540,600);
+    ctx.font='bold 72px serif';
+    ctx.fillStyle='#ffe066';
+    ctx.textAlign='center';
+    ctx.fillText('6 Money Frameworks',540,340);
+    ctx.font='bold 44px Inter,sans-serif';
+    ctx.fillStyle='rgba(255,255,255,.8)';
+    ctx.fillText('From a $14.99 Children\'s Book',540,420);
+    ctx.font='36px Inter,sans-serif';
+    ctx.fillStyle='rgba(255,255,255,.55)';
+    ctx.fillText('That Outsmarted Most MBAs',540,475);
+    ctx.font='bold 32px Inter,sans-serif';
+    ctx.fillStyle='rgba(255,255,255,.45)';
+    ctx.fillText('→ Swipe to learn all 6',540,680);
+    ctx.font='bold 26px Inter,sans-serif';
+    ctx.fillStyle='rgba(255,255,255,.4)';
+    ctx.fillText('Clarence Gets a Bargain  ·  Financial Literacy Month',540,980);
+  } else if(type==='framework'){
+    ctx.fillStyle='#fff';
+    ctx.fillRect(0,0,1080,1080);
+    ctx.fillStyle='#0054a6';
+    ctx.fillRect(0,0,1080,220);
+    ctx.font='bold 140px serif';
+    ctx.fillStyle='rgba(255,255,255,.12)';
+    ctx.textAlign='right';
+    ctx.fillText(data.num,1040,200);
+    ctx.font='72px serif';
+    ctx.fillStyle='#ffe066';
+    ctx.textAlign='left';
+    ctx.fillText(data.icon,60,170);
+    ctx.font='bold 64px serif';
+    ctx.fillStyle='#fff';
+    ctx.textAlign='center';
+    ctx.fillText(data.title,540,165);
+    ctx.fillStyle='#f5ecd7';
+    ctx.fillRect(40,240,1000,560);
+    ctx.strokeStyle='#ff6b2b';
+    ctx.lineWidth=4;
+    ctx.setLineDash([18,10]);
+    ctx.strokeRect(40,240,1000,560);
+    ctx.setLineDash([]);
+    ctx.fillStyle='#1a1a1a';
+    ctx.font='600 42px Inter,sans-serif';
+    ctx.textAlign='center';
+    const words=data.body.split(' ');let line='',y=360,maxW=860;
+    for(let n=0;n<words.length;n++){
+      const test=line+words[n]+' ';
+      if(ctx.measureText(test).width>maxW&&n>0){ctx.fillText(line,540,y);line=words[n]+' ';y+=62;}
+      else line=test;
+    }
+    ctx.fillText(line,540,y);
+    ctx.fillStyle='#0054a6';
+    ctx.font='bold 32px serif';
+    ctx.textAlign='center';
+    ctx.fillText('Clarence Gets a Bargain',540,900);
+    ctx.fillStyle='#888';
+    ctx.font='26px Inter,sans-serif';
+    ctx.fillText('clarencegetsabargain.com  ·  $14.99',540,945);
+  } else if(type==='cta'){
+    ctx.fillStyle='#ff6b2b';
+    ctx.fillRect(0,0,1080,1080);
+    ctx.strokeStyle='rgba(255,255,255,.4)';
+    ctx.lineWidth=6;
+    ctx.setLineDash([22,12]);
+    ctx.strokeRect(40,40,1000,1000);
+    ctx.setLineDash([]);
+    ctx.font='bold 92px serif';
+    ctx.fillStyle='#fff';
+    ctx.textAlign='center';
+    ctx.fillText('Now Go Get',540,300);
+    ctx.fillText('a Bargain.',540,410);
+    ctx.font='bold 48px Inter,sans-serif';
+    ctx.fillStyle='rgba(255,255,255,.9)';
+    ctx.fillText('36 pages · 6 money skills · $14.99',540,540);
+    ctx.font='38px Inter,sans-serif';
+    ctx.fillStyle='rgba(255,255,255,.7)';
+    ctx.fillText('Ages 6–10 · ★★★★★',540,600);
+    ctx.fillStyle='rgba(255,255,255,.2)';
+    ctx.fillRect(160,680,760,120);
+    ctx.font='bold 44px serif';
+    ctx.fillStyle='#fff';
+    ctx.fillText('clarencegetsabargain.com',540,752);
+    ctx.font='bold 30px Inter,sans-serif';
+    ctx.fillStyle='rgba(255,255,255,.6)';
+    ctx.fillText('Link in comments ↓',540,860);
+    ctx.font='26px Inter,sans-serif';
+    ctx.fillStyle='rgba(255,255,255,.4)';
+    ctx.fillText('#ClarenceGetsABargain  #FinancialLiteracyMonth',540,980);
+  }
+  return c;
+}
+
+function buildCarousel(){
+  const wrap=document.getElementById('carousel-wrap');
+  const slides=[];
+  const cover=drawSlide(null,'cover');
+  cover.style.height='300px';cover.style.width='auto';
+  const cw=document.createElement('div');
+  cw.className='carousel-slide';
+  cw.appendChild(cover);
+  wrap.appendChild(cw);
+  slides.push({canvas:cover,name:'slide-01-cover.png'});
+  frameworks.forEach((f,i)=>{
+    const c=drawSlide(f,'framework');
+    c.style.height='300px';c.style.width='auto';
+    const sw=document.createElement('div');
+    sw.className='carousel-slide';
+    sw.appendChild(c);
+    wrap.appendChild(sw);
+    slides.push({canvas:c,name:`slide-0${i+2}-${f.title.toLowerCase().replace(/ /g,'-')}.png`});
+  });
+  const cta=drawSlide(null,'cta');
+  cta.style.height='300px';cta.style.width='auto';
+  const ctaw=document.createElement('div');
+  ctaw.className='carousel-slide';
+  ctaw.appendChild(cta);
+  wrap.appendChild(ctaw);
+  slides.push({canvas:cta,name:'slide-08-cta.png'});
+  window._carouselSlides=slides;
+}
+
+function downloadAllSlides(){
+  if(!window._carouselSlides)return;
+  window._carouselSlides.forEach((s,i)=>{
+    setTimeout(()=>dl(s.canvas,s.name),i*300);
+  });
+}
+
+// ── WANTS VS NEEDS ────────────────────────────────────────────
+const robotImgs={pink:null,yellow:null};
+
+function buildWvN(){
+  const pImg=new Image();pImg.src='forsite/robimimie_pink.png';
+  const yImg=new Image();yImg.src='forsite/robimmie-yellow.png';
+  let loaded=0;
+  const done=()=>{
+    if(++loaded<2) return;
+    const c=makeCanvas(1200,628);
+    const ctx=c.getContext('2d');
+    // BG
+    ctx.fillStyle='#0054a6';
+    ctx.fillRect(0,0,1200,628);
+    // Left panel (WANT)
+    ctx.fillStyle='rgba(255,255,255,.06)';
+    ctx.fillRect(0,0,600,628);
+    // Right panel (SMART BUY)
+    ctx.fillStyle='rgba(255,107,43,.15)';
+    ctx.fillRect(600,0,600,628);
+    // VS circle
+    ctx.fillStyle='#ffe066';
+    ctx.beginPath();ctx.arc(600,314,58,0,Math.PI*2);ctx.fill();
+    ctx.font='bold 42px serif';
+    ctx.fillStyle='#0054a6';
+    ctx.textAlign='center';
+    ctx.fillText('VS',600,326);
+    // Robot images
+    const rH=340;
+    if(pImg.complete&&pImg.naturalHeight>0){const rW=rH*(pImg.naturalWidth/pImg.naturalHeight);ctx.drawImage(pImg,300-rW/2,120,rW,rH);}
+    if(yImg.complete&&yImg.naturalHeight>0){const rW=rH*(yImg.naturalWidth/yImg.naturalHeight);ctx.drawImage(yImg,900-rW/2,120,rW,rH);}
+    // Left label
+    ctx.fillStyle='rgba(255,255,255,.85)';
+    ctx.font='bold 64px serif';
+    ctx.textAlign='center';
+    ctx.fillText('WANT',300,90);
+    ctx.font='bold 24px Inter,sans-serif';
+    ctx.fillStyle='rgba(255,255,255,.55)';
+    ctx.fillText('Full price · Bigger screen · Flashier',300,575);
+    // Right label
+    ctx.fillStyle='#ffe066';
+    ctx.font='bold 64px serif';
+    ctx.textAlign='center';
+    ctx.fillText('SMART BUY',900,90);
+    ctx.font='bold 24px Inter,sans-serif';
+    ctx.fillStyle='rgba(255,230,102,.7)';
+    ctx.fillText('Clearance · Same features · Half the price',900,575);
+    // Bottom bar
+    ctx.fillStyle='rgba(255,255,255,.08)';
+    ctx.fillRect(0,540,1200,88);
+    ctx.font='bold 28px serif';
+    ctx.fillStyle='rgba(255,255,255,.6)';
+    ctx.textAlign='center';
+    ctx.fillText('Wants vs. Needs — The Hardest Lesson in Clarence Gets a Bargain',600,590);
+    c.style.width='100%';
+    const wrap=document.getElementById('wvn-wrap');
+    const card=document.createElement('div');
+    card.className='asset-card';
+    card.style.maxWidth='100%';
+    const prev=document.createElement('div');
+    prev.className='asset-preview';
+    prev.style.minHeight='auto';
+    const badge=document.createElement('span');badge.className='size-badge';badge.textContent='1200×628';
+    prev.appendChild(badge);prev.appendChild(c);
+    const meta=document.createElement('div');
+    meta.className='asset-meta';
+    meta.innerHTML=`<h3>🎯 Wants vs. Needs — RoBimmie Showdown</h3>
+      <p>1200×628px · Facebook feed · LinkedIn feed · Twitter card</p>
+      <div class="asset-btns">
+        <button class="dl-btn primary" onclick="dl(document.querySelector('#wvn-wrap canvas'),'wants-vs-needs-robimmie.png')">📥 Download PNG</button>
+      </div>`;
+    card.appendChild(prev);card.appendChild(meta);
+    wrap.appendChild(card);
+  };
+  pImg.onload=done;yImg.onload=done;
+  pImg.onerror=done;yImg.onerror=done;
+}
+
+// ── TABS ──────────────────────────────────────────────────────
+function showTab(id){
+  document.querySelectorAll('.tab').forEach((t,i)=>{
+    t.classList.toggle('active',['reviews','stories','linkedin','wvn'][i]===id);
+  });
+  document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
+  document.getElementById('tab-'+id).classList.add('active');
+}
+
+// ── INIT ──────────────────────────────────────────────────────
+window.onload=()=>{
+  buildReviewGrid();
+  buildStoryGrid();
+  buildCarousel();
+  buildWvN();
+};
+</script>
+</body>
+</html>

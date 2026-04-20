@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Smart Shopper Score | Clarence Gets a Bargain</title>
+<style>
+@font-face{font-family:'Hold';src:url('fonts/Hold.woff2') format('woff2'),url('fonts/Hold.woff') format('woff');font-weight:normal;font-style:normal}
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--blue:#0054a6;--orange:#ff6b2b;--gold:#ffe066;--cream:#f5ecd7;--dark:#111}
+body{font-family:'Inter',sans-serif;background:var(--blue);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:20px}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+
+/* HEADER */
+.site-header{width:100%;max-width:700px;display:flex;justify-content:space-between;align-items:center;margin-bottom:30px}
+.site-header a{color:rgba(255,255,255,.7);text-decoration:none;font-size:.8rem;font-weight:600;letter-spacing:1px}
+.site-header a:hover{color:#fff}
+.brand{font-family:'Hold',sans-serif;color:#fff;font-size:1.1rem}
+
+/* CARD */
+.card{background:#fff;border-radius:24px;padding:48px 40px;max-width:700px;width:100%;box-shadow:0 30px 80px rgba(0,0,0,.3);position:relative;overflow:hidden}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:6px;background:linear-gradient(90deg,var(--blue),var(--orange),var(--gold))}
+
+/* INTRO SCREEN */
+#intro{text-align:center}
+#intro .clarence-img{width:140px;height:auto;margin:0 auto 24px;display:block;filter:drop-shadow(0 8px 16px rgba(0,84,166,.2))}
+#intro h1{font-family:'Hold',sans-serif;font-size:2.4rem;color:var(--blue);margin-bottom:8px;line-height:1.2}
+#intro .sub{font-size:1rem;color:#666;margin-bottom:8px;line-height:1.6}
+#intro .age-tag{display:inline-block;background:var(--cream);border:2px dashed var(--orange);padding:6px 16px;border-radius:50px;font-size:.75rem;font-weight:700;color:var(--blue);letter-spacing:1px;margin-bottom:32px}
+.scissors{font-size:.9rem;margin-right:4px}
+.start-btn{background:var(--orange);color:#fff;border:none;padding:18px 48px;border-radius:50px;font-family:'Hold',sans-serif;font-size:1.2rem;cursor:pointer;transition:all .3s;box-shadow:0 6px 20px rgba(255,107,43,.35)}
+.start-btn:hover{transform:translateY(-3px);box-shadow:0 10px 30px rgba(255,107,43,.5)}
+
+/* PROGRESS */
+.progress-wrap{margin-bottom:28px}
+.progress-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.progress-label{font-size:.78rem;font-weight:700;color:#999;text-transform:uppercase;letter-spacing:1px}
+.progress-count{font-size:.78rem;font-weight:800;color:var(--blue)}
+.progress-bar{height:8px;background:#f0f0f0;border-radius:50px;overflow:hidden}
+.progress-fill{height:100%;background:linear-gradient(90deg,var(--blue),var(--orange));border-radius:50px;transition:width .5s cubic-bezier(.4,0,.2,1)}
+
+/* QUESTION */
+#quiz{display:none}
+.q-icon{font-size:2.8rem;margin-bottom:16px;display:block;text-align:center}
+.q-text{font-family:'Hold',sans-serif;font-size:1.5rem;color:var(--blue);margin-bottom:28px;line-height:1.4;text-align:center}
+.options{display:flex;flex-direction:column;gap:12px}
+.opt{background:#f8f8f8;border:2px solid #e8e8e8;border-radius:14px;padding:16px 20px;cursor:pointer;transition:all .25s;font-size:.95rem;font-weight:600;color:#333;text-align:left;position:relative;overflow:hidden}
+.opt:hover{border-color:var(--blue);background:#f0f6ff;transform:translateX(4px)}
+.opt.correct{background:#e8f5e9;border-color:#43a047;color:#2e7d32}
+.opt.wrong{background:#fdecea;border-color:#e53935;color:#c62828}
+.opt.correct::after{content:'✓';position:absolute;right:16px;top:50%;transform:translateY(-50%);font-weight:900;color:#43a047}
+.opt.wrong::after{content:'✗';position:absolute;right:16px;top:50%;transform:translateY(-50%);font-weight:900;color:#e53935}
+.opt.show-correct{background:#e8f5e9;border-color:#43a047;color:#2e7d32}
+.opt.show-correct::after{content:'✓';position:absolute;right:16px;top:50%;transform:translateY(-50%);font-weight:900;color:#43a047}
+.opt.disabled{pointer-events:none}
+
+/* FEEDBACK */
+.feedback{margin-top:16px;padding:14px 18px;border-radius:10px;font-size:.88rem;font-weight:600;display:none;line-height:1.5}
+.feedback.correct{background:#e8f5e9;color:#2e7d32;border-left:4px solid #43a047}
+.feedback.wrong{background:#fdecea;color:#c62828;border-left:4px solid #e53935}
+
+/* NEXT BTN */
+.next-btn{display:none;margin-top:24px;background:var(--blue);color:#fff;border:none;padding:14px 40px;border-radius:50px;font-family:'Hold',sans-serif;font-size:1rem;cursor:pointer;transition:all .3s;width:100%}
+.next-btn:hover{background:#003d7a;transform:translateY(-2px)}
+
+/* RESULT */
+#result{display:none;text-align:center}
+.score-ring{width:160px;height:160px;margin:0 auto 24px;position:relative}
+.score-ring svg{transform:rotate(-90deg)}
+.score-ring .track{fill:none;stroke:#f0f0f0;stroke-width:12}
+.score-ring .fill{fill:none;stroke-width:12;stroke-linecap:round;transition:stroke-dashoffset 1.5s cubic-bezier(.4,0,.2,1)}
+.score-ring .label{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center}
+.score-ring .label .num{font-family:'Hold',sans-serif;font-size:2.8rem;line-height:1;display:block}
+.score-ring .label .denom{font-size:.75rem;color:#999;font-weight:700}
+.result-title{font-family:'Hold',sans-serif;font-size:2rem;color:var(--blue);margin-bottom:8px}
+.result-subtitle{font-size:1rem;color:#555;margin-bottom:24px;line-height:1.6}
+.result-badge{display:inline-block;background:var(--cream);border:3px dashed var(--orange);padding:16px 28px;border-radius:16px;margin-bottom:28px;position:relative}
+.result-badge::before{content:'✂';position:absolute;top:-14px;left:12px;font-size:1rem;color:var(--orange);background:#fff;padding:0 4px}
+.result-badge .badge-title{font-family:'Hold',sans-serif;font-size:1.1rem;color:var(--blue);margin-bottom:4px}
+.result-badge .badge-sub{font-size:.78rem;color:#888}
+.action-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.action-btn{padding:14px 28px;border-radius:50px;font-family:'Hold',sans-serif;font-size:.95rem;cursor:pointer;border:none;transition:all .3s}
+.action-btn.primary{background:var(--orange);color:#fff;box-shadow:0 4px 16px rgba(255,107,43,.35)}
+.action-btn.primary:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(255,107,43,.5)}
+.action-btn.secondary{background:var(--cream);color:var(--blue);border:2px dashed var(--orange)}
+.action-btn.secondary:hover{background:#ffe8d6}
+.score-breakdown{margin-top:28px;text-align:left;border-top:1px solid #f0f0f0;padding-top:20px}
+.score-breakdown h4{font-family:'Hold',sans-serif;color:var(--blue);font-size:.95rem;margin-bottom:12px;text-align:center;letter-spacing:1px;text-transform:uppercase}
+.breakdown-item{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #f5f5f5;font-size:.85rem}
+.breakdown-icon{width:28px;text-align:center;font-size:1.1rem;flex-shrink:0}
+.breakdown-text{flex:1;color:#444}
+.breakdown-result{font-weight:800;font-size:1rem}
+.breakdown-result.y{color:#43a047}
+.breakdown-result.n{color:#e53935}
+
+/* PRINT CERTIFICATE */
+@media print{
+  body{background:#fff}
+  .card{box-shadow:none;border:2px dashed #0054a6}
+  #intro,#quiz{display:none!important}
+  #result{display:block!important}
+  .action-btns{display:none}
+}
+
+/* RESPONSIVE */
+@media(max-width:520px){
+  .card{padding:28px 20px}
+  #intro h1{font-size:1.9rem}
+  .q-text{font-size:1.2rem}
+}
+</style>
+</head>
+<body>
+<div class="site-header">
+  <a href="index.html">← Back to Clarence Gets a Bargain</a>
+  <span class="brand">Clarence Gets a Bargain</span>
+</div>
+
+<div class="card">
+
+  <!-- INTRO -->
+  <div id="intro">
+    <img src="forsite/clarence_point.png" class="clarence-img" alt="Clarence pointing">
+    <h1>Smart Shopper<br>Score Quiz</h1>
+    <p class="sub">5 questions. Real money skills.<br>Find out if you've got what it takes to shop like Clarence.</p>
+    <div class="age-tag"><span class="scissors">✂</span> Ages 6–10 &bull; Grades 1–5 &bull; Financial Literacy Month Edition</div>
+    <br>
+    <button class="start-btn" onclick="startQuiz()">Take the Quiz ✂</button>
+  </div>
+
+  <!-- QUIZ -->
+  <div id="quiz">
+    <div class="progress-wrap">
+      <div class="progress-top">
+        <span class="progress-label">Question</span>
+        <span class="progress-count" id="prog-count">1 of 5</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="prog-fill" style="width:0%"></div></div>
+    </div>
+    <div class="q-icon" id="q-icon"></div>
+    <div class="q-text" id="q-text"></div>
+    <div class="options" id="options"></div>
+    <div class="feedback" id="feedback"></div>
+    <button class="next-btn" id="next-btn" onclick="nextQuestion()">Next Question →</button>
+  </div>
+
+  <!-- RESULT -->
+  <div id="result">
+    <div class="score-ring">
+      <svg viewBox="0 0 160 160" width="160" height="160">
+        <circle class="track" cx="80" cy="80" r="64"/>
+        <circle class="fill" id="ring-fill" cx="80" cy="80" r="64" stroke-dasharray="402" stroke-dashoffset="402"/>
+      </svg>
+      <div class="label">
+        <span class="num" id="result-num">0</span>
+        <span class="denom">out of 5</span>
+      </div>
+    </div>
+    <div class="result-title" id="result-title"></div>
+    <div class="result-subtitle" id="result-subtitle"></div>
+    <div class="result-badge">
+      <div class="badge-title" id="badge-title"></div>
+      <div class="badge-sub">Clarence Gets a Bargain &bull; clarencegetsabargain.com</div>
+    </div>
+    <div class="action-btns">
+      <button class="action-btn primary" onclick="downloadBadge()">📥 Download My Badge</button>
+      <button class="action-btn secondary" onclick="shareScore()">📤 Share My Score</button>
+      <button class="action-btn secondary" onclick="retakeQuiz()">↺ Retake Quiz</button>
+    </div>
+    <div class="score-breakdown">
+      <h4>Your Answers</h4>
+      <div id="breakdown"></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+const questions = [
+  {
+    icon: "💰",
+    text: "Clarence has $20. Robot A costs $19.99. Robot B does the same thing and costs $12.99. Which should he buy?",
+    options: ["Robot A — it must be better if it costs more","Robot B — same features, $7 more in his pocket","Neither — save all the money","Ask Mom to buy the expensive one"],
+    correct: 1,
+    feedback: {
+      correct: "🎉 Smart! Same features, less money spent = a better deal. The price tag doesn't decide the value — YOU do.",
+      wrong: "Price ≠ quality. Robot B does the same job for $7 less. That's $7 Clarence keeps in his pocket. Always compare before you buy!"
+    }
+  },
+  {
+    icon: "🏷️",
+    text: "Clarence spots a robot on the clearance rack. The tag says 'Was $24 — 50% OFF.' What does he pay?",
+    options: ["$24","$14","$12","$6"],
+    correct: 2,
+    feedback: {
+      correct: "✂️ Correct! 50% of $24 = $12. Clearance tags are treasure maps if you know the math!",
+      wrong: "50% off means half price. 50% of $24 = $12. Pro tip: clearance aisles are treasure maps in disguise!"
+    }
+  },
+  {
+    icon: "📋",
+    text: "Before leaving for Sea-Mart, Clarence does his 'shopping homework.' What does that mean?",
+    options: ["He watches TV to relax first","He reads sale ads, checks coupons, and compares prices","He memorizes the store layout","He asks his friends what to buy"],
+    correct: 1,
+    feedback: {
+      correct: "📚 That's it! Research before spending = a smart shopper. Walking into a store without homework is like taking a test without studying.",
+      wrong: "Shopping homework = reading the sale ads, finding coupons, and comparing prices BEFORE you go. Preparation is the first money skill!"
+    }
+  },
+  {
+    icon: "🎯",
+    text: "What is the difference between a 'want' and a 'need'?",
+    options: [
+      "There is no difference — if you want it, you need it",
+      "Needs are things required to live (food, shelter). Wants are extras you'd like but could live without",
+      "Needs cost more money than wants",
+      "Wants are things kids want. Needs are things adults need"
+    ],
+    correct: 1,
+    feedback: {
+      correct: "🎯 Nailed it! Needs keep you alive and safe. Wants are nice extras. Knowing the difference is the HARDEST — and most important — money skill.",
+      wrong: "Needs = things you require to live (food, shelter, clothing for warmth). Wants = things that are nice to have but you could live without. It's the hardest money lesson — but the most powerful!"
+    }
+  },
+  {
+    icon: "✂️",
+    text: "Clarence finds a coupon for 10% off any robot. The robot costs $15. How much does he save?",
+    options: ["$1.00","$1.50","$5.00","$10.00"],
+    correct: 1,
+    feedback: {
+      correct: "✂️ Perfect! 10% of $15 = $1.50 saved. Coupons add up fast. Present it like Clarence — like a tiny lawyer with evidence!",
+      wrong: "10% of $15 = $1.50. To find 10%, move the decimal one place left: 15.00 → 1.50. Small savings compound into big wins!"
+    }
+  }
+];
+
+let current = 0;
+let score = 0;
+let answers = [];
+let answered = false;
+
+function startQuiz(){
+  document.getElementById('intro').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  showQuestion();
+}
+
+function showQuestion(){
+  answered = false;
+  const q = questions[current];
+  document.getElementById('q-icon').textContent = q.icon;
+  document.getElementById('q-text').textContent = q.text;
+  document.getElementById('prog-count').textContent = (current+1)+' of '+questions.length;
+  document.getElementById('prog-fill').style.width = (current/questions.length*100)+'%';
+  const fb = document.getElementById('feedback');
+  fb.style.display='none'; fb.className='feedback';
+  document.getElementById('next-btn').style.display='none';
+  const opts = document.getElementById('options');
+  opts.innerHTML='';
+  q.options.forEach((o,i)=>{
+    const btn=document.createElement('button');
+    btn.className='opt'; btn.textContent=o;
+    btn.onclick=()=>selectAnswer(i);
+    opts.appendChild(btn);
+  });
+}
+
+function selectAnswer(i){
+  if(answered) return;
+  answered=true;
+  const q=questions[current];
+  const opts=document.querySelectorAll('.opt');
+  opts.forEach(o=>o.classList.add('disabled'));
+  const correct = i===q.correct;
+  if(correct){score++; opts[i].classList.add('correct');}
+  else{opts[i].classList.add('wrong'); opts[q.correct].classList.add('show-correct');}
+  answers.push({question:q.text,selected:i,correct:q.correct,isCorrect:correct,icon:q.icon});
+  const fb=document.getElementById('feedback');
+  fb.className='feedback '+(correct?'correct':'wrong');
+  fb.textContent=correct?q.feedback.correct:q.feedback.wrong;
+  fb.style.display='block';
+  const nb=document.getElementById('next-btn');
+  nb.style.display='block';
+  nb.textContent = current===questions.length-1 ? 'See My Score →' : 'Next Question →';
+}
+
+function nextQuestion(){
+  current++;
+  if(current>=questions.length){showResult(); return;}
+  showQuestion();
+}
+
+function showResult(){
+  document.getElementById('quiz').style.display='none';
+  const res=document.getElementById('result');
+  res.style.display='block';
+  document.getElementById('result-num').textContent=score;
+  const pct=score/questions.length;
+  const tiers=[
+    {min:0,title:"Apprentice Shopper",sub:"Good start! Every smart shopper begins somewhere. Read Clarence Gets a Bargain to level up your money skills!",badge:"🌱 Apprentice Shopper",color:"#e53935"},
+    {min:.4,title:"Bargain Explorer",sub:"You're getting there! You know the basics. Keep reading and those money skills will sharpen fast.",badge:"🔍 Bargain Explorer",color:"#ff9800"},
+    {min:.6,title:"Deal Detective",sub:"Nice work! You've got solid money instincts. Clarence would approve of your shopping skills.",badge:"🕵️ Deal Detective",color:"#0054a6"},
+    {min:.8,title:"Smart Shopper",sub:"Impressive! You think about money the smart way. You'd crush it at Sea-Mart.",badge:"⭐ Smart Shopper",color:"#0054a6"},
+    {min:1,title:"Bargain Legend",sub:"PERFECT SCORE! You shop like Clarence himself. You are the coupon whisperer, the clearance oracle, the deal ninja.",badge:"🏆 Bargain Legend — Perfect Score!",color:"#ff6b2b"}
+  ];
+  let tier=tiers[0];
+  tiers.forEach(t=>{ if(pct>=t.min) tier=t; });
+  document.getElementById('result-title').textContent=tier.title;
+  document.getElementById('result-subtitle').textContent=tier.sub;
+  document.getElementById('badge-title').textContent=tier.badge;
+  const fill=document.getElementById('ring-fill');
+  fill.style.stroke=tier.color;
+  const num=document.getElementById('result-num');
+  num.style.color=tier.color;
+  setTimeout(()=>{
+    const offset=402-(402*(score/questions.length));
+    fill.style.strokeDashoffset=offset;
+  },100);
+  const bd=document.getElementById('breakdown');
+  bd.innerHTML=answers.map(a=>`
+    <div class="breakdown-item">
+      <div class="breakdown-icon">${a.icon}</div>
+      <div class="breakdown-text">${a.question.substring(0,60)}...</div>
+      <div class="breakdown-result ${a.isCorrect?'y':'n'}">${a.isCorrect?'✓':'✗'}</div>
+    </div>`).join('');
+}
+
+function retakeQuiz(){
+  current=0; score=0; answers=[]; answered=false;
+  document.getElementById('result').style.display='none';
+  document.getElementById('intro').style.display='block';
+}
+
+function downloadBadge(){
+  const canvas=document.createElement('canvas');
+  canvas.width=1080; canvas.height=1080;
+  const ctx=canvas.getContext('2d');
+  // Background
+  ctx.fillStyle='#0054a6';
+  ctx.fillRect(0,0,1080,1080);
+  // Cream card
+  ctx.fillStyle='#f5ecd7';
+  ctx.roundRect(80,80,920,920,40);
+  ctx.fill();
+  // Dashed border
+  ctx.strokeStyle='#ff6b2b';
+  ctx.lineWidth=6;
+  ctx.setLineDash([20,12]);
+  ctx.roundRect(100,100,880,880,30);
+  ctx.stroke();
+  ctx.setLineDash([]);
+  // Title
+  ctx.fillStyle='#0054a6';
+  ctx.font='bold 72px serif';
+  ctx.textAlign='center';
+  ctx.fillText('Smart Shopper',540,250);
+  ctx.fillText('Score Quiz',540,340);
+  // Score
+  ctx.fillStyle='#ff6b2b';
+  ctx.font='bold 200px serif';
+  ctx.fillText(score+'/5',540,590);
+  // Badge title
+  const bd=document.getElementById('badge-title').textContent;
+  ctx.fillStyle='#0054a6';
+  ctx.font='bold 48px serif';
+  ctx.fillText(bd,540,700);
+  // Branding
+  ctx.fillStyle='#888';
+  ctx.font='32px serif';
+  ctx.fillText('Clarence Gets a Bargain',540,800);
+  ctx.fillText('clarencegetsabargain.com',540,850);
+  // Financial literacy
+  ctx.fillStyle='#ff6b2b';
+  ctx.font='bold 26px serif';
+  ctx.fillText('Financial Literacy Month 2026',540,930);
+  const a=document.createElement('a');
+  a.download='smart-shopper-score.png';
+  a.href=canvas.toDataURL('image/png');
+  a.click();
+}
+
+function shareScore(){
+  const text=`I scored ${score}/5 on the Smart Shopper Score Quiz! 🛒 Test your money skills at clarencegetsabargain.com #ClarenceGetsABargain #FinancialLiteracyMonth`;
+  if(navigator.share){navigator.share({title:'My Smart Shopper Score',text:text,url:'https://clarencegetsabargain.com/quiz.html'});}
+  else{navigator.clipboard.writeText(text).then(()=>alert('Score copied to clipboard! Paste it anywhere. 📋'));}
+}
+</script>
+</body>
+</html>

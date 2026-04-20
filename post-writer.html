@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Post Writer | Clarence Gets a Bargain</title>
+<style>
+@font-face{font-family:'Hold';src:url('fonts/Hold.woff2') format('woff2'),url('fonts/Hold.woff') format('woff')}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--blue:#0054a6;--orange:#ff6b2b;--gold:#ffe066;--cream:#f5ecd7}
+body{font-family:'Inter',sans-serif;background:#0a0a0a;color:#e8e8e8;min-height:100vh}
+.site-header{background:#111;border-bottom:2px solid #ff6b2b;padding:14px 30px;display:flex;justify-content:space-between;align-items:center}
+.site-header a{color:#ccc;text-decoration:none;font-size:.8rem;font-weight:600}
+.site-header a:hover{color:#ff6b2b}
+.brand{font-family:'Hold',sans-serif;color:#fff;font-size:1rem}
+.hero{background:linear-gradient(135deg,#0054a6,#003d7a);padding:50px 30px;text-align:center}
+.hero h1{font-family:'Hold',sans-serif;font-size:2.2rem;color:#fff;margin-bottom:8px}
+.hero p{color:rgba(255,255,255,.8);font-size:.95rem;max-width:580px;margin:0 auto}
+.container{max-width:960px;margin:0 auto;padding:40px 24px}
+.grid{display:grid;grid-template-columns:380px 1fr;gap:28px}
+@media(max-width:760px){.grid{grid-template-columns:1fr}}
+
+/* PANEL */
+.panel{background:#161616;border:1px solid #222;border-radius:20px;padding:28px 24px}
+.panel h2{font-family:'Hold',sans-serif;color:#fff;font-size:1.2rem;margin-bottom:4px}
+.panel .sub{color:#888;font-size:.78rem;margin-bottom:24px}
+
+/* API KEY */
+.api-section{background:#1a1a0a;border:1px solid #333;border-radius:12px;padding:16px 18px;margin-bottom:20px}
+.api-section h4{color:#ffe066;font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px}
+.api-row{display:flex;gap:8px}
+.api-input{flex:1;background:#111;border:1px solid #333;border-radius:8px;padding:10px 14px;color:#fff;font-size:.82rem;font-family:'Inter',sans-serif;outline:none}
+.api-input:focus{border-color:var(--orange)}
+.api-save{background:#333;color:#ccc;border:none;border-radius:8px;padding:10px 14px;cursor:pointer;font-size:.78rem;font-weight:700;white-space:nowrap}
+.api-save:hover{background:#444;color:#fff}
+.api-note{font-size:.7rem;color:#666;margin-top:6px}
+.api-note a{color:#4da6ff}
+
+/* FORM ELEMENTS */
+.form-group{margin-bottom:16px}
+.form-label{font-size:.75rem;font-weight:800;color:#888;text-transform:uppercase;letter-spacing:1px;display:block;margin-bottom:6px}
+select,textarea{width:100%;background:#111;border:1px solid #2a2a2a;border-radius:10px;color:#e8e8e8;font-family:'Inter',sans-serif;font-size:.88rem;outline:none;transition:border-color .2s}
+select{padding:11px 14px;cursor:pointer}
+select:focus{border-color:var(--orange)}
+textarea{padding:12px 14px;resize:vertical}
+textarea:focus{border-color:var(--orange)}
+
+/* CHIP SELECTORS */
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{padding:7px 14px;border:1.5px solid #2a2a2a;border-radius:50px;font-size:.75rem;font-weight:700;cursor:pointer;background:#111;color:#888;transition:all .2s}
+.chip:hover{border-color:#888;color:#ccc}
+.chip.active{border-color:var(--orange);background:rgba(255,107,43,.12);color:var(--orange)}
+
+/* GENERATE BTN */
+.gen-btn{width:100%;background:var(--orange);color:#fff;border:none;padding:16px;border-radius:50px;font-family:'Hold',sans-serif;font-size:1.1rem;cursor:pointer;transition:all .3s;box-shadow:0 4px 16px rgba(255,107,43,.3);margin-top:8px;display:flex;align-items:center;justify-content:center;gap:10px}
+.gen-btn:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 8px 24px rgba(255,107,43,.5)}
+.gen-btn:disabled{opacity:.5;cursor:not-allowed;transform:none}
+.spinner{width:20px;height:20px;border:2.5px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;display:none}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* OUTPUT */
+.output-panel{display:flex;flex-direction:column;gap:20px}
+.output-card{background:#161616;border:1px solid #222;border-radius:16px;overflow:hidden}
+.output-header{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid #222;background:#1a1a1a}
+.output-header h3{font-size:.82rem;font-weight:800;color:#fff;text-transform:uppercase;letter-spacing:1px}
+.output-actions{display:flex;gap:6px}
+.copy-btn{padding:6px 14px;border-radius:50px;font-size:.7rem;font-weight:700;cursor:pointer;border:none;background:#2a2a2a;color:#ccc;transition:all .2s}
+.copy-btn:hover{background:#333;color:#fff}
+.copy-btn.copied{background:#2e7d32;color:#fff}
+.output-body{padding:18px;font-size:.9rem;line-height:1.8;color:#ddd;white-space:pre-wrap;min-height:120px}
+.output-body.empty{color:#555;font-style:italic}
+.hashtag-row{display:flex;flex-wrap:wrap;gap:6px;padding:12px 18px;border-top:1px solid #1a1a1a;background:#111}
+.hashtag-chip{background:#1a1a2e;color:#4da6ff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:50px}
+
+/* PLACEHOLDER STATE */
+.placeholder-state{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 30px;text-align:center;color:#444;gap:12px}
+.placeholder-state .icon{font-size:3rem;opacity:.5}
+.placeholder-state p{font-size:.88rem;line-height:1.6}
+
+/* HISTORY */
+.history-item{background:#161616;border:1px solid #1a1a1a;border-radius:10px;padding:12px 14px;cursor:pointer;transition:border-color .2s;font-size:.8rem;color:#888}
+.history-item:hover{border-color:#333;color:#ccc}
+.history-item strong{color:#fff;display:block;margin-bottom:2px}
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <a href="index.html">← Back to Site</a>
+  <span class="brand">AI Post Writer</span>
+</div>
+
+<div class="hero">
+  <h1>AI-Powered Post Writer</h1>
+  <p>Generate custom, on-brand social posts for any audience, any platform, any week of the campaign — powered by Claude AI.</p>
+</div>
+
+<div class="container">
+  <div class="grid">
+
+    <!-- CONTROLS -->
+    <div>
+      <!-- API KEY -->
+      <div class="panel" style="margin-bottom:20px">
+        <h2>Setup</h2>
+        <p class="sub">Powered by Claude (Anthropic)</p>
+        <div class="api-section">
+          <h4>🔑 Anthropic API Key</h4>
+          <div class="api-row">
+            <input type="password" class="api-input" id="api-key" placeholder="sk-ant-..." oninput="checkKey()">
+            <button class="api-save" onclick="saveKey()">Save</button>
+          </div>
+          <p class="api-note">Your key is saved locally in your browser. Get one at <a href="https://console.anthropic.com" target="_blank">console.anthropic.com</a></p>
+        </div>
+        <div id="key-status" style="font-size:.75rem;color:#666;padding:4px 0"></div>
+      </div>
+
+      <!-- POST SETTINGS -->
+      <div class="panel">
+        <h2>Post Settings</h2>
+        <p class="sub">Customize your post below</p>
+
+        <div class="form-group">
+          <label class="form-label">Platform</label>
+          <div class="chips" id="platform-chips">
+            <div class="chip active" onclick="setChip(this,'platform','Facebook')">Facebook</div>
+            <div class="chip" onclick="setChip(this,'platform','Instagram')">Instagram</div>
+            <div class="chip" onclick="setChip(this,'platform','LinkedIn')">LinkedIn</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Writing For</label>
+          <div class="chips" id="audience-chips">
+            <div class="chip active" onclick="setChip(this,'audience','Parents (Ages 28–45)')">Parents</div>
+            <div class="chip" onclick="setChip(this,'audience','K–5 Educators & Teachers')">Educators</div>
+            <div class="chip" onclick="setChip(this,'audience','Gift-givers (grandparents, aunts/uncles)')">Gift-Givers</div>
+            <div class="chip" onclick="setChip(this,'audience','LinkedIn thought leaders and founders')">LinkedIn Crowd</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Campaign Week / Theme</label>
+          <select id="theme-select">
+            <option value="The Hook — announce Clarence, Financial Literacy Month, awareness">Week 1: The Hook</option>
+            <option value="Social Proof — feature reviews and educator endorsements">Week 2: The Proof</option>
+            <option value="Education — teach one specific money skill from the book">Week 3: The Education</option>
+            <option value="The Close — urgency, gift angle, final call to action">Week 4: The Close</option>
+            <option value="Wants vs Needs — the key concept from the book">Concept: Wants vs. Needs</option>
+            <option value="Comparison Shopping and doing shopping homework">Concept: Comparison Shopping</option>
+            <option value="Coupons, clearance deals, and smart deal finding">Concept: Coupons & Clearance</option>
+            <option value="529 college savings accounts and long-term saving">Concept: 529 Savings</option>
+            <option value="Educator bulk orders, free classroom resources, Title I alignment">Educator: Bulk Orders</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Tone</label>
+          <div class="chips" id="tone-chips">
+            <div class="chip active" onclick="setChip(this,'tone','Witty and warm')">Witty & Warm</div>
+            <div class="chip" onclick="setChip(this,'tone','Punchy and bold')">Punchy & Bold</div>
+            <div class="chip" onclick="setChip(this,'tone','Heartfelt and emotional')">Heartfelt</div>
+            <div class="chip" onclick="setChip(this,'tone','Professional thought-leadership LinkedIn broetry')">LinkedIn Bro</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Special Instructions (optional)</label>
+          <textarea id="instructions" rows="3" placeholder="e.g. 'Include the Josie age-10 quote' or 'Make it funny' or 'Focus on the 529 savings angle'..."></textarea>
+        </div>
+
+        <button class="gen-btn" id="gen-btn" onclick="generatePost()">
+          <span id="btn-text">✨ Generate Post</span>
+          <div class="spinner" id="spinner"></div>
+        </button>
+      </div>
+    </div>
+
+    <!-- OUTPUT -->
+    <div class="output-panel" id="output-panel">
+      <div id="placeholder-state" class="output-card">
+        <div class="placeholder-state">
+          <div class="icon">✍️</div>
+          <p>Your generated post will appear here.<br>Select your options and click <strong style="color:#ff6b2b">Generate Post</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const BOOK_CONTEXT = `You are a social media copywriter for "Clarence Gets a Bargain," a children's financial literacy book by Jonathan Bach (attorney, artist, recovering coupon addict).
+
+BOOK FACTS:
+- 36 pages, full color, $14.99, Ages 6–10, Grades 1–5, Lexile AD 620L
+- Character: Clarence, a young boy who earns a robot reward (called RoBimmie) for good grades and chores, then does "shopping homework" before going to Sea-Mart
+- 6 money skills taught: Budgeting, Comparison Shopping, Coupons & Clearance, Wants vs. Needs, Receipts & Records, 529 College Savings
+- "Wants vs. Needs" must ALWAYS be bold/italic when mentioned in context — it's the core FLAC concept
+- Available at clarencegetsabargain.com, Barnes & Noble, IndieBound
+
+REVIEWS:
+- Maryann Milewski Moskal (Veteran Educator, 30+ Years K–5): "An absolute masterclass in early-stage financial literacy."
+- Wally Luckeydoo, Ed.D. (Award-Winning Educator, Jump$tart Award Winner): "I love the hands-on moments like using the coupon at the register."
+- 3rd Grade Teacher (NJ): "My students fought over who got to hold the book during read-aloud. Fought. Over a book about money."
+- Josie K., Age 10: "It taught me how to get sales to save money, which made me feel more grown-up and smart."
+
+AUTHOR: Jonathan Bach — attorney by day, artist by night, recovering coupon addict. Once negotiated $300 shoes down to $0.01 (one cent). Motivation: Nobody taught him about money at age 7, learned through overdraft fees and "free money" credit cards.
+
+FREE EDUCATOR RESOURCES: lesson plans (Jump$tart, CCSS, CEE, FDIC aligned), discussion guides, assessment worksheets, family activities, Smart Shopper Challenge Quiz
+
+TAGLINES: "Story first. Money smarts sneak in." / "KID LIT IS A HIT! KID FIN IS A WIN!" / "Now go get a bargain."
+
+CAMPAIGN THEME: April = Financial Literacy Month. Schools are buzzing with money lessons.`;
+
+let selections = {platform:'Facebook', audience:'Parents (Ages 28–45)', tone:'Witty and warm'};
+
+function setChip(el, type, val){
+  el.closest('.chips').querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
+  el.classList.add('active');
+  selections[type] = val;
+}
+
+function saveKey(){
+  const key = document.getElementById('api-key').value.trim();
+  if(key){ localStorage.setItem('anthropic_key', key); showKeyStatus('✓ Key saved locally', '#43a047'); }
+}
+
+function checkKey(){
+  const k = localStorage.getItem('anthropic_key');
+  if(k) showKeyStatus('✓ API key loaded', '#43a047');
+}
+
+function showKeyStatus(msg, color){
+  const el = document.getElementById('key-status');
+  el.textContent = msg; el.style.color = color;
+}
+
+async function generatePost(){
+  const apiKey = document.getElementById('api-key').value.trim() || localStorage.getItem('anthropic_key');
+  if(!apiKey){ alert('Please enter your Anthropic API key first.'); return; }
+
+  const platform = selections.platform || 'Facebook';
+  const audience = selections.audience || 'Parents';
+  const tone = selections.tone || 'Witty and warm';
+  const theme = document.getElementById('theme-select').value;
+  const instructions = document.getElementById('instructions').value.trim();
+
+  const btn = document.getElementById('gen-btn');
+  const spinner = document.getElementById('spinner');
+  const btnText = document.getElementById('btn-text');
+  btn.disabled = true; spinner.style.display = 'block'; btnText.textContent = 'Generating...';
+
+  const prompt = `${BOOK_CONTEXT}
+
+TASK: Write a ${platform} post for the following:
+- Target Audience: ${audience}
+- Campaign Theme: ${theme}
+- Tone: ${tone}
+${instructions ? '- Special Instructions: ' + instructions : ''}
+
+REQUIREMENTS:
+- Platform: ${platform}
+${platform === 'Instagram' ? '- Keep caption under 220 words. Punchy. End with 15-20 relevant hashtags.' : ''}
+${platform === 'Facebook' ? '- 150-280 words. Can be longer. Conversational. Include a question to drive engagement.' : ''}
+${platform === 'LinkedIn' ? '- Use broetry formatting (short lines). Hook in first 2 lines. Numbered insights work well. End with a question. Reference AI or frameworks if the LinkedIn crowd tone is set.' : ''}
+- Include a clear call to action with clarencegetsabargain.com
+- Match the book\'s voice: witty, warm, never boring, never preachy
+- Do NOT use generic marketing language
+- Return ONLY the post copy (no explanations, no preamble)
+- After the post copy, on a new line starting with "HASHTAGS:", list 8-12 relevant hashtags`;
+
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': apiKey,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 1024,
+        messages: [{role:'user', content: prompt}]
+      })
+    });
+
+    if(!res.ok){
+      const err = await res.json();
+      throw new Error(err.error?.message || 'API error: ' + res.status);
+    }
+
+    const data = await res.json();
+    const text = data.content[0].text;
+    const [postBody, hashtagPart] = text.split(/HASHTAGS:/i);
+    displayResult(platform, audience, theme, postBody.trim(), hashtagPart ? hashtagPart.trim() : '', tone);
+    saveToHistory(platform, theme, postBody.trim());
+
+  } catch(e){
+    alert('Error: ' + e.message + '\n\nCheck your API key and try again.');
+  } finally {
+    btn.disabled=false; spinner.style.display='none'; btnText.textContent='✨ Generate Post';
+  }
+}
+
+function displayResult(platform, audience, theme, body, hashtags, tone){
+  const ph = document.getElementById('placeholder-state');
+  if(ph) ph.style.display = 'none';
+
+  const platformColors = {Facebook:'#1877f2', Instagram:'linear-gradient(135deg,#f09433,#dc2743)', LinkedIn:'#0077b5'};
+  const platformEmojis = {Facebook:'📘', Instagram:'📸', LinkedIn:'💼'};
+
+  const card = document.createElement('div');
+  card.className = 'output-card';
+  card.innerHTML = `
+    <div class="output-header">
+      <h3>${platformEmojis[platform]||'📝'} ${platform} · ${tone}</h3>
+      <div class="output-actions">
+        <button class="copy-btn" onclick="copyPost(this)">Copy Post</button>
+        <button class="copy-btn" onclick="this.closest('.output-card').remove()">✕</button>
+      </div>
+    </div>
+    <div class="output-body">${escHtml(body)}</div>
+    ${hashtags ? `<div class="hashtag-row">${hashtags.replace(/#\S+/g, m=>`<span class="hashtag-chip">${m}</span>`)}</div>` : ''}
+  `;
+  const panel = document.getElementById('output-panel');
+  panel.insertBefore(card, panel.firstChild);
+}
+
+function escHtml(t){return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,'<br>');}
+
+function copyPost(btn){
+  const body = btn.closest('.output-card').querySelector('.output-body');
+  const text = body.innerText;
+  navigator.clipboard.writeText(text).then(()=>{
+    btn.textContent='Copied!'; btn.classList.add('copied');
+    setTimeout(()=>{btn.textContent='Copy Post'; btn.classList.remove('copied');},2000);
+  });
+}
+
+function saveToHistory(platform, theme, body){
+  const history = JSON.parse(localStorage.getItem('post_history')||'[]');
+  history.unshift({platform, theme:theme.split('—')[0].trim(), preview:body.substring(0,80)+'...', ts:Date.now()});
+  if(history.length>10) history.pop();
+  localStorage.setItem('post_history', JSON.stringify(history));
+}
+
+window.onload=()=>{
+  const k=localStorage.getItem('anthropic_key');
+  if(k){document.getElementById('api-key').value=k; showKeyStatus('✓ API key loaded','#43a047');}
+};
+</script>
+</body>
+</html>

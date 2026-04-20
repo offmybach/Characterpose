@@ -4212,3 +4212,184 @@ function toggleLang(){
 </script>
 </body>
 </html>
+
+<!-- ============================================================ -->
+<!-- FINANCIAL LITERACY MONTH BANNER + EXIT POPUP + TOOLS BAR     -->
+<!-- ============================================================ -->
+<style>
+/* FLM BANNER */
+#flm-banner{position:fixed;bottom:0;left:0;right:0;z-index:9000;background:linear-gradient(90deg,#0054a6 0%,#003d7a 40%,#ff6b2b 100%);padding:0;transform:translateY(100%);transition:transform .5s cubic-bezier(.4,0,.2,1);box-shadow:0 -4px 20px rgba(0,0,0,.3)}
+#flm-banner.visible{transform:translateY(0)}
+.flm-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;gap:16px;flex-wrap:wrap}
+.flm-left{display:flex;align-items:center;gap:12px}
+.flm-badge{background:#ffe066;color:#0054a6;font-size:.62rem;font-weight:900;padding:4px 12px;border-radius:50px;text-transform:uppercase;letter-spacing:1.5px;white-space:nowrap;flex-shrink:0}
+.flm-text{color:#fff;font-size:.82rem;font-weight:600}
+.flm-text strong{color:#ffe066}
+.flm-actions{display:flex;gap:8px;flex-shrink:0;flex-wrap:wrap}
+.flm-btn{padding:8px 18px;border-radius:50px;font-family:'Hold','Nunito',sans-serif;font-size:.78rem;border:none;cursor:pointer;transition:all .2s;text-decoration:none;display:inline-block}
+.flm-btn.primary{background:#ff6b2b;color:#fff}
+.flm-btn.primary:hover{background:#e55000}
+.flm-btn.ghost{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.3)}
+.flm-btn.ghost:hover{background:rgba(255,255,255,.25)}
+.flm-close{background:none;border:none;color:rgba(255,255,255,.6);font-size:1.1rem;cursor:pointer;padding:4px 8px;flex-shrink:0}
+.flm-close:hover{color:#fff}
+
+/* TOOLS FLOATING BAR */
+#tools-bar{position:fixed;right:20px;bottom:80px;z-index:8500;display:flex;flex-direction:column;gap:8px;transition:bottom .5s cubic-bezier(.4,0,.2,1)}
+#tools-bar.banner-gone{bottom:20px}
+.tools-btn{background:#0054a6;color:#fff;border:none;border-radius:50px;padding:10px 16px;font-family:'Hold','Nunito',sans-serif;font-size:.72rem;cursor:pointer;box-shadow:0 4px 16px rgba(0,84,166,.4);transition:all .2s;display:flex;align-items:center;gap:6px;white-space:nowrap;text-decoration:none}
+.tools-btn:hover{transform:translateX(-3px);box-shadow:0 6px 20px rgba(0,84,166,.5);background:#003d7a}
+.tools-btn.orange{background:#ff6b2b;box-shadow:0 4px 16px rgba(255,107,43,.4)}
+.tools-btn.orange:hover{background:#e55000;box-shadow:0 6px 20px rgba(255,107,43,.5)}
+@media(max-width:500px){#tools-bar{display:none}}
+
+/* EXIT POPUP */
+#exit-popup{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:20px}
+#exit-popup.visible{display:flex}
+.exit-overlay{position:absolute;inset:0;background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
+.exit-card{position:relative;z-index:1;background:#f5ecd7;border-radius:24px;padding:44px 40px 36px;max-width:520px;width:100%;text-align:center;border:5px dashed #ff6b2b;box-shadow:0 30px 80px rgba(0,0,0,.4);animation:popIn .35s cubic-bezier(.34,1.56,.64,1) both}
+@keyframes popIn{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:scale(1)}}
+.exit-scissors{position:absolute;top:-20px;left:20px;font-size:1.4rem;background:#f5ecd7;padding:0 6px;color:#ff6b2b}
+.exit-close{position:absolute;top:16px;right:16px;background:rgba(0,84,166,.1);border:2px solid #0054a6;border-radius:50%;width:32px;height:32px;font-size:1rem;color:#0054a6;cursor:pointer;display:flex;align-items:center;justify-content:center;font-weight:900;transition:all .2s}
+.exit-close:hover{background:#0054a6;color:#fff}
+.exit-clarence{width:100px;height:auto;margin:0 auto 16px;display:block;filter:drop-shadow(0 4px 10px rgba(0,84,166,.2))}
+.exit-card h2{font-family:'Hold','Nunito',sans-serif;font-size:1.7rem;color:#0054a6;margin-bottom:8px}
+.exit-card p{font-size:.9rem;color:#555;line-height:1.6;margin-bottom:20px}
+.exit-offer{background:#fff;border:2px dashed #0054a6;border-radius:12px;padding:14px 20px;margin-bottom:20px}
+.exit-offer .offer-label{font-size:.65rem;font-weight:900;color:#ff6b2b;text-transform:uppercase;letter-spacing:2px;margin-bottom:6px}
+.exit-offer .offer-items{display:flex;flex-direction:column;gap:4px;text-align:left}
+.exit-offer .offer-item{font-size:.8rem;color:#333;font-weight:600;display:flex;align-items:center;gap:6px}
+.exit-offer .offer-item::before{content:'✓';color:#43a047;font-weight:900}
+.exit-email-row{display:flex;gap:8px;margin-bottom:12px}
+.exit-email-input{flex:1;padding:12px 16px;border:2px solid #ddd;border-radius:50px;font-size:.85rem;font-family:'Inter',sans-serif;outline:none;transition:border-color .2s}
+.exit-email-input:focus{border-color:#0054a6}
+.exit-submit{background:#ff6b2b;color:#fff;border:none;border-radius:50px;padding:12px 20px;font-family:'Hold','Nunito',sans-serif;font-size:.85rem;cursor:pointer;white-space:nowrap;transition:all .2s}
+.exit-submit:hover{background:#e55000;transform:scale(1.03)}
+.exit-skip{font-size:.72rem;color:#999;cursor:pointer;text-decoration:underline;background:none;border:none}
+.exit-skip:hover{color:#555}
+.exit-success{display:none;text-align:center;padding:20px 0}
+.exit-success .success-icon{font-size:3rem;margin-bottom:12px}
+.exit-success h3{font-family:'Hold','Nunito',sans-serif;color:#0054a6;font-size:1.4rem;margin-bottom:8px}
+.exit-success p{color:#666;font-size:.88rem}
+</style>
+
+<!-- FLM BOTTOM BANNER -->
+<div id="flm-banner">
+  <div class="flm-inner">
+    <div class="flm-left">
+      <span class="flm-badge">✂ Financial Literacy Month</span>
+      <span class="flm-text"><strong>April is Financial Literacy Month.</strong> Get the free educator toolkit + explore all our tools.</span>
+    </div>
+    <div class="flm-actions">
+      <a href="quiz.html" class="flm-btn ghost">Take the Quiz</a>
+      <a href="badge-generator.html" class="flm-btn ghost">Make a Badge</a>
+      <a href="#buy" class="flm-btn primary" onclick="closeFLMBanner()">Get the Book — $14.99</a>
+    </div>
+    <button class="flm-close" onclick="closeFLMBanner()" aria-label="Close banner">✕</button>
+  </div>
+</div>
+
+<!-- FLOATING TOOLS BAR -->
+<div id="tools-bar">
+  <a href="quiz.html" class="tools-btn orange">🎯 Smart Shopper Quiz</a>
+  <a href="badge-generator.html" class="tools-btn">🏅 Make My Badge</a>
+  <a href="social-assets.html" class="tools-btn">📱 Social Assets</a>
+  <a href="post-writer.html" class="tools-btn">✍️ AI Post Writer</a>
+</div>
+
+<!-- EXIT INTENT POPUP -->
+<div id="exit-popup">
+  <div class="exit-overlay" onclick="closeExitPopup()"></div>
+  <div class="exit-card">
+    <span class="exit-scissors">✂</span>
+    <button class="exit-close" onclick="closeExitPopup()">✕</button>
+    <img src="forsite/clarence-arms.png" class="exit-clarence" alt="Clarence">
+    <h2>Wait — One Last Deal.</h2>
+    <p>Leave your email and get the full <strong>educator toolkit</strong> — lesson plans, discussion guides, assessment worksheets, and the Smart Shopper Quiz — completely free.</p>
+    <div class="exit-offer">
+      <div class="offer-label">✂ Free Educator Bundle (100% Off)</div>
+      <div class="offer-items">
+        <div class="offer-item">Lesson plans (Jump$tart, CCSS, CEE &amp; FDIC aligned)</div>
+        <div class="offer-item">Discussion guides — 3 depth levels</div>
+        <div class="offer-item">Assessment worksheets + printable certificates</div>
+        <div class="offer-item">Family activity sheets</div>
+      </div>
+    </div>
+    <div id="exit-form">
+      <div class="exit-email-row">
+        <input type="email" class="exit-email-input" id="exit-email" placeholder="your@email.com">
+        <button class="exit-submit" onclick="submitExitEmail()">Send Me the Toolkit →</button>
+      </div>
+      <button class="exit-skip" onclick="closeExitPopup()">No thanks, I'll pass on free stuff</button>
+    </div>
+    <div class="exit-success" id="exit-success">
+      <div class="success-icon">✉️</div>
+      <h3>You're In!</h3>
+      <p>Check your inbox. Your free educator toolkit is on its way.<br><strong>Now go get a bargain. ✂</strong></p>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── FLM BANNER ──────────────────────────────────────────────
+(function(){
+  setTimeout(function(){
+    var b=document.getElementById('flm-banner');
+    if(!sessionStorage.getItem('flm_dismissed')&&b) b.classList.add('visible');
+  },2500);
+})();
+function closeFLMBanner(){
+  var b=document.getElementById('flm-banner');
+  var tb=document.getElementById('tools-bar');
+  if(b) b.classList.remove('visible');
+  if(tb) tb.classList.add('banner-gone');
+  sessionStorage.setItem('flm_dismissed','1');
+}
+
+// ── EXIT INTENT ──────────────────────────────────────────────
+(function(){
+  var fired=false;
+  var dismissedKey='exit_popup_dismissed';
+  if(sessionStorage.getItem(dismissedKey)) return;
+  document.addEventListener('mouseleave',function(e){
+    if(fired||e.clientY>60) return;
+    fired=true;
+    setTimeout(function(){
+      var p=document.getElementById('exit-popup');
+      if(p&&!sessionStorage.getItem(dismissedKey)) p.classList.add('visible');
+    },300);
+  });
+  // Mobile: fire after 45s scroll
+  var mFired=false;
+  setTimeout(function(){
+    if(mFired||window.innerWidth>768) return;
+    mFired=true;
+    var p=document.getElementById('exit-popup');
+    if(p&&!sessionStorage.getItem(dismissedKey)) p.classList.add('visible');
+  },45000);
+})();
+
+function closeExitPopup(){
+  var p=document.getElementById('exit-popup');
+  if(p) p.classList.remove('visible');
+  sessionStorage.setItem('exit_popup_dismissed','1');
+}
+
+function submitExitEmail(){
+  var email=document.getElementById('exit-email').value.trim();
+  if(!email||!email.includes('@')){
+    document.getElementById('exit-email').style.borderColor='#e53935';
+    return;
+  }
+  // In production: POST to your email service (Mailchimp, ConvertKit, etc.)
+  console.log('Email captured:',email);
+  document.getElementById('exit-form').style.display='none';
+  document.getElementById('exit-success').style.display='block';
+  setTimeout(function(){closeExitPopup();},3500);
+}
+
+// ── ESCAPE KEY closes popup ───────────────────────────────────
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape') closeExitPopup();
+});
+</script>

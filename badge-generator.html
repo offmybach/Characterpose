@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>I Read Clarence! Badge Generator | Clarence Gets a Bargain</title>
+<style>
+@font-face{font-family:'Hold';src:url('fonts/Hold.woff2') format('woff2'),url('fonts/Hold.woff') format('woff')}
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--blue:#0054a6;--orange:#ff6b2b;--gold:#ffe066;--cream:#f5ecd7}
+body{font-family:'Inter',sans-serif;background:linear-gradient(135deg,#0054a6 0%,#003d7a 60%,#ff6b2b 100%);min-height:100vh;padding:20px;display:flex;flex-direction:column;align-items:center}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+
+.site-header{width:100%;max-width:1000px;display:flex;justify-content:space-between;align-items:center;margin-bottom:30px}
+.site-header a{color:rgba(255,255,255,.8);text-decoration:none;font-size:.8rem;font-weight:600;letter-spacing:1px}
+.brand{font-family:'Hold',sans-serif;color:#fff;font-size:1rem}
+
+.main{display:grid;grid-template-columns:1fr 1fr;gap:32px;max-width:1000px;width:100%}
+@media(max-width:700px){.main{grid-template-columns:1fr}}
+
+/* FORM PANEL */
+.panel{background:#fff;border-radius:24px;padding:36px 32px;box-shadow:0 20px 60px rgba(0,0,0,.25)}
+.panel h2{font-family:'Hold',sans-serif;color:var(--blue);font-size:1.6rem;margin-bottom:6px}
+.panel .sub{color:#888;font-size:.85rem;margin-bottom:28px}
+
+.form-group{margin-bottom:20px}
+label{display:block;font-weight:700;color:#333;font-size:.82rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px}
+input[type=text],select{width:100%;padding:12px 16px;border:2px solid #e0e0e0;border-radius:10px;font-size:.95rem;font-family:'Inter',sans-serif;transition:border-color .2s;outline:none}
+input[type=text]:focus,select:focus{border-color:var(--blue)}
+
+/* ROLE CHIPS */
+.role-chips{display:flex;flex-wrap:wrap;gap:8px}
+.role-chip{padding:8px 16px;border:2px solid #e0e0e0;border-radius:50px;font-size:.8rem;font-weight:700;cursor:pointer;transition:all .2s;background:#fff;color:#666}
+.role-chip.active{border-color:var(--orange);background:var(--cream);color:var(--orange)}
+
+/* CHARACTER PICKER */
+.char-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.char-option{border:2px solid #e0e0e0;border-radius:12px;padding:8px;cursor:pointer;transition:all .2s;text-align:center;background:#fafafa}
+.char-option:hover{border-color:var(--blue);background:#f0f6ff}
+.char-option.active{border-color:var(--orange);background:var(--cream)}
+.char-option img{width:100%;height:70px;object-fit:contain}
+.char-option span{font-size:.65rem;font-weight:700;color:#666;display:block;margin-top:4px}
+
+/* STYLE PICKER */
+.style-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.style-opt{border:2px solid #e0e0e0;border-radius:10px;padding:10px;cursor:pointer;transition:all .2s;text-align:center;font-size:.8rem;font-weight:700;color:#666}
+.style-opt:hover{border-color:var(--blue)}
+.style-opt.active{border-color:var(--orange);background:var(--cream);color:var(--blue)}
+.style-swatch{height:28px;border-radius:6px;margin-bottom:6px}
+
+.gen-btn{width:100%;background:var(--orange);color:#fff;border:none;padding:16px;border-radius:50px;font-family:'Hold',sans-serif;font-size:1.1rem;cursor:pointer;transition:all .3s;box-shadow:0 4px 16px rgba(255,107,43,.35);margin-top:8px}
+.gen-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(255,107,43,.5)}
+
+/* PREVIEW PANEL */
+.preview-panel{background:#1a1a1a;border-radius:24px;padding:32px;display:flex;flex-direction:column;align-items:center;gap:20px;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+.preview-panel h3{font-family:'Hold',sans-serif;color:#fff;font-size:1.1rem;letter-spacing:2px;text-transform:uppercase}
+.canvas-wrap{border-radius:16px;overflow:hidden;box-shadow:0 10px 40px rgba(0,0,0,.5);width:100%;aspect-ratio:1}
+canvas#badge{width:100%;height:auto;display:block}
+.dl-btns{display:flex;flex-direction:column;gap:10px;width:100%}
+.dl-btn{padding:13px;border-radius:50px;font-family:'Hold',sans-serif;font-size:.9rem;cursor:pointer;border:none;transition:all .3s;text-align:center}
+.dl-btn.primary{background:var(--orange);color:#fff}
+.dl-btn.primary:hover{background:#e55a1f}
+.dl-btn.secondary{background:#2a2a2a;color:#ccc;border:1px solid #333}
+.dl-btn.secondary:hover{background:#333;color:#fff}
+.size-note{font-size:.7rem;color:#666;text-align:center}
+</style>
+</head>
+<body>
+<div class="site-header">
+  <a href="index.html">← Back to Clarence Gets a Bargain</a>
+  <span class="brand">Badge Generator</span>
+</div>
+
+<div class="main">
+  <!-- FORM -->
+  <div class="panel">
+    <h2>Make Your Badge</h2>
+    <p class="sub">Generate a shareable "I Read Clarence!" badge in seconds. Download and post anywhere.</p>
+
+    <div class="form-group">
+      <label>Your Name</label>
+      <input type="text" id="name-input" placeholder="Type your name..." oninput="renderBadge()" maxlength="28">
+    </div>
+
+    <div class="form-group">
+      <label>I Am A...</label>
+      <div class="role-chips" id="role-chips">
+        <div class="role-chip active" onclick="setRole(this,'Kid Reader')">Kid Reader 📚</div>
+        <div class="role-chip" onclick="setRole(this,'Parent')">Parent 👨‍👩‍👧</div>
+        <div class="role-chip" onclick="setRole(this,'Teacher')">Teacher 🎓</div>
+        <div class="role-chip" onclick="setRole(this,'Librarian')">Librarian 📖</div>
+        <div class="role-chip" onclick="setRole(this,'Future Bargain Hunter')">Future Bargain Hunter ✂️</div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Choose Clarence</label>
+      <div class="char-grid" id="char-grid">
+        <div class="char-option active" onclick="setChar(this,'forsite/clarence_point.png')">
+          <img src="forsite/clarence_point.png" alt="Clarence pointing"><span>Pointing</span>
+        </div>
+        <div class="char-option" onclick="setChar(this,'forsite/clarence-arms.png')">
+          <img src="forsite/clarence-arms.png" alt="Clarence arms out"><span>Arms Out</span>
+        </div>
+        <div class="char-option" onclick="setChar(this,'forsite/clarence-laugh.png')">
+          <img src="forsite/clarence-laugh.png" alt="Clarence laughing"><span>Laughing</span>
+        </div>
+        <div class="char-option" onclick="setChar(this,'forsite/clarence-armsfoldedcrop.png')">
+          <img src="forsite/clarence-armsfoldedcrop.png" alt="Clarence confident"><span>Confident</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Badge Style</label>
+      <div class="style-grid" id="style-grid">
+        <div class="style-opt active" onclick="setStyle(this,'classic')">
+          <div class="style-swatch" style="background:linear-gradient(135deg,#f5ecd7,#ffe8cc)"></div>Classic Cream
+        </div>
+        <div class="style-opt" onclick="setStyle(this,'blue')">
+          <div class="style-swatch" style="background:linear-gradient(135deg,#0054a6,#003d7a)"></div>Power Blue
+        </div>
+        <div class="style-opt" onclick="setStyle(this,'orange')">
+          <div class="style-swatch" style="background:linear-gradient(135deg,#ff6b2b,#e55000)"></div>Orange Fire
+        </div>
+        <div class="style-opt" onclick="setStyle(this,'night')">
+          <div class="style-swatch" style="background:linear-gradient(135deg,#1a1a2e,#16213e)"></div>Night Mode
+        </div>
+      </div>
+    </div>
+
+    <button class="gen-btn" onclick="renderBadge()">✂ Generate My Badge</button>
+  </div>
+
+  <!-- PREVIEW -->
+  <div class="preview-panel">
+    <h3>Preview</h3>
+    <div class="canvas-wrap">
+      <canvas id="badge" width="1080" height="1080"></canvas>
+    </div>
+    <p class="size-note">1080×1080px — perfect for Instagram, Facebook & Twitter</p>
+    <div class="dl-btns">
+      <button class="dl-btn primary" onclick="downloadBadge('instagram')">📱 Download for Instagram (1080×1080)</button>
+      <button class="dl-btn secondary" onclick="downloadBadge('story')">📲 Download Story Version (1080×1920)</button>
+      <button class="dl-btn secondary" onclick="shareBadge()">📤 Share Badge</button>
+    </div>
+  </div>
+</div>
+
+<canvas id="badge-story" width="1080" height="1920" style="display:none"></canvas>
+
+<script>
+let selectedChar = 'forsite/clarence_point.png';
+let selectedRole = 'Kid Reader 📚';
+let selectedStyle = 'classic';
+const charImages = {};
+
+// Preload all character images
+['forsite/clarence_point.png','forsite/clarence-arms.png','forsite/clarence-laugh.png','forsite/clarence-armsfoldedcrop.png'].forEach(src=>{
+  const img = new Image();
+  img.src = src;
+  charImages[src] = img;
+});
+
+const styles = {
+  classic:{bg:'#f5ecd7',accent:'#0054a6',text:'#0054a6',sub:'#ff6b2b',border:'#ff6b2b',badgeBg:'#fff',nameColor:'#0054a6'},
+  blue:{bg:'#0054a6',accent:'#ffe066',text:'#fff',sub:'#ffe066',border:'#ffe066',badgeBg:'rgba(255,255,255,.12)',nameColor:'#ffe066'},
+  orange:{bg:'#ff6b2b',accent:'#fff',text:'#fff',sub:'#ffe066',border:'rgba(255,255,255,.6)',badgeBg:'rgba(255,255,255,.15)',nameColor:'#fff'},
+  night:{bg:'#1a1a2e',accent:'#4da6ff',text:'#fff',sub:'#ff6b2b',border:'#4da6ff',badgeBg:'rgba(255,255,255,.08)',nameColor:'#ffe066'}
+};
+
+function setRole(el, role){
+  document.querySelectorAll('.role-chip').forEach(c=>c.classList.remove('active'));
+  el.classList.add('active');
+  selectedRole = role;
+  renderBadge();
+}
+function setChar(el, src){
+  document.querySelectorAll('.char-option').forEach(c=>c.classList.remove('active'));
+  el.classList.add('active');
+  selectedChar = src;
+  renderBadge();
+}
+function setStyle(el, style){
+  document.querySelectorAll('.style-opt').forEach(s=>s.classList.remove('active'));
+  el.classList.add('active');
+  selectedStyle = style;
+  renderBadge();
+}
+
+function drawBadge(canvas, w, h){
+  const ctx = canvas.getContext('2d');
+  canvas.width = w; canvas.height = h;
+  const s = styles[selectedStyle];
+  const scale = w / 1080;
+  const cx = w / 2;
+
+  // Background
+  ctx.fillStyle = s.bg;
+  ctx.fillRect(0,0,w,h);
+
+  // Dashed border
+  const pad = 40*scale;
+  ctx.strokeStyle = s.border;
+  ctx.lineWidth = 8*scale;
+  ctx.setLineDash([24*scale, 14*scale]);
+  ctx.strokeRect(pad, pad, w-pad*2, h-pad*2);
+  ctx.setLineDash([]);
+
+  // Scissors decoration top-left
+  ctx.font = `${36*scale}px serif`;
+  ctx.fillStyle = s.sub;
+  ctx.textAlign = 'left';
+  ctx.fillText('✂', 60*scale, 80*scale);
+
+  // Financial Literacy Month badge
+  ctx.fillStyle = s.sub;
+  ctx.font = `bold ${22*scale}px 'Inter',sans-serif`;
+  ctx.textAlign = 'center';
+  ctx.fillText('FINANCIAL LITERACY MONTH 2026', cx, 120*scale);
+
+  // "I READ CLARENCE!" headline
+  ctx.fillStyle = s.text;
+  ctx.font = `900 ${h===1920?120:100}px serif`;
+  ctx.textAlign = 'center';
+  ctx.fillText('I READ', cx, 240*scale);
+  ctx.fillStyle = s.sub;
+  ctx.fillText('CLARENCE!', cx, 360*scale);
+
+  // Clarence character image
+  const img = charImages[selectedChar];
+  if(img && img.complete){
+    const imgH = 340*scale;
+    const imgW = imgH * (img.naturalWidth/img.naturalHeight);
+    ctx.drawImage(img, cx - imgW/2, 380*scale, imgW, imgH);
+  }
+
+  // Name plate
+  const namePlateY = h===1920 ? 860*scale : 760*scale;
+  const name = document.getElementById('name-input').value || 'Your Name Here';
+  ctx.fillStyle = s.badgeBg;
+  roundRect(ctx, cx-280*scale, namePlateY, 560*scale, 90*scale, 16*scale);
+  ctx.fill();
+  ctx.strokeStyle = s.border;
+  ctx.lineWidth = 3*scale;
+  ctx.setLineDash([12*scale, 8*scale]);
+  roundRect(ctx, cx-280*scale, namePlateY, 560*scale, 90*scale, 16*scale);
+  ctx.stroke();
+  ctx.setLineDash([]);
+  ctx.fillStyle = s.nameColor;
+  ctx.font = `bold ${46*scale}px serif`;
+  ctx.textAlign = 'center';
+  ctx.fillText(name, cx, namePlateY + 58*scale);
+
+  // Role
+  ctx.fillStyle = s.text;
+  ctx.globalAlpha = 0.75;
+  ctx.font = `700 ${26*scale}px 'Inter',sans-serif`;
+  ctx.fillText(selectedRole, cx, namePlateY + 118*scale);
+  ctx.globalAlpha = 1;
+
+  // Stars
+  ctx.font = `${32*scale}px serif`;
+  ctx.fillStyle = '#FFD700';
+  const starsY = namePlateY + 165*scale;
+  ctx.fillText('★ ★ ★ ★ ★', cx, starsY);
+
+  // Branding
+  ctx.fillStyle = s.text;
+  ctx.globalAlpha = 0.6;
+  ctx.font = `600 ${22*scale}px 'Inter',sans-serif`;
+  ctx.fillText('Clarence Gets a Bargain  •  clarencegetsabargain.com', cx, h - 60*scale);
+  ctx.globalAlpha = 1;
+}
+
+function roundRect(ctx, x, y, w, h, r){
+  ctx.beginPath();
+  ctx.moveTo(x+r,y);
+  ctx.lineTo(x+w-r,y);
+  ctx.quadraticCurveTo(x+w,y,x+w,y+r);
+  ctx.lineTo(x+w,y+h-r);
+  ctx.quadraticCurveTo(x+w,y+h,x+w-r,y+h);
+  ctx.lineTo(x+r,y+h);
+  ctx.quadraticCurveTo(x,y+h,x,y+h-r);
+  ctx.lineTo(x,y+r);
+  ctx.quadraticCurveTo(x,y,x+r,y);
+  ctx.closePath();
+}
+
+function renderBadge(){
+  drawBadge(document.getElementById('badge'), 1080, 1080);
+}
+
+function downloadBadge(type){
+  if(type==='story'){
+    drawBadge(document.getElementById('badge-story'), 1080, 1920);
+    const a=document.createElement('a');
+    a.download='i-read-clarence-story.png';
+    a.href=document.getElementById('badge-story').toDataURL('image/png');
+    a.click();
+  } else {
+    const a=document.createElement('a');
+    a.download='i-read-clarence-badge.png';
+    a.href=document.getElementById('badge').toDataURL('image/png');
+    a.click();
+  }
+}
+
+function shareBadge(){
+  const text='I read Clarence Gets a Bargain! 📚 The children\'s book teaching real money skills. #ClarenceGetsABargain #FinancialLiteracyMonth #IReadClarence';
+  if(navigator.share){
+    document.getElementById('badge').toBlob(blob=>{
+      const file=new File([blob],'i-read-clarence.png',{type:'image/png'});
+      navigator.share({title:'I Read Clarence!',text:text,files:[file]});
+    });
+  } else {
+    navigator.clipboard.writeText(text).then(()=>alert('Caption copied! Download your badge and post it. 📋'));
+  }
+}
+
+// Init
+window.onload = () => {
+  setTimeout(renderBadge, 200);
+};
+</script>
+</body>
+</html>
