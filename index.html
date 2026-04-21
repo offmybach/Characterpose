@@ -585,7 +585,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   <div class="price reveal">$14.99</div>
   <div class="price-note reveal">Softcover &bull; Full Color &bull; Ages 6&ndash;10</div>
   <div class="buy-btns reveal">
-    <a class="buy-btn amazon" style="background:#ff6b2b; box-shadow:0 4px 20px rgba(255,107,43,.4);" href="mailto:clarencegetsabargain@gmail.com?subject=Order%20Request%20-%20Clarence%20Gets%20a%20Bargain">Buy Direct - $14.99</a>
+    <a class="buy-btn amazon" style="background:#ff6b2b; box-shadow:0 4px 20px rgba(255,107,43,.4);" href="mailto:orders@clarencegetsabargain.com?subject=Order%20Request%20-%20Clarence%20Gets%20a%20Bargain">Buy Direct - $14.99</a>
     <a class="buy-btn bn" href="#">Barnes &amp; Noble</a>
     <a class="buy-btn indie" href="#">IndieBound</a>
   </div>
@@ -807,19 +807,19 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       <div class="ic-icon-clean">01</div>
       <h3>Request Examination Copy</h3>
       <p>For school curriculum directors, PTA leadership, and Jump$tart board members. Submit your institutional email to receive a complimentary review copy for adoption evaluation.</p>
-      <a class="ic-btn primary" href="mailto:clarencegetsabargain@gmail.com?subject=Examination%20Copy%20Request">Request Exam Copy</a>
+      <a class="ic-btn primary" href="mailto:questions@clarencegetsabargain.com?subject=Examination%20Copy%20Request">Request Exam Copy</a>
     </div>
     <div class="inst-card">
       <div class="ic-icon-clean">02</div>
       <h3>Request Bulk Quote (25+ Copies)</h3>
       <p>Volume pricing for school districts, local credit unions, real estate brokerages, Scout troops, and community organizations. Title I volume discounts available.</p>
-      <a class="ic-btn primary" href="mailto:clarencegetsabargain@gmail.com?subject=Bulk%20Order%20Inquiry%20(25%2B%20Copies)">Request a Quote</a>
+      <a class="ic-btn primary" href="mailto:orders@clarencegetsabargain.com?subject=Bulk%20Order%20Inquiry%20(25%2B%20Copies)">Request a Quote</a>
     </div>
     <div class="inst-card">
       <div class="ic-icon-clean">03</div>
       <h3>Enterprise &amp; Co-Branding Partnerships</h3>
       <p>Custom co-branded editions for corporate sponsors, financial institutions, and national programs. Available for CRA community development initiatives, financial institution outreach programs, and state-level financial literacy efforts.</p>
-      <a class="ic-btn secondary" href="mailto:clarencegetsabargain@gmail.com?subject=Enterprise%20%26%20Co-Branding%20Partnership">Contact Us</a>
+      <a class="ic-btn secondary" href="mailto:questions@clarencegetsabargain.com?subject=Enterprise%20%26%20Co-Branding%20Partnership">Contact Us</a>
     </div>
   </div>
   <p class="inst-procurement-note">We accept Purchase Orders (POs), offer Net 30 terms, and support Title I volume pricing. Contact us to discuss your institution&rsquo;s procurement process.</p>
@@ -842,7 +842,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       <p class="pitch-kicker">And the kids actually think it&rsquo;s hilarious.</p>
     </div>
     <div class="pitch-cta-row">
-      <a class="pitch-cta-primary" href="mailto:clarencegetsabargain@gmail.com?subject=Institutional%20Inquiry">Request Institutional Information Packet</a>
+      <a class="pitch-cta-primary" href="mailto:questions@clarencegetsabargain.com?subject=Institutional%20Inquiry">Request Institutional Information Packet</a>
       <a class="pitch-cta-secondary" href="#buy">Individual Purchase</a>
     </div>
   </div>
@@ -4197,7 +4197,7 @@ function toggleConcept(id){document.getElementById("cr"+id).classList.toggle("ex
 function updateStats(filtered){var t=0;var bc={};for(var k in FW)bc[k]=0;filtered.forEach(function(c){c.stds.forEach(function(s){t++;bc[s.fw]++})});var h='<div class="stat"><div class="n" style="font-size:26px;color:var(--blue);">'+filtered.length+'</div><div class="l">Concepts</div></div><div class="stat"><div class="n" style="font-size:26px;color:var(--orange);">'+t+'</div><div class="l">Standards</div></div>';for(var k in FW)if(bc[k]>0)h+='<div class="stat"><div class="n" style="font-size:20px;color:'+FW[k].color+';">'+bc[k]+'</div><div class="l">'+FW[k].abbr+'</div></div>';document.getElementById("statsBar").innerHTML=h;}
 function updateReportDesc(filtered){document.getElementById("reportDesc").textContent=(fwFilter!=="all"||gradeFilter!=="all")?"Filtered: "+(fwFilter!=="all"?FW[fwFilter].name:"All")+" \u2022 "+(gradeFilter!=="all"?"Grade "+gradeFilter:"All grades")+" \u2022 "+filtered.length+" concepts":"Complete matrix: "+filtered.length+" concepts across all frameworks";}
 function renderLegend(){var h="";for(var k in FW)h+='<div class="legend-item"><div class="legend-dot" style="background:'+FW[k].color+';"></div><span>'+FW[k].abbr+": "+FW[k].name+'</span></div>';document.getElementById("legend").innerHTML=h;}
-function generateReport(){var email=document.getElementById("reportEmail").value;if(email.indexOf("@")===-1)return;window.location.href="mailto:orders@clarencegetsabargain.com?subject=Alignment Report Request&body=Please send me a curriculum alignment report.%0A%0AMy email: "+encodeURIComponent(email);document.getElementById("reportForm").style.display="none";document.getElementById("reportResult").style.display="block";document.getElementById("reportResult").innerHTML='<div style="background:rgba(255,255,255,.12);border-radius:12px;padding:16px 20px;"><div class="hd" style="font-size:16px;font-weight:900;color:var(--gold);">\u2705 Request Sent</div><p style="font-size:13px;color:rgba(255,255,255,.8);margin-top:6px;">Check your email app to send the request.</p></div>';}
+function generateReport(){var email=document.getElementById("reportEmail").value;if(email.indexOf("@")===-1)return;window.location.href="mailto:jb@clarencegetsabargain.com?subject=Alignment Report Request&body=Please send me a curriculum alignment report.%0A%0AMy email: "+encodeURIComponent(email);document.getElementById("reportForm").style.display="none";document.getElementById("reportResult").style.display="block";document.getElementById("reportResult").innerHTML='<div style="background:rgba(255,255,255,.12);border-radius:12px;padding:16px 20px;"><div class="hd" style="font-size:16px;font-weight:900;color:var(--gold);">\u2705 Request Sent</div><p style="font-size:13px;color:rgba(255,255,255,.8);margin-top:6px;">Check your email app to send the request.</p></div>';}
 initFilters();render();
 <\/script>
 <script>
