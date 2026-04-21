@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LinkedIn Assets — Clarence Gets a Bargain</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'Hold';src:url('fonts/Hold.woff2') format('woff2'),url('fonts/Hold.woff') format('woff');font-display:swap}
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--blue:#0054a6;--orange:#ff6b2b;--gold:#ffe066;--cream:#f5ecd7;--dark:#111}
+body{font-family:'Inter',sans-serif;background:#0e1117;color:#f0f0f0;min-height:100vh}
+.page-header{background:linear-gradient(135deg,var(--blue),#003d7a);padding:40px 40px 30px;text-align:center}
+.page-header h1{font-family:'Hold',sans-serif;font-size:2.2rem;color:#fff;margin-bottom:6px}
+.page-header p{color:rgba(255,255,255,.75);font-size:.9rem}
+.tab-bar{display:flex;gap:0;background:#1a1f2e;border-bottom:2px solid #2a3040;padding:0 40px;overflow-x:auto}
+.tab{padding:14px 24px;font-size:.85rem;font-weight:700;color:#888;cursor:pointer;border-bottom:3px solid transparent;transition:all .2s;white-space:nowrap;background:none;border-top:none;border-left:none;border-right:none}
+.tab.active{color:var(--orange);border-bottom-color:var(--orange)}
+.tab:hover:not(.active){color:#ccc}
+.section{display:none;padding:40px}
+.section.active{display:block}
+.asset-row{display:flex;flex-direction:column;gap:32px;max-width:1000px;margin:0 auto}
+.asset-block{background:#1a1f2e;border-radius:16px;padding:28px;border:1px solid #2a3040}
+.asset-block h2{font-family:'Hold',sans-serif;font-size:1.3rem;color:#fff;margin-bottom:4px}
+.asset-block .dims{font-size:.72rem;color:#ff6b2b;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:16px}
+.canvas-wrap{width:100%;overflow:hidden;border-radius:10px;border:2px solid #2a3040;background:#000;display:flex;align-items:center;justify-content:center}
+canvas{max-width:100%;height:auto;display:block}
+.btn-row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+.btn{background:var(--blue);color:#fff;border:none;border-radius:50px;padding:10px 22px;font-family:'Hold',sans-serif;font-size:.85rem;cursor:pointer;transition:all .2s}
+.btn:hover{background:#003d7a;transform:translateY(-1px)}
+.btn.orange{background:var(--orange)}
+.btn.orange:hover{background:#e55000}
+.btn.ghost{background:transparent;border:2px solid #444;color:#ccc}
+.btn.ghost:hover{border-color:#aaa;color:#fff}
+.post-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;max-width:1200px;margin:0 auto}
+.post-block{background:#1a1f2e;border-radius:14px;padding:20px;border:1px solid #2a3040}
+.post-block h3{font-family:'Hold',sans-serif;font-size:.95rem;color:#fff;margin-bottom:4px}
+.post-block .post-num{font-size:.65rem;color:var(--orange);font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
+.post-block .canvas-wrap{margin-bottom:12px}
+.download-all-bar{text-align:center;margin:0 0 32px;padding:20px;background:#1a1f2e;border-radius:14px;border:1px solid #2a3040;max-width:1200px;margin:0 auto 32px}
+.download-all-bar p{color:#aaa;font-size:.82rem;margin-bottom:12px}
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>LinkedIn Profile Assets</h1>
+  <p>Profile banner · Featured card · 8 post cover images — all downloadable PNG</p>
+</div>
+
+<div class="tab-bar">
+  <button class="tab active" onclick="showTab('banner')">Profile Banner</button>
+  <button class="tab" onclick="showTab('featured')">Featured Card</button>
+  <button class="tab" onclick="showTab('posts')">8 Post Covers</button>
+</div>
+
+<!-- BANNER TAB -->
+<div id="tab-banner" class="section active">
+  <div class="asset-row">
+    <div class="asset-block">
+      <h2>LinkedIn Profile Banner</h2>
+      <div class="dims">1584 × 396 px — recommended LinkedIn banner size</div>
+      <div class="canvas-wrap"><canvas id="banner-canvas" width="1584" height="396"></canvas></div>
+      <div class="btn-row">
+        <button class="btn orange" onclick="downloadCanvas('banner-canvas','CGB-LinkedIn-Profile-Banner.png')">⬇ Download Banner PNG</button>
+        <button class="btn ghost" onclick="redrawBanner()">↺ Refresh</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FEATURED TAB -->
+<div id="tab-featured" class="section">
+  <div class="asset-row">
+    <div class="asset-block">
+      <h2>LinkedIn Featured Section Card</h2>
+      <div class="dims">1128 × 376 px — Featured section link preview image</div>
+      <div class="canvas-wrap"><canvas id="featured-canvas" width="1128" height="376"></canvas></div>
+      <div class="btn-row">
+        <button class="btn orange" onclick="downloadCanvas('featured-canvas','CGB-LinkedIn-Featured-Card.png')">⬇ Download Featured Card PNG</button>
+      </div>
+    </div>
+    <div class="asset-block">
+      <h2>How to Use</h2>
+      <div class="dims">LinkedIn featured section</div>
+      <p style="color:#aaa;font-size:.85rem;line-height:1.8">
+        1. Go to your LinkedIn profile → click <strong style="color:#fff">+</strong> in the Featured section<br>
+        2. Choose <strong style="color:#fff">"Link"</strong> and paste the book URL<br>
+        3. LinkedIn will auto-pull a preview image — replace it with this card<br>
+        4. Use title: <em style="color:var(--gold)">"Clarence Gets a Bargain — Free Educator Toolkit Inside"</em><br>
+        5. Description: <em style="color:var(--gold)">"Financial literacy for K–5. Download 6 free teaching resources."</em>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- POSTS TAB -->
+<div id="tab-posts" class="section">
+  <div class="download-all-bar">
+    <p>8 cover images — one for each LinkedIn campaign post. Download individually or all at once.</p>
+    <button class="btn orange" onclick="downloadAllPosts()">⬇ Download All 8 Post Covers</button>
+  </div>
+  <div class="post-grid" id="post-grid"></div>
+</div>
+
+<script>
+// ── BRAND CONSTANTS ───────────────────────────────────────────
+const BLUE='#0054a6', ORANGE='#ff6b2b', GOLD='#ffe066', CREAM='#f5ecd7', DARK='#111';
+const HOLD="'Hold','Nunito',sans-serif";
+
+// ── IMAGE CACHE ───────────────────────────────────────────────
+const imgCache={};
+function loadImg(src){
+  return new Promise(res=>{
+    if(imgCache[src]){res(imgCache[src]);return;}
+    const i=new Image(); i.crossOrigin='anonymous';
+    i.onload=()=>{imgCache[src]=i;res(i);}
+    i.onerror=()=>res(null);
+    i.src=src;
+  });
+}
+
+// ── TEXT WRAP HELPER ──────────────────────────────────────────
+function wrapText(ctx,text,x,y,maxW,lineH){
+  const words=text.split(' ');
+  let line='';
+  let currentY=y;
+  for(let i=0;i<words.length;i++){
+    const test=line+words[i]+' ';
+    if(ctx.measureText(test).width>maxW&&i>0){
+      ctx.fillText(line.trim(),x,currentY);
+      line=words[i]+' ';
+      currentY+=lineH;
+    } else {
+      line=test;
+    }
+  }
+  ctx.fillText(line.trim(),x,currentY);
+  return currentY;
+}
+
+// ── TABS ──────────────────────────────────────────────────────
+function showTab(id){
+  document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById('tab-'+id).classList.add('active');
+  event.target.classList.add('active');
+}
+
+// ── DOWNLOAD HELPER ───────────────────────────────────────────
+function downloadCanvas(canvasId,filename){
+  const c=document.getElementById(canvasId);
+  const a=document.createElement('a');
+  a.download=filename;
+  a.href=c.toDataURL('image/png');
+  a.click();
+}
+
+// ── PROFILE BANNER (1584×396) ─────────────────────────────────
+async function drawBanner(){
+  const c=document.getElementById('banner-canvas');
+  const ctx=c.getContext('2d');
+  const W=1584, H=396;
+
+  // Background gradient
+  const bg=ctx.createLinearGradient(0,0,W,H);
+  bg.addColorStop(0,'#002d6b');
+  bg.addColorStop(0.55,BLUE);
+  bg.addColorStop(1,'#003d7a');
+  ctx.fillStyle=bg; ctx.fillRect(0,0,W,H);
+
+  // Cream accent strip right side
+  ctx.fillStyle=CREAM;
+  ctx.beginPath();
+  ctx.moveTo(W*0.62,0); ctx.lineTo(W,0); ctx.lineTo(W,H); ctx.lineTo(W*0.55,H);
+  ctx.closePath(); ctx.fill();
+
+  // Orange diagonal accent
+  ctx.fillStyle=ORANGE;
+  ctx.beginPath();
+  ctx.moveTo(W*0.58,0); ctx.lineTo(W*0.62,0); ctx.lineTo(W*0.55,H); ctx.lineTo(W*0.51,H);
+  ctx.closePath(); ctx.fill();
+
+  // Gold dot pattern on cream area
+  ctx.fillStyle='rgba(255,224,102,0.25)';
+  for(let x=W*0.63;x<W;x+=28){
+    for(let y=0;y<H;y+=28){
+      ctx.beginPath(); ctx.arc(x,y,3,0,Math.PI*2); ctx.fill();
+    }
+  }
+
+  // Load character image
+  const clarence=await loadImg('forsite/frontcover.png');
+
+  // Left: main text area
+  // "✂ FINANCIAL LITERACY MONTH" tag
+  ctx.fillStyle=ORANGE;
+  ctx.font=`bold 15px 'Inter',sans-serif`;
+  ctx.letterSpacing='3px';
+  ctx.fillText('✂  FINANCIAL LITERACY MONTH',50,72);
+  ctx.letterSpacing='0px';
+
+  // Main headline
+  ctx.fillStyle='#fff';
+  ctx.font=`80px ${HOLD}`;
+  ctx.fillText('Clarence Gets',50,158);
+  ctx.fillStyle=GOLD;
+  ctx.font=`80px ${HOLD}`;
+  ctx.fillText('a Bargain.',50,242);
+
+  // Subheadline
+  ctx.fillStyle='rgba(255,255,255,0.85)';
+  ctx.font=`22px 'Inter',sans-serif`;
+  ctx.fillText('The children's book teaching kids to ask the right questions',50,284);
+  ctx.fillText('before spending a dime.',50,312);
+
+  // Author tag
+  ctx.fillStyle=GOLD;
+  ctx.font=`bold 15px 'Inter',sans-serif`;
+  ctx.fillText('by Jonathan Bach  ·  Attorney · Author · Artist',50,352);
+
+  // Right: book cover or clarence
+  if(clarence){
+    const iH=H*0.88, iW=clarence.naturalWidth*(iH/clarence.naturalHeight);
+    ctx.drawImage(clarence, W*0.63+(W*0.37-iW)/2, H*0.06, iW, iH);
+  }
+
+  // Bottom left: subtle URL
+  ctx.fillStyle='rgba(255,255,255,0.4)';
+  ctx.font=`13px 'Inter',sans-serif`;
+  ctx.fillText('clarencegetsabargain.com',50,382);
+}
+
+function redrawBanner(){drawBanner();}
+
+// ── FEATURED CARD (1128×376) ──────────────────────────────────
+async function drawFeatured(){
+  const c=document.getElementById('featured-canvas');
+  const ctx=c.getContext('2d');
+  const W=1128, H=376;
+
+  // Cream background
+  ctx.fillStyle=CREAM; ctx.fillRect(0,0,W,H);
+
+  // Blue left panel
+  ctx.fillStyle=BLUE;
+  ctx.fillRect(0,0,420,H);
+
+  // Orange top strip
+  ctx.fillStyle=ORANGE;
+  ctx.fillRect(0,0,420,8);
+
+  // Clarence character on blue
+  const clarence=await loadImg('forsite/clarence_point.png');
+  if(clarence){
+    const iH=H*0.85, iW=clarence.naturalWidth*(iH/clarence.naturalHeight);
+    ctx.drawImage(clarence, 420-iW+20, H-iH, iW, iH);
+  }
+
+  // White book title on blue
+  ctx.fillStyle=GOLD;
+  ctx.font=`bold 13px 'Inter',sans-serif`;
+  ctx.letterSpacing='2px';
+  ctx.fillText('FREE EDUCATOR TOOLKIT',30,48);
+  ctx.letterSpacing='0px';
+
+  ctx.fillStyle='#fff';
+  ctx.font=`48px ${HOLD}`;
+  ctx.fillText('Clarence',30,108);
+  ctx.fillText('Gets a',30,158);
+  ctx.fillStyle=GOLD;
+  ctx.fillText('Bargain.',30,208);
+
+  ctx.fillStyle='rgba(255,255,255,0.75)';
+  ctx.font=`15px 'Inter',sans-serif`;
+  ctx.fillText('by Jonathan Bach',30,238);
+
+  // Right content area
+  ctx.fillStyle=BLUE;
+  ctx.font=`bold 14px 'Inter',sans-serif`;
+  ctx.letterSpacing='2px';
+  ctx.fillText('INSIDE THE FREE TOOLKIT',450,52);
+  ctx.letterSpacing='0px';
+
+  const items=[
+    '📋  Lesson Plans (4-week module)',
+    '💬  Discussion Guides — 3 depth levels',
+    '📝  Assessment Worksheets',
+    '👨‍👩‍👧  Family Activity Sheets',
+    '📊  Standards Alignment Chart (Jump$tart, CCSS)',
+    '🎯  Smart Shopper Quiz — printable',
+  ];
+  ctx.font=`16px 'Inter',sans-serif`;
+  ctx.fillStyle='#333';
+  items.forEach((item,i)=>{
+    ctx.fillText(item, 450, 90+i*40);
+  });
+
+  // CTA pill
+  ctx.fillStyle=ORANGE;
+  roundRect(ctx, 450, 310, 300, 44, 22); ctx.fill();
+  ctx.fillStyle='#fff';
+  ctx.font=`bold 16px ${HOLD}`;
+  ctx.textAlign='center';
+  ctx.fillText('Download Free → No Email Required', 600, 338);
+  ctx.textAlign='left';
+
+  // Bottom right: site
+  ctx.fillStyle='rgba(0,0,0,0.35)';
+  ctx.font=`12px 'Inter',sans-serif`;
+  ctx.fillText('clarencegetsabargain.com',450,368);
+}
+
+function roundRect(ctx,x,y,w,h,r){
+  ctx.beginPath();
+  ctx.moveTo(x+r,y);
+  ctx.lineTo(x+w-r,y);
+  ctx.quadraticCurveTo(x+w,y,x+w,y+r);
+  ctx.lineTo(x+w,y+h-r);
+  ctx.quadraticCurveTo(x+w,y+h,x+w-r,y+h);
+  ctx.lineTo(x+r,y+h);
+  ctx.quadraticCurveTo(x,y+h,x,y+h-r);
+  ctx.lineTo(x,y+r);
+  ctx.quadraticCurveTo(x,y,x+r,y);
+  ctx.closePath();
+}
+
+// ── POST COVER DATA (8 posts) ─────────────────────────────────
+const posts=[
+  {
+    num:'01',
+    title:'The Question Nobody Asks',
+    sub:'What 7-year-olds know that most adults forgot',
+    theme:'blue',
+    icon:'🛒',
+    tag:'FINANCIAL LITERACY MONTH',
+    img:'forsite/clarence_point.png'
+  },
+  {
+    num:'02',
+    title:'6 Money Frameworks',
+    sub:'Taught through a children\'s book. No irony.',
+    theme:'orange',
+    icon:'💡',
+    tag:'EDUCATOR RESOURCE',
+    img:'forsite/clarence-arms.png'
+  },
+  {
+    num:'03',
+    title:'Wants vs. Needs',
+    sub:'The framework Wall Street doesn\'t want kids to learn',
+    theme:'blue',
+    icon:'⚖️',
+    tag:'MONEY FRAMEWORK',
+    img:'forsite/robimimie_pink.png'
+  },
+  {
+    num:'04',
+    title:'The ROI of Reading',
+    sub:'One story. Six financial literacy standards. Zero worksheets.',
+    theme:'cream',
+    icon:'📚',
+    tag:'EDTECH',
+    img:'forsite/clarence-armsfoldedcrop.png'
+  },
+  {
+    num:'05',
+    title:'Comparison Shopping',
+    sub:'Robot A or Robot B? The decision that changes everything.',
+    theme:'orange',
+    icon:'🤖',
+    tag:'SMART MONEY SKILLS',
+    img:'forsite/robots-store.png'
+  },
+  {
+    num:'06',
+    title:'The Coupon Twist',
+    sub:'When the "deal" isn\'t a deal. A lesson in thinking twice.',
+    theme:'blue',
+    icon:'✂️',
+    tag:'CRITICAL THINKING',
+    img:'forsite/clarence-laugh.png'
+  },
+  {
+    num:'07',
+    title:'Free for Educators',
+    sub:'6 resources. No email required. Just download.',
+    theme:'cream',
+    icon:'🎁',
+    tag:'FREE EDUCATOR TOOLKIT',
+    img:'forsite/clarence-desk.png'
+  },
+  {
+    num:'08',
+    title:'Bargain Legend Status',
+    sub:'Take the quiz. Prove your kids know more than you.',
+    theme:'orange',
+    icon:'🏆',
+    tag:'FINANCIAL LITERACY',
+    img:'forsite/frontcover.png'
+  }
+];
+
+// ── DRAW A POST COVER (1200×627) ─────────────────────────────
+async function drawPostCover(canvas, post){
+  const ctx=canvas.getContext('2d');
+  const W=1200, H=627;
+  canvas.width=W; canvas.height=H;
+
+  const isOrange=post.theme==='orange';
+  const isCream=post.theme==='cream';
+
+  // Background
+  if(isOrange){
+    const bg=ctx.createLinearGradient(0,0,W,H);
+    bg.addColorStop(0,'#e55000'); bg.addColorStop(1,ORANGE);
+    ctx.fillStyle=bg;
+  } else if(isCream){
+    ctx.fillStyle=CREAM;
+  } else {
+    const bg=ctx.createLinearGradient(0,0,W,H);
+    bg.addColorStop(0,'#002d6b'); bg.addColorStop(1,BLUE);
+    ctx.fillStyle=bg;
+  }
+  ctx.fillRect(0,0,W,H);
+
+  // Right image panel (cream panel on colored bg)
+  if(!isCream){
+    ctx.fillStyle=isCream?BLUE:(isOrange?'rgba(0,0,0,0.15)':'rgba(255,255,255,0.07)');
+    ctx.fillRect(W*0.58,0,W*0.42,H);
+  }
+
+  // Decorative top bar
+  ctx.fillStyle=isCream?BLUE:GOLD;
+  ctx.fillRect(0,0,W,8);
+
+  // Tag line (top left)
+  ctx.fillStyle=isCream?ORANGE:GOLD;
+  ctx.font=`bold 14px 'Inter',sans-serif`;
+  ctx.letterSpacing='3px';
+  ctx.fillText('✂  '+post.tag,50,58);
+  ctx.letterSpacing='0px';
+
+  // Post number badge
+  ctx.fillStyle=isCream?BLUE:(isOrange?'rgba(0,0,0,0.25)':'rgba(255,255,255,0.15)');
+  roundRect(ctx,50,76,90,40,8); ctx.fill();
+  ctx.fillStyle=isCream?'#fff':(isOrange?'#fff':GOLD);
+  ctx.font=`bold 22px ${HOLD}`;
+  ctx.textAlign='center';
+  ctx.fillText('POST '+post.num,95,103);
+  ctx.textAlign='left';
+
+  // Main headline
+  const textColor=isCream?BLUE:(isOrange?'#fff':'#fff');
+  const subColor=isCream?'#444':(isOrange?'rgba(255,255,255,0.85)':'rgba(255,255,255,0.8)');
+
+  ctx.fillStyle=textColor;
+  ctx.font=`72px ${HOLD}`;
+  const words=post.title.split(' ');
+  let line1=words.slice(0,Math.ceil(words.length/2)).join(' ');
+  let line2=words.slice(Math.ceil(words.length/2)).join(' ');
+  if(words.length<=3){line1=post.title;line2='';}
+  ctx.fillText(line1,50,230);
+  if(line2) ctx.fillText(line2,50,312);
+
+  // Subtitle
+  ctx.fillStyle=subColor;
+  ctx.font=`22px 'Inter',sans-serif`;
+  const subY=line2?372:302;
+  wrapText(ctx,post.sub,50,subY,W*0.5,32);
+
+  // Icon
+  ctx.font='60px serif';
+  ctx.fillText(post.icon,50,490);
+
+  // Author/brand
+  ctx.fillStyle=isCream?ORANGE:GOLD;
+  ctx.font=`bold 15px 'Inter',sans-serif`;
+  ctx.fillText('CLARENCE GETS A BARGAIN  ·  clarencegetsabargain.com',50,570);
+
+  // Character image on right
+  const img=await loadImg(post.img);
+  if(img){
+    const maxH=H*0.8, maxW=W*0.36;
+    let iW=img.naturalWidth, iH=img.naturalHeight;
+    const scale=Math.min(maxW/iW,maxH/iH);
+    iW*=scale; iH*=scale;
+    const ix=W*0.58+(W*0.42-iW)/2;
+    const iy=H-iH-20;
+    ctx.drawImage(img,ix,iy,iW,iH);
+  }
+
+  // Dashed border accent (coupon style)
+  ctx.strokeStyle=isCream?ORANGE:(isOrange?'rgba(255,255,255,0.3)':'rgba(255,224,102,0.3)');
+  ctx.lineWidth=3;
+  ctx.setLineDash([12,8]);
+  ctx.strokeRect(15,15,W-30,H-30);
+  ctx.setLineDash([]);
+}
+
+// ── BUILD POST GRID ───────────────────────────────────────────
+async function buildPostGrid(){
+  const grid=document.getElementById('post-grid');
+  for(let i=0;i<posts.length;i++){
+    const p=posts[i];
+    const block=document.createElement('div');
+    block.className='post-block';
+    const canvasId=`post-canvas-${i}`;
+    block.innerHTML=`
+      <div class="post-num">Post ${p.num} of 08</div>
+      <h3>${p.title}</h3>
+      <div class="canvas-wrap"><canvas id="${canvasId}" width="1200" height="627" style="width:100%;height:auto"></canvas></div>
+      <div class="btn-row">
+        <button class="btn orange" onclick="downloadCanvas('${canvasId}','CGB-LinkedIn-Post-${p.num}.png')">⬇ Download</button>
+      </div>
+    `;
+    grid.appendChild(block);
+    const canvas=block.querySelector('canvas');
+    await drawPostCover(canvas,p);
+  }
+}
+
+// ── DOWNLOAD ALL 8 POSTS ──────────────────────────────────────
+function downloadAllPosts(){
+  for(let i=0;i<posts.length;i++){
+    setTimeout(()=>{
+      downloadCanvas(`post-canvas-${i}`,`CGB-LinkedIn-Post-${posts[i].num}.png`);
+    },i*400);
+  }
+}
+
+// ── INIT ──────────────────────────────────────────────────────
+window.addEventListener('load',async()=>{
+  await drawBanner();
+  await drawFeatured();
+  await buildPostGrid();
+});
+</script>
+</body>
+</html>
