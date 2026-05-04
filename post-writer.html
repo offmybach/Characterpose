@@ -8,25 +8,31 @@
 @font-face{font-family:'Hold';src:url('fonts/Hold.woff2') format('woff2'),url('fonts/Hold.woff') format('woff')}
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--blue:#0054a6;--orange:#ff6b2b;--gold:#ffe066;--cream:#f5ecd7}
+:root{--blue:#0054a6;--orange:#ff6b2b;--gold:#ffe066;--cream:#f5ecd7;--li:#0077b5}
 body{font-family:'Inter',sans-serif;background:#0a0a0a;color:#e8e8e8;min-height:100vh}
 .site-header{background:#111;border-bottom:2px solid #ff6b2b;padding:14px 30px;display:flex;justify-content:space-between;align-items:center}
 .site-header a{color:#ccc;text-decoration:none;font-size:.8rem;font-weight:600}
 .site-header a:hover{color:#ff6b2b}
 .brand{font-family:'Hold',sans-serif;color:#fff;font-size:1rem}
-.hero{background:linear-gradient(135deg,#0054a6,#003d7a);padding:50px 30px;text-align:center}
+.hero{background:linear-gradient(135deg,#0054a6,#003d7a);padding:44px 30px;text-align:center}
 .hero h1{font-family:'Hold',sans-serif;font-size:2.2rem;color:#fff;margin-bottom:8px}
 .hero p{color:rgba(255,255,255,.8);font-size:.95rem;max-width:580px;margin:0 auto}
-.container{max-width:960px;margin:0 auto;padding:40px 24px}
+.container{max-width:1060px;margin:0 auto;padding:30px 24px}
+
+/* TABS */
+.tab-bar{display:flex;gap:4px;margin-bottom:28px;border-bottom:2px solid #1a1a1a;padding-bottom:0}
+.tab-btn{padding:10px 22px;border:none;background:none;color:#666;font-family:'Inter',sans-serif;font-size:.85rem;font-weight:700;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px;transition:all .2s;border-radius:8px 8px 0 0}
+.tab-btn:hover{color:#ccc;background:#111}
+.tab-btn.active{color:#ff6b2b;border-bottom-color:#ff6b2b;background:#111}
+.tab-section{display:none}
+.tab-section.active{display:block}
+
+/* AI GENERATOR */
 .grid{display:grid;grid-template-columns:380px 1fr;gap:28px}
 @media(max-width:760px){.grid{grid-template-columns:1fr}}
-
-/* PANEL */
 .panel{background:#161616;border:1px solid #222;border-radius:20px;padding:28px 24px}
 .panel h2{font-family:'Hold',sans-serif;color:#fff;font-size:1.2rem;margin-bottom:4px}
 .panel .sub{color:#888;font-size:.78rem;margin-bottom:24px}
-
-/* API KEY */
 .api-section{background:#1a1a0a;border:1px solid #333;border-radius:12px;padding:16px 18px;margin-bottom:20px}
 .api-section h4{color:#ffe066;font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px}
 .api-row{display:flex;gap:8px}
@@ -36,8 +42,6 @@ body{font-family:'Inter',sans-serif;background:#0a0a0a;color:#e8e8e8;min-height:
 .api-save:hover{background:#444;color:#fff}
 .api-note{font-size:.7rem;color:#666;margin-top:6px}
 .api-note a{color:#4da6ff}
-
-/* FORM ELEMENTS */
 .form-group{margin-bottom:16px}
 .form-label{font-size:.75rem;font-weight:800;color:#888;text-transform:uppercase;letter-spacing:1px;display:block;margin-bottom:6px}
 select,textarea{width:100%;background:#111;border:1px solid #2a2a2a;border-radius:10px;color:#e8e8e8;font-family:'Inter',sans-serif;font-size:.88rem;outline:none;transition:border-color .2s}
@@ -45,21 +49,15 @@ select{padding:11px 14px;cursor:pointer}
 select:focus{border-color:var(--orange)}
 textarea{padding:12px 14px;resize:vertical}
 textarea:focus{border-color:var(--orange)}
-
-/* CHIP SELECTORS */
 .chips{display:flex;flex-wrap:wrap;gap:6px}
 .chip{padding:7px 14px;border:1.5px solid #2a2a2a;border-radius:50px;font-size:.75rem;font-weight:700;cursor:pointer;background:#111;color:#888;transition:all .2s}
 .chip:hover{border-color:#888;color:#ccc}
 .chip.active{border-color:var(--orange);background:rgba(255,107,43,.12);color:var(--orange)}
-
-/* GENERATE BTN */
 .gen-btn{width:100%;background:var(--orange);color:#fff;border:none;padding:16px;border-radius:50px;font-family:'Hold',sans-serif;font-size:1.1rem;cursor:pointer;transition:all .3s;box-shadow:0 4px 16px rgba(255,107,43,.3);margin-top:8px;display:flex;align-items:center;justify-content:center;gap:10px}
 .gen-btn:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 8px 24px rgba(255,107,43,.5)}
 .gen-btn:disabled{opacity:.5;cursor:not-allowed;transform:none}
 .spinner{width:20px;height:20px;border:2.5px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;display:none}
 @keyframes spin{to{transform:rotate(360deg)}}
-
-/* OUTPUT */
 .output-panel{display:flex;flex-direction:column;gap:20px}
 .output-card{background:#161616;border:1px solid #222;border-radius:16px;overflow:hidden}
 .output-header{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid #222;background:#1a1a1a}
@@ -69,19 +67,58 @@ textarea:focus{border-color:var(--orange)}
 .copy-btn:hover{background:#333;color:#fff}
 .copy-btn.copied{background:#2e7d32;color:#fff}
 .output-body{padding:18px;font-size:.9rem;line-height:1.8;color:#ddd;white-space:pre-wrap;min-height:120px}
-.output-body.empty{color:#555;font-style:italic}
 .hashtag-row{display:flex;flex-wrap:wrap;gap:6px;padding:12px 18px;border-top:1px solid #1a1a1a;background:#111}
 .hashtag-chip{background:#1a1a2e;color:#4da6ff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:50px}
-
-/* PLACEHOLDER STATE */
 .placeholder-state{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 30px;text-align:center;color:#444;gap:12px}
 .placeholder-state .icon{font-size:3rem;opacity:.5}
 .placeholder-state p{font-size:.88rem;line-height:1.6}
 
-/* HISTORY */
-.history-item{background:#161616;border:1px solid #1a1a1a;border-radius:10px;padding:12px 14px;cursor:pointer;transition:border-color .2s;font-size:.8rem;color:#888}
-.history-item:hover{border-color:#333;color:#ccc}
-.history-item strong{color:#fff;display:block;margin-bottom:2px}
+/* LINKEDIN ALGO CALLOUT */
+#li-algo{display:none;background:#001a2e;border:1px solid rgba(0,119,181,.4);border-radius:12px;padding:14px 16px;margin-bottom:16px}
+#li-algo .li-head{font-size:.72rem;font-weight:800;color:#4da6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
+#li-algo ul{list-style:none;display:flex;flex-direction:column;gap:5px}
+#li-algo li{font-size:.75rem;color:#7aafcc;line-height:1.45;padding-left:14px;position:relative}
+#li-algo li::before{content:'→';position:absolute;left:0;color:#0077b5;font-weight:700}
+#li-algo li strong{color:#4da6ff}
+
+/* TEMPLATE LIBRARY */
+.tpl-intro{font-size:.85rem;color:#777;line-height:1.6;margin-bottom:22px;max-width:760px}
+.tpl-intro strong{color:#aaa}
+.tpl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:20px}
+.tpl-card{background:#161616;border:1px solid #222;border-radius:16px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s}
+.tpl-card:hover{border-color:#2a2a2a}
+.tpl-head{padding:14px 16px;background:#1a1a1a;border-bottom:1px solid #222}
+.tpl-name{font-family:'Hold',sans-serif;color:#fff;font-size:.92rem;margin-bottom:3px}
+.tpl-rule{font-size:.68rem;color:#666;line-height:1.4;margin-bottom:6px}
+.tpl-tag{display:inline-flex;align-items:center;gap:4px;background:#001a2e;color:#4da6ff;font-size:.63rem;font-weight:700;padding:3px 9px;border-radius:50px;border:1px solid rgba(0,119,181,.3)}
+.tpl-body textarea{background:#111;border:none;padding:14px 16px;font-size:.79rem;line-height:1.72;color:#bbb;min-height:300px;font-family:'Inter',sans-serif;width:100%;resize:vertical;display:block}
+.tpl-body textarea:focus{outline:none;background:#141414}
+.tpl-foot{padding:10px 12px;background:#111;border-top:1px solid #1a1a1a;display:flex;gap:8px}
+.tpl-copy{flex:1;background:#ff6b2b;color:#fff;border:none;border-radius:50px;padding:9px 14px;font-family:'Hold',sans-serif;font-size:.76rem;cursor:pointer;transition:all .2s}
+.tpl-copy:hover{background:#e55000}
+.tpl-copy.copied{background:#2e7d32}
+.tpl-ai{background:#1a2a3a;color:#4da6ff;border:1px solid rgba(0,119,181,.3);border-radius:50px;padding:9px 13px;font-family:'Hold',sans-serif;font-size:.76rem;cursor:pointer;transition:all .2s;white-space:nowrap}
+.tpl-ai:hover{background:#0077b5;color:#fff;border-color:#0077b5}
+
+/* PLAYBOOK */
+.pb-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:24px}
+@media(max-width:700px){.pb-grid{grid-template-columns:1fr}}
+.pb-card{background:#161616;border:1px solid #222;border-radius:16px;padding:22px 20px}
+.pb-card h3{font-family:'Hold',sans-serif;color:#fff;font-size:.98rem;margin-bottom:16px}
+.pb-rule{display:flex;gap:10px;margin-bottom:13px;align-items:flex-start}
+.pb-badge{background:#0054a6;color:#fff;font-size:.63rem;font-weight:900;padding:3px 8px;border-radius:4px;white-space:nowrap;flex-shrink:0;margin-top:2px}
+.pb-text{font-size:.79rem;color:#999;line-height:1.5}
+.pb-text strong{color:#ccc}
+.pb-stat{display:inline-block;background:rgba(255,107,43,.12);color:#ff6b2b;font-size:.68rem;font-weight:700;padding:2px 7px;border-radius:4px;margin-top:4px}
+.sched-row{display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid #1a1a1a}
+.sched-row:last-child{border-bottom:none}
+.sched-dow{font-family:'Hold',sans-serif;color:#555;font-size:.74rem;width:34px;flex-shrink:0;padding-top:2px}
+.sched-dow.hot{color:#ff6b2b}
+.sched-fmt{font-size:.8rem;color:#ccc;font-weight:700;line-height:1.3}
+.sched-tip{font-size:.7rem;color:#555;margin-top:2px;line-height:1.4}
+.dm-box{background:#111;border-radius:10px;padding:16px;font-size:.8rem;color:#bbb;line-height:1.75;white-space:pre-wrap;font-family:'Inter',sans-serif;margin-top:12px;border:1px solid #1a1a1a}
+.dm-btn{margin-top:12px;background:#0077b5;color:#fff;border:none;border-radius:50px;padding:9px 20px;font-family:'Hold',sans-serif;font-size:.78rem;cursor:pointer;transition:all .2s}
+.dm-btn:hover{background:#005a8a}
 </style>
 </head>
 <body>
@@ -97,258 +134,635 @@ textarea:focus{border-color:var(--orange)}
 </div>
 
 <div class="container">
-  <div class="grid">
 
-    <!-- CONTROLS -->
-    <div>
-      <!-- API KEY -->
-      <div class="panel" style="margin-bottom:20px">
-        <h2>Setup</h2>
-        <p class="sub">Powered by Claude (Anthropic)</p>
-        <div class="api-section">
-          <h4>🔑 Anthropic API Key</h4>
-          <div class="api-row">
-            <input type="password" class="api-input" id="api-key" placeholder="sk-ant-..." oninput="checkKey()">
-            <button class="api-save" onclick="saveKey()">Save</button>
+  <div class="tab-bar">
+    <button class="tab-btn active" onclick="switchTab('ai')">✨ AI Generator</button>
+    <button class="tab-btn" onclick="switchTab('tpl')">💼 LinkedIn Templates</button>
+    <button class="tab-btn" onclick="switchTab('play')">📋 The Playbook</button>
+  </div>
+
+  <!-- TAB 1: AI GENERATOR -->
+  <div class="tab-section active" id="tab-ai">
+    <div class="grid">
+      <div>
+        <div class="panel" style="margin-bottom:20px">
+          <h2>Setup</h2>
+          <p class="sub">Powered by Claude (Anthropic)</p>
+          <div class="api-section">
+            <h4>🔑 Anthropic API Key</h4>
+            <div class="api-row">
+              <input type="password" class="api-input" id="api-key" placeholder="sk-ant-..." oninput="checkKey()">
+              <button class="api-save" onclick="saveKey()">Save</button>
+            </div>
+            <p class="api-note">Saved locally in your browser. Get one at <a href="https://console.anthropic.com" target="_blank">console.anthropic.com</a></p>
           </div>
-          <p class="api-note">Your key is saved locally in your browser. Get one at <a href="https://console.anthropic.com" target="_blank">console.anthropic.com</a></p>
+          <div id="key-status" style="font-size:.75rem;color:#666;padding:4px 0"></div>
         </div>
-        <div id="key-status" style="font-size:.75rem;color:#666;padding:4px 0"></div>
+
+        <div class="panel">
+          <h2>Post Settings</h2>
+          <p class="sub">Customize your post below</p>
+
+          <div class="form-group">
+            <label class="form-label">Platform</label>
+            <div class="chips" id="platform-chips">
+              <div class="chip active" onclick="setChip(this,'platform','Facebook')">Facebook</div>
+              <div class="chip" onclick="setChip(this,'platform','Instagram')">Instagram</div>
+              <div class="chip" onclick="setChip(this,'platform','LinkedIn')">LinkedIn</div>
+            </div>
+          </div>
+
+          <div id="li-algo">
+            <div class="li-head">💡 LinkedIn Algorithm — What Works NOW</div>
+            <ul>
+              <li><strong>6–7 posts/week.</strong> The new minimum for compounding reach.</li>
+              <li><strong>Authority hooks.</strong> Lead with a credential. Never start with "I".</li>
+              <li><strong>Long-form human writing.</strong> +227% views vs. skimmable bullets.</li>
+              <li><strong>3+ quality external links</strong> in the post = +441% reach on average.</li>
+              <li><strong>Infographics = 29%</strong> of top 1% posts. Use the Social Assets page.</li>
+              <li><strong>One executive comment</strong> beats ten peer comments algorithmically.</li>
+            </ul>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Writing For</label>
+            <div class="chips" id="audience-chips">
+              <div class="chip active" onclick="setChip(this,'audience','Parents (Ages 28–45)')">Parents</div>
+              <div class="chip" onclick="setChip(this,'audience','K–5 Educators & Teachers')">Educators</div>
+              <div class="chip" onclick="setChip(this,'audience','Gift-givers (grandparents, aunts/uncles)')">Gift-Givers</div>
+              <div class="chip" onclick="setChip(this,'audience','LinkedIn thought leaders and founders')">LinkedIn Crowd</div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Campaign Week / Theme</label>
+            <select id="theme-select">
+              <option value="The Hook — announce Clarence, Financial Literacy Month, awareness">Week 1: The Hook</option>
+              <option value="Social Proof — feature reviews and educator endorsements">Week 2: The Proof</option>
+              <option value="Education — teach one specific money skill from the book">Week 3: The Education</option>
+              <option value="The Close — urgency, gift angle, final call to action">Week 4: The Close</option>
+              <option value="Wants vs Needs — the key concept from the book">Concept: Wants vs. Needs</option>
+              <option value="Comparison Shopping and doing shopping homework">Concept: Comparison Shopping</option>
+              <option value="Coupons, clearance deals, and smart deal finding">Concept: Coupons & Clearance</option>
+              <option value="529 college savings accounts and long-term saving">Concept: 529 Savings</option>
+              <option value="Educator bulk orders, free classroom resources, Title I alignment">Educator: Bulk Orders</option>
+              <option value="LinkedIn Authority Hook — Jonathan's credentials as attorney + deal-master. Open strong, never start with I, make the algorithm happy.">LinkedIn: Authority Hook</option>
+              <option value="LinkedIn Origin Story — the $0.01 shoe deal story and why it led to writing the book. Personal narrative, human voice.">LinkedIn: Origin Story ($0.01 Shoes)</option>
+              <option value="LinkedIn Counterintuitive — challenge the idea that schools teach money. Use Jump$tart, FDIC, and CEE stats. Include 3+ external links.">LinkedIn: Counterintuitive + Links</option>
+              <option value="LinkedIn Education Drop — teach all 6 money skills with citations to Jump$tart, FDIC, and CEE. Three external links minimum for 441% reach boost.">LinkedIn: Education Drop + Links</option>
+              <option value="LinkedIn Executive Pitch — ROI framing for institutional buyers: CRA eligibility, FINRA data, Jump$tart alignment. End with institutional email CTA.">LinkedIn: Executive / Institutional Pitch</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Tone</label>
+            <div class="chips" id="tone-chips">
+              <div class="chip active" onclick="setChip(this,'tone','Witty and warm')">Witty & Warm</div>
+              <div class="chip" onclick="setChip(this,'tone','Punchy and bold')">Punchy & Bold</div>
+              <div class="chip" onclick="setChip(this,'tone','Heartfelt and emotional')">Heartfelt</div>
+              <div class="chip" onclick="setChip(this,'tone','Professional thought-leadership LinkedIn broetry — short punchy paragraphs, authority voice')">LinkedIn Bro</div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Special Instructions (optional)</label>
+            <textarea id="instructions" rows="3" placeholder="e.g. 'Include the Josie age-10 quote' or 'Focus on the 529 savings angle' or 'Make it funny'..."></textarea>
+          </div>
+
+          <button class="gen-btn" id="gen-btn" onclick="generatePost()">
+            <span id="btn-text">✨ Generate Post</span>
+            <div class="spinner" id="spinner"></div>
+          </button>
+        </div>
       </div>
 
-      <!-- POST SETTINGS -->
-      <div class="panel">
-        <h2>Post Settings</h2>
-        <p class="sub">Customize your post below</p>
-
-        <div class="form-group">
-          <label class="form-label">Platform</label>
-          <div class="chips" id="platform-chips">
-            <div class="chip active" onclick="setChip(this,'platform','Facebook')">Facebook</div>
-            <div class="chip" onclick="setChip(this,'platform','Instagram')">Instagram</div>
-            <div class="chip" onclick="setChip(this,'platform','LinkedIn')">LinkedIn</div>
+      <div class="output-panel" id="output-panel">
+        <div id="placeholder-state" class="output-card">
+          <div class="placeholder-state">
+            <div class="icon">✍️</div>
+            <p>Your generated post will appear here.<br>Select your options and click <strong style="color:#ff6b2b">Generate Post</strong>.</p>
           </div>
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">Writing For</label>
-          <div class="chips" id="audience-chips">
-            <div class="chip active" onclick="setChip(this,'audience','Parents (Ages 28–45)')">Parents</div>
-            <div class="chip" onclick="setChip(this,'audience','K–5 Educators & Teachers')">Educators</div>
-            <div class="chip" onclick="setChip(this,'audience','Gift-givers (grandparents, aunts/uncles)')">Gift-Givers</div>
-            <div class="chip" onclick="setChip(this,'audience','LinkedIn thought leaders and founders')">LinkedIn Crowd</div>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">Campaign Week / Theme</label>
-          <select id="theme-select">
-            <option value="The Hook — announce Clarence, Financial Literacy Month, awareness">Week 1: The Hook</option>
-            <option value="Social Proof — feature reviews and educator endorsements">Week 2: The Proof</option>
-            <option value="Education — teach one specific money skill from the book">Week 3: The Education</option>
-            <option value="The Close — urgency, gift angle, final call to action">Week 4: The Close</option>
-            <option value="Wants vs Needs — the key concept from the book">Concept: Wants vs. Needs</option>
-            <option value="Comparison Shopping and doing shopping homework">Concept: Comparison Shopping</option>
-            <option value="Coupons, clearance deals, and smart deal finding">Concept: Coupons & Clearance</option>
-            <option value="529 college savings accounts and long-term saving">Concept: 529 Savings</option>
-            <option value="Educator bulk orders, free classroom resources, Title I alignment">Educator: Bulk Orders</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">Tone</label>
-          <div class="chips" id="tone-chips">
-            <div class="chip active" onclick="setChip(this,'tone','Witty and warm')">Witty & Warm</div>
-            <div class="chip" onclick="setChip(this,'tone','Punchy and bold')">Punchy & Bold</div>
-            <div class="chip" onclick="setChip(this,'tone','Heartfelt and emotional')">Heartfelt</div>
-            <div class="chip" onclick="setChip(this,'tone','Professional thought-leadership LinkedIn broetry')">LinkedIn Bro</div>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">Special Instructions (optional)</label>
-          <textarea id="instructions" rows="3" placeholder="e.g. 'Include the Josie age-10 quote' or 'Make it funny' or 'Focus on the 529 savings angle'..."></textarea>
-        </div>
-
-        <button class="gen-btn" id="gen-btn" onclick="generatePost()">
-          <span id="btn-text">✨ Generate Post</span>
-          <div class="spinner" id="spinner"></div>
-        </button>
-      </div>
-    </div>
-
-    <!-- OUTPUT -->
-    <div class="output-panel" id="output-panel">
-      <div id="placeholder-state" class="output-card">
-        <div class="placeholder-state">
-          <div class="icon">✍️</div>
-          <p>Your generated post will appear here.<br>Select your options and click <strong style="color:#ff6b2b">Generate Post</strong>.</p>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- TAB 2: LINKEDIN TEMPLATES -->
+  <div class="tab-section" id="tab-tpl">
+    <p class="tpl-intro">8 pre-built posts engineered for LinkedIn's <strong>interest-graph algorithm</strong>. Each format targets what's working <em>right now</em> — authority hooks, external links, long-form human writing. Edit any template and copy directly. <strong>No API key required.</strong></p>
+    <div class="tpl-grid" id="tpl-grid"></div>
+  </div>
+
+  <!-- TAB 3: PLAYBOOK -->
+  <div class="tab-section" id="tab-play">
+    <div class="pb-grid">
+      <div class="pb-card">
+        <h3>💼 What Works NOW on LinkedIn</h3>
+        <div class="pb-rule">
+          <span class="pb-badge">6–7×</span>
+          <div class="pb-text"><strong>Post daily.</strong> The algorithm rewards volume + consistency over quality-only. Reach compounds like interest.
+          <span class="pb-stat">New minimum for growth</span></div>
+        </div>
+        <div class="pb-rule">
+          <span class="pb-badge">Hook</span>
+          <div class="pb-text"><strong>Lead with a credential.</strong> "20 years as an attorney…" or "I bought $300 shoes for $0.01…" — signals authority to the interest graph.</div>
+        </div>
+        <div class="pb-rule">
+          <span class="pb-badge">Links</span>
+          <div class="pb-text">Include <strong>3+ quality external links</strong> (Jump$tart, FDIC, FINRA, CEE). Counterintuitive but real.
+          <span class="pb-stat">+441% reach on average</span></div>
+        </div>
+        <div class="pb-rule">
+          <span class="pb-badge">Long</span>
+          <div class="pb-text"><strong>Long-form, human-sounding writing</strong> outperforms skimmable bullets. Tell the real story with real details.
+          <span class="pb-stat">+227% views</span></div>
+        </div>
+        <div class="pb-rule">
+          <span class="pb-badge">Visual</span>
+          <div class="pb-text"><strong>Infographics = 29%</strong> of all top 1% posts. Export from the Social Assets page and post natively.
+          <span class="pb-stat">Top 1% format</span></div>
+        </div>
+        <div class="pb-rule">
+          <span class="pb-badge">Exec</span>
+          <div class="pb-text">One <strong>educator or executive comment</strong> drives more algorithmic reach than 10 peer comments. DM one person per post using the template on this page.</div>
+        </div>
+      </div>
+
+      <div class="pb-card">
+        <h3>📅 7-Day Posting Schedule</h3>
+        <div id="sched-list"></div>
+      </div>
+    </div>
+
+    <div class="pb-card" style="max-width:580px">
+      <h3>📨 Educator Outreach DM</h3>
+      <p style="font-size:.77rem;color:#555;line-height:1.55">Send to principals, curriculum directors, and Jump$tart-aligned educators. Their comment on your post triggers a significant algorithmic reach boost — one exec comment outperforms ten peer comments.</p>
+      <div class="dm-box" id="dm-box"></div>
+      <button class="dm-btn" onclick="copyDm(this)">Copy DM Template</button>
+    </div>
+  </div>
+
 </div>
 
 <script>
+// ── BOOK CONTEXT ────────────────────────────────────────────────────────────
 const BOOK_CONTEXT = `You are a social media copywriter for "Clarence Gets a Bargain," a children's financial literacy book by Jonathan Bach (attorney, artist, recovering coupon addict).
 
 BOOK FACTS:
-- 36 pages, full color, $14.99, Ages 6–10, Grades 1–5, Lexile AD 620L
-- Character: Clarence, a young boy who earns a robot reward (called RoBimmie) for good grades and chores, then does "shopping homework" before going to Sea-Mart
-- 6 money skills taught: Budgeting, Comparison Shopping, Coupons & Clearance, Wants vs. Needs, Receipts & Records, 529 College Savings
-- "Wants vs. Needs" must ALWAYS be bold/italic when mentioned in context — it's the core FLAC concept
-- Available at clarencegetsabargain.com, Barnes & Noble, IndieBound
+- 36 pages, full color, $14.99, Ages 6-10, Grades 1-5, Lexile AD 620L
+- Clarence earns a robot toy (RoBimmie) for good grades and chores, does "shopping homework," then goes to Sea-Mart
+- 6 money skills: Budgeting, Comparison Shopping, Coupons & Clearance, Wants vs. Needs, Receipts & Records, 529 College Savings
+- "Wants vs. Needs" is always bold/italic — it's the core FLAC concept
 
 REVIEWS:
-- Maryann Milewski Moskal (Veteran Educator, 30+ Years K–5): "An absolute masterclass in early-stage financial literacy."
-- Wally Luckeydoo, Ed.D. (Award-Winning Educator, Jump$tart Award Winner): "I love the hands-on moments like using the coupon at the register."
-- 3rd Grade Teacher (NJ): "My students fought over who got to hold the book during read-aloud. Fought. Over a book about money."
+- Maryann Milewski Moskal (Veteran Educator, 30+ Years K-5): "An absolute masterclass in early-stage financial literacy."
+- Wally Luckeydoo, Ed.D. (Jump$tart Corey Carlisle Award Winner): "I love the hands-on moments like using the coupon at the register."
+- 3rd Grade Teacher (NJ): "My students fought over who got to hold the book during read-aloud."
 - Josie K., Age 10: "It taught me how to get sales to save money, which made me feel more grown-up and smart."
 
-AUTHOR: Jonathan Bach — attorney by day, artist by night, recovering coupon addict. Once negotiated $300 shoes down to $0.01 (one cent). Motivation: Nobody taught him about money at age 7, learned through overdraft fees and "free money" credit cards.
+AUTHOR: Jonathan Bach — attorney by day, artist by night. Once price-matched $300 shoes down to $0.01 on a cruise ship. Learned money the hard way through overdraft fees and "no annual fee" credit cards.
 
-FREE EDUCATOR RESOURCES: lesson plans (Jump$tart, CCSS, CEE, FDIC aligned), discussion guides, assessment worksheets, family activities, Smart Shopper Challenge Quiz
+FREE EDUCATOR RESOURCES at clarencegetsabargain.com — lesson plans, discussion guides, assessment worksheets, family activities. No email required.
 
-TAGLINES: "Story first. Money smarts sneak in." / "KID LIT IS A HIT! KID FIN IS A WIN!" / "Now go get a bargain."
+AUTHORITY LINKS (include in LinkedIn posts for +441% reach):
+- Jump$tart National Standards: jumpstart.org/national-standards
+- FDIC Money Smart for Young People: fdic.gov/resources/consumers/money-smart
+- Council for Economic Education: councilforeconed.org
+- FINRA Investor Education Foundation: finrafoundation.org
 
-CAMPAIGN THEME: April = Financial Literacy Month. Schools are buzzing with money lessons.`;
+LINKEDIN ALGORITHM RULES (apply when platform = LinkedIn):
+- Lead with an authority hook. Never open with "I" — algorithm penalizes it.
+- Write 300-500 words, long-form, human-sounding. No generic bullet fluff.
+- Include 3+ external authority links from the list above.
+- Use broetry format: short punchy paragraphs, max 3 sentences each.
+- End with a direct engagement question to seed comments.
+- Position Jonathan as a financial literacy AUTHORITY, not just a book author.`;
 
-let selections = {platform:'Facebook', audience:'Parents (Ages 28–45)', tone:'Witty and warm'};
+// ── STATE ───────────────────────────────────────────────────────────────────
+let sel = {platform:'Facebook', audience:'Parents (Ages 28-45)', tone:'Witty and warm'};
 
-function setChip(el, type, val){
-  el.closest('.chips').querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
+// ── TABS ────────────────────────────────────────────────────────────────────
+function switchTab(t){
+  var tabs=['ai','tpl','play'];
+  document.querySelectorAll('.tab-btn').forEach(function(b,i){b.classList.toggle('active',tabs[i]===t);});
+  document.querySelectorAll('.tab-section').forEach(function(s,i){s.classList.toggle('active','tab-'+tabs[i]==='tab-'+t);});
+}
+
+// ── CHIPS ───────────────────────────────────────────────────────────────────
+function setChip(el,type,val){
+  el.closest('.chips').querySelectorAll('.chip').forEach(function(c){c.classList.remove('active');});
   el.classList.add('active');
-  selections[type] = val;
+  sel[type]=val;
+  if(type==='platform') document.getElementById('li-algo').style.display=(val==='LinkedIn')?'block':'none';
 }
 
-function saveKey(){
-  const key = document.getElementById('api-key').value.trim();
-  if(key){ localStorage.setItem('anthropic_key', key); showKeyStatus('✓ Key saved locally', '#43a047'); }
-}
+// ── API KEY ──────────────────────────────────────────────────────────────────
+function saveKey(){var k=document.getElementById('api-key').value.trim();if(k){localStorage.setItem('anthropic_key',k);showStatus('✓ Key saved locally','#43a047');}}
+function checkKey(){if(localStorage.getItem('anthropic_key'))showStatus('✓ API key loaded','#43a047');}
+function showStatus(m,c){var el=document.getElementById('key-status');el.textContent=m;el.style.color=c;}
 
-function checkKey(){
-  const k = localStorage.getItem('anthropic_key');
-  if(k) showKeyStatus('✓ API key loaded', '#43a047');
-}
-
-function showKeyStatus(msg, color){
-  const el = document.getElementById('key-status');
-  el.textContent = msg; el.style.color = color;
-}
-
+// ── GENERATE ────────────────────────────────────────────────────────────────
 async function generatePost(){
-  const apiKey = document.getElementById('api-key').value.trim() || localStorage.getItem('anthropic_key');
-  if(!apiKey){ alert('Please enter your Anthropic API key first.'); return; }
+  var apiKey=document.getElementById('api-key').value.trim()||localStorage.getItem('anthropic_key');
+  if(!apiKey){alert('Please enter your Anthropic API key first.');return;}
 
-  const platform = selections.platform || 'Facebook';
-  const audience = selections.audience || 'Parents';
-  const tone = selections.tone || 'Witty and warm';
-  const theme = document.getElementById('theme-select').value;
-  const instructions = document.getElementById('instructions').value.trim();
+  var platform=sel.platform||'Facebook';
+  var audience=sel.audience||'Parents';
+  var tone=sel.tone||'Witty and warm';
+  var theme=document.getElementById('theme-select').value;
+  var instructions=document.getElementById('instructions').value.trim();
 
-  const btn = document.getElementById('gen-btn');
-  const spinner = document.getElementById('spinner');
-  const btnText = document.getElementById('btn-text');
-  btn.disabled = true; spinner.style.display = 'block'; btnText.textContent = 'Generating...';
+  var btn=document.getElementById('gen-btn');
+  var spinner=document.getElementById('spinner');
+  var btnText=document.getElementById('btn-text');
+  btn.disabled=true;spinner.style.display='block';btnText.textContent='Generating...';
 
-  const prompt = `${BOOK_CONTEXT}
+  var liRules=platform==='LinkedIn'?`
+- Write 300-500 words using the LINKEDIN ALGORITHM RULES above.
+- Broetry format: short blocks, max 3 sentences each.
+- Include at least 3 external authority links.
+- Open with an authority hook, never start with "I".
+- End with a direct engagement question.
+- Do NOT use bullet lists — flowing paragraphs only.`:'';
 
-TASK: Write a ${platform} post for the following:
-- Target Audience: ${audience}
-- Campaign Theme: ${theme}
-- Tone: ${tone}
-${instructions ? '- Special Instructions: ' + instructions : ''}
+  var platformRules={
+    Instagram:'- Under 220 words. Punchy. End with 15-20 relevant hashtags.',
+    Facebook:'- 150-280 words. Conversational. Include a question to drive engagement.',
+    LinkedIn:liRules
+  }[platform]||'';
 
-REQUIREMENTS:
-- Platform: ${platform}
-${platform === 'Instagram' ? '- Keep caption under 220 words. Punchy. End with 15-20 relevant hashtags.' : ''}
-${platform === 'Facebook' ? '- 150-280 words. Can be longer. Conversational. Include a question to drive engagement.' : ''}
-${platform === 'LinkedIn' ? '- Use broetry formatting (short lines). Hook in first 2 lines. Numbered insights work well. End with a question. Reference AI or frameworks if the LinkedIn crowd tone is set.' : ''}
-- Include a clear call to action with clarencegetsabargain.com
-- Match the book\'s voice: witty, warm, never boring, never preachy
-- Do NOT use generic marketing language
-- Return ONLY the post copy (no explanations, no preamble)
-- After the post copy, on a new line starting with "HASHTAGS:", list 8-12 relevant hashtags`;
+  var prompt=BOOK_CONTEXT+'\n\nTASK: Write a '+platform+' post.\n- Audience: '+audience+'\n- Theme: '+theme+'\n- Tone: '+tone+(instructions?'\n- Special Instructions: '+instructions:'')+'\n\nREQUIREMENTS:\n'+platformRules+'\n- Clear CTA with clarencegetsabargain.com\n- Witty, warm, never preachy, never generic\n- Return ONLY the post copy\n- After the post, on a new line: "HASHTAGS:" followed by 8-12 hashtags';
 
-  try {
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': apiKey,
-        'anthropic-version': '2023-06-01',
-        'anthropic-dangerous-direct-browser-access': 'true'
-      },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-6',
-        max_tokens: 1024,
-        messages: [{role:'user', content: prompt}]
-      })
+  try{
+    var res=await fetch('https://api.anthropic.com/v1/messages',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','x-api-key':apiKey,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
+      body:JSON.stringify({model:'claude-sonnet-4-6',max_tokens:1200,messages:[{role:'user',content:prompt}]})
     });
-
-    if(!res.ok){
-      const err = await res.json();
-      throw new Error(err.error?.message || 'API error: ' + res.status);
-    }
-
-    const data = await res.json();
-    const text = data.content[0].text;
-    const [postBody, hashtagPart] = text.split(/HASHTAGS:/i);
-    displayResult(platform, audience, theme, postBody.trim(), hashtagPart ? hashtagPart.trim() : '', tone);
-    saveToHistory(platform, theme, postBody.trim());
-
-  } catch(e){
-    alert('Error: ' + e.message + '\n\nCheck your API key and try again.');
-  } finally {
-    btn.disabled=false; spinner.style.display='none'; btnText.textContent='✨ Generate Post';
+    if(!res.ok){var err=await res.json();throw new Error(err.error?.message||'API error '+res.status);}
+    var data=await res.json();
+    var text=data.content[0].text;
+    var parts=text.split(/HASHTAGS:/i);
+    displayResult(platform,tone,parts[0].trim(),parts[1]?parts[1].trim():'');
+  }catch(e){
+    alert('Error: '+e.message+'\n\nCheck your API key and try again.');
+  }finally{
+    btn.disabled=false;spinner.style.display='none';btnText.textContent='✨ Generate Post';
   }
 }
 
-function displayResult(platform, audience, theme, body, hashtags, tone){
-  const ph = document.getElementById('placeholder-state');
-  if(ph) ph.style.display = 'none';
-
-  const platformColors = {Facebook:'#1877f2', Instagram:'linear-gradient(135deg,#f09433,#dc2743)', LinkedIn:'#0077b5'};
-  const platformEmojis = {Facebook:'📘', Instagram:'📸', LinkedIn:'💼'};
-
-  const card = document.createElement('div');
-  card.className = 'output-card';
-  card.innerHTML = `
-    <div class="output-header">
-      <h3>${platformEmojis[platform]||'📝'} ${platform} · ${tone}</h3>
-      <div class="output-actions">
-        <button class="copy-btn" onclick="copyPost(this)">Copy Post</button>
-        <button class="copy-btn" onclick="this.closest('.output-card').remove()">✕</button>
-      </div>
-    </div>
-    <div class="output-body">${escHtml(body)}</div>
-    ${hashtags ? `<div class="hashtag-row">${hashtags.replace(/#\S+/g, m=>`<span class="hashtag-chip">${m}</span>`)}</div>` : ''}
-  `;
-  const panel = document.getElementById('output-panel');
-  panel.insertBefore(card, panel.firstChild);
+function displayResult(platform,tone,body,hashtags){
+  var ph=document.getElementById('placeholder-state');
+  if(ph)ph.style.display='none';
+  var emojis={Facebook:'📘',Instagram:'📸',LinkedIn:'💼'};
+  var card=document.createElement('div');card.className='output-card';
+  card.innerHTML='<div class="output-header"><h3>'+( emojis[platform]||'📝')+' '+platform+' · '+tone+'</h3><div class="output-actions"><button class="copy-btn" onclick="copyPost(this)">Copy Post</button><button class="copy-btn" onclick="this.closest(\'.output-card\').remove()">✕</button></div></div><div class="output-body">'+escHtml(body)+'</div>'+(hashtags?'<div class="hashtag-row">'+hashtags.replace(/#\S+/g,function(m){return'<span class="hashtag-chip">'+m+'</span>'})+'</div>':'');
+  var panel=document.getElementById('output-panel');
+  panel.insertBefore(card,panel.firstChild);
 }
 
 function escHtml(t){return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,'<br>');}
 
 function copyPost(btn){
-  const body = btn.closest('.output-card').querySelector('.output-body');
-  const text = body.innerText;
-  navigator.clipboard.writeText(text).then(()=>{
-    btn.textContent='Copied!'; btn.classList.add('copied');
-    setTimeout(()=>{btn.textContent='Copy Post'; btn.classList.remove('copied');},2000);
+  var body=btn.closest('.output-card').querySelector('.output-body');
+  navigator.clipboard.writeText(body.innerText).then(function(){btn.textContent='Copied!';btn.classList.add('copied');setTimeout(function(){btn.textContent='Copy Post';btn.classList.remove('copied');},2000);});
+}
+
+// ── TEMPLATES ───────────────────────────────────────────────────────────────
+var TPLS=[
+  {
+    name:'The Authority Hook',
+    rule:'Lead with credentials → story → lesson → CTA',
+    algo:'Authority Signal + Long-form',
+    body:`20 years as an attorney.
+
+I've read thousands of contracts. Fine print, escape clauses, the kind of language nobody explains until you're signing it at midnight.
+
+Here's what I wish someone had put in front of me at age 7:
+
+The difference between a Want and a Need is not obvious.
+
+Most adults I know still get it wrong.
+
+That's exactly why I wrote Clarence Gets a Bargain.
+
+Clarence earns a robot toy for good grades. He goes to Sea-Mart with a budget, a coupon, and a shopping list. And he almost blows it — not because he's bad with money, but because nobody taught him to stop and ask: do I actually need this?
+
+That question — Wants vs. Needs — is the foundation of every financial decision an adult makes. It's learnable at age 7. Most kids don't get the chance.
+
+The book covers six real money skills: budgeting, comparison shopping, coupons, Wants vs. Needs, receipts, and 529 savings. It's Lexile-rated (AD 620L), Jump$tart aligned, and reads aloud in about 15 minutes.
+
+Veteran educator Maryann Milewski Moskal (30+ years K-5): "An absolute masterclass in early-stage financial literacy."
+
+Free educator toolkit at clarencegetsabargain.com — lesson plans, discussion guides, assessment worksheets. No email required.
+
+Jump$tart National Standards → jumpstart.org/national-standards
+FDIC Money Smart for Young People → fdic.gov/resources/consumers/money-smart
+Council for Economic Education → councilforeconed.org
+
+What's one money lesson you wish you'd learned before age 10?`
+  },
+  {
+    name:'The Origin Story',
+    rule:'Personal story → the problem → the book as the solution',
+    algo:'Narrative Hook + Human Writing',
+    body:`I once bought a $300 pair of shoes for one cent.
+
+Not a typo. $0.01.
+
+A price-match conversation with a retailer on a cruise ship. Seven minutes. The cashier's expression was worth more than the shoes.
+
+My dad thought I was being annoying. I thought I was being a good shopper.
+
+That skill — comparing prices, asking questions, not accepting the first number — nobody taught me that. I learned it through years of expensive mistakes. Overdraft fees. "No annual fee" credit cards. The usual tuition.
+
+By the time I understood how money actually worked, I'd already paid for the lessons in full.
+
+So I wrote a book for kids who haven't made those mistakes yet.
+
+Clarence Gets a Bargain follows a kid who does something most adults don't: he does his shopping homework before he walks into the store. He budgets. He compares prices. He uses a coupon. He stops and asks himself if he needs what he's about to buy.
+
+Six real money skills. Thirty-six pages. Ages 6-10.
+
+The best time to learn how money works is before you need to.
+
+Free family activity guide + educator toolkit at clarencegetsabargain.com
+
+FDIC Money Smart for Young People → fdic.gov/resources/consumers/money-smart
+Jump$tart Coalition → jumpstart.org
+FINRA Investor Education Foundation → finrafoundation.org
+
+What's your best deal story? Drop it below.`
+  },
+  {
+    name:'The Counterintuitive',
+    rule:'Challenge a belief → prove it with data → pivot to the fix',
+    algo:'Thought Leadership + 3 External Links',
+    body:`Schools teach kids math.
+
+They don't teach kids money.
+
+Those are different subjects.
+
+A 4th grader can calculate 30% of $80. They cannot tell you whether to spend it, save it, or if they even need what they're about to buy.
+
+The National Jump$tart Coalition has tracked this gap for 25 years. Their data is consistent: most K-12 students graduate financially illiterate — not because they're bad at numbers, but because nobody taught them judgment.
+
+The FDIC responded by building an entire K-5 curriculum called Money Smart for Young People. It exists. Most schools haven't implemented it.
+
+The Council for Economic Education publishes national standards for K-12 personal finance. They're voluntary. Most districts don't prioritize them.
+
+The gap isn't a knowledge problem. It's a priority problem.
+
+One 36-page children's book doesn't fix the whole system. But it puts the right language in front of kids at the right age.
+
+Clarence Gets a Bargain covers Wants vs. Needs, budgeting, comparison shopping, coupons, receipts, and 529 savings. Ages 6-10. Jump$tart aligned, CCSS-connected, FDIC-themed.
+
+Teachers say kids fight over who gets to hold it during read-aloud.
+
+Free educator preview at clarencegetsabargain.com
+
+Jump$tart National Standards → jumpstart.org/national-standards
+FDIC Money Smart → fdic.gov/resources/consumers/money-smart
+Council for Economic Education → councilforeconed.org
+
+If financial literacy were a required subject, what age would you start it?`
+  },
+  {
+    name:'The Education Drop',
+    rule:'Teach something real → cite 3 sources → soft CTA',
+    algo:'Authority Content + 3 External Links',
+    body:`6 money skills every kid should learn before middle school. With the research behind each one.
+
+1. Wants vs. Needs
+The Jump$tart Coalition identifies this as the #1 foundational concept in K-12 financial literacy. Without it, every other skill is built on sand.
+
+2. Budgeting
+The FDIC Money Smart for Young People program builds its entire K-5 sequence around pre-purchase planning. The habit has to be established before the spending habit.
+
+3. Comparison Shopping
+CCSS.Math.5.NBT.B.7 covers this mathematically. But math fluency and shopping judgment are two different skills — only one gets taught.
+
+4. Coupons & Clearance
+Price optimization is learnable. Most adults don't have it because nobody made it a game at age 8 when they still liked games.
+
+5. Receipts & Records
+The Council for Economic Education lists record-keeping as a core financial behavior for K-5. Simple habit. Long-term payoff.
+
+6. Long-Term Saving (529 accounts)
+Earlier introduction = longer compounding window. This is math, not philosophy.
+
+All six of these live inside one 36-page book.
+
+Clarence Gets a Bargain. Ages 6-10. $14.99.
+
+Free educator toolkit — lesson plans, discussion guides, assessment worksheets — at clarencegetsabargain.com
+
+Jump$tart National Standards → jumpstart.org/national-standards
+FDIC Money Smart for Young People → fdic.gov/resources/consumers/money-smart
+Council for Economic Education → councilforeconed.org
+
+Which of these 6 is most missing from what kids are taught today?`
+  },
+  {
+    name:'The Social Proof Stack',
+    rule:'Stack 3 credible voices → contrast them → CTA',
+    algo:'Human Interest + Engagement Hook',
+    body:`Three people. Very different jobs. Same reaction to this book.
+
+Maryann Milewski Moskal — 30+ years in elementary education, K-5 classroom veteran:
+"An absolute masterclass in early-stage financial literacy."
+
+Wally Luckeydoo, Ed.D. — Jump$tart Corey Carlisle Award Winner:
+"I love the hands-on moments like using the coupon at the register and learning why saving money is important."
+
+Josie K., age 10:
+"It taught me how to get sales to save money, which made me feel more grown-up and smart."
+
+One has 30 years in a classroom.
+One has a national award.
+One is ten years old.
+
+They basically all said the same thing.
+
+When a book lands the same way for a veteran educator and a kid who just wants to feel grown-up — that's the whole game.
+
+Clarence Gets a Bargain. $14.99. Ages 6-10.
+
+Free educator toolkit at clarencegetsabargain.com — lesson plans, guides, worksheets. No email required.
+
+Jump$tart Coalition → jumpstart.org
+FDIC Money Smart → fdic.gov/resources/consumers/money-smart
+Council for Economic Education → councilforeconed.org
+
+Who would you give this book to first — a child, a classroom, or a school library?`
+  },
+  {
+    name:'The Educator Pitch',
+    rule:'Standards alignment list → social proof → educator CTA',
+    algo:'Niche Authority + External Links',
+    body:`Most financial literacy programs cost thousands of dollars per school.
+
+This one costs $14.99. And there's a complete free educator toolkit.
+
+Clarence Gets a Bargain is:
+→ Lexile AD 620L (Guided Reading L-N)
+→ Jump$tart National Standards aligned (Spending, Saving, Earning Income)
+→ FDIC Money Smart for Young People themed
+→ CCSS.Math.5.NBT.B.7 connected
+→ Council for Economic Education topics covered
+→ Pre- and post-assessment activities included
+→ CRA community development eligible
+
+Maryann Milewski Moskal (30+ years K-5): "An absolute masterclass in early-stage financial literacy."
+
+Wally Luckeydoo, Ed.D. (Jump$tart Award Winner): "I love the hands-on moments like using the coupon at the register."
+
+The free educator toolkit — zero-prep lesson plans, discussion guides, assessment worksheets, family activity guide — is at clarencegetsabargain.com. No email required. Instant download.
+
+If you're a Title I coordinator, curriculum director, or financial literacy educator — reach out.
+
+questions@clarencegetsabargain.com
+
+Jump$tart National Standards → jumpstart.org/national-standards
+FDIC Money Smart → fdic.gov/resources/consumers/money-smart
+Council for Economic Education → councilforeconed.org
+
+Where does financial literacy currently fall in your district's priorities?`
+  },
+  {
+    name:'The Comment Magnet',
+    rule:'Open question → your story → reframe → soft CTA',
+    algo:'Engagement Loop + Personal Narrative',
+    body:`What did your parents teach you about money before age 10?
+
+I'll start.
+
+My dad taught me to check the receipt before leaving the store. That was the whole curriculum.
+
+That one habit — verifying the number you owe matches what you agreed to — changed how I see every transaction. Not about trust. About attention.
+
+Most people I've asked say "nothing." A few say "save before you spend" or "don't buy what you can't afford."
+
+Which is fine. But none of those are skills.
+
+A skill is: this item costs $4.99. That item is the same thing and costs $2.49. Buy the second one. Here's how to know they're the same thing.
+
+A skill is: before we go to the store, write down what we need and what we can spend.
+
+A skill is: here's how to read a coupon without getting tricked.
+
+Skills are learnable at age 7. They have to be taught before the habits set.
+
+I wrote Clarence Gets a Bargain for the parents who want to start that conversation and don't know how. The book does it in 36 pages. The free family activity guide extends it into the week.
+
+Both at clarencegetsabargain.com.
+
+Jump$tart Coalition → jumpstart.org
+FDIC Money Smart for Young People → fdic.gov/resources/consumers/money-smart
+FINRA Investor Education Foundation → finrafoundation.org
+
+What did your parents teach you about money before age 10?`
+  },
+  {
+    name:'The Executive Pitch',
+    rule:'Data hook → research stack → institutional CTA',
+    algo:'High-Status Targeting + 4 External Links',
+    body:`The average American adult has a 7th-grade financial literacy level.
+
+That's from the FINRA Investor Education Foundation. It's been consistent for years.
+
+We didn't get here because adults are bad with money. We got here because nobody taught us at 7.
+
+The research is consistent across every major study: kids exposed to core money concepts before age 10 develop stronger saving habits, lower spending impulsivity, and higher financial confidence as adults.
+
+Jump$tart has tracked the K-12 financial literacy gap for 25 years. The FDIC built an entire K-5 curriculum to address it. Neither is adequately funded at the district level.
+
+So the gap stays.
+
+Clarence Gets a Bargain is a 36-page children's book for ages 6-10 covering Wants vs. Needs, budgeting, comparison shopping, coupons, receipts, and 529 savings. Lexile-rated (AD 620L), Jump$tart aligned, FDIC-themed.
+
+It's also CRA-eligible for banks and credit unions fulfilling community development obligations through financial literacy programming.
+
+The institutional documentation packet — standards alignment, assessment framework, CRA language — is available on request.
+
+The kids think it's hilarious. The board gets the documentation. Everyone wins.
+
+questions@clarencegetsabargain.com for institutional inquiries.
+
+FINRA Investor Education Foundation → finrafoundation.org
+Jump$tart National Standards → jumpstart.org/national-standards
+FDIC Money Smart → fdic.gov/resources/consumers/money-smart
+clarencegetsabargain.com
+
+If every elementary school had a mandatory financial literacy unit, what would change?`
+  }
+];
+
+function renderTemplates(){
+  var grid=document.getElementById('tpl-grid');
+  TPLS.forEach(function(t,i){
+    var card=document.createElement('div');card.className='tpl-card';
+    card.innerHTML='<div class="tpl-head"><div class="tpl-name">'+t.name+'</div><div class="tpl-rule">'+t.rule+'</div><span class="tpl-tag">💼 '+t.algo+'</span></div>'
+      +'<div class="tpl-body"><textarea id="tpl-'+i+'" rows="16"></textarea></div>'
+      +'<div class="tpl-foot"><button class="tpl-copy" onclick="copyTpl(this,'+i+')">Copy Post</button><button class="tpl-ai" onclick="sendToAI('+i+')">Rewrite with AI ↗</button></div>';
+    card.querySelector('#tpl-'+i).value=t.body;
+    grid.appendChild(card);
   });
 }
 
-function saveToHistory(platform, theme, body){
-  const history = JSON.parse(localStorage.getItem('post_history')||'[]');
-  history.unshift({platform, theme:theme.split('—')[0].trim(), preview:body.substring(0,80)+'...', ts:Date.now()});
-  if(history.length>10) history.pop();
-  localStorage.setItem('post_history', JSON.stringify(history));
+function copyTpl(btn,i){
+  var ta=document.getElementById('tpl-'+i);
+  navigator.clipboard.writeText(ta.value).then(function(){btn.textContent='Copied!';btn.classList.add('copied');setTimeout(function(){btn.textContent='Copy Post';btn.classList.remove('copied');},2000);});
 }
 
-window.onload=()=>{
-  const k=localStorage.getItem('anthropic_key');
-  if(k){document.getElementById('api-key').value=k; showKeyStatus('✓ API key loaded','#43a047');}
+function sendToAI(i){
+  switchTab('ai');
+  var chips=document.querySelectorAll('#platform-chips .chip');
+  chips.forEach(function(c){c.classList.remove('active');});
+  chips[2].classList.add('active');
+  sel.platform='LinkedIn';
+  document.getElementById('li-algo').style.display='block';
+  document.getElementById('instructions').value='Use the format of: '+TPLS[i].name+'. '+TPLS[i].rule+'. Same structure, fresh angle.';
+  document.getElementById('tab-ai').scrollIntoView({behavior:'smooth'});
+}
+
+// ── SCHEDULE ─────────────────────────────────────────────────────────────────
+var SCHED=[
+  {d:'Mon',f:'Authority Hook',t:'Lead with attorney credentials. Sets the authority tone for the week.',hot:true},
+  {d:'Tue',f:'Education Drop',t:'Teach a skill + 3 external links. Best day for the reach multiplier.',hot:false},
+  {d:'Wed',f:'Origin Story',t:'The $0.01 shoe deal. Personal narrative drives shares mid-week.',hot:false},
+  {d:'Thu',f:'Social Proof Stack',t:'Stack Maryann + Wally + Josie. Thursday gets peak LinkedIn engagement.',hot:true},
+  {d:'Fri',f:'Counterintuitive',t:'"Schools teach math, not money." Challenges a belief, seeds comments.',hot:false},
+  {d:'Sat',f:'Comment Magnet',t:'"What did your parents teach you?" Weekend personal posts perform well.',hot:false},
+  {d:'Sun',f:'Infographic (optional)',t:'Export from Social Assets page. Visual content, low effort, solid reach.',hot:false}
+];
+
+function renderSchedule(){
+  var list=document.getElementById('sched-list');
+  SCHED.forEach(function(d){
+    var row=document.createElement('div');row.className='sched-row';
+    row.innerHTML='<span class="sched-dow'+(d.hot?' hot':'')+'">'+d.d+'</span><div><div class="sched-fmt">'+(d.hot?'🔥 ':'')+d.f+'</div><div class="sched-tip">'+d.t+'</div></div>';
+    list.appendChild(row);
+  });
+}
+
+// ── DM TEMPLATE ──────────────────────────────────────────────────────────────
+var DM_TEXT='Hi [Name],\n\nQuick note — I\'m Jonathan Bach, author of Clarence Gets a Bargain, a children\'s financial literacy book aligned with Jump$tart National Standards and FDIC Money Smart for Young People.\n\nI came across your work in [financial literacy / elementary education / curriculum leadership] and thought this might belong on your radar.\n\nThere\'s a free educator toolkit at clarencegetsabargain.com — lesson plans, discussion guides, and assessment worksheets. No email required, instant download.\n\nIf you have 5 minutes to glance at it, I\'d genuinely value your perspective. No ask beyond that.\n\nJonathan Bach\nclarencegetsabargain.com';
+
+function renderDm(){document.getElementById('dm-box').textContent=DM_TEXT;}
+
+function copyDm(btn){
+  navigator.clipboard.writeText(DM_TEXT).then(function(){btn.textContent='Copied!';btn.style.background='#2e7d32';setTimeout(function(){btn.textContent='Copy DM Template';btn.style.background='';},2000);});
+}
+
+// ── INIT ─────────────────────────────────────────────────────────────────────
+window.onload=function(){
+  var k=localStorage.getItem('anthropic_key');
+  if(k){document.getElementById('api-key').value=k;showStatus('✓ API key loaded','#43a047');}
+  renderTemplates();
+  renderSchedule();
+  renderDm();
 };
 </script>
 </body>
