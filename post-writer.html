@@ -73,7 +73,30 @@ textarea:focus{border-color:var(--orange)}
 .placeholder-state .icon{font-size:3rem;opacity:.5}
 .placeholder-state p{font-size:.88rem;line-height:1.6}
 
-/* LINKEDIN ALGO CALLOUT */
+/* HISTORY */
+.hist-section{margin-top:28px;border-top:1px solid #1a1a1a;padding-top:20px}
+.hist-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.hist-head h3{font-family:'Hold',sans-serif;color:#666;font-size:.9rem;cursor:pointer;transition:color .2s}
+.hist-head h3:hover{color:#aaa}
+.hist-clear{background:none;border:1px solid #2a2a2a;color:#555;border-radius:50px;padding:5px 12px;font-size:.7rem;font-weight:700;cursor:pointer;transition:all .2s}
+.hist-clear:hover{border-color:#ff4444;color:#ff4444}
+.hist-empty{font-size:.8rem;color:#444;font-style:italic;padding:12px 0}
+.hist-list{display:flex;flex-direction:column;gap:8px}
+.hist-item{background:#111;border:1px solid #1a1a1a;border-radius:10px;padding:12px 14px;display:flex;gap:12px;align-items:flex-start;transition:border-color .2s}
+.hist-item:hover{border-color:#222}
+.hist-badge{font-size:.62rem;font-weight:800;padding:3px 8px;border-radius:4px;white-space:nowrap;flex-shrink:0;margin-top:2px}
+.hist-badge.fb{background:rgba(24,119,242,.15);color:#4da6ff}
+.hist-badge.ig{background:rgba(225,48,108,.15);color:#f77}
+.hist-badge.li{background:rgba(0,119,181,.15);color:#4da6ff}
+.hist-info{flex:1;min-width:0}
+.hist-ts{font-size:.65rem;color:#444;margin-bottom:3px}
+.hist-preview{font-size:.78rem;color:#777;line-height:1.5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hist-actions{display:flex;gap:5px;flex-shrink:0}
+.hist-btn{background:#1a1a1a;border:1px solid #2a2a2a;color:#888;border-radius:50px;padding:5px 11px;font-size:.68rem;font-weight:700;cursor:pointer;transition:all .2s;white-space:nowrap}
+.hist-btn:hover{background:#222;color:#ccc}
+.hist-btn.del:hover{border-color:#ff4444;color:#ff4444}
+
+
 #li-algo{display:none;background:#001a2e;border:1px solid rgba(0,119,181,.4);border-radius:12px;padding:14px 16px;margin-bottom:16px}
 #li-algo .li-head{font-size:.72rem;font-weight:800;color:#4da6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
 #li-algo ul{list-style:none;display:flex;flex-direction:column;gap:5px}
@@ -245,6 +268,18 @@ textarea:focus{border-color:var(--orange)}
             <p>Your generated post will appear here.<br>Select your options and click <strong style="color:#ff6b2b">Generate Post</strong>.</p>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- HISTORY -->
+    <div class="hist-section" id="hist-section">
+      <div class="hist-head">
+        <h3 id="hist-toggle" onclick="toggleHistory()">📋 Saved Posts <span id="hist-count"></span></h3>
+        <button class="hist-clear" onclick="clearHistory()">Clear All</button>
+      </div>
+      <div id="hist-body">
+        <div class="hist-empty" id="hist-empty">No saved posts yet. Generated posts are saved here automatically.</div>
+        <div class="hist-list" id="hist-list"></div>
       </div>
     </div>
   </div>
@@ -433,7 +468,7 @@ async function generatePost(){
   }
 }
 
-function displayResult(platform,tone,body,hashtags){
+function displayResult(platform,tone,body,hashtags,skipSave){
   var ph=document.getElementById('placeholder-state');
   if(ph)ph.style.display='none';
   var emojis={Facebook:'📘',Instagram:'📸',LinkedIn:'💼'};
@@ -441,6 +476,7 @@ function displayResult(platform,tone,body,hashtags){
   card.innerHTML='<div class="output-header"><h3>'+( emojis[platform]||'📝')+' '+platform+' · '+tone+'</h3><div class="output-actions"><button class="copy-btn" onclick="copyPost(this)">Copy Post</button><button class="copy-btn" onclick="this.closest(\'.output-card\').remove()">✕</button></div></div><div class="output-body">'+escHtml(body)+'</div>'+(hashtags?'<div class="hashtag-row">'+hashtags.replace(/#\S+/g,function(m){return'<span class="hashtag-chip">'+m+'</span>'})+'</div>':'');
   var panel=document.getElementById('output-panel');
   panel.insertBefore(card,panel.firstChild);
+  if(!skipSave) saveToHistory(platform,tone,body,hashtags);
 }
 
 function escHtml(t){return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,'<br>');}
@@ -449,6 +485,81 @@ function copyPost(btn){
   var body=btn.closest('.output-card').querySelector('.output-body');
   navigator.clipboard.writeText(body.innerText).then(function(){btn.textContent='Copied!';btn.classList.add('copied');setTimeout(function(){btn.textContent='Copy Post';btn.classList.remove('copied');},2000);});
 }
+
+// ── HISTORY ─────────────────────────────────────────────────────────────────
+var HIST_KEY='cgab_post_history';
+var _histOpen=true;
+
+function saveToHistory(platform,tone,body,hashtags){
+  var h=JSON.parse(localStorage.getItem(HIST_KEY)||'[]');
+  h.unshift({id:Date.now().toString(),ts:Date.now(),platform:platform,tone:tone,body:body,hashtags:hashtags||''});
+  if(h.length>20) h=h.slice(0,20);
+  localStorage.setItem(HIST_KEY,JSON.stringify(h));
+  renderHistory();
+}
+
+function loadHistory(){renderHistory();}
+
+function renderHistory(){
+  var h=JSON.parse(localStorage.getItem(HIST_KEY)||'[]');
+  var count=document.getElementById('hist-count');
+  var empty=document.getElementById('hist-empty');
+  var list=document.getElementById('hist-list');
+  if(count) count.textContent=h.length?'('+h.length+')':'';
+  if(!h.length){if(empty)empty.style.display='block';if(list)list.innerHTML='';return;}
+  if(empty) empty.style.display='none';
+  if(!list) return;
+  list.innerHTML='';
+  h.forEach(function(item){
+    var d=new Date(item.ts);
+    var ds=d.toLocaleDateString('en-US',{month:'short',day:'numeric'})+' '+d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});
+    var badgeCls=item.platform==='Facebook'?'fb':item.platform==='Instagram'?'ig':'li';
+    var preview=item.body.replace(/<[^>]+>/g,'').substring(0,110)+(item.body.length>110?'…':'');
+    var row=document.createElement('div');row.className='hist-item';
+    row.innerHTML='<span class="hist-badge '+badgeCls+'">'+item.platform+'</span>'
+      +'<div class="hist-info"><div class="hist-ts">'+ds+' · '+item.tone+'</div><div class="hist-preview">'+escText(preview)+'</div></div>'
+      +'<div class="hist-actions">'
+      +'<button class="hist-btn" onclick="restorePost(\''+item.id+'\')">Restore</button>'
+      +'<button class="hist-btn" onclick="copyHistPost(\''+item.id+'\')">Copy</button>'
+      +'<button class="hist-btn del" onclick="deleteHistPost(\''+item.id+'\')">✕</button>'
+      +'</div>';
+    list.appendChild(row);
+  });
+}
+
+function toggleHistory(){
+  _histOpen=!_histOpen;
+  var body=document.getElementById('hist-body');
+  if(body) body.style.display=_histOpen?'block':'none';
+}
+
+function clearHistory(){
+  if(!confirm('Clear all saved posts?')) return;
+  localStorage.removeItem(HIST_KEY);
+  renderHistory();
+}
+
+function deleteHistPost(id){
+  var h=JSON.parse(localStorage.getItem(HIST_KEY)||'[]');
+  localStorage.setItem(HIST_KEY,JSON.stringify(h.filter(function(i){return i.id!==id;})));
+  renderHistory();
+}
+
+function restorePost(id){
+  var h=JSON.parse(localStorage.getItem(HIST_KEY)||'[]');
+  var item=h.find(function(i){return i.id===id;});
+  if(!item) return;
+  displayResult(item.platform,item.tone,item.body,item.hashtags,true);
+}
+
+function copyHistPost(id){
+  var h=JSON.parse(localStorage.getItem(HIST_KEY)||'[]');
+  var item=h.find(function(i){return i.id===id;});
+  if(!item) return;
+  navigator.clipboard.writeText(item.body);
+}
+
+function escText(t){return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 
 // ── TEMPLATES ───────────────────────────────────────────────────────────────
 var TPLS=[
@@ -800,6 +911,7 @@ window.onload=function(){
   renderTemplates();
   renderSchedule();
   renderDm();
+  loadHistory();
 };
 </script>
 </body>
