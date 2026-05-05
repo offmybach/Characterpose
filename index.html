@@ -4457,3 +4457,298 @@ function downloadQuoteCard(){
   const a=document.createElement('a');a.download='wally-review-card.png';a.href=c.toDataURL('image/png');a.click();
 }
 </script>
+
+<!-- ═══════════════════════════════════════════════════════
+     CONCIERGE CHAT WIDGET — "Conversations = Conversions"
+     Routes: Parent → buy | Educator → toolkit/sets | Admin → institutional | Browse → scroll
+     ═══════════════════════════════════════════════════════ -->
+<style>
+#chat-wrap{position:fixed;left:20px;bottom:20px;z-index:8800}
+#chat-bubble{width:56px;height:56px;border-radius:50%;background:#0054a6;color:#fff;border:none;cursor:pointer;box-shadow:0 4px 20px rgba(0,84,166,.5);display:flex;align-items:center;justify-content:center;font-size:1.4rem;transition:all .2s;position:relative;animation:chatGlow 3.5s ease-in-out infinite}
+#chat-bubble:hover{background:#003d7a;transform:scale(1.08)}
+@keyframes chatGlow{0%,100%{box-shadow:0 4px 20px rgba(0,84,166,.5)}50%{box-shadow:0 4px 28px rgba(0,84,166,.8),0 0 0 9px rgba(0,84,166,.1)}}
+#chat-bubble.hidden{opacity:0;pointer-events:none;transform:scale(.8)}
+#chat-notif{position:absolute;top:1px;right:1px;width:15px;height:15px;border-radius:50%;background:#ff6b2b;border:2.5px solid #fff;display:none;animation:notifPop .3s cubic-bezier(.34,1.56,.64,1)}
+@keyframes notifPop{from{transform:scale(0)}to{transform:scale(1)}}
+#chat-panel{position:fixed;left:20px;bottom:84px;z-index:8800;width:min(320px,calc(100vw - 40px));background:#fff;border-radius:20px 20px 20px 4px;box-shadow:0 16px 50px rgba(0,0,0,.28);display:flex;flex-direction:column;max-height:490px;overflow:hidden;transform:scale(.88) translateY(20px);opacity:0;pointer-events:none;transition:all .35s cubic-bezier(.34,1.56,.64,1);transform-origin:bottom left}
+#chat-panel.open{transform:scale(1) translateY(0);opacity:1;pointer-events:auto}
+.cp-head{background:linear-gradient(135deg,#0054a6 0%,#1a3a5c 100%);padding:13px 15px;display:flex;align-items:center;gap:10px;flex-shrink:0}
+.cp-avatar{width:36px;height:36px;border-radius:50%;background:#ff6b2b;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.cp-head-info{flex:1;min-width:0}
+.cp-name{font-family:'Hold','Nunito',sans-serif;color:#fff;font-size:.83rem;font-weight:900;line-height:1.2}
+.cp-status{font-size:.62rem;color:rgba(255,255,255,.6);letter-spacing:.3px}
+.cp-close{background:none;border:none;color:rgba(255,255,255,.55);font-size:1.05rem;cursor:pointer;padding:4px;line-height:1;transition:.2s;flex-shrink:0}
+.cp-close:hover{color:#fff}
+.cp-msgs{flex:1;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:9px;background:#FAF3E0;max-height:300px;scroll-behavior:smooth}
+.cp-msgs::-webkit-scrollbar{width:4px}
+.cp-msgs::-webkit-scrollbar-track{background:transparent}
+.cp-msgs::-webkit-scrollbar-thumb{background:rgba(0,84,166,.2);border-radius:4px}
+.cm{max-width:87%;animation:cmIn .28s ease-out both}
+@keyframes cmIn{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+.cm.bot{align-self:flex-start}.cm.user{align-self:flex-end}
+.cm-bub{padding:9px 13px;border-radius:13px;font-size:.78rem;line-height:1.55;font-weight:600;word-break:break-word}
+.cm.bot .cm-bub{background:#fff;color:#1a3a5c;border-radius:4px 13px 13px 13px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+.cm.user .cm-bub{background:#0054a6;color:#fff;border-radius:13px 4px 13px 13px}
+.cp-typing{display:flex;gap:4px;align-items:center;padding:9px 13px;background:#fff;border-radius:4px 13px 13px 13px;box-shadow:0 2px 8px rgba(0,0,0,.07);align-self:flex-start}
+.cp-typing span{width:6px;height:6px;border-radius:50%;background:#0054a6;animation:tdot .7s ease-in-out infinite}
+.cp-typing span:nth-child(2){animation-delay:.14s}
+.cp-typing span:nth-child(3){animation-delay:.28s}
+@keyframes tdot{0%,60%,100%{opacity:.3;transform:translateY(0)}30%{opacity:1;transform:translateY(-3px)}}
+.cp-choices{padding:10px 13px 12px;background:#fff;border-top:1px solid rgba(0,84,166,.07);display:flex;flex-wrap:wrap;gap:6px;flex-shrink:0;min-height:48px}
+.cc{background:#f0f5ff;color:#0054a6;border:2px solid rgba(0,84,166,.35);border-radius:50px;padding:6px 13px;font-family:'Hold','Nunito',sans-serif;font-size:.7rem;font-weight:700;cursor:pointer;transition:all .18s;line-height:1.3}
+.cc:hover{background:#0054a6;color:#fff;border-color:#0054a6}
+.cc.og{background:#fff5f0;color:#ff6b2b;border-color:rgba(255,107,43,.4)}
+.cc.og:hover{background:#ff6b2b;color:#fff;border-color:#ff6b2b}
+</style>
+
+<div id="chat-wrap">
+  <span id="chat-notif"></span>
+  <button id="chat-bubble" onclick="chatOpen()" aria-label="Chat with Clarence's guide">💬</button>
+</div>
+<div id="chat-panel" role="dialog" aria-label="Clarence Chat Guide" aria-live="polite">
+  <div class="cp-head">
+    <div class="cp-avatar">🛒</div>
+    <div class="cp-head-info">
+      <div class="cp-name">Clarence's Guide</div>
+      <div class="cp-status">Let's find what's right for you</div>
+    </div>
+    <button class="cp-close" onclick="chatClose()" aria-label="Close">✕</button>
+  </div>
+  <div class="cp-msgs" id="cpMsgs"></div>
+  <div class="cp-choices" id="cpChoices"></div>
+</div>
+
+<script>
+(function(){
+  var CKEY='cgab_chat_done';
+  var _started=false;
+
+  // Show notification dot after 30s, auto-open at 65s if not dismissed
+  if(!sessionStorage.getItem(CKEY)){
+    setTimeout(function(){
+      var n=document.getElementById('chat-notif');
+      if(n) n.style.display='block';
+    },30000);
+    setTimeout(function(){
+      if(!sessionStorage.getItem(CKEY)) chatOpen();
+    },65000);
+  }
+
+  window.chatOpen=function(){
+    var p=document.getElementById('chat-panel');
+    var b=document.getElementById('chat-bubble');
+    var n=document.getElementById('chat-notif');
+    if(p) p.classList.add('open');
+    if(b) b.classList.add('hidden');
+    if(n) n.style.display='none';
+    if(!_started){ _started=true; _startChat(); }
+  };
+
+  window.chatClose=function(){
+    var p=document.getElementById('chat-panel');
+    var b=document.getElementById('chat-bubble');
+    if(p) p.classList.remove('open');
+    if(b) b.classList.remove('hidden');
+    sessionStorage.setItem(CKEY,'1');
+  };
+
+  function _startChat(){
+    _bot("Hey! Quick question before you scroll past…");
+    _type(900,function(){
+      _bot("Who brought you here today?");
+      _choices([
+        {t:"I'm a parent",f:_pathParent},
+        {t:"I'm a teacher",f:_pathTeacher},
+        {t:"School/district admin",f:_pathAdmin},
+        {t:"Just browsing",f:_pathBrowse}
+      ]);
+    });
+  }
+
+  // ── PARENT PATH ──────────────────────────────────────────
+  function _pathParent(){
+    _user("I'm a parent");_clear();
+    _type(650,function(){
+      _bot("Love it! How old is your little bargain hunter?");
+      _choices([
+        {t:"5–7 years",f:function(){_parentAge('5to7');}},
+        {t:"8–10 years",f:function(){_parentAge('8to10');}},
+        {t:"11+ years",f:function(){_parentAge('11plus');}}
+      ]);
+    });
+  }
+  function _parentAge(a){
+    var lab={5to7:"5–7 years",8to10:"8–10 years","11plus":"11+ years"};
+    var msg={
+      5to7:"That's the sweet spot. At 5–7, kids grasp ‘Wants vs. Needs’ fast — especially when Clarence learns it the hard way at Sea-Mart.",
+      8to10:"Perfect age. 8–10-year-olds are ready for comparison shopping and coupons — exactly what Clarence masters.",
+      "11plus":"Older readers catch layers younger kids miss. Jonathan wrote in levels."
+    };
+    _user(lab[a]);_clear();
+    _type(700,function(){
+      _bot(msg[a]);
+      setTimeout(function(){
+        _bot("Want a free family activity guide to go with it?");
+        _choices([
+          {t:"Yes — free works!",f:_parentYes},
+          {t:"Just show me the book",f:_parentBook}
+        ]);
+      },400);
+    });
+  }
+  function _parentYes(){
+    _user("Yes — free works!");_clear();
+    _type(600,function(){
+      _bot("The Family Activity Guide lives inside the free Educator Toolkit — parents love it too.");
+      _choices([
+        {t:"Get the Free Guide →",f:function(){chatClose();typeof openResourceModal==='function'&&openResourceModal('res-educator-preview');},cls:'og'},
+        {t:"Also grab the book →",f:function(){chatClose();document.getElementById('buy').scrollIntoView({behavior:'smooth'});}}
+      ]);
+    });
+  }
+  function _parentBook(){
+    _user("Just show me the book");_clear();
+    _type(500,function(){
+      _bot("Smart shopper move. $14.99, ships direct from us.");
+      _choices([{t:"Buy Clarence — $14.99 →",f:function(){chatClose();document.getElementById('buy').scrollIntoView({behavior:'smooth'});},cls:'og'}]);
+    });
+  }
+
+  // ── TEACHER PATH ─────────────────────────────────────────
+  function _pathTeacher(){
+    _user("I'm a teacher");_clear();
+    _type(650,function(){
+      _bot("Teachers get the good stuff. What grade do you teach?");
+      _choices([
+        {t:"K–2",f:function(){_teachGrade('K2');}},
+        {t:"3rd–4th",f:function(){_teachGrade('34');}},
+        {t:"5th+",f:function(){_teachGrade('5plus');}}
+      ]);
+    });
+  }
+  function _teachGrade(g){
+    var lab={K2:"K–2","34":"3rd–4th","5plus":"5th+"};
+    var msg={
+      K2:"For K–2 Maryann Moskal (30+ years K–5) built read-aloud activities starting with the simplest Wants vs. Needs sort.",
+      "34":"Grades 3–4 hit the comparison shopping and coupon missions. Full lesson plans, zero prep.",
+      "5plus":"5th grade gets full Jump$tart + CCSS.Math.5.NBT.B.7 alignment. The standards chart makes it board-ready."
+    };
+    _user(lab[g]);_clear();
+    _type(700,function(){
+      _bot(msg[g]);
+      setTimeout(function(){
+        _bot("How many copies do you need?");
+        _choices([
+          {t:"Just 1 to preview",f:function(){_teachCopies('1');}},
+          {t:"5–15 (class set)",f:function(){_teachCopies('set');}},
+          {t:"16+ (bulk/grant)",f:function(){_teachCopies('bulk');}}
+        ]);
+      },400);
+    });
+  }
+  function _teachCopies(q){
+    var lab={"1":"Just 1 to preview",set:"5–15 copies",bulk:"16+ copies"};
+    _user(lab[q]);_clear();
+    _type(600,function(){
+      if(q==='1'){
+        _bot("Perfect starting point. Free toolkit downloads while it ships.");
+        _choices([
+          {t:"Preview Educator Toolkit →",f:function(){chatClose();typeof openResourceModal==='function'&&openResourceModal('res-educator-preview');},cls:'og'},
+          {t:"Buy My Copy — $14.99 →",f:function(){chatClose();document.getElementById('buy').scrollIntoView({behavior:'smooth'});}}
+        ]);
+      } else if(q==='set'){
+        _bot("Class sets get a personalized quote. We turn those around fast.");
+        _choices([{t:"Email for Class Set Pricing →",f:function(){chatClose();location.href='mailto:orders@clarencegetsabargain.com?subject=Class%20Set%20Inquiry';},cls:'og'}]);
+      } else {
+        _bot("Bulk and grant orders are exactly what the institutional packet covers — full documentation included.");
+        _choices([{t:"Request Institutional Packet →",f:function(){chatClose();location.href='mailto:questions@clarencegetsabargain.com?subject=Institutional%20Inquiry';},cls:'og'}]);
+      }
+    });
+  }
+
+  // ── ADMIN PATH ───────────────────────────────────────────
+  function _pathAdmin(){
+    _user("School/district admin");_clear();
+    _type(650,function(){
+      _bot("You've got the right book for the right reasons. What's your scope?");
+      _choices([
+        {t:"Library acquisition",f:function(){_adminScope('lib');}},
+        {t:"Classroom sets",f:function(){_adminScope('class');}},
+        {t:"District-wide",f:function(){_adminScope('district');}}
+      ]);
+    });
+  }
+  function _adminScope(s){
+    var lab={lib:"Library acquisition",class:"Classroom sets",district:"District-wide"};
+    _user(lab[s]);_clear();
+    _type(700,function(){
+      _bot("Easy to justify upstairs: Lexile AD 620L, Jump$tart aligned, FDIC-themed, CCSS math-hooked. CRA-eligible documentation available.");
+      setTimeout(function(){
+        _bot("The institutional packet has everything your board needs.");
+        _choices([{t:"Request the Packet →",f:function(){chatClose();location.href='mailto:questions@clarencegetsabargain.com?subject=Institutional%20Inquiry';},cls:'og'}]);
+      },400);
+    });
+  }
+
+  // ── BROWSE PATH ──────────────────────────────────────────
+  function _pathBrowse(){
+    _user("Just browsing");_clear();
+    _type(600,function(){
+      _bot("All good. What caught your eye?");
+      _choices([
+        {t:"The story",f:function(){_browseGo('magazine');}},
+        {t:"Money lessons",f:function(){_browseGo('coupons');}},
+        {t:"Educator resources",f:function(){_browseGo('educators');}},
+        {t:"The author",f:function(){_browseGo('footer');}}
+      ]);
+    });
+  }
+  function _browseGo(id){
+    var lab={magazine:"The story",coupons:"Money lessons",educators:"Educator resources",footer:"The author"};
+    _user(lab[id]);_clear();
+    _type(450,function(){
+      _bot("Taking you there now!");
+      setTimeout(function(){
+        chatClose();
+        var el=document.getElementById(id)||document.querySelector('.authority-footer');
+        if(el) el.scrollIntoView({behavior:'smooth'});
+      },500);
+    });
+  }
+
+  // ── HELPERS ──────────────────────────────────────────────
+  function _bot(txt){
+    var c=document.getElementById('cpMsgs');
+    var d=document.createElement('div');d.className='cm bot';
+    var b=document.createElement('div');b.className='cm-bub';
+    b.textContent=txt;d.appendChild(b);c.appendChild(d);
+    c.scrollTop=c.scrollHeight;
+  }
+  function _user(txt){
+    var c=document.getElementById('cpMsgs');
+    var d=document.createElement('div');d.className='cm user';
+    var b=document.createElement('div');b.className='cm-bub';
+    b.textContent=txt;d.appendChild(b);c.appendChild(d);
+    c.scrollTop=c.scrollHeight;
+  }
+  function _choices(arr){
+    var box=document.getElementById('cpChoices');
+    box.innerHTML='';
+    arr.forEach(function(o){
+      var btn=document.createElement('button');
+      btn.className='cc'+(o.cls?' '+o.cls:'');
+      btn.textContent=o.t;
+      btn.onclick=o.f;
+      box.appendChild(btn);
+    });
+  }
+  function _clear(){document.getElementById('cpChoices').innerHTML='';}
+  function _type(ms,cb){
+    var c=document.getElementById('cpMsgs');
+    var t=document.createElement('div');t.className='cp-typing';
+    t.innerHTML='<span></span><span></span><span></span>';
+    c.appendChild(t);c.scrollTop=c.scrollHeight;
+    setTimeout(function(){t.remove();cb();},ms);
+  }
+})();
+</script>
