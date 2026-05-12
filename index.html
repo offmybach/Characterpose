@@ -4384,8 +4384,9 @@ function closeFLMBanner(){
   sessionStorage.setItem('flm_dismissed','1');
 }
 
-// ── EXIT INTENT ──────────────────────────────────────────────
+// ── EXIT INTENT (disabled) ───────────────────────────────────
 (function(){
+  return; // disabled
   var fired=false;
   var dismissedKey='exit_popup_dismissed';
   if(sessionStorage.getItem(dismissedKey)) return;
