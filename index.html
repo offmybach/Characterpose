@@ -109,7 +109,8 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 .reveal{opacity:0;transform:translateY(40px);transition:opacity .8s cubic-bezier(.4,0,.2,1),transform .8s cubic-bezier(.4,0,.2,1)}
 .reveal.visible{opacity:1;transform:translateY(0)}
 .reveal-delay-1{transition-delay:.15s}.reveal-delay-2{transition-delay:.3s}.reveal-delay-3{transition-delay:.45s}
-@media(max-width:768px){nav{padding:12px 16px}nav .links a{padding:6px 10px;font-size:.78rem}.hero{padding:70px 20px 60px;min-height:auto}#magCanvasWrap{height:60vh;min-height:400px}}
+#magMobileScroll{display:none}
+@media(max-width:768px){nav{padding:12px 16px}nav .links a{padding:6px 10px;font-size:.78rem}.hero{padding:70px 20px 60px;min-height:auto}#magCanvasWrap,#magazine .mag-controls,#magazine .page-indicator,#magazine .upload-row,#magHint{display:none!important}#magMobileScroll{display:flex!important;flex-direction:column;gap:18px;padding:14px 12px 24px;max-width:520px;margin:0 auto}#magMobileScroll canvas{width:100%;height:auto;display:block;border-radius:10px;box-shadow:0 8px 28px rgba(0,0,0,.18);background:#f5ecd7}}
 
 /* === BRAND TITLE BLOCK WITH PILLS === */
 .title-block{display:inline-flex;flex-direction:column;align-items:center;gap:12px;background:#F57C00;border-radius:20px;padding:20px 30px;box-shadow:0 8px 24px rgba(0,0,0,.3);position:relative;z-index:2;margin-bottom:20px}
@@ -568,6 +569,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   <h2 class="reveal">Flip Through Clarence&rsquo;s Coupon Book!</h2>
   <p class="hint reveal" id="magHint">Click to open &bull; Flip pages by clicking left/right &bull; Arrow keys work</p>
   <div id="magCanvasWrap"><canvas id="magCanvas"></canvas></div>
+  <div id="magMobileScroll" aria-label="Magazine pages"></div>
   <div class="mag-controls"><button class="mag-btn" id="btnOpen">Open</button><button class="mag-btn" id="btnPrev">&larr; Prev</button><button class="mag-btn" id="btnNext">Next &rarr;</button><button class="mag-btn" id="btnClose">Close</button></div>
   <div class="page-indicator" id="pageIndicator"></div>
   <div class="upload-row">
@@ -992,34 +994,38 @@ new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting
 
 var canvas = document.getElementById('magCanvas');
 var wrap = document.getElementById('magCanvasWrap');
-var W = wrap.clientWidth, H = wrap.clientHeight;
+var IS_MAG_MOBILE = window.matchMedia('(max-width: 768px)').matches;
+var W = wrap.clientWidth || 800, H = wrap.clientHeight || 600;
 
-var scene = new THREE.Scene();
-var cam = new THREE.PerspectiveCamera(34, W/H, 0.1, 100);
-// Slightly above and left — reading perspective matching Framer ref
-cam.position.set(-0.3, 2.0, 3.6);
-cam.lookAt(0, -0.1, 0);
+var scene, cam, ren;
+if (!IS_MAG_MOBILE) {
+  scene = new THREE.Scene();
+  cam = new THREE.PerspectiveCamera(34, W/H, 0.1, 100);
+  // Slightly above and left — reading perspective matching Framer ref
+  cam.position.set(-0.3, 2.0, 3.6);
+  cam.lookAt(0, -0.1, 0);
 
-var ren = new THREE.WebGLRenderer({canvas:canvas, antialias:true, alpha:true});
-ren.setSize(W, H); ren.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-ren.shadowMap.enabled = true;
+  ren = new THREE.WebGLRenderer({canvas:canvas, antialias:true, alpha:true});
+  ren.setSize(W, H); ren.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  ren.shadowMap.enabled = true;
 
-scene.add(new THREE.AmbientLight(0xffffff, 0.5));
-var key = new THREE.DirectionalLight(0xffffff, 0.9);
-key.position.set(2, 8, 3); key.castShadow = true;
-key.shadow.mapSize.set(2048,2048);
-key.shadow.camera.near = 0.5; key.shadow.camera.far = 20;
-key.shadow.camera.left = -5; key.shadow.camera.right = 5;
-key.shadow.camera.top = 5; key.shadow.camera.bottom = -5;
-key.shadow.bias = -0.001;
-key.shadow.radius = 4;
-scene.add(key);
-var fill = new THREE.DirectionalLight(0x8888ff, 0.15); fill.position.set(-4, 3, -3); scene.add(fill);
-// Shadow ground removed — clean floating look
+  scene.add(new THREE.AmbientLight(0xffffff, 0.5));
+  var key = new THREE.DirectionalLight(0xffffff, 0.9);
+  key.position.set(2, 8, 3); key.castShadow = true;
+  key.shadow.mapSize.set(2048,2048);
+  key.shadow.camera.near = 0.5; key.shadow.camera.far = 20;
+  key.shadow.camera.left = -5; key.shadow.camera.right = 5;
+  key.shadow.camera.top = 5; key.shadow.camera.bottom = -5;
+  key.shadow.bias = -0.001;
+  key.shadow.radius = 4;
+  scene.add(key);
+  var fill = new THREE.DirectionalLight(0x8888ff, 0.15); fill.position.set(-4, 3, -3); scene.add(fill);
+  // Shadow ground removed — clean floating look
+}
 
 // ---- TEXTURES ----
-var TW=1200, TH=1680;
-function makeTex(fn){var c=document.createElement('canvas');c.width=TW;c.height=TH;fn(c.getContext('2d'),TW,TH);var t=new THREE.CanvasTexture(c);t.needsUpdate=true;return t;}
+var TW = IS_MAG_MOBILE ? 600 : 1200, TH = IS_MAG_MOBILE ? 840 : 1680;
+function makeTex(fn){var c=document.createElement('canvas');c.width=TW;c.height=TH;fn(c.getContext('2d'),TW,TH);if(IS_MAG_MOBILE)return c;var t=new THREE.CanvasTexture(c);t.needsUpdate=true;return t;}
 function rr(c,x,y,w,h,r){c.beginPath();c.moveTo(x+r,y);c.lineTo(x+w-r,y);c.quadraticCurveTo(x+w,y,x+w,y+r);c.lineTo(x+w,y+h-r);c.quadraticCurveTo(x+w,y+h,x+w-r,y+h);c.lineTo(x+r,y+h);c.quadraticCurveTo(x,y+h,x,y+h-r);c.lineTo(x,y+r);c.quadraticCurveTo(x,y,x+r,y);c.closePath();}
 
 // Small turned-up corner — bottom-right of page
@@ -1585,6 +1591,13 @@ var pages = [
       'Attorney by day. Mixed-media artist by night. Professional deal-finder at all hours. Most proud of convincing a retailer on a cruise ship to price-match — and paying one cent for a $300 pair of shoes. Self-appointed honorary member of the Nerd Herd. Wrote this book to plant seeds in little noggins \u2014 seeds that grow into lightbulbs. \u00A9 2026.');
   })
 ];
+
+// Mobile: stack page canvases vertically and skip the 3D flipbook setup.
+if (IS_MAG_MOBILE) {
+  var mobScroll = document.getElementById('magMobileScroll');
+  if (mobScroll) pages.forEach(function(c){ if (c) mobScroll.appendChild(c); });
+  return;
+}
 
 // We view spreads: spread 0 = pages[0]+pages[1], spread 1 = pages[2]+pages[3], etc.
 var totalSpreads = Math.ceil(pages.length / 2);
