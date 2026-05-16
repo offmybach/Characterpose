@@ -10,6 +10,7 @@ from __future__ import annotations
 import math
 from pathlib import Path
 
+import numpy as np
 import qrcode
 from qrcode.constants import ERROR_CORRECT_H
 from PIL import Image, ImageDraw, ImageFilter
@@ -65,40 +66,101 @@ def is_finder(r: int, c: int, n: int) -> bool:
     )
 
 
-def draw_finder(canvas: Image.Image, top_left_px: tuple[int, int], color: tuple[int, int, int]):
-    """Draw a rounded finder pattern: outer ring + solid inner square."""
-    x, y = top_left_px
-    size = FINDER_SIZE * MODULE_PX
-    draw = ImageDraw.Draw(canvas, "RGBA")
+def _perspective_coeffs(target_quad, source_quad):
+    """Find 8-coeff perspective mapping output target_quad -> input source_quad.
+
+    Returns coefficients suitable for PIL Image.transform(size, PERSPECTIVE, ...).
+    """
+    A = []
+    for (xt, yt), (xs, ys) in zip(target_quad, source_quad):
+        A.append([xt, yt, 1, 0, 0, 0, -xt * xs, -yt * xs])
+        A.append([0, 0, 0, xt, yt, 1, -xt * ys, -yt * ys])
+    A = np.array(A, dtype=np.float64)
+    B = np.array([c for pt in source_quad for c in pt], dtype=np.float64)
+    return np.linalg.solve(A, B)
+
+
+def draw_finder(canvas: Image.Image, top_left_px: tuple[int, int],
+                color: tuple[int, int, int], corner: str):
+    """Draw a 3D-perspective finder pattern.
+
+    Renders the standard rounded outer-ring + solid-core on its own layer,
+    then perspective-transforms it so the outer-facing corner is pushed
+    outward — producing the stacked-trapezoid / leaning-cube look.
+
+    corner: 'tl', 'tr', or 'bl' — which corner of the QR this finder is in.
+    """
+    x0, y0 = top_left_px
+    s = FINDER_SIZE * MODULE_PX
+
+    # Work on a padded canvas so the perspective transform has room.
+    pad = MODULE_PX * 2
+    canvas_size = s + 2 * pad
+    layer = Image.new("RGBA", (canvas_size, canvas_size), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+
     outer_radius = int(MODULE_PX * 1.6)
-    ring_thickness = MODULE_PX  # 1 module thick
+    inner_radius = int(MODULE_PX * 1.1)
+    core_radius = int(MODULE_PX * 0.9)
+
     # outer rounded square
-    draw.rounded_rectangle(
-        [x, y, x + size - 1, y + size - 1],
+    d.rounded_rectangle(
+        [pad, pad, pad + s - 1, pad + s - 1],
         radius=outer_radius,
         fill=color + (255,),
     )
-    # knock out interior
-    inner_x = x + ring_thickness
-    inner_y = y + ring_thickness
-    inner_size = size - 2 * ring_thickness
-    inner_radius = int(MODULE_PX * 1.1)
-    draw.rounded_rectangle(
-        [inner_x, inner_y, inner_x + inner_size - 1, inner_y + inner_size - 1],
+    # knock out interior (1 module thick ring)
+    d.rounded_rectangle(
+        [pad + MODULE_PX, pad + MODULE_PX,
+         pad + s - MODULE_PX - 1, pad + s - MODULE_PX - 1],
         radius=inner_radius,
         fill=(0, 0, 0, 0),
     )
-    # solid inner 3x3
-    pad = 2 * MODULE_PX
-    core_x = x + pad
-    core_y = y + pad
-    core_size = size - 2 * pad
-    core_radius = int(MODULE_PX * 0.9)
-    draw.rounded_rectangle(
-        [core_x, core_y, core_x + core_size - 1, core_y + core_size - 1],
+    # solid 3x3 core
+    core_pad = 2 * MODULE_PX
+    d.rounded_rectangle(
+        [pad + core_pad, pad + core_pad,
+         pad + s - core_pad - 1, pad + s - core_pad - 1],
         radius=core_radius,
         fill=color + (255,),
     )
+
+    # Build target quad: push the outer-facing corner outward, pull the
+    # inner-facing corner slightly toward QR center. Creates the leaning,
+    # stacked-trapezoid look from the reference.
+    push = MODULE_PX * 1.0  # outward extension
+    pull = MODULE_PX * 0.45  # inward compression of the opposite corner
+
+    # default corners (rectangle anchored at pad..pad+s)
+    tl = [pad, pad]
+    tr = [pad + s, pad]
+    br = [pad + s, pad + s]
+    bl = [pad, pad + s]
+
+    if corner == "tl":   # outer corner = tl, inner-facing = br
+        tl = [pad - push, pad - push]
+        br = [pad + s - pull, pad + s - pull]
+    elif corner == "tr": # outer corner = tr, inner-facing = bl
+        tr = [pad + s + push, pad - push]
+        bl = [pad + pull, pad + s - pull]
+    elif corner == "bl": # outer corner = bl, inner-facing = tr
+        bl = [pad - push, pad + s + push]
+        tr = [pad + s - pull, pad + pull]
+    else:
+        raise ValueError(corner)
+
+    target_quad = [tl, tr, br, bl]
+    source_quad = [[pad, pad], [pad + s, pad], [pad + s, pad + s], [pad, pad + s]]
+    coeffs = _perspective_coeffs(target_quad, source_quad)
+
+    warped = layer.transform(
+        (canvas_size, canvas_size),
+        Image.PERSPECTIVE,
+        coeffs,
+        resample=Image.BICUBIC,
+    )
+
+    canvas.alpha_composite(warped, dest=(x0 - pad, y0 - pad))
 
 
 def render_qr(matrix) -> Image.Image:
@@ -134,13 +196,13 @@ def render_qr(matrix) -> Image.Image:
                 fill=color + (255,),
             )
 
-    # Finder patterns
-    finder_positions_modules = [
-        (0, 0),
-        (0, n - FINDER_SIZE),
-        (n - FINDER_SIZE, 0),
+    # Finder patterns (with 3D perspective lean)
+    finder_positions = [
+        (0, 0, "tl"),
+        (0, n - FINDER_SIZE, "tr"),
+        (n - FINDER_SIZE, 0, "bl"),
     ]
-    for (rm, cm) in finder_positions_modules:
+    for (rm, cm, which) in finder_positions:
         cx_local = (cm + FINDER_SIZE / 2) * MODULE_PX
         cy_local = (rm + FINDER_SIZE / 2) * MODULE_PX
         color = gradient_color(cx_local, cy_local, qr_pixel_size, qr_pixel_size)
@@ -148,6 +210,7 @@ def render_qr(matrix) -> Image.Image:
             canvas,
             (offset + cm * MODULE_PX, offset + rm * MODULE_PX),
             color,
+            which,
         )
 
     return canvas
