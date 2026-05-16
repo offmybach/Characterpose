@@ -226,8 +226,8 @@ def add_halo_and_bank(canvas: Image.Image, bank_path: Path) -> Image.Image:
     w, h = canvas.size
     cx, cy = w // 2, h // 2
 
-    bank_target_w = int(w * 0.33)  # ~50% larger than the previous ~22% center
-    halo_radius = int(bank_target_w * 1.05)
+    bank_target_w = int(w * 0.45)  # +50% bumped to roughly the safe upper limit
+    halo_radius = int(bank_target_w * 1.0)
 
     # Soft radial halo built by stacking ellipses, then blurred.
     halo = Image.new("RGBA", (w, h), (0, 0, 0, 0))
