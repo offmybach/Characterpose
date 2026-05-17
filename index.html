@@ -110,7 +110,20 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 .reveal.visible{opacity:1;transform:translateY(0)}
 .reveal-delay-1{transition-delay:.15s}.reveal-delay-2{transition-delay:.3s}.reveal-delay-3{transition-delay:.45s}
 #magMobileScroll{display:none}
-@media(max-width:768px){nav{padding:12px 16px}nav .links a{padding:6px 10px;font-size:.78rem}.hero{padding:70px 20px 60px;min-height:auto}#magCanvasWrap,#magazine .mag-controls,#magazine .page-indicator,#magazine .upload-row,#magHint{display:none!important}#magMobileScroll{display:flex!important;flex-direction:column;gap:18px;padding:14px 12px 24px;max-width:520px;margin:0 auto}#magMobileScroll canvas{width:100%;height:auto;display:block;border-radius:10px;box-shadow:0 8px 28px rgba(0,0,0,.18);background:#f5ecd7}}
+@media(max-width:768px){nav{padding:12px 16px}nav .links a{padding:6px 10px;font-size:.78rem}.hero{padding:70px 20px 60px;min-height:auto}#magCanvasWrap,#magazine .mag-controls,#magazine .page-indicator,#magazine .upload-row,#magHint{display:none!important}#magMobileScroll{display:flex!important;flex-direction:column;gap:18px;padding:14px 12px 24px;max-width:520px;margin:0 auto}#magMobileScroll canvas{width:100%;height:auto;display:block;border-radius:10px;box-shadow:0 8px 28px rgba(0,0,0,.18);background:#f5ecd7}
+/* Mobile nav: hide section anchors, keep only Buy Now CTA so it actually fits */
+nav .logo{font-size:1rem;white-space:nowrap;max-width:60vw;overflow:hidden;text-overflow:ellipsis}
+nav .links{gap:0}
+nav .links a:not(.cta-nav){display:none!important}
+nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
+/* Mobile FLM banner: drop the ghost buttons so the primary CTA isn't clipped */
+#flm-banner .flm-btn.ghost{display:none!important}
+#flm-banner .flm-inner{padding:10px 14px;gap:10px}
+#flm-banner .flm-text{font-size:.72rem;line-height:1.35}
+#flm-banner .flm-btn.primary{padding:8px 14px;font-size:.72rem;white-space:nowrap}
+/* Bump close-button hit areas to a tappable size */
+.flm-close{padding:10px 12px;font-size:1.25rem}
+.exit-close{width:40px;height:40px;font-size:1.1rem}}
 
 /* === BRAND TITLE BLOCK WITH PILLS === */
 .title-block{display:inline-flex;flex-direction:column;align-items:center;gap:12px;background:#F57C00;border-radius:20px;padding:20px 30px;box-shadow:0 8px 24px rgba(0,0,0,.3);position:relative;z-index:2;margin-bottom:20px}
