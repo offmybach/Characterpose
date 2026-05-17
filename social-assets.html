@@ -65,6 +65,16 @@ canvas.preview-canvas{max-width:100%;height:auto;border-radius:8px;display:block
 /* SECTION TITLE */
 .section-title{font-family:'Hold',sans-serif;font-size:1.4rem;color:#fff;margin-bottom:6px}
 .section-sub{color:#888;font-size:.85rem;margin-bottom:24px}
+@media(max-width:768px){
+  body{overflow-x:hidden}
+  .tabs{padding:0 12px;flex-wrap:wrap}
+  .tab{padding:10px 12px;font-size:.7rem;letter-spacing:1px;flex:1 1 auto;text-align:center}
+  .tab-content{padding:24px 14px}
+  .asset-grid{grid-template-columns:1fr;gap:18px}
+  .review-grid{grid-template-columns:1fr;gap:18px}
+  .story-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .asset-preview{padding:10px;min-height:0}
+}
 </style>
 </head>
 <body>

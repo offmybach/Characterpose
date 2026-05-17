@@ -36,6 +36,13 @@ canvas{max-width:100%;height:auto;border-radius:6px;display:block}
 .bulk-section{margin-top:40px;background:#161616;border:1px solid #2a2a2a;border-radius:16px;padding:28px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
 .bulk-section h3{font-family:'Hold',sans-serif;color:#fff;font-size:1.1rem;margin-bottom:4px}
 .bulk-section p{color:#888;font-size:.82rem}
+@media(max-width:768px){
+  .container{padding:24px 14px}
+  .cards-grid{grid-template-columns:1fr;gap:18px}
+  .preview-area{padding:10px;min-height:0}
+  canvas{width:100%;height:auto}
+  .size-badge{top:6px;right:6px}
+}
 </style>
 </head>
 <body>
