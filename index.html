@@ -937,7 +937,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 </footer>
 </main>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
 <script>
 var _resourceModalReturnFocus = null;
 function openResourceModal(id) {
@@ -1024,6 +1024,8 @@ new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting
 ['front','back'].forEach(function(s){var inp=document.getElementById(s+'Input'),prev=document.getElementById(s+'Preview');document.getElementById(s+'Upload').addEventListener('click',function(){inp.click();});inp.addEventListener('change',function(){var f=this.files[0];if(!f)return;var r=new FileReader();r.onload=function(e){prev.src=e.target.result;prev.style.display='block';};r.readAsDataURL(f);});});
 // Default cover previews
 (function(){var fp=document.getElementById('frontPreview');fp.src='images/frontcover.jpg';fp.style.display='block';})();
+
+document.addEventListener('DOMContentLoaded', function() {
 
 // ============================================================
 // THREE.JS 3D MAGAZINE — v4 FIXED ARCHITECTURE
@@ -2309,6 +2311,8 @@ window.addEventListener('resize', function(){
   }, {threshold: 0.1});
   obs.observe(wrap);
 })();
+
+}); // end DOMContentLoaded
 </script>
 <div id="resourceModalOverlay" role="dialog" aria-modal="true" aria-label="Resource Page">
   <div id="resourceModalBar">
