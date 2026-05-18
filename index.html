@@ -376,6 +376,59 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 #resourceModalClose{background:#ff6b2b;color:#fff;border:none;border-radius:50%;width:38px;height:38px;font-size:1.4rem;cursor:pointer;font-family:'Hold',sans-serif;line-height:1;display:flex;align-items:center;justify-content:center}
 #resourceModalFrame{flex:1;border:none;width:100%;background:#fff}
 
+/* === SCROLL PROGRESS BAR === */
+#scroll-progress{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,#ff6b2b,#ffd700,#ff6b2b);z-index:100001;width:0%;transition:width .08s linear}
+
+/* === HERO TRUST BAR === */
+.hero-trust{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:16px;font-family:'Hold',sans-serif;font-size:.78rem;color:rgba(255,255,255,.72);letter-spacing:.5px}
+.hero-trust .ht-stars{color:#ffd700;font-size:.95rem;letter-spacing:2px}
+.hero-trust .ht-sep{color:rgba(255,255,255,.25)}
+
+/* === TESTIMONIALS STRIP === */
+.testimonials-strip{padding:64px 20px;background:linear-gradient(135deg,#0a0f1e,#1a0a2e);position:relative;overflow:hidden}
+.testimonials-strip::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 20% 50%,rgba(255,107,43,.07),transparent 60%),radial-gradient(ellipse at 80% 50%,rgba(0,84,166,.1),transparent 60%);pointer-events:none}
+.t-header{text-align:center;margin-bottom:40px;position:relative}
+.t-header h2{font-family:'Hold',sans-serif;color:#fff;font-size:clamp(1.4rem,3vw,2rem);margin-top:8px}
+.testimonials-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:20px;max-width:1000px;margin:0 auto;position:relative}
+.t-card{background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:28px 26px;transition:transform .35s cubic-bezier(.16,1,.3,1),box-shadow .35s,border-color .35s}
+.t-card:hover{transform:translateY(-8px);box-shadow:0 24px 60px rgba(0,0,0,.4);border-color:rgba(255,107,43,.35)}
+.t-avatar{font-size:2.4rem;margin-bottom:14px;display:block;line-height:1}
+.t-stars{color:#ffd700;letter-spacing:3px;margin-bottom:14px;font-size:.9rem}
+.t-quote{font-size:.88rem;color:rgba(255,255,255,.78);line-height:1.75;font-style:italic;margin-bottom:18px}
+.t-author{font-family:'Hold',sans-serif;font-size:.8rem;color:#ff6b2b;letter-spacing:.5px}
+.t-role{font-size:.72rem;color:rgba(255,255,255,.38);margin-top:4px;line-height:1.4}
+
+/* === 6 CONCEPTS SECTION === */
+.concepts-section{padding:76px 20px;background:linear-gradient(180deg,#fef9f0,#fffdf8);text-align:center}
+.concepts-section>.section-tag{color:#ff6b2b;font-family:'Hold',sans-serif;font-size:.7rem;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
+.concepts-section>h2{font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(1.6rem,4vw,2.5rem);margin-bottom:10px}
+.concepts-section>.section-sub{color:#555;font-size:.95rem;max-width:640px;margin:0 auto 44px;line-height:1.7}
+.concepts-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:960px;margin:0 auto}
+@media(max-width:768px){.concepts-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.concepts-grid{grid-template-columns:1fr}}
+.concept-card{background:#fff;border-radius:18px;padding:28px 22px;border:2px solid #f0e6d3;box-shadow:0 4px 18px rgba(0,0,0,.06);transition:transform .35s cubic-bezier(.16,1,.3,1),box-shadow .35s,border-color .35s;text-align:left}
+.concept-card:hover{transform:translateY(-8px);box-shadow:0 20px 52px rgba(0,84,166,.14);border-color:#0054a6}
+.concept-icon{font-size:2.4rem;margin-bottom:14px;display:block;line-height:1}
+.concept-card h3{font-family:'Hold',sans-serif;color:#0054a6;font-size:1.05rem;margin-bottom:8px}
+.concept-card p{font-size:.82rem;color:#555;line-height:1.65;margin-bottom:14px}
+.concept-pages{display:inline-block;background:#fff3e0;color:#e65100;font-family:'Hold',sans-serif;font-size:.68rem;padding:3px 12px;border-radius:20px;letter-spacing:.5px}
+
+/* === FAQ SECTION === */
+.faq-section{padding:76px 20px;background:linear-gradient(180deg,#0d1a2e,#0a0f18)}
+.faq-section>.section-tag{text-align:center;font-family:'Hold',sans-serif;font-size:.7rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
+.faq-section>h2{text-align:center;font-family:'Hold',sans-serif;color:#fff;font-size:clamp(1.5rem,3.5vw,2.2rem);margin-bottom:44px}
+.faq-list{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+.faq-item{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:14px;overflow:hidden;transition:border-color .3s}
+.faq-item.faq-open{border-color:rgba(255,107,43,.4)}
+.faq-question{width:100%;background:none;border:none;padding:20px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;cursor:pointer;text-align:left;font-family:'Hold',sans-serif;font-size:.92rem;color:#fff;line-height:1.4;transition:color .2s}
+.faq-question:hover{color:#ffd700}
+.faq-question:focus-visible{outline:2px solid #ff6b2b;outline-offset:-2px;border-radius:14px}
+.faq-chevron{flex-shrink:0;width:18px;height:18px;border:2px solid #ff6b2b;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:.55rem;color:#ff6b2b;transition:transform .35s cubic-bezier(.16,1,.3,1),background .2s,color .2s}
+.faq-item.faq-open .faq-chevron{transform:rotate(180deg);background:#ff6b2b;color:#fff}
+.faq-answer{max-height:0;overflow:hidden;transition:max-height .4s cubic-bezier(.16,1,.3,1)}
+.faq-answer-inner{padding:4px 24px 22px;color:rgba(255,255,255,.7);font-size:.88rem;line-height:1.8}
+.faq-item.faq-open .faq-answer{max-height:500px}
+
 </style>
 <script type="application/ld+json">
 {
@@ -501,6 +554,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-EC7YNHV890");</script>
 </head>
 <body>
+<div id="scroll-progress" aria-hidden="true"></div>
 <a class="skip-nav" href="#main">Skip to Content</a>
 <div class="particles" id="particles" aria-hidden="true"></div>
 <nav id="mainNav" role="navigation" aria-label="Main navigation"><div class="logo">Clarence Gets a Bargain</div><div class="links"><a href="#magazine">Peek Inside</a><a href="#coupons">Explore</a><a href="#educators">For Educators</a><a href="#buy" class="cta-nav">Buy Now</a></div></nav>
@@ -517,6 +571,15 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   <div class="subtitle">Cloaked in a fun story about a young boy who earns a robot reward &mdash; and learns to shop like a pro</div>
   <div class="author">Written &amp; Illustrated by Jonathan Bach</div>
   <div class="hero-cta"><a href="#buy">Invest in Your Kid&rsquo;s Future &mdash; $19.99</a></div>
+  <div class="hero-trust">
+    <span class="ht-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+    <span class="ht-sep">&bull;</span>
+    <span>Educator Approved</span>
+    <span class="ht-sep">&bull;</span>
+    <span>Jump$tart Aligned</span>
+    <span class="ht-sep">&bull;</span>
+    <span>Ages 6&ndash;10</span>
+  </div>
 </section>
 
 <div class="banner" aria-hidden="true"><div class="banner-track"><span>KID LIT IS A HIT! &bull; KID FIN IS A WIN! &bull;</span><span>EDUTAINMENT AT ITS FINEST &bull; STORY FIRST. MONEY SMARTS SNEAK IN. &bull;</span><span>KID LIT IS A HIT! &bull; KID FIN IS A WIN! &bull;</span><span>EDUTAINMENT AT ITS FINEST &bull; STORY FIRST. MONEY SMARTS SNEAK IN. &bull;</span><span>KID LIT IS A HIT! &bull; KID FIN IS A WIN! &bull;</span><span>EDUTAINMENT AT ITS FINEST &bull; STORY FIRST. MONEY SMARTS SNEAK IN. &bull;</span></div></div>
@@ -600,7 +663,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 <section class="buy" id="buy"><div class="buy-bg"></div>
   <img loading="lazy" decoding="async" class="reveal" src="images/clarence-arms.jpg" width="520" height="520" alt="Clarence celebrating his smart shopping win" style="width:260px;border-radius:16px;display:block;margin:0 auto 20px;box-shadow:0 6px 24px rgba(0,0,0,.12)">
   <h2 class="reveal">Clarence Did It. Your Kids Can Too.</h2>
-  <div class="buy-sub reveal">A book focusing on kid&rsquo;s financial literacy and education.</div>
+  <div class="buy-sub reveal">36 pages of adventure. 6 money skills. One very determined kid with a robot obsession.</div>
   <div class="price reveal">$19.99</div>
   <div class="price-note reveal">Softcover &bull; Full Color &bull; Ages 6&ndash;10</div>
   <div style="background:linear-gradient(135deg,#1a3a5c,#0d2a44);border:2px dashed #ffe066;border-radius:16px;padding:20px 28px;margin:20px auto 24px;max-width:460px;text-align:center" class="reveal">
@@ -613,6 +676,36 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     <a class="buy-btn amazon" style="background:#ff6b2b; box-shadow:0 4px 20px rgba(255,107,43,.4);" href="mailto:orders@clarencegetsabargain.com?subject=Order%20Request%20-%20Clarence%20Gets%20a%20Bargain">Buy Direct - $19.99</a>
     <a class="buy-btn bn" href="#" style="visibility:hidden;pointer-events:none"></a>
     <a class="buy-btn indie" href="#" style="visibility:hidden;pointer-events:none"></a>
+  </div>
+</section>
+<!-- TESTIMONIALS STRIP -->
+<section class="testimonials-strip">
+  <div class="t-header reveal">
+    <div class="section-tag">Real Readers. Real Reactions.</div>
+    <h2>They Didn&rsquo;t Expect to Love a Money Book.</h2>
+  </div>
+  <div class="testimonials-grid">
+    <div class="t-card reveal">
+      <span class="t-avatar">&#127822;</span>
+      <div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="t-quote">&ldquo;My students fought over who got to hold the book during read-aloud. Fought. Over a book about money.&rdquo;</p>
+      <div class="t-author">Anonymous Teacher</div>
+      <div class="t-role">3rd Grade &bull; NJ Public Schools</div>
+    </div>
+    <div class="t-card reveal reveal-delay-1">
+      <span class="t-avatar">&#9749;</span>
+      <div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="t-quote">&ldquo;The twist at the end caught me completely off guard. I laughed so hard my kid asked me if I was OK. Needed this book 30 years ago.&rdquo;</p>
+      <div class="t-author">David R.</div>
+      <div class="t-role">Parent &amp; Educator</div>
+    </div>
+    <div class="t-card reveal reveal-delay-2">
+      <span class="t-avatar">&#129302;</span>
+      <div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="t-quote">&ldquo;It taught me how to get sales to save money, which made me feel more grown-up and smart. I would recommend this book to other kids!&rdquo;</p>
+      <div class="t-author">Josie K., Age 10</div>
+      <div class="t-role">Student Reader</div>
+    </div>
   </div>
 </section>
 
@@ -643,6 +736,52 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       </ul>
       <p class="trust-closer">Stop teaching money with abstract worksheets. Teach it with a mission.</p>
       <a class="trust-cta" href="#" onclick="openResourceModal('res-educator-preview');return false;">DOWNLOAD THE EDUCATOR&rsquo;S PREVIEW</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- 6 MONEY SKILLS SHOWCASE -->
+<section class="concepts-section">
+  <div class="section-tag reveal">What Kids Actually Learn</div>
+  <h2 class="reveal">6 Real Money Skills. One Hilarious Story.</h2>
+  <p class="section-sub reveal">Every concept is woven into the plot &mdash; kids absorb them because the story demands it, not because a worksheet tells them to.</p>
+  <div class="concepts-grid">
+    <div class="concept-card reveal">
+      <span class="concept-icon">&#129300;</span>
+      <h3><strong><em>Wants vs. Needs</em></strong></h3>
+      <p>The foundation of every smart money decision. Clarence wants a robot. But does he need one? The tension drives the whole story.</p>
+      <span class="concept-pages">Pages 4&ndash;8</span>
+    </div>
+    <div class="concept-card reveal reveal-delay-1">
+      <span class="concept-icon">&#127919;</span>
+      <h3>Budgeting &amp; Goal Setting</h3>
+      <p>How do you save for something big? Clarence does the math, makes a plan, and learns that chores and patience are actually a finance strategy.</p>
+      <span class="concept-pages">Pages 9&ndash;14</span>
+    </div>
+    <div class="concept-card reveal reveal-delay-2">
+      <span class="concept-icon">&#128269;</span>
+      <h3>Comparison Shopping</h3>
+      <p>Sea-Mart has two robots. Different prices. Same brand. Clarence learns that not all deals are what they seem &mdash; and smarter shopping wins.</p>
+      <span class="concept-pages">Pages 15&ndash;20</span>
+    </div>
+    <div class="concept-card reveal">
+      <span class="concept-icon">&#9986;</span>
+      <h3>Coupons &amp; Markdowns</h3>
+      <p>Real coupon math. Percentage off. Sale events. Clarence crunches numbers at the register in a scene kids actually cheer for.</p>
+      <span class="concept-pages">Pages 16&ndash;22</span>
+    </div>
+    <div class="concept-card reveal reveal-delay-1">
+      <span class="concept-icon">&#127891;</span>
+      <h3>College Savings (529)</h3>
+      <p>A rare, age-appropriate introduction to long-term savings. Dad explains the future in a way that makes a 7-year-old nod seriously.</p>
+      <span class="concept-pages">Pages 26&ndash;28</span>
+    </div>
+    <div class="concept-card reveal reveal-delay-2">
+      <span class="concept-icon">&#128161;</span>
+      <h3>Consumer Awareness</h3>
+      <p>Think before you buy. Just because it&rsquo;s a deal doesn&rsquo;t mean you need it. Clarence learns the hardest lesson &mdash; and nails it.</p>
+      <span class="concept-pages">Page 29</span>
     </div>
   </div>
 </section>
@@ -875,6 +1014,69 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   </div>
 </section>
 
+
+<!-- FAQ SECTION -->
+<section class="faq-section">
+  <div class="section-tag">Got Questions?</div>
+  <h2 class="reveal">Let&rsquo;s Clear This Up Fast.</h2>
+  <div class="faq-list reveal">
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">
+        What age is this book for?
+        <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+      </button>
+      <div class="faq-answer"><div class="faq-answer-inner">
+        Ages 6&ndash;10 is the sweet spot. Kindergarteners love the pictures and the robot drama. Fourth graders pick up on the money lessons. Guided Reading Level L&ndash;N, Lexile AD 620L.
+      </div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">
+        Is this a series?
+        <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+      </button>
+      <div class="faq-answer"><div class="faq-answer-inner">
+        For now it&rsquo;s a standalone book, but Clarence has more adventures coming. Sequels are in the works &mdash; because apparently one robot isn&rsquo;t enough.
+      </div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">
+        Can I use this in a classroom?
+        <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+      </button>
+      <div class="faq-answer"><div class="faq-answer-inner">
+        Absolutely. <em>Clarence Gets a Bargain</em> is designed for grades 1&ndash;5 classrooms, libraries, and financial education programs. It aligns with Jump$tart National Standards, Common Core Math &amp; ELA, CEE, and FDIC Money Smart. Free lesson plans, discussion guides, and a full curriculum alignment matrix are available above &mdash; download everything. It&rsquo;s all free.
+      </div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">
+        What financial concepts does the book cover?
+        <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+      </button>
+      <div class="faq-answer"><div class="faq-answer-inner">
+        Budgeting, comparison shopping, sale pricing, coupons and percentage markdowns, <strong><em>Wants vs. Needs</em></strong>, receipts and record-keeping, savings and delayed gratification, college savings accounts (529s), and consumer awareness. Nine concepts. 36 pages. Zero worksheets.
+      </div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">
+        How long does it take to read?
+        <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+      </button>
+      <div class="faq-answer"><div class="faq-answer-inner">
+        About 15&ndash;20 minutes as a read-aloud, or a single sitting for independent readers. Short enough to finish in one class period. Rich enough to fuel a month of discussion.
+      </div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">
+        What if my kid doesn&rsquo;t like reading?
+        <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+      </button>
+      <div class="faq-answer"><div class="faq-answer-inner">
+        That&rsquo;s exactly who this book is for. The story leads &mdash; the money lessons follow. There&rsquo;s a robot, a plot twist, and a dad joke on page 31. Reluctant readers have been known to flip back to the beginning the moment they finish.
+      </div></div>
+    </div>
+  </div>
+</section>
+
 <!-- SECTION 6: DOCUMENTED EDUCATIONAL ASSET — CLOSING PITCH -->
 <section class="pitch-section reveal">
   <div class="pitch-inner">
@@ -920,9 +1122,10 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   <div class="footer-inner">
     <img loading="lazy" decoding="async" src="images/jonathan-bach.jpg" width="1122" height="1402" alt="Jonathan Bach - author and illustrator of Clarence Gets a Bargain" class="footer-author-photo">
     <div class="footer-text">
-      <h3>About the Author</h3>
-      <p>Besides author and illustrator, Jonathan is an attorney and mixed-media artist. Been called out by many as being both right and left brained. He is a self-taught, honorary member of the Nerd Herd. Can also spot a typo from a mile away.</p>
-      <p>What makes him qualified to author this book is his gift for finding the best deals on&hellip; well, everything. Through well-honed, relentless research both prior to and after the advent of the internet, he has earned the reputation as a &ldquo;deal master.&rdquo; Most proud of convincing a retailer on a cruise ship to price-match — and paying one cent for a $300 pair of shoes. Wrote this book to plant seeds in little noggins &mdash; seeds that grow into lightbulbs before those noggins become know-it-all teenagers.</p>
+      <h3>About Jonathan Bach</h3>
+      <p>Attorney. Mixed-media artist. Certified Nerd Herd member. Simultaneously right-brained and left-brained &mdash; which means he can draft a contract <em>and</em> illustrate a children&rsquo;s book in the same afternoon.</p>
+      <p>What qualifies him to write a financial literacy book? He once convinced a cruise ship retailer to price-match a competitor &mdash; and paid <strong>one cent</strong> for a $300 pair of shoes. That is not a typo. Through relentless pre- and post-internet research, he has earned the reputation as a &ldquo;deal master.&rdquo;</p>
+      <p>He wrote <em>Clarence Gets a Bargain</em> because money habits form by age seven, and most books on the subject are either too dry for a first grader or too thin for a fifth grader. He fixed that. Written to plant seeds in little noggins &mdash; the kind that grow into lightbulbs before those noggins become know-it-all teenagers.</p>
       <div class="footer-social">
         <a href="#" rel="me noopener" target="_blank" aria-label="Follow on Instagram">IG</a>
         <a href="#" rel="me noopener" target="_blank" aria-label="Follow on TikTok">TT</a>
@@ -1018,12 +1221,16 @@ for (var i = 0; i < 20; i++) {
   pc.appendChild(p);
 }
 window.addEventListener('scroll',function(){document.getElementById('mainNav').classList.toggle('scrolled',window.scrollY>50);});
+(function(){var bar=document.getElementById('scroll-progress');if(!bar)return;window.addEventListener('scroll',function(){var s=document.documentElement.scrollTop,m=document.documentElement.scrollHeight-document.documentElement.clientHeight;bar.style.width=(m>0?s/m*100:0)+'%';},{passive:true});})();
 document.querySelectorAll('.reveal').forEach(function(el){new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting)e.target.classList.add('visible');});},{threshold:.15}).observe(el);});
 // MAGAZINE ZOOM — starts small, zooms to full when in view
 
 ['front','back'].forEach(function(s){var inp=document.getElementById(s+'Input'),prev=document.getElementById(s+'Preview');document.getElementById(s+'Upload').addEventListener('click',function(){inp.click();});inp.addEventListener('change',function(){var f=this.files[0];if(!f)return;var r=new FileReader();r.onload=function(e){prev.src=e.target.result;prev.style.display='block';};r.readAsDataURL(f);});});
 // Default cover previews
 (function(){var fp=document.getElementById('frontPreview');fp.src='images/frontcover.jpg';fp.style.display='block';})();
+
+// FAQ ACCORDION
+document.querySelectorAll('.faq-question').forEach(function(btn){btn.addEventListener('click',function(){var item=this.closest('.faq-item'),isOpen=item.classList.contains('faq-open');document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('faq-open');i.querySelector('.faq-question').setAttribute('aria-expanded','false');});if(!isOpen){item.classList.add('faq-open');btn.setAttribute('aria-expanded','true');}});});
 
 document.addEventListener('DOMContentLoaded', function() {
 
