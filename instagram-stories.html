@@ -76,7 +76,7 @@ const themes=[
   {week:"Week 1",title:"The Hook",bg:'#0054a6',accent:'#ffe066',text:'#fff',headline:["It's Financial","Literacy Month."],sub:"One book changes\neverything.",cta:"clarencegetsabargain.com",img:'forsite/clarence-arms.png',tag:"Awareness"},
   {week:"Week 2",title:"The Proof",bg:'#f5ecd7',accent:'#0054a6',text:'#0054a6',headline:['"Students FOUGHT','over this book."'],sub:"— 3rd Grade Teacher, NJ  ★★★★★",cta:"Clarence Gets a Bargain",img:'forsite/clarence-laugh.png',tag:"Social Proof"},
   {week:"Week 3",title:"Tip Card",bg:'#ff6b2b',accent:'#fff',text:'#fff',headline:["Wants vs.","Needs."],sub:"The hardest lesson.\nThe most important one.",cta:"Teach it with Clarence",img:'forsite/clarence-armsfoldedcrop.png',tag:"Education"},
-  {week:"Week 4",title:"The Close",bg:'#1a1a2e',accent:'#ffe066',text:'#fff',headline:["Last chance,","Financial","Lit Month."],sub:"$14.99 · Ages 6–10 · ★★★★★",cta:"clarencegetsabargain.com",img:'forsite/clarence_point.png',tag:"Urgency"}
+  {week:"Week 4",title:"The Close",bg:'#1a1a2e',accent:'#ffe066',text:'#fff',headline:["Last chance,","Financial","Lit Month."],sub:"$19.99 · Ages 6–10 · ★★★★★",cta:"clarencegetsabargain.com",img:'forsite/clarence_point.png',tag:"Urgency"}
 ];
 const storyCanvases=[];
 
@@ -164,10 +164,10 @@ function buildGrid(){
 }
 
 const captions=[
-  "It's Financial Literacy Month. 🗓️\n\nAnd the best tool isn't an app. It isn't a worksheet.\n\nIt's 36 pages about a boy, a robot, and a coupon.\n\nMeet Clarence. He's 7. He shops smarter than you.\n\n📚 Link in bio · $14.99\n\n#ClarenceGetsABargain #FinancialLiteracyMonth #KidsAndMoney #TeachKidsMoney",
+  "It's Financial Literacy Month. 🗓️\n\nAnd the best tool isn't an app. It isn't a worksheet.\n\nIt's 36 pages about a boy, a robot, and a coupon.\n\nMeet Clarence. He's 7. He shops smarter than you.\n\n📚 Link in bio · $19.99\n\n#ClarenceGetsABargain #FinancialLiteracyMonth #KidsAndMoney #TeachKidsMoney",
   "\"My students FOUGHT over who got to hold the book during read-aloud.\n\nFought. Over a book about money.\"\n\n— 3rd Grade Teacher, NJ ★★★★★\n\nWhen kids fight over your book, you did something right. 🙌\n\n📚 Link in bio\n\n#ClarenceGetsABargain #TeacherApproved #FinancialLiteracyMonth",
-  "Wants vs. Needs. 🎯\n\nThe hardest lesson in the book.\nThe most important one in life.\n\nClarence learns it at Sea-Mart.\nYour kid can learn it at bedtime.\n\n📚 Link in bio · $14.99\n\n#ClarenceGetsABargain #WantsVsNeeds #FinancialLiteracyMonth #MoneySkills",
-  "Financial Literacy Month ends tonight. ⏰\n\nBut your kid's money education doesn't have to.\n\n$14.99. 36 pages. 6 money skills. 5 stars.\n\nStory first. Money smarts sneak in.\n\nNow go get a bargain. ✂️\n\n📚 Link in bio\n\n#ClarenceGetsABargain #FinancialLiteracyMonth #NowGoGetABargain"
+  "Wants vs. Needs. 🎯\n\nThe hardest lesson in the book.\nThe most important one in life.\n\nClarence learns it at Sea-Mart.\nYour kid can learn it at bedtime.\n\n📚 Link in bio · $19.99\n\n#ClarenceGetsABargain #WantsVsNeeds #FinancialLiteracyMonth #MoneySkills",
+  "Financial Literacy Month ends tonight. ⏰\n\nBut your kid's money education doesn't have to.\n\n$19.99. 36 pages. 6 money skills. 5 stars.\n\nStory first. Money smarts sneak in.\n\nNow go get a bargain. ✂️\n\n📚 Link in bio\n\n#ClarenceGetsABargain #FinancialLiteracyMonth #NowGoGetABargain"
 ];
 
 function dlStory(i){const a=document.createElement('a');a.download=`story-week${i+1}-${themes[i].title.toLowerCase().replace(/ /g,'-')}.png`;a.href=storyCanvases[i].toDataURL('image/png');a.click();}
