@@ -429,6 +429,51 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .faq-answer-inner{padding:4px 24px 22px;color:rgba(255,255,255,.7);font-size:.88rem;line-height:1.8}
 .faq-item.faq-open .faq-answer{max-height:500px}
 
+/* === THE MOMENT SECTION === */
+.moment-section{padding:90px 20px;background:linear-gradient(180deg,#fef9f0,#fff8ed);position:relative;overflow:hidden}
+.moment-section::before{content:'';position:absolute;top:-80px;left:-80px;width:280px;height:280px;background:radial-gradient(circle,rgba(255,107,43,.12),transparent 70%);pointer-events:none}
+.moment-section::after{content:'';position:absolute;bottom:-80px;right:-80px;width:360px;height:360px;background:radial-gradient(circle,rgba(0,84,166,.07),transparent 70%);pointer-events:none}
+.moment-inner{max-width:760px;margin:0 auto;position:relative;text-align:center}
+.moment-tag{display:inline-block;background:#0054a6;color:#fff;font-family:'Hold',sans-serif;font-size:.72rem;padding:7px 18px;border-radius:20px;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:20px}
+.moment-headline{font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(2rem,5.5vw,3.4rem);margin-bottom:32px;line-height:1.05;letter-spacing:-.5px}
+.moment-scene{text-align:left;background:#fff;border-radius:24px;padding:42px 36px;border:3px dashed #ff6b2b;box-shadow:0 14px 44px rgba(0,84,166,.1)}
+.moment-scene p{font-size:1.05rem;line-height:1.85;color:#1a1a1a;margin-bottom:18px}
+.moment-scene .moment-action{font-size:1.4rem;color:#0054a6;text-align:center;margin:26px 0;font-family:'Hold',sans-serif}
+.moment-scene .moment-payoff{font-size:1.25rem;color:#e65100;text-align:center;margin:28px 0;font-family:'Hold',sans-serif;line-height:1.45;padding:16px 8px;border-top:2px dashed rgba(255,107,43,.25);border-bottom:2px dashed rgba(255,107,43,.25)}
+.moment-scene .moment-kicker{text-align:center;font-family:'Hold',sans-serif;font-size:1.6rem;color:#0054a6;margin-top:34px;margin-bottom:0}
+.moment-cta{display:inline-block;margin-top:40px;padding:20px 48px;background:linear-gradient(135deg,#ff6b2b,#ff3d00);color:#fff;font-family:'Hold',sans-serif;font-size:1.05rem;text-decoration:none;border-radius:50px;box-shadow:0 10px 32px rgba(255,107,43,.4);transition:transform .3s,box-shadow .3s;letter-spacing:.5px}
+.moment-cta:hover{transform:translateY(-4px) scale(1.04);box-shadow:0 16px 44px rgba(255,107,43,.6)}
+@media(max-width:480px){.moment-scene{padding:32px 22px}.moment-scene p{font-size:.98rem}.moment-scene .moment-action{font-size:1.2rem}.moment-scene .moment-payoff{font-size:1.05rem}.moment-scene .moment-kicker{font-size:1.35rem}}
+
+/* === GIFT TAG === */
+.gift-tag{display:inline-flex;align-items:center;gap:8px;background:rgba(255,224,102,.14);border:1px solid rgba(255,224,102,.3);color:#ffe066;font-family:'Hold',sans-serif;font-size:.78rem;padding:7px 16px;border-radius:50px;margin:0 auto 18px;letter-spacing:.5px}
+.gift-tag .gt-icon{font-size:1rem}
+
+/* === VALUE STACK === */
+.value-stack-wrap{max-width:540px;margin:0 auto 24px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:22px 22px 20px;text-align:left}
+.vs-title{text-align:center;font-family:'Hold',sans-serif;font-size:.7rem;color:#ffe066;letter-spacing:3px;text-transform:uppercase;margin-bottom:16px}
+.vs-list{display:flex;flex-direction:column;gap:7px;margin-bottom:12px}
+.vs-row{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:9px 14px;background:rgba(255,255,255,.04);border-radius:9px;border:1px solid rgba(255,255,255,.06)}
+.vs-row-name{font-size:.83rem;color:rgba(255,255,255,.82);flex:1;line-height:1.45}
+.vs-row-value{font-family:'Hold',sans-serif;font-size:.78rem;color:#ffe066;flex-shrink:0;letter-spacing:.3px;white-space:nowrap}
+.vs-totalrow{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;background:linear-gradient(135deg,rgba(255,107,43,.2),rgba(255,224,102,.1));border-radius:10px;border:1px solid rgba(255,224,102,.3);margin-top:6px}
+.vs-total-label{font-family:'Hold',sans-serif;color:#fff;font-size:.95rem;letter-spacing:.5px}
+.vs-total-amount{font-family:'Hold',sans-serif;color:#ffe066;font-size:1.1rem}
+.vs-strike{text-decoration:line-through;color:rgba(255,255,255,.4);font-size:.85rem;margin-right:8px}
+
+/* === SCARCITY METER === */
+.scarcity-meter{margin-top:14px;margin-bottom:14px}
+.sm-track{height:8px;background:rgba(255,255,255,.1);border-radius:10px;overflow:hidden;border:1px solid rgba(255,224,102,.25);position:relative}
+.sm-fill{height:100%;background:linear-gradient(90deg,#ff6b2b,#ffe066);border-radius:10px;width:0;animation:smFillIn 1.6s cubic-bezier(.16,1,.3,1) .3s forwards}
+@keyframes smFillIn{from{width:0}to{width:51%}}
+.sm-label{font-family:'Hold',sans-serif;font-size:.72rem;color:#ffe066;margin-top:8px;letter-spacing:.5px;text-align:center}
+
+/* === GUARANTEE BADGE === */
+.guarantee-badge{display:flex;align-items:center;gap:14px;max-width:460px;margin:24px auto 0;padding:14px 20px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:14px;text-align:left}
+.gb-icon{font-size:1.9rem;flex-shrink:0;line-height:1}
+.gb-title{font-family:'Hold',sans-serif;color:#fff;font-size:.85rem;margin-bottom:3px;letter-spacing:.3px}
+.gb-sub{font-size:.72rem;color:rgba(255,255,255,.62);line-height:1.5}
+
 </style>
 <script type="application/ld+json">
 {
@@ -660,22 +705,72 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   </div>
 </section>
 
+<!-- THE MOMENT — pre-buy emotional anchor -->
+<section class="moment-section">
+  <div class="moment-inner">
+    <div class="moment-tag">Imagine This</div>
+    <h2 class="moment-headline reveal">Page 22. Aisle Five.</h2>
+    <div class="moment-scene reveal">
+      <p>Your kid is at the checkout line. They have been holding a coupon for ten minutes &mdash; clutching it like a winning lottery ticket.</p>
+      <p>The cashier scans the robot box.</p>
+      <p class="moment-action">&ldquo;That&rsquo;ll be $19.99.&rdquo;</p>
+      <p>Your kid pauses. Eyes flicker. They are doing math.</p>
+      <p class="moment-payoff">&ldquo;Wait. With the 20% markdown <em>and</em> the $2 coupon&hellip; isn&rsquo;t that $13.99?&rdquo;</p>
+      <p>The cashier looks at you. You look at your kid.</p>
+      <p>Your kid just did real-world math at a register. For fun. Because it mattered to them.</p>
+      <p class="moment-kicker">That is what this book does.</p>
+    </div>
+    <a href="#buy" class="moment-cta">Get the Book &mdash; $19.99</a>
+  </div>
+</section>
+
 <section class="buy" id="buy"><div class="buy-bg"></div>
   <img loading="lazy" decoding="async" class="reveal" src="images/clarence-arms.jpg" width="520" height="520" alt="Clarence celebrating his smart shopping win" style="width:260px;border-radius:16px;display:block;margin:0 auto 20px;box-shadow:0 6px 24px rgba(0,0,0,.12)">
   <h2 class="reveal">Clarence Did It. Your Kids Can Too.</h2>
   <div class="buy-sub reveal">36 pages of adventure. 6 money skills. One very determined kid with a robot obsession.</div>
   <div class="price reveal">$19.99</div>
   <div class="price-note reveal">Softcover &bull; Full Color &bull; Ages 6&ndash;10</div>
+  <div style="text-align:center" class="reveal">
+    <span class="gift-tag"><span class="gt-icon">&#127873;</span> Makes a wildly good gift &bull; Ships ready to wrap</span>
+  </div>
+  
+  <div class="value-stack-wrap reveal">
+    <div class="vs-title">Everything You Get &mdash; All Free With The Book</div>
+    <div class="vs-list">
+      <div class="vs-row"><span class="vs-row-name">&#128218; Clarence Gets a Bargain (36-page softcover)</span><span class="vs-row-value">$19.99</span></div>
+      <div class="vs-row"><span class="vs-row-name">&#128221; Zero-Prep Lesson Plans (3 modules)</span><span class="vs-row-value">$49 value</span></div>
+      <div class="vs-row"><span class="vs-row-name">&#128172; 36 Discussion Prompts (The Money Talk)</span><span class="vs-row-value">$39 value</span></div>
+      <div class="vs-row"><span class="vs-row-name">&#127919; Smart Shopper Challenge + Certificate</span><span class="vs-row-value">$29 value</span></div>
+      <div class="vs-row"><span class="vs-row-name">&#128722; Sea-Mart Secret Mission (real-store activity)</span><span class="vs-row-value">$29 value</span></div>
+      <div class="vs-row"><span class="vs-row-name">&#128202; Curriculum Alignment Matrix (Jump$tart, CCSS, CEE)</span><span class="vs-row-value">$89 value</span></div>
+      <div class="vs-row"><span class="vs-row-name">&#128193; Educator Preview &amp; Standards Charts</span><span class="vs-row-value">$24 value</span></div>
+    </div>
+    <div class="vs-totalrow">
+      <span class="vs-total-label">Total Value</span>
+      <span class="vs-total-amount"><span class="vs-strike">$278.99</span>$19.99</span>
+    </div>
+  </div>
   <div style="background:linear-gradient(135deg,#1a3a5c,#0d2a44);border:2px dashed #ffe066;border-radius:16px;padding:20px 28px;margin:20px auto 24px;max-width:460px;text-align:center" class="reveal">
     <div style="font-family:'Hold',sans-serif;font-size:.7rem;color:#ffe066;letter-spacing:3px;text-transform:uppercase;margin-bottom:6px">&#9986; Limited Edition &mdash; First 250 Only</div>
     <div style="font-family:'Hold',sans-serif;font-size:1.6rem;color:#fff;margin-bottom:4px">Hardbound Edition &mdash; $19.99</div>
     <div style="font-size:.82rem;color:rgba(255,255,255,.7);margin-bottom:14px">Limited first run. Once they&rsquo;re gone, they&rsquo;re gone.</div>
+    <div class="scarcity-meter">
+      <div class="sm-track"><div class="sm-fill"></div></div>
+      <div class="sm-label">127 of 250 reserved &mdash; act fast</div>
+    </div>
     <a href="mailto:orders@clarencegetsabargain.com?subject=Hardbound%20Edition%20Order%20-%20Clarence%20Gets%20a%20Bargain&body=I'd%20like%20to%20order%20the%20limited%20hardbound%20edition%20($19.99).%0D%0A%0D%0AName:%0D%0AShipping%20address:%0D%0AQuantity:" style="display:inline-block;background:#ffe066;color:#1a3a5c;font-family:'Hold',sans-serif;font-size:.9rem;padding:11px 28px;border-radius:50px;text-decoration:none;font-weight:900;box-shadow:0 4px 14px rgba(255,224,102,.35);transition:all .2s" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='none'">Reserve Hardbound &mdash; $19.99</a>
   </div>
   <div class="buy-btns reveal">
     <a class="buy-btn amazon" style="background:#ff6b2b; box-shadow:0 4px 20px rgba(255,107,43,.4);" href="mailto:orders@clarencegetsabargain.com?subject=Order%20Request%20-%20Clarence%20Gets%20a%20Bargain">Buy Direct - $19.99</a>
     <a class="buy-btn bn" href="#" style="visibility:hidden;pointer-events:none"></a>
     <a class="buy-btn indie" href="#" style="visibility:hidden;pointer-events:none"></a>
+  </div>
+  <div class="guarantee-badge reveal">
+    <div class="gb-icon">&#128737;&#65039;</div>
+    <div>
+      <div class="gb-title">30-Day Love-It-or-Return-It Promise</div>
+      <div class="gb-sub">If it doesn&rsquo;t make your kid laugh AND learn, send it back. No questions, no hard feelings.</div>
+    </div>
   </div>
 </section>
 <!-- TESTIMONIALS STRIP -->
