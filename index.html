@@ -758,7 +758,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     <div class="meta-item"><div class="meta-label">Reading Level</div><div class="meta-value">Guided: L&ndash;N</div></div>
     <div class="meta-item"><div class="meta-label">Lexile</div><div class="meta-value">AD 620L</div></div>
     <div class="meta-item"><div class="meta-label">Publication</div><div class="meta-value">2026</div></div>
-    <div class="meta-item"><div class="meta-label">Price</div><div class="meta-value">$19.99</div></div>
+    <div class="meta-item"><div class="meta-label">Price</div><div class="meta-value">$19.99 + $5.99 shipping</div></div>
     <div class="meta-item"><div class="meta-label">BISAC</div><div class="meta-value">JNF013000</div></div>
   </div>
   <div class="credentials-bar">
@@ -4602,7 +4602,7 @@ function downloadQuoteCard(){
   function _parentBook(){
     _user("Just show me the book");_clear();
     _type(500,function(){
-      _bot("Smart shopper move. $19.99, ships direct from us.");
+      _bot("Smart shopper move. $19.99 + $5.99 shipping, ships direct from us.");
       _choices([{t:"Buy Clarence — $19.99 →",f:function(){chatClose();document.getElementById('buy').scrollIntoView({behavior:'smooth'});},cls:'og'}]);
     });
   }
