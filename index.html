@@ -1802,14 +1802,28 @@ var coverGeo = makePageGeo('right');
 var cp = coverGeo.attributes.position;
 for (var i = 0; i < cp.count; i++) cp.setX(i, cp.getX(i) - PW/2);
 coverGeo.computeVertexNormals();
-// Dedicated front cover texture — load via Image element (works in file:// and http://)
-var coverTex = new THREE.Texture();
-var _coverImg = new Image();
-_coverImg.onload = function() {
-  coverTex.image = _coverImg;
-  coverTex.needsUpdate = true;
-};
-_coverImg.src = 'images/frontcover.jpg';
+// Coupon-style cover drawn on canvas
+var coverTex = makeTex(function(c, w, h) {
+  var g = c.createLinearGradient(0, 0, 0, h);
+  g.addColorStop(0,'#4a1a6b'); g.addColorStop(0.25,'#6a2d8e'); g.addColorStop(0.5,'#228B22'); g.addColorStop(0.75,'#F57C00'); g.addColorStop(1,'#ff6b2b');
+  c.fillStyle = g; c.fillRect(0, 0, w, h);
+  c.save(); c.setLineDash([24,14]); c.strokeStyle='rgba(255,255,255,0.55)'; c.lineWidth=10;
+  rr(c, 28, 28, w-56, h-56, 24); c.stroke(); c.restore();
+  c.fillStyle='rgba(255,255,255,0.85)'; c.font='bold '+Math.floor(h*0.06)+'px "Hold",sans-serif';
+  c.textAlign='center'; c.textBaseline='middle';
+  c.fillText('✂  CLIP & LEARN  ✂', w/2, h*0.10);
+  c.fillStyle='#FFE600'; c.font='900 '+Math.floor(h*0.13)+'px "Hold",sans-serif';
+  c.textAlign='center'; c.textBaseline='middle';
+  c.fillText('Clarence', w/2, h*0.30);
+  c.fillText('Gets a', w/2, h*0.44);
+  c.fillText('Bargain!', w/2, h*0.57);
+  c.fillStyle='#ff6b2b'; rr(c, w*0.15, h*0.67, w*0.70, h*0.14, 40); c.fill();
+  c.fillStyle='#fff'; c.font='900 '+Math.floor(h*0.055)+'px "Hold",sans-serif';
+  c.textAlign='center'; c.textBaseline='middle';
+  c.fillText('COUPON BOOK', w/2, h*0.745);
+  c.fillStyle='rgba(255,255,255,0.7)'; c.font=Math.floor(h*0.04)+'px "Hold",sans-serif';
+  c.fillText('clarencegetsabargain.com', w/2, h*0.91);
+});
 var coverMat = new THREE.MeshStandardMaterial({map: coverTex, side: THREE.DoubleSide, roughness: 0.6});
 var coverMesh = new THREE.Mesh(coverGeo, coverMat);
 coverMesh.castShadow = true;
