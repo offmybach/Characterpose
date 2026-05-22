@@ -977,7 +977,7 @@ var magWrap = document.getElementById('magCanvasWrap');
 new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){magWrap.classList.add('zoomed');}});},{threshold:.1}).observe(magWrap);
 ['front','back'].forEach(function(s){var inp=document.getElementById(s+'Input'),prev=document.getElementById(s+'Preview');document.getElementById(s+'Upload').addEventListener('click',function(){inp.click();});inp.addEventListener('change',function(){var f=this.files[0];if(!f)return;var r=new FileReader();r.onload=function(e){prev.src=e.target.result;prev.style.display='block';};r.readAsDataURL(f);});});
 // Default cover previews
-(function(){var fp=document.getElementById('frontPreview');fp.src='images/frontcover.jpg';fp.style.display='block';})();
+(function(){var fp=document.getElementById('frontPreview');fp.src='images/frontcover.jpg';fp.style.display='block';var bp=document.getElementById('backPreview');bp.src='images/rear-cover.png';bp.style.display='block';})();
 
 // ============================================================
 // THREE.JS 3D MAGAZINE — v4 FIXED ARCHITECTURE
