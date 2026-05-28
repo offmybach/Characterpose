@@ -80,6 +80,7 @@ textarea:focus{border-color:var(--orange)}
 .hist-head h3:hover{color:#aaa}
 .hist-clear{background:none;border:1px solid #2a2a2a;color:#555;border-radius:50px;padding:5px 12px;font-size:.7rem;font-weight:700;cursor:pointer;transition:all .2s}
 .hist-clear:hover{border-color:#ff4444;color:#ff4444}
+@media(max-width:768px){.hist-clear{min-height:40px;padding:10px 16px;font-size:.8rem}}
 .hist-empty{font-size:.8rem;color:#444;font-style:italic;padding:12px 0}
 .hist-list{display:flex;flex-direction:column;gap:8px}
 .hist-item{background:#111;border:1px solid #1a1a1a;border-radius:10px;padding:12px 14px;display:flex;gap:12px;align-items:flex-start;transition:border-color .2s}
@@ -355,7 +356,7 @@ textarea:focus{border-color:var(--orange)}
 const BOOK_CONTEXT = `You are a social media copywriter for "Clarence Gets a Bargain," a children's financial literacy book by Jonathan Bach (attorney, artist, recovering coupon addict).
 
 BOOK FACTS:
-- 36 pages, full color, $14.99, Ages 6-10, Grades 1-5, Lexile AD 620L
+- 36 pages, full color, $19.99, Ages 6-10, Grades 1-5, Lexile AD 620L
 - Clarence earns a robot toy (RoBimmie) for good grades and chores, does "shopping homework," then goes to Sea-Mart
 - 6 money skills: Budgeting, Comparison Shopping, Coupons & Clearance, Wants vs. Needs, Receipts & Records, 529 College Savings
 - "Wants vs. Needs" is always bold/italic — it's the core FLAC concept
@@ -693,7 +694,7 @@ Earlier introduction = longer compounding window. This is math, not philosophy.
 
 All six of these live inside one 36-page book.
 
-Clarence Gets a Bargain. Ages 6-10. $14.99.
+Clarence Gets a Bargain. Ages 6-10. $19.99.
 
 Free educator toolkit — lesson plans, discussion guides, assessment worksheets — at clarencegetsabargain.com
 
@@ -728,7 +729,7 @@ They basically all said the same thing.
 
 When a book lands the same way for a veteran educator and a kid who just wants to feel grown-up — that's the whole game.
 
-Clarence Gets a Bargain. $14.99. Ages 6-10.
+Clarence Gets a Bargain. $19.99. Ages 6-10.
 
 Free educator toolkit at clarencegetsabargain.com — lesson plans, guides, worksheets. No email required.
 
@@ -746,7 +747,7 @@ Council for Economic Education → councilforeconed.org`
     algo:'Niche Authority + Standards Alignment',
     body:`Most financial literacy programs cost thousands of dollars per school.
 
-This one costs $14.99. And there's a complete free educator toolkit.
+This one costs $19.99. And there's a complete free educator toolkit.
 
 Clarence Gets a Bargain is:
 → Lexile AD 620L (Guided Reading L-N)
