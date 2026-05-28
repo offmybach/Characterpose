@@ -475,6 +475,32 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .gb-title{font-family:'Hold',sans-serif;color:#fff;font-size:.85rem;margin-bottom:3px;letter-spacing:.3px}
 .gb-sub{font-size:.72rem;color:rgba(255,255,255,.62);line-height:1.5}
 
+/* === FEEDBACK / REVIEW SUBMISSION === */
+.feedback-section{background:#f5ecd7;padding:70px 20px;text-align:center}
+.feedback-inner{max-width:640px;margin:0 auto}
+.feedback-section .section-tag{font-family:'Hold',sans-serif;font-size:.85rem;color:#ff6b2b;letter-spacing:3px;text-transform:uppercase;margin-bottom:12px}
+.feedback-section h2{font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(1.6rem,4vw,2.4rem);margin-bottom:12px;line-height:1.15}
+.feedback-sub{color:#0054a6;font-size:1rem;margin-bottom:32px;line-height:1.6;font-weight:600}
+.feedback-form{background:#fff;border:3px dashed #ff6b2b;border-radius:18px;padding:32px 28px;text-align:left;box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.ff-row{margin-bottom:18px}
+.ff-label{display:block;font-family:'Hold',sans-serif;font-size:.8rem;color:#0054a6;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px}
+.ff-opt{font-size:.72rem;color:#888;text-transform:none;letter-spacing:0;font-family:'Lato',sans-serif;font-weight:400}
+.feedback-form input[type="text"],.feedback-form input[type="email"],.feedback-form textarea{width:100%;font-family:'Lato',sans-serif;font-size:1rem;padding:12px 14px;border:2px solid #e8d9b8;border-radius:10px;background:#fffdf7;color:#111;transition:border-color .2s;box-sizing:border-box}
+.feedback-form input[type="text"]:focus,.feedback-form input[type="email"]:focus,.feedback-form textarea:focus{outline:none;border-color:#ff6b2b}
+.feedback-form textarea{resize:vertical;min-height:120px;line-height:1.5;font-family:'Lato',sans-serif}
+.ff-stars{display:inline-flex;flex-direction:row-reverse;gap:4px;position:relative}
+.ff-stars input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.ff-stars label{cursor:pointer;font-size:2rem;color:#ddd;transition:color .15s;line-height:1;user-select:none}
+.ff-stars label:hover,.ff-stars label:hover ~ label,.ff-stars input:checked ~ label{color:#ff6b2b}
+.ff-stars input:focus-visible + label{outline:2px solid #0054a6;outline-offset:2px;border-radius:4px}
+.ff-submit{display:inline-block;margin-top:6px;font-family:'Hold',sans-serif;font-size:.95rem;background:#ff6b2b;color:#fff;border:none;padding:14px 36px;border-radius:50px;cursor:pointer;letter-spacing:1px;box-shadow:0 4px 14px rgba(255,107,43,.35);transition:transform .2s,box-shadow .2s}
+.ff-submit:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(255,107,43,.45)}
+.ff-privacy{margin-top:14px;font-size:.75rem;color:#888;line-height:1.5}
+.ff-thanks{display:none;background:#0054a6;color:#fff;border-radius:14px;padding:22px 20px;margin-top:16px;font-family:'Hold',sans-serif;text-align:center}
+.ff-thanks.show{display:block}
+.ff-thanks-icon{font-size:1.8rem;margin-bottom:6px}
+@media(max-width:600px){.feedback-form{padding:24px 18px}.ff-stars label{font-size:1.7rem}}
+
 </style>
 <script type="application/ld+json">
 {
@@ -773,6 +799,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   <div class="t-header reveal">
     <div class="section-tag">Real Readers. Real Reactions.</div>
     <h2>They Didn&rsquo;t Expect to Love a Money Book.</h2>
+    <p style="color:rgba(255,255,255,.75);font-size:.92rem;margin-top:10px"><a href="#feedback" style="color:#ffe066;text-decoration:underline">Read it? Add your review &rarr;</a></p>
   </div>
   <div class="testimonials-grid">
     <div class="t-card reveal">
@@ -796,6 +823,45 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       <div class="t-author">Josie K., Age 10</div>
       <div class="t-role">Student Reader</div>
     </div>
+  </div>
+</section>
+
+<!-- READER FEEDBACK / REVIEW SUBMISSION -->
+<section class="feedback-section" id="feedback">
+  <div class="feedback-inner reveal">
+    <div class="section-tag">Your Turn at the Counter</div>
+    <h2>Read It? Tell Us What You Think.</h2>
+    <p class="feedback-sub">Real reviews from real readers. We just opened the doors &mdash; be one of the first to weigh in.</p>
+    <form id="reviewForm" class="feedback-form" onsubmit="return submitReview(event);">
+      <div class="ff-row">
+        <label class="ff-label" for="fb-name">Your Name</label>
+        <input type="text" id="fb-name" name="name" required placeholder="First name + last initial works" maxlength="60" autocomplete="name">
+      </div>
+      <div class="ff-row">
+        <label class="ff-label" for="fb-email">Email <span class="ff-opt">(optional &mdash; only if you want a reply)</span></label>
+        <input type="email" id="fb-email" name="email" placeholder="you@example.com" maxlength="100" autocomplete="email">
+      </div>
+      <div class="ff-row">
+        <label class="ff-label">Your Rating</label>
+        <div class="ff-stars" role="radiogroup" aria-label="Rating from 1 to 5 stars">
+          <input type="radio" id="fb-r5" name="rating" value="5"><label for="fb-r5" aria-label="5 stars">&#9733;</label>
+          <input type="radio" id="fb-r4" name="rating" value="4"><label for="fb-r4" aria-label="4 stars">&#9733;</label>
+          <input type="radio" id="fb-r3" name="rating" value="3"><label for="fb-r3" aria-label="3 stars">&#9733;</label>
+          <input type="radio" id="fb-r2" name="rating" value="2"><label for="fb-r2" aria-label="2 stars">&#9733;</label>
+          <input type="radio" id="fb-r1" name="rating" value="1"><label for="fb-r1" aria-label="1 star">&#9733;</label>
+        </div>
+      </div>
+      <div class="ff-row">
+        <label class="ff-label" for="fb-msg">Your Review</label>
+        <textarea id="fb-msg" name="message" rows="5" required placeholder="What did you (or your kid) think? Favorite scene? Did the Wants vs. Needs lesson land?" maxlength="2000"></textarea>
+      </div>
+      <button type="submit" class="ff-submit">Send My Review</button>
+      <p class="ff-privacy">By submitting, you give us permission to feature your name and review on this site. Your email is never shared or sold.</p>
+      <div class="ff-thanks" id="ffThanks">
+        <div class="ff-thanks-icon">&#9989;</div>
+        Thanks &mdash; your email app should open with your review pre-filled. Hit send and you&rsquo;re done.
+      </div>
+    </form>
   </div>
 </section>
 
@@ -1265,6 +1331,29 @@ function closeResourceModal() {
     _resourceModalReturnFocus = null;
   }
 }
+
+// READER REVIEW SUBMISSION — opens mailto with the form pre-filled
+function submitReview(e){
+  e.preventDefault();
+  var name = (document.getElementById('fb-name').value || '').trim();
+  var email = (document.getElementById('fb-email').value || '').trim();
+  var ratingEl = document.querySelector('input[name="rating"]:checked');
+  var rating = ratingEl ? (ratingEl.value + ' star' + (ratingEl.value === '1' ? '' : 's')) : 'No rating given';
+  var msg = (document.getElementById('fb-msg').value || '').trim();
+  var subject = 'Reader Review — ' + name + ' (' + rating + ')';
+  var body =
+    'Name: ' + name + '\n' +
+    'Email: ' + (email || 'not provided') + '\n' +
+    'Rating: ' + rating + '\n\n' +
+    'Review:\n' + msg + '\n\n' +
+    '— Submitted via clarencegetsabargain.com';
+  var url = 'mailto:reviews@clarencegetsabargain.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  window.location.href = url;
+  var thx = document.getElementById('ffThanks');
+  if (thx) thx.classList.add('show');
+  return false;
+}
+
 document.addEventListener('keydown', function(e){
   if (e.key === 'Escape') closeResourceModal();
   if (e.key === 'Tab') {
