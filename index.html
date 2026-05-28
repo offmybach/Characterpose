@@ -499,6 +499,9 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .ff-thanks{display:none;background:#0054a6;color:#fff;border-radius:14px;padding:22px 20px;margin-top:16px;font-family:'Hold',sans-serif;text-align:center}
 .ff-thanks.show{display:block}
 .ff-thanks-icon{font-size:1.8rem;margin-bottom:6px}
+.ff-error{display:none;background:#fdecea;color:#a02020;border:1px solid #f5b5b0;border-radius:10px;padding:12px 16px;margin-top:12px;font-size:.9rem;text-align:center}
+.ff-error.show{display:block}
+.ff-submit:disabled{opacity:.6;cursor:wait;transform:none;box-shadow:0 4px 14px rgba(255,107,43,.2)}
 @media(max-width:600px){.feedback-form{padding:24px 18px}.ff-stars label{font-size:1.7rem}}
 
 </style>
@@ -832,7 +835,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     <div class="section-tag">Your Turn at the Counter</div>
     <h2>Read It? Tell Us What You Think.</h2>
     <p class="feedback-sub">Real reviews from real readers. We just opened the doors &mdash; be one of the first to weigh in.</p>
-    <form id="reviewForm" class="feedback-form" onsubmit="return submitReview(event);">
+    <form id="reviewForm" class="feedback-form" onsubmit="return submitReview(event);" novalidate>
       <div class="ff-row">
         <label class="ff-label" for="fb-name">Your Name</label>
         <input type="text" id="fb-name" name="name" required placeholder="First name + last initial works" maxlength="60" autocomplete="name">
@@ -855,12 +858,14 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
         <label class="ff-label" for="fb-msg">Your Review</label>
         <textarea id="fb-msg" name="message" rows="5" required placeholder="What did you (or your kid) think? Favorite scene? Did the Wants vs. Needs lesson land?" maxlength="2000"></textarea>
       </div>
+      <input type="text" id="fb-website" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" aria-hidden="true">
       <button type="submit" class="ff-submit">Send My Review</button>
       <p class="ff-privacy">By submitting, you give us permission to feature your name and review on this site. Your email is never shared or sold.</p>
       <div class="ff-thanks" id="ffThanks">
         <div class="ff-thanks-icon">&#9989;</div>
-        Thanks &mdash; your email app should open with your review pre-filled. Hit send and you&rsquo;re done.
+        Thanks &mdash; your review is in. We read every one.
       </div>
+      <div class="ff-error" id="ffError" role="alert"></div>
     </form>
   </div>
 </section>
@@ -1332,25 +1337,71 @@ function closeResourceModal() {
   }
 }
 
-// READER REVIEW SUBMISSION — opens mailto with the form pre-filled
+// READER REVIEW SUBMISSION — posts to Web3Forms (free, no backend)
+// SETUP: sign up free at https://web3forms.com, grab your access key,
+// and replace the value of WEB3FORMS_ACCESS_KEY below.
+var WEB3FORMS_ACCESS_KEY = 'PASTE_YOUR_WEB3FORMS_ACCESS_KEY_HERE';
+
 function submitReview(e){
   e.preventDefault();
+  var form = document.getElementById('reviewForm');
+  var thx = document.getElementById('ffThanks');
+  var err = document.getElementById('ffError');
+  var submitBtn = form.querySelector('.ff-submit');
+  if (err) err.classList.remove('show');
+
+  // Honeypot — if the hidden field is filled, it's a bot
+  var honey = document.getElementById('fb-website');
+  if (honey && honey.value) return false;
+
   var name = (document.getElementById('fb-name').value || '').trim();
   var email = (document.getElementById('fb-email').value || '').trim();
   var ratingEl = document.querySelector('input[name="rating"]:checked');
   var rating = ratingEl ? (ratingEl.value + ' star' + (ratingEl.value === '1' ? '' : 's')) : 'No rating given';
   var msg = (document.getElementById('fb-msg').value || '').trim();
-  var subject = 'Reader Review — ' + name + ' (' + rating + ')';
-  var body =
-    'Name: ' + name + '\n' +
-    'Email: ' + (email || 'not provided') + '\n' +
-    'Rating: ' + rating + '\n\n' +
-    'Review:\n' + msg + '\n\n' +
-    '— Submitted via clarencegetsabargain.com';
-  var url = 'mailto:reviews@clarencegetsabargain.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-  window.location.href = url;
-  var thx = document.getElementById('ffThanks');
-  if (thx) thx.classList.add('show');
+
+  var payload = {
+    access_key: WEB3FORMS_ACCESS_KEY,
+    subject: 'Reader Review — ' + name + ' (' + rating + ')',
+    from_name: 'Clarence Reader Reviews',
+    name: name,
+    email: email || 'not provided',
+    rating: rating,
+    message: msg,
+    source: 'clarencegetsabargain.com #feedback'
+  };
+
+  submitBtn.disabled = true;
+  var originalLabel = submitBtn.textContent;
+  submitBtn.textContent = 'Sending...';
+
+  fetch('https://api.web3forms.com/submit', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
+    body: JSON.stringify(payload)
+  })
+  .then(function(r){ return r.json(); })
+  .then(function(data){
+    submitBtn.disabled = false;
+    submitBtn.textContent = originalLabel;
+    if (data && data.success) {
+      if (thx) thx.classList.add('show');
+      form.reset();
+    } else {
+      if (err) {
+        err.textContent = (data && data.message) ? data.message : 'Something went wrong. Please try again.';
+        err.classList.add('show');
+      }
+    }
+  })
+  .catch(function(){
+    submitBtn.disabled = false;
+    submitBtn.textContent = originalLabel;
+    if (err) {
+      err.textContent = 'Could not send. Check your connection and try again.';
+      err.classList.add('show');
+    }
+  });
   return false;
 }
 
