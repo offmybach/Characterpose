@@ -115,19 +115,14 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 #magMobileScroll{display:none}
 /* Narrow-desktop / small-tablet (769-859px): tighten nav so links don't wrap to 2 lines */
 @media(min-width:769px) and (max-width:859px){nav .logo{font-size:1.05rem;white-space:nowrap;max-width:55vw;overflow:hidden;text-overflow:ellipsis}nav .links{gap:4px}nav .links a{padding:6px 10px;font-size:.82rem}nav .links a.cta-nav{padding:7px 14px}}
-/* Short viewports (phone landscape, etc.): hide right-rail tools-bar and shorten FLM banner so they don't eat 25%+ of the screen */
-@media(max-height:500px){#tools-bar{display:none!important}#flm-banner .flm-inner{padding:6px 10px}#flm-banner .flm-text{font-size:.7rem;line-height:1.2}#flm-banner .flm-btn{padding:6px 12px;font-size:.7rem}#flm-banner .flm-btn.ghost{display:none}}
+/* Short viewports (phone landscape, etc.): hide right-rail tools-bar */
+@media(max-height:500px){#tools-bar{display:none!important}}
 @media(max-width:768px){nav{padding:12px 16px}nav .links a{padding:6px 10px;font-size:.78rem}.hero{padding:70px 20px 60px;min-height:auto}#magCanvasWrap,#magazine .mag-controls,#magazine .page-indicator,#magazine .upload-row,#magHint{display:none!important}#magMobileScroll{display:flex!important;flex-direction:column;gap:18px;padding:14px 12px 24px;max-width:520px;margin:0 auto}#magMobileScroll canvas{width:100%;height:auto;display:block;border-radius:10px;box-shadow:0 8px 28px rgba(0,0,0,.18);background:#f5ecd7}
 /* Mobile nav: hide section anchors, keep only Buy Now CTA so it actually fits */
 nav .logo{font-size:1rem;white-space:nowrap;max-width:60vw;overflow:hidden;text-overflow:ellipsis}
 nav .links{gap:0}
 nav .links a:not(.cta-nav){display:none!important}
 nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
-/* Mobile FLM banner: drop the ghost buttons so the primary CTA isn't clipped */
-#flm-banner .flm-btn.ghost{display:none!important}
-#flm-banner .flm-inner{padding:10px 14px;gap:10px}
-#flm-banner .flm-text{font-size:.72rem;line-height:1.35}
-#flm-banner .flm-btn.primary{padding:8px 14px;font-size:.72rem;white-space:nowrap}
 /* Bump close-button hit areas to a tappable size */
 .flm-close{padding:10px 12px;font-size:1.25rem}
 .exit-close{width:40px;height:40px;font-size:1.1rem}}
@@ -749,7 +744,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 </section>
 
 <section class="buy" id="buy"><div class="buy-bg"></div>
-  <img loading="lazy" decoding="async" class="reveal" src="images/clarence-arms.jpg" width="520" height="520" alt="Clarence celebrating his smart shopping win" style="width:260px;border-radius:16px;display:block;margin:0 auto 20px;box-shadow:0 6px 24px rgba(0,0,0,.12)">
+  <img loading="lazy" decoding="async" src="images/clarence-arms.jpg?v=2" width="520" height="520" alt="Clarence celebrating his smart shopping win" style="width:260px;border-radius:16px;display:block;margin:0 auto 20px;box-shadow:0 6px 24px rgba(0,0,0,.12)">
   <h2 class="reveal">Clarence Did It. Your Kids Can Too.</h2>
   <div class="buy-sub reveal">36 pages of adventure. 16+ concepts. One very determined kid with a robot obsession.</div>
   <div class="price reveal">$19.99</div>
@@ -945,7 +940,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     <!-- Heading in light blue rectangle, yellow text -->
     <div style="text-align:center;margin-bottom:40px">
       <div style="display:inline-block;background:#bbdefb;border-radius:12px;padding:12px 36px">
-        <span style="font-family:'Hold',sans-serif;font-size:clamp(1rem,2.5vw,1.5rem);color:#FFB74D;letter-spacing:1px">What Educators Are Saying</span>
+        <span style="font-family:'Hold',sans-serif;font-size:clamp(1rem,2.5vw,1.5rem);color:#FFB74D;letter-spacing:1px;-webkit-text-stroke:1.5px #1a3a5c;text-shadow:0 1px 0 #1a3a5c,1px 0 0 #1a3a5c,-1px 0 0 #1a3a5c,0 -1px 0 #1a3a5c">What Educators Are Saying</span>
       </div>
     </div>
 
@@ -4826,26 +4821,8 @@ function toggleLang(){
 <!-- FINANCIAL LITERACY MONTH BANNER + EXIT POPUP + TOOLS BAR     -->
 <!-- ============================================================ -->
 <style>
-/* FLM BANNER */
-#flm-banner{position:fixed;bottom:0;left:0;right:0;z-index:9000;background:linear-gradient(90deg,#0054a6 0%,#003d7a 40%,#ff6b2b 100%);padding:0;transform:translateY(100%);transition:transform .5s cubic-bezier(.4,0,.2,1);box-shadow:0 -4px 20px rgba(0,0,0,.3)}
-#flm-banner.visible{transform:translateY(0)}
-.flm-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;gap:16px;flex-wrap:wrap}
-.flm-left{display:flex;align-items:center;gap:12px}
-.flm-badge{background:#ffe066;color:#0054a6;font-size:.62rem;font-weight:900;padding:4px 12px;border-radius:50px;text-transform:uppercase;letter-spacing:1.5px;white-space:nowrap;flex-shrink:0}
-.flm-text{color:#fff;font-size:.82rem;font-weight:600}
-.flm-text strong{color:#ffe066}
-.flm-actions{display:flex;gap:8px;flex-shrink:0;flex-wrap:wrap}
-.flm-btn{padding:8px 18px;border-radius:50px;font-family:'Hold','Nunito',sans-serif;font-size:.78rem;border:none;cursor:pointer;transition:all .2s;text-decoration:none;display:inline-block}
-.flm-btn.primary{background:#ff6b2b;color:#fff}
-.flm-btn.primary:hover{background:#e55000}
-.flm-btn.ghost{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.3)}
-.flm-btn.ghost:hover{background:rgba(255,255,255,.25)}
-.flm-close{background:none;border:none;color:rgba(255,255,255,.6);font-size:1.1rem;cursor:pointer;padding:4px 8px;flex-shrink:0}
-.flm-close:hover{color:#fff}
-
 /* TOOLS FLOATING BAR */
-#tools-bar{position:fixed;right:20px;bottom:80px;z-index:8500;display:flex;flex-direction:column;gap:8px;transition:bottom .5s cubic-bezier(.4,0,.2,1)}
-#tools-bar.banner-gone{bottom:20px}
+#tools-bar{position:fixed;right:20px;bottom:20px;z-index:8500;display:flex;flex-direction:column;gap:8px}
 .tools-btn{background:#0054a6;color:#fff;border:none;border-radius:50px;padding:10px 16px;font-family:'Hold','Nunito',sans-serif;font-size:.72rem;cursor:pointer;box-shadow:0 4px 16px rgba(0,84,166,.4);transition:all .2s;display:flex;align-items:center;gap:6px;white-space:nowrap;text-decoration:none}
 .tools-btn:hover{transform:translateX(-3px);box-shadow:0 6px 20px rgba(0,84,166,.5);background:#003d7a}
 .tools-btn.orange{background:#ff6b2b;box-shadow:0 4px 16px rgba(255,107,43,.4)}
@@ -4874,22 +4851,6 @@ function toggleLang(){
 .exit-skip{font-size:.72rem;color:#999;cursor:pointer;text-decoration:underline;background:none;border:none}
 .exit-skip:hover{color:#555}
 </style>
-
-<!-- FLM BOTTOM BANNER -->
-<div id="flm-banner">
-  <div class="flm-inner">
-    <div class="flm-left">
-      <span class="flm-badge">✂ Financial Literacy Month</span>
-      <span class="flm-text"><strong>April is Financial Literacy Month.</strong> Get the free educator toolkit + explore all our tools.</span>
-    </div>
-    <div class="flm-actions">
-      <a href="quiz.html" class="flm-btn ghost">Take the Quiz</a>
-      <a href="badge-generator.html" class="flm-btn ghost">Make a Badge</a>
-      <a href="https://buy.stripe.com/8x25kDf3v4JQcOR5pW3Ru00" target="_blank" rel="noopener" class="flm-btn primary" onclick="closeFLMBanner()">Get the Book — $19.99</a>
-    </div>
-    <button class="flm-close" onclick="closeFLMBanner()" aria-label="Close banner">✕</button>
-  </div>
-</div>
 
 <!-- FLOATING TOOLS BAR -->
 <div id="tools-bar">
@@ -4922,19 +4883,6 @@ function toggleLang(){
 
 <script>
 // ── FLM BANNER ──────────────────────────────────────────────
-(function(){
-  setTimeout(function(){
-    var b=document.getElementById('flm-banner');
-    if(!sessionStorage.getItem('flm_dismissed')&&b) b.classList.add('visible');
-  },2500);
-})();
-function closeFLMBanner(){
-  var b=document.getElementById('flm-banner');
-  var tb=document.getElementById('tools-bar');
-  if(b) b.classList.remove('visible');
-  if(tb) tb.classList.add('banner-gone');
-  sessionStorage.setItem('flm_dismissed','1');
-}
 
 // ── EXIT INTENT (disabled) ───────────────────────────────────
 (function(){
