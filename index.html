@@ -218,6 +218,26 @@ nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
 .cover-upload .icon{font-size:1.8rem;margin-bottom:4px;color:#1a3a5c}
 .cover-upload .text{font-size:.65rem;color:#888}
 
+/* === COVER SHOWCASE + LIGHTBOX === */
+.cover-showcase{padding:60px 20px;text-align:center;background:linear-gradient(135deg,#f5ecd7 0%,#fff9f0 100%)}
+.cover-showcase-label{font-family:'Hold',sans-serif;font-size:.7rem;letter-spacing:3px;text-transform:uppercase;color:#ff6b2b;margin-bottom:8px}
+.cover-showcase>h2{font-family:'Hold',sans-serif;color:#1a3a5c;font-size:clamp(1.5rem,3.5vw,2.2rem);margin-bottom:36px}
+.cover-pair{display:flex;justify-content:center;gap:48px;flex-wrap:wrap;align-items:flex-start}
+.cover-card{position:relative;cursor:zoom-in;transition:transform .25s,box-shadow .25s;text-align:center}
+.cover-card:hover{transform:translateY(-6px)}
+.cover-card img{width:270px;max-width:calc(50vw - 32px);border-radius:12px;box-shadow:0 12px 40px rgba(0,0,0,.24);display:block}
+.cover-card-label{margin-top:14px;font-family:'Hold',sans-serif;font-size:.75rem;color:#666;letter-spacing:1.5px;text-transform:uppercase}
+.cover-card-label span{color:#ff6b2b;margin-left:6px}
+.cover-card-badge{position:absolute;top:-12px;right:-12px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.6rem;letter-spacing:1.5px;padding:6px 12px;border-radius:20px;text-transform:uppercase;box-shadow:0 3px 10px rgba(255,107,43,.4)}
+/* Lightbox */
+.cvr-lb{display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:9999;align-items:center;justify-content:center;cursor:zoom-out}
+.cvr-lb.active{display:flex}
+.cvr-lb-img{max-width:88vw;max-height:88vh;border-radius:10px;box-shadow:0 20px 80px rgba(0,0,0,.6);animation:lbFadeIn .2s ease;cursor:default}
+@keyframes lbFadeIn{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:scale(1)}}
+.cvr-lb-close{position:absolute;top:18px;right:22px;font-size:2.4rem;color:#fff;cursor:pointer;background:none;border:none;font-family:inherit;line-height:1;opacity:.75}
+.cvr-lb-close:hover{opacity:1}
+.cvr-lb-caption{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);font-family:'Hold',sans-serif;font-size:.8rem;color:rgba(255,255,255,.65);letter-spacing:2px;text-transform:uppercase;white-space:nowrap;pointer-events:none}
+
 /* === PARTICLES — muted on light bg === */
 .particles{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:hidden;opacity:.35}
 
@@ -713,6 +733,23 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     <p style="font-family:'Hold',sans-serif;font-size:clamp(1rem,2vw,1.25rem);color:#0054a6;line-height:1.6;margin:0 0 24px">&ldquo;Characters are adorable. Lessons are spread throughout adventure in such a sweet way. It certainly doesn&rsquo;t feel like a text book but the glossary is an awesome resource. Well done, Mr. Bach!&rdquo;</p>
     <div style="font-family:'Hold',sans-serif;font-size:1rem;font-weight:700;color:#ff6b2b">Melanie</div>
     <div style="font-size:.85rem;color:#555;margin-top:4px">Certified Financial Planner</div>
+  </div>
+</section>
+
+<!-- COVER SHOWCASE -->
+<section class="cover-showcase">
+  <div class="cover-showcase-label">The Book</div>
+  <h2>Front &amp; Back Cover</h2>
+  <div class="cover-pair">
+    <div class="cover-card" onclick="openCoverLightbox('images/frontcover.jpg','Front Cover')" role="button" tabindex="0" aria-label="View front cover full size" onkeydown="if(event.key==='Enter'||event.key===' ')openCoverLightbox('images/frontcover.jpg','Front Cover')">
+      <img src="images/frontcover.jpg" alt="Clarence Gets a Bargain — Front Cover" loading="lazy" width="270">
+      <div class="cover-card-label">Front Cover <span>&#128269; Tap to zoom</span></div>
+    </div>
+    <div class="cover-card" onclick="openCoverLightbox('images/rear-cover.png','Back Cover')" role="button" tabindex="0" aria-label="View back cover full size" onkeydown="if(event.key==='Enter'||event.key===' ')openCoverLightbox('images/rear-cover.png','Back Cover')">
+      <div class="cover-card-badge">Flip It Over</div>
+      <img src="images/rear-cover.png" alt="Clarence Gets a Bargain — Back Cover" loading="lazy" width="270">
+      <div class="cover-card-label">Back Cover <span>&#128269; Tap to zoom</span></div>
+    </div>
   </div>
 </section>
 
@@ -1396,7 +1433,7 @@ function submitReview(e){
 }
 
 document.addEventListener('keydown', function(e){
-  if (e.key === 'Escape') closeResourceModal();
+  if (e.key === 'Escape') { closeResourceModal(); closeCoverLightbox(); }
   if (e.key === 'Tab') {
     var overlay = document.getElementById('resourceModalOverlay');
     if (overlay && overlay.classList.contains('open')) {
@@ -1454,9 +1491,35 @@ window.addEventListener('scroll',function(){document.getElementById('mainNav').c
 document.querySelectorAll('.reveal').forEach(function(el){new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting)e.target.classList.add('visible');});},{threshold:.15}).observe(el);});
 // MAGAZINE ZOOM — starts small, zooms to full when in view
 
-['front','back'].forEach(function(s){var inp=document.getElementById(s+'Input'),prev=document.getElementById(s+'Preview');document.getElementById(s+'Upload').addEventListener('click',function(){inp.click();});inp.addEventListener('change',function(){var f=this.files[0];if(!f)return;var r=new FileReader();r.onload=function(e){prev.src=e.target.result;prev.style.display='block';};r.readAsDataURL(f);});});
+['front','back'].forEach(function(s){
+  var inp=document.getElementById(s+'Input'),prev=document.getElementById(s+'Preview');
+  var labels={front:'Front Cover',back:'Back Cover'};
+  document.getElementById(s+'Upload').addEventListener('click',function(ev){
+    if(prev.style.display==='block'&&prev.src){
+      openCoverLightbox(prev.src,labels[s]);
+    } else {
+      inp.click();
+    }
+  });
+  inp.addEventListener('change',function(){var f=this.files[0];if(!f)return;var r=new FileReader();r.onload=function(e){prev.src=e.target.result;prev.style.display='block';};r.readAsDataURL(f);});
+});
 // Default cover previews
 (function(){var fp=document.getElementById('frontPreview');fp.src='images/frontcover.jpg';fp.style.display='block';var bp=document.getElementById('backPreview');bp.src='images/rear-cover.png';bp.style.display='block';})();
+
+// Cover lightbox
+function openCoverLightbox(src,caption){
+  var lb=document.getElementById('cvrLightbox');
+  var img=document.getElementById('cvrLbImg');
+  var cap=document.getElementById('cvrLbCaption');
+  img.src=src; img.alt=caption||'';
+  if(cap) cap.textContent=caption||'';
+  lb.classList.add('active');
+  document.body.style.overflow='hidden';
+}
+function closeCoverLightbox(){
+  document.getElementById('cvrLightbox').classList.remove('active');
+  document.body.style.overflow='';
+}
 
 // FAQ ACCORDION
 document.querySelectorAll('.faq-question').forEach(function(btn){btn.addEventListener('click',function(){var item=this.closest('.faq-item'),isOpen=item.classList.contains('faq-open');document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('faq-open');i.querySelector('.faq-question').setAttribute('aria-expanded','false');});if(!isOpen){item.classList.add('faq-open');btn.setAttribute('aria-expanded','true');}});});
@@ -2815,6 +2878,13 @@ window.addEventListener('resize', function(){
 
 }); // end DOMContentLoaded
 </script>
+<!-- COVER LIGHTBOX -->
+<div class="cvr-lb" id="cvrLightbox" onclick="closeCoverLightbox()" aria-modal="true" role="dialog" aria-label="Book cover full size">
+  <button class="cvr-lb-close" onclick="closeCoverLightbox()" aria-label="Close">&times;</button>
+  <img class="cvr-lb-img" id="cvrLbImg" src="" alt="" onclick="event.stopPropagation()">
+  <div class="cvr-lb-caption" id="cvrLbCaption"></div>
+</div>
+
 <div id="resourceModalOverlay" role="dialog" aria-modal="true" aria-label="Resource Page">
   <div id="resourceModalBar">
     <button id="resourceModalClose" onclick="closeResourceModal()" aria-label="Close">&times;</button>
