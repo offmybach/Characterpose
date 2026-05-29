@@ -745,9 +745,9 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       <img src="images/frontcover.jpg" alt="Clarence Gets a Bargain — Front Cover" loading="lazy" width="270">
       <div class="cover-card-label">Front Cover <span>&#128269; Tap to zoom</span></div>
     </div>
-    <div class="cover-card" onclick="openCoverLightbox('images/rear-cover.png','Back Cover')" role="button" tabindex="0" aria-label="View back cover full size" onkeydown="if(event.key==='Enter'||event.key===' ')openCoverLightbox('images/rear-cover.png','Back Cover')">
+    <div class="cover-card" onclick="openCoverLightbox('images/rear-cover.jpg','Back Cover')" role="button" tabindex="0" aria-label="View back cover full size" onkeydown="if(event.key==='Enter'||event.key===' ')openCoverLightbox('images/rear-cover.jpg','Back Cover')">
       <div class="cover-card-badge">Flip It Over</div>
-      <img src="images/rear-cover.png" alt="Clarence Gets a Bargain — Back Cover" loading="lazy" width="270">
+      <img src="images/rear-cover.jpg" alt="Clarence Gets a Bargain — Back Cover" loading="lazy" width="270">
       <div class="cover-card-label">Back Cover <span>&#128269; Tap to zoom</span></div>
     </div>
   </div>
@@ -1504,7 +1504,7 @@ document.querySelectorAll('.reveal').forEach(function(el){new IntersectionObserv
   inp.addEventListener('change',function(){var f=this.files[0];if(!f)return;var r=new FileReader();r.onload=function(e){prev.src=e.target.result;prev.style.display='block';};r.readAsDataURL(f);});
 });
 // Default cover previews
-(function(){var fp=document.getElementById('frontPreview');fp.src='images/frontcover.jpg';fp.style.display='block';var bp=document.getElementById('backPreview');bp.src='images/rear-cover.png';bp.style.display='block';})();
+(function(){var fp=document.getElementById('frontPreview');fp.src='images/frontcover.jpg';fp.style.display='block';var bp=document.getElementById('backPreview');bp.src='images/rear-cover.jpg';bp.style.display='block';})();
 
 // Cover lightbox
 function openCoverLightbox(src,caption){
