@@ -76,7 +76,7 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 .hero{position:relative;padding:60px 30px 50px;text-align:center;overflow:hidden;min-height:auto;display:flex;flex-direction:column;align-items:center;justify-content:center}
 .hero-bg{position:absolute;inset:0;background:linear-gradient(to bottom,#4a1a6b 0%,#6a2d8e 15%,#2e7d32 45%,#228B22 55%,#F57C00 85%,#ff6b2b 100%);z-index:0}
 .hero>*{position:relative;z-index:1}
-.hero-badge{display:inline-block;background:rgba(0,0,0,.55);border:4px solid #4a148c;border-radius:30px;padding:12px 30px;font-size:.95rem;color:#fff;font-weight:800;margin-bottom:24px;letter-spacing:2px;text-transform:uppercase;animation:fadeIn .8s ease-out both;text-shadow:0 1px 3px rgba(0,0,0,.5);box-shadow:0 0 0 2px rgba(255,255,255,.25),0 6px 22px rgba(74,20,140,.45)}
+.hero-badge{display:inline-block;background:rgba(255,255,255,.08);border:none;border-radius:30px;padding:12px 30px;font-size:.95rem;color:#311b92;font-weight:900;margin-bottom:24px;letter-spacing:2px;text-transform:uppercase;animation:fadeIn .8s ease-out both;-webkit-text-stroke:2px #d1c4e9;text-shadow:-2px -2px 0 #d1c4e9,2px -2px 0 #d1c4e9,-2px 2px 0 #d1c4e9,2px 2px 0 #d1c4e9,0 -2px 0 #d1c4e9,0 2px 0 #d1c4e9,-2px 0 0 #d1c4e9,2px 0 0 #d1c4e9,0 3px 6px rgba(0,0,0,.4)}
 @keyframes fadeIn{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
 .hero h1{font-family:'Hold',sans-serif;font-size:clamp(2.8rem,7vw,4.8rem);color:#1a3a5c;line-height:1.1;margin-bottom:12px;animation:fadeIn .8s ease-out .15s both}
 .hero h1 .gold{color:var(--gold)}
@@ -225,7 +225,7 @@ nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
 .cover-pair{display:flex;justify-content:center;gap:48px;flex-wrap:wrap;align-items:flex-start}
 .cover-card{position:relative;cursor:zoom-in;transition:transform .25s,box-shadow .25s;text-align:center}
 .cover-card:hover{transform:translateY(-6px)}
-.cover-card img{width:270px;max-width:calc(50vw - 32px);border-radius:12px;box-shadow:0 12px 40px rgba(0,0,0,.24);display:block}
+.cover-card img{width:270px;max-width:min(85vw,360px);border-radius:12px;box-shadow:0 12px 40px rgba(0,0,0,.24);display:block;margin:0 auto;background:#eee}
 .cover-card-label{margin-top:14px;font-family:'Hold',sans-serif;font-size:.75rem;color:#666;letter-spacing:1.5px;text-transform:uppercase}
 .cover-card-label span{color:#ff6b2b;margin-left:6px}
 .cover-card-badge{position:absolute;top:-12px;right:-12px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.6rem;letter-spacing:1.5px;padding:6px 12px;border-radius:20px;text-transform:uppercase;box-shadow:0 3px 10px rgba(255,107,43,.4)}
@@ -284,7 +284,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--orange);outline-off
 html{scroll-behavior:smooth;scroll-padding-top:80px}
 
 /* === RESPONSIVE === */
-@media(max-width:600px){.title-block{padding:14px 18px}.title-pill{padding:8px 24px}.look-inside-sticker{width:180px;height:180px;font-size:.78rem;top:8px;right:8px}.coupon-grid{grid-template-columns:1fr}.asset-row,.asset-row.reverse{flex-direction:column;text-align:center}.footer-inner,.trust-inner{flex-direction:column;align-items:center;text-align:center}.trust-image{width:180px;height:220px}.email-form{flex-direction:column;gap:10px;padding:0 20px}.email-form input,.email-form button{border-radius:40px;width:100%}.stats-row{gap:20px}.standards-grid{grid-template-columns:1fr!important}.inst-cards{grid-template-columns:1fr!important}.meta-grid{grid-template-columns:repeat(2,1fr)!important}.resource-cards{grid-template-columns:1fr!important}.endorsement-card{flex-direction:column;text-align:center}.endorsement-avatar{margin:0 auto}}
+@media(max-width:600px){.title-block{padding:14px 18px}.title-pill{padding:8px 24px}.look-inside-sticker{width:110px;height:110px;font-size:.78rem;top:8px;right:8px}.coupon-grid{grid-template-columns:1fr}.asset-row,.asset-row.reverse{flex-direction:column;text-align:center}.footer-inner,.trust-inner{flex-direction:column;align-items:center;text-align:center}.trust-image{width:180px;height:220px}.email-form{flex-direction:column;gap:10px;padding:0 20px}.email-form input,.email-form button{border-radius:40px;width:100%}.stats-row{gap:20px}.standards-grid{grid-template-columns:1fr!important}.inst-cards{grid-template-columns:1fr!important}.meta-grid{grid-template-columns:repeat(2,1fr)!important}.resource-cards{grid-template-columns:1fr!important}.endorsement-card{flex-direction:column;text-align:center}.endorsement-avatar{margin:0 auto}}
 
 /* === SECTION 1: AUTHORITY ANCHOR BLOCK === */
 .endorsement-section{background:#0a0f18;padding:90px 20px;text-align:center}
