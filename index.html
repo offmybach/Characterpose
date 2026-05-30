@@ -184,7 +184,7 @@ nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
 /* === TRUST BLOCK — FOR THE PROS === */
 .trust-block{background:#0d1f30;color:#fff;padding:70px 20px;position:relative}
 .trust-inner{max-width:960px;margin:0 auto;display:flex;gap:40px;flex-wrap:wrap;align-items:flex-start;justify-content:center}
-.trust-image{width:240px;height:300px;background:rgba(255,255,255,.08);border-radius:16px;display:flex;align-items:center;justify-content:center;font-family:'Hold',sans-serif;color:rgba(255,255,255,.5);font-size:.85rem;text-align:center;padding:20px;border:3px dashed rgba(255,255,255,.15);flex-shrink:0}
+.trust-image{width:300px;height:auto;aspect-ratio:800/533;background:rgba(255,255,255,.08);border-radius:16px;flex-shrink:0;object-fit:cover}
 .trust-text{flex:1;min-width:280px}
 .trust-text .section-tag{font-family:'Hold',sans-serif;font-size:.75rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:8px}
 .trust-text h3{font-family:'Hold',sans-serif;font-size:clamp(1.4rem,3vw,1.9rem);color:#FFB74D;margin-bottom:16px;line-height:1.3}
@@ -200,7 +200,7 @@ nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
 /* === AUTHORITY FOOTER === */
 .authority-footer{background:#1a3a5c;color:#fff;padding:50px 20px}
 .footer-inner{max-width:960px;margin:0 auto;display:flex;gap:30px;flex-wrap:wrap;align-items:flex-start;justify-content:center}
-.footer-author-photo{width:200px;height:200px;border-radius:16px;object-fit:cover;object-position:top;flex-shrink:0;border:3px solid rgba(255,255,255,.2)}
+.footer-author-photo{width:200px;height:auto;aspect-ratio:1122/1402;border-radius:16px;object-fit:cover;flex-shrink:0;border:3px solid rgba(255,255,255,.2)}
 .footer-text{flex:1;min-width:260px}
 .footer-text h3{font-family:'Hold',sans-serif;font-size:1.4rem;color:#FFB74D;margin-bottom:12px}
 .footer-text p{font-size:1.05rem;line-height:1.7;margin-bottom:16px;color:#fff;font-weight:600}
@@ -285,7 +285,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--orange);outline-off
 html{scroll-behavior:smooth;scroll-padding-top:80px}
 
 /* === RESPONSIVE === */
-@media(max-width:600px){.title-block{padding:14px 18px}.title-pill{padding:8px 24px}.look-inside-sticker{width:110px;height:110px;font-size:.78rem;top:8px;right:8px}.coupon-grid{grid-template-columns:1fr}.asset-row,.asset-row.reverse{flex-direction:column;text-align:center}.footer-inner,.trust-inner{flex-direction:column;align-items:center;text-align:center}.trust-image{width:180px;height:220px}.email-form{flex-direction:column;gap:10px;padding:0 20px}.email-form input,.email-form button{border-radius:40px;width:100%}.stats-row{gap:20px}.standards-grid{grid-template-columns:1fr!important}.inst-cards{grid-template-columns:1fr!important}.meta-grid{grid-template-columns:repeat(2,1fr)!important}.resource-cards{grid-template-columns:1fr!important}.endorsement-card{flex-direction:column;text-align:center}.endorsement-avatar{margin:0 auto}}
+@media(max-width:600px){.title-block{padding:14px 18px}.title-pill{padding:8px 24px}.look-inside-sticker{width:110px;height:110px;font-size:.78rem;top:8px;right:8px}.coupon-grid{grid-template-columns:1fr}.asset-row,.asset-row.reverse{flex-direction:column;text-align:center}.footer-inner,.trust-inner{flex-direction:column;align-items:center;text-align:center}.trust-image{width:90%;max-width:340px;height:auto}.email-form{flex-direction:column;gap:10px;padding:0 20px}.email-form input,.email-form button{border-radius:40px;width:100%}.stats-row{gap:20px}.standards-grid{grid-template-columns:1fr!important}.inst-cards{grid-template-columns:1fr!important}.meta-grid{grid-template-columns:repeat(2,1fr)!important}.resource-cards{grid-template-columns:1fr!important}.endorsement-card{flex-direction:column;text-align:center}.endorsement-avatar{margin:0 auto}}
 
 /* === SECTION 1: AUTHORITY ANCHOR BLOCK === */
 .endorsement-section{background:#0a0f18;padding:90px 20px;text-align:center}
@@ -706,7 +706,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 <!-- Section A: The Concept — Shopping Homework -->
 <section class="asset-section reveal">
   <div class="asset-row">
-    <img loading="lazy" decoding="async" src="images/clarence-desk.jpg" width="520" height="520" alt="Clarence doing his shopping homework" style="width:260px;border-radius:16px;flex-shrink:0;box-shadow:0 6px 24px rgba(0,0,0,.12)">
+    <img loading="lazy" decoding="async" src="images/clarence-desk.jpg" width="520" height="520" alt="Clarence doing his shopping homework" style="width:260px;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:16px;flex-shrink:0;box-shadow:0 6px 24px rgba(0,0,0,.12)">
     <div class="asset-text">
       <h3>Shopping Homework? Yes, Really.</h3>
       <p>Clarence learns that the best deals don&rsquo;t just fall in your lap. Through hands-on &ldquo;shopping homework,&rdquo; he discovers how to compare prices, read ads, and find the real value behind every price tag. Your kids will too.</p>
@@ -718,7 +718,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 <div class="asset-section-alt">
   <section class="asset-section reveal">
     <div class="asset-row reverse">
-      <img loading="lazy" decoding="async" src="images/robots-store.jpg" width="800" height="533" alt="Clarence comparing two RoBimmie robots in the store" style="width:380px;max-width:100%;border-radius:16px;flex-shrink:0;box-shadow:0 6px 24px rgba(0,0,0,.15)">
+      <img loading="lazy" decoding="async" src="images/robots-store.jpg" width="800" height="533" alt="Clarence comparing two RoBimmie robots in the store" style="width:380px;height:auto;aspect-ratio:800/533;max-width:100%;border-radius:16px;flex-shrink:0;box-shadow:0 6px 24px rgba(0,0,0,.15)">
       <div class="asset-text">
         <h3>The Smart Discovery</h3>
         <p>Clarence finds a marked-down RoBimmie and takes it back to compare with the newer models. Two small differences &mdash; a slightly smaller screen and an antenna. One much smarter choice. This is the moment kids learn that newer doesn&rsquo;t always mean better.</p>
@@ -787,7 +787,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 </section>
 
 <section class="buy" id="buy"><div class="buy-bg"></div>
-  <img loading="lazy" decoding="async" class="reveal" src="images/clarence-arms.jpg" width="520" height="520" alt="Clarence celebrating his smart shopping win" style="width:260px;border-radius:16px;display:block;margin:0 auto 20px;box-shadow:0 6px 24px rgba(0,0,0,.12)">
+  <img loading="lazy" decoding="async" class="reveal" src="images/clarence-arms.jpg" width="520" height="520" alt="Clarence celebrating his smart shopping win" style="width:260px;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:16px;display:block;margin:0 auto 20px;box-shadow:0 6px 24px rgba(0,0,0,.12)">
   <h2 class="reveal">Clarence Did It. Your Kids Can Too.</h2>
   <div class="buy-sub reveal">36 pages of adventure. 16+ concepts. One very determined kid with a robot obsession.</div>
   <div class="price reveal">$19.99</div>
