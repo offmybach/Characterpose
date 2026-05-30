@@ -109,9 +109,10 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 .buy-btn::after{content:'';position:absolute;inset:0;background:linear-gradient(rgba(255,255,255,.2),transparent);opacity:0;transition:opacity .3s}
 .buy-btn:hover::after{opacity:1}
 @keyframes btnGlow{0%,100%{box-shadow:0 4px 20px rgba(255,107,43,.35)}50%{box-shadow:0 4px 35px rgba(255,107,43,.6)}}
-.reveal{opacity:0;transform:translateY(40px);transition:opacity .8s cubic-bezier(.4,0,.2,1),transform .8s cubic-bezier(.4,0,.2,1)}
+.reveal{opacity:0;transform:translateY(40px);animation:revealIn .7s cubic-bezier(.4,0,.2,1) .2s forwards}
 .reveal.visible{opacity:1;transform:translateY(0)}
-.reveal-delay-1{transition-delay:.15s}.reveal-delay-2{transition-delay:.3s}.reveal-delay-3{transition-delay:.45s}
+.reveal-delay-1{animation-delay:.35s}.reveal-delay-2{animation-delay:.5s}.reveal-delay-3{animation-delay:.65s}
+@keyframes revealIn{to{opacity:1;transform:translateY(0)}}
 #magMobileScroll{display:none}
 /* Narrow-desktop / small-tablet (769-859px): tighten nav so links don't wrap to 2 lines */
 @media(min-width:769px) and (max-width:859px){nav .logo{font-size:1.05rem;white-space:nowrap;max-width:55vw;overflow:hidden;text-overflow:ellipsis}nav .links{gap:4px}nav .links a{padding:6px 10px;font-size:.82rem}nav .links a.cta-nav{padding:7px 14px}}
