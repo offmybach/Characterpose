@@ -76,7 +76,7 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 .hero{position:relative;padding:60px 30px 50px;text-align:center;overflow:hidden;min-height:auto;display:flex;flex-direction:column;align-items:center;justify-content:center}
 .hero-bg{position:absolute;inset:0;background:linear-gradient(to bottom,#4a1a6b 0%,#6a2d8e 15%,#2e7d32 45%,#228B22 55%,#F57C00 85%,#ff6b2b 100%);z-index:0}
 .hero>*{position:relative;z-index:1}
-.hero-badge{display:inline-block;background:rgba(255,255,255,.08);border:none;border-radius:30px;padding:12px 30px;font-size:.95rem;color:#311b92;font-weight:900;margin-bottom:24px;letter-spacing:2px;text-transform:uppercase;animation:fadeIn .8s ease-out both;-webkit-text-stroke:2px #d1c4e9;text-shadow:-2px -2px 0 #d1c4e9,2px -2px 0 #d1c4e9,-2px 2px 0 #d1c4e9,2px 2px 0 #d1c4e9,0 -2px 0 #d1c4e9,0 2px 0 #d1c4e9,-2px 0 0 #d1c4e9,2px 0 0 #d1c4e9,0 3px 6px rgba(0,0,0,.4)}
+.hero-badge{display:inline-block;background:#0a0a2e;border:2px solid #311b92;border-radius:30px;padding:12px 28px;font-size:.95rem;color:#0a0a2e;font-weight:900;margin-bottom:24px;letter-spacing:1px;text-transform:uppercase;animation:fadeIn .8s ease-out both;-webkit-text-stroke:1px #d1c4e9;text-shadow:-1px -1px 0 #d1c4e9,1px -1px 0 #d1c4e9,-1px 1px 0 #d1c4e9,1px 1px 0 #d1c4e9,0 4px 10px rgba(0,0,0,.5);box-shadow:0 6px 20px rgba(74,20,140,.35)}
 @keyframes fadeIn{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
 .hero h1{font-family:'Hold',sans-serif;font-size:clamp(2.8rem,7vw,4.8rem);color:#1a3a5c;line-height:1.1;margin-bottom:12px;animation:fadeIn .8s ease-out .15s both}
 .hero h1 .gold{color:var(--gold)}
@@ -1528,6 +1528,9 @@ for (var i = 0; i < 20; i++) {
 window.addEventListener('scroll',function(){document.getElementById('mainNav').classList.toggle('scrolled',window.scrollY>50);});
 (function(){var bar=document.getElementById('scroll-progress');if(!bar)return;window.addEventListener('scroll',function(){var s=document.documentElement.scrollTop,m=document.documentElement.scrollHeight-document.documentElement.clientHeight;bar.style.width=(m>0?s/m*100:0)+'%';},{passive:true});})();
 document.querySelectorAll('.reveal').forEach(function(el){new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting)e.target.classList.add('visible');});},{threshold:.15}).observe(el);});
+// SAFETY NET — in-app browsers (Facebook, Instagram) sometimes fail to fire IntersectionObserver reliably.
+// After 2.5s, force every .reveal element visible so content never stays stuck at opacity:0.
+setTimeout(function(){document.querySelectorAll('.reveal:not(.visible)').forEach(function(el){el.classList.add('visible');});}, 2500);
 // MAGAZINE ZOOM — starts small, zooms to full when in view
 
 ['front','back'].forEach(function(s){
