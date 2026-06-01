@@ -5252,16 +5252,16 @@ function downloadQuoteCard(){
     _type(650,function(){
       _bot("Teachers get the good stuff. What grade do you teach?");
       _choices([
-        {t:"K–2nd",f:function(){_teachGrade('G12');}},
+        {t:"1st–2nd",f:function(){_teachGrade('G12');}},
         {t:"3rd–4th",f:function(){_teachGrade('34');}},
         {t:"5th+",f:function(){_teachGrade('5plus');}}
       ]);
     });
   }
   function _teachGrade(g){
-    var lab={G12:"K–2nd","34":"3rd–4th","5plus":"5th+"};
+    var lab={G12:"1st–2nd","34":"3rd–4th","5plus":"5th+"};
     var msg={
-      G12:"For K–2nd, Maryann Moskal (30+ years K–5) built read-aloud activities starting with the simplest Wants vs. Needs sort.",
+      G12:"For 1st–2nd, Maryann Moskal (30+ years K–5) built read-aloud activities starting with the simplest Wants vs. Needs sort.",
       "34":"Grades 3–4 hit the comparison shopping and coupon missions. Full lesson plans, zero prep.",
       "5plus":"5th grade gets full Jump$tart + CCSS.Math.5.NBT.B.7 alignment. The standards chart makes it board-ready."
     };
