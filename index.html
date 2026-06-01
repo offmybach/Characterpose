@@ -675,10 +675,10 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 <div class="banner" aria-hidden="true"><div class="banner-track"><span>KID LIT IS A HIT! &bull; KID FIN IS A WIN! &bull;</span><span>EDUTAINMENT AT ITS FINEST &bull; STORY FIRST. MONEY SMARTS SNEAK IN. &bull;</span><span>KID LIT IS A HIT! &bull; KID FIN IS A WIN! &bull;</span><span>EDUTAINMENT AT ITS FINEST &bull; STORY FIRST. MONEY SMARTS SNEAK IN. &bull;</span><span>KID LIT IS A HIT! &bull; KID FIN IS A WIN! &bull;</span><span>EDUTAINMENT AT ITS FINEST &bull; STORY FIRST. MONEY SMARTS SNEAK IN. &bull;</span></div></div>
 
 <div class="stats-row reveal">
-  <div class="stat-item"><div class="stat-num" data-target="36">0</div><div class="stat-label">Pages</div></div>
+  <div class="stat-item"><div class="stat-num" data-target="36">36</div><div class="stat-label">Pages</div></div>
   <div class="stat-item"><div class="stat-num">16+</div><div class="stat-label">Concepts</div></div>
   <div class="stat-item"><div class="stat-num">&#9854;&#65039;</div><div class="stat-label">Laughs</div></div>
-  <div class="stat-item"><div class="stat-num" data-target="4">0</div><div class="stat-label">Frameworks</div></div>
+  <div class="stat-item"><div class="stat-num" data-target="4">4</div><div class="stat-label">Frameworks</div></div>
 </div>
 
 <nav class="coupon-nav" id="coupons" style="position:relative">
@@ -2893,6 +2893,7 @@ window.addEventListener('resize', function(){
         nums.forEach(function(el) {
           var target = parseInt(el.getAttribute('data-target'));
           var duration = 1600;
+          el.textContent = '0';
           var start = performance.now();
           (function tick(now) {
             var p = Math.min(1, (now - start) / duration);
