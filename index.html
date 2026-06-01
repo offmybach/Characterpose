@@ -2834,8 +2834,6 @@ window.addEventListener('resize', function(){
   cam.aspect=W/H; cam.updateProjectionMatrix(); ren.setSize(W,H);
 });
 
-})();
-
 // ============================================================
 // SCROLL REVEAL — IntersectionObserver for .reveal elements
 // ============================================================
@@ -2923,7 +2921,9 @@ window.addEventListener('resize', function(){
   obs.observe(wrap);
 })();
 
-}); // end DOMContentLoaded
+});
+
+})(); // end magazine setup IIFE
 </script>
 <!-- COVER LIGHTBOX -->
 <div class="cvr-lb" id="cvrLightbox" onclick="closeCoverLightbox()" aria-modal="true" role="dialog" aria-label="Book cover full size">
@@ -5221,10 +5221,10 @@ function downloadQuoteCard(){
     });
   }
   function _parentAge(a){
-    var lab={5to7:"5–7 years",8to10:"8–10 years","11plus":"11+ years"};
+    var lab={"5to7":"5–7 years","8to10":"8–10 years","11plus":"11+ years"};
     var msg={
-      5to7:"That's the sweet spot. At 5–7, kids grasp ‘Wants vs. Needs’ fast — especially when Clarence learns it the hard way at Sea-Mart.",
-      8to10:"Perfect age. 8–10-year-olds are ready for comparison shopping and coupons — exactly what Clarence masters.",
+      "5to7":"That's the sweet spot. At 5–7, kids grasp ‘Wants vs. Needs’ fast — especially when Clarence learns it the hard way at Sea-Mart.",
+      "8to10":"Perfect age. 8–10-year-olds are ready for comparison shopping and coupons — exactly what Clarence masters.",
       "11plus":"Older readers catch layers younger kids miss. Jonathan wrote in levels."
     };
     _user(lab[a]);_clear();
