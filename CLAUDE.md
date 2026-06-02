@@ -107,8 +107,24 @@ significant, substantial, remarkable, profound, meaningful.
 **Empty assurance / closers:** "Rest assured…", "Look no further…",
 "In conclusion,", "All in all,", "To sum up,", "Hope this helps!".
 
-**Em-dash + adjective stacking:** AI loves "X — Y, Z, and W —" inserts. Use
-em-dashes sparingly and only when the cadence demands it.
+**Em-dash paranoia:** AI over-uses the em-dash as a pivot or dramatic pause —
+like this — constantly. Use it only when the rhythm genuinely demands it.
+Forensic evidence of AI authorship.
+
+**AI sewage words (May 8 rule):** quietly, honestly, genuinely, "that matters",
+"moves the needle", "at the intersection of", "here's the thing".
+
+**AI sewage structures (May 8 rule):**
+- "Not X. Not Y. Just Z." (the tidy triple negation)
+- Tidy three-point morals ("First… Second… Finally…" wrap-ups)
+- Over-polished fake vulnerability ("I'll be honest with you…", "This one hit different.")
+- "I was inspired by this post and asked ChatGPT as well…" (dead giveaway)
+
+**Structural tells beyond individual words:**
+- Too-neat symmetry — every paragraph the same length, every list the same depth
+- Generic intensifiers where a specific fact would do ("incredibly impactful" vs. "saved $4.37")
+- Safe conclusions that don't commit ("There are many ways to approach this…")
+- Conclusions that restate the intro word-for-word
 
 **The rule:** if Jonathan wouldn't say it out loud to another parent at a kid's
 soccer game, don't put it on the page.
