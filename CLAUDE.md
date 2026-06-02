@@ -126,6 +126,37 @@ Forensic evidence of AI authorship.
 - Safe conclusions that don't commit ("There are many ways to approach this…")
 - Conclusions that restate the intro word-for-word
 
+**CGB-specific brochure phrases (dead on arrival):**
+"thoughtful financial literacy tool", "family engagement tool", "opens the door",
+"supports financial literacy", "low-pressure way", "meaningful conversations",
+"practical resource", "empowers families", "trusted partner", "accessible entry point",
+"age-appropriate", "fosters a love of learning", "sparks curiosity".
+These sound like a grant application wrote the back cover. Cut them.
+
+**LinkedIn / public-facing writing rules ("10 ways to prove you wrote it"):**
+- Use a more aggressive or specific tone than feels safe
+- Allow a deliberate typo or oddity — perfection is a tell
+- Mess with numbering instead of making every list tidy (skip 4, go 1-2-3-5)
+- Mix bullets and numbers like a human with a pulse, not a style guide
+- Reverse common AI phrasing ("You already know this" not "It's important to note")
+- Use semicolons; AI avoids them
+- A double em dash — the aggressive one — used once, on purpose, is fine
+- Don't tie the ending into a perfect TED Talk bow. Stop mid-thought if that's where it ends.
+- Specific number over vague claim: "$4.37 saved" beats "significant savings"
+- If it sounds like a brand tweet, kill it
+
+**"AI sewage" filter (standing rule for all public-facing writing):**
+Applies to posts, emails, outreach, marketing copy, LinkedIn — everything.
+Flag and rewrite any of these on sight:
+- Generic AI rhythm (measured sentences, tidy paragraph breaks, nothing too hot)
+- Fake warmth ("I love how…", "So excited to share…", "This one hit different.")
+- Recycled jokes (any pun you've seen on three other book accounts)
+- Empty inspirational mist ("Remember: every great journey starts with one step.")
+- Corporate beige (neutral, inoffensive, says nothing, offends no one)
+- Forced "journey" language unless you're mocking it
+- Over-polished structure (intro → 3 points → conclusion, every single time)
+- Canned assistant phrases ("Hope this helps!", "Let me know if you have questions!", "Happy to assist!")
+
 **The rule:** if Jonathan wouldn't say it out loud to another parent at a kid's
 soccer game, don't put it on the page.
 
