@@ -30,6 +30,20 @@ concepts because the plot demands it — not because a worksheet told them to.
 
 ## 2. Voice & Tone
 
+### THE AI SMELL TEST (applies to every response, not just copy)
+
+**Before sending ANY response or writing ANY copy, comb through it for AI tells.
+If a sentence sounds like it was written by AI, rewrite it. If you can't rewrite
+it without sounding like AI, delete it.** This applies to chat replies, commit
+messages, code comments, marketing copy, social posts — everything.
+
+What "sounds like AI" means: generic, hedging, balanced-to-a-fault, full of
+empty connector words, full of "power" verbs ("unlock", "leverage", "empower"),
+predictably structured ("not just X, but Y"), or padded with throat-clearing
+("It's worth noting that…"). See the never-say list below.
+
+### The CGB voice
+
 The CGB voice is **Jonathan Bach's voice** — attorney + artist + dad. It is:
 
 - **Punchy and declarative.** Short sentences. Periods are weapons.
@@ -55,7 +69,49 @@ The CGB voice is **Jonathan Bach's voice** — attorney + artist + dad. It is:
 like AI marketing slop ("unlock", "empower", "leverage", "in today's world"),
 rewrite it.
 
-<!-- TODO: paste Jonathan's "never-say" list here (phrases/tones to reject) -->
+### Never-say list (AI tells — rewrite or delete on sight)
+
+**Marketing slop verbs:** unlock, leverage, empower, elevate, supercharge,
+revolutionize, transform, harness, harness the power of, drive (results/value),
+deliver (value/impact), foster, cultivate, navigate (a landscape/journey),
+embark on, embrace (the future/change), unleash, ignite, fuel, propel.
+
+**Marketing slop adjectives:** seamless, robust, cutting-edge, state-of-the-art,
+next-level, world-class, best-in-class, holistic, comprehensive, dynamic,
+innovative, transformative, game-changing, paradigm-shifting, synergistic,
+turnkey, scalable, frictionless, immersive, curated, bespoke, elevated.
+
+**Filler openers:** "In today's [world/fast-paced world/digital age/landscape]",
+"In the modern era", "When it comes to…", "Let's dive in", "Let's delve into",
+"It's worth noting that", "It's important to remember that", "It's important to
+note", "It's worth mentioning", "That said,", "Indeed,", "Certainly,",
+"Absolutely,", "Of course,", "Look no further", "Rest assured".
+
+**Transition crutches:** Moreover, Furthermore, Additionally (overused),
+However (at sentence start, overused), "Not only… but also", "Whether you're
+X or Y…", "At the end of the day", "Ultimately,", "In essence,".
+
+**Overused metaphors / nouns:** tapestry, landscape, journey, ecosystem, realm,
+sphere, world of, treasure trove, wealth of, plethora, myriad, a wide range of,
+a host of, at its core, in the realm of, in the world of, the heart of.
+
+**Vague intensifiers:** crucial, essential, vital, key (when overused),
+significant, substantial, remarkable, profound, meaningful.
+
+**AI-balance patterns:**
+- "Not just X — but Y." (the em-dash pivot, overused)
+- Forced tricolons that all start with the same letter ("efficient, effective, elegant")
+- Sentences that hedge then re-hedge ("While X may be true, it's also worth considering Y…")
+- Perfectly balanced parallel clauses that sound like podcast-ad reads
+
+**Empty assurance / closers:** "Rest assured…", "Look no further…",
+"In conclusion,", "All in all,", "To sum up,", "Hope this helps!".
+
+**Em-dash + adjective stacking:** AI loves "X — Y, Z, and W —" inserts. Use
+em-dashes sparingly and only when the cadence demands it.
+
+**The rule:** if Jonathan wouldn't say it out loud to another parent at a kid's
+soccer game, don't put it on the page.
 
 ---
 
@@ -113,7 +169,81 @@ rewrite it.
 5. College Savings (529)
 6. Consumer Awareness
 
-<!-- TODO: paste full 36-page book text here so Claude can quote/reference it accurately -->
+### Full book text — Pages 1–32
+
+Source: `fromopproofdownload.pdf`, printed book pages 1–32 (PDF pages 3–34).
+Use these verbatim when quoting the book. Do not paraphrase character lines.
+
+**Page 1.** Clarence could hardly believe that the day had finally arrived! Even before eating breakfast, Clarence reminded his mom, "Don't forget, today is the day to go shopping for a smart robot." He had earned the prize by completing all his chores at home and getting excellent grades this year in school. She commented, "Clarence Wyze! How could I forget? That's all you've been talking about this week." He then shouted out, "I'm going to get the newest, best one that I can find!"
+
+**Page 2.** Mom answered, "You know this is a reward, but rewards cost money, too. Money doesn't grow on trees or get cranked out of a 3D printer. Your father and I save money to be able to spend on things we want and not just for things that we need."
+
+**Page 3.** "You may not realize yet, but it costs money to live in this house, keep cars in the garage, and clothes on your body. We have to pay to power on the Xbox, take a hot bath, and keep the fridge stocked with pudding and string cheese. These are called bills and we have to budget our income for them every month. The special bill for a house is called a mortgage. Believe it or not, we have to pay for internet and even TV streaming! What would life be like without YouTube?" she asked.
+
+**Page 4.** "Can you please bring me that pile of newspapers from the kitchen counter?" Mom requested. She opened one of the ad inserts and exclaimed, "Before you go shopping, you have a bit of homework to do. I know that word scares you—but trust me, it's not so bad. Many of those 'little magazines' on the top of the pile are sale ads." "And don't forget that we also have to set some money aside to donate to charity. A family should always look out for the less fortunate when they are able. We can choose the charities together before the end of the year." Mom reminded him.
+
+**Page 5.** "A sale means that sometimes items cost less than usual. That means before you begin your shopping mission, you can see where you can get the best deal on what you want. Not everything you buy is on sale, but we can figure out together which products might be included in the sale ads. This is called comparison shopping," she told Clarence.
+
+**Page 6.** "Saving money is important. Some of the money we save gets deposited in a special 529 account to pay for your college. In case you don't know yet, college is school for students after high school graduation," his mom added while pointing her finger at him. Clarence rolled his eyes and responded, "Mom, you know that I'm not even in middle school yet, right?"
+
+**Page 7.** "You know what else you may find in these ads?" Mom questioned. "Pokémon cards?" Clarence guessed using his best Yoda voice. Mom shook her head and replied, "Close, but no. They are coupons!"
+
+**Page 8.** "Sometimes, businesses offer extra ways to save even more money with coupons. They are usually a part of the ad that you cut out with scissors and bring along to the store. You hand them to the cashier at checkout. Occasionally, stores send them by the U.S. Mail or email, as well as texting coupon codes to our phones!"
+
+**Page 9.** Clarence and his mom looked through all the ads and found the best deals on smart robots at Sea-Mart. There were lots of models to choose from, though. While in the car, Clarence was wondering which one he should pick. He thought, "Maybe the newest and most expensive model isn't always the best choice. What if we ran out of money and had to take cold baths? Could I survive without Wi-Fi?"
+
+**Page 10.** Clarence felt pretty smart when he got to Sea-Mart. He used to think that all those ads in the newspaper were just for recycling. Now he knew better. He was super glad that his mom had taught him how to do homework before going shopping. Mom even said that getting deals could be exciting—just like finding money on the sidewalk!
+
+**Page 11.** When Clarence and his mom were walking into the toy store, they had no clue where the toy robot section was located. Right away, Clarence saw the same ad that they had read at home. It was in a metal rack by the front door. While pointing to the toy robots in the ad, he asked a lady in a red vest where he could find them in the store. She remarked, "Well, aren't you a smart little shopper?" and showed them the way.
+
+**Page 12.** The massive selection of robots blew Clarence away. As soon as he saw them all, he knew that choosing just the right one was not going to be an easy decision to make. There were:
+- Short ones, tall ones
+- Red ones, black ones
+- Long ones, round ones
+- Big ones, crazy ones!
+
+**Page 13.** Clarence made his way down the whole aisle and turned the corner to see if they may have had more robots on the other side. He could not believe his eyes. When he turned the corner, he saw a huge, neon-orange sign with his name on it!
+
+**Page 14.** Clarence thought, "How could this be? Was Mom playing a joke on me?" He yelled out, "Mom, come here!" While pointing to the sign, Clarence blurted out in excitement, "You won't believe it (or would she? Hmmm)!" "Look there!" Mom started laughing and said with a smile, "Look again, buddy."
+
+**Page 15.** Clarence moved closer to the sign, looked again, and realized his mistake. The sign read "Clearance," not "Clarence!" Turning four shades of red, he mumbled "Well, it was kind of far away." Mom gave Clarence a hug and walked him over toward the big, neon-orange sign.
+
+**Page 16.** "This, my boy, is another weapon for your superhero shopping belt!" Mom exclaimed with a smile. "Clearance is a sale that doesn't always make it into the store's printed ads." "You should see a big, bright-colored sign like this one. The items often have a fire-engine-red, neon-orange, or highlighter-yellow sticker with the new, lower price."
+
+**Page 17.** "A manager often moves an item to the clearance section. He does this because there just is not enough room to keep all of the merchandise on the shelves until they're sold." "Sometimes, before the older version sells, a newer model is released. This is usually when a manager will lower or 'mark down' the regular price to make room for these newer versions," Mom explained.
+
+**Page 18.** "You mean like these robots over here?" Clarence asked while pointing to the bottom shelf. "Exactly, kiddo! Like these robots over here!" Mom replied.
+
+**Page 19.** Clarence was checking out the prices on the stickers and noticing how much lower the reduced prices were than the original ones. He realized that there was nothing wrong with the toys here—it was all just older but maybe even cooler. Clarence looked over the robots in the clearance section and found a RoBimmie, just like what he had in mind.
+
+**Page 20.** Clarence took the clearance-labeled robot back over to the huge aisle of robots and compared it to the newer models. They each had something about them that the other did not, he observed. Clarence then compared the clearance-labeled robot to the new ones and only saw two differences—one had a slightly bigger screen, and the other had an antenna.
+
+**Page 21.** After thinking about which he should choose, Clarence explained to his mom, "You know what, Mom? I'm going to get the one we found in the clearance section. I don't care about the slight difference in screen size, anyway." "This dude needs a good home, too!" Mom responded, "Clarence, I'm proud of you. You chose the item that costs much less than the one you first wanted. Aren't you becoming a Wyze little shopper?"
+
+**Page 22.** Next, Mom and Clarence headed to the front of the store to pay for his new RoBimmie. On the way there, Mom reminded Clarence that the total price would be a bit higher because they had to pay sales tax to the state on most items. When it was their turn to pay, Clarence placed the RoBimmie up on the checkout counter. Then, suddenly, he remembered about the sale ad that he had folded up and shoved in his pocket. There was a coupon for an extra ten percent off clearance toys—and he knew that a robot sure was a toy! So, he tore off the page with the coupon and handed it to the cashier. Now, Clarence's decision to purchase the clearance item became an even greater value!
+
+**Page 23.** When Mom and Clarence returned home, Clarence couldn't wait to show his dad the new RoBimmie. He told his dad all about the clearance deal and even about using the extra coupon. His dad was impressed with the RoBimmie and even more impressed with the amount of money Clarence had saved.
+
+**Page 24.** Dad admitted, "Clarence, I just wanted you to know that your mother and I may have exaggerated a little about the hot water and Wi-Fi thing. We can pay our bills just fine, but we wanted you to understand the importance of savings. Do not worry! We will continue to deposit a portion of our income into a special 529 savings account for your college tuition."
+
+**Page 25.** Clarence also realized that being a smart shopper wasn't only about finding the best deals, but also about making sure that he was buying something he would actually use. Since the smart robot included math and word games, it was both fun and useful. He thought, "Just because it was a good deal, doesn't mean you have to buy it. You may not need it!" Clarence was proud of himself for making a good decision and for being responsible with his parents' hard-earned money.
+
+**Page 26.** From that day on, Clarence made a habit of looking for deals and doing his homework before going shopping. He realized he could save money not just on toys, but on other items or services that his family needed, as well. He felt like a superhero with a new power—the power to save money!
+
+**Page 27.** Clarence and his mom even made games out of finding the best deals and comparing prices at the grocery store. They would challenge each other to see who could spot the biggest savings. The loser had to carry the bags from the car into the house.
+
+**Page 28.** Another cool game Clarence, his mom, and dad would play was "Guess the Price." After dinner, whenever one of the family members got a really great deal on a purchase that day, they'd quiz each other to see who could guess closest to the sale price. Clarence would let his parents guess first—then he would guess even lower. He always figured that if the price was low enough to brag about at dinner, it had to be really low!
+
+**Page 29.** Clarence loved spending time with his parents and learning what it meant to be a smart consumer. "Sometimes parents really can teach you cool stuff that you don't learn in school," he thought to himself.
+
+**Page 30.** Clarence was grateful for his mom's lessons in budgeting, comparison shopping, and for teaching him the value of a dollar. Also, he learned that he should save money for special things that he wanted but didn't really need. He knew he would use these financial skills for the rest of his life.
+
+**Page 31.** Clarence's mom came into his room after dinner while he was playing with his robot. She reminded him, "You know pal, this was only the first day of class? I have lots more to teach you about becoming a smart shopper. When you're ready, we'll learn about using the internet to shop." Clarence looked up at his mom and blurted out, "OK Mom, but not now, I'm in recess!"
+
+**Page 32.** Mom laughed out loud and added, "Just wait till I teach you about Black Friday, Cyber Monday, and Prime Day!" Then she did an about-face and walked out of the room.
+
+**Note:** The book is 36 pages total. Pages 33–36 likely contain the glossary,
+acknowledgments, or back-matter. If/when that text is extracted, append it here.
 
 ---
 
