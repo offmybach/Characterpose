@@ -160,6 +160,10 @@ Flag and rewrite any of these on sight:
 **The rule:** if Jonathan wouldn't say it out loud to another parent at a kid's
 soccer game, don't put it on the page.
 
+**Hard stops — never touch these:**
+- **Quotes:** reproduce verbatim or don't use them. No paraphrasing, no "cleaning up", no smoothing the grammar. The awkwardness is often the point.
+- **Dollar amounts:** never round, estimate, or editorialize. $4.37 is $4.37. Not "nearly $5" or "over four dollars".
+
 ---
 
 ## 3. Audience
