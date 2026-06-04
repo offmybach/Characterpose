@@ -3,7 +3,19 @@
 
 **Four weekly sessions · Grades 1–5 · No prep required**
 
-Each lesson uses Clarence Gets a Bargain as the anchor text and aligns to Jump$tart, CEE, and Common Core standards. Modules can stand alone or run as the full 4-week module.
+Each lesson uses Clarence Gets a Bargain as the anchor text and aligns to Jump$tart 2021 National Standards, CEE National Standards for Financial Literacy, and Common Core State Standards. Modules can stand alone or run as the full 4-week unit.
+
+### How to read this packet
+
+Standards are cited in their full official format so curriculum coordinators can verify against the source frameworks. Printables marked **[P]** are simple sort cards / worksheets the teacher prepares ahead of time — templates aren't in this packet yet; build them from the prompts or watch for the Curriculum Companion (shipping soon).
+
+### Accessibility notes
+
+Every lesson works for:
+- **Multi-level reading classrooms.** Read the book aloud — kids don't need to decode individual sentences.
+- **English learners.** The picture book is heavily illustrated; concepts cluster around concrete visuals (coins, robots, neon-orange signs). Spanish glossary available at clarencegetsabargain.com/resources.
+- **Students with IEPs.** Discussion-based prompts work for kids who struggle with writing. Exit tickets can be oral, drawn, or written.
+- **Trauma-informed framing.** When household-finance discussion comes up (Mom's bills speech, the dad-confession scene), validate first, redirect to the book's example second. Some kids' families really do struggle to pay bills — don't ask kids to share their own family's situation.
 
 ---
 
@@ -12,39 +24,53 @@ Each lesson uses Clarence Gets a Bargain as the anchor text and aligns to Jump$t
 
 **Pages read:** 1–3
 **Grades:** 1–5
-**Standards:** Jump$tart SPD-1; CEE Standard 2; CCSS ELA SL.1–5, RI.1–5.1
+**Standards:**
+- Jump$tart 2021: Spending & Saving — Standard 1 (Develop a plan for spending and saving)
+- CEE Financial Literacy: Standard 2 (Buying Goods and Services), Standard 3 (Saving)
+- CCSS.ELA-LITERACY.SL.1.1 through SL.5.1 (Collaborative Discussion)
+- CCSS.ELA-LITERACY.RI.1.1, RI.2.1, RI.3.1 (Key Ideas and Details)
 
 ### Learning Objectives
+By the end of this lesson, students will:
 - Define wants and needs in their own words.
-- Identify three real bills a household pays.
-- Sort items into wants vs. needs.
+- Identify three real household bills.
+- Sort 8 items into wants vs. needs categories.
 - Explain why Clarence's robot is a want, not a need.
 
 ### Materials
-- Clarence Gets a Bargain (1 copy or projected)
-- Wants vs. Needs sort cards (printable)
+- Clarence Gets a Bargain (1 copy, or projected pages)
+- 10 Wants vs. Needs sort cards **[P]** (see prompts below)
 - Whiteboard / chart paper
 - Crayons or markers
 
-### Lesson Steps
+**[P] Sort card prompts** (write or print one per card): a glass of water, a video game, a winter coat in Minnesota, a YouTube subscription, food on the table, a new robot, a roof, a movie ticket, doctor visit, candy.
 
-**Warm-up (5 min).** Show six pictures: a bowl of soup, an Xbox, a hot bath, a robot toy, a winter coat, a YouTube ad. Thumbs up for need, thumbs down for want. Argue out loud about anything fuzzy.
+### Lesson Steps (45 min)
 
-**Read aloud (12 min).** Read pages 1–3. Pause after Mom's bills speech (mortgage, Xbox power, hot bath, fridge, internet, YouTube). Ask: *"Did you know your house came with a bill called a mortgage?"* Let kids react.
+**Warm-up — Vote With Your Thumbs (5 min).** Hold up six items one at a time: a water bottle, a video game controller, an umbrella, a robot toy, a phone, dinner. Thumbs up for need, thumbs down for want. Argue out loud about anything fuzzy. (The phone debate is gold — let it happen.)
+
+**Read aloud — Pages 1–3 (8 min).** Read pages 1–3 with these pauses:
+- After page 1, ask: *"What did Clarence DO to earn his robot?"* (chores, good grades)
+- After page 2's "money doesn't grow on trees" line: pause. Let it land.
+- After page 3 (the bills speech), ask: *"How many of those bills had you heard of before? Raise a hand for each one as I name them."* Repeat the list: mortgage, cars, clothes, Xbox, hot water, fridge, internet, YouTube.
 
 **Discussion (8 min).**
 - What does Clarence want? (a smart robot)
-- Why isn't his robot a need?
-- What's one need Mom mentioned that you didn't know about?
+- Why isn't the robot a need?
+- Which bill on Mom's list surprised you most?
 - What's the difference between "I want a robot" and "I need food"?
 
-**Activity (15 min).** Pairs sort 10 cards into Needs / Wants. Early finishers add their own items. Discuss the trickier ones (winter coat? jacket? phone?) as a whole class.
+**Activity — Sort & Defend (19 min).** Pairs sort 10 cards into NEEDS and WANTS. After sorting, each pair picks ONE card they almost moved and explains why it was hard. Whole class debates the trickiest one (usually winter coat, phone, or video game).
 
-**Closure (5 min).** Exit ticket: each kid draws one need and one want, labels them.
+**Closure (5 min).** Exit ticket: each kid draws one need and one want, labels them. Collect.
 
 ### Differentiation
-- **1st–2nd:** picture-only sort cards.
-- **3rd–5th:** add an "It Depends" pile and defend the placement.
+- **Grades 1–2:** Use picture-only sort cards. Reduce to 6 cards. Skip "It Depends" discussion.
+- **Grades 3–5:** Add an "It Depends" pile after the first sort. Students defend at least one card placement with a written sentence.
+- **Multi-grade classrooms:** Pair older + younger kids. Older student leads discussion; younger student records the decision.
+
+### Bridge to Week 2 (send home)
+*"Before next class, ask a grownup at home to name ONE household bill they pay every month. Bring back the name."* (No dollar amounts required — keeps the question safe for kids whose families don't share specifics.)
 
 ---
 
@@ -53,36 +79,52 @@ Each lesson uses Clarence Gets a Bargain as the anchor text and aligns to Jump$t
 
 **Pages read:** 4–10
 **Grades:** 1–5
-**Standards:** Jump$tart SPD-2, SPD-3; CEE Standard 2; CCSS Math 2.MD.8, 3.NBT; CCSS ELA RI.1–5.7
+**Standards:**
+- Jump$tart 2021: Spending & Saving — Standard 2 (Develop a system for keeping track of personal finances); Standard 4 (Apply consumer skills to spending decisions)
+- CEE Financial Literacy: Standard 2 (Buying Goods and Services)
+- CCSS.MATH.CONTENT.2.MD.C.8 (Word problems with $ and ¢); 3.NBT.A.2; 4.NF.B.6 (decimals — grades 4–5)
+- CCSS.ELA-LITERACY.RI.1.7, RI.2.7, RI.3.7 (Use illustrations/text features to clarify meaning)
 
 ### Learning Objectives
+By the end of this lesson, students will:
 - Define sale, coupon, and comparison shopping.
-- Read a real sale ad and find a discounted item.
-- Compare two stores' prices on the same item and pick the better deal.
-- Name three ways stores deliver coupons (cut-out, mail, email, text).
+- Read a real sale ad and find one discounted item.
+- Compare the same item at two stores and pick the better deal.
+- Name three ways stores deliver coupons (cut-out, mail, email or text).
 
 ### Materials
 - Clarence Gets a Bargain
-- Real (or printable) sale flyers from 3–4 different stores
-- Comparison worksheet (included)
-- Scissors
-- Coupon cut-out template
+- 3–4 real sale flyers from different stores (Sunday paper inserts work — collect ahead)
+- Comparison worksheet **[P]** (3-column: ITEM / STORE A PRICE / STORE B PRICE / BETTER DEAL)
+- Scissors (one pair per pair of kids)
+- A few sample paper coupons to model (10% off, 25¢ off, BOGO)
 
-### Lesson Steps
+### Lesson Steps (45 min)
 
-**Warm-up (5 min).** Hold up a Sunday newspaper or a stack of flyers. Ask: *"Has anyone seen these at home? Do you know what they're for?"* Many will say "recycling." Quote Clarence on page 10: he thought the same thing.
+**Warm-up — What Are These? (5 min).** Hold up a Sunday newspaper insert or a stack of flyers. *"Has anyone seen these at home? What do you think they're for?"* Most kids will say "recycling." Tell them Clarence thought exactly the same thing (page 10). Set the stakes: "By the end of this class, you'll know exactly what these are."
 
-**Read aloud (12 min).** Read pages 4–10. Pause on page 4 (Mom asks Clarence to bring the newspapers) and ask: *"What's homework that doesn't feel like homework?"* Read through page 8 (coupons explained). Pause again: *"Where might you find a coupon today besides the newspaper?"* (mail, email, text codes).
+**Read aloud — Pages 4–10 (10 min).** Read with pauses:
+- Page 4: *"Why does Mom call sale ads 'homework that's not so bad'?"*
+- Page 5 (sales + comparison shopping defined): *"So a SALE means the price is lower than usual. Got it. And COMPARISON SHOPPING means…?"* Let a kid finish the sentence.
+- Page 8 (coupons): *"How many ways does Mom say a coupon can reach you?"* Count them: cut-out, mail, email, text.
+- Page 10 ("just like finding money on the sidewalk"): *"What does that line mean?"*
 
-**Guided practice (10 min).** Distribute a real ad flyer per pair. Pick one item — a backpack, juice box, robot toy. Pairs find the price in their flyer. Class compares: who has the cheapest? Same item, different stores, different prices — that's comparison shopping. Just like Clarence and Mom finding the best robot deal at Sea-Mart.
+**Guided practice — Find the Deal (12 min).** Each pair gets ONE flyer. Class agrees on a target item (juice box, paper towels, a snack). Pairs hunt for the item in their flyer and write down the price. Class compares: which store has the lowest price? Highest? *"This is what Clarence and Mom did at the kitchen table."* — that's the comparison-shopping reveal.
 
-**Coupon activity (10 min).** Each pair cuts out a coupon (e.g., "25¢ off any toy" or "10% off"). Show three sale prices on the board. Pairs apply their coupon and write the new price. Which coupon saved the most?
+**Coupon math (10 min).** Project a $4.00 sale price. Apply three different coupons one at a time:
+- 25¢ off → $3.75
+- 10% off → $3.60
+- BOGO (buy one, get one free) → $4.00 for two = $2.00 each effective
+Which saved the most? Discuss why the math sometimes surprises us.
 
-**Closure (5 min).** Quick share-out: "Which store had the best deal in your group? How did you know?"
+**Closure (8 min).** Quick share-out: each pair names the best deal they found and which flyer it was in. Tape the winning flyers to the wall — anchor chart for the rest of the unit.
 
 ### Differentiation
-- **1st–2nd:** stick to whole-dollar prices and "lower is better."
-- **3rd–5th:** add percentage discounts and calculate exact savings.
+- **Grades 1–2:** Use only the lowest-price comparison; skip the percentage coupon math.
+- **Grades 3–5:** Calculate exact savings on each coupon. Bonus: ask which coupon is best at $4.00 vs. best at $10.00 (the answer changes — and that's the lesson).
+
+### Bridge to Week 3 (send home)
+*"This week, look for a CLEARANCE sign at any store. Tell us what color it was."*
 
 ---
 

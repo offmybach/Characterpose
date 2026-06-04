@@ -18,7 +18,9 @@ We snuck a financial education inside a story about a kid and a robot.
 
 That's the whole pitch. Clarence Gets a Bargain teaches 16+ money concepts — wants vs. needs, budgeting, comparison shopping, markdowns, sales tax, the 529 — without ever feeling like a textbook. Kids read it for the story. The lessons sneak in because the plot demands them.
 
-The materials in this packet match the book chapter by chapter. No fabricated subplots. No invented prices. Every discussion prompt ties back to a real page. Whether you run an afterschool program, a library story hour, a credit union youth initiative, or a 1st-grade classroom, these resources require no financial expertise and no prep.
+The materials in this packet match the book chapter by chapter. No fabricated subplots. No invented prices. Every discussion prompt ties back to a real page.
+
+You don't need a finance background to use any of this. Read the book aloud, run the lesson, hand out the worksheet. Done.
 
 Thanks for the work you do.
 
@@ -26,32 +28,32 @@ Thanks for the work you do.
 
 ---
 
-## About the Book
+## Why It Works in a Classroom
 
-Clarence has earned a robot. Good grades. All his chores. The deal his parents made was clear: complete the list, get the prize. Today's the day.
+The book is short (36 pages), funny, and structured around a single shopping trip — which is also a perfect 4-week curriculum arc. Each act of the story maps to one financial concept cluster, so the teaching unit and the read-aloud are the same object. Kids don't know they're in a money lesson. They're following a kid with a robot obsession through a store.
 
-Then Mom hands him the Sunday paper.
+Three specific moments do most of the teaching work:
 
-Before they go shopping, Clarence has homework — the kind you do at the kitchen table with a stack of sale ads. He learns that sales mean items cost less than usual. That coupons live inside ads. That you can compare prices across stores before you set foot in one. That bills exist, mortgages exist, and the 529 account already exists with his name on it.
+1. **The Bills Speech (page 3).** Mom names every household bill out loud — mortgage, internet, streaming, hot water, YouTube. Kids learn that things they take for granted cost money to keep running. This is your wants-vs-needs anchor.
 
-By the time they get to Sea-Mart, Clarence is the kid asking the lady in the red vest where the robot aisle is. He sees a wall of robots, gets temporarily fooled by a "Clearance" sign that reads like his name, learns what a markdown is, finds a RoBimmie one model behind the current release, compares it to the new one, and notices the only differences are a slightly bigger screen and an antenna.
+2. **The Clearance/Clarence Joke (pages 13–15).** Clarence sees his name in giant orange letters and runs over. The sign says "Clearance," not "Clarence." Mom uses the mistake to teach what a clearance section is, why managers mark items down, and why "older" isn't "broken." It's the book's most-shareable moment and a perfect concept anchor.
 
-He picks the clearance one. Then he remembers the 10%-off coupon in his pocket.
+3. **The Two-Difference Decision (pages 19–22).** Clarence puts the clearance robot next to the new one. Two differences: a slightly bigger screen, an antenna. He picks the clearance one. Then he remembers the 10%-off coupon in his pocket. This is comparison shopping + markdown + coupon math in a single scene.
 
-The book ends with Dad admitting he and Mom exaggerated the bit about cold baths, and Mom hinting that next time they'll learn about Black Friday.
+The book closes with Dad confessing he and Mom exaggerated about the cold baths and Wi-Fi — they were teaching, not panicking. The 529 is still funded. Clarence becomes the kid hunting deals on everything. Mom teases the sequel (Black Friday, Cyber Monday, Prime Day).
 
 ## Core Financial Concepts Covered
 
-The book teaches 16+ concepts. The Big Six the curriculum hits hardest:
+The book teaches 16+ money concepts. The Big Six the curriculum hits hardest:
 
-- ***Wants vs. Needs***. Mom's first lesson — rewards vs. necessities.
-- **Budgeting & Bills**. Mortgage, utilities, internet, streaming, charity — Mom walks through the household budget on page 3.
-- **Comparison Shopping**. Done at the kitchen table by reading ads across multiple stores' sale flyers.
-- **Coupons & Markdowns**. Cut-outs, mail, email, texted codes, plus the in-store clearance system. The 10%-off coupon at checkout is the payoff.
-- **College Savings (529)**. Mom and Dad introduce the account on page 6 and confirm it's funded on page 24.
-- **Consumer Awareness**. Page 25: a good deal isn't a good deal if you don't actually use the thing.
+- ***Wants vs. Needs***. Mom's first lesson — rewards vs. necessities (pages 1–3).
+- **Budgeting & Bills**. Mortgage, utilities, internet, streaming, charitable giving — Mom walks through the household budget on page 3.
+- **Comparison Shopping**. Done at the kitchen table by reading ads across multiple stores' sale flyers (pages 4–9).
+- **Coupons & Markdowns**. Cut-outs, mail, email, texted codes, plus the in-store clearance system. The 10%-off coupon at checkout is the payoff (pages 7–8, 16–17, 22).
+- **College Savings (529)**. Mom introduces the account on page 6; Dad confirms it's funded on page 24.
+- **Consumer Awareness**. A good deal isn't a deal if you don't actually use the thing (page 25).
 
-Plus: sales tax, charitable giving, clearance vs. defective, "need" vs. "ad price," and the family money games (grocery price-spotting and "Guess the Price").
+Plus the curriculum touches sales tax (page 22), charitable giving (page 4), the difference between clearance and defective, and the family money games — grocery price-spotting (page 27) and "Guess the Price" (page 28).
 
 ---
 
@@ -73,11 +75,13 @@ By the end of the 4-week module, students will:
 
 | Framework | Strand | Concepts Hit |
 |---|---|---|
-| Jump$tart National | Spending (SPD 1–3); Saving (SVG 1–2); Financial Responsibility (FM 1) | Wants/Needs, Budgeting, Comparison Shopping, Markdowns, Saving |
-| CEE | Standard 2 (Buying), Standard 5 (Saving) | Budgeting, Smart Purchasing, 529 |
-| CCSS Math | 1.OA, 2.OA.A.1, 2.MD.8 | Money operations, percentage discount (gr. 3–5) |
-| CCSS ELA | RI.1–5.1, RI.1–5.3, SL.1–5.1 | Key Ideas, Vocabulary, Collaborative Discussion |
-| FDIC Money Smart | Money Matters (K–2); Spend, Share & Save (3–5) | Full module map |
+| Jump$tart 2021 National Standards | Spending & Saving (Standards 1–4); Financial Decision Making (Standards 1–2) | Wants/Needs, Budgeting, Comparison Shopping, Markdowns, Smart Choices |
+| CEE National Standards for Financial Literacy | Standard 2 (Buying Goods and Services); Standard 3 (Saving) | Budgeting, Smart Purchasing, 529 |
+| CCSS Math | 1.OA.A.1, 2.OA.A.1, 2.MD.C.8, 4.NF.B.6, 5.NBT.B.7 | Money operations, percentage discount (gr. 3–5), decimals (gr. 5) |
+| CCSS ELA | RI.1.1–RI.5.1, RI.1.3–RI.5.3, SL.1.1–SL.5.1 | Key Ideas, Vocabulary, Collaborative Discussion |
+| FDIC Money Smart for Young People | Money Matters (Grades 1–2); Spend, Share & Save (Grades 3–5) | Full module map |
+
+See the Standards Alignment Chart (separate PDF) for the full concept-by-concept crosswalk with citations.
 
 ---
 
@@ -99,15 +103,17 @@ Read pages 23–32. Students play "Guess the Price." Complete the post-assessmen
 
 ---
 
-## Sample Spread Preview
+## Chapter Overview
 
-**Pages 1–3 — The Setup.** Clarence earned the robot. Mom reminds him rewards cost money. She walks through bills, mortgage, internet, streaming.
+The book has four natural acts. Each maps to a curriculum week.
 
-**Pages 4–10 — Shopping Homework.** Mom asks Clarence to bring the newspaper. They open the ad inserts. Sales explained. Comparison shopping introduced. Coupons explained. Best deal located at Sea-Mart.
+**Pages 1–3 — The Setup.** Clarence earned the robot. Mom reminds him rewards cost money. She walks through bills: mortgage, internet, streaming, hot water, charity, the 529. *Anchor concept: Wants vs. Needs.*
 
-**Pages 11–22 — Aisle Five.** Massive selection. The "Clearance" sign Clarence misreads as his name. Mom explains markdowns. Clarence finds a RoBimmie on clearance. Compares to new model. Two differences. Picks the clearance one. Coupon at checkout. Sales tax mentioned.
+**Pages 4–10 — Shopping Homework.** Mom asks Clarence to bring the newspaper. They open the ad inserts. Sales explained. Comparison shopping introduced. Coupons explained. Best deal on robots located at Sea-Mart. *Anchor concepts: Comparison Shopping, Coupons.*
 
-**Pages 23–32 — Aftermath.** Dad admits the exaggerations. 529 confirmed. Clarence becomes the kid who hunts deals on everything. Family invents money games. Mom teases the sequel.
+**Pages 11–22 — Aisle Five.** Massive robot selection. The "Clearance" sign Clarence misreads as his name. Mom explains markdowns. Clarence finds a RoBimmie on clearance. Compares to the new model. Two differences. Picks the clearance one. Coupon applied at checkout. Sales tax explained. *Anchor concepts: Clearance, Markdowns, Smart Purchasing.*
+
+**Pages 23–32 — Aftermath.** Dad admits the bills speech was partly exaggerated — they wanted Clarence to understand savings. 529 confirmed. Clarence becomes a habitual deal-hunter. Family invents money games. Mom teases the sequel. *Anchor concepts: Saving Habits, Consumer Awareness, Family Money Talk.*
 
 ---
 
