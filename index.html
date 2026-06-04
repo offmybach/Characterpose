@@ -4778,6 +4778,24 @@ body{background:var(--cream);font-family:'Lato','Nunito',sans-serif;color:#1a3a5
 @keyframes btnGlow{0%,100%{box-shadow:0 4px 20px rgba(255,107,43,.35)}50%{box-shadow:0 4px 35px rgba(255,107,43,.6)}}
 @keyframes slideUp{0%{transform:translateY(40px);opacity:0}100%{transform:translateY(0);opacity:1}}
 @media(max-width:500px){.hero-inner{flex-direction:column;gap:12px}.cta-row{flex-direction:column}.stats{justify-content:center}}
+.print-banner{display:none}
+@media print{
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important}
+  body{background:#fff !important;color:#000 !important;padding:0 !important;margin:0 !important}
+  nav, .hero, .filter-panel, .report-gen, .compliance, .cta-row, .footer, #langToggle{display:none !important}
+  .print-banner{display:block !important;padding:14px 20px;border-bottom:3px solid #0054a6;margin-bottom:16px}
+  .print-banner h1{font-family:'Hold',sans-serif;color:#0054a6;font-size:22px;margin:0 0 6px}
+  .print-banner .print-meta{font-size:12px;color:#444;line-height:1.5}
+  .concept-row{background:#fff !important;border:1.5px solid #1a3a5c !important;box-shadow:none !important;page-break-inside:avoid;break-inside:avoid;margin-bottom:8px;border-radius:8px !important;border-style:solid !important}
+  .concept-row::before{display:none !important}
+  .concept-row .crow-body{display:block !important;padding:8px 14px 14px}
+  .concept-row .arrow{display:none !important}
+  .concept-row .crow-head{padding:10px 14px;cursor:default}
+  .stats{display:flex !important;flex-wrap:wrap;gap:8px;margin-bottom:14px;page-break-after:avoid}
+  .stats .stat{background:#f5ecd7 !important;border:1px solid #999 !important;padding:6px 10px;border-radius:6px;font-size:11px}
+  h1, h2, h3{page-break-after:avoid}
+  body > div[style*="max-width"]{max-width:100% !important;padding:0 16px !important}
+}
 </style>
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EC7YNHV890"><\/script>
@@ -4800,6 +4818,10 @@ body{background:var(--cream);font-family:'Lato','Nunito',sans-serif;color:#1a3a5
   <svg class="wave" viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#FAF3E0"/></svg>
 </div>
 <div style="max-width:720px;margin:0 auto;padding:0 20px 60px;">
+  <div class="print-banner">
+    <h1>Clarence Gets a Bargain — Curriculum Alignment Report</h1>
+    <div class="print-meta"><span id="printDesc">Complete matrix</span> · clarencegetsabargain.com · Generated <span id="printDate"></span></div>
+  </div>
   <div class="filter-panel">
     <div class="filter-label" data-es="Marco de Referencia">Framework</div>
     <div class="filter-row" id="fwFilters"></div>
@@ -4815,8 +4837,10 @@ body{background:var(--cream);font-family:'Lato','Nunito',sans-serif;color:#1a3a5
     <p id="reportDesc" style="font-size:13px;color:rgba(255,255,255,.7);margin-bottom:18px;"></p>
     <div id="reportForm" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
       <input type="email" id="reportEmail" placeholder="your@email.com">
-      <button class="gen-btn" style="background:var(--gold);color:var(--navy);" onclick="generateReport()" data-es="Generar Reporte">Generate Report</button>
+      <button class="gen-btn" style="background:var(--gold);color:var(--navy);" onclick="generateReport()" data-es="Generar Reporte">Email Me a Report</button>
     </div>
+    <div id="reportError" style="display:none;color:#ffd166;font-size:12px;margin-top:10px;font-weight:700;"></div>
+    <p style="font-size:11px;color:rgba(255,255,255,.55);margin-top:10px;line-height:1.4;">Opens an email draft to <strong>orders@clarencegetsabargain.com</strong> with your current filter selection. We respond within 1 business day.</p>
     <div id="reportResult" style="display:none;"></div>
   </div>
   <div class="compliance">
@@ -4890,9 +4914,40 @@ function render(){
 }
 function toggleConcept(id){document.getElementById("cr"+id).classList.toggle("expanded")}
 function updateStats(filtered){var t=0;var bc={};for(var k in FW)bc[k]=0;filtered.forEach(function(c){c.stds.forEach(function(s){t++;bc[s.fw]++})});var h='<div class="stat"><div class="n" style="font-size:26px;color:var(--blue);">'+filtered.length+'</div><div class="l">Concepts</div></div><div class="stat"><div class="n" style="font-size:26px;color:var(--orange);">'+t+'</div><div class="l">Standards</div></div>';for(var k in FW)if(bc[k]>0)h+='<div class="stat"><div class="n" style="font-size:20px;color:'+FW[k].color+';">'+bc[k]+'</div><div class="l">'+FW[k].abbr+'</div></div>';document.getElementById("statsBar").innerHTML=h;}
-function updateReportDesc(filtered){document.getElementById("reportDesc").textContent=(fwFilter!=="all"||gradeFilter!=="all")?"Filtered: "+(fwFilter!=="all"?FW[fwFilter].name:"All")+" \u2022 "+(gradeFilter!=="all"?"Grade "+gradeFilter:"All grades")+" \u2022 "+filtered.length+" concepts":"Complete matrix: "+filtered.length+" concepts across all frameworks";}
+function buildFilterLabel(filtered){return (fwFilter!=="all"||gradeFilter!=="all")?"Filtered: "+(fwFilter!=="all"?FW[fwFilter].name:"All frameworks")+" \u2022 "+(gradeFilter!=="all"?"Grade "+gradeFilter:"All grades")+" \u2022 "+filtered.length+" concepts":"Complete matrix: "+filtered.length+" concepts across all frameworks";}
+function updateReportDesc(filtered){var label=buildFilterLabel(filtered);var rd=document.getElementById("reportDesc");if(rd)rd.textContent=label;var pd=document.getElementById("printDesc");if(pd)pd.textContent=label;}
 function renderLegend(){var h="";for(var k in FW)h+='<div class="legend-item"><div class="legend-dot" style="background:'+FW[k].color+';"></div><span>'+FW[k].abbr+": "+FW[k].name+'</span></div>';document.getElementById("legend").innerHTML=h;}
-function generateReport(){var email=document.getElementById("reportEmail").value;if(email.indexOf("@")===-1)return;window.location.href="mailto:jb@clarencegetsabargain.com?subject=Alignment Report Request&body=Please send me a curriculum alignment report.%0A%0AMy email: "+encodeURIComponent(email);document.getElementById("reportForm").style.display="none";document.getElementById("reportResult").style.display="block";document.getElementById("reportResult").innerHTML='<div style="background:rgba(255,255,255,.12);border-radius:12px;padding:16px 20px;"><div class="hd" style="font-size:16px;font-weight:900;color:var(--gold);">\u2705 Request Sent</div><p style="font-size:13px;color:rgba(255,255,255,.8);margin-top:6px;">Check your email app to send the request.</p></div>';}
+function generateReport(){
+  var emailInput=document.getElementById("reportEmail");
+  var email=(emailInput.value||"").trim();
+  var errEl=document.getElementById("reportError");
+  if(!email||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
+    if(errEl){errEl.textContent="Please enter a valid email address (like name@school.edu).";errEl.style.display="block";}
+    emailInput.focus();
+    return;
+  }
+  if(errEl)errEl.style.display="none";
+  var filtered=getFiltered();
+  var filterLabel=buildFilterLabel(filtered);
+  var conceptList=filtered.map(function(c,i){
+    var stdSummary=c.stds.map(function(s){return s.code;}).join(", ");
+    return (i+1)+". "+c.name+" (pp. "+c.pages+") \u2014 "+stdSummary;
+  }).join("\n");
+  var bodyText="Hi Jonathan,\n\n"+
+    "Please send me a curriculum alignment report for Clarence Gets a Bargain.\n\n"+
+    "FILTER APPLIED:\n"+filterLabel+"\n\n"+
+    "CONCEPTS INCLUDED ("+filtered.length+"):\n"+conceptList+"\n\n"+
+    "My email: "+email+"\n\n"+
+    "Thanks!";
+  var mailto="mailto:orders@clarencegetsabargain.com"+
+    "?subject="+encodeURIComponent("Alignment Report Request \u2014 "+filtered.length+" concepts")+
+    "&body="+encodeURIComponent(bodyText);
+  window.location.href=mailto;
+  document.getElementById("reportForm").style.display="none";
+  document.getElementById("reportResult").style.display="block";
+  document.getElementById("reportResult").innerHTML='<div style="background:rgba(255,255,255,.12);border-radius:12px;padding:16px 20px;text-align:left;"><div class="hd" style="font-size:16px;font-weight:900;color:var(--gold);">\u{1F4E7} Email draft opened</div><p style="font-size:13px;color:rgba(255,255,255,.85);margin-top:8px;">Check your email app and hit Send. The draft includes your filter selection so we know what to send back. Reply usually within 1 business day.</p><p style="font-size:11px;color:rgba(255,255,255,.55);margin-top:10px;">Draft didn\'t open? Write us directly at <strong>orders@clarencegetsabargain.com</strong></p></div>';
+}
+(function(){var d=new Date();var pd=document.getElementById("printDate");if(pd)pd.textContent=d.toLocaleDateString("en-US",{year:"numeric",month:"short",day:"numeric"});})();
 initFilters();render();
 <\/script>
 <script>
