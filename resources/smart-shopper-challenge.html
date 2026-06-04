@@ -91,6 +91,28 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 @keyframes btnGlow{0%,100%{box-shadow:0 4px 20px rgba(255,107,43,.35)}50%{box-shadow:0 4px 35px rgba(255,107,43,.6)}}@keyframes slideUp{0%{transform:translateY(30px);opacity:0}100%{transform:translateY(0);opacity:1}}
 @keyframes starPop{0%{transform:scale(0) rotate(-180deg);opacity:0}60%{transform:scale(1.3) rotate(20deg)}100%{transform:scale(1) rotate(0deg);opacity:1}}
 @media(max-width:500px){.opts{grid-template-columns:1fr}.hero-inner{flex-direction:column;gap:12px}.speech{right:-50px;font-size:10px}}
+.print-banner{display:none}
+@media print{
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;box-shadow:none !important;text-shadow:none !important;transition:none !important;animation:none !important}
+  @page{size:letter portrait;margin:.5in}
+  html,body{background:#fff !important;color:#000 !important;padding:0 !important;margin:0 !important}
+  nav, .hero, .cta-row, .book-cta, .inst, .footer, #langToggle, button[onclick*="print"]{display:none !important}
+  /* Hide the kid-facing animations and overlay; hide the teacher-panel chrome but keep the answer-key list */
+  .cert, #chat-wrap, #chat-bubble, #chat-panel, #chat-notif, .tpanel > div:first-child, .tpanel > div:nth-child(2), .tpanel > div:last-child{display:none !important}
+  .print-banner{display:block !important;padding:14px 0;border-bottom:3px solid var(--blue);margin-bottom:18px}
+  .print-banner h1{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:22px;margin:0 0 4px}
+  .print-banner .meta{font-size:12px;color:#444}
+  /* Force quiz cards expanded, page-safe; remove interactive styling */
+  .qcard{page-break-inside:avoid;break-inside:avoid;border:1.5px solid var(--blue) !important;margin-bottom:10px;background:#fff !important}
+  .qbar{background:var(--blue) !important;color:#fff !important;padding:6px 10px !important}
+  .qbody{padding:10px 12px !important}
+  .opt{cursor:default !important;border:1.5px solid #999 !important;background:#fff !important;padding:6px 10px !important;margin-bottom:4px}
+  .scene img{max-width:60px !important;height:auto}
+  h1, h2, h3, .hd{page-break-after:avoid}
+  body > div[style*="max-width"]{max-width:100% !important;padding:0 16px !important}
+  /* Show answer key inline */
+  #answerKey{display:block !important;border:1px solid #999 !important;background:#f5ecd7 !important;padding:10px 14px !important;border-radius:6px;margin-top:14px}
+}
 </style>
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EC7YNHV890"></script>
@@ -114,6 +136,10 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 </div>
 
 <div style="max-width:640px;margin:0 auto;padding:0 20px 60px;">
+  <div class="print-banner">
+    <h1>Clarence Gets a Bargain &mdash; Smart Shopper Challenge Worksheet</h1>
+    <div class="meta">clarencegetsabargain.com &middot; Printed <span id="printDate"></span></div>
+  </div>
   <div class="toggle" id="toggle">
     <button class="active" onclick="setMode('kid')">&#x1F392; Student / Parent</button>
     <button onclick="setMode('teacher')">&#x1F4DA; Educator</button>
@@ -184,6 +210,10 @@ function updateTeacherPanel(){var panel=document.getElementById('teacherPanel');
 </div>
 
 <div style="max-width:640px;margin:0 auto;padding:0 20px 60px;">
+  <div class="print-banner">
+    <h1>Clarence Gets a Bargain &mdash; Smart Shopper Challenge Worksheet</h1>
+    <div class="meta">clarencegetsabargain.com &middot; Printed <span id="printDate"></span></div>
+  </div>
   <div class="toggle" id="toggle">
     <button class="active" onclick="setMode('kid')">&#x1F392; Student / Parent</button>
     <button onclick="setMode('teacher')">&#x1F4DA; Educator</button>
@@ -264,6 +294,7 @@ function toggleLang(){
     }
   });
 }
+(function(){var d=new Date();var pd=document.getElementById("printDate");if(pd)pd.textContent=d.toLocaleDateString("en-US",{year:"numeric",month:"short",day:"numeric"});})();
 </script>
 </body>
 </html>

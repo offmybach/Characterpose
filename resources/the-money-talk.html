@@ -92,6 +92,27 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 
 @keyframes btnGlow{0%,100%{box-shadow:0 4px 20px rgba(255,107,43,.35)}50%{box-shadow:0 4px 35px rgba(255,107,43,.6)}}@keyframes slideUp{0%{transform:translateY(40px);opacity:0}100%{transform:translateY(0);opacity:1}}
 @media(max-width:500px){.hero-inner{flex-direction:column;gap:12px}.speech{right:-60px;font-size:9px}.cta-row{flex-direction:column}.stats{justify-content:center}}
+.print-banner{display:none}
+@media print{
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;box-shadow:none !important;text-shadow:none !important;transition:none !important;animation:none !important}
+  @page{size:letter portrait;margin:.5in}
+  html,body{background:#fff !important;color:#000 !important;padding:0 !important;margin:0 !important}
+  nav, .hero, .toggle, .filters, .cta-row, .book-cta, .inst, .footer, #langToggle, .random-prompt, button[onclick*="print"]{display:none !important}
+  .print-banner{display:block !important;padding:14px 0;border-bottom:3px solid var(--teal);margin-bottom:18px}
+  .print-banner h1{font-family:'Hold','Nunito',sans-serif;color:var(--teal);font-size:22px;margin:0 0 4px}
+  .print-banner .meta{font-size:12px;color:#444}
+  /* Force sections and prompts expanded */
+  .section .sbody, .prompt .prompt-detail{display:block !important}
+  .section .sbar .arrow, .prompt .arrow{display:none !important}
+  .section{margin-bottom:14px;page-break-inside:auto}
+  .sbar{page-break-after:avoid;background:#f5ecd7 !important;padding:8px 12px;border-radius:6px;font-family:'Hold','Nunito',sans-serif;color:var(--teal) !important}
+  .prompt{page-break-inside:avoid;break-inside:avoid;border:1.5px dashed #1a3a5c !important;margin-bottom:6px;background:#fff !important}
+  .prompt::before{display:none !important}
+  .prompt-head{padding:8px 12px !important;cursor:default !important}
+  .prompt-detail{padding:8px 12px 12px !important;border-top:1px dashed #ddd !important}
+  h1, h2, h3{page-break-after:avoid}
+  body > div[style*="max-width"]{max-width:100% !important;padding:0 16px !important}
+}
 </style>
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EC7YNHV890"></script>
@@ -116,6 +137,10 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 </div>
 
 <div style="max-width:680px;margin:0 auto;padding:0 20px 60px;">
+  <div class="print-banner">
+    <h1>Clarence Gets a Bargain &mdash; The Money Talk Discussion Guide</h1>
+    <div class="meta">clarencegetsabargain.com &middot; Printed <span id="printDate"></span></div>
+  </div>
 
   <!-- Mode Toggle -->
   <div class="toggle" id="modeToggle">
@@ -350,6 +375,7 @@ function toggleLang(){
     }
   });
 }
+(function(){var d=new Date();var pd=document.getElementById("printDate");if(pd)pd.textContent=d.toLocaleDateString("en-US",{year:"numeric",month:"short",day:"numeric"});})();
 </script>
 </body>
 </html>

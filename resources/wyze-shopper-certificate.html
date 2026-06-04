@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wyze Shopper Certificate | Clarence Gets a Bargain</title>
+<meta name="description" content="Printable Wyze Shopper Certificate of Achievement for students who complete the Clarence Gets a Bargain financial literacy module.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'Hold';src:url('../fonts/Hold.woff2') format('woff2'),url('../fonts/Hold.woff') format('woff'),url('../fonts/Hold.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+
+:root{
+  --blue:#0054a6;
+  --navy:#1a3a5c;
+  --orange:#ff6b2b;
+  --orange-dark:#F57C00;
+  --cream:#f5ecd7;
+  --paper:#fef9f0;
+  --gold:#d4a437;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:'Lato','Nunito',sans-serif;
+  background:var(--cream);
+  min-height:100vh;
+  padding:24px 16px;
+  color:#222;
+}
+
+/* Toolbar (screen only) */
+.toolbar{
+  max-width:1056px;
+  margin:0 auto 20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+  background:#fff;
+  border-radius:14px;
+  padding:14px 18px;
+  box-shadow:0 2px 10px rgba(0,0,0,.05);
+}
+.toolbar .home{
+  font-family:'Hold','Nunito',sans-serif;
+  font-size:.95rem;
+  color:var(--navy);
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+}
+.toolbar .tip{
+  font-size:.78rem;
+  color:#666;
+  flex:1;
+  text-align:center;
+  min-width:220px;
+}
+.toolbar button{
+  font-family:'Hold','Nunito',sans-serif;
+  background:var(--orange);
+  color:#fff;
+  border:none;
+  padding:10px 20px;
+  font-size:.85rem;
+  letter-spacing:1.5px;
+  border-radius:30px;
+  cursor:pointer;
+  text-transform:uppercase;
+  box-shadow:0 4px 14px rgba(255,107,43,.3);
+  transition:transform .15s;
+}
+.toolbar button:hover{transform:translateY(-1px)}
+
+/* Certificate canvas */
+.cert{
+  width:100%;
+  max-width:1056px;
+  margin:0 auto;
+  aspect-ratio:11/8.5;
+  background:var(--paper);
+  border:6px double var(--blue);
+  position:relative;
+  padding:46px 64px;
+  box-shadow:0 12px 40px rgba(0,0,0,.18);
+  overflow:hidden;
+}
+/* Dashed coupon-style inner border */
+.cert::before{
+  content:'';
+  position:absolute;
+  top:14px;left:14px;right:14px;bottom:14px;
+  border:3px dashed var(--orange);
+  pointer-events:none;
+  border-radius:2px;
+}
+/* Scissors on the dashed border */
+.scissor{
+  position:absolute;
+  top:-2px;
+  right:38px;
+  background:var(--paper);
+  padding:0 10px;
+  font-size:22px;
+  color:var(--orange);
+  z-index:2;
+  line-height:1;
+}
+
+/* Corner stamps */
+.stamp{
+  position:absolute;
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  background:var(--orange);
+  color:#fff;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  font-family:'Hold','Nunito',sans-serif;
+  text-align:center;
+  line-height:1.05;
+  padding:8px;
+  border:4px solid #fff;
+  box-shadow:0 4px 12px rgba(0,0,0,.15);
+  transform:rotate(-12deg);
+}
+.stamp.tl{top:46px;left:46px}
+.stamp.tl .big{font-size:34px;letter-spacing:1px}
+.stamp.tl .sm{font-size:9px;letter-spacing:2px;margin-top:2px}
+
+.stamp.br{bottom:46px;right:46px;background:var(--blue);transform:rotate(8deg)}
+.stamp.br .big{font-size:20px;letter-spacing:1px}
+.stamp.br .sm{font-size:9px;letter-spacing:2px;margin-top:3px}
+
+/* Center content */
+.inner{
+  position:relative;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
+  text-align:center;
+  z-index:1;
+}
+
+.pill{
+  display:inline-block;
+  font-family:'Hold','Nunito',sans-serif;
+  background:var(--blue);
+  color:#fff;
+  font-size:.72rem;
+  letter-spacing:4px;
+  padding:6px 22px;
+  border-radius:30px;
+  text-transform:uppercase;
+  margin-bottom:18px;
+}
+
+h1{
+  font-family:'Hold','Nunito',sans-serif;
+  color:var(--blue);
+  font-size:5.6rem;
+  margin:0;
+  line-height:1;
+  letter-spacing:-1px;
+}
+h1 em{font-style:italic;color:var(--orange);font-weight:inherit}
+
+.sub{
+  font-family:'Hold','Nunito',sans-serif;
+  color:var(--navy);
+  font-size:1.2rem;
+  margin:8px 0 20px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.awarded{
+  font-size:.85rem;
+  letter-spacing:3px;
+  color:#777;
+  text-transform:uppercase;
+  margin-bottom:10px;
+}
+
+.name-input{
+  font-family:'Hold','Nunito',sans-serif;
+  color:var(--blue);
+  font-size:2.4rem;
+  text-align:center;
+  border:none;
+  border-bottom:3px solid var(--navy);
+  background:transparent;
+  width:560px;
+  max-width:90%;
+  padding:6px 0 10px;
+  margin:0 0 18px;
+  outline:none;
+  letter-spacing:1px;
+}
+.name-input::placeholder{color:#bbb;font-style:italic;letter-spacing:2px;font-size:1.4rem}
+
+.citation{
+  font-size:.95rem;
+  line-height:1.55;
+  color:#333;
+  max-width:660px;
+  margin:0 auto 22px;
+}
+.citation strong{color:var(--blue);font-weight:900}
+.citation em{font-style:italic;color:var(--navy)}
+
+.habit{
+  background:#fff;
+  border:2px dashed var(--blue);
+  border-radius:12px;
+  padding:14px 22px;
+  max-width:640px;
+  width:100%;
+  margin:0 0 22px;
+  text-align:left;
+  position:relative;
+}
+.habit .label{
+  font-family:'Hold','Nunito',sans-serif;
+  color:var(--orange);
+  font-size:.78rem;
+  letter-spacing:2.5px;
+  margin-bottom:8px;
+  text-transform:uppercase;
+}
+.habit .lines{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.habit .line{
+  height:1px;
+  border-bottom:1.5px solid #999;
+  width:100%;
+}
+
+.sigs{
+  display:flex;
+  gap:40px;
+  justify-content:center;
+  width:100%;
+  max-width:640px;
+}
+.sig{
+  flex:1;
+  text-align:center;
+}
+.sig .line{
+  border-bottom:2px solid var(--navy);
+  height:34px;
+  margin-bottom:4px;
+}
+.sig .lbl{
+  font-family:'Hold','Nunito',sans-serif;
+  font-size:.7rem;
+  letter-spacing:3px;
+  color:#666;
+  text-transform:uppercase;
+}
+
+.footer{
+  position:absolute;
+  bottom:30px;
+  left:60px;
+  right:60px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-family:'Hold','Nunito',sans-serif;
+  font-size:.7rem;
+  letter-spacing:2px;
+  color:#999;
+  text-transform:uppercase;
+  z-index:2;
+}
+.footer .left{display:flex;align-items:center;gap:8px}
+.footer .scissor-tiny{color:var(--orange);font-size:.95rem;letter-spacing:0}
+
+/* PRINT */
+@media print{
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important}
+  @page{size:letter landscape;margin:0}
+  html,body{background:#fff !important;padding:0 !important;margin:0 !important}
+  .toolbar{display:none !important}
+  .cert{
+    max-width:none !important;
+    width:100% !important;
+    height:100vh !important;
+    aspect-ratio:auto !important;
+    border:6px double var(--blue) !important;
+    box-shadow:none !important;
+    page-break-after:avoid;
+    page-break-inside:avoid;
+  }
+  /* Inputs print without focus styles */
+  .name-input{border-bottom:3px solid var(--navy) !important;outline:none !important;color:var(--blue) !important;-webkit-appearance:none}
+  .name-input::placeholder{color:transparent !important}
+}
+
+/* Mobile */
+@media(max-width:700px){
+  .cert{padding:40px 30px}
+  h1{font-size:3.2rem}
+  .sub{font-size:1rem}
+  .stamp{width:80px;height:80px}
+  .stamp.tl{top:30px;left:30px}
+  .stamp.br{bottom:30px;right:30px}
+  .stamp.tl .big{font-size:22px}
+  .stamp.br .big{font-size:14px}
+  .footer{left:30px;right:30px;font-size:.6rem;flex-direction:column;gap:4px}
+}
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <a class="home" href="../index.html">&larr; Clarence Gets a Bargain</a>
+  <div class="tip">Type the student's name below (or leave blank to handwrite), then click Print.</div>
+  <button onclick="window.print()">&#x1F5A8;&#xFE0F; Print Certificate</button>
+</div>
+
+<div class="cert" id="cert">
+  <span class="scissor">&#9986;</span>
+
+  <div class="stamp tl" aria-hidden="true">
+    <div class="big">5&#9733;</div>
+    <div class="sm">VALUE</div>
+  </div>
+
+  <div class="stamp br" aria-hidden="true">
+    <div class="big">100% OFF</div>
+    <div class="sm">BORING<br>MONEY LESSONS</div>
+  </div>
+
+  <div class="inner">
+    <div>
+      <span class="pill">Certificate of Achievement</span>
+      <h1>Wyze <em>Shopper</em></h1>
+      <div class="sub">Class of Smart Money Moves</div>
+    </div>
+
+    <div style="width:100%">
+      <div class="awarded">Awarded to</div>
+      <input class="name-input" type="text" placeholder="Student Name" aria-label="Student name">
+
+      <p class="citation">For completing the <strong>Clarence Gets a Bargain</strong> financial literacy module &mdash; learning the difference between <em>wants vs. needs</em>, how to read a sale ad, what clearance really means, and why doing your homework before you shop puts money back in your pocket.</p>
+
+      <div class="habit">
+        <div class="label">&#x1F4CB; One money habit I&rsquo;ll try at home this week:</div>
+        <div class="lines">
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="sigs">
+        <div class="sig">
+          <div class="line"></div>
+          <div class="lbl">Teacher Signature</div>
+        </div>
+        <div class="sig">
+          <div class="line"></div>
+          <div class="lbl">Date</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="left"><span class="scissor-tiny">&#9986;</span><span>Clarence Gets a Bargain &middot; clarencegetsabargain.com</span></div>
+    <div>Story First. Money Smarts Sneak In.</div>
+  </div>
+</div>
+
+</body>
+</html>

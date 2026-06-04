@@ -206,7 +206,7 @@ By the end of this lesson, students will:
 ### Materials
 - Clarence Gets a Bargain
 - Post-Assessment Worksheet (1 per student)
-- Wyze Shopper Certificate **[P]** (teacher prepares — simple template: student name, one habit, signature)
+- Wyze Shopper Certificate &mdash; ready-to-print at **clarencegetsabargain.com/resources/wyze-shopper-certificate.html** (type the student's name in the browser or print blank)
 - 3 real grocery items (or photos) with the prices hidden for "Guess the Price"
 - Pencils, sharpened
 
