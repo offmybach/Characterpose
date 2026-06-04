@@ -42,6 +42,12 @@ Three specific moments do most of the teaching work:
 
 The book closes with Dad confessing he and Mom exaggerated about the cold baths and Wi-Fi — they were teaching, not panicking. The 529 is still funded. Clarence becomes the kid hunting deals on everything. Mom teases the sequel (Black Friday, Cyber Monday, Prime Day).
 
+### Built-in extras most picture books don't have
+
+- **21-term financial glossary** in the back of the book — verbatim, page-cited. Curriculum vocabulary is built in, not bolted on.
+- **A receipt habit, modeled.** On page 22, Mom photographs the receipt the moment she sits down in the car. The glossary's Receipt entry calls it out as "not a bad habit." Teachers can use it as a real-world money skill aside.
+- **The Wyze pun.** Clarence's last name is **Wyze.** Mom calls him a "Wyze little shopper" on page 21. The glossary's Sale entry calls back to it ("a certain Wyze kid we know"). The wordplay anchors the whole curriculum's identity.
+
 ## Core Financial Concepts Covered
 
 The book teaches 16+ money concepts. The Big Six the curriculum hits hardest:

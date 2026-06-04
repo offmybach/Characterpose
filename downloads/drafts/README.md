@@ -43,8 +43,27 @@ When the drafts are approved, options:
 
 A custom `cgb-style.css` (Hold font headers, #0054a6 blue, #ff6b2b orange, cream backgrounds for callouts) would make all six match the brand. Worth building once, reusing forever.
 
+## Revision history
+
+**v2 — Critical + important fixes applied across all 6 drafts:**
+- Folded in the **official 21-term back-matter glossary** (verbatim from `images/CGB_Glossary_Page1.png` + `Page2.png`), now also in CLAUDE.md
+- Added the **Receipt habit** (Mom photographs every receipt, page 22) as a real-world money skill
+- Added the **Wyze wordplay** callout — explicit on page 21 and in the glossary
+- Replaced fabricated standards codes with valid Jump$tart 2021 / CEE / CCSS / FDIC citations + source URLs
+- Killed the "Whether you're X or Y" AI-tell pattern
+- Rebalanced lesson plan time budgets (the 12-min read-aloud for 3 pages was wrong)
+- Added accessibility/ELL/IEP/trauma-informed framing throughout the lesson plans
+- Added accommodations page to assessment worksheet (read-aloud, picture-supported, oral, extended time, Spanish)
+- Fixed Pre-Q4 juice question (specified "same juice"), Pre-Q9 ("winter coat" → "glass of water"), Post-Q5 distractor
+- Expanded class data tracking table from 12 rows to 25 + "duplicate as needed"
+- Softened grant claims to "supports common documentation requirements" with note to verify per-foundation
+- Family activity: shrunk Activity 4 from 1 week to 1 grocery run; added ⏱ time + 🛒 materials per activity; bilingual pointer
+- Discussion guide: added whole-book themes closing section, Clarence/Clearance teaching-moment callout, Wyze pun callout, trauma-informed facilitation note for the bills question
+- Standards chart: full rewrite — CEE has 6 standards (not 12/13); Jump$tart strands renamed correctly; concept-by-concept crosswalk moved to top; framework source URLs added; 21-term glossary count integrated; 23 enumerated teaching concepts
+
 ## What's still TODO
 
-- Pages 33–36 of the book (glossary / back-matter) aren't yet extracted into CLAUDE.md. Once they are, the discussion guide can pick up any back-matter vocabulary.
-- The "Wyze Shopper Certificate" referenced in Week 4 of the lesson plans needs a printable design.
-- The "Curriculum Alignment Matrix" tool referenced in the standards chart and assessment worksheet already exists at `resources/curriculum-alignment-matrix.html`. Sanity-check that it covers the same 20 concepts listed in `06-standards-chart.md`.
+- The **Wyze Shopper Certificate** referenced in Week 4 of the lesson plans needs a printable design.
+- The **Curriculum Alignment Matrix** tool already exists at `resources/curriculum-alignment-matrix.html`. Sanity-check that its concept list matches the 23 concepts in `06-standards-chart.md`.
+- **Printables marked [P]** in the lesson plans (sort cards, clearance stickers, comparison worksheets, coupon templates) — either ship as a "Curriculum Companion Pack" or remove the [P] markers and rely on teachers to make their own.
+- Polish-tier suggestions from the review weren't addressed (these are nice-to-have, not credibility risks). See chat transcript or rerun the review for the punch list.

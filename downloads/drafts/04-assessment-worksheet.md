@@ -29,11 +29,11 @@ b) A plan for spending money
 c) A kind of coupon
 d) A savings account
 
-**4. If one store advertises juice for $1.00 and another advertises it for $0.75, the BETTER DEAL is:**
-a) The $1.00 juice
-b) The $0.75 juice
-c) They cost the same
-d) I can't tell
+**4. Two stores advertise the SAME juice box. Store A sells it for $1.00. Store B sells it for $0.75. Which is the better deal?**
+a) Store A's juice
+b) Store B's juice
+c) They're the same deal
+d) You can't tell from the prices
 
 **5. A coupon is useful because it:**
 a) Makes you spend more money
@@ -60,10 +60,10 @@ c) The toy's price has been lowered
 d) You can't buy that toy
 
 **9. Which of these is a WANT?**
-a) A winter coat
+a) A glass of water
 b) A dentist visit
 c) A new video game
-d) Food to eat
+d) Dinner
 
 **10. A "bargain" is:**
 a) A type of bank
@@ -108,7 +108,7 @@ d) At a vendor's stall
 a) Cut out from a sale ad
 b) Sent by mail
 c) Sent by email or text
-d) Whispered by a stranger
+d) Printed on a price tag inside the store
 
 **6. The neon-orange sign that Clarence misreads as his own name says:**
 a) Clarence
@@ -156,6 +156,16 @@ d) Clarence didn't have to compare prices
 
 ---
 
+## ACCOMMODATIONS
+
+Use these adjustments as needed — they do not invalidate the assessment:
+
+- **Read-aloud version.** For students who can't decode the question independently, read the question and answer choices aloud. Mark the read-aloud version of the form for documentation.
+- **Picture-supported version (Grades 1–2).** Replace text-only items with picture choices where possible (especially Q2, Q9 — wants vs. needs). Available on request via the Educator Toolkit page.
+- **Oral response.** Some students can demonstrate knowledge verbally but freeze on a worksheet. Conduct as a 1:1 interview and record their answers on the form.
+- **Extended time.** No time limit on either assessment. Set the cadence to fit the student.
+- **Translation.** Spanish-language version available via the Curriculum Alignment Matrix tool at clarencegetsabargain.com/resources.
+
 ## CLASS DATA TRACKING TABLE
 
 | Student Name | Pre Score (/10) | Post Score (/10) | Gain | Proficiency |
@@ -172,7 +182,22 @@ d) Clarence didn't have to compare prices
 | | | | | |
 | | | | | |
 | | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+
+*(Duplicate this page as needed for larger classes.)*
 
 **Class averages:** Pre ______ · Post ______ · Average gain ______
 
-This data table satisfies documentation requirements for FDIC Money Smart, Jump$tart, and most foundation-level financial literacy grant reports (Gates, Kellogg, CRA-eligible programs). For grant-application-ready PDF reports filtered by framework or grade, use the Curriculum Alignment Matrix tool at clarencegetsabargain.com.
+This pre/post structure and data table format is designed to support common documentation requirements for FDIC Money Smart, Jump$tart, and foundation-level financial literacy grant reports. Each foundation's specific reporting template differs; check with your program officer for required fields. For grant-application-ready PDF reports filtered by framework or grade, use the Curriculum Alignment Matrix tool at clarencegetsabargain.com/resources.

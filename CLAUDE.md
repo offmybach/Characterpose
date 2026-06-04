@@ -293,8 +293,62 @@ Use these verbatim when quoting the book. Do not paraphrase character lines.
 
 **Page 32.** Mom laughed out loud and added, "Just wait till I teach you about Black Friday, Cyber Monday, and Prime Day!" Then she did an about-face and walked out of the room.
 
-**Note:** The book is 36 pages total. Pages 33–36 likely contain the glossary,
-acknowledgments, or back-matter. If/when that text is extracted, append it here.
+### Back-matter: Glossary of Financial Terms (Pages 33–36)
+
+Source: `images/CGB_Glossary_Page1.png` and `images/CGB_Glossary_Page2.png` —
+official two-page glossary spread in the printed book. **Reproduce these
+definitions verbatim** when writing curriculum materials or marketing copy.
+Each entry includes the page(s) where the term appears in the story.
+
+**Bills** *(pp. 3, 24)* — A notice that money is owed for something already used — electricity, hot water, internet, even TV streaming. Somebody has to pay for all of it. Every. Single. Month.
+
+**Budget / Budgeting** *(pp. 3, 30)* — A plan for how to use your money before it's gone. A good budget makes room for needs, **wants**, savings, and giving. Without one, you might end up with cold baths and no Wi-Fi. (Clarence was not taking any chances.)
+
+**Income** — Money earned for doing work — chores, a job, you name it. It has your name on it because you did something to earn it. Once you know what things actually cost, you appreciate every dollar a whole lot more.
+
+**Mortgage** *(p. 3)* — A loan a homeowner takes out to buy their home, paid back every month for many years. It's usually the biggest bill in the house — the one that keeps the roof over your head, the yard under your feet, and your bedroom exactly where you left it. Without it, there's no house for the lights, the fridge, or the Xbox to live in.
+
+**Charity** *(p. 4)* — Giving to help people who need it — money, food, toys, time. A good family looks out for others and makes it part of the plan before the fun stuff. Some families even pick their charities together. Clarence's family does.
+
+**Sale** — When a store lowers its regular prices for a period of time. Items cost less than usual, which means your money goes further. Doing your homework before you shop — like a certain **Wyze** kid we know — makes all the difference.
+
+**Sales Tax** *(p. 22)* — An extra charge added at checkout by the government. It goes to the state — not the store — and shows up whether you buy one thing or a hundred. The price on the sticker is never quite the price you pay. Keep that in mind.
+
+**Comparison Shopping** *(pp. 5, 30)* — Checking prices in more than one place before buying so you know you're getting the best deal. It might feel like homework — because it is. But it's the kind of homework that puts money back in your pocket. Ask Clarence. He'll tell you.
+
+**529 Account** *(pp. 6, 24)* — A special savings account set up to help pay for education down the road. Parents sometimes start one before their kid even knows what college is. Clarence rolled his eyes about. The 529 did not care. It just kept stacking.
+
+**College** *(p. 6)* — School after high school, where students go to study something they're passionate about and prepare for a career. It costs real money, which is exactly why the 529 exists — and exactly why Mom pointed her finger at Clarence when she brought it up.
+
+**Tuition** *(p. 6)* — The fee a school or college charges for classes. One of the biggest bills a family will ever face, which is why starting early matters. This is not a drill. The 529 is not a joke.
+
+**Coupons** *(pp. 7, 8, 22)* — Special offers — a cutout from a sale ad, a code on your phone, even a text — that knock money off a purchase. Stores hand them out because they'd rather sell cheap than not sell at all. Clarence had one folded up and shoved in his pocket the whole time. He almost forgot it. Almost.
+
+**Clearance** *(pp. 16, 17, 19)* — A deep-discount sale where stores slash prices on items they need to move out fast to make room for newer models. Nothing wrong with the stuff — it just needs a good home. Look closer next time, buddy.
+
+**Markdown / Marked Down** *(p. 17)* — When a store lowers an item's original price to move it before something newer comes along. Same product, better price, zero difference in what you're getting. Clarence figured this out staring at two robots on a shelf. Smart kid.
+
+**Savings** *(p. 24)* — Money you choose not to spend right now so it's there for something important later — something you really **want**, something unexpected, or your future. The trick is making it a habit. Future you will be very glad current you did.
+
+**Consumer** *(p. 29)* — Anyone who buys or uses a product or service. The moment you hand over money — or your parents do — someone in that transaction is the consumer. Clarence walked into Sea-Mart as a kid on a mission. He walked out as a smart one.
+
+**Wants and Needs** *(pp. 25, 26, 30)* — **Needs** are the essentials — food, shelter, clothing, heat, and the internet (debatable, but probably yes). **Wants** are the extras that make life fun. Both matter. Knowing which is which before you spend is one of the most important money skills there is. Sometimes the smartest buy is one that's fun AND useful. Clarence figured that out all by himself.
+
+**Receipt** *(p. 22)* — The printed or digital record of a purchase — your proof it happened, and your best friend if something goes wrong. Lose it and you lose your leverage. Clarence's mom photographed his the second she sat down in the car. Every time. Not a bad habit.
+
+**Black Friday** *(p. 32)* — The massive sale event the day after Thanksgiving. Stores go all out and so do shoppers. It can be a gold mine — if you do your homework first. Mom mentioned it on her way out the door. She was smiling.
+
+**Cyber Monday** *(p. 32)* — Black Friday's online cousin — happens the Monday after Thanksgiving weekend. Same deals, no crowds, no parking. You don't even have to leave the couch. Mom's already got tabs open.
+
+**Prime Day** *(p. 32)* — Amazon's own big sale event, usually in the middle of the year. Online only, deals move fast, and you'd better know what you want before it starts. Mom dropped this one last. Right before she did an about-face and walked out of the room.
+
+### New facts from glossary
+
+- **Mom photographs receipts.** Page 22 — confirmed in the Receipt glossary entry. Mom photographs every receipt the second she sits down in the car. Add to curriculum as a real money habit.
+- **The Wyze pun is in the glossary.** "Sale" entry: "like a certain **Wyze** kid we know." The wordplay is explicit back-matter, not just a passing line.
+- **Income, College, Tuition** are defined back-matter terms even though they appear briefly in the story (page 6 for college/tuition, page 24 for income). Curriculum can teach them as named concepts.
+
+### Total back-matter glossary count: 21 defined terms
 
 ---
 

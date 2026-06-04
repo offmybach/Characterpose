@@ -133,38 +133,55 @@ Which saved the most? Discuss why the math sometimes surprises us.
 
 **Pages read:** 11–22
 **Grades:** 1–5
-**Standards:** Jump$tart SPD-3; CEE Standard 2; CCSS Math 2.MD.8, 4.NF.6; CCSS ELA RI.1–5.3
+**Standards:**
+- Jump$tart 2021: Spending & Saving — Standard 4 (Apply consumer skills to spending and saving decisions)
+- CEE Financial Literacy: Standard 2 (Buying Goods and Services)
+- CCSS.MATH.CONTENT.2.MD.C.8 (grades 1–2); 4.NF.B.6 (grade 4); 5.NBT.B.7 (grade 5)
+- CCSS.ELA-LITERACY.RI.3.1, RI.4.1 (Key Ideas and Details)
+- CCSS.ELA-LITERACY.L.3.5 (Wordplay & figurative language — for the Clarence/Clearance pun)
 
 ### Learning Objectives
+By the end of this lesson, students will:
 - Define clearance and markdown.
 - Explain why a clearance item isn't broken.
 - Compare two similar items and justify the better-value pick.
-- Apply a percentage-off coupon at "checkout."
+- Apply a 10%-off coupon to a sale price.
 
 ### Materials
 - Clarence Gets a Bargain
 - Two near-identical classroom items at different prices (one "marked down")
-- Receipts / price tags template
+- Bright orange / yellow clearance stickers **[P]** (printable or hand-cut; the visual matters)
+- Pretend price tags **[P]** (one "regular" and one "clearance")
 - Play money or printable coins
-- Calculator (3rd–5th)
+- Calculators (grades 3–5)
+- Optional: image of a real clearance sign (orange or yellow) to project at warm-up
 
-### Lesson Steps
+### Lesson Steps (45 min)
 
-**Warm-up (5 min).** Project an image of a giant neon-orange "CLEARANCE" sign. Ask: *"What does this word mean? Does it sound like anybody's name?"* Set up the joke before kids meet it on page 13.
+**Warm-up — Cover the Sign (5 min).** Project (or hold up) the word **CLEARANCE** in large orange letters, but cover the last 3 letters. Ask: *"What word do you think this is?"* Many kids will say "CLARENCE." Reveal the full word. *"That's the joke we're about to find."*
 
-**Read aloud (15 min).** Read pages 11–22 (the entire Sea-Mart sequence). Pause on page 15 when Clarence realizes the sign reads "Clearance," not "Clarence." Pause on page 17 when Mom explains markdowns ("a newer version is released… that's when a manager will lower or 'mark down' the regular price"). Pause on page 20 — *"Only two differences. A slightly bigger screen and an antenna. Would you pay extra for that?"*
+**Read aloud — Pages 11–22 (12 min).** Read the entire Sea-Mart sequence with these pauses:
+- Page 13: *"What does Clarence think he sees?"*
+- Page 15 (reveal): *"How would YOU feel right then?"*
+- Page 17 (markdown explained): Stop. Write the term on the board. Read Mom's exact words again.
+- Page 20: *"Only two differences. A slightly bigger screen, an antenna. Would YOU pay extra for that?"*
+- Page 22 (sales tax + coupon): *"Two surprises at the checkout. What were they?"*
 
-**Concept anchor (5 min).** Write two definitions on the board, in kids' own words:
+**Concept anchor (5 min).** Write two definitions on the board in kids' own words:
 - **Clearance:** "The store needs the shelf space. Not broken. Just older."
 - **Markdown:** "The new price is lower than the old price."
 
-**Activity — The Two-Robot Test (15 min).** Set up two classroom items: one "new" at full price, one "marked down" with a clearance sticker. Pairs inspect both, write down the differences, and decide which to "buy" with play money. Then Clarence's twist: each pair gets a 10% off coupon. They apply it to their purchase and recalculate.
+**Activity — The Two-Robot Test (18 min).** Set up two classroom items in the front of the room: one "new" at $10 with a normal price tag, one "marked down" from $10 to $8 with a clearance sticker. Pairs inspect both, write down the differences (color? brand? small features?), decide which to "buy" with $10 of play money. Then Clarence's twist: hand each pair a printable 10%-OFF-CLEARANCE coupon. They apply it ($8 × 0.10 = $0.80 off → $7.20) and recalculate their total. Discuss: did anyone change their mind once they saw the coupon math?
 
 **Closure (5 min).** Pair-share: *"Did your group pick the clearance one? Why? What changed when the coupon came out?"*
 
 ### Differentiation
-- **1st–2nd:** dollar amounts only; "the lower number is the better deal."
-- **3rd–5th:** calculate 10% manually; introduce sales tax (page 22) — "the price at the register is higher than the price tag. Why?"
+- **Grades 1–2:** Use whole-dollar prices only ($10 vs. $8). Skip the percentage; the lesson is "lower number = better deal."
+- **Grades 3–5:** Calculate the 10% by hand. Then add the sales tax wrinkle from page 22 — if the local sales tax is 8%, what's the FINAL total? (For $7.20 at 8% tax: $7.78.)
+- **Multi-grade classrooms:** Older students mentor younger pair-partners through the coupon math. The teaching reinforces.
+
+### Bridge to Week 4 (send home)
+*"Find one receipt at home this week. Look at it. Was there a coupon used? Was there sales tax? Bring it (or a photo of it) to share."*
 
 ---
 
@@ -173,31 +190,46 @@ Which saved the most? Discuss why the math sometimes surprises us.
 
 **Pages read:** 23–32
 **Grades:** 1–5
-**Standards:** All Jump$tart, CEE, and CCSS standards from Weeks 1–3
+**Standards:**
+- All standards from Weeks 1–3 reviewed
+- Jump$tart 2021: Spending & Saving Standard 3 (Saving vehicles); Financial Decision Making Standard 1 (Responsibility)
+- CEE Financial Literacy: Standard 3 (Saving)
+- CCSS.ELA-LITERACY.SL.1.1 through SL.5.1 (Collaborative Discussion)
+- CCSS.ELA-LITERACY.W.1.1 through W.5.1 (Written Reflection — gr. 3–5)
 
 ### Learning Objectives
-- Demonstrate mastery of the 6 core concepts.
-- Show measurable improvement on the post-assessment.
-- Design one family money game students could play at home.
+By the end of this lesson, students will:
+- Demonstrate mastery of the 6 core concepts on the post-assessment.
+- Show measurable improvement vs. their pre-assessment score.
+- Name one family money game they'll play at home this week.
 
 ### Materials
 - Clarence Gets a Bargain
-- Post-Assessment Worksheet
-- Wyze Shopper Certificate (printable)
-- Optional: grocery flyer for the in-class "Guess the Price" game
+- Post-Assessment Worksheet (1 per student)
+- Wyze Shopper Certificate **[P]** (teacher prepares — simple template: student name, one habit, signature)
+- 3 real grocery items (or photos) with the prices hidden for "Guess the Price"
+- Pencils, sharpened
 
-### Lesson Steps
+### Lesson Steps (45 min)
 
-**Read aloud (10 min).** Read pages 23–32. Pause on page 24 (Dad admits the exaggeration about cold baths and Wi-Fi). Ask: *"Why do you think Mom and Dad said that? Were they lying?"* Then page 25 — *"Just because it was a good deal doesn't mean you have to buy it."* Let kids react.
+**Read aloud — Pages 23–32 (10 min).** Read the closing pages with these pauses:
+- Page 24 (Dad's confession): *"Were Mom and Dad lying? What were they doing?"* Use the trauma-informed framing — keep this about Clarence's family, not students' own.
+- Page 25 (Mom's deeper lesson): *"What's the difference between a good deal and something you'll actually use?"*
+- Page 28 (Guess the Price game): *"What's Clarence's trick for winning? Why does it usually work?"*
+- Page 32 (Mom hints at the sequel): *"What's Clarence going to learn next?"*
 
-**Post-Assessment (12 min).** Students complete the post-assessment independently. Collect.
+**Post-Assessment (12 min).** Students complete the post-assessment independently. Use accommodations as needed (read-aloud, picture version, oral response — see the worksheet's accommodations page). Collect and score after class.
 
-**Game — Guess the Price (13 min).** Show three real grocery items on the board (or hold them up). Each kid writes down their best guess at the sale price. Reveal one at a time — closest guess wins. Just like Clarence's family on page 28.
+**Game — Guess the Price (13 min).** Show three real grocery items (or photos) one at a time. Each kid writes their best guess at the price. Reveal closest wins. Just like Clarence's family on page 28. Bonus rule: the kid with the highest guess each round has to explain why they thought it would cost that much. (Surfaces consumer-awareness reasoning.)
 
-**Certificates (5 min).** Hand out Wyze Shopper Certificates. Each student writes one money habit they'll try at home (read an ad, ask about a coupon, spot a clearance sticker, etc.).
+**Wyze Shopper Certificates (5 min).** Hand out certificates. Each student writes ONE money habit they'll try at home this week. Examples: read a sale ad with my family, ask about a coupon at checkout, look for a clearance sticker, photograph a receipt like Mom does.
 
-**Closure (5 min).** Whole-class reflection: *"What's one thing Clarence taught you about money that you'll remember next time you go shopping?"*
+**Closure (5 min).** Whole-class reflection: *"What's one thing Clarence taught you about money that you'll remember next time you go shopping?"* Capture on chart paper as the unit's anchor chart.
 
 ### Differentiation
-- **1st–2nd:** simplified picture-based post-assessment.
-- **3rd–5th:** add a short written response — *"Why did Clarence pick the clearance robot? Was it a smart choice? Explain."*
+- **Grades 1–2:** Picture-supported post-assessment (see Worksheet PDF). Skip the written reflection — oral share works.
+- **Grades 3–5:** Add a written response to the post-assessment: *"Why did Clarence pick the clearance robot? Was it a smart choice? Use two reasons from the book."*
+- **Multi-grade classrooms:** Older students help younger ones with the post-assessment after they finish their own. Builds leadership AND review.
+
+### After Week 4 (optional family letter)
+A short letter home tells parents what kids learned and how to keep it alive at home. Template at clarencegetsabargain.com/educator-toolkit. The Family Activity Sheet (separate PDF in this packet) gives parents 5 ready-to-run activities tied to specific pages of the book.

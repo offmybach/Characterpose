@@ -2,36 +2,70 @@
 ## Clarence Gets a Bargain
 **Mapping the book to Jump$tart, CEE, Common Core, and FDIC Money Smart**
 
-Grades 1–5 · 36 pages · 16+ financial concepts
+Grades 1–5 · 36 pages · 21 defined financial terms · 16+ teachable concepts
 
-This chart is for grant applications, Title I submissions, district adoption packets, and CRA reporting. Every concept the book teaches is mapped to at least one nationally recognized standard.
-
----
-
-## Jump$tart Coalition National Standards in K–12 Personal Finance
-
-| Strand | Standard | Book Concept | Pages |
-|---|---|---|---|
-| Spending & Saving | SPD-1: Distinguish wants and needs | Mom's bills speech; rewards vs. necessities | 1–3 |
-| Spending & Saving | SPD-2: Develop a basic budget plan | Household bills walkthrough | 3 |
-| Spending & Saving | SPD-3: Apply consumer skills to make smart purchasing decisions | Ad comparison, clearance, two-difference test | 4–22 |
-| Spending & Saving | SVG-1: Explain why people save | 529 college account introduced | 6, 24 |
-| Spending & Saving | SVG-2: Apply strategies to set savings goals | Family game culture, lifelong skills | 27–30 |
-| Financial Responsibility | FM-1: Take responsibility for personal financial decisions | Clarence's clearance + coupon decision | 19–22 |
-| Buying Goods & Services | (Cross-strand) Coupons, markdowns, sales tax | Coupon at checkout, sales tax explainer | 7–8, 16–17, 22 |
+This chart is for grant applications, Title I submissions, district adoption packets, and CRA reporting. Every concept the book teaches is mapped to at least one nationally recognized standard. Framework sources are cited at the end of this document.
 
 ---
 
-## Council for Economic Education (CEE) Standards
+## Quick Reference — Concept-by-Concept Crosswalk
 
-| Standard | Topic | Book Concept | Pages |
+The book's teaching concepts, in order of appearance, with the strongest standard match for each. This table is your fastest grant-application reference.
+
+| # | Concept | Story Pages | Glossary | Primary Standard |
+|---|---|---|---|---|
+| 1 | ***Wants vs. Needs*** | 1–3, 25–26, 30 | ✓ | Jump$tart S&S Standard 1; CEE Standard 2 |
+| 2 | Budgeting | 3, 30 | ✓ | Jump$tart S&S Standard 1; CEE Standard 2 |
+| 3 | Household bills | 3 | ✓ | Jump$tart S&S Standard 1 |
+| 4 | Mortgage | 3 | ✓ | Jump$tart S&S Standard 1 |
+| 5 | Income | 24 (implied) | ✓ | Jump$tart E&I Standard 1 |
+| 6 | Charitable giving | 4 | ✓ | CEE Standard 3 (Saving); FDIC 3–5 |
+| 7 | Sale ads | 4–5 | ✓ | Jump$tart S&S Standard 4 |
+| 8 | Comparison shopping | 5, 9–10, 27, 30 | ✓ | CEE Standard 2; CCSS.Math 2.MD.C.8 |
+| 9 | 529 college savings | 6, 24 | ✓ | Jump$tart S&S Standard 3; CEE Standard 3 |
+| 10 | College & tuition | 6 | ✓ | CEE Standard 3 |
+| 11 | Coupons (paper, mail, email, text) | 7–8, 22 | ✓ | Jump$tart S&S Standard 4 |
+| 12 | Picking the right store | 9–11 | — | CEE Standard 2 |
+| 13 | Clearance section | 13–18 | ✓ | Jump$tart S&S Standard 4 |
+| 14 | Markdowns | 16–18 | ✓ | Jump$tart S&S Standard 4 |
+| 15 | Comparing similar products | 19–21 | — | CCSS.Math 4.NF.B.6 (gr. 4–5) |
+| 16 | Smart purchase decision | 21 | — | Jump$tart FDM Standard 1 |
+| 17 | Sales tax | 22 | ✓ | CEE Standard 2 |
+| 18 | Combining coupon + clearance | 22 | — | Jump$tart S&S Standard 4; CCSS.Math 5.NBT.B.7 |
+| 19 | Receipt as proof of purchase | 22 | ✓ | Jump$tart FDM Standard 1 |
+| 20 | Consumer awareness ("use what you buy") | 25, 29 | ✓ | Jump$tart S&S Standard 4 |
+| 21 | Lifelong saving habits | 24, 26–30 | ✓ | Jump$tart S&S Standard 3; CEE Standard 3 |
+| 22 | Family money games | 27–28 | — | CEE Standard 2 |
+| 23 | Future shopping events (Black Friday, Cyber Monday, Prime Day) | 32 | ✓ | Jump$tart S&S Standard 4 |
+
+**Legend:** Glossary ✓ = term has its own entry in the book's official two-page back-matter glossary.
+
+---
+
+## Jump$tart Coalition 2021 National Standards in K–12 Personal Finance Education
+
+The Jump$tart framework has six topic areas, each with knowledge & ability statements. Clarence Gets a Bargain hits four directly.
+
+| Topic Area | Standard | Book Concept | Pages |
 |---|---|---|---|
-| CEE 2 — Buying Goods and Services | Decision-making | Ad comparison and clearance pick | 4–22 |
-| CEE 2 | Price comparison | Multi-store ad reading at home | 4–10 |
-| CEE 5 — Saving | Reasons to save | 529 college fund | 6, 24 |
-| CEE 5 | Saving habits | Family money games | 27–30 |
-| CEE 12 — Government & Tax | Sales tax basics | Sales tax warning at checkout | 22 |
-| CEE 13 — Risk & Insurance | Cost of not budgeting | Mom's bills speech | 3 |
+| **Spending & Saving (S&S)** | Standard 1: Develop a plan for spending and saving | Wants/needs sort; bills speech; budgeting | 1–3, 30 |
+| **Spending & Saving** | Standard 3: Describe how to use different payment methods and savings vehicles | 529 account; lifelong saving habits | 6, 24, 26–30 |
+| **Spending & Saving** | Standard 4: Apply consumer skills to spending and saving decisions | Comparison shopping; coupons; clearance; markdowns; smart purchase | 4–22 |
+| **Employment & Income (E&I)** | Standard 1: Explore job and career options | Income (definition); chores → reward framing | 1, 24 |
+| **Financial Decision Making (FDM)** | Standard 1: Recognize the responsibilities associated with personal financial decisions | Smart purchase decision; receipt habit | 21–22, 25 |
+
+---
+
+## CEE National Standards for Financial Literacy
+
+CEE's financial literacy framework has 6 standards. Clarence Gets a Bargain primarily hits Standard 2 (Buying) and Standard 3 (Saving).
+
+| Standard | Topic | Book Application | Pages |
+|---|---|---|---|
+| Standard 2 | Buying Goods and Services | Ad comparison; clearance pick; coupon; sales tax | 4–22 |
+| Standard 3 | Saving | 529 college fund; lifelong saving habits; charity giving | 4, 6, 24, 26–30 |
+
+Standards 1 (Earning Income), 4 (Using Credit), 5 (Financial Investing), and 6 (Protecting and Insuring) are not directly addressed in this book.
 
 ---
 
@@ -39,12 +73,12 @@ This chart is for grant applications, Title I submissions, district adoption pac
 
 | Standard | Skill | Book Application | Grades |
 |---|---|---|---|
-| CCSS.Math.1.OA.A.1 | Add/subtract within 20 | Coupon savings calculation | 1 |
-| CCSS.Math.2.OA.A.1 | Word problems involving money | Ad comparison | 2 |
-| CCSS.Math.2.MD.C.8 | Solve word problems with $ and ¢ | Sales prices, coupon math | 2 |
-| CCSS.Math.3.NBT | Place value, multi-digit arithmetic | Multi-store price comparison | 3 |
-| CCSS.Math.4.NF.B.6 | Decimal notation, fractions | Markdown percentages | 4 |
-| CCSS.Math.5.NBT.B.7 | Add, subtract, multiply, divide decimals | Sales tax + final total | 5 |
+| CCSS.MATH.CONTENT.1.OA.A.1 | Add & subtract within 20 (word problems) | Coupon savings calculation | 1 |
+| CCSS.MATH.CONTENT.2.OA.A.1 | Word problems involving money | Ad comparison | 2 |
+| CCSS.MATH.CONTENT.2.MD.C.8 | Word problems with $ and ¢ | Sales prices, coupon math | 2 |
+| CCSS.MATH.CONTENT.3.NBT.A.2 | Add & subtract within 1000 | Multi-store price comparison | 3 |
+| CCSS.MATH.CONTENT.4.NF.B.6 | Decimal notation for fractions | Markdown calculation (e.g., 10% off) | 4 |
+| CCSS.MATH.CONTENT.5.NBT.B.7 | Add/subtract/multiply/divide decimals | Sales tax + final total | 5 |
 
 ---
 
@@ -52,68 +86,55 @@ This chart is for grant applications, Title I submissions, district adoption pac
 
 | Standard | Skill | Book Application | Grades |
 |---|---|---|---|
-| CCSS.ELA.RI.1.1 / RI.2.1 | Ask and answer questions about key details | Comprehension questions in Discussion Guide | 1–2 |
-| CCSS.ELA.RI.3.1 / RI.4.1 | Refer to details and examples to support inferences | Inferential prompts | 3–4 |
-| CCSS.ELA.RI.1.3–RI.5.3 | Describe relationship between events/ideas | Cause and effect: ad reading → smart purchase | 1–5 |
-| CCSS.ELA.RI.1.7 | Use illustrations and details to describe key ideas | Two-difference robot comparison | 1 |
-| CCSS.ELA.RF.1.4 / RF.2.4 | Read with fluency and comprehension | Read-aloud structure | 1–2 |
-| CCSS.ELA.SL.1–5.1 | Engage in collaborative discussions | Discussion guide prompts | 1–5 |
-| CCSS.ELA.L.1–5.4 | Determine meaning of unknown words | Embedded vocabulary (mortgage, clearance, markdown, 529) | 1–5 |
+| CCSS.ELA-LITERACY.RI.1.1 / RI.2.1 / RI.3.1 | Ask and answer questions about key details | Discussion Guide comprehension prompts | 1–3 |
+| CCSS.ELA-LITERACY.RI.4.1 / RI.5.1 | Refer to details and examples to support inferences | Discussion Guide inferential prompts | 4–5 |
+| CCSS.ELA-LITERACY.RI.1.3 through RI.5.3 | Describe relationships between events / ideas | Cause-and-effect: ad reading → smart purchase | 1–5 |
+| CCSS.ELA-LITERACY.RI.1.7 / RI.2.7 / RI.3.7 | Use illustrations & text features to clarify meaning | Two-difference robot comparison; clearance sign | 1–3 |
+| CCSS.ELA-LITERACY.RF.1.4 / RF.2.4 | Read with fluency to support comprehension | Read-aloud structure | 1–2 |
+| CCSS.ELA-LITERACY.SL.1.1 through SL.5.1 | Engage effectively in collaborative discussions | Discussion Guide prompts | 1–5 |
+| CCSS.ELA-LITERACY.L.1.4 through L.5.4 | Determine meaning of unknown words | 21 back-matter glossary terms | 1–5 |
+| CCSS.ELA-LITERACY.L.3.5 / L.4.5 | Recognize wordplay & figurative language | "Clearance / Clarence" pun; "Wyze" wordplay | 3–4 |
 
 ---
 
 ## FDIC Money Smart for Young People
 
-| Module | Topic | Book Concept | Grade Band |
+FDIC Money Smart has age-band curricula. Clarence Gets a Bargain maps to two:
+
+| Curriculum | Topic | Book Concept | Grade Band |
 |---|---|---|---|
-| Money Matters | What is money? Where does it come from? | Mom's "money doesn't grow on trees" | K–2 |
-| Money Matters | Wants vs. needs | Reward vs. necessity | K–2 |
-| Money Matters | What is a budget? | Bills walkthrough | K–2 |
-| Spend, Share, & Save | Smart purchasing decisions | Clearance + coupon | 3–5 |
-| Spend, Share, & Save | Saving for goals | 529 college fund | 3–5 |
-| Spend, Share, & Save | Giving back | Mom mentions charity | 3–5 |
-
----
-
-## Concept-by-Concept Crosswalk
-
-A quick reference for grant applications: every concept in the book and at least one standard it maps to.
-
-| # | Concept | Pages | Primary Standard |
-|---|---|---|---|
-| 1 | ***Wants vs. Needs*** | 1–3 | Jump$tart SPD-1 |
-| 2 | Budgeting | 3 | Jump$tart SPD-2 |
-| 3 | Household bills | 3 | CEE 13 |
-| 4 | Mortgage | 3 | CEE 13 |
-| 5 | Charitable giving | 4 | FDIC Money Smart 3–5 |
-| 6 | Sale ads | 4–5 | Jump$tart SPD-3 |
-| 7 | Comparison shopping | 4–10 | CEE 2 |
-| 8 | 529 college savings | 6, 24 | Jump$tart SVG-1 |
-| 9 | Coupons (cut-out, mail, email, text) | 7–8, 22 | Jump$tart SPD-3 |
-| 10 | Picking the right store | 9–11 | CEE 2 |
-| 11 | Clearance section | 13–18 | Jump$tart SPD-3 |
-| 12 | Markdowns | 16–18 | Jump$tart SPD-3 |
-| 13 | Comparing similar products | 19–21 | CCSS.Math 4.NF.6 |
-| 14 | Smart purchase decision | 21 | Jump$tart FM-1 |
-| 15 | Sales tax | 22 | CEE 12 |
-| 16 | Combining coupon + clearance | 22 | Jump$tart SPD-3 |
-| 17 | Consumer awareness (use what you buy) | 25 | Jump$tart FM-1 |
-| 18 | Lifelong saving habits | 26–30 | Jump$tart SVG-2 |
-| 19 | Family money games | 27–28 | CEE 5 |
-| 20 | Future shopping (Black Friday, Cyber Monday, online) | 31–32 | CEE 2 |
+| Money Smart for Grades 1–2 | What is money? Where does it come from? | "Money doesn't grow on trees" line | 1–2 |
+| Money Smart for Grades 1–2 | Wants vs. needs | Reward vs. necessity | 1–2 |
+| Money Smart for Grades 1–2 | What is a budget? | Bills walkthrough | 1–2 |
+| Money Smart for Grades 3–5 | Smart purchasing decisions | Clearance + coupon | 3–5 |
+| Money Smart for Grades 3–5 | Saving for goals | 529 college fund | 3–5 |
+| Money Smart for Grades 3–5 | Giving back | Mom mentions charity | 3–5 |
 
 ---
 
 ## Grant-Ready Summary
 
-**Total concepts taught:** 20 (16+ unique financial literacy topics)
-**Frameworks aligned:** 5 (Jump$tart, CEE, CCSS Math, CCSS ELA, FDIC Money Smart)
-**Grade band:** 1–5
-**Page count:** 36
-**Assessments included:** Pre/post worksheet with 10-question scoring rubric and class data tracking table
-**Lesson plan format:** 4 × 45-minute sessions, standards-coded
-**Differentiation:** Built into every lesson plan (1st–2nd and 3rd–5th paths)
+- **Total teachable concepts:** 16+ (curriculum highlights), 23 enumerated in the crosswalk above
+- **Defined glossary terms:** 21 (verbatim two-page back-matter spread)
+- **Frameworks aligned:** 5 — Jump$tart, CEE, CCSS Math, CCSS ELA, FDIC Money Smart
+- **Grade band:** 1–5
+- **Page count:** 36 (32 story pages + 4 back-matter)
+- **Assessments included:** Pre/post worksheet, 10 questions each, answer key, scoring rubric, class data tracking table (25 student rows)
+- **Lesson plan format:** 4 × 45-minute sessions, standards-coded, with differentiation for grades 1–2 and 3–5
+- **Discussion guide:** 6 sections + whole-book themes + 21-term verbatim glossary
+- **Accommodations:** Read-aloud, picture-supported, oral response, extended time, Spanish translation pathway
 
-For a custom standards report filtered by framework or grade level, use the Curriculum Alignment Matrix tool at clarencegetsabargain.com/resources.
+For a custom standards report filtered by framework or grade level, use the Curriculum Alignment Matrix tool at **clarencegetsabargain.com/resources**.
+
+---
+
+## Framework Source Citations
+
+- **Jump$tart Coalition for Personal Financial Literacy.** *National Standards in K–12 Personal Finance Education* (2021 ed.). Available at **jumpstartcoalition.org/national-standards**.
+- **Council for Economic Education (CEE).** *National Standards for Financial Literacy* (2nd ed.). Available at **councilforeconed.org/national-standards-for-financial-literacy**.
+- **Common Core State Standards Initiative.** *Common Core State Standards for English Language Arts & Literacy* and *Mathematics*. Available at **corestandards.org**.
+- **Federal Deposit Insurance Corporation.** *Money Smart for Young People*. Available at **fdic.gov/resources/consumers/money-smart**.
+
+Standards codes were current as of 2026. Frameworks update periodically; verify codes against the current edition before submitting a grant application.
 
 © 2026 Jonathan Bach. All rights reserved.
