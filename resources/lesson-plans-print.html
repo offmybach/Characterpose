@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lesson Plans | Clarence Gets a Bargain</title>
+<meta name="description" content="Four 45-minute classroom lesson plans for Clarence Gets a Bargain. Standards-aligned, no prep required, grades 1–5.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'Hold';src:url('../fonts/Hold.woff2') format('woff2'),url('../fonts/Hold.woff') format('woff'),url('../fonts/Hold.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+:root{--blue:#0054a6;--navy:#1a3a5c;--orange:#ff6b2b;--orange-dark:#F57C00;--cream:#f5ecd7;--paper:#fef9f0;--gold:#d4a437;--green:#2e8b57}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:'Lato','Nunito',sans-serif;background:var(--cream);color:#222;padding:24px 16px 60px;line-height:1.55}
+.toolbar{max-width:8.5in;margin:0 auto 20px;background:#fff;border-radius:14px;padding:16px 20px;box-shadow:0 2px 12px rgba(0,0,0,.05);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.toolbar a.home{font-family:'Hold','Nunito',sans-serif;font-size:.95rem;color:var(--navy);text-decoration:none}
+.toolbar .tip{font-size:.78rem;color:#666;flex:1;text-align:center;min-width:200px}
+.toolbar button{font-family:'Hold','Nunito',sans-serif;background:var(--orange);color:#fff;border:none;padding:10px 22px;font-size:.85rem;letter-spacing:1.5px;border-radius:30px;cursor:pointer;text-transform:uppercase;box-shadow:0 4px 14px rgba(255,107,43,.3)}
+.page{width:100%;max-width:8.5in;min-height:11in;margin:0 auto 26px;background:var(--paper);padding:.65in .65in 1in;position:relative;box-shadow:0 8px 28px rgba(0,0,0,.1);page-break-after:always;break-after:page}
+.page:last-child{page-break-after:auto;break-after:auto}
+.brand-strip{position:absolute;top:0;left:0;right:0;height:14px;background:repeating-linear-gradient(90deg,var(--blue) 0 18px,var(--orange) 18px 36px);border-bottom:3px dashed var(--paper)}
+.brand-scissor{position:absolute;top:6px;right:32px;background:var(--paper);padding:0 8px;color:var(--orange);font-size:14px;z-index:2;line-height:1}
+.page-head{border-bottom:3px solid var(--blue);padding-bottom:10px;margin-bottom:20px;display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+.page-head .pt{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:1.45rem;margin:0;line-height:1.1}
+.page-head .ps{font-size:.7rem;color:#666;letter-spacing:2px;text-transform:uppercase;margin-top:4px}
+.page-head .pref{font-family:'Hold','Nunito',sans-serif;font-size:.65rem;letter-spacing:2px;color:var(--orange);text-transform:uppercase;text-align:right;line-height:1.3}
+.page-foot{position:absolute;bottom:.3in;left:.65in;right:.65in;font-family:'Hold','Nunito',sans-serif;font-size:.6rem;letter-spacing:2px;color:#aaa;text-transform:uppercase;display:flex;justify-content:space-between;border-top:1px solid rgba(0,0,0,.08);padding-top:6px}
+.cover{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;height:9.5in;position:relative}
+.cover .pill{display:inline-block;font-family:'Hold','Nunito',sans-serif;background:var(--orange);color:#fff;font-size:.7rem;letter-spacing:4px;padding:7px 22px;border-radius:30px;text-transform:uppercase;margin-bottom:28px}
+.cover h1{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:3.6rem;margin:0 0 4px;line-height:1.02;letter-spacing:-1px}
+.cover h1 em{font-style:italic;color:var(--orange);font-weight:inherit}
+.cover .tagline{font-family:'Hold','Nunito',sans-serif;color:var(--navy);font-size:1.4rem;letter-spacing:1px;margin:8px 0 32px;font-style:italic}
+.cover .doctype{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:1.05rem;letter-spacing:6px;text-transform:uppercase;margin-bottom:14px;padding:14px 28px;border-top:2px solid var(--blue);border-bottom:2px solid var(--blue);display:inline-block}
+.cover .specs{margin-top:34px;display:flex;gap:32px;flex-wrap:wrap;justify-content:center}
+.cover .spec{text-align:center}
+.cover .spec .n{font-family:'Hold','Nunito',sans-serif;color:var(--orange);font-size:2.4rem;line-height:1}
+.cover .spec .l{font-family:'Hold','Nunito',sans-serif;font-size:.7rem;letter-spacing:2.5px;color:var(--navy);text-transform:uppercase;margin-top:4px}
+.cover .corner-stamp{position:absolute;top:42px;right:0;width:130px;height:130px;border-radius:50%;background:var(--blue);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:'Hold','Nunito',sans-serif;text-align:center;border:5px solid var(--paper);box-shadow:0 6px 16px rgba(0,0,0,.15);transform:rotate(-8deg)}
+.cover .corner-stamp .a{font-size:24px;line-height:1}
+.cover .corner-stamp .b{font-size:9px;letter-spacing:2.5px;margin-top:4px}
+.section-tag{display:inline-block;font-family:'Hold','Nunito',sans-serif;background:var(--blue);color:#fff;font-size:.62rem;letter-spacing:3px;padding:4px 12px;border-radius:4px;text-transform:uppercase;margin-bottom:10px}
+h2.section-title{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:1.6rem;margin:0 0 14px;line-height:1.15}
+h3{font-family:'Hold','Nunito',sans-serif;color:var(--navy);font-size:1.05rem;margin:18px 0 6px;line-height:1.2}
+h4{font-family:'Hold','Nunito',sans-serif;color:var(--orange);font-size:.78rem;margin:14px 0 4px;letter-spacing:2px;text-transform:uppercase}
+p{margin:0 0 10px}
+.lede{font-size:1rem;color:#333;margin-bottom:16px;line-height:1.5}
+ul,ol{padding-left:20px;margin:0 0 14px}
+ul li,ol li{margin-bottom:5px}
+strong{color:var(--navy)}
+
+/* Lesson week tile */
+.week-tile{margin-bottom:14px;background:#fff;border:2px solid var(--blue);border-radius:10px;overflow:hidden;page-break-inside:avoid}
+.week-tile .wh{background:var(--blue);color:#fff;padding:10px 18px;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.week-tile .wh .wt{font-family:'Hold','Nunito',sans-serif;font-size:1.1rem}
+.week-tile .wh .wp{font-family:'Hold','Nunito',sans-serif;font-size:.7rem;letter-spacing:2px;background:rgba(255,255,255,.18);padding:3px 10px;border-radius:30px;text-transform:uppercase}
+.week-tile .wb{padding:14px 18px;font-size:.92rem}
+.week-tile .wb .wq{color:var(--blue);font-family:'Hold','Nunito',sans-serif;font-style:italic;margin-bottom:4px;font-size:.95rem}
+
+/* Lesson time strip */
+.time-strip{display:flex;gap:8px;margin:14px 0;flex-wrap:wrap}
+.time-chip{flex:1;min-width:80px;background:#fff;border:1.5px dashed var(--blue);border-radius:6px;padding:6px 8px;text-align:center;font-size:.78rem}
+.time-chip .tt{font-family:'Hold','Nunito',sans-serif;color:var(--orange);font-size:.9rem;line-height:1}
+.time-chip .tl{font-family:'Hold','Nunito',sans-serif;font-size:.6rem;letter-spacing:1.5px;color:var(--navy);text-transform:uppercase;margin-top:2px}
+
+/* Callouts */
+.callout{margin:12px 0;padding:12px 16px;border-radius:10px;position:relative;page-break-inside:avoid}
+.callout .label{font-family:'Hold','Nunito',sans-serif;font-size:.7rem;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:6px;display:flex;align-items:center;gap:6px}
+.callout p{margin:0;font-size:.88rem}
+.callout.tip{background:#fff;border:2px dashed var(--orange)}
+.callout.tip .label{color:var(--orange)}
+.callout.warn{background:#fff8f0;border:1px solid var(--orange);border-left:5px solid var(--orange)}
+.callout.warn .label{color:var(--orange-dark)}
+.callout.fact{background:rgba(0,84,166,.06);border-left:5px solid var(--blue)}
+.callout.fact .label{color:var(--blue)}
+
+/* Standards block */
+.stds{background:var(--cream);border-radius:8px;padding:12px 14px;margin:10px 0 16px;font-size:.82rem;line-height:1.45}
+.stds .stl{font-family:'Hold','Nunito',sans-serif;font-size:.65rem;letter-spacing:2px;color:var(--blue);text-transform:uppercase;margin-bottom:6px}
+.stds ul{margin:0;padding-left:18px}
+.stds li{margin-bottom:3px;font-size:.82rem;color:#444}
+
+/* Section step */
+.step{margin:12px 0 16px;padding:10px 14px;background:#fff;border-left:4px solid var(--orange);border-radius:0 8px 8px 0;page-break-inside:avoid}
+.step .sn{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px}
+.step .sn .st{font-family:'Hold','Nunito',sans-serif;color:var(--orange);font-size:.95rem}
+.step .sn .sm{font-family:'Hold','Nunito',sans-serif;color:#999;font-size:.7rem;letter-spacing:1.5px;text-transform:uppercase}
+.step p{font-size:.9rem;margin:0}
+.step em{color:var(--blue);font-style:italic}
+
+/* Differentiation row */
+.diff-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0 14px}
+.diff-card{background:var(--cream);border:1px solid rgba(0,84,166,.2);border-radius:8px;padding:10px 14px;font-size:.85rem;page-break-inside:avoid}
+.diff-card .dh{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:.7rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:4px}
+
+/* Bridge box */
+.bridge{margin-top:14px;background:var(--orange);color:#fff;border-radius:8px;padding:10px 14px;page-break-inside:avoid}
+.bridge .bh{font-family:'Hold','Nunito',sans-serif;font-size:.7rem;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:4px;opacity:.95}
+.bridge p{margin:0;font-size:.88rem;font-style:italic}
+
+@media print{
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;box-shadow:none !important}
+  @page{size:letter portrait;margin:0}
+  html,body{background:#fff !important;padding:0 !important;margin:0 !important}
+  .toolbar{display:none !important}
+  .page{max-width:none !important;width:8.5in !important;min-height:11in !important;margin:0 !important;background:#fff !important}
+}
+@media(max-width:700px){.page{padding:30px 22px 80px}.cover h1{font-size:2.4rem}.diff-row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <a class="home" href="../index.html">&larr; Clarence Gets a Bargain</a>
+  <div class="tip">10 pages &middot; Best in color &middot; Letter portrait</div>
+  <button onclick="window.print()">&#x1F5A8;&#xFE0F; Print PDF</button>
+</div>
+
+<!-- COVER -->
+<div class="page">
+  <div class="brand-strip"></div><span class="brand-scissor">&#9986;</span>
+  <div class="cover">
+    <div class="corner-stamp"><div class="a">NO PREP</div><div class="b">REQUIRED</div></div>
+    <div class="doctype">Lesson Plans</div>
+    <h1>Clarence <em>Gets a Bargain</em></h1>
+    <div class="tagline">Four 45-Minute Sessions</div>
+    <p style="max-width:520px;font-size:1rem;color:#444;margin:0">Grades 1&ndash;5 &middot; Standards-aligned to Jump$tart 2021, CEE, CCSS, and FDIC Money Smart. The book is the anchor text every week.</p>
+    <div class="specs">
+      <div class="spec"><div class="n">4</div><div class="l">Weeks</div></div>
+      <div class="spec"><div class="n">45</div><div class="l">Min Each</div></div>
+      <div class="spec"><div class="n">1&ndash;5</div><div class="l">Grades</div></div>
+    </div>
+    <div style="margin-top:34px;font-family:'Hold','Nunito',sans-serif;font-size:.75rem;letter-spacing:3px;color:var(--orange);text-transform:uppercase">Built Alongside the Book. Not Bolted On.</div>
+  </div>
+  <div class="page-foot"><span>clarencegetsabargain.com</span><span>&copy; 2026 Jonathan Bach</span></div>
+</div>
+
+<!-- HOW TO READ -->
+<div class="page">
+  <div class="brand-strip"></div><span class="brand-scissor">&#9986;</span>
+  <div class="page-head">
+    <div><span class="section-tag">Before You Start</span><h2 class="pt">How to Read This Packet</h2><div class="ps">Standards, accessibility, differentiation</div></div>
+    <div class="pref">Page 2<br>Lesson Plans</div>
+  </div>
+
+  <p class="lede">Standards are cited in their full official format so curriculum coordinators can verify against the source frameworks. All printables referenced in the materials lists are ready-to-print at <strong>clarencegetsabargain.com/resources/curriculum-companion.html</strong> &mdash; sort cards, comparison worksheet, clearance stickers, price tags, and mock coupons. Print all five or just the page you need.</p>
+
+  <h3>Each lesson includes</h3>
+  <ul>
+    <li>Pages to read aloud (mapped to real book pages)</li>
+    <li>Standards alignment (Jump$tart 2021, CEE, CCSS, FDIC)</li>
+    <li>Learning objectives</li>
+    <li>Materials list (with links to printables)</li>
+    <li>Minute-by-minute lesson steps</li>
+    <li>Differentiation for grades 1&ndash;2 and 3&ndash;5</li>
+    <li>A bridge-to-next-week prompt to send home</li>
+  </ul>
+
+  <div class="callout fact">
+    <div class="label">&#x267F; Accessibility &amp; Equity</div>
+    <p>Every lesson works for multi-level reading classrooms (read-aloud structure), English learners (heavy visual storytelling, Spanish glossary available), and students with IEPs (discussion-based, oral/drawn/written exit tickets accepted).</p>
+  </div>
+
+  <div class="callout warn">
+    <div class="label">&#x26A0; Trauma-informed framing</div>
+    <p>When household-finance discussion comes up (Mom's bills speech, the dad-confession scene), <strong>validate first, redirect to the book's example second</strong>. Some kids' families really do struggle to pay bills &mdash; don't ask kids to share their own family's situation.</p>
+  </div>
+
+  <div class="page-foot"><span>Lesson Plans &middot; Clarence Gets a Bargain</span><span>2 of 10</span></div>
+</div>
+
+<!-- WEEK 1 -->
+<div class="page">
+  <div class="brand-strip"></div><span class="brand-scissor">&#9986;</span>
+  <div class="page-head">
+    <div><span class="section-tag">Week 1</span><h2 class="pt">&ldquo;Don't Forget, Today's the Day.&rdquo;</h2><div class="ps">Wants, Needs, and the Bills Speech</div></div>
+    <div class="pref">Page 3<br>Lesson Plans</div>
+  </div>
+
+  <div class="week-tile">
+    <div class="wh"><div class="wt">Week 1 Session</div><div class="wp">Read Pages 1&ndash;3 &middot; Grades 1&ndash;5</div></div>
+    <div class="wb">
+      <div class="wq">By the end, students will define wants and needs, name three real household bills, and explain why Clarence's robot is a want, not a need.</div>
+    </div>
+  </div>
+
+  <div class="stds">
+    <div class="stl">Standards Alignment</div>
+    <ul>
+      <li><strong>Jump$tart 2021:</strong> Spending &amp; Saving Standard 1 (Develop a plan for spending and saving)</li>
+      <li><strong>CEE Financial Literacy:</strong> Standard 2 (Buying), Standard 3 (Saving)</li>
+      <li><strong>CCSS.ELA-LITERACY.SL.1.1&ndash;SL.5.1</strong> (Collaborative Discussion)</li>
+      <li><strong>CCSS.ELA-LITERACY.RI.1.1, RI.2.1, RI.3.1</strong> (Key Ideas and Details)</li>
+    </ul>
+  </div>
+
+  <h3>Materials</h3>
+  <ul>
+    <li>Clarence Gets a Bargain (1 copy, or projected pages)</li>
+    <li>10 Wants vs. Needs sort cards &mdash; print page 1 of the <em>Curriculum Companion</em>, cut along dashed lines</li>
+    <li>Whiteboard / chart paper, crayons or markers</li>
+  </ul>
+
+  <h3>Lesson Steps (45 min)</h3>
+
+  <div class="step"><div class="sn"><div class="st">Warm-up &mdash; Vote With Your Thumbs</div><div class="sm">5 min</div></div><p>Show six items: water bottle, video game controller, umbrella, robot toy, phone, dinner. Thumbs up for need, thumbs down for want. Argue out loud about anything fuzzy. (The phone debate is gold &mdash; let it happen.)</p></div>
+
+  <div class="step"><div class="sn"><div class="st">Read aloud &mdash; Pages 1&ndash;3</div><div class="sm">8 min</div></div><p>Pause after page 1: <em>&ldquo;What did Clarence DO to earn his robot?&rdquo;</em> (chores, good grades). After page 2's &ldquo;money doesn't grow on trees&rdquo; line: let it land. After page 3 (the bills speech), ask: <em>&ldquo;How many of those bills had you heard of before?&rdquo;</em> Repeat the list: mortgage, cars, clothes, Xbox, hot water, fridge, internet, YouTube.</p></div>
+
+  <div class="step"><div class="sn"><div class="st">Discussion</div><div class="sm">8 min</div></div><p>What does Clarence want? Why isn't the robot a need? Which bill on Mom's list surprised you most? What's the difference between &ldquo;I want a robot&rdquo; and &ldquo;I need food&rdquo;?</p></div>
+
+  <div class="step"><div class="sn"><div class="st">Activity &mdash; Sort &amp; Defend</div><div class="sm">19 min</div></div><p>Pairs sort 10 cards into NEEDS and WANTS. After sorting, each pair picks ONE card they almost moved and explains why it was hard. Whole class debates the trickiest one (usually winter coat, phone, or video game).</p></div>
+
+  <div class="step"><div class="sn"><div class="st">Closure</div><div class="sm">5 min</div></div><p>Exit ticket: each kid draws one need and one want, labels them. Collect.</p></div>
+
+  <div class="diff-row">
+    <div class="diff-card"><div class="dh">Grades 1&ndash;2</div>Use picture-only sort cards. Reduce to 6 cards. Skip the &ldquo;It Depends&rdquo; discussion.</div>
+    <div class="diff-card"><div class="dh">Grades 3&ndash;5</div>Add an &ldquo;It Depends&rdquo; pile. Students defend at least one placement with a written sentence.</div>
+  </div>
+
+  <div class="bridge"><div class="bh">&#x270F;&#xFE0F; Bridge to Week 2 (send home)</div><p>&ldquo;Before next class, ask a grownup at home to name ONE household bill they pay every month. Bring back the name.&rdquo; (No dollar amounts &mdash; keeps it safe for kids whose families don't share specifics.)</p></div>
+
+  <div class="page-foot"><span>Week 1 &middot; Wants, Needs, Bills</span><span>3 of 10</span></div>
+</div>
+
+<!-- WEEK 2 -->
+<div class="page">
+  <div class="brand-strip"></div><span class="brand-scissor">&#9986;</span>
+  <div class="page-head">
+    <div><span class="section-tag">Week 2</span><h2 class="pt">&ldquo;Shopping Homework? Yes, Really.&rdquo;</h2><div class="ps">Ad Comparison, Coupons, and Picking a Store</div></div>
+    <div class="pref">Page 4<br>Lesson Plans</div>
+  </div>
+
+  <div class="week-tile">
+    <div class="wh"><div class="wt">Week 2 Session</div><div class="wp">Read Pages 4&ndash;10 &middot; Grades 1&ndash;5</div></div>
+    <div class="wb">
+      <div class="wq">By the end, students will define sale, coupon, and comparison shopping; read a real sale ad; compare the same item at two stores and pick the better deal.</div>
+    </div>
+  </div>
+
+  <div class="stds">
+    <div class="stl">Standards Alignment</div>
+    <ul>
+      <li><strong>Jump$tart 2021:</strong> Spending &amp; Saving Standard 2 (Develop a system for keeping track of personal finances); Standard 4 (Apply consumer skills)</li>
+      <li><strong>CEE Financial Literacy:</strong> Standard 2 (Buying Goods and Services)</li>
+      <li><strong>CCSS.MATH.CONTENT.2.MD.C.8</strong> (word problems with $ and &cent;); <strong>3.NBT.A.2</strong>; <strong>4.NF.B.6</strong> (decimals, grades 4&ndash;5)</li>
+      <li><strong>CCSS.ELA-LITERACY.RI.1.7, RI.2.7, RI.3.7</strong> (use illustrations/text features)</li>
+    </ul>
+  </div>
+
+  <h3>Materials</h3>
+  <ul>
+    <li>Clarence Gets a Bargain</li>
+    <li>3&ndash;4 real sale flyers from different stores (Sunday paper inserts work &mdash; collect ahead)</li>
+    <li>Comparison worksheet &mdash; print page 2 of the <em>Curriculum Companion</em> (one per pair)</li>
+    <li>Scissors and a few sample paper coupons to model (10% off, 25&cent; off, BOGO)</li>
+  </ul>
+
+  <h3>Lesson Steps (45 min)</h3>
+
+  <div class="step"><div class="sn"><div class="st">Warm-up &mdash; What Are These?</div><div class="sm">5 min</div></div><p>Hold up a Sunday newspaper insert. <em>&ldquo;Has anyone seen these at home? What do you think they're for?&rdquo;</em> Most kids will say &ldquo;recycling.&rdquo; Tell them Clarence thought exactly the same thing (page 10). Set the stakes: &ldquo;By the end of this class, you'll know exactly what these are.&rdquo;</p></div>
+
+  <div class="step"><div class="sn"><div class="st">Read aloud &mdash; Pages 4&ndash;10</div><div class="sm">10 min</div></div><p>Page 4: <em>&ldquo;Why does Mom call sale ads 'homework that's not so bad'?&rdquo;</em> Page 5: <em>&ldquo;So a SALE means the price is lower than usual. And COMPARISON SHOPPING means…?&rdquo;</em> Let a kid finish. Page 8 (coupons): <em>&ldquo;How many ways does Mom say a coupon can reach you?&rdquo;</em> Count: cut-out, mail, email, text. Page 10 (&ldquo;just like finding money on the sidewalk&rdquo;): <em>&ldquo;What does that line mean?&rdquo;</em></p></div>
+
+  <div class="step"><div class="sn"><div class="st">Guided practice &mdash; Find the Deal</div><div class="sm">12 min</div></div><p>Each pair gets ONE flyer. Class agrees on a target item (juice box, paper towels, snack). Pairs hunt for the item in their flyer and write down the price. Class compares. <em>&ldquo;This is what Clarence and Mom did at the kitchen table.&rdquo;</em></p></div>
+
+  <div class="step"><div class="sn"><div class="st">Coupon math</div><div class="sm">10 min</div></div><p>Project a $4.00 sale price. Apply three coupons:<br>&bull; 25&cent; off &rarr; $3.75<br>&bull; 10% off &rarr; $3.60<br>&bull; BOGO &rarr; $4.00 for two = $2.00 each effective<br>Which saved the most? Discuss why the math sometimes surprises us.</p></div>
+
+  <div class="step"><div class="sn"><div class="st">Closure</div><div class="sm">8 min</div></div><p>Quick share-out: each pair names the best deal they found and which flyer it was in. Tape the winning flyers to the wall &mdash; anchor chart for the rest of the unit.</p></div>
+
+  <div class="diff-row">
+    <div class="diff-card"><div class="dh">Grades 1&ndash;2</div>Use only lowest-price comparison; skip percentage coupon math.</div>
+    <div class="diff-card"><div class="dh">Grades 3&ndash;5</div>Calculate exact savings. Bonus: which coupon is best at $4 vs. at $10? (The answer changes &mdash; that's the lesson.)</div>
+  </div>
+
+  <div class="bridge"><div class="bh">&#x270F;&#xFE0F; Bridge to Week 3 (send home)</div><p>&ldquo;This week, look for a CLEARANCE sign at any store. Tell us what color it was.&rdquo;</p></div>
+
+  <div class="page-foot"><span>Week 2 &middot; Ad Comparison &amp; Coupons</span><span>4 of 10</span></div>
+</div>
+
+<!-- WEEK 3 -->
+<div class="page">
+  <div class="brand-strip"></div><span class="brand-scissor">&#9986;</span>
+  <div class="page-head">
+    <div><span class="section-tag">Week 3</span><h2 class="pt">&ldquo;Page 22. Aisle Five.&rdquo;</h2><div class="ps">Clearance, Markdowns, and the Two-Difference Decision</div></div>
+    <div class="pref">Page 5<br>Lesson Plans</div>
+  </div>
+
+  <div class="week-tile">
+    <div class="wh"><div class="wt">Week 3 Session</div><div class="wp">Read Pages 11&ndash;22 &middot; Grades 1&ndash;5</div></div>
+    <div class="wb">
+      <div class="wq">By the end, students will define clearance and markdown, explain why a clearance item isn't broken, compare two items, and apply a 10%-off coupon.</div>
+    </div>
+  </div>
+
+  <div class="stds">
+    <div class="stl">Standards Alignment</div>
+    <ul>
+      <li><strong>Jump$tart 2021:</strong> Spending &amp; Saving Standard 4 (Apply consumer skills)</li>
+      <li><strong>CEE Financial Literacy:</strong> Standard 2 (Buying Goods and Services)</li>
+      <li><strong>CCSS.MATH.CONTENT.2.MD.C.8</strong> (grades 1&ndash;2); <strong>4.NF.B.6</strong> (grade 4); <strong>5.NBT.B.7</strong> (grade 5)</li>
+      <li><strong>CCSS.ELA-LITERACY.RI.3.1, RI.4.1</strong>; <strong>L.3.5</strong> (Wordplay &mdash; for the Clarence/Clearance pun)</li>
+    </ul>
+  </div>
+
+  <h3>Materials</h3>
+  <ul>
+    <li>Clarence Gets a Bargain</li>
+    <li>Two near-identical classroom items at different prices (one &ldquo;marked down&rdquo;)</li>
+    <li>Clearance stickers &mdash; print page 3 of the <em>Curriculum Companion</em></li>
+    <li>Mock price tags &mdash; print page 4 of the <em>Curriculum Companion</em></li>
+    <li>10% OFF clearance coupons &mdash; print page 5 of the <em>Curriculum Companion</em></li>
+    <li>Play money or printable coins; calculators (grades 3&ndash;5)</li>
+  </ul>
+
+  <h3>Lesson Steps (45 min)</h3>
+
+  <div class="step"><div class="sn"><div class="st">Warm-up &mdash; Cover the Sign</div><div class="sm">5 min</div></div><p>Project the word <strong>CLEARANCE</strong> in large orange letters, but cover the last 3 letters. Ask: <em>&ldquo;What word do you think this is?&rdquo;</em> Many kids will say &ldquo;CLARENCE.&rdquo; Reveal the full word. <em>&ldquo;That's the joke we're about to find.&rdquo;</em></p></div>
+
+  <div class="step"><div class="sn"><div class="st">Read aloud &mdash; Pages 11&ndash;22</div><div class="sm">12 min</div></div><p>Page 13: <em>&ldquo;What does Clarence think he sees?&rdquo;</em> Page 15 (reveal): <em>&ldquo;How would YOU feel right then?&rdquo;</em> Page 17 (markdown explained): stop. Write the term on the board. Page 20: <em>&ldquo;Only two differences. A slightly bigger screen, an antenna. Would YOU pay extra for that?&rdquo;</em> Page 22 (sales tax + coupon): <em>&ldquo;Two surprises at the checkout. What were they?&rdquo;</em></p></div>
+
+  <div class="step"><div class="sn"><div class="st">Concept anchor</div><div class="sm">5 min</div></div><p>Write two definitions on the board, in kids' own words:<br><strong>Clearance:</strong> &ldquo;The store needs the shelf space. Not broken. Just older.&rdquo;<br><strong>Markdown:</strong> &ldquo;The new price is lower than the old price.&rdquo;</p></div>
+
+  <div class="step"><div class="sn"><div class="st">Activity &mdash; The Two-Robot Test</div><div class="sm">18 min</div></div><p>Set up two classroom items: one &ldquo;new&rdquo; at $10 with a normal price tag, one &ldquo;marked down&rdquo; from $10 to $8 with a clearance sticker. Pairs inspect both, write down the differences (color? brand? small features?), decide which to &ldquo;buy&rdquo; with $10 of play money. Then Clarence's twist: hand each pair a 10%-OFF-CLEARANCE coupon. They apply it ($8 &times; 0.10 = $0.80 off &rarr; $7.20) and recalculate. Discuss: did anyone change their mind once they saw the coupon math?</p></div>
+
+  <div class="step"><div class="sn"><div class="st">Closure</div><div class="sm">5 min</div></div><p>Pair-share: <em>&ldquo;Did your group pick the clearance one? Why? What changed when the coupon came out?&rdquo;</em></p></div>
+
+  <div class="diff-row">
+    <div class="diff-card"><div class="dh">Grades 1&ndash;2</div>Whole-dollar prices only ($10 vs. $8). Skip percentage; the lesson is &ldquo;lower number = better deal.&rdquo;</div>
+    <div class="diff-card"><div class="dh">Grades 3&ndash;5</div>Calculate 10% by hand. Add sales tax (page 22) &mdash; if local tax is 8%, what's the FINAL total? ($7.20 at 8% = $7.78.)</div>
+  </div>
+
+  <div class="bridge"><div class="bh">&#x270F;&#xFE0F; Bridge to Week 4 (send home)</div><p>&ldquo;Find one receipt at home this week. Look at it. Was there a coupon used? Was there sales tax? Bring it (or a photo of it) to share.&rdquo;</p></div>
+
+  <div class="page-foot"><span>Week 3 &middot; Clearance &amp; Markdowns</span><span>5 of 10</span></div>
+</div>
+
+<!-- WEEK 4 -->
+<div class="page">
+  <div class="brand-strip"></div><span class="brand-scissor">&#9986;</span>
+  <div class="page-head">
+    <div><span class="section-tag">Week 4</span><h2 class="pt">&ldquo;Clarence Did It. Your Kids Can Too.&rdquo;</h2><div class="ps">Family Money Games + Post-Assessment</div></div>
+    <div class="pref">Page 6<br>Lesson Plans</div>
+  </div>
+
+  <div class="week-tile">
+    <div class="wh"><div class="wt">Week 4 Session</div><div class="wp">Read Pages 23&ndash;32 &middot; Grades 1&ndash;5</div></div>
+    <div class="wb">
+      <div class="wq">By the end, students will demonstrate mastery of the 6 core concepts, show measurable improvement on the post-assessment, and name one family money game they'll play at home this week.</div>
+    </div>
+  </div>
+
+  <div class="stds">
+    <div class="stl">Standards Alignment</div>
+    <ul>
+      <li>All standards from Weeks 1&ndash;3 reviewed</li>
+      <li><strong>Jump$tart 2021:</strong> Spending &amp; Saving Standard 3 (Saving vehicles); Financial Decision Making Standard 1</li>
+      <li><strong>CEE Financial Literacy:</strong> Standard 3 (Saving)</li>
+      <li><strong>CCSS.ELA-LITERACY.SL.1.1&ndash;SL.5.1</strong> (Collaborative Discussion); <strong>W.3.1&ndash;W.5.1</strong> (Written Reflection, grades 3&ndash;5)</li>
+    </ul>
+  </div>
+
+  <h3>Materials</h3>
+  <ul>
+    <li>Clarence Gets a Bargain</li>
+    <li>Post-Assessment Worksheet (1 per student)</li>
+    <li>Wyze Shopper Certificate &mdash; ready to print at <strong>clarencegetsabargain.com/resources/wyze-shopper-certificate.html</strong></li>
+    <li>3 real grocery items (or photos) with the prices hidden for &ldquo;Guess the Price&rdquo;</li>
+    <li>Pencils, sharpened</li>
+  </ul>
+
+  <h3>Lesson Steps (45 min)</h3>
+
+  <div class="step"><div class="sn"><div class="st">Read aloud &mdash; Pages 23&ndash;32</div><div class="sm">10 min</div></div><p>Page 24 (Dad's confession): <em>&ldquo;Were Mom and Dad lying? What were they doing?&rdquo;</em> Use the trauma-informed framing &mdash; keep this about Clarence's family. Page 25 (Mom's deeper lesson): <em>&ldquo;What's the difference between a good deal and something you'll actually use?&rdquo;</em> Page 28 (Guess the Price): <em>&ldquo;What's Clarence's trick for winning? Why does it usually work?&rdquo;</em> Page 32 (Mom hints at the sequel): <em>&ldquo;What's Clarence going to learn next?&rdquo;</em></p></div>
+
+  <div class="step"><div class="sn"><div class="st">Post-Assessment</div><div class="sm">12 min</div></div><p>Students complete the post-assessment independently. Use accommodations as needed (read-aloud, picture version, oral response). Collect and score after class.</p></div>
+
+  <div class="step"><div class="sn"><div class="st">Game &mdash; Guess the Price</div><div class="sm">13 min</div></div><p>Show three real grocery items one at a time. Each kid writes their best guess at the price. Reveal &mdash; closest wins. Bonus rule: the kid with the highest guess each round has to explain why they thought it would cost that much. (Surfaces consumer-awareness reasoning.)</p></div>
+
+  <div class="step"><div class="sn"><div class="st">Wyze Shopper Certificates</div><div class="sm">5 min</div></div><p>Hand out certificates. Each student writes ONE money habit they'll try at home this week: read a sale ad with my family, ask about a coupon at checkout, look for a clearance sticker, photograph a receipt like Mom does.</p></div>
+
+  <div class="step"><div class="sn"><div class="st">Closure</div><div class="sm">5 min</div></div><p>Whole-class reflection: <em>&ldquo;What's one thing Clarence taught you about money that you'll remember next time you go shopping?&rdquo;</em> Capture on chart paper as the unit's anchor chart.</p></div>
+
+  <div class="diff-row">
+    <div class="diff-card"><div class="dh">Grades 1&ndash;2</div>Picture-supported post-assessment. Skip the written reflection &mdash; oral share works.</div>
+    <div class="diff-card"><div class="dh">Grades 3&ndash;5</div>Add a written response: <em>&ldquo;Why did Clarence pick the clearance robot? Was it a smart choice? Use two reasons from the book.&rdquo;</em></div>
+  </div>
+
+  <div class="callout fact" style="margin-top:14px">
+    <div class="label">&#x2709;&#xFE0F; After Week 4 (optional family letter)</div>
+    <p>A short letter home tells parents what kids learned and how to keep it alive at home. The <em>Family Activity Sheet</em> PDF gives parents 5 ready-to-run activities tied to specific pages of the book.</p>
+  </div>
+
+  <div class="page-foot"><span>Week 4 &middot; Smart Choices + Post-Assessment</span><span>6 of 10</span></div>
+</div>
+
+<div class="page">
+  <div class="brand-strip"></div><span class="brand-scissor">&#9986;</span>
+  <div class="page-head">
+    <div><span class="section-tag">Wrap-Up</span><h2 class="pt">Now Go Teach Some Money Smarts.</h2><div class="ps">A note before you start</div></div>
+    <div class="pref">Page 7<br>Lesson Plans</div>
+  </div>
+
+  <p style="font-size:1.2rem;font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-style:italic;line-height:1.4;margin-top:30px">Built alongside the book. Not bolted on after.</p>
+
+  <p>Every step in this packet has a real page reference. Every concept comes from Mom's actual lines. Every joke kids find is one Jonathan wrote into the story on purpose. There's nothing to translate. Just read the book and run the lesson.</p>
+
+  <p>If you have feedback, we want it. If you find something a kid said that we should know about, send it our way. If you want bulk pricing for your school, library, or program, that's at <strong>orders@clarencegetsabargain.com</strong>.</p>
+
+  <p>And if a kid in your class earns a Wyze Shopper Certificate this week? Tag a picture <strong>#ClarenceGetsABargain</strong>. We'll cheer.</p>
+
+  <div class="callout tip" style="margin-top:30px">
+    <div class="label">&#x1F4E6; Companion materials</div>
+    <p><strong>Curriculum Companion</strong> (5 printables, browser-print): clarencegetsabargain.com/resources/curriculum-companion.html<br><strong>Wyze Shopper Certificate</strong> (type-the-name, browser-print): clarencegetsabargain.com/resources/wyze-shopper-certificate.html<br><strong>Curriculum Alignment Matrix</strong> (filterable standards crosswalk): clarencegetsabargain.com/resources/curriculum-alignment-matrix.html</p>
+  </div>
+
+  <div style="margin-top:30px;text-align:center;font-family:'Hold','Nunito',sans-serif;color:var(--orange);font-size:.8rem;letter-spacing:3px;text-transform:uppercase">Story First. Money Smarts Sneak In.</div>
+
+  <div class="page-foot"><span>&copy; 2026 Jonathan Bach &middot; clarencegetsabargain.com</span><span>7 of 7</span></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Educator Preview | Clarence Gets a Bargain</title>
+<meta name="description" content="Educator Preview for Clarence Gets a Bargain — a 36-page financial literacy picture book for grades 1–5. Standards-aligned, ready-to-teach.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+/* ════════════════════════════════════════════════════════
+   CGB TOOLKIT DOCUMENT — SHARED STYLE
+   ════════════════════════════════════════════════════════ */
+@font-face{font-family:'Hold';src:url('../fonts/Hold.woff2') format('woff2'),url('../fonts/Hold.woff') format('woff'),url('../fonts/Hold.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+:root{
+  --blue:#0054a6;
+  --navy:#1a3a5c;
+  --orange:#ff6b2b;
+  --orange-dark:#F57C00;
+  --cream:#f5ecd7;
+  --paper:#fef9f0;
+  --gold:#d4a437;
+  --green:#2e8b57;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:'Lato','Nunito',sans-serif;background:var(--cream);color:#222;padding:24px 16px 60px;line-height:1.55}
+
+/* Toolbar (screen only) */
+.toolbar{max-width:8.5in;margin:0 auto 20px;background:#fff;border-radius:14px;padding:16px 20px;box-shadow:0 2px 12px rgba(0,0,0,.05);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.toolbar a.home{font-family:'Hold','Nunito',sans-serif;font-size:.95rem;color:var(--navy);text-decoration:none}
+.toolbar .tip{font-size:.78rem;color:#666;flex:1;text-align:center;min-width:200px}
+.toolbar button{font-family:'Hold','Nunito',sans-serif;background:var(--orange);color:#fff;border:none;padding:10px 22px;font-size:.85rem;letter-spacing:1.5px;border-radius:30px;cursor:pointer;text-transform:uppercase;box-shadow:0 4px 14px rgba(255,107,43,.3)}
+
+/* Page */
+.page{width:100%;max-width:8.5in;min-height:11in;margin:0 auto 26px;background:var(--paper);padding:.65in .65in 1in;position:relative;box-shadow:0 8px 28px rgba(0,0,0,.1);page-break-after:always;break-after:page}
+.page:last-child{page-break-after:auto;break-after:auto}
+
+/* Brand strip across top of every page */
+.brand-strip{position:absolute;top:0;left:0;right:0;height:14px;background:repeating-linear-gradient(90deg,var(--blue) 0 18px,var(--orange) 18px 36px);border-bottom:3px dashed var(--paper)}
+.brand-scissor{position:absolute;top:6px;right:32px;background:var(--paper);padding:0 8px;color:var(--orange);font-size:14px;z-index:2;line-height:1}
+
+/* Page header */
+.page-head{border-bottom:3px solid var(--blue);padding-bottom:10px;margin-bottom:24px;display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+.page-head .pt{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:1.45rem;margin:0;line-height:1.1}
+.page-head .ps{font-size:.7rem;color:#666;letter-spacing:2px;text-transform:uppercase;margin-top:4px}
+.page-head .pref{font-family:'Hold','Nunito',sans-serif;font-size:.65rem;letter-spacing:2px;color:var(--orange);text-transform:uppercase;text-align:right;line-height:1.3}
+
+/* Page footer */
+.page-foot{position:absolute;bottom:.3in;left:.65in;right:.65in;font-family:'Hold','Nunito',sans-serif;font-size:.6rem;letter-spacing:2px;color:#aaa;text-transform:uppercase;display:flex;justify-content:space-between;border-top:1px solid rgba(0,0,0,.08);padding-top:6px}
+
+/* COVER PAGE */
+.cover{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;height:9.5in;position:relative}
+.cover .pill{display:inline-block;font-family:'Hold','Nunito',sans-serif;background:var(--orange);color:#fff;font-size:.7rem;letter-spacing:4px;padding:7px 22px;border-radius:30px;text-transform:uppercase;margin-bottom:28px}
+.cover h1{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:4.2rem;margin:0 0 4px;line-height:1.02;letter-spacing:-1px}
+.cover h1 em{font-style:italic;color:var(--orange);font-weight:inherit}
+.cover .tagline{font-family:'Hold','Nunito',sans-serif;color:var(--navy);font-size:1.5rem;letter-spacing:1px;margin:8px 0 32px;font-style:italic}
+.cover .doctype{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:1.05rem;letter-spacing:6px;text-transform:uppercase;margin-bottom:14px;padding:14px 28px;border-top:2px solid var(--blue);border-bottom:2px solid var(--blue);display:inline-block}
+.cover .author{font-size:1rem;color:#555;margin-top:24px;font-style:italic}
+.cover .specs{margin-top:34px;display:flex;gap:32px;flex-wrap:wrap;justify-content:center}
+.cover .spec{text-align:center}
+.cover .spec .n{font-family:'Hold','Nunito',sans-serif;color:var(--orange);font-size:2.4rem;line-height:1}
+.cover .spec .l{font-family:'Hold','Nunito',sans-serif;font-size:.7rem;letter-spacing:2.5px;color:var(--navy);text-transform:uppercase;margin-top:4px}
+.cover .corner-stamp{position:absolute;top:42px;right:0;width:130px;height:130px;border-radius:50%;background:var(--orange);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:'Hold','Nunito',sans-serif;text-align:center;border:5px solid var(--paper);box-shadow:0 6px 16px rgba(0,0,0,.15);transform:rotate(8deg)}
+.cover .corner-stamp .a{font-size:32px}
+.cover .corner-stamp .b{font-size:9px;letter-spacing:2.5px;margin-top:4px}
+.cover .ribbon{margin-top:30px;font-family:'Hold','Nunito',sans-serif;font-size:.75rem;letter-spacing:3px;color:var(--orange);text-transform:uppercase}
+
+/* Content */
+.section-tag{display:inline-block;font-family:'Hold','Nunito',sans-serif;background:var(--blue);color:#fff;font-size:.62rem;letter-spacing:3px;padding:4px 12px;border-radius:4px;text-transform:uppercase;margin-bottom:10px}
+h2.section-title{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:1.6rem;margin:0 0 14px;line-height:1.15}
+h3{font-family:'Hold','Nunito',sans-serif;color:var(--navy);font-size:1.1rem;margin:18px 0 8px;line-height:1.2}
+p{margin:0 0 12px}
+.lede{font-size:1.05rem;color:#333;margin-bottom:18px;line-height:1.5}
+.lede em{color:var(--blue);font-style:italic;font-weight:700}
+ul,ol{padding-left:20px;margin:0 0 16px}
+ul li,ol li{margin-bottom:6px}
+strong{color:var(--navy)}
+em{color:#333}
+
+/* Pull quote */
+.pullquote{margin:24px 0;padding:18px 20px 18px 28px;border-left:5px solid var(--orange);background:#fff;font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:1.25rem;line-height:1.35;font-style:italic;position:relative;page-break-inside:avoid;border-radius:0 8px 8px 0}
+.pullquote::before{content:'\201C';position:absolute;top:6px;left:8px;color:var(--orange);font-size:2.2rem;font-family:Georgia,serif;line-height:1}
+
+/* Callouts */
+.callout{margin:16px 0;padding:14px 16px;border-radius:10px;position:relative;page-break-inside:avoid}
+.callout .label{font-family:'Hold','Nunito',sans-serif;font-size:.7rem;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:6px;display:flex;align-items:center;gap:8px}
+.callout p{margin:0;font-size:.92rem}
+.callout.tip{background:#fff;border:2px dashed var(--orange)}
+.callout.tip .label{color:var(--orange)}
+.callout.fact{background:rgba(0,84,166,.06);border-left:5px solid var(--blue)}
+.callout.fact .label{color:var(--blue)}
+.callout.story{background:var(--cream);border:1px solid rgba(26,58,92,.2)}
+.callout.story .label{color:var(--navy)}
+
+/* Three teaching moments cards */
+.moment-grid{display:grid;grid-template-columns:1fr;gap:14px;margin:18px 0}
+.moment{background:#fff;border:2px solid var(--blue);border-radius:10px;padding:14px 18px;page-break-inside:avoid;position:relative}
+.moment::before{content:'';position:absolute;top:-2px;left:18px;width:60px;height:6px;background:var(--orange)}
+.moment .mh{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:1.05rem;margin-bottom:6px;display:flex;align-items:center;gap:8px}
+.moment .mh .mn{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;background:var(--orange);color:#fff;font-size:.85rem}
+.moment .mp{font-size:.9rem;color:#444;margin:0}
+
+/* Table */
+.brand-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.85rem}
+.brand-table th{background:var(--blue);color:#fff;font-family:'Hold','Nunito',sans-serif;text-align:left;padding:10px 12px;font-size:.7rem;letter-spacing:2px;text-transform:uppercase}
+.brand-table td{padding:10px 12px;border-bottom:1px solid rgba(0,0,0,.08);vertical-align:top}
+.brand-table tr:nth-child(even) td{background:rgba(245,236,215,.4)}
+.brand-table tr:last-child td{border-bottom:none}
+
+/* Stat strip */
+.stats-strip{display:flex;gap:14px;margin:18px 0;justify-content:space-between;flex-wrap:wrap}
+.stat-chip{flex:1;min-width:130px;background:#fff;border:2px dashed var(--blue);border-radius:10px;padding:14px;text-align:center}
+.stat-chip .n{font-family:'Hold','Nunito',sans-serif;color:var(--orange);font-size:2rem;line-height:1}
+.stat-chip .l{font-family:'Hold','Nunito',sans-serif;font-size:.65rem;letter-spacing:2px;color:var(--navy);text-transform:uppercase;margin-top:4px}
+
+/* Coupon-style row */
+.coupon-row{background:#fff;border:3px dashed var(--orange);border-radius:8px;padding:14px 18px;margin:14px 0;position:relative;page-break-inside:avoid}
+.coupon-row::before{content:'\2702';position:absolute;top:-8px;right:14px;background:var(--paper);padding:0 6px;color:var(--orange);font-size:14px}
+.coupon-row .ch{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:.95rem;margin-bottom:4px}
+
+/* Sign-off */
+.signoff{margin-top:24px;padding-top:14px;border-top:2px dashed var(--orange);font-family:'Hold','Nunito',sans-serif;color:var(--navy);font-size:1.1rem;font-style:italic}
+
+@media print{
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;box-shadow:none !important}
+  @page{size:letter portrait;margin:0}
+  html,body{background:#fff !important;padding:0 !important;margin:0 !important}
+  .toolbar{display:none !important}
+  .page{max-width:none !important;width:8.5in !important;min-height:11in !important;margin:0 !important;background:#fff !important}
+}
+@media(max-width:700px){
+  .page{padding:30px 22px 80px}
+  .cover h1{font-size:2.6rem}
+  .cover .tagline{font-size:1.1rem}
+  .cover .corner-stamp{width:90px;height:90px;top:24px;right:0}
+  .cover .corner-stamp .a{font-size:22px}
+}
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <a class="home" href="../index.html">&larr; Clarence Gets a Bargain</a>
+  <div class="tip">8 pages &middot; Best printed in color &middot; Letter portrait</div>
+  <button onclick="window.print()">&#x1F5A8;&#xFE0F; Print PDF</button>
+</div>
+
+<!-- ════════ PAGE 1 — COVER ════════ -->
+<div class="page">
+  <div class="brand-strip"></div>
+  <span class="brand-scissor">&#9986;</span>
+
+  <div class="cover">
+    <div class="corner-stamp"><div class="a">FREE</div><div class="b">FOR EDUCATORS</div></div>
+
+    <div class="doctype">Educator Preview</div>
+    <h1>Clarence <em>Gets a Bargain</em></h1>
+    <div class="tagline">Story First. Money Smarts Sneak In.</div>
+
+    <p style="max-width:520px;font-size:1rem;color:#444;margin:0">A 36-page financial literacy picture book for grades 1&ndash;5 that teaches 16+ money concepts &mdash; without ever feeling like a textbook.</p>
+
+    <div class="specs">
+      <div class="spec"><div class="n">36</div><div class="l">Pages</div></div>
+      <div class="spec"><div class="n">16+</div><div class="l">Concepts</div></div>
+      <div class="spec"><div class="n">5</div><div class="l">Frameworks</div></div>
+      <div class="spec"><div class="n">21</div><div class="l">Glossary Terms</div></div>
+    </div>
+
+    <div class="author">Written &amp; Illustrated by Jonathan Bach</div>
+    <div class="ribbon">For Institutional Review</div>
+  </div>
+
+  <div class="page-foot">
+    <span>clarencegetsabargain.com</span>
+    <span>&copy; 2026 Jonathan Bach</span>
+  </div>
+</div>
+
+<!-- ════════ PAGE 2 — WELCOME LETTER ════════ -->
+<div class="page">
+  <div class="brand-strip"></div>
+  <span class="brand-scissor">&#9986;</span>
+
+  <div class="page-head">
+    <div>
+      <h2 class="pt">Welcome from the Author</h2>
+      <div class="ps">A note from Jonathan Bach</div>
+    </div>
+    <div class="pref">Page 2<br>Educator Preview</div>
+  </div>
+
+  <p class="lede">Dear Educator,</p>
+
+  <p style="font-size:1.15rem;font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-style:italic;margin:18px 0 22px">We snuck a financial education inside a story about a kid and a robot.</p>
+
+  <p>That's the whole pitch. <em>Clarence Gets a Bargain</em> teaches 16+ money concepts &mdash; wants vs. needs, budgeting, comparison shopping, markdowns, sales tax, the 529 &mdash; without ever feeling like a textbook. Kids read it for the story. The lessons sneak in because the plot demands them.</p>
+
+  <p>The materials in this packet match the book chapter by chapter. No fabricated subplots. No invented prices. Every discussion prompt ties back to a real page.</p>
+
+  <p>You don't need a finance background to use any of this. Read the book aloud, run the lesson, hand out the worksheet. Done.</p>
+
+  <p style="margin-top:18px">Thanks for the work you do.</p>
+
+  <div class="signoff">&mdash; Jonathan Bach<br><span style="font-size:.8rem;color:#777;font-style:normal">Author &amp; Illustrator</span></div>
+
+  <div class="callout fact" style="margin-top:32px">
+    <div class="label">&#x1F4E6; What's in this packet</div>
+    <p>Six educator resources, all free, all aligned to national standards: <strong>Educator Preview</strong> &middot; <strong>Lesson Plans</strong> &middot; <strong>Discussion Guide</strong> &middot; <strong>Assessment Worksheet</strong> &middot; <strong>Family Activity Sheet</strong> &middot; <strong>Standards Alignment Chart</strong>.</p>
+  </div>
+
+  <div class="page-foot">
+    <span>Educator Preview &middot; Clarence Gets a Bargain</span>
+    <span>2 of 8</span>
+  </div>
+</div>
+
+<!-- ════════ PAGE 3 — WHY IT WORKS ════════ -->
+<div class="page">
+  <div class="brand-strip"></div>
+  <span class="brand-scissor">&#9986;</span>
+
+  <div class="page-head">
+    <div>
+      <span class="section-tag">For the Classroom</span>
+      <h2 class="pt">Why It Works in a Classroom</h2>
+      <div class="ps">Three teaching moments do most of the work</div>
+    </div>
+    <div class="pref">Page 3<br>Educator Preview</div>
+  </div>
+
+  <p class="lede">The book is short (36 pages), funny, and structured around a single shopping trip &mdash; which is also a perfect 4-week curriculum arc. Each act of the story maps to one financial concept cluster, so the teaching unit and the read-aloud are the same object. Kids don't know they're in a money lesson. They're following a kid with a robot obsession through a store.</p>
+
+  <div class="moment-grid">
+    <div class="moment">
+      <div class="mh"><span class="mn">1</span>The Bills Speech <span style="color:#999;font-size:.78rem;font-style:italic">(page 3)</span></div>
+      <p class="mp">Mom names every household bill out loud &mdash; mortgage, internet, streaming, hot water, YouTube. Kids learn that things they take for granted cost money to keep running. This is your wants-vs-needs anchor.</p>
+    </div>
+    <div class="moment">
+      <div class="mh"><span class="mn">2</span>The Clearance / Clarence Joke <span style="color:#999;font-size:.78rem;font-style:italic">(pages 13&ndash;15)</span></div>
+      <p class="mp">Clarence sees his name in giant orange letters and runs over. The sign says &ldquo;Clearance,&rdquo; not &ldquo;Clarence.&rdquo; Mom uses the mistake to teach what a clearance section is, why managers mark items down, and why &ldquo;older&rdquo; isn't &ldquo;broken.&rdquo; It's the book's most-shareable moment and a perfect concept anchor.</p>
+    </div>
+    <div class="moment">
+      <div class="mh"><span class="mn">3</span>The Two-Difference Decision <span style="color:#999;font-size:.78rem;font-style:italic">(pages 19&ndash;22)</span></div>
+      <p class="mp">Clarence puts the clearance robot next to the new one. Two differences: a slightly bigger screen, an antenna. He picks the clearance one. Then he remembers the 10%-off coupon in his pocket. This is comparison shopping + markdown + coupon math in a single scene.</p>
+    </div>
+  </div>
+
+  <div class="callout story">
+    <div class="label">&#x1F4D6; How it ends</div>
+    <p>The book closes with Dad confessing he and Mom exaggerated about the cold baths and Wi-Fi &mdash; they were teaching, not panicking. The 529 is still funded. Clarence becomes the kid hunting deals on everything. Mom teases the sequel: Black Friday, Cyber Monday, Prime Day.</p>
+  </div>
+
+  <div class="page-foot">
+    <span>Educator Preview &middot; Clarence Gets a Bargain</span>
+    <span>3 of 8</span>
+  </div>
+</div>
+
+<!-- ════════ PAGE 4 — BUILT-IN EXTRAS ════════ -->
+<div class="page">
+  <div class="brand-strip"></div>
+  <span class="brand-scissor">&#9986;</span>
+
+  <div class="page-head">
+    <div>
+      <span class="section-tag">What Makes This Different</span>
+      <h2 class="pt">Built In, Not Bolted On</h2>
+      <div class="ps">Three things most picture books don't have</div>
+    </div>
+    <div class="pref">Page 4<br>Educator Preview</div>
+  </div>
+
+  <div class="coupon-row">
+    <div class="ch">&#x1F4D6; 21-Term Financial Glossary</div>
+    <p style="margin:0;font-size:.92rem">In the back of the book &mdash; verbatim, page-cited. Curriculum vocabulary is built in, not bolted on. Bills, mortgage, 529, coupons, clearance, markdown, sales tax, receipt, Black Friday, Cyber Monday, Prime Day &mdash; all defined in Mom's own voice.</p>
+  </div>
+
+  <div class="coupon-row">
+    <div class="ch">&#x1F4F8; A Receipt Habit, Modeled</div>
+    <p style="margin:0;font-size:.92rem">On page 22, Mom photographs the receipt the moment she sits down in the car. The glossary's Receipt entry calls it out as <em>&ldquo;not a bad habit.&rdquo;</em> Teachers can use it as a real-world money skill aside &mdash; the kind of thing kids actually take home.</p>
+  </div>
+
+  <div class="coupon-row">
+    <div class="ch">&#x1F913; The Wyze Pun</div>
+    <p style="margin:0;font-size:.92rem">Clarence's last name is <strong>Wyze.</strong> Mom calls him a &ldquo;Wyze little shopper&rdquo; on page 21. The glossary's Sale entry calls back to it (<em>&ldquo;a certain Wyze kid we know&rdquo;</em>). The wordplay anchors the whole curriculum's identity.</p>
+  </div>
+
+  <h3>The Big Six Concepts</h3>
+  <ul>
+    <li><strong><em>Wants vs. Needs.</em></strong> Mom's first lesson &mdash; rewards vs. necessities (pages 1&ndash;3).</li>
+    <li><strong>Budgeting &amp; Bills.</strong> Mortgage, utilities, internet, streaming, charitable giving (page 3).</li>
+    <li><strong>Comparison Shopping.</strong> Done at the kitchen table by reading ads across multiple stores' sale flyers (pages 4&ndash;9).</li>
+    <li><strong>Coupons &amp; Markdowns.</strong> Cut-outs, mail, email, texted codes, plus the in-store clearance system. The 10%-off coupon at checkout is the payoff (pages 7&ndash;8, 16&ndash;17, 22).</li>
+    <li><strong>College Savings (529).</strong> Mom introduces the account on page 6; Dad confirms it's funded on page 24.</li>
+    <li><strong>Consumer Awareness.</strong> A good deal isn't a deal if you don't actually use the thing (page 25).</li>
+  </ul>
+
+  <p style="font-size:.88rem;color:#666;font-style:italic">Plus: sales tax (p. 22), charitable giving (p. 4), the difference between clearance and defective, family money games (pp. 27&ndash;28), and future-shopping concepts (Black Friday / Cyber Monday / Prime Day, p. 32).</p>
+
+  <div class="page-foot">
+    <span>Educator Preview &middot; Clarence Gets a Bargain</span>
+    <span>4 of 8</span>
+  </div>
+</div>
+
+<!-- ════════ PAGE 5 — STANDARDS ════════ -->
+<div class="page">
+  <div class="brand-strip"></div>
+  <span class="brand-scissor">&#9986;</span>
+
+  <div class="page-head">
+    <div>
+      <span class="section-tag">For Grant Applications</span>
+      <h2 class="pt">Standards Alignment</h2>
+      <div class="ps">5 national frameworks &middot; full crosswalk in separate PDF</div>
+    </div>
+    <div class="pref">Page 5<br>Educator Preview</div>
+  </div>
+
+  <p class="lede">Every concept in the book maps to at least one nationally recognized framework. The full concept-by-concept crosswalk is in the <strong>Standards Alignment Chart</strong> PDF. Highlights below.</p>
+
+  <table class="brand-table">
+    <thead>
+      <tr><th>Framework</th><th>Strands Addressed</th><th>Pages</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Jump$tart 2021</strong><br><span style="font-size:.78rem;color:#666">National Standards in K&ndash;12 Personal Finance</span></td><td>Spending &amp; Saving (Std. 1, 3, 4); Financial Decision Making (Std. 1)</td><td>1&ndash;30</td></tr>
+      <tr><td><strong>CEE</strong><br><span style="font-size:.78rem;color:#666">National Standards for Financial Literacy</span></td><td>Standard 2 (Buying Goods &amp; Services); Standard 3 (Saving)</td><td>4&ndash;30</td></tr>
+      <tr><td><strong>CCSS Math</strong></td><td>1.OA.A.1, 2.OA.A.1, 2.MD.C.8, 4.NF.B.6, 5.NBT.B.7</td><td>4&ndash;22</td></tr>
+      <tr><td><strong>CCSS ELA</strong></td><td>RI.1.1&ndash;RI.5.1; SL.1.1&ndash;SL.5.1; L.3.5 (wordplay)</td><td>1&ndash;32</td></tr>
+      <tr><td><strong>FDIC Money Smart</strong><br><span style="font-size:.78rem;color:#666">for Young People</span></td><td>Grades 1&ndash;2: Money Matters; Grades 3&ndash;5: Spend, Share &amp; Save</td><td>1&ndash;30</td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout tip">
+    <div class="label">&#x1F4A1; For grant reviewers</div>
+    <p>The Standards Alignment Chart PDF includes a 23-row concept-by-concept crosswalk with verifiable framework codes and source URLs (jumpstartcoalition.org, councilforeconed.org, corestandards.org, fdic.gov). Built for Title I, CRA, and foundation reporting.</p>
+  </div>
+
+  <div class="page-foot">
+    <span>Educator Preview &middot; Clarence Gets a Bargain</span>
+    <span>5 of 8</span>
+  </div>
+</div>
+
+<!-- ════════ PAGE 6 — STORY MAP ════════ -->
+<div class="page">
+  <div class="brand-strip"></div>
+  <span class="brand-scissor">&#9986;</span>
+
+  <div class="page-head">
+    <div>
+      <span class="section-tag">Story Structure</span>
+      <h2 class="pt">Chapter Overview</h2>
+      <div class="ps">Four acts &middot; Each maps to a curriculum week</div>
+    </div>
+    <div class="pref">Page 6<br>Educator Preview</div>
+  </div>
+
+  <div class="coupon-row">
+    <div class="ch">Pages 1&ndash;3 &middot; The Setup</div>
+    <p style="margin:0;font-size:.92rem">Clarence earned the robot. Mom reminds him rewards cost money. She walks through bills: mortgage, internet, streaming, hot water, charity, the 529. <em>Anchor concept: Wants vs. Needs.</em></p>
+  </div>
+
+  <div class="coupon-row">
+    <div class="ch">Pages 4&ndash;10 &middot; Shopping Homework</div>
+    <p style="margin:0;font-size:.92rem">Mom asks Clarence to bring the newspaper. They open the ad inserts. Sales explained. Comparison shopping introduced. Coupons explained. Best deal on robots located at Sea-Mart. <em>Anchor concepts: Comparison Shopping, Coupons.</em></p>
+  </div>
+
+  <div class="coupon-row">
+    <div class="ch">Pages 11&ndash;22 &middot; Aisle Five</div>
+    <p style="margin:0;font-size:.92rem">Massive robot selection. The &ldquo;Clearance&rdquo; sign Clarence misreads as his name. Mom explains markdowns. Clarence finds a RoBimmie on clearance. Compares to new model. Two differences. Picks the clearance one. Coupon applied at checkout. Sales tax explained. <em>Anchor concepts: Clearance, Markdowns, Smart Purchasing.</em></p>
+  </div>
+
+  <div class="coupon-row">
+    <div class="ch">Pages 23&ndash;32 &middot; Aftermath</div>
+    <p style="margin:0;font-size:.92rem">Dad admits the bills speech was partly exaggerated &mdash; they wanted Clarence to understand savings. 529 confirmed. Clarence becomes a habitual deal-hunter. Family invents money games. Mom teases the sequel. <em>Anchor concepts: Saving Habits, Consumer Awareness, Family Money Talk.</em></p>
+  </div>
+
+  <div class="callout fact">
+    <div class="label">&#x1F4C5; Back-matter (pages 33&ndash;36)</div>
+    <p>A 21-term financial glossary in Mom's voice. Verbatim definitions of Bills, Budget, Income, Mortgage, Charity, Sale, Sales Tax, Comparison Shopping, 529 Account, College, Tuition, Coupons, Clearance, Markdown, Savings, Consumer, Wants and Needs, Receipt, Black Friday, Cyber Monday, and Prime Day. Each entry cites the story page(s) where it appears.</p>
+  </div>
+
+  <div class="page-foot">
+    <span>Educator Preview &middot; Clarence Gets a Bargain</span>
+    <span>6 of 8</span>
+  </div>
+</div>
+
+<!-- ════════ PAGE 7 — LEARNING OBJECTIVES ════════ -->
+<div class="page">
+  <div class="brand-strip"></div>
+  <span class="brand-scissor">&#9986;</span>
+
+  <div class="page-head">
+    <div>
+      <span class="section-tag">Measurable Outcomes</span>
+      <h2 class="pt">Learning Objectives</h2>
+      <div class="ps">After the 4-week module, students will:</div>
+    </div>
+    <div class="pref">Page 7<br>Educator Preview</div>
+  </div>
+
+  <ul style="font-size:1rem;line-height:1.6">
+    <li>Define wants, needs, budget, coupon, clearance, markdown, sales tax, and 529 in their own words.</li>
+    <li>Read a real sale ad and identify at least one comparison-shopping decision.</li>
+    <li>Explain why a clearance item isn't a broken item.</li>
+    <li>Identify the two differences between the clearance and new RoBimmie (smaller screen, antenna) and justify Clarence's choice.</li>
+    <li>Apply a coupon to a sale price and calculate the new total.</li>
+    <li>Describe one household bill and why budgeting matters.</li>
+    <li>Complete a pre/post assessment showing measurable gains.</li>
+  </ul>
+
+  <div class="stats-strip">
+    <div class="stat-chip"><div class="n">4</div><div class="l">Weeks</div></div>
+    <div class="stat-chip"><div class="n">45</div><div class="l">Min / Session</div></div>
+    <div class="stat-chip"><div class="n">21</div><div class="l">Vocab Terms</div></div>
+    <div class="stat-chip"><div class="n">10</div><div class="l">Assessment Qs</div></div>
+  </div>
+
+  <h3>Built-in differentiation</h3>
+  <p>Every lesson plan includes scaffolding for:</p>
+  <ul>
+    <li><strong>Grades 1&ndash;2:</strong> picture-supported activities, whole-dollar prices, oral exit tickets</li>
+    <li><strong>Grades 3&ndash;5:</strong> percentage discount math, written reflection, sales tax extension</li>
+    <li><strong>Multi-grade classrooms:</strong> peer mentoring pairs (older student leads, younger records)</li>
+  </ul>
+
+  <h3>Accessibility &amp; equity</h3>
+  <ul>
+    <li>Read-aloud structure works for all reading levels</li>
+    <li>Heavy visual storytelling supports English learners</li>
+    <li>Discussion prompts work for kids who struggle with writing</li>
+    <li>Trauma-informed framing on the household-finance scenes (see Lesson Plans &amp; Discussion Guide for facilitation notes)</li>
+  </ul>
+
+  <div class="page-foot">
+    <span>Educator Preview &middot; Clarence Gets a Bargain</span>
+    <span>7 of 8</span>
+  </div>
+</div>
+
+<!-- ════════ PAGE 8 — HOW TO ORDER ════════ -->
+<div class="page">
+  <div class="brand-strip"></div>
+  <span class="brand-scissor">&#9986;</span>
+
+  <div class="page-head">
+    <div>
+      <span class="section-tag">For Districts &amp; Programs</span>
+      <h2 class="pt">How to Order</h2>
+      <div class="ps">Direct from the publisher</div>
+    </div>
+    <div class="pref">Page 8<br>Educator Preview</div>
+  </div>
+
+  <div class="pullquote">A money book kids actually read.</div>
+
+  <h3>Single copies</h3>
+  <p><strong>$19.99 + $5.99 shipping</strong> &middot; direct order at <strong>clarencegetsabargain.com</strong></p>
+
+  <h3>Bulk &amp; institutional</h3>
+  <p>For orders of <strong>10+ copies</strong> for classrooms, credit union branches, libraries, or community programs:</p>
+
+  <div class="coupon-row" style="border-color:var(--blue);margin-top:8px">
+    <div class="ch" style="color:var(--orange)">&#x1F4E7; Get a quote</div>
+    <p style="margin:0;font-size:.95rem"><strong>orders@clarencegetsabargain.com</strong></p>
+    <p style="margin:6px 0 0;font-size:.85rem;color:#555">Purchase orders accepted &middot; Net 30 standard &middot; Title I pricing on file &middot; CRA &amp; Title I documentation available on request</p>
+  </div>
+
+  <h3 style="margin-top:24px">Educator materials</h3>
+  <p>All six educator PDFs are <strong>free to download, reproduce, and distribute within your institution</strong>. Available at <strong>clarencegetsabargain.com/educator-toolkit</strong>:</p>
+  <ul style="font-size:.92rem">
+    <li>Educator Preview <em>(this document)</em></li>
+    <li>Lesson Plans &mdash; four 45-min weekly sessions</li>
+    <li>Discussion Guide &mdash; chapter-by-chapter facilitation with 21-term glossary</li>
+    <li>Assessment Worksheet &mdash; pre/post with answer key and class data tracking</li>
+    <li>Family Activity Sheet &mdash; 5 take-home activities</li>
+    <li>Standards Alignment Chart &mdash; 23-row concept crosswalk for grant applications</li>
+  </ul>
+
+  <p style="margin-top:24px">Plus a Curriculum Companion with printable sort cards, comparison worksheets, clearance stickers, mock price tags, and 10%-off coupons. Plus a printable Wyze Shopper Certificate.</p>
+
+  <div class="signoff" style="text-align:right;border-bottom:2px dashed var(--orange);border-top:none;padding-top:0;padding-bottom:14px">Story First. Money Smarts Sneak In.</div>
+
+  <div class="page-foot">
+    <span>&copy; 2026 Jonathan Bach &middot; clarencegetsabargain.com</span>
+    <span>8 of 8</span>
+  </div>
+</div>
+
+</body>
+</html>
