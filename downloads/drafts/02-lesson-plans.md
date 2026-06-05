@@ -7,7 +7,7 @@ Each lesson uses Clarence Gets a Bargain as the anchor text and aligns to Jump$t
 
 ### How to read this packet
 
-Standards are cited in their full official format so curriculum coordinators can verify against the source frameworks. Printables marked **[P]** are simple sort cards / worksheets the teacher prepares ahead of time — templates aren't in this packet yet; build them from the prompts or watch for the Curriculum Companion (shipping soon).
+Standards are cited in their full official format so curriculum coordinators can verify against the source frameworks. **All printables referenced below are ready-to-print** at **clarencegetsabargain.com/resources/curriculum-companion.html** — sort cards, comparison worksheet, clearance stickers, price tags, and mock coupons. Print all 5 or just the page you need.
 
 ### Accessibility notes
 
@@ -39,11 +39,9 @@ By the end of this lesson, students will:
 
 ### Materials
 - Clarence Gets a Bargain (1 copy, or projected pages)
-- 10 Wants vs. Needs sort cards **[P]** (see prompts below)
+- 10 Wants vs. Needs sort cards — print page 1 of the [Curriculum Companion](https://www.clarencegetsabargain.com/resources/curriculum-companion.html#sort-cards), cut along dashed lines
 - Whiteboard / chart paper
 - Crayons or markers
-
-**[P] Sort card prompts** (write or print one per card): a glass of water, a video game, a winter coat in Minnesota, a YouTube subscription, food on the table, a new robot, a roof, a movie ticket, doctor visit, candy.
 
 ### Lesson Steps (45 min)
 
@@ -95,7 +93,7 @@ By the end of this lesson, students will:
 ### Materials
 - Clarence Gets a Bargain
 - 3–4 real sale flyers from different stores (Sunday paper inserts work — collect ahead)
-- Comparison worksheet **[P]** (3-column: ITEM / STORE A PRICE / STORE B PRICE / BETTER DEAL)
+- Comparison worksheet — print page 2 of the [Curriculum Companion](https://www.clarencegetsabargain.com/resources/curriculum-companion.html#worksheet) (one per pair)
 - Scissors (one pair per pair of kids)
 - A few sample paper coupons to model (10% off, 25¢ off, BOGO)
 
@@ -150,8 +148,9 @@ By the end of this lesson, students will:
 ### Materials
 - Clarence Gets a Bargain
 - Two near-identical classroom items at different prices (one "marked down")
-- Bright orange / yellow clearance stickers **[P]** (printable or hand-cut; the visual matters)
-- Pretend price tags **[P]** (one "regular" and one "clearance")
+- Clearance stickers — print page 3 of the [Curriculum Companion](https://www.clarencegetsabargain.com/resources/curriculum-companion.html#stickers) (12 per page, orange and yellow alternating)
+- Mock price tags — print page 4 of the [Curriculum Companion](https://www.clarencegetsabargain.com/resources/curriculum-companion.html#tags) (one regular, one clearance)
+- 10% OFF clearance coupons — print page 5 of the [Curriculum Companion](https://www.clarencegetsabargain.com/resources/curriculum-companion.html#coupons) (4 per page)
 - Play money or printable coins
 - Calculators (grades 3–5)
 - Optional: image of a real clearance sign (orange or yellow) to project at warm-up
