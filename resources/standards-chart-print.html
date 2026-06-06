@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Standards Alignment Chart | Clarence Gets a Bargain</title>
+<meta name="description" content="Standards alignment for Clarence Gets a Bargain — Jump$tart 2021, CEE, CCSS Math & ELA, FDIC Money Smart. Grant-ready crosswalk.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'Hold';src:url('../fonts/Hold.woff2') format('woff2'),url('../fonts/Hold.woff') format('woff'),url('../fonts/Hold.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+:root{--blue:#0054a6;--navy:#1a3a5c;--orange:#ff6b2b;--cream:#f5ecd7;--paper:#fef9f0;--gold:#d4a437;--green:#2e8b57;--purple:#7B2D8E;--teal:#009688}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:'Lato','Nunito',sans-serif;background:var(--cream);color:#222;padding:24px 16px 60px;line-height:1.55}
+.toolbar{max-width:8.5in;margin:0 auto 20px;background:#fff;border-radius:14px;padding:16px 20px;box-shadow:0 2px 12px rgba(0,0,0,.05);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.toolbar a.home{font-family:'Hold','Nunito',sans-serif;font-size:.95rem;color:var(--navy);text-decoration:none}
+.toolbar .tip{font-size:.78rem;color:#666;flex:1;text-align:center;min-width:200px}
+.toolbar button{font-family:'Hold','Nunito',sans-serif;background:var(--orange);color:#fff;border:none;padding:10px 22px;font-size:.85rem;letter-spacing:1.5px;border-radius:30px;cursor:pointer;text-transform:uppercase;box-shadow:0 4px 14px rgba(255,107,43,.3)}
+.page{width:100%;max-width:8.5in;min-height:11in;margin:0 auto 26px;background:var(--paper);padding:.65in .65in 1in;position:relative;box-shadow:0 8px 28px rgba(0,0,0,.1);page-break-after:always;break-after:page}
+.page:last-child{page-break-after:auto;break-after:auto}
+.brand-strip{position:absolute;top:0;left:0;right:0;height:14px;background:repeating-linear-gradient(90deg,var(--blue) 0 18px,var(--orange) 18px 36px);border-bottom:3px dashed var(--paper)}
+.brand-scissor{position:absolute;top:6px;right:32px;background:var(--paper);padding:0 8px;color:var(--orange);font-size:14px;z-index:2;line-height:1}
+.page-head{border-bottom:3px solid var(--blue);padding-bottom:10px;margin-bottom:16px;display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+.page-head .pt{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:1.4rem;margin:0;line-height:1.1}
+.page-head .ps{font-size:.7rem;color:#666;letter-spacing:2px;text-transform:uppercase;margin-top:4px}
+.page-head .pref{font-family:'Hold','Nunito',sans-serif;font-size:.65rem;letter-spacing:2px;color:var(--orange);text-transform:uppercase;text-align:right;line-height:1.3}
+.page-foot{position:absolute;bottom:.3in;left:.65in;right:.65in;font-family:'Hold','Nunito',sans-serif;font-size:.6rem;letter-spacing:2px;color:#aaa;text-transform:uppercase;display:flex;justify-content:space-between;border-top:1px solid rgba(0,0,0,.08);padding-top:6px}
+.cover{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;height:9.5in;position:relative}
+.cover h1{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:3.4rem;margin:0 0 4px;line-height:1.02;letter-spacing:-1px}
+.cover h1 em{font-style:italic;color:var(--orange);font-weight:inherit}
+.cover .tagline{font-family:'Hold','Nunito',sans-serif;color:var(--navy);font-size:1.4rem;letter-spacing:1px;margin:8px 0 32px;font-style:italic}
+.cover .doctype{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:1.05rem;letter-spacing:6px;text-transform:uppercase;margin-bottom:14px;padding:14px 28px;border-top:2px solid var(--blue);border-bottom:2px solid var(--blue);display:inline-block}
+.cover .specs{margin-top:34px;display:flex;gap:32px;flex-wrap:wrap;justify-content:center}
+.cover .spec{text-align:center}
+.cover .spec .n{font-family:'Hold','Nunito',sans-serif;color:var(--orange);font-size:2.4rem;line-height:1}
+.cover .spec .l{font-family:'Hold','Nunito',sans-serif;font-size:.7rem;letter-spacing:2.5px;color:var(--navy);text-transform:uppercase;margin-top:4px}
+.cover .corner-stamp{position:absolute;top:42px;right:0;width:130px;height:130px;border-radius:50%;background:var(--gold);color:var(--navy);display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:'Hold','Nunito',sans-serif;text-align:center;border:5px solid var(--paper);box-shadow:0 6px 16px rgba(0,0,0,.15);transform:rotate(7deg)}
+.cover .corner-stamp .a{font-size:22px;line-height:1}
+.cover .corner-stamp .b{font-size:9px;letter-spacing:2.5px;margin-top:4px;line-height:1.2}
+
+.section-tag{display:inline-block;font-family:'Hold','Nunito',sans-serif;background:var(--blue);color:#fff;font-size:.62rem;letter-spacing:3px;padding:4px 12px;border-radius:4px;text-transform:uppercase;margin-bottom:10px}
+h3{font-family:'Hold','Nunito',sans-serif;color:var(--navy);font-size:1.02rem;margin:14px 0 6px;line-height:1.2}
+p{margin:0 0 10px}
+.lede{font-size:.95rem;color:#333;margin-bottom:14px;line-height:1.55}
+strong{color:var(--navy)}
+
+table.std-table{width:100%;border-collapse:collapse;margin:10px 0 14px;font-size:.78rem}
+table.std-table th{background:var(--blue);color:#fff;font-family:'Hold','Nunito',sans-serif;padding:8px;font-size:.65rem;letter-spacing:1.5px;text-transform:uppercase;text-align:left;vertical-align:top}
+table.std-table td{padding:7px 8px;border-bottom:1px solid rgba(0,0,0,.08);vertical-align:top;font-size:.78rem;line-height:1.45}
+table.std-table tr:nth-child(even) td{background:rgba(245,236,215,.4)}
+table.std-table .glcheck{color:var(--green);font-family:'Hold','Nunito',sans-serif;text-align:center}
+
+.callout{margin:12px 0;padding:11px 14px;border-radius:10px;position:relative;page-break-inside:avoid}
+.callout .label{font-family:'Hold','Nunito',sans-serif;font-size:.7rem;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:5px;display:flex;align-items:center;gap:6px}
+.callout p{margin:0;font-size:.86rem}
+.callout.fact{background:rgba(0,84,166,.06);border-left:5px solid var(--blue)}
+.callout.fact .label{color:var(--blue)}
+.callout.tip{background:#fff;border:2px dashed var(--orange)}
+.callout.tip .label{color:var(--orange)}
+
+.fw-tile{background:#fff;border:2px solid var(--blue);border-radius:10px;padding:12px 16px;margin-bottom:10px;page-break-inside:avoid}
+.fw-tile .fh{font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:1.05rem;margin-bottom:4px}
+.fw-tile .fa{font-size:.78rem;color:#666;margin-bottom:8px;font-style:italic}
+
+@media print{
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;box-shadow:none !important}
+  @page{size:letter portrait;margin:0}
+  html,body{background:#fff !important;padding:0 !important;margin:0 !important}
+  .toolbar{display:none !important}
+  .page{max-width:none !important;width:8.5in !important;min-height:11in !important;margin:0 !important;background:#fff !important}
+}
+@media(max-width:700px){.page{padding:30px 22px 80px}.cover h1{font-size:2.4rem}}
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <a class="home" href="../index.html">&larr; Clarence Gets a Bargain</a>
+  <div class="tip">8 pages &middot; Grant-application ready &middot; Letter portrait</div>
+  <button onclick="window.print()">&#x1F5A8;&#xFE0F; Print PDF</button>
+</div>
+
+<!-- COVER -->
+<div class="page">
+  <div class="brand-strip"></div><span class="brand-scissor">&#9986;</span>
+  <div class="cover">
+    <div class="corner-stamp"><div class="a">GRANT</div><div class="b">APPLICATION<br>READY</div></div>
+    <div class="doctype">Standards Alignment</div>
+    <h1>Clarence <em>Gets a Bargain</em></h1>
+    <div class="tagline">Mapped to 5 National Frameworks</div>
+    <p style="max-width:520px;font-size:1rem;color:#444;margin:0">Jump$tart 2021, CEE Financial Literacy, CCSS Math &amp; ELA, FDIC Money Smart. 23-row concept crosswalk with verifiable framework codes and source URLs.</p>
+    <div class="specs">
+      <div class="spec"><div class="n">5</div><div class="l">Frameworks</div></div>
+      <div class="spec"><div class="n">23</div><div class="l">Concepts</div></div>
+      <div class="spec"><div class="n">21</div><div class="l">Glossary Terms</div></div>
+      <div class="spec"><div class="n">1&ndash;5</div><div class="l">Grades</div></div>
+    </div>
+    <div style="margin-top:34px;font-family:'Hold','Nunito',sans-serif;font-size:.75rem;letter-spacing:3px;color:var(--orange);text-transform:uppercase">Built for Title I, CRA, &amp; Foundation Reporting</div>
+  </div>
+  <div class="page-foot"><span>clarencegetsabargain.com</span><span>&copy; 2026 Jonathan Bach</span></div>
+</div>
+
+<!-- CROSSWALK 1 -->
+<div class="page">
+  <div class="brand-strip"></div><span class="brand-scissor">&#9986;</span>
+  <div class="page-head">
+    <div><span class="section-tag">Quick Reference</span><h2 class="pt">Concept-by-Concept Crosswalk</h2><div class="ps">23 teaching concepts &middot; in order of appearance</div></div>
+    <div class="pref">Page 2<br>Crosswalk 1 of 2</div>
+  </div>
+
+  <p class="lede">The book's teaching concepts, in order of appearance, with the strongest standard match for each. This is your fastest grant-application reference. <strong>&#x2713;</strong> = term has its own entry in the book's official 21-term back-matter glossary.</p>
+
+  <table class="std-table">
+    <thead><tr><th style="width:5%">#</th><th style="width:28%">Concept</th><th style="width:18%">Story Pages</th><th style="width:8%">Gloss</th><th>Primary Standard</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><strong><em>Wants vs. Needs</em></strong></td><td>1&ndash;3, 25&ndash;26, 30</td><td class="glcheck">&#x2713;</td><td>Jump$tart S&amp;S 1; CEE Std. 2</td></tr>
+      <tr><td>2</td><td>Budgeting</td><td>3, 30</td><td class="glcheck">&#x2713;</td><td>Jump$tart S&amp;S 1; CEE Std. 2</td></tr>
+      <tr><td>3</td><td>Household bills</td><td>3</td><td class="glcheck">&#x2713;</td><td>Jump$tart S&amp;S 1</td></tr>
+      <tr><td>4</td><td>Mortgage</td><td>3</td><td class="glcheck">&#x2713;</td><td>Jump$tart S&amp;S 1</td></tr>
+      <tr><td>5</td><td>Income</td><td>24 (implied)</td><td class="glcheck">&#x2713;</td><td>Jump$tart E&amp;I 1</td></tr>
+      <tr><td>6</td><td>Charitable giving</td><td>4</td><td class="glcheck">&#x2713;</td><td>CEE Std. 3; FDIC 3&ndash;5</td></tr>
+      <tr><td>7</td><td>Sale ads</td><td>4&ndash;5</td><td class="glcheck">&#x2713;</td><td>Jump$tart S&amp;S 4</td></tr>
+      <tr><td>8</td><td>Comparison shopping</td><td>5, 9&ndash;10, 27, 30</td><td class="glcheck">&#x2713;</td><td>CEE Std. 2; CCSS.Math 2.MD.C.8</td></tr>
+      <tr><td>9</td><td>529 college savings</td><td>6, 24</td><td class="glcheck">&#x2713;</td><td>Jump$tart S&amp;S 3; CEE Std. 3</td></tr>
+      <tr><td>10</td><td>College &amp; tuition</td><td>6</td><td class="glcheck">&#x2713;</td><td>CEE Std. 3</td></tr>
+      <tr><td>11</td><td>Coupons (paper, mail, email, text)</td><td>7&ndash;8, 22</td><td class="glcheck">&#x2713;</td><td>Jump$tart S&amp;S 4</td></tr>
+      <tr><td>12</td><td>Picking the right store</td><td>9&ndash;11</td><td>&mdash;</td><td>CEE Std. 2</td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout fact">
+    <div class="label">&#x1F4D6; About the glossary checkmark</div>
+    <p>The book's back matter includes a 21-term verbatim glossary (pages 33&ndash;36). Concepts marked <strong>&#x2713;</strong> have their own entry. The remaining concepts are taught in the story but defined contextually rather than in a dedicated entry.</p>
+  </div>
+
+  <div class="page-foot"><span>Crosswalk 1 of 2</span><span>2 of 8</span></div>
+</div>
+
+<!-- CROSSWALK 2 -->
+<div class="page">
+  <div class="brand-strip"></div><span class="brand-scissor">&#9986;</span>
+  <div class="page-head">
+    <div><span class="section-tag">Quick Reference (continued)</span><h2 class="pt">Concept-by-Concept Crosswalk</h2><div class="ps">Concepts 13&ndash;23</div></div>
+    <div class="pref">Page 3<br>Crosswalk 2 of 2</div>
+  </div>
+
+  <table class="std-table">
+    <thead><tr><th style="width:5%">#</th><th style="width:28%">Concept</th><th style="width:18%">Story Pages</th><th style="width:8%">Gloss</th><th>Primary Standard</th></tr></thead>
+    <tbody>
+      <tr><td>13</td><td>Clearance section</td><td>13&ndash;18</td><td class="glcheck">&#x2713;</td><td>Jump$tart S&amp;S 4</td></tr>
+      <tr><td>14</td><td>Markdowns</td><td>16&ndash;18</td><td class="glcheck">&#x2713;</td><td>Jump$tart S&amp;S 4</td></tr>
+      <tr><td>15</td><td>Comparing similar products</td><td>19&ndash;21</td><td>&mdash;</td><td>CCSS.Math 4.NF.B.6</td></tr>
+      <tr><td>16</td><td>Smart purchase decision</td><td>21</td><td>&mdash;</td><td>Jump$tart FDM 1</td></tr>
+      <tr><td>17</td><td>Sales tax</td><td>22</td><td class="glcheck">&#x2713;</td><td>CEE Std. 2</td></tr>
+      <tr><td>18</td><td>Combining coupon + clearance</td><td>22</td><td>&mdash;</td><td>Jump$tart S&amp;S 4; CCSS.Math 5.NBT.B.7</td></tr>
+      <tr><td>19</td><td>Receipt as proof of purchase</td><td>22</td><td class="glcheck">&#x2713;</td><td>Jump$tart FDM 1</td></tr>
+      <tr><td>20</td><td>Consumer awareness (&ldquo;use what you buy&rdquo;)</td><td>25, 29</td><td class="glcheck">&#x2713;</td><td>Jump$tart S&amp;S 4</td></tr>
+      <tr><td>21</td><td>Lifelong saving habits</td><td>24, 26&ndash;30</td><td class="glcheck">&#x2713;</td><td>Jump$tart S&amp;S 3; CEE Std. 3</td></tr>
+      <tr><td>22</td><td>Family money games</td><td>27&ndash;28</td><td>&mdash;</td><td>CEE Std. 2</td></tr>
+      <tr><td>23</td><td>Future shopping (BF / CM / Prime Day)</td><td>32</td><td class="glcheck">&#x2713;</td><td>Jump$tart S&amp;S 4</td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout tip">
+    <div class="label">&#x1F4CA; Headline numbers for your grant application</div>
+    <p><strong>23</strong> teaching concepts &middot; <strong>5</strong> nationally recognized frameworks &middot; <strong>21</strong> defined back-matter glossary terms &middot; <strong>36</strong> pages &middot; <strong>4</strong> weeks of lesson plans &middot; pre/post assessment with documented gains</p>
+  </div>
+
+  <div class="page-foot"><span>Crosswalk 2 of 2</span><span>3 of 8</span></div>
+</div>
+
+<!-- JUMP$TART + CEE -->
+<div class="page">
+  <div class="brand-strip"></div><span class="brand-scissor">&#9986;</span>
+  <div class="page-head">
+    <div><span class="section-tag">Frameworks 1 &amp; 2</span><h2 class="pt">Jump$tart 2021 &amp; CEE</h2><div class="ps">National personal finance &amp; financial literacy</div></div>
+    <div class="pref">Page 4<br>Frameworks</div>
+  </div>
+
+  <div class="fw-tile">
+    <div class="fh">Jump$tart Coalition 2021 National Standards</div>
+    <div class="fa">National Standards in K&ndash;12 Personal Finance Education</div>
+    <p style="font-size:.85rem;margin-bottom:8px">The Jump$tart framework has six topic areas. Clarence Gets a Bargain hits four directly.</p>
+    <table class="std-table" style="margin-top:6px">
+      <thead><tr><th>Topic Area</th><th>Standard</th><th>Book Concept</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Spending &amp; Saving (S&amp;S)</strong></td><td>Standard 1: Develop a plan for spending and saving</td><td>Wants/needs; bills speech; budgeting</td></tr>
+        <tr><td>Spending &amp; Saving</td><td>Standard 3: Describe how to use different payment methods and savings vehicles</td><td>529 account; lifelong saving habits</td></tr>
+        <tr><td>Spending &amp; Saving</td><td>Standard 4: Apply consumer skills to spending and saving decisions</td><td>Comparison shopping; coupons; clearance; markdowns; smart purchase</td></tr>
+        <tr><td><strong>Employment &amp; Income (E&amp;I)</strong></td><td>Standard 1: Explore job and career options</td><td>Income (definition); chores &rarr; reward framing</td></tr>
+        <tr><td><strong>Financial Decision Making (FDM)</strong></td><td>Standard 1: Recognize the responsibilities of personal financial decisions</td><td>Smart purchase decision; receipt habit</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="fw-tile">
+    <div class="fh">CEE National Standards for Financial Literacy</div>
+    <div class="fa">Council for Economic Education</div>
+    <p style="font-size:.85rem;margin-bottom:8px">CEE's financial literacy framework has 6 standards. Clarence Gets a Bargain primarily hits <strong>Standard 2 (Buying)</strong> and <strong>Standard 3 (Saving)</strong>. Standards 1 (Earning Income), 4 (Credit), 5 (Investing), and 6 (Insuring) are not directly addressed in this book.</p>
+    <table class="std-table" style="margin-top:6px">
+      <thead><tr><th>Standard</th><th>Topic</th><th>Book Application</th></tr></thead>
+      <tbody>
+        <tr><td>Standard 2</td><td>Buying Goods and Services</td><td>Ad comparison; clearance pick; coupon; sales tax</td></tr>
+        <tr><td>Standard 3</td><td>Saving</td><td>529 college fund; lifelong saving habits; charity giving</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="page-foot"><span>Jump$tart &amp; CEE</span><span>4 of 8</span></div>
+</div>
+
+<!-- CCSS MATH + ELA -->
+<div class="page">
+  <div class="brand-strip"></div><span class="brand-scissor">&#9986;</span>
+  <div class="page-head">
+    <div><span class="section-tag">Frameworks 3 &amp; 4</span><h2 class="pt">Common Core State Standards</h2><div class="ps">Math &amp; English Language Arts</div></div>
+    <div class="pref">Page 5<br>CCSS</div>
+  </div>
+
+  <div class="fw-tile">
+    <div class="fh">CCSS Mathematics</div>
+    <div class="fa">Counting, place value, decimals, percentage</div>
+    <table class="std-table" style="margin-top:6px">
+      <thead><tr><th>Standard</th><th>Skill</th><th>Book Application</th><th>Grades</th></tr></thead>
+      <tbody>
+        <tr><td>CCSS.MATH.1.OA.A.1</td><td>Add &amp; subtract within 20 (word problems)</td><td>Coupon savings</td><td>1</td></tr>
+        <tr><td>CCSS.MATH.2.OA.A.1</td><td>Word problems involving money</td><td>Ad comparison</td><td>2</td></tr>
+        <tr><td>CCSS.MATH.2.MD.C.8</td><td>Word problems with $ and &cent;</td><td>Sales prices, coupon math</td><td>2</td></tr>
+        <tr><td>CCSS.MATH.3.NBT.A.2</td><td>Add &amp; subtract within 1000</td><td>Multi-store comparison</td><td>3</td></tr>
+        <tr><td>CCSS.MATH.4.NF.B.6</td><td>Decimal notation for fractions</td><td>Markdown (e.g., 10% off)</td><td>4</td></tr>
+        <tr><td>CCSS.MATH.5.NBT.B.7</td><td>Add/subtract/multiply/divide decimals</td><td>Sales tax + final total</td><td>5</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="fw-tile">
+    <div class="fh">CCSS English Language Arts</div>
+    <div class="fa">Informational text, collaborative discussion, vocabulary, wordplay</div>
+    <table class="std-table" style="margin-top:6px">
+      <thead><tr><th>Standard</th><th>Skill</th><th>Book Application</th><th>Grades</th></tr></thead>
+      <tbody>
+        <tr><td>RI.1.1 / RI.2.1 / RI.3.1</td><td>Ask &amp; answer questions about key details</td><td>Comprehension prompts</td><td>1&ndash;3</td></tr>
+        <tr><td>RI.4.1 / RI.5.1</td><td>Refer to details &amp; examples to support inferences</td><td>Inferential prompts</td><td>4&ndash;5</td></tr>
+        <tr><td>RI.1.3 &ndash; RI.5.3</td><td>Describe relationships between events / ideas</td><td>Cause &amp; effect: ad reading &rarr; smart purchase</td><td>1&ndash;5</td></tr>
+        <tr><td>RI.1.7 / RI.2.7 / RI.3.7</td><td>Use illustrations &amp; text features</td><td>Two-difference robot comparison; clearance sign</td><td>1&ndash;3</td></tr>
+        <tr><td>RF.1.4 / RF.2.4</td><td>Read with fluency to support comprehension</td><td>Read-aloud structure</td><td>1&ndash;2</td></tr>
+        <tr><td>SL.1.1 &ndash; SL.5.1</td><td>Engage effectively in collaborative discussions</td><td>Discussion Guide prompts</td><td>1&ndash;5</td></tr>
+        <tr><td>L.1.4 &ndash; L.5.4</td><td>Determine meaning of unknown words</td><td>21 back-matter glossary terms</td><td>1&ndash;5</td></tr>
+        <tr><td>L.3.5 / L.4.5</td><td>Recognize wordplay &amp; figurative language</td><td>&ldquo;Clearance / Clarence&rdquo; pun; &ldquo;Wyze&rdquo;</td><td>3&ndash;4</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="page-foot"><span>CCSS Math &amp; ELA</span><span>5 of 8</span></div>
+</div>
+
+<!-- FDIC + SUMMARY -->
+<div class="page">
+  <div class="brand-strip"></div><span class="brand-scissor">&#9986;</span>
+  <div class="page-head">
+    <div><span class="section-tag">Framework 5</span><h2 class="pt">FDIC Money Smart for Young People</h2><div class="ps">Federal Deposit Insurance Corporation</div></div>
+    <div class="pref">Page 6<br>FDIC + Summary</div>
+  </div>
+
+  <div class="fw-tile">
+    <div class="fh">Money Smart for Young People</div>
+    <div class="fa">FDIC's free K&ndash;12 financial education curriculum</div>
+    <p style="font-size:.85rem;margin-bottom:8px">Two age-band curricula apply to Clarence Gets a Bargain:</p>
+    <table class="std-table" style="margin-top:6px">
+      <thead><tr><th>Curriculum</th><th>Topic</th><th>Book Concept</th><th>Grade Band</th></tr></thead>
+      <tbody>
+        <tr><td>Money Smart Gr. 1&ndash;2</td><td>What is money? Where does it come from?</td><td>&ldquo;Money doesn't grow on trees&rdquo;</td><td>1&ndash;2</td></tr>
+        <tr><td>Money Smart Gr. 1&ndash;2</td><td>Wants vs. needs</td><td>Reward vs. necessity</td><td>1&ndash;2</td></tr>
+        <tr><td>Money Smart Gr. 1&ndash;2</td><td>What is a budget?</td><td>Bills walkthrough</td><td>1&ndash;2</td></tr>
+        <tr><td>Money Smart Gr. 3&ndash;5</td><td>Smart purchasing decisions</td><td>Clearance + coupon</td><td>3&ndash;5</td></tr>
+        <tr><td>Money Smart Gr. 3&ndash;5</td><td>Saving for goals</td><td>529 college fund</td><td>3&ndash;5</td></tr>
+        <tr><td>Money Smart Gr. 3&ndash;5</td><td>Giving back</td><td>Mom mentions charity</td><td>3&ndash;5</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 style="margin-top:20px">Grant-Ready Summary</h3>
+  <ul style="font-size:.9rem;line-height:1.55">
+    <li><strong>Total teachable concepts:</strong> 16+ (curriculum highlights); 23 enumerated in the crosswalk above</li>
+    <li><strong>Defined glossary terms:</strong> 21 (verbatim two-page back-matter spread, pages 33&ndash;36)</li>
+    <li><strong>Frameworks aligned:</strong> 5 (Jump$tart, CEE, CCSS Math, CCSS ELA, FDIC Money Smart)</li>
+    <li><strong>Grade band:</strong> 1&ndash;5</li>
+    <li><strong>Page count:</strong> 36 (32 story pages + 4 back-matter)</li>
+    <li><strong>Assessments:</strong> 10-question pre/post; answer key; scoring rubric; 25-row class data tracking table</li>
+    <li><strong>Lesson plans:</strong> 4 &times; 45-min sessions with grade 1&ndash;2 and 3&ndash;5 differentiation</li>
+    <li><strong>Discussion guide:</strong> 6 sections + whole-book themes + verbatim glossary</li>
+    <li><strong>Accommodations:</strong> Read-aloud, picture-supported, oral response, extended time, Spanish</li>
+  </ul>
+
+  <div class="page-foot"><span>FDIC + Summary</span><span>6 of 8</span></div>
+</div>
+
+<!-- CITATIONS -->
+<div class="page">
+  <div class="brand-strip"></div><span class="brand-scissor">&#9986;</span>
+  <div class="page-head">
+    <div><span class="section-tag">For Grant Reviewers</span><h2 class="pt">Framework Source Citations</h2><div class="ps">Verify any code against the official source</div></div>
+    <div class="pref">Page 7<br>Citations</div>
+  </div>
+
+  <p class="lede">All standards codes in this document were current as of 2026. Frameworks update periodically &mdash; verify against the current edition before submitting a grant application.</p>
+
+  <div class="fw-tile">
+    <div class="fh">Jump$tart Coalition for Personal Financial Literacy</div>
+    <div class="fa">National Standards in K&ndash;12 Personal Finance Education (2021 edition)</div>
+    <p style="font-size:.88rem;margin:0">Available at <strong>jumpstartcoalition.org/national-standards</strong></p>
+  </div>
+
+  <div class="fw-tile">
+    <div class="fh">Council for Economic Education (CEE)</div>
+    <div class="fa">National Standards for Financial Literacy (2nd edition)</div>
+    <p style="font-size:.88rem;margin:0">Available at <strong>councilforeconed.org/national-standards-for-financial-literacy</strong></p>
+  </div>
+
+  <div class="fw-tile">
+    <div class="fh">Common Core State Standards Initiative</div>
+    <div class="fa">CCSS for English Language Arts &amp; Literacy and for Mathematics</div>
+    <p style="font-size:.88rem;margin:0">Available at <strong>corestandards.org</strong></p>
+  </div>
+
+  <div class="fw-tile">
+    <div class="fh">Federal Deposit Insurance Corporation</div>
+    <div class="fa">Money Smart for Young People</div>
+    <p style="font-size:.88rem;margin:0">Available at <strong>fdic.gov/resources/consumers/money-smart</strong></p>
+  </div>
+
+  <div class="callout tip" style="margin-top:14px">
+    <div class="label">&#x1F4CA; Custom alignment report</div>
+    <p>For a filterable digital matrix that lets you select framework or grade level and generate a custom standards report, use the <strong>Curriculum Alignment Matrix</strong> tool at clarencegetsabargain.com/resources. It opens an email draft pre-populated with your filter selection &mdash; we respond within 1 business day.</p>
+  </div>
+
+  <div class="page-foot"><span>Framework Citations</span><span>7 of 8</span></div>
+</div>
+
+<!-- BACK MATTER -->
+<div class="page">
+  <div class="brand-strip"></div><span class="brand-scissor">&#9986;</span>
+  <div class="page-head">
+    <div><span class="section-tag">Back Matter</span><h2 class="pt">How to Use This Chart</h2><div class="ps">Three practical scenarios</div></div>
+    <div class="pref">Page 8<br>Back Matter</div>
+  </div>
+
+  <h3>Title I documentation</h3>
+  <p style="font-size:.92rem">Cite the relevant Jump$tart, CEE, and CCSS standards from the crosswalk for each lesson. The 4-week structure produces measurable pre/post gains that satisfy most state Title I literacy block reporting templates.</p>
+
+  <h3>CRA compliance (credit unions / banks)</h3>
+  <p style="font-size:.92rem">CRA examiners look for documented financial literacy programming with clear curriculum, age-appropriate content, and tracking data. This chart + the assessment worksheet's class data table covers all three. Bulk pricing available for branch-distribution programs (orders@clarencegetsabargain.com).</p>
+
+  <h3>Foundation grants (Gates, Kellogg, FDIC, JPMorgan Chase)</h3>
+  <p style="font-size:.92rem">Most foundation grants for K&ndash;5 financial literacy require: (1) standards alignment, (2) measurable outcomes, (3) family/community engagement. The toolkit covers all three &mdash; this chart for alignment, the assessment worksheet for outcomes, the family activity sheet for engagement.</p>
+
+  <div class="callout fact" style="margin-top:18px">
+    <div class="label">&#x1F4E7; Bulk &amp; institutional inquiries</div>
+    <p>For purchase orders, Title I pricing, bulk educator copies, or CRA documentation packages, contact <strong>orders@clarencegetsabargain.com</strong>. POs accepted. Net 30 standard.</p>
+  </div>
+
+  <div style="margin-top:30px;padding-top:18px;border-top:2px dashed var(--orange);text-align:center">
+    <div style="font-family:'Hold','Nunito',sans-serif;color:var(--blue);font-size:1.1rem;font-style:italic">Story First. Money Smarts Sneak In.</div>
+    <p style="font-size:.75rem;color:#666;margin-top:14px;letter-spacing:2px;font-family:'Hold','Nunito',sans-serif;text-transform:uppercase">&copy; 2026 Jonathan Bach &middot; All rights reserved</p>
+  </div>
+
+  <div class="page-foot"><span>Back Matter</span><span>8 of 8</span></div>
+</div>
+
+</body>
+</html>
