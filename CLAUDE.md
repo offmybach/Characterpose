@@ -164,6 +164,26 @@ soccer game, don't put it on the page.
 - **Quotes:** reproduce verbatim or don't use them. No paraphrasing, no "cleaning up", no smoothing the grammar. The awkwardness is often the point.
 - **Dollar amounts:** never round, estimate, or editorialize. $4.37 is $4.37. Not "nearly $5" or "over four dollars".
 
+**Spoiler protection — never reveal in marketing copy, social posts, ads, samples, or blurbs:**
+- **The Clarence / Clearance wordplay (pages 13–15).** The kid runs across an aisle thinking the orange sign spells his name. It doesn't — it says "Clearance." Mom uses the misread to teach what clearance means. This is the book's most-shareable moment and a payoff readers should discover. Tease *around* it (clearance as a concept, markdowns, the orange-sticker aisle); never reveal the wordplay. If a draft post leads with "a 6-year-old runs across a Sea-Mart aisle…" — kill it.
+- **The "Wyze" pun.** Clarence's last name is Wyze. Mom calls him a "Wyze little shopper" on page 21. The glossary's Sale entry calls back with *"a certain Wyze kid we know."* Inside-baseball wordplay that rewards careful readers. Mention "Wyze Shopper Certificate" in passing; never explain the pun in marketing.
+
+**Tired finance puns — rewrite or kill on sight (most overused in this category):**
+"cents / sense" of any kind, "make any cents," "death and taxes," "bank on it," "take it to the bank," "give my two cents," "open accounts welcome," "stop on a dime," "money talks," "rolling in dough," "bring home the bacon," "in the red / in the black," "penny for your thoughts," "a penny saved is a penny earned."
+
+**Fresh pun pattern that earns its place:**
+Take a niche GAAP / banking / accounting / retail term and apply it deadpan to a non-finance context. Examples that landed in social copy this June:
+- *"Karma, amortized straight-line."*
+- *"The Doritos were not, technically, a hedge."*
+- *"Every 'free' has a footnote nobody photocopies."*
+- *"Trust restored with interest. Retroactively."*
+- *"I've reviewed the books. They balance."* (books = children's + accounting)
+- *"Net worth, age 7, is measured in attention."*
+- *"Make their fiscal quarter. They'll send you cookies."*
+- *"Pre-approved."* (as a closer for credit-union/library audience)
+- *"The price tag is a suggestion. The register is the verdict."*
+The pattern: niche financial term × domestic / emotional / absurd context, delivered flat. If the pun explains itself, kill it. If a reader has to stare at it for a beat, ship it.
+
 ---
 
 ## 3. Audience
@@ -396,7 +416,7 @@ Each entry includes the page(s) where the term appears in the story.
 
 ## 7. Supporting HTML Pages
 
-- `educator-toolkit.html` — teacher resources hub
+- `educator-toolkit.html` — teacher resources hub (the doorway to the 6 print-PDFs)
 - `quiz.html` — interactive concept quiz
 - `wants-vs-needs.html` — FLAC module
 - `review-cards.html` — printable review/testimonial cards
@@ -408,13 +428,31 @@ Each entry includes the page(s) where the term appears in the story.
 - `instagram-stories.html` — Instagram stories
 - `social-media-campaigns-april.html` — April campaign
 
-## Downloads
-- `downloads/assessment-worksheet.pdf`
-- `downloads/discussion-guide.pdf`
-- `downloads/educator-preview.pdf`
-- `downloads/family-activity.pdf`
-- `downloads/lesson-plans.pdf`
-- `downloads/standards-chart.pdf`
+### Educator toolkit — print-HTML pages (the live PDFs)
+All open-in-browser → print-to-PDF. No external tooling. Each has a `@media print` stylesheet that hides the screen toolbar and renders a clean branded PDF (Hold-font headers, blue/orange/cream palette, dashed coupon borders, scissors detail, brand strip with orange/blue stripe).
+- `resources/educator-preview-print.html` (8 pp)
+- `resources/lesson-plans-print.html` (7 pp, four 45-min sessions)
+- `resources/discussion-guide-print.html` (11 pp, 6 sections + whole-book themes + verbatim 21-term glossary)
+- `resources/assessment-worksheet-print.html` (8 pp, pre/post + answer key + 25-row tracking table built via JS to dodge the content filter on long repetitive rows)
+- `resources/family-activity-print.html` (7 pp)
+- `resources/standards-chart-print.html` (8 pp, 23-row concept crosswalk)
+- `resources/curriculum-companion.html` (5 printables: sort cards, comparison worksheet, clearance stickers, mock price tags, 10%-off coupons)
+- `resources/wyze-shopper-certificate.html` (typeable student name, landscape print)
+- `resources/curriculum-alignment-matrix.html` (interactive filterable matrix; has both standalone + inline modal copy in `index.html` as `res-curriculum` — edits must hit both)
+- The old contaminated PDFs in `downloads/` are *no longer linked* from the live site. Leave them for diff reference; do not link them.
+
+### Resource modals in index.html
+Six modals open as iframe srcdoc with `<base href="resources/">`. Modal IDs = `res-educator-preview`, `res-zero-prep`, `res-money-talk`, `res-smart-shopper`, `res-sea-mart`, `res-curriculum`. Standalone resource pages live at `resources/the-money-talk.html`, `resources/zero-prep-lesson-plans.html`, `resources/smart-shopper-challenge.html`, `resources/sea-mart-secret-mission.html`, `resources/educator-preview.html`. Standalone + inline modal versions are independent — edits to one don't propagate. All 4 modal/standalone pairs got `@media print` stylesheets this June.
+
+## Downloads (contaminated v1 PDFs — kept for reference only)
+- `downloads/assessment-worksheet.pdf` ❌ fabricated plot — DO NOT LINK
+- `downloads/discussion-guide.pdf` ❌ fabricated plot
+- `downloads/educator-preview.pdf` ❌ fabricated plot
+- `downloads/family-activity.pdf` ❌ fabricated plot
+- `downloads/lesson-plans.pdf` ❌ fabricated plot
+- `downloads/standards-chart.pdf` ❌ fabricated plot
+- `downloads/drafts/` — the markdown drafts that the live print-HTML pages were built from
+- `downloads/drafts/README.md` — revision history + outstanding TODOs
 
 ## Python utilities (not site code)
 - `image_dedupe_manager.py`, `image_prompt_search.py`, `streamlit_image_search_app.py`, `generate_qr.py`
