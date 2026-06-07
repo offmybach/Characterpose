@@ -138,3 +138,136 @@ If you teach grades 1–5, run a library, run a credit union youth program, or r
 - **Comment first.** Post the link in a comment instead of the body if LinkedIn throttles your reach.
 - **Don't edit the voice.** The semicolons, the broken numbering, the deliberately uneven sentence rhythm — all on purpose. AI rewrites will sand them off.
 - **Tag accounts** that actually post about elementary financial literacy: @JumpStart Coalition, @Council for Economic Education, @FDIC, @PBS Kids, your local credit union's marketing person.
+
+---
+
+# Comment Candy
+
+Stuff that actually pulls replies out of people. None of the "what's your take?" garbage. Specific bait, in Jonathan's voice.
+
+## A. Drop-in bait endings
+
+Add ONE of these to the bottom of any post above (or use as a standalone reply to your own post in the first 10 minutes, which the algo loves).
+
+- *"Teachers: what's the ONE money concept your students get wrong the most? I'm collecting for the sequel."*
+- *"Bet you can name two household bills you didn't know existed until you paid one. I'll go first: trash pickup."*
+- *"What's the worst clearance buy you've ever regretted? Bonus points if it was 90% off."*
+- *"Has a kid ever asked you what 'clearance' meant in real life? What did you actually say?"*
+- *"Money games at the dinner table — does your family play any? Ours does Guess the Price. Yours?"*
+- *"What's a money habit your parents had that you swore you'd never copy — and now you do?"*
+- *"Tell me about a teacher who taught you something about money that the actual curriculum didn't."*
+- *"Credit union friends: what's the youngest age someone has opened an account at your branch? I'm collecting."*
+- *"Parents — what's the moment your kid realized something you do for them costs money?"*
+- *"Librarians: when you do a financial-lit story time, what book do you reach for first?"*
+
+## B. Standalone comment-bait posts
+
+These are posts whose whole job is dragging replies out of people.
+
+### Bait Post 1 — Mom's Bills List Challenge
+
+On page 3, Mom names 8 specific household bills to Clarence.
+
+I'll list six:
+1. Mortgage
+2. Internet
+3. TV streaming
+4. Heat (hot water)
+5. The fridge
+6. YouTube (yes, really)
+
+There are two more. I'm not going to list them. Tell me what they are in the comments, and while you're there, name one bill *your* parents talked about when you were Clarence's age that scared you.
+
+(The book is Clarence Gets a Bargain. Free educator toolkit just relaunched at clarencegetsabargain.com/educator-toolkit if you teach grades 1–5.)
+
+---
+
+### Bait Post 2 — The Worst Clearance Buy
+
+Tell me your worst clearance buy.
+
+I'll go first: a digital camera I bought at Best Buy in 2008 because it was 70% off. It was 70% off because it was bad. I used it twice. It now lives in a drawer.
+
+Lesson my 6-year-old self could have used: a deal is only a deal if you'll actually use the thing. Mom says this on page 25 of *Clarence Gets a Bargain* in her own way: "Just because it was a good deal doesn't mean you have to buy it."
+
+So. Your turn.
+
+---
+
+### Bait Post 3 — Fill in the Blank
+
+My family's money game was ___________.
+
+Clarence's family plays *Guess the Price* — page 28. After dinner, whoever scored a great deal that day quizzes everyone else. Closest guess wins. Loser does the dishes.
+
+Mine growing up: my dad would hand me a $20 at the grocery store and tell me to fill the cart for $19. Best lesson I ever got about how much things actually cost.
+
+What was yours?
+
+(Free educator toolkit with five take-home family activities at clarencegetsabargain.com/educator-toolkit.)
+
+---
+
+### Bait Post 4 — The Sealed Envelope
+
+I'll bet $5 you can't name three financial concepts you learned from a picture book as a kid.
+
+I'll wait.
+
+…
+
+That's what I thought.
+
+This is the gap *Clarence Gets a Bargain* was built to close. Free 4-week curriculum for grades 1–5 just relaunched. Six standards-aligned PDFs. Built around a 36-page story your kids will actually want to read.
+
+clarencegetsabargain.com/educator-toolkit
+
+(I will not be paying out the $5. But the toolkit is free.)
+
+---
+
+### Bait Post 5 — The Verbatim Quote
+
+This is on page 17 of a children's picture book. A mom is explaining markdowns to her 6-year-old:
+
+> *"When a store lowers an item's original price to move it before something newer comes along. Same product, better price, zero difference in what you're getting. Clarence figured this out staring at two robots on a shelf. Smart kid."*
+
+I want to know which other money concept needs this same treatment. Mom-voice. No jargon. Drop it in the comments and I'll tell you which page of the sequel we should work it into.
+
+(Book: Clarence Gets a Bargain. Free educator toolkit at clarencegetsabargain.com/educator-toolkit.)
+
+---
+
+### Bait Post 6 — The Receipt Show-and-Tell
+
+Mom photographs every receipt the second she sits down in the car. It's on page 22.
+
+I asked my own mom about this. She said she's done it since 1987. She has receipts from Caldor.
+
+Show me your most embarrassing receipt. The grocery one where the impulse buys are visible. The takeout one from the week you gave up. I'll go first if anyone replies.
+
+(Why does this matter? Because tracking what you actually buy is a real money skill, and most kids never see an adult model it. Free educator toolkit with that lesson built in at clarencegetsabargain.com/educator-toolkit.)
+
+## C. Reply scripts (when comments roll in)
+
+When someone replies, don't just react with a 👍 emoji. The algo rewards back-and-forth, and your voice does too. A few patterns:
+
+- **Bring receipts.** *"Page 3, Mom literally says 'pudding and string cheese.' I rest my case."*
+- **Stitch comments together.** *"Three teachers in this thread said 'clearance.' Recording for the sequel."*
+- **Wyze them.** *"Mike — that's a Wyze observation. Punny but you get it."*
+- **Push back, gently.** *"Push back: I think you'd be surprised. Try the receipt habit for a week and report back."*
+- **Compliment that escalates the OP.** *"Better than my own answer. Stealing this for the next post."*
+- **The honest follow-up.** *"That's a real one. What did you do with the money you saved?"*
+- **Drop a page number.** *"That's literally what Mom says on page 16. Are you sure you haven't read this book?"*
+- **The handoff.** *"Tag a teacher who needs to see this — they'll tell me I missed one."*
+
+## D. Things to NOT do
+
+- *"What's your take?"* — flatlines.
+- *"DM me to learn more."* — feels gated.
+- *"Agree or disagree?"* — too binary, no specific bait.
+- *"Drop a 🙌 if…"* — dead since 2019.
+- *"Let me know in the comments!"* — the empty-restaurant of CTAs.
+- Long explainer replies. Two sentences, not five.
+- Replying to every comment within 30 seconds. People notice the bot energy. Wait an hour, then reply in bursts.
+
