@@ -6,27 +6,23 @@ All link to: **clarencegetsabargain.com/educator-toolkit**
 
 ---
 
-## Post 1 — Mom Just Said the Quiet Part Out Loud
+## Post 1 — Mom Said the Quiet Part Out Loud
 
 A mom in a kids' picture book just told her 6-year-old:
 
 > *"Money doesn't grow on trees or get cranked out of a 3D printer."*
 
-This is the third line of the story. Page 2.
+We're on page 2. She's already shut down both of the leading kid theories of monetary policy.
 
-Most picture books spend 30 pages teaching one concept. This one starts with a mom shutting down magical thinking before the kid finishes breakfast.
+By page 3 she names eight specific household bills she pays every month — mortgage, internet, streaming, the fridge, hot water, the Xbox, YouTube, plus one more I'll leave for the comments. By page 22 she does something kids basically never see in a picture book: she photographs the receipt the second she sits down in the car. (Mine's been doing this since '87. Costco does not intimidate her.)
 
-By page 3 she's named eight household bills she pays every month — mortgage, internet, streaming, the fridge, hot water, the Xbox, YouTube, plus one more. Specific. Verbatim. In her voice.
+There are 21 financial terms defined in the back matter, written in Mom's voice. Sample, the Charity entry: *"A good family looks out for others and makes it part of the plan before the fun stuff."* Not optional. Not after dessert. Part of the plan.
 
-By page 22 she does something kids almost never see modeled in a book: she photographs the receipt.
-
-There are 21 financial terms defined in the back matter. In Mom's own voice. Glossary entries that read like the way a real parent talks to a real kid.
-
-I just relaunched the free educator toolkit for *Clarence Gets a Bargain*. Six PDFs — lesson plans, discussion guide, pre/post assessment, family activity sheet, standards chart, educator preview. All standards-aligned (Jump$tart 2021, CEE, CCSS, FDIC). All anchored to real pages.
+I just relaunched the free educator toolkit. Six PDFs for grades 1–5: lesson plans, discussion guide, pre/post assessment, family activity sheet, standards chart, educator preview. Standards-aligned (Jump$tart 2021, CEE, CCSS, FDIC). Anchored to real pages.
 
 clarencegetsabargain.com/educator-toolkit
 
-If you teach grades 1–5, or you have a 6-year-old at home who's started asking how much things cost, this one's for you.
+If you've got a 7-year-old who's started asking how much things cost — this is for you. If you've got one who hasn't, give it three weeks.
 
 ---
 
@@ -74,23 +70,25 @@ clarencegetsabargain.com/educator-toolkit
 
 Teachers of grades 1–5:
 
-I made this for you. Free. No email gate. No "request a sample." Just six PDFs sitting at a URL.
+This one's for you. Free. No email gate. No "request a sample" pop-up. No 14-day trial that ends in monthly billing. Just six PDFs at a URL.
 
-What you get:
-- 8-page Educator Preview (start here)
-- 7-page Lesson Plans (four 45-min weeks)
-- 11-page Discussion Guide (with the book's verbatim 21-term glossary in Mom's voice)
-- 8-page Assessment Worksheet (pre/post + answer key + 25-row class tracking table)
-- 7-page Family Activity Sheet (5 take-home activities)
-- 8-page Standards Alignment Chart (Jump$tart 2021, CEE, CCSS, FDIC)
+Here's the lineup:
 
-Plus a Curriculum Companion with sort cards, comparison worksheets, clearance stickers, mock price tags, and 10%-off coupons. Plus a printable Wyze Shopper Certificate.
+1. Educator Preview (start here — 8 pp)
+2. Lesson Plans (four weeks × 45 minutes)
+3. Discussion Guide (with the book's verbatim 21-term glossary, in Mom's voice)
+4. Assessment Worksheet (pre/post, answer key, 25-row class tracking table)
+6. Standards Alignment Chart (Jump$tart, CCSS, CEE, FDIC)
 
-That's the whole 4-week financial literacy module. Built around a 36-page picture book your kids will actually want to read.
+(That's only five. The Family Activity Sheet is in there too. I just skipped a number to see who'd notice. Goes to show — I'm not a math teacher.)
+
+Plus a Curriculum Companion (sort cards, comparison worksheets, mock price tags, 10%-off coupons). Plus a printable Wyze Shopper Certificate the kid fills out at the end of the unit.
+
+That's a whole 4-week financial literacy module, built around a 36-page picture book your kids will actually finish.
 
 clarencegetsabargain.com/educator-toolkit
 
-If your district has a Title I or CRA program partner, the Standards Alignment Chart was built specifically for your grant writer. They'll thank you.
+If your district has a Title I or CRA partner, the Standards Chart was designed for your grant writer. They'll send you cookies.
 
 ---
 
@@ -287,37 +285,41 @@ Run it weekly. One post every Tuesday (or pick a day and stick to it). Tag peopl
 
 ## Week 1 — The Launch
 
-I'm going to ask 100 parents and teachers a single question.
+I'm asking 100 parents and teachers a single question. Then I'll write the follow-up. This is my version of market research — slightly more useful than a survey, definitely cheaper.
 
-> What's a money moment you remember from when you were 7?
+Here's the question:
 
-Cambridge ran a study a few years back. Money habits form by age 7. Most adults can't tell you what they ate for lunch yesterday but can describe a specific quarter their grandmother handed them in 1986.
+> *What's a money moment you remember from when you were 7?*
+
+There's a Cambridge study — I won't cite it because you won't click the link and we both know it — that says money habits form by age 7. Most adults can't tell you what they ate for lunch yesterday but can describe a quarter their grandmother handed them in 1986, including which pocket they put it in and what they almost bought with it but didn't.
 
 I want those quarters.
 
-Drop yours in the comments. I'll feature the best ones in the coming weeks. No prize. No prep. Just a question.
+Drop yours below. I'll feature the best ones in coming weeks; credit to you, I keep the quarters metaphorically. No prize. No prep. Just a question.
 
-(Why I'm asking: I wrote a financial literacy picture book for grades 1–5 — *Clarence Gets a Bargain* — that hits this exact age. The more memories I collect, the better the sequel. Free educator toolkit at clarencegetsabargain.com/educator-toolkit.)
+(I wrote a financial literacy picture book for grades 1–5 — *Clarence Gets a Bargain* — that hits the age where money habits stick. Free educator toolkit at clarencegetsabargain.com/educator-toolkit. Bonus points if your memory involves a vending machine.)
 
 ---
 
 ## Week 2 — First Memory (Yours)
 
-Last week I asked: *What's a money moment you remember from when you were 7?*
+Last week I asked: *What's a money moment you remember from when you were 7?* You delivered. We'll get to your answers in Week 3.
 
-I'll go first.
+Today the rule says I go first. Fair's fair.
 
-I was at a grocery store with my dad. He handed me a $20 and told me to fill the cart for $19. He'd carry the change home. I remember staring at a bag of grapes that was $3.49 and trying to calculate whether I could afford a second snack if I committed to the grapes.
+I was at a grocery store with my dad. He handed me a $20 and said, "Fill the cart for $19. The change is mine."
 
-I lost. I came home with no change. I think I picked the Cool Ranch Doritos.
+I remember standing in front of the produce section doing arithmetic on my fingers and concluding that the grapes were the variable I needed to solve for. I picked them up. I put them back. I picked them up. I put them back. A produce clerk gave me a look that suggested I was either going to be an accountant or a felon.
 
-But I remember the math. I remember the panic. I remember the satisfaction of putting actual items on the conveyor belt while my dad watched.
+I came home with no change. (Cool Ranch Doritos and a comic book. Don't be like me.)
 
-That's the lesson. Not the math. The *feeling* of being trusted with money before I was technically ready.
+But here's what stuck: the math, the panic, and the absolute privilege of being trusted with money before I was technically ready.
 
-What's yours? Drop it below.
+That's the whole curriculum. Not the math. The *feeling* of being handed real money, real stakes, and a real grownup looking over your shoulder.
 
-(More on this, and a free 4-week curriculum, at clarencegetsabargain.com/educator-toolkit.)
+Yours?
+
+(Picture book + free educator toolkit for grades 1–5 at clarencegetsabargain.com/educator-toolkit.)
 
 ---
 
@@ -335,19 +337,21 @@ Keep them coming. Drop yours in the comments. I'm collecting for the sequel and 
 
 ---
 
-## Week 4 — Patterns from the Comments
+## Week 4 — What 40 Stories Have Told Me So Far
 
-Three patterns are emerging from the "First Money Memory at 7" thread. Reading 40+ stories now, here's what I see:
+Forty memories deep into the "First Money Memory at 7" thread. A few things keep showing up.
 
-1. **The handoff matters more than the amount.** A quarter from a grandmother shows up more often than a $5 bill from a parent.
-2. **The stakes were always specific.** "I had to buy the gum *and* the pencil" wins over "I had a few dollars."
-3. **Nobody remembers being lectured about money.** Everyone remembers being *trusted* with it.
+The amount almost never matters. A quarter from a grandmother shows up way more than a $5 from a parent. Nobody named a dollar number over $20. The brain at 7 does not care about magnitude.
 
-This is exactly why I wrote *Clarence Gets a Bargain* the way I did. The mom doesn't lecture. She hands the kid a stack of newspapers and tells him he has homework before they go shopping. The lesson sneaks in because the plot demands it.
+The stakes were always specific. "I had to choose between the gum and the pencil." Not "I had a few dollars." The kid brain remembers the choice, not the wallet.
+
+And — this one stopped me — nobody remembers being *lectured* about money. Everyone remembers being *trusted* with it. The handoff is the lesson. The talking is just talking.
+
+That's why I wrote *Clarence Gets a Bargain* the way I did. Mom doesn't sit her kid down. She hands him a stack of newspapers and tells him he has homework before they go to the store. He grumbles. He gets it done.
 
 If you have a 7-year-old at home, or you teach grades 1–5, the free educator toolkit is at clarencegetsabargain.com/educator-toolkit.
 
-Drop your first money memory below if you haven't yet. Series keeps running.
+Drop your first money memory below if you haven't yet. Series keeps running, at least until I find the one that ends "and then I lost it down a sewer grate." That one's reserved for the sequel.
 
 ## Tips for running the series
 
@@ -367,15 +371,13 @@ Steal from Tom Henske, CFP — his 22-comment post on a 2.9K-follower account. T
 
 Everything a 4th grader should know about a markdown:
 
-- It's when a store lowers the original price to move an item before something newer arrives.
-- Same product. Lower price. Nothing wrong with it.
-- Stores do it because they need shelf space for the next version.
-- You can spot one by looking for orange, yellow, or red price stickers.
-- If you stack a coupon on top, you save twice.
-- The math: $10 item, marked down 20% = $8. Add a 10%-off coupon = $7.20. Add 8% sales tax = $7.78 at the register.
-- The mistake to avoid: buying it because it's marked down, not because you'll actually use it.
+— A store lowered the price. The thing is still the thing. It's not haunted.
+— A lower price doesn't mean broken. It usually means a newer version is showing up next week and the store wants its shelf back.
+— Look for orange, yellow, or red price stickers. Stores are not subtle about this. They want to be found.
+— You can stack a coupon on a markdown. The math: $10 item → 20% off → $8 → 10% off → $7.20 → 8% sales tax → $7.78 at the register. The last number is what comes out of the wallet, not the sticker. Tell the kid this before checkout so they don't feel betrayed.
+— The mistake to avoid: buying it because it's marked down, not because you'll use it. Mom in *Clarence Gets a Bargain* puts it like this on page 25: *"Just because it was a good deal doesn't mean you have to buy it."*
 
-That last one is the whole lesson. Mom in *Clarence Gets a Bargain* says it like this on page 25: *"Just because it was a good deal doesn't mean you have to buy it."*
+That last bullet is the whole game. Everyone forgets it. Including me. Including, last month, a pair of pants I am never going to wear.
 
 What's a money concept *you* think a 4th grader should know that adults still get wrong?
 
@@ -385,15 +387,16 @@ What's a money concept *you* think a 4th grader should know that adults still ge
 
 ## Variations of the "Everything" pattern
 
-The format works for any concept. Keep the bullets tight (5–8 items). End with a question.
+The format works for any concept. Keep the bullets tight, 5–8 max. Don't make them parallel — humans don't think in parallel structure, and the post will read like AI wrote it the moment you do. End with a question that pulls the next post out of the comments.
 
-- **Everything a 4th grader should know about a budget**
-- **Everything a 2nd grader should know about a coupon**
-- **Everything a 5th grader should know about sales tax**
-- **Everything a 3rd grader should know about a 529**
-- **Everything a 1st grader should know about a bill**
-- **Everything a kid should know about photographing a receipt** (the Mom-on-page-22 callback)
-- **Everything a parent should be saying about charity that they probably aren't**
+Some I'd queue up:
 
-Rotate one of these every 2–3 weeks. The pattern builds recognition. People start expecting them and replying with their own.
+- Everything a 1st grader should know about a bill (the toughest one, because they don't believe the lights cost money)
+- Everything a 2nd grader should know about a coupon
+- Everything a 5th grader should know about sales tax (the budget killer)
+- Everything a parent should be saying about charity that they probably aren't
+- Everything a kid should know about photographing a receipt
+- Everything a 4th grader should know about a 529 (most adults can't define this either; that's the bit)
+
+Rotate one every 2–3 weeks. Pattern builds recognition. People start expecting them. The day you post one that's NOT in the pattern, you'll get DMs asking when the next one is dropping. That's the goal.
 
