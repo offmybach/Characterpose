@@ -22,7 +22,7 @@ I just relaunched the free educator toolkit. Six PDFs for grades 1–5: lesson p
 
 clarencegetsabargain.com/educator-toolkit
 
-If you've got a 7-year-old who's started asking how much things cost — this is for you. If you've got one who hasn't, give it three weeks.
+If you've got a 7-year-old who's started asking how much things cost — this is for you. If you've got one who hasn't, give it three weeks. They will. Like death and taxes, just earlier.
 
 ---
 
@@ -36,7 +36,7 @@ But it's a real money habit. The kind of thing kids don't usually see in books, 
 
 Photographed receipt = proof of purchase if the item breaks, if you're charged the wrong amount, if you want a refund. Three minutes of muscle memory that pays off for life.
 
-There are 21 little moments like that built into the 36 pages. Bills speech (p. 3). Mom's "money doesn't grow on trees or get cranked out of a 3D printer" line (p. 2). The clearance discovery (p. 13). The 10%-off coupon at checkout (p. 22). "Guess the Price" at the dinner table (p. 28).
+There are 21 little moments like that hiding in the 36 pages. Bills speech (p. 3). Mom's "money doesn't grow on trees or get cranked out of a 3D printer" line (p. 2). The clearance discovery (p. 13). The 10%-off coupon at checkout (p. 22). "Guess the Price" at the dinner table (p. 28). Twenty-two more I'm not going to list here because I want you to actually buy the book — I'm a children's author, not a charity. Although the book teaches charity, on page 4.
 
 We just refreshed the entire free educator toolkit — six PDFs, all standards-aligned, all anchored to specific pages.
 
@@ -60,7 +60,7 @@ This week we shipped clean versions, page by page, with every reference cross-ch
 
 Free. Standards-aligned. Real.
 
-If you're a teacher who tried the old one — sorry. If you're a teacher who hasn't — now's the time.
+If you're a teacher who tried the old one — sorry. We've made good. Open accounts welcome. If you're a teacher who hasn't — now's the time.
 
 clarencegetsabargain.com/educator-toolkit
 
@@ -88,7 +88,7 @@ That's a whole 4-week financial literacy module, built around a 36-page picture 
 
 clarencegetsabargain.com/educator-toolkit
 
-If your district has a Title I or CRA partner, the Standards Chart was designed for your grant writer. They'll send you cookies.
+If your district has a Title I or CRA partner, the Standards Chart was designed for your grant writer. Make their fiscal quarter. They'll send you cookies.
 
 ---
 
@@ -108,7 +108,7 @@ Story first. Money smarts sneak in.
 
 That's the pitch. There's a free, refreshed, standards-aligned 4-week curriculum waiting at clarencegetsabargain.com/educator-toolkit if you want to run it with your class.
 
-Grades 1–5. Jump$tart, CEE, CCSS, FDIC. 6 PDFs. Browser-printable. No email required.
+Grades 1–5. Jump$tart, CEE, CCSS, FDIC. 6 PDFs. Browser-printable. No email required. (Total price: zero dollars and zero cents. Which is the only price that makes any cents in this category.)
 
 ---
 
@@ -128,7 +128,7 @@ The whole free educator toolkit just got rebuilt: lesson plans, discussion guide
 
 clarencegetsabargain.com/educator-toolkit
 
-If you teach grades 1–5, run a library, run a credit union youth program, or run a community money education initiative — this one's for you.
+If you teach grades 1–5, run a library, run a credit union youth program, or run a community money education initiative — this one's for you. You can bank on it.
 
 ---
 
@@ -190,7 +190,7 @@ Tell me your worst clearance buy.
 
 I'll go first: a digital camera I bought at Best Buy in 2008 because it was 70% off. It was 70% off because it was bad. I used it twice. It now lives in a drawer.
 
-Lesson my 6-year-old self could have used: a deal is only a deal if you'll actually use the thing. Mom says this on page 25 of *Clarence Gets a Bargain* in her own way: "Just because it was a good deal doesn't mean you have to buy it."
+Lesson my 6-year-old self could have used: a deal is only a deal if you'll actually use the thing. ("Free" is the most expensive word in retail.) Mom says this on page 25 of *Clarence Gets a Bargain* in her own way: "Just because it was a good deal doesn't mean you have to buy it."
 
 So. Your turn.
 
@@ -234,7 +234,7 @@ This is from the back-matter glossary of a children's picture book. A mom is def
 
 > *"Giving to help people who need it — money, food, toys, time. A good family looks out for others and makes it part of the plan before the fun stuff. Some families even pick their charities together."*
 
-That's "before the fun stuff." Not buried at the end. Not optional. Part of the plan.
+That's "before the fun stuff." Not buried at the end. Not optional. Part of the plan. Compound interest, but in karma.
 
 I want to know which other money concept deserves this same treatment. Mom-voice. No jargon. Drop one in the comments and I'll tell you which page of the sequel we should work it into.
 
@@ -246,7 +246,7 @@ I want to know which other money concept deserves this same treatment. Mom-voice
 
 Mom photographs every receipt the second she sits down in the car. It's on page 22.
 
-I asked my own mom about this. She said she's done it since 1987. She has receipts from Caldor.
+I asked my own mom about this. She said she's done it since 1987. She has receipts from Caldor. Her camera roll is the only one where you can scroll past a whole fiscal year in a single thumb swipe.
 
 Show me your most embarrassing receipt. The grocery one where the impulse buys are visible. The takeout one from the week you gave up. I'll go first if anyone replies.
 
@@ -262,6 +262,7 @@ When someone replies, don't just react with a 👍 emoji. The algo rewards back-
 - **Push back, gently.** *"Push back: I think you'd be surprised. Try the receipt habit for a week and report back."*
 - **Compliment that escalates the OP.** *"Better than my own answer. Stealing this for the next post."*
 - **The honest follow-up.** *"That's a real one. What did you do with the money you saved?"*
+- **The currency conversion.** *"That's a million-dollar memory. Inflation-adjusted, probably $25."*
 - **Drop a page number.** *"That's literally what Mom says on page 16. Are you sure you haven't read this book?"*
 - **The handoff.** *"Tag a teacher who needs to see this — they'll tell me I missed one."*
 
@@ -297,7 +298,7 @@ I want those quarters.
 
 Drop yours below. I'll feature the best ones in coming weeks; credit to you, I keep the quarters metaphorically. No prize. No prep. Just a question.
 
-(I wrote a financial literacy picture book for grades 1–5 — *Clarence Gets a Bargain* — that hits the age where money habits stick. Free educator toolkit at clarencegetsabargain.com/educator-toolkit. Bonus points if your memory involves a vending machine.)
+(I wrote a financial literacy picture book for grades 1–5 — *Clarence Gets a Bargain* — that hits the age where money habits stick. Free educator toolkit at clarencegetsabargain.com/educator-toolkit. Bonus points if your memory involves a vending machine. Triple points if the vending machine ate your quarter and gave you the silent treatment.)
 
 ---
 
@@ -311,7 +312,7 @@ I was at a grocery store with my dad. He handed me a $20 and said, "Fill the car
 
 I remember standing in front of the produce section doing arithmetic on my fingers and concluding that the grapes were the variable I needed to solve for. I picked them up. I put them back. I picked them up. I put them back. A produce clerk gave me a look that suggested I was either going to be an accountant or a felon.
 
-I came home with no change. (Cool Ranch Doritos and a comic book. Don't be like me.)
+I came home with no change. (Cool Ranch Doritos and a comic book. Don't be like me. No change, in both senses.)
 
 But here's what stuck: the math, the panic, and the absolute privilege of being trusted with money before I was technically ready.
 
@@ -341,7 +342,7 @@ Keep them coming. Drop yours in the comments. I'm collecting for the sequel and 
 
 Forty memories deep into the "First Money Memory at 7" thread. A few things keep showing up.
 
-The amount almost never matters. A quarter from a grandmother shows up way more than a $5 from a parent. Nobody named a dollar number over $20. The brain at 7 does not care about magnitude.
+The amount almost never matters. A quarter from a grandmother shows up way more than a $5 from a parent. Nobody named a dollar number over $20. The brain at 7 doesn't care about magnitude. The brain at 7 cares about who handed it to you. Net worth, age 7, is measured in attention.
 
 The stakes were always specific. "I had to choose between the gum and the pencil." Not "I had a few dollars." The kid brain remembers the choice, not the wallet.
 
@@ -374,7 +375,7 @@ Everything a 4th grader should know about a markdown:
 — A store lowered the price. The thing is still the thing. It's not haunted.
 — A lower price doesn't mean broken. It usually means a newer version is showing up next week and the store wants its shelf back.
 — Look for orange, yellow, or red price stickers. Stores are not subtle about this. They want to be found.
-— You can stack a coupon on a markdown. The math: $10 item → 20% off → $8 → 10% off → $7.20 → 8% sales tax → $7.78 at the register. The last number is what comes out of the wallet, not the sticker. Tell the kid this before checkout so they don't feel betrayed.
+— You can stack a coupon on a markdown. The math: $10 item → 20% off → $8 → 10% off → $7.20 → 8% sales tax → $7.78 at the register. The price tag is a suggestion. The register is the verdict. Tell the kid this before checkout so they don't feel betrayed.
 — The mistake to avoid: buying it because it's marked down, not because you'll use it. Mom in *Clarence Gets a Bargain* puts it like this on page 25: *"Just because it was a good deal doesn't mean you have to buy it."*
 
 That last bullet is the whole game. Everyone forgets it. Including me. Including, last month, a pair of pants I am never going to wear.
