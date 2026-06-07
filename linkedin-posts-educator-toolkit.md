@@ -22,7 +22,7 @@ I just relaunched the free educator toolkit. Six PDFs for grades 1–5: lesson p
 
 clarencegetsabargain.com/educator-toolkit
 
-If you've got a 7-year-old who's started asking how much things cost — this is for you. If you've got one who hasn't, give it three weeks. They will. Like death and taxes, just earlier.
+If you've got a 7-year-old who's started asking how much things cost — this is for you. If you've got one who hasn't, give it three weeks. They will. Probably at checkout. In front of strangers.
 
 ---
 
@@ -60,7 +60,7 @@ This week we shipped clean versions, page by page, with every reference cross-ch
 
 Free. Standards-aligned. Real.
 
-If you're a teacher who tried the old one — sorry. We've made good. Open accounts welcome. If you're a teacher who hasn't — now's the time.
+If you're a teacher who tried the old one — sorry. Trust restored with interest. Retroactively. If you're a teacher who hasn't — now's the time.
 
 clarencegetsabargain.com/educator-toolkit
 
@@ -108,7 +108,7 @@ Story first. Money smarts sneak in.
 
 That's the pitch. There's a free, refreshed, standards-aligned 4-week curriculum waiting at clarencegetsabargain.com/educator-toolkit if you want to run it with your class.
 
-Grades 1–5. Jump$tart, CEE, CCSS, FDIC. 6 PDFs. Browser-printable. No email required. (Total price: zero dollars and zero cents. Which is the only price that makes any cents in this category.)
+Grades 1–5. Jump$tart, CEE, CCSS, FDIC. 6 PDFs. Browser-printable. No email required. (Total price: zero. I've reviewed the books. They balance.)
 
 ---
 
@@ -128,7 +128,7 @@ The whole free educator toolkit just got rebuilt: lesson plans, discussion guide
 
 clarencegetsabargain.com/educator-toolkit
 
-If you teach grades 1–5, run a library, run a credit union youth program, or run a community money education initiative — this one's for you. You can bank on it.
+If you teach grades 1–5, run a library, run a credit union youth program, or run a community money education initiative — this one's for you. Pre-approved.
 
 ---
 
@@ -190,7 +190,7 @@ Tell me your worst clearance buy.
 
 I'll go first: a digital camera I bought at Best Buy in 2008 because it was 70% off. It was 70% off because it was bad. I used it twice. It now lives in a drawer.
 
-Lesson my 6-year-old self could have used: a deal is only a deal if you'll actually use the thing. ("Free" is the most expensive word in retail.) Mom says this on page 25 of *Clarence Gets a Bargain* in her own way: "Just because it was a good deal doesn't mean you have to buy it."
+Lesson my 6-year-old self could have used: a deal is only a deal if you'll actually use the thing. (Every "free" has a footnote nobody photocopies.) Mom says this on page 25 of *Clarence Gets a Bargain* in her own way: "Just because it was a good deal doesn't mean you have to buy it."
 
 So. Your turn.
 
@@ -234,7 +234,7 @@ This is from the back-matter glossary of a children's picture book. A mom is def
 
 > *"Giving to help people who need it — money, food, toys, time. A good family looks out for others and makes it part of the plan before the fun stuff. Some families even pick their charities together."*
 
-That's "before the fun stuff." Not buried at the end. Not optional. Part of the plan. Compound interest, but in karma.
+That's "before the fun stuff." Not buried at the end. Not optional. Part of the plan. Karma, amortized straight-line.
 
 I want to know which other money concept deserves this same treatment. Mom-voice. No jargon. Drop one in the comments and I'll tell you which page of the sequel we should work it into.
 
@@ -312,7 +312,7 @@ I was at a grocery store with my dad. He handed me a $20 and said, "Fill the car
 
 I remember standing in front of the produce section doing arithmetic on my fingers and concluding that the grapes were the variable I needed to solve for. I picked them up. I put them back. I picked them up. I put them back. A produce clerk gave me a look that suggested I was either going to be an accountant or a felon.
 
-I came home with no change. (Cool Ranch Doritos and a comic book. Don't be like me. No change, in both senses.)
+I came home with no change. (Cool Ranch Doritos and a comic book. Don't be like me. The Doritos were not, technically, a hedge.)
 
 But here's what stuck: the math, the panic, and the absolute privilege of being trusted with money before I was technically ready.
 
