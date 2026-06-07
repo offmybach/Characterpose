@@ -171,19 +171,6 @@ soccer game, don't put it on the page.
 **Tired finance puns — rewrite or kill on sight (most overused in this category):**
 "cents / sense" of any kind, "make any cents," "death and taxes," "bank on it," "take it to the bank," "give my two cents," "open accounts welcome," "stop on a dime," "money talks," "rolling in dough," "bring home the bacon," "in the red / in the black," "penny for your thoughts," "a penny saved is a penny earned."
 
-**Fresh pun pattern that earns its place:**
-Take a niche GAAP / banking / accounting / retail term and apply it deadpan to a non-finance context. Examples that landed in social copy this June:
-- *"Karma, amortized straight-line."*
-- *"The Doritos were not, technically, a hedge."*
-- *"Every 'free' has a footnote nobody photocopies."*
-- *"Trust restored with interest. Retroactively."*
-- *"I've reviewed the books. They balance."* (books = children's + accounting)
-- *"Net worth, age 7, is measured in attention."*
-- *"Make their fiscal quarter. They'll send you cookies."*
-- *"Pre-approved."* (as a closer for credit-union/library audience)
-- *"The price tag is a suggestion. The register is the verdict."*
-The pattern: niche financial term × domestic / emotional / absurd context, delivered flat. If the pun explains itself, kill it. If a reader has to stare at it for a beat, ship it.
-
 ---
 
 ## 3. Audience
