@@ -11,6 +11,8 @@ const setStatus = (text) => {
   $("status").textContent = text || "Idle.";
 };
 
+const CONN_ORDER = ["1st", "Pending", "2nd", "3rd+", "Following", "Other", "Unknown", ""];
+
 const renderStats = (stats) => {
   if (!stats || stats.total === 0) {
     $("stats").innerHTML = `<div class="hint">No leads yet.</div>`;
@@ -24,10 +26,23 @@ const renderStats = (stats) => {
         `<div class="group-row"><span class="name">${g}</span><span class="count">${counts[g]}</span></div>`
     )
     .join("");
+  const cc = stats.connectionCounts || {};
+  const connKeys = CONN_ORDER.filter((k) => cc[k]).concat(
+    Object.keys(cc).filter((k) => !CONN_ORDER.includes(k))
+  );
+  const connRows = connKeys
+    .map(
+      (k) =>
+        `<div class="group-row"><span class="name">${k || "Unknown"}</span><span class="count">${cc[k]}</span></div>`
+    )
+    .join("");
+  const connBlock = connRows
+    ? `<div class="subhead">Connection</div>${connRows}`
+    : "";
   const queueLine = stats.queue.size
     ? `<div class="hint">Queue: ${stats.queue.cursor}/${stats.queue.size}${stats.queue.active ? " (running)" : ""}</div>`
     : "";
-  $("stats").innerHTML = `${rows}<div class="total"><span>Total unique</span><span>${stats.total}</span></div>${queueLine}`;
+  $("stats").innerHTML = `${rows}${connBlock}<div class="total"><span>Total unique</span><span>${stats.total}</span></div>${queueLine}`;
 };
 
 const refresh = async () => {

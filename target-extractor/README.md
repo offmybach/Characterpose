@@ -39,10 +39,29 @@ hit Start, go make coffee.
 ### Export
 
 - **Master CSV (grouped):** every lead in one file, sorted by
-  `primary_group`, with `secondary_groups` if a lead matched multiple
-  rules. The file you'll actually use for mail-merge segmentation.
+  `primary_group` then connection rank (1st → Pending → 2nd → 3rd+ →
+  Following → Unknown), with `secondary_groups` if a lead matched
+  multiple rules. The file you'll actually use for mail-merge
+  segmentation.
 - **One CSV per group:** dumps one file per `primary_group` into your
-  default download folder.
+  default download folder, also sorted by connection rank.
+
+### The `connection` column
+
+Captured for every lead, one of:
+
+| Value | Meaning |
+|---|---|
+| `1st` | You're connected. Can message directly. |
+| `Pending` | You've already sent an invite — don't double-tap. |
+| `2nd` | One mutual. Best candidates for a connect request. |
+| `3rd+` | No path. Cold outreach territory. |
+| `Following` | You follow them but aren't connected. |
+| `Unknown` / empty | Sales Nav didn't render a badge for this row. |
+
+Dedup keeps the most informative status: if you captured someone as
+`2nd` last week and as `Pending` today (because you sent an invite),
+the merged record shows `Pending`.
 
 ## Groups
 

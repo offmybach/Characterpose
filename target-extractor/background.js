@@ -34,6 +34,11 @@ const setStatus = async (text) => {
   chrome.runtime.sendMessage({ type: "status-tick", text }).catch(() => {});
 };
 
+// Connection status ranking — higher wins on dedup merge. "Pending" beats
+// "2nd" because it's actionable; "1st" beats everything.
+const CONN_RANK = { "1st": 6, Pending: 5, "2nd": 4, "3rd+": 3, Following: 2, Other: 1, "": 0 };
+const pickConnection = (a, b) => ((CONN_RANK[b] || 0) > (CONN_RANK[a] || 0) ? b : a);
+
 const mergeLeads = async (incoming) => {
   const store = await loadLeads();
   let added = 0;
@@ -51,6 +56,7 @@ const mergeLeads = async (incoming) => {
         company: cur.company || rec.company,
         location: cur.location || rec.location,
         profileUrl: cur.profileUrl || rec.profileUrl,
+        connection: pickConnection(cur.connection || "", rec.connection || ""),
         sourceList: cur.sourceList === rec.sourceList
           ? cur.sourceList
           : [cur.sourceList, rec.sourceList].filter(Boolean).join("|"),
@@ -184,6 +190,7 @@ const exportGroupedCsv = async () => {
     return {
       primary_group: primary,
       secondary_groups: secondary,
+      connection: r.connection || "",
       name: r.name || "",
       title: r.title || "",
       company: r.company || "",
@@ -194,15 +201,19 @@ const exportGroupedCsv = async () => {
       captured_at: r.capturedAt || "",
     };
   });
-  // Stable sort: primary_group then company then name.
+  // Stable sort: primary_group then connection rank then company then name.
   enriched.sort((a, b) => {
     if (a.primary_group !== b.primary_group) return a.primary_group.localeCompare(b.primary_group);
+    const ra = CONN_RANK[a.connection] || 0;
+    const rb = CONN_RANK[b.connection] || 0;
+    if (ra !== rb) return rb - ra;
     if (a.company !== b.company) return a.company.localeCompare(b.company);
     return a.name.localeCompare(b.name);
   });
   const columns = [
     "primary_group",
     "secondary_groups",
+    "connection",
     "name",
     "title",
     "company",
@@ -234,6 +245,7 @@ const exportGroupCsvs = async () => {
   for (const r of all) {
     const { primary, secondary } = categorize(r);
     const row = {
+      connection: r.connection || "",
       name: r.name || "",
       title: r.title || "",
       company: r.company || "",
@@ -248,11 +260,16 @@ const exportGroupCsvs = async () => {
   }
   const stamp = new Date().toISOString().replace(/[:.]/g, "-");
   const columns = [
-    "name", "title", "company", "description", "location",
+    "connection", "name", "title", "company", "description", "location",
     "profile_url", "source_list", "secondary_groups", "captured_at",
   ];
   for (const [group, rows] of Object.entries(buckets)) {
-    rows.sort((a, b) => a.company.localeCompare(b.company) || a.name.localeCompare(b.name));
+    rows.sort((a, b) => {
+      const ra = CONN_RANK[a.connection] || 0;
+      const rb = CONN_RANK[b.connection] || 0;
+      if (ra !== rb) return rb - ra;
+      return a.company.localeCompare(b.company) || a.name.localeCompare(b.name);
+    });
     const csv = buildCsv(rows, columns);
     const url = `data:text/csv;charset=utf-8,${encodeURIComponent(csv)}`;
     await chrome.downloads.download({
@@ -349,9 +366,12 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
     if (msg?.type === "popup:stats") {
       const store = await loadLeads();
       const counts = {};
+      const connectionCounts = {};
       for (const r of Object.values(store)) {
         const { primary } = categorize(r);
         counts[primary] = (counts[primary] || 0) + 1;
+        const c = r.connection || "Unknown";
+        connectionCounts[c] = (connectionCounts[c] || 0) + 1;
       }
       const status = (await chrome.storage.local.get(STATUS_KEY))[STATUS_KEY] || { text: "" };
       const queue = await loadQueue();
@@ -359,6 +379,7 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
         ok: true,
         total: Object.keys(store).length,
         counts,
+        connectionCounts,
         status: status.text,
         queue: { size: queue.urls.length, cursor: queue.cursor, active: queue.active },
       });

@@ -76,6 +76,21 @@
       "header h1",
       'h1[data-x-list-name]',
     ],
+    degreeBadge: [
+      '[data-anonymize="badge"]',
+      ".artdeco-entity-lockup__degree",
+      ".entity-result__badge-text",
+      ".degree-icon + span",
+      ".search-result__connection-indicator span",
+    ],
+    actionBtn: [
+      'button[aria-label*="Pending" i]',
+      'button[aria-label*="Connect" i]',
+      'button[aria-label*="Message" i]',
+      'button[aria-label*="Withdraw" i]',
+      'button[aria-label*="Follow" i]',
+      ".search-result__actions button",
+    ],
   };
 
   const $first = (root, sels) => {
@@ -95,6 +110,56 @@
   };
 
   const txt = (el) => (el ? el.textContent.replace(/\s+/g, " ").trim() : "");
+
+  // Connection status. Returns one of:
+  //   "1st" | "2nd" | "3rd+" | "Pending" | "Connected" | "Following" | "Other" | ""
+  // Reads the degree badge first; falls back to scanning row text for the
+  // standard "1st" / "2nd" / "3rd+" tokens. Then checks the action button —
+  // a "Pending" button means an invite is out (overrides 2nd/3rd); "Message"
+  // is a strong signal you're already 1st.
+  const normalizeDegree = (raw) => {
+    const v = raw.toLowerCase();
+    if (v === "1st") return "1st";
+    if (v === "2nd") return "2nd";
+    if (v === "3rd" || v === "3rd+") return "3rd+";
+    return "";
+  };
+
+  const extractConnection = (row) => {
+    let degree = "";
+    const badge = $first(row, SEL.degreeBadge);
+    const badgeText = txt(badge);
+    if (badgeText) {
+      const m = badgeText.match(/\b(1st|2nd|3rd\+?)\b/i);
+      if (m) degree = normalizeDegree(m[1]);
+    }
+    if (!degree) {
+      // Scan the row text — Sales Nav often renders the degree as plain
+      // text adjacent to the name with no stable class.
+      const rowText = row.textContent || "";
+      const m = rowText.match(/(^|[\s·|])(1st|2nd|3rd\+?)([\s·|]|$)/i);
+      if (m) degree = normalizeDegree(m[2]);
+    }
+
+    // Check the row's action button for invite/connection state.
+    let actionState = "";
+    const btn = $first(row, SEL.actionBtn);
+    if (btn) {
+      const label = (btn.getAttribute("aria-label") || btn.textContent || "").trim();
+      if (/withdraw/i.test(label)) actionState = "Pending";
+      else if (/pending/i.test(label)) actionState = "Pending";
+      else if (/^message/i.test(label) || /\bmessage\b/i.test(label)) actionState = "Connected";
+      else if (/follow(ing)?/i.test(label)) actionState = "Following";
+      else if (/connect/i.test(label)) actionState = ""; // not yet connected
+    }
+
+    // Combine. Action state overrides degree only when more informative.
+    if (actionState === "Pending") return "Pending";
+    if (degree === "1st" || actionState === "Connected") return "1st";
+    if (degree) return degree;
+    if (actionState) return actionState;
+    return "";
+  };
 
   const detectPageType = () => {
     const u = location.pathname;
@@ -121,6 +186,7 @@
     const title = txt($first(row, SEL.title));
     const company = txt($first(row, SEL.company));
     const locationText = txt($first(row, SEL.location));
+    const connection = extractConnection(row);
 
     // Identity key: prefer profile URL, fall back to name+company hash.
     const idKey = profileUrl || `${name}::${company}`.toLowerCase();
@@ -132,6 +198,7 @@
       company,
       location: locationText,
       profileUrl,
+      connection,
       description: title && company ? `${title} at ${company}` : title || company,
       sourceList: STATE.listName || "",
       sourceUrl: window.location.href,
