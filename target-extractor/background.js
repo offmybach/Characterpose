@@ -185,42 +185,54 @@ const exportGroupedCsv = async () => {
     await setStatus("No leads to export.");
     return;
   }
-  const enriched = all.map((r) => {
-    const { primary, secondary } = categorize(r);
+  const enriched = all.map((r, i) => {
+    const { primary, secondary, relevance, reason, tags } = categorize(r);
     return {
+      source_no: i + 1,
       primary_group: primary,
-      secondary_groups: secondary,
+      clarence_relevance: relevance,
       connection: r.connection || "",
       name: r.name || "",
-      title: r.title || "",
+      headline: r.title || "",
       company: r.company || "",
-      description: r.description || "",
       location: r.location || "",
-      profile_url: r.profileUrl || "",
+      grouping_reason: reason,
+      tags: tags,
+      secondary_groups: secondary,
       source_list: r.sourceList || "",
+      profile_url: r.profileUrl || "",
       captured_at: r.capturedAt || "",
     };
   });
-  // Stable sort: primary_group then connection rank then company then name.
+  // Sort: primary_group, then High/Medium/Low, then connection rank, then company.
+  const REL_RANK = { High: 3, Medium: 2, Low: 1 };
   enriched.sort((a, b) => {
     if (a.primary_group !== b.primary_group) return a.primary_group.localeCompare(b.primary_group);
-    const ra = CONN_RANK[a.connection] || 0;
-    const rb = CONN_RANK[b.connection] || 0;
-    if (ra !== rb) return rb - ra;
+    const rra = REL_RANK[a.clarence_relevance] || 0;
+    const rrb = REL_RANK[b.clarence_relevance] || 0;
+    if (rra !== rrb) return rrb - rra;
+    const ca = CONN_RANK[a.connection] || 0;
+    const cb = CONN_RANK[b.connection] || 0;
+    if (ca !== cb) return cb - ca;
     if (a.company !== b.company) return a.company.localeCompare(b.company);
     return a.name.localeCompare(b.name);
   });
+  // Re-number source_no after sort so it lines up with row order.
+  enriched.forEach((r, i) => (r.source_no = i + 1));
   const columns = [
+    "source_no",
     "primary_group",
-    "secondary_groups",
+    "clarence_relevance",
     "connection",
     "name",
-    "title",
+    "headline",
     "company",
-    "description",
     "location",
-    "profile_url",
+    "grouping_reason",
+    "tags",
+    "secondary_groups",
     "source_list",
+    "profile_url",
     "captured_at",
   ];
   const csv = buildCsv(enriched, columns);
@@ -242,29 +254,36 @@ const exportGroupCsvs = async () => {
     return;
   }
   const buckets = {};
+  const REL_RANK = { High: 3, Medium: 2, Low: 1 };
   for (const r of all) {
-    const { primary, secondary } = categorize(r);
+    const { primary, secondary, relevance, reason, tags } = categorize(r);
     const row = {
+      clarence_relevance: relevance,
       connection: r.connection || "",
       name: r.name || "",
-      title: r.title || "",
+      headline: r.title || "",
       company: r.company || "",
-      description: r.description || "",
       location: r.location || "",
-      profile_url: r.profileUrl || "",
-      source_list: r.sourceList || "",
+      grouping_reason: reason,
+      tags: tags,
       secondary_groups: secondary,
+      source_list: r.sourceList || "",
+      profile_url: r.profileUrl || "",
       captured_at: r.capturedAt || "",
     };
     (buckets[primary] ||= []).push(row);
   }
   const stamp = new Date().toISOString().replace(/[:.]/g, "-");
   const columns = [
-    "connection", "name", "title", "company", "description", "location",
-    "profile_url", "source_list", "secondary_groups", "captured_at",
+    "clarence_relevance", "connection", "name", "headline", "company",
+    "location", "grouping_reason", "tags", "secondary_groups",
+    "source_list", "profile_url", "captured_at",
   ];
   for (const [group, rows] of Object.entries(buckets)) {
     rows.sort((a, b) => {
+      const rra = REL_RANK[a.clarence_relevance] || 0;
+      const rrb = REL_RANK[b.clarence_relevance] || 0;
+      if (rra !== rrb) return rrb - rra;
       const ra = CONN_RANK[a.connection] || 0;
       const rb = CONN_RANK[b.connection] || 0;
       if (ra !== rb) return rb - ra;
@@ -272,9 +291,10 @@ const exportGroupCsvs = async () => {
     });
     const csv = buildCsv(rows, columns);
     const url = `data:text/csv;charset=utf-8,${encodeURIComponent(csv)}`;
+    const slug = group.replace(/[\/\\:*?"<>|]+/g, "-").replace(/\s+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
     await chrome.downloads.download({
       url,
-      filename: `cgb-targets-${group}-${stamp}.csv`,
+      filename: `cgb-targets-${slug}-${stamp}.csv`,
       saveAs: false,
     });
   }

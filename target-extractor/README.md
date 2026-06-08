@@ -65,25 +65,40 @@ the merged record shows `Pending`.
 
 ## Groups
 
-Categorization is rule-based, ordered by specificity (highest priority
-wins). The full rule set lives in `categorizer.js` — tweak regexes there.
+The taxonomy mirrors `LinkedIn_connections_grouped_by_category.xlsx` so
+new captures drop straight into your existing master spreadsheet without
+re-categorizing. Each rule lives in `categorizer.js`; tweak regexes there.
 
-| Group | Wins when… |
-|---|---|
-| `FinancialAdvisors` | CFP, CFA, ChFC, financial/wealth advisor, RIA |
-| `FinLitExperts` | "financial literacy", NEFE, NGPF, Jump$tart, CEE |
-| `WritersPodcastersReporters` | journalist, reporter, columnist, podcast host, editor |
-| `Authors` | author, illustrator, picture book author |
-| `Librarians` | librarian, media specialist, public library |
-| `K5Educators` | teacher, principal, curriculum, elementary, K-5, ISD |
-| `GovernmentAgencies` | .gov, treasurer, CFPB, FDIC, Dept of Education |
-| `InstitutionalBuyers` | credit union, bank, nonprofit, foundation, community outreach |
-| `Parents` | parent, mom, dad, parenting (low priority — last) |
-| `Misc` | catch-all when nothing matched |
+Priority order (highest wins for `primary_group`; other matches go to
+`secondary_groups`):
 
-A lead can match more than one group — the higher-priority rule wins for
-`primary_group`, and the rest are stored in `secondary_groups` so you can
-re-segment without re-scraping.
+| Group | Default Relevance | Wins when… |
+|---|---|---|
+| Youth Financial Literacy | High | kids/youth/family **and** money/finance |
+| Authors / Illustrators / KidLit | High | author, illustrator, kidlit, picture book |
+| Librarians / Libraries | High | librarian, media specialist, public library |
+| EdTech / Curriculum / Program Design | High | edtech, curriculum designer, instructional designer |
+| Financial Literacy Educators / Advocates | High | financial literacy, NEFE, NGPF, Jump$tart, CFEI |
+| Teachers / School Educators | High | teacher, principal, CTE, ISD, elementary, K-5 |
+| Academic / Researchers / Professors | Medium | professor, PhD, university, research institute |
+| Financial Advisors / Planners / Insurance | Medium | CFP, CFA, financial advisor, RIA, wealth |
+| Financial Coaches / Wellness / Therapy | Medium | financial coach, AFC, financial therapist, wellness |
+| Bankers / Financial Institutions | Medium | bank, credit union, bancorp, community banking |
+| Nonprofit / Government / Policy | Medium | foundation, nonprofit, CFPB, FDIC, treasurer, .gov |
+| Publishing / Book Pros / Printers | Medium | publisher, book designer, literary agent, printer |
+| Media / Content / Speakers | Medium | journalist, podcaster, columnist, NPR, magazine |
+| Marketing / Sales / Partnerships | Low | marketing, business development, sponsorship, BD |
+| Peripheral / Not Clarence-specific | Low | FAFSA, healthcare, ESPN, fundraising — explicit non-fit |
+| Needs Review / Miscellaneous | Medium | catch-all when nothing else matched |
+
+`clarence_relevance` defaults per group above; you can override per lead in
+the master CSV. `tags` are merged from every matched group, pipe-separated
+(e.g. `kids/youth|financial literacy|teacher/school`).
+
+A "Youth Financial Literacy" match requires **both** a kids signal and a
+money signal — that's what separates a finlit professional whose work is
+kid-focused from a generic finlit advocate. The latter goes to "Financial
+Literacy Educators / Advocates."
 
 ## Files
 
