@@ -11,4 +11,60 @@ Disallow: /social-assets.html
 Disallow: /review-cards.html
 Disallow: /badge-generator.html
 
+# Contaminated v1 PDFs — DO NOT CITE. Replaced by print-HTML pages in /resources/.
+Disallow: /downloads/
+
+# AI crawlers that cite back — explicitly allow
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# Scrapers with no citation behavior — block
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
 Sitemap: https://www.clarencegetsabargain.com/sitemap.xml
