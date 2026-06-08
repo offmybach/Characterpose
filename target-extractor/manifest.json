@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "CGB Target Extractor",
+  "version": "0.1.0",
+  "description": "Auto-scrapes LinkedIn Sales Navigator lead lists, dedups across lists, and exports a grouped master CSV for Clarence Gets a Bargain outreach.",
+  "permissions": ["storage", "downloads", "scripting", "activeTab", "tabs"],
+  "host_permissions": [
+    "https://www.linkedin.com/sales/*",
+    "https://www.linkedin.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "CGB Target Extractor",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.linkedin.com/sales/lists/*",
+        "https://www.linkedin.com/sales/search/*",
+        "https://www.linkedin.com/sales/people/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["categorizer.js"],
+      "matches": ["https://www.linkedin.com/*"]
+    }
+  ]
+}

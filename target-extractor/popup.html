@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>CGB Target Extractor</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <div class="masthead">
+      <span class="brand">CGB</span>
+      <span class="brand-sub">Target Extractor</span>
+    </div>
+    <div id="status" class="status">Idle.</div>
+  </header>
+
+  <section class="card">
+    <h2>Run here</h2>
+    <p class="hint">
+      Open a Sales Navigator list or search, then click below. The extension
+      will auto-scroll, capture every lead, click Next, repeat to the end.
+    </p>
+    <button id="run-here" class="primary">Scrape this page</button>
+    <button id="stop" class="danger ghost">Stop</button>
+  </section>
+
+  <section class="card">
+    <h2>Queue mode</h2>
+    <p class="hint">
+      Paste Sales Nav list URLs (one per line). The extension will navigate
+      each one in the current tab and scrape it. Walk away — come back to a
+      master CSV.
+    </p>
+    <textarea id="queue-input" rows="5"
+      placeholder="https://www.linkedin.com/sales/lists/people/12345&#10;https://www.linkedin.com/sales/lists/people/67890"></textarea>
+    <div class="row">
+      <button id="save-queue">Save queue</button>
+      <button id="start-queue" class="primary">Start queue</button>
+      <button id="stop-queue" class="danger ghost">Stop queue</button>
+    </div>
+    <div class="hint">
+      <strong>Tip:</strong> on <code>linkedin.com/sales/lists</code>, click
+      "Scrape this page" to auto-collect every list URL into the queue.
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Captured</h2>
+    <div id="stats" class="stats">No leads yet.</div>
+  </section>
+
+  <section class="card">
+    <h2>Export</h2>
+    <div class="row">
+      <button id="export-master" class="primary">Master CSV (grouped)</button>
+      <button id="export-by-group">One CSV per group</button>
+    </div>
+    <button id="clear" class="danger ghost full">Clear all captured data</button>
+  </section>
+
+  <script src="popup.js"></script>
+</body>
+</html>
