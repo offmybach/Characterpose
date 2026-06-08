@@ -24,6 +24,9 @@
   // Selector banks — try each, first hit wins. Sales Nav A/B tests these.
   const SEL = {
     leadRow: [
+      "table.people-list-detail__table tbody tr",
+      "table.people-list-detail__table tr",
+      ".models-table-wrapper tbody tr",
       "li.artdeco-list__item",
       "li[data-x-search-result]",
       "div[data-x-search-result]",
@@ -57,6 +60,9 @@
       'a[href*="/in/"]',
     ],
     scrollContainer: [
+      ".models-table-wrapper",
+      ".list-detail__people-columns",
+      "#lead-lists",
       "#search-results-container",
       ".artdeco-list",
       ".search-results__container",
@@ -64,8 +70,11 @@
     ],
     nextBtn: [
       'button[aria-label="Next"]',
+      'button[aria-label*="Next page" i]',
       'button.artdeco-pagination__button--next',
       'button[data-control-name="page_next"]',
+      'button.artdeco-pagination__button[aria-label*="Next"]',
+      '.artdeco-pagination__button--next',
     ],
     listsIndexRow: [
       'a[href*="/sales/lists/people/"]',
@@ -206,8 +215,36 @@
     };
   };
 
+  // Resolve lead-row containers. Try the configured selectors first; if
+  // they all return nothing, fall back to anchoring on the name elements
+  // and walking up to a sensible ancestor (works even when Sales Nav
+  // reshuffles row class names).
+  const findRows = () => {
+    let rows = $all(document, SEL.leadRow);
+    if (rows.length) return rows;
+    const names = document.querySelectorAll('[data-anonymize="person-name"]');
+    if (!names.length) return [];
+    const seen = new Set();
+    const out = [];
+    for (const n of names) {
+      const row =
+        n.closest("tr") ||
+        n.closest("li") ||
+        n.closest("article") ||
+        n.closest('[class*="lead-card" i]') ||
+        n.closest('[class*="result-item" i]') ||
+        n.closest('[class*="lockup" i]') ||
+        n.parentElement?.parentElement?.parentElement;
+      if (row && !seen.has(row)) {
+        seen.add(row);
+        out.push(row);
+      }
+    }
+    return out;
+  };
+
   const harvestVisible = () => {
-    const rows = $all(document, SEL.leadRow);
+    const rows = findRows();
     const fresh = [];
     for (const row of rows) {
       const rec = extractOneCard(row);
