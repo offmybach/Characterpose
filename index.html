@@ -525,6 +525,35 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .ff-submit:disabled{opacity:.6;cursor:wait;transform:none;box-shadow:0 4px 14px rgba(255,107,43,.2)}
 @media(max-width:600px){.feedback-form{padding:24px 18px}.ff-stars label{font-size:1.7rem}}
 
+/* === URGENCY STAT STRIP === */
+.urgency-strip{background:#0d1f30;padding:22px 20px;text-align:center;position:relative;overflow:hidden}
+.urgency-strip::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,107,43,.07),transparent);pointer-events:none}
+.urgency-stat{font-family:'Hold',sans-serif;font-size:clamp(1rem,2.3vw,1.4rem);color:#fff;line-height:1.35;letter-spacing:.2px}
+.urgency-stat .u-age{color:#ff6b2b;font-size:1.15em}
+.urgency-sub{font-size:.7rem;color:rgba(255,255,255,.38);margin-top:5px;letter-spacing:2px;text-transform:uppercase}
+
+/* === AGE BAND SECTION === */
+.age-band-section{background:#FAF3E0;padding:64px 20px;text-align:center}
+.age-band-label{font-family:'Hold',sans-serif;font-size:.7rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:28px}
+.age-band-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:900px;margin:0 auto}
+@media(max-width:640px){.age-band-grid{grid-template-columns:1fr;max-width:360px}}
+.ab-card{background:#fff;border:4px dashed #1a3a5c;border-radius:16px;padding:34px 24px 28px;position:relative;transition:transform .3s cubic-bezier(.4,0,.2,1),box-shadow .3s}
+.ab-card::before{content:'';position:absolute;top:-14px;right:12px;width:28px;height:28px;background:url('images/scissors.svg') no-repeat center/contain}
+.ab-card:hover{transform:translateY(-6px) rotate(-.4deg);box-shadow:0 14px 36px rgba(26,58,92,.16)}
+.ab-age{font-family:'Hold',sans-serif;font-size:clamp(2.6rem,5vw,3.4rem);color:#ff6b2b;line-height:1;margin-bottom:6px}
+.ab-grade{font-family:'Hold',sans-serif;font-size:.65rem;color:#aaa;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:18px}
+.ab-hook{font-family:'Hold',sans-serif;color:#0054a6;font-size:.95rem;line-height:1.5;margin-bottom:10px}
+.ab-sub{font-family:'Hold',sans-serif;font-size:.82rem;color:#ff6b2b;letter-spacing:.5px}
+
+/* === PRE-BUY PROOF STRIP === */
+.proof-strip{background:linear-gradient(180deg,#fff8ed,#fef3e2);padding:40px 20px;text-align:center;border-top:1px dashed rgba(255,107,43,.25);border-bottom:1px dashed rgba(255,107,43,.25)}
+.proof-capsules{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;max-width:700px;margin:0 auto}
+.proof-cap{display:inline-flex;flex-direction:column;align-items:center;background:#fff;border:2px solid rgba(26,58,92,.1);border-radius:14px;padding:18px 22px;min-width:120px;box-shadow:0 3px 12px rgba(0,0,0,.05);transition:transform .25s,box-shadow .25s}
+.proof-cap:hover{transform:translateY(-4px);box-shadow:0 10px 28px rgba(0,0,0,.1)}
+.proof-cap .pc-num{font-family:'Hold',sans-serif;font-size:1.9rem;color:#ff6b2b;line-height:1}
+.proof-cap .pc-label{font-size:.63rem;color:#0054a6;letter-spacing:1.5px;text-transform:uppercase;margin-top:6px;text-align:center;line-height:1.4;font-weight:700}
+@media(max-width:480px){.proof-cap{min-width:90px;padding:14px 14px}.proof-cap .pc-num{font-size:1.6rem}}
+
 </style>
 <script type="application/ld+json">
 {
@@ -668,6 +697,11 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 
 <div class="banner" aria-hidden="true"><div class="banner-track"><span>KID LIT IS A HIT! &bull; KID FIN IS A WIN! &bull;</span><span>EDUTAINMENT AT ITS FINEST &bull; STORY FIRST. MONEY SMARTS SNEAK IN. &bull;</span><span>KID LIT IS A HIT! &bull; KID FIN IS A WIN! &bull;</span><span>EDUTAINMENT AT ITS FINEST &bull; STORY FIRST. MONEY SMARTS SNEAK IN. &bull;</span><span>KID LIT IS A HIT! &bull; KID FIN IS A WIN! &bull;</span><span>EDUTAINMENT AT ITS FINEST &bull; STORY FIRST. MONEY SMARTS SNEAK IN. &bull;</span></div></div>
 
+<div class="urgency-strip">
+  <div class="urgency-stat">Money habits form by <span class="u-age">age&nbsp;7.</span>&nbsp;&nbsp;Your kid is in that window right now.</div>
+  <div class="urgency-sub">Cambridge University &bull; 2013</div>
+</div>
+
 <div class="stats-row reveal">
   <div class="stat-item"><div class="stat-num" data-target="36">36</div><div class="stat-label">Pages</div></div>
   <div class="stat-item"><div class="stat-num">16+</div><div class="stat-label">Concepts</div></div>
@@ -748,6 +782,30 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   </div>
 </section>
 
+<section class="age-band-section">
+  <div class="age-band-label">Who This Is For</div>
+  <div class="age-band-grid">
+    <div class="ab-card reveal">
+      <div class="ab-age">6–7</div>
+      <div class="ab-grade">Grades 1–2</div>
+      <div class="ab-hook">They just figured out money is real.</div>
+      <div class="ab-sub">Start here.</div>
+    </div>
+    <div class="ab-card reveal reveal-delay-1">
+      <div class="ab-age">8–9</div>
+      <div class="ab-grade">Grades 3–4</div>
+      <div class="ab-hook">They&rsquo;re asking why they can&rsquo;t have everything.</div>
+      <div class="ab-sub">This answers it.</div>
+    </div>
+    <div class="ab-card reveal reveal-delay-2">
+      <div class="ab-age">9–10</div>
+      <div class="ab-grade">Grades 4–5</div>
+      <div class="ab-hook">They&rsquo;re ready to understand that smart choices matter.</div>
+      <div class="ab-sub">Don&rsquo;t wait.</div>
+    </div>
+  </div>
+</section>
+
 <section class="mag-section" id="magazine">
   <h2 class="reveal">Flip Through Clarence&rsquo;s Coupon Book!</h2>
   <p class="hint reveal" id="magHint">Click to open &bull; Flip pages by clicking left/right &bull; Arrow keys work</p>
@@ -779,6 +837,15 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     <a href="#buy" class="moment-cta">Get the Book &mdash; $19.99</a>
   </div>
 </section>
+
+<div class="proof-strip reveal">
+  <div class="proof-capsules">
+    <div class="proof-cap"><div class="pc-num">36</div><div class="pc-label">Pages of Story</div></div>
+    <div class="proof-cap"><div class="pc-num">16+</div><div class="pc-label">Money Concepts</div></div>
+    <div class="proof-cap"><div class="pc-num">55+</div><div class="pc-label">Pages Free Curriculum</div></div>
+    <div class="proof-cap"><div class="pc-num">4</div><div class="pc-label">Standards Frameworks</div></div>
+  </div>
+</div>
 
 <section class="buy" id="buy"><div class="buy-bg"></div>
   <img loading="lazy" decoding="async" class="reveal" src="images/clarence-arms.jpg" width="520" height="520" alt="Clarence celebrating his smart shopping win" style="width:260px;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:16px;display:block;margin:0 auto 20px;box-shadow:0 6px 24px rgba(0,0,0,.12)">
