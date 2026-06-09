@@ -395,6 +395,78 @@ FORMAT: Broetry — short punchy paragraphs, max 3 sentences each. No bullet wal
 CAROUSELS: Carousel/infographic posts increase dwell time through swipes.
 NOTE: When generating post copy, end with a section marked "📌 PASTE IN FIRST COMMENT:" followed by the 3 authority links relevant to that post's topic. Never embed URLs in the post body itself.`;
 
+// ── HASHTAG BANK ───────────────────────────────────────────────────────────
+// Verified tags from research: Moneybunnies captions, NGPF, Jump$tart,
+// CEE, FamZoo, plus indie kid-finlit creators. Stacks differ by platform
+// and audience because LinkedIn penalizes hashtag stacking while
+// Instagram rewards it.
+const HASHTAG_BANK = {
+  anchors_kidlit: ['#kidlit','#picturebook','#picturebooks','#childrensbooks','#kidsbookstagram','#bookstagram'],
+  anchors_finlit: ['#financialliteracy','#financialeducation','#kidsandmoney','#raisingmoneysmartkids','#moneysmartkids'],
+  anchors_brand: ['#clarencegetsabargain','#clarenceandhismom'],
+  parents:        ['#momlife','#dadlife','#parenting','#parentingtips','#raisingreaders','#readaloud','#bedtimestories','#familytime','#booksforkids','#kidsbooks','#smartparenting','#raisingkids'],
+  teachers:       ['#iteachk','#iteach1st','#iteach2nd','#iteach3rd','#iteach4th','#iteach5th','#elementaryteacher','#teachersfollowteachers','#teachersofinstagram','#teacherspayteachers','#tptseller','#lessonplans','#mostimportantclass','#financialsmartsforstudents','#educatetoempower'],
+  librarians:     ['#librariansofinstagram','#schoollibrarian','#schoollibrary','#librarylife','#librarydisplays','#elementarylibrary','#elemlibrarian','#bookrecommendations','#newrelease'],
+  giftgivers:     ['#giftsforkids','#educationalgifts','#stockingstuffers','#holidaygiftguide','#grandparents'],
+  concept_wvn:    ['#wantsvsneeds','#needsvswants','#decisionmaking','#criticalthinking'],
+  concept_shop:   ['#smartshopping','#comparisonshopping','#consumerawareness','#smartshopper'],
+  concept_coupon: ['#couponlesson','#mathinreallife','#realworldmath'],
+  concept_529:    ['#529plan','#collegesavings','#savefortheirfuture'],
+  concept_budget: ['#budgetingforkids','#kidsbudget','#teachkidsmoney'],
+  holiday_apr:    ['#FinancialLiteracyMonth','#FinLitMonth','#FinLitForAll','#TeachChildrenToSave','#MoneySmartWeek'],
+  holiday_oct:    ['#EconEdMonth','#EconEd','#PersonalFinanceMonth'],
+  holiday_back:   ['#backtoschool','#backtoschoolreads','#backtoschool2026'],
+  holiday_black:  ['#BlackFriday','#CyberMonday'],
+  // NEVER include — hustle bro, adult finance, MLM, saturated junk
+  avoid: ['#money','#finance','#financialfreedom','#wealth','#wealthbuilding','#richmindset','#millionairemindset','#passiveincome','#personalfinance','#budgeting','#couponing','#bookstagrammer','#booklover','#kidsbook','#read','#books','#KidLitTok']
+};
+
+function pickHashtags(platform, audience, theme){
+  const a = (audience||'').toLowerCase();
+  const t = (theme||'').toLowerCase();
+  // Build the right base by audience
+  let base;
+  if(/educator|teacher/.test(a))           base = HASHTAG_BANK.teachers;
+  else if(/gift/.test(a))                  base = HASHTAG_BANK.parents.concat(HASHTAG_BANK.giftgivers);
+  else if(/linkedin/.test(a))              base = HASHTAG_BANK.teachers.slice(0,4).concat(['#MostImportantClass','#FinLitForAll']);
+  else                                     base = HASHTAG_BANK.parents;
+  // Concept modifier
+  let concept = [];
+  if(/wants vs needs|wants vs\. needs/.test(t)) concept = HASHTAG_BANK.concept_wvn;
+  else if(/comparison shopping/.test(t))        concept = HASHTAG_BANK.concept_shop;
+  else if(/coupon|clearance/.test(t))           concept = HASHTAG_BANK.concept_coupon;
+  else if(/529|college savings|saving/.test(t)) concept = HASHTAG_BANK.concept_529;
+  else if(/budget/.test(t))                     concept = HASHTAG_BANK.concept_budget;
+  // Seasonal modifier (theme name OR current month)
+  const month = new Date().getMonth(); // 0=Jan
+  let holiday = [];
+  if(/financial literacy month/i.test(theme) || month===3) holiday = HASHTAG_BANK.holiday_apr;
+  else if(/black friday|cyber monday|prime day/i.test(theme) || month===10) holiday = HASHTAG_BANK.holiday_black;
+  else if(/back to school|first week/i.test(theme) || month===7 || month===8) holiday = HASHTAG_BANK.holiday_back;
+  else if(month===9) holiday = HASHTAG_BANK.holiday_oct;
+  // Compose by platform — caps respect each platform's algorithm reality
+  const fin = HASHTAG_BANK.anchors_finlit.slice(0,3);
+  const kid = HASHTAG_BANK.anchors_kidlit.slice(0,3);
+  const brand = HASHTAG_BANK.anchors_brand.slice(0,1);
+  let stack;
+  if(platform==='Instagram'){
+    // IG: stack hard — 18-22 tags
+    stack = fin.concat(kid, base.slice(0,6), concept, holiday.slice(0,2), brand);
+  } else if(platform==='LinkedIn'){
+    // LinkedIn: 3-5 tags only — algorithm punishes more
+    stack = ['#FinancialLiteracy','#KidsAndMoney','#MostImportantClass'];
+    if(concept.length) stack.push(concept[0]);
+    if(holiday.length) stack.push(holiday[0]);
+  } else { // Facebook
+    // Facebook: 2-3 tags — more kills reach
+    stack = brand.concat(['#FinancialLiteracy']);
+    if(holiday.length) stack.push(holiday[0]);
+  }
+  // Dedup, preserve order
+  const seen = new Set();
+  return stack.filter(h => { const k=h.toLowerCase(); if(seen.has(k)) return false; seen.add(k); return true; });
+}
+
 // ── STATE ───────────────────────────────────────────────────────────────────
 let sel = {platform:'Facebook', audience:'Parents (Ages 28-45)', tone:'Witty and warm'};
 
@@ -444,12 +516,18 @@ async function generatePost(){
 - After the post, add a section: "📌 PASTE IN FIRST COMMENT:" followed by 3 relevant authority links.`:'';
 
   var platformRules={
-    Instagram:'- Under 220 words. Punchy. End with 15-20 relevant hashtags.',
+    Instagram:'- Under 220 words. Punchy.',
     Facebook:'- 150-280 words. Conversational. Include a question to drive engagement.',
     LinkedIn:liRules
   }[platform]||'';
 
-  var prompt=BOOK_CONTEXT+'\n\nTASK: Write a '+platform+' post.\n- Audience: '+audience+'\n- Theme: '+theme+'\n- Tone: '+tone+(instructions?'\n- Special Instructions: '+instructions:'')+'\n\nREQUIREMENTS:\n'+platformRules+'\n- Clear CTA with clarencegetsabargain.com\n- Witty, warm, never preachy, never generic\n- Return ONLY the post copy\n- After the post, on a new line: "HASHTAGS:" followed by 8-12 hashtags';
+  // Curated hashtag stack — verified tags from kid-finlit research
+  // (Moneybunnies, NGPF, Jump$tart, CEE) tuned per platform/audience/theme.
+  var picked = pickHashtags(platform, audience, theme);
+  var avoid = HASHTAG_BANK.avoid.slice(0,8).join(' ');
+  var tagInstruction = '\n\nHASHTAG RULES (STRICT):\n- Use EXACTLY these hashtags in this exact order. Do not invent new ones. Do not swap order. Do not add more.\n- ' + picked.join(' ') + '\n- Never use any of these saturated/off-brand tags: ' + avoid;
+
+  var prompt=BOOK_CONTEXT+'\n\nTASK: Write a '+platform+' post.\n- Audience: '+audience+'\n- Theme: '+theme+'\n- Tone: '+tone+(instructions?'\n- Special Instructions: '+instructions:'')+'\n\nREQUIREMENTS:\n'+platformRules+'\n- Clear CTA with clarencegetsabargain.com\n- Witty, warm, never preachy, never generic\n- Return ONLY the post copy\n- After the post, on a new line: "HASHTAGS:" followed by the curated stack below.'+tagInstruction;
 
   try{
     var res=await fetch('https://api.anthropic.com/v1/messages',{
