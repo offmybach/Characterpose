@@ -562,6 +562,32 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 /* === TESTIMONIAL CREDENTIAL SUBLINE === */
 .t-creds{font-size:.65rem;color:rgba(255,255,255,.35);margin-top:4px;line-height:1.4;letter-spacing:.4px}
 
+/* === READ A PAGE — verbatim excerpt teaser === */
+.excerpt-section{padding:70px 20px;background:linear-gradient(180deg,#fffdf8,#fef9f0);text-align:center}
+.excerpt-section .section-tag{font-family:'Hold',sans-serif;font-size:.7rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
+.excerpt-section h2{font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(1.5rem,3.5vw,2.2rem);margin-bottom:34px}
+.excerpt-page{max-width:620px;margin:0 auto;background:#fff;border-radius:6px;padding:46px 44px 38px;box-shadow:0 4px 14px rgba(0,0,0,.07),0 18px 48px rgba(0,84,166,.09);position:relative;text-align:left;transform:rotate(-.4deg)}
+.excerpt-page::after{content:'';position:absolute;bottom:0;right:0;width:0;height:0;border-style:solid;border-width:0 0 34px 34px;border-color:transparent transparent #e8dcc8 transparent;border-radius:0 0 4px 0}
+.excerpt-pagenum{font-family:'Hold',sans-serif;font-size:.68rem;color:#bbb;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:20px}
+.excerpt-text{font-size:1.08rem;color:#222;line-height:1.9;margin-bottom:8px}
+.excerpt-list{font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(1.05rem,2.4vw,1.35rem);line-height:2;list-style:none;padding:14px 0 6px;margin:0}
+.excerpt-list li{padding-left:4px}
+.excerpt-cliff{max-width:620px;margin:30px auto 0;font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(1rem,2.2vw,1.25rem);line-height:1.6}
+.excerpt-cliff .ec-orange{color:#ff6b2b}
+.excerpt-cta{display:inline-block;margin-top:26px;padding:14px 36px;background:transparent;color:#ff6b2b;font-family:'Hold',sans-serif;font-size:.92rem;text-decoration:none;border:2px dashed #ff6b2b;border-radius:40px;transition:.3s;letter-spacing:.5px}
+.excerpt-cta:hover{background:#ff6b2b;color:#fff;transform:translateY(-2px)}
+@media(max-width:480px){.excerpt-page{padding:32px 24px 28px}}
+
+/* === CLASSROOM ROADMAP === */
+.roadmap-wrap{display:flex;justify-content:center;gap:0;max-width:880px;margin:0 auto 48px;flex-wrap:wrap}
+.roadmap-step{flex:1;min-width:220px;padding:0 18px;position:relative;text-align:center}
+.roadmap-step:not(:last-child)::after{content:'\2192';position:absolute;right:-13px;top:24px;font-size:1.6rem;color:#ff6b2b;font-family:'Hold',sans-serif}
+.rm-num{display:inline-flex;align-items:center;justify-content:center;width:58px;height:58px;background:#fff;border:4px dashed #1a3a5c;border-radius:50%;font-family:'Hold',sans-serif;font-size:1.4rem;color:#ff6b2b;margin-bottom:14px}
+.rm-title{font-family:'Hold',sans-serif;color:#1a3a5c;font-size:1rem;margin-bottom:7px}
+.rm-desc{font-size:.84rem;color:#0054a6;line-height:1.55;margin-bottom:8px}
+.rm-time{display:inline-block;font-family:'Hold',sans-serif;font-size:.68rem;color:#fff;background:#ff6b2b;padding:4px 14px;border-radius:20px;letter-spacing:1px}
+@media(max-width:760px){.roadmap-step:not(:last-child)::after{content:'\2193';right:auto;left:50%;transform:translateX(-50%);top:auto;bottom:-34px}.roadmap-step{margin-bottom:46px;min-width:260px}.roadmap-wrap{margin-bottom:24px}}
+
 </style>
 <script type="application/ld+json">
 {
@@ -664,6 +690,16 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
           "@type": "Question",
           "name": "What financial concepts does the book teach?",
           "acceptedAnswer": {"@type": "Answer", "text": "The book covers budgeting, comparison shopping, sale pricing, coupons and percentage markdowns, Wants vs. Needs, receipts and record-keeping, savings and delayed gratification, college savings accounts, and consumer awareness."}
+        },
+        {
+          "@type": "Question",
+          "name": "How is Clarence Gets a Bargain different from other kids' money books?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Most kids' money books teach saving. Clarence Gets a Bargain is the only picture book where the plot is the shopping trip itself: comparison shopping, clearance racks, markdowns, and using a coupon at the register. The financial lessons never interrupt the story; the story demands them."}
+        },
+        {
+          "@type": "Question",
+          "name": "How do I buy Clarence Gets a Bargain?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Order directly at clarencegetsabargain.com with secure Stripe checkout. Books ship directly from the author. Every order is covered by a 30-day return promise. Bulk and institutional ordering with purchase orders, Net 30 terms, and Title I pricing is also available."}
         }
       ]
     }
@@ -724,17 +760,17 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     <div class="coupon-card reveal" role="button" tabindex="0" onclick="document.getElementById('magazine').scrollIntoView({behavior:'smooth'})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();document.getElementById('magazine').scrollIntoView({behavior:'smooth'});}">
       <span class="coupon-scissor">&#9986;</span>
       <h3>BOGO: Buy the Story, Get the Lessons FREE!</h3>
-      <p>About the Adventure</p>
+      <p>Parents: your kid reads it for the robot. The money lessons ride along free.</p>
     </div>
-    <div class="coupon-card reveal reveal-delay-1" role="button" tabindex="0" onclick="document.getElementById('magazine').scrollIntoView({behavior:'smooth'})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();document.getElementById('magazine').scrollIntoView({behavior:'smooth'});}">
+    <div class="coupon-card reveal reveal-delay-1" role="button" tabindex="0" onclick="document.getElementById('toolkit').scrollIntoView({behavior:'smooth'})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();document.getElementById('toolkit').scrollIntoView({behavior:'smooth'});}">
       <span class="coupon-scissor">&#9986;</span>
       <h3>100% OFF Boring Textbooks!</h3>
-      <p>The 2-Page Financial Glossary</p>
+      <p>Teachers: 36 pages. Zero prep. Four frameworks. Free toolkit.</p>
     </div>
-    <div class="coupon-card reveal reveal-delay-2" role="button" tabindex="0" onclick="document.getElementById('magazine').scrollIntoView({behavior:'smooth'})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();document.getElementById('magazine').scrollIntoView({behavior:'smooth'});}">
+    <div class="coupon-card reveal reveal-delay-2" role="button" tabindex="0" onclick="document.getElementById('reviews').scrollIntoView({behavior:'smooth'})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();document.getElementById('reviews').scrollIntoView({behavior:'smooth'});}">
       <span class="coupon-scissor">&#9986;</span>
       <h3>5-STAR VALUE!</h3>
-      <p>Read Parent &amp; Teacher Reviews</p>
+      <p>Skeptics: read what teachers, kids, and a CFP actually said.</p>
     </div>
   </div>
 </nav>
@@ -771,6 +807,24 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     <div style="font-family:'Hold',sans-serif;font-size:1rem;font-weight:700;color:#ff6b2b">Melanie</div>
     <div style="font-size:.85rem;color:#555;margin-top:4px">Certified Financial Planner</div>
   </div>
+</section>
+
+<!-- READ A PAGE — verbatim excerpt -->
+<section class="excerpt-section">
+  <div class="section-tag">Straight From the Book</div>
+  <h2 class="reveal">Read an Actual Page. Right Now.</h2>
+  <div class="excerpt-page reveal">
+    <div class="excerpt-pagenum">Page 12 &bull; The Robot Aisle</div>
+    <p class="excerpt-text">The massive selection of robots blew Clarence away. As soon as he saw them all, he knew that choosing just the right one was not going to be an easy decision to make. There were:</p>
+    <ul class="excerpt-list">
+      <li>Short ones, tall ones</li>
+      <li>Red ones, black ones</li>
+      <li>Long ones, round ones</li>
+      <li>Big ones, crazy ones!</li>
+    </ul>
+  </div>
+  <p class="excerpt-cliff reveal">Then Clarence turned the corner.<br>What happens on <span class="ec-orange">page 13</span> is the moment kids make their parents read twice.<br>We&rsquo;re not spoiling it.</p>
+  <a class="excerpt-cta reveal" href="#buy">Find Out &mdash; Get the Book</a>
 </section>
 
 <!-- COVER SHOWCASE -->
@@ -900,7 +954,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   </div>
 </section>
 <!-- TESTIMONIALS STRIP -->
-<section class="testimonials-strip">
+<section class="testimonials-strip" id="reviews">
   <div class="t-header reveal">
     <div class="section-tag">Real Readers. Real Reactions.</div>
     <h2>They Didn&rsquo;t Expect to Love a Money Book.</h2>
@@ -1205,10 +1259,30 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 </section>
 
 <!-- SECTION 3: TURNKEY ECOSYSTEM — PROGRAM IN A BOX -->
-<section class="resources-section reveal">
+<section class="resources-section reveal" id="toolkit">
   <div class="section-tag">The Teacher Toolkit</div>
   <h2>Program in a Box: A Complete 4-Week Financial Literacy Module</h2>
   <p class="section-sub">Built alongside the book, not bolted on after. Lesson plans map to the frameworks your district already uses. Assessments produce the data grant reports require. All six tools. All free. All yours.</p>
+  <div class="roadmap-wrap reveal">
+    <div class="roadmap-step">
+      <div class="rm-num">1</div>
+      <div class="rm-title">Read It</div>
+      <div class="rm-desc">Read-aloud or independent. One class period, start to finish.</div>
+      <span class="rm-time">15&ndash;20 MIN</span>
+    </div>
+    <div class="roadmap-step">
+      <div class="rm-num">2</div>
+      <div class="rm-title">Teach It</div>
+      <div class="rm-desc">Discussion guide and zero-prep lesson modules. Nothing to prepare but the book and a screen.</div>
+      <span class="rm-time">45 MIN &bull; NO PREP</span>
+    </div>
+    <div class="roadmap-step">
+      <div class="rm-num">3</div>
+      <div class="rm-title">Send It Home</div>
+      <div class="rm-desc">The Sea-Mart Secret Mission turns the family grocery run into the homework.</div>
+      <span class="rm-time">PARENTS DO THE REST</span>
+    </div>
+  </div>
   <div class="resource-cards">
     <div class="resource-card">
       <span class="rc-free">FREE</span>
@@ -1272,6 +1346,12 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       <h3>Enterprise &amp; Co-Branding Partnerships</h3>
       <p>Custom co-branded editions for corporate sponsors, financial institutions, and national programs. Available for CRA community development initiatives, financial institution outreach programs, and state-level financial literacy efforts.</p>
       <a class="ic-btn secondary" href="mailto:questions@clarencegetsabargain.com?subject=Enterprise%20%26%20Co-Branding%20Partnership">Contact Us</a>
+    </div>
+    <div class="inst-card">
+      <div class="ic-icon-clean">04</div>
+      <h3>Give a Classroom Set</h3>
+      <p>Ten books plus the full educator toolkit, donated to the school or library of your choice &mdash; or to a Title I classroom on our waiting list. One purchase, twenty-five kids per year, every year the books stay on the shelf.</p>
+      <a class="ic-btn primary" href="mailto:orders@clarencegetsabargain.com?subject=Donate%20a%20Classroom%20Set">Donate a Set</a>
     </div>
   </div>
   <p class="inst-procurement-note">We accept Purchase Orders (POs), offer Net 30 terms, and support Title I volume pricing. Contact us to discuss your institution&rsquo;s procurement process.</p>
@@ -1341,6 +1421,24 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       </button>
       <div class="faq-answer"><div class="faq-answer-inner">
         That&rsquo;s exactly who this book is for. The story leads &mdash; the money lessons follow. There&rsquo;s a robot, a plot twist, and a dad joke on page 31. Reluctant readers have been known to flip back to the beginning the moment they finish.
+      </div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">
+        How is this different from other kids&rsquo; money books?
+        <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+      </button>
+      <div class="faq-answer"><div class="faq-answer-inner">
+        Most kids&rsquo; money books teach saving. A piggy bank, a lemonade stand, a lesson. This is the only picture book where the plot <em>is</em> the shopping trip &mdash; comparison shopping, clearance racks, markdowns, and a coupon at the register. Nobody else covers how to actually spend smart. And the lessons never interrupt the story; the story demands them.
+      </div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">
+        How do I buy it? Is checkout secure?
+        <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+      </button>
+      <div class="faq-answer"><div class="faq-answer-inner">
+        Hit any Buy button and you&rsquo;ll check out through Stripe &mdash; the same payment processor behind Amazon, Google, and Shopify checkouts. We never see your card number. Books ship directly from us, signed-by-the-author copies available on request, and every order is covered by the 30-day return promise. Questions first? Email <a href="mailto:orders@clarencegetsabargain.com" style="color:#ffd700">orders@clarencegetsabargain.com</a> and a human (Jonathan) answers.
       </div></div>
     </div>
     <div class="faq-item">
