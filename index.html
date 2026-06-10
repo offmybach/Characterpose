@@ -772,6 +772,11 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       <h3>5-STAR VALUE!</h3>
       <p>Skeptics: read what teachers, kids, and a CFP actually said.</p>
     </div>
+    <div class="coupon-card reveal reveal-delay-3" role="button" tabindex="0" onclick="window.open('resources/free-sample-print.html','_blank')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();window.open('resources/free-sample-print.html','_blank');}">
+      <span class="coupon-scissor">&#9986;</span>
+      <h3>FREE SAMPLE: First 5 Pages!</h3>
+      <p>Read the actual book, word for word. No email. No catch.</p>
+    </div>
   </div>
 </nav>
 
@@ -825,6 +830,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   </div>
   <p class="excerpt-cliff reveal">Then Clarence turned the corner.<br>What happens on <span class="ec-orange">page 13</span> is the moment kids make their parents read twice.<br>We&rsquo;re not spoiling it.</p>
   <a class="excerpt-cta reveal" href="#buy">Find Out &mdash; Get the Book</a>
+  <p class="reveal" style="margin-top:16px;font-size:.85rem"><a href="resources/free-sample-print.html" target="_blank" rel="noopener" style="color:#0054a6;text-decoration:underline">Or read the first 5 pages free &rarr;</a></p>
 </section>
 
 <!-- COVER SHOWCASE -->
@@ -917,6 +923,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   <div class="price-note reveal">Hardbound &bull; Full Color &bull; Ages 6&ndash;10 &bull; + $5.99 shipping</div>
   <div style="text-align:center" class="reveal">
     <span class="gift-tag"><span class="gt-icon">&#127873;</span> Makes a wildly good gift &bull; Ships ready to wrap</span>
+    <div style="font-family:'Hold',sans-serif;font-size:.8rem;color:rgba(255,255,255,.85);margin-top:10px;letter-spacing:.3px">Grandparents: skip the plastic toy. Give the kid a money brain.</div>
   </div>
 
   <div class="value-stack-wrap reveal">
@@ -1031,6 +1038,11 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 <section class="email-signup reveal">
   <h3>Get the Free Reading Guide + Classroom Activities</h3>
   <p>Join educators and parents who are teaching kids real-world money skills.</p>
+  <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:22px">
+    <a href="#buy" style="font-family:'Hold',sans-serif;font-size:.78rem;color:#fff;border:2px dashed rgba(255,255,255,.6);border-radius:30px;padding:8px 20px;text-decoration:none;letter-spacing:.5px;transition:.2s" onmouseover="this.style.background='rgba(255,255,255,.18)'" onmouseout="this.style.background='transparent'">I&rsquo;m a parent &rarr;</a>
+    <a href="#toolkit" style="font-family:'Hold',sans-serif;font-size:.78rem;color:#fff;border:2px dashed rgba(255,255,255,.6);border-radius:30px;padding:8px 20px;text-decoration:none;letter-spacing:.5px;transition:.2s" onmouseover="this.style.background='rgba(255,255,255,.18)'" onmouseout="this.style.background='transparent'">I&rsquo;m a teacher &rarr;</a>
+    <a href="#institutional" style="font-family:'Hold',sans-serif;font-size:.78rem;color:#fff;border:2px dashed rgba(255,255,255,.6);border-radius:30px;padding:8px 20px;text-decoration:none;letter-spacing:.5px;transition:.2s" onmouseover="this.style.background='rgba(255,255,255,.18)'" onmouseout="this.style.background='transparent'">I buy for a school &rarr;</a>
+  </div>
   <form class="email-form" id="signupForm" onsubmit="return submitSignup(event);">
     <input type="email" id="su-email" name="email" placeholder="Enter your email" aria-label="Email address" required>
     <button type="submit">Send It!</button>
@@ -1262,7 +1274,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 <section class="resources-section reveal" id="toolkit">
   <div class="section-tag">The Teacher Toolkit</div>
   <h2>Program in a Box: A Complete 4-Week Financial Literacy Module</h2>
-  <p class="section-sub">Built alongside the book, not bolted on after. Lesson plans map to the frameworks your district already uses. Assessments produce the data grant reports require. All six tools. All free. All yours.</p>
+  <p class="section-sub">Built alongside the book, not bolted on after. Lesson plans map to the frameworks your district already uses. Assessments produce the data grant reports require. All six tools. Free for teachers. Forever. No login, no email, no catch.</p>
   <div class="roadmap-wrap reveal">
     <div class="roadmap-step">
       <div class="rm-num">1</div>
@@ -1324,7 +1336,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 </section>
 
 <!-- SECTION 5: THE PROCUREMENT PORTAL -->
-<section class="institutional-section reveal">
+<section class="institutional-section reveal" id="institutional">
   <div class="section-tag">Procurement</div>
   <h2>Institutional &amp; Bulk Ordering</h2>
   <p class="section-sub">Built for the way schools, libraries, credit unions, and financial education programs actually buy. Purchase orders welcomed. Net 30 standard. Title I pricing on file.</p>
