@@ -20,7 +20,15 @@ coupons on a trip to Sea-Mart. Story first. Money smarts sneak in.
 **What success looks like:** kids read it for the story and *absorb* the
 concepts because the plot demands it — not because a worksheet told them to.
 
-**Positioning lines we own:**
+**Primary positioning (June 2026): the consumer transformation.**
+Competitors all pitch "financial literacy" — topic-speak. CGB pitches what the
+kid *becomes*. Lead with the arc, not the subject:
+- "From impulsive young spenders to aware, educated consumers." (hero masthead, OG/meta, JSON-LD)
+- "From 'I want it' to 'Is it worth it?'" (the page-25 arc, in the kid's own words)
+- Never "clueless kid" — the kid is an *impulsive young spender*, not dumb.
+- "Spenders" beats "shoppers" (covers apps/candy/impulse, not just store aisles).
+
+**Supporting positioning lines we own** (sneak conceit is now secondary — ticker, body copy):
 - "A money book kids actually read."
 - "Story first. Money smarts sneak in."
 - "Edutainment at its finest."
