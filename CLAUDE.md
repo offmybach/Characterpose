@@ -493,3 +493,23 @@ Template prompts for website planning/design. Placeholders shown as `[brackets]`
 8. **SEO Content** — "Write SEO-friendly website content for a [page type] about [topic/keyword]. Include a clear title, headings, short paragraphs, and natural keyword use. Target audience: [audience]. Keep it readable and avoid keyword stuffing."
 9. **Website UX Audit** — "Review my website idea for a [business type] and suggest improvements to user experience. Focus on layout, navigation, clarity, calls to action, readability, and mobile usability. Explain suggestions in simple language."
 10. **Code Improvement** — "Review and improve this website code. Fix errors, clean up the structure, make it responsive, improve accessibility, and explain what you changed. Keep the code easy for a beginner to edit."
+
+---
+
+## Model routing rules
+
+Default model: claude-opus-4-8
+
+Switch to claude-fable-5 only when at least one is true:
+- Task spans more than 5 files or is expected to take more than 30 minutes
+- Task involves images, screenshots, or vision (extract data, rebuild from
+  visual, parse figures)
+- Previous attempts on Opus stalled or needed more than 2 retries
+- Task is async/autonomous and will run without human check-in for over
+  an hour
+
+For everything else, stay on Opus 4.8. Do not switch up because the task
+feels complex. Switch up only when the criteria above are met.
+
+For doc updates, commit messages, simple migrations, single-file edits,
+use claude-sonnet-4-6.
