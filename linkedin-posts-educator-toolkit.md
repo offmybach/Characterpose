@@ -405,3 +405,43 @@ Some I'd queue up:
 
 Rotate one every 2–3 weeks. Pattern builds recognition. People start expecting them. The day you post one that's NOT in the pattern, you'll get DMs asking when the next one is dropping. That's the goal.
 
+
+---
+
+# Trojan Horse Image Post (FB + LinkedIn)
+
+Pair both versions with `images/clarencetrojan.png` — Clarence as a Trojan
+horse in the toy aisle, concepts spilling out of the hatch. Don't crop the
+hatch; the hatch is the joke. The Clearance sign in the background stays a
+background detail — never caption it.
+
+## LinkedIn version
+
+The Greeks needed a giant wooden horse to get inside Troy.
+
+I needed 36 pages and a robot.
+
+Same play, better snacks. You build the thing they'll beg to drag through the front gates; the contents climb out once everyone's comfortable. In this case the contents are budgeting, saving, coupons, comparison shopping, charity, and wants vs. needs — a full financial curriculum riding shotgun in a story about a kid who wants a RoBimmie more than he wants oxygen.
+
+Parents have been running this strategy since the first vegetable got ground into mac and cheese. I just gave it wheels.
+
+By the last page, the kid stops saying "I want it" and starts asking "Is it worth it?" No siege required.
+
+Clarence Gets a Bargain — ages 6–10, grades 1–5. Free educator toolkit at clarencegetsabargain.com/educator-toolkit if you want to roll the horse into your classroom.
+
+## Facebook version
+
+Every parent knows the move: grind the vegetables into the mac and cheese.
+
+I did it with a book.
+
+Clarence Gets a Bargain looks like a story about a kid and a robot. It is one. It's also carrying budgeting, saving, coupons, comparison shopping, and wants vs. needs in its belly — waiting for your kid to drag it inside and ask for it twice at bedtime.
+
+The Greeks called it a Trojan horse. Your kid will call it the robot book. You'll call it the first time "I want it" turned into "Is it worth it?"
+
+clarencegetsabargain.com
+
+## Notes
+
+- Comment bait if you want it (first comment, ~10 min after posting): "What's the best thing YOU ever snuck past your kids? I'll go first: piano lessons disguised as a video game."
+- Don't run both platforms the same day; FB first, LI 2-3 days later.
