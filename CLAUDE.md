@@ -513,3 +513,52 @@ feels complex. Switch up only when the criteria above are met.
 
 For doc updates, commit messages, simple migrations, single-file edits,
 use claude-sonnet-4-6.
+
+## Prompt caching — ON for all Claude API calls
+
+Any script in this project that calls the Claude API caches the system prompt
+with `cache_control: ephemeral`. Canonical call shape:
+
+```python
+import anthropic
+
+client = anthropic.Anthropic()
+
+response = client.messages.create(
+    model="claude-fable-5",
+    max_tokens=8000,
+    system=[
+        {
+            "type": "text",
+            "text": large_system_prompt,
+            "cache_control": {"type": "ephemeral"}
+        }
+    ],
+    messages=[...]
+)
+
+# Fable 5 can decline via safety classifiers - check before reading content
+if response.stop_reason == "refusal":
+    raise RuntimeError("request refused")
+
+# Verify the cache is actually hitting
+print(response.usage.cache_creation_input_tokens)  # written this call (~1.25x)
+print(response.usage.cache_read_input_tokens)      # served from cache (~0.1x)
+```
+
+Rules that make or break it:
+
+- Caching is a prefix match. The system prompt must be byte-identical between
+  calls - no timestamps, no per-run IDs, no f-string dates in it. Volatile
+  content goes in `messages`, after the cache breakpoint.
+- Minimum cacheable prefix on claude-fable-5 is 2048 tokens. Shorter system
+  prompts silently don't cache (no error, just zero cache reads).
+- Default TTL is 5 minutes. For batch runs spaced further apart, use
+  `"cache_control": {"type": "ephemeral", "ttl": "1h"}` (write costs 2x
+  instead of 1.25x - needs 3+ reads to pay off).
+- If `cache_read_input_tokens` stays 0 across repeated calls, something is
+  mutating the prefix - diff the rendered prompt between two calls.
+- Fable 5 specifics: do NOT pass `thinking`, `temperature`, `top_p`, or
+  `top_k` (all 400). Thinking is always on. Same caching shape works on
+  claude-opus-4-8 and claude-sonnet-4-6 per the routing rules above (note:
+  Opus minimum cacheable prefix is 4096 tokens).
