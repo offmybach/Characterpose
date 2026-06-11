@@ -27,14 +27,6 @@ body{font-family:'Inter',sans-serif;background:#fff;color:#222;min-height:100vh}
 .hero p{color:rgba(255,255,255,.85);font-size:1rem;max-width:580px;margin:0 auto 32px;line-height:1.7;position:relative;z-index:1}
 .hero-scissors{font-size:1.2rem;margin-right:6px}
 
-/* BIG DOWNLOAD BTN */
-.dl-hero-btn{display:inline-flex;align-items:center;gap:12px;background:#ff6b2b;color:#fff;border:none;padding:20px 44px;border-radius:50px;font-family:'Hold',sans-serif;font-size:1.2rem;cursor:pointer;box-shadow:0 8px 30px rgba(255,107,43,.45);transition:all .3s;position:relative;z-index:1;text-decoration:none}
-.dl-hero-btn:hover{transform:translateY(-3px);box-shadow:0 14px 40px rgba(255,107,43,.55)}
-.dl-hero-btn:disabled{opacity:.6;cursor:not-allowed;transform:none}
-.dl-hero-btn .spinner{width:22px;height:22px;border:2.5px solid rgba(255,255,255,.4);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;display:none}
-@keyframes spin{to{transform:rotate(360deg)}}
-.dl-hero-btn.loading .spinner{display:block}
-.dl-hero-btn.loading .btn-text{display:none}
 .hero-note{color:rgba(255,255,255,.5);font-size:.72rem;margin-top:14px;position:relative;z-index:1}
 
 /* CONTENT */
@@ -76,24 +68,6 @@ h2{font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(1.5rem,3vw,2.1rem
 .bulk-btn.secondary{background:#fff;color:#0054a6;border:2px dashed #0054a6}
 .bulk-btn.secondary:hover{background:#f0f6ff}
 
-/* PROGRESS OVERLAY */
-#dl-progress{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;z-index:9999;backdrop-filter:blur(4px)}
-#dl-progress.visible{display:flex}
-.progress-card{background:#fff;border-radius:20px;padding:40px 48px;text-align:center;max-width:380px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,.3);border:4px dashed #ff6b2b;position:relative}
-.progress-card::before{content:'✂';position:absolute;top:-18px;left:16px;font-size:1.3rem;color:#ff6b2b;background:#fff;padding:0 4px}
-.progress-card h3{font-family:'Hold',sans-serif;color:#0054a6;font-size:1.4rem;margin-bottom:8px}
-.progress-card p{color:#888;font-size:.85rem;margin-bottom:20px}
-.progress-bar-wrap{background:#f0f0f0;border-radius:50px;height:10px;overflow:hidden;margin-bottom:12px}
-.progress-bar-fill{height:100%;background:linear-gradient(90deg,#0054a6,#ff6b2b);border-radius:50px;transition:width .4s}
-.progress-status{font-size:.75rem;color:#aaa;font-weight:600}
-.progress-success{display:none}
-.progress-success .s-icon{font-size:3rem;margin-bottom:10px}
-.progress-success h3{color:#2e7d32}
-.progress-success p{color:#555}
-@media(max-width:768px){
-  .dl-hero-btn{min-height:48px;padding:14px 28px;font-size:1rem}
-  .dl-hero-btn .btn-text{min-height:22px;display:inline-flex;align-items:center;line-height:1.2}
-}
 </style>
 </head>
 <body>
@@ -207,86 +181,5 @@ h2{font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(1.5rem,3vw,2.1rem
   </div>
 </div>
 
-<!-- DOWNLOAD PROGRESS OVERLAY -->
-<div id="dl-progress">
-  <div class="progress-card">
-    <div id="progress-building">
-      <h3>Building Your Toolkit...</h3>
-      <p id="progress-msg">Loading files...</p>
-      <div class="progress-bar-wrap"><div class="progress-bar-fill" id="progress-fill" style="width:0%"></div></div>
-      <div class="progress-status" id="progress-status">0 of 6 files</div>
-    </div>
-    <div class="progress-success" id="progress-success">
-      <div class="s-icon">📦</div>
-      <h3>Toolkit Downloaded!</h3>
-      <p>All 6 resources are in your downloads folder.<br><strong>Now go teach some money smarts. ✂</strong></p>
-    </div>
-  </div>
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
-<script>
-const files = [
-  { path: 'downloads/educator-preview.pdf',   name: 'CGB-01-Educator-Preview.pdf',      label: 'Educator Preview' },
-  { path: 'downloads/lesson-plans.pdf',        name: 'CGB-02-Lesson-Plans.pdf',          label: 'Lesson Plans' },
-  { path: 'downloads/discussion-guide.pdf',    name: 'CGB-03-Discussion-Guide.pdf',      label: 'Discussion Guide' },
-  { path: 'downloads/assessment-worksheet.pdf',name: 'CGB-04-Assessment-Worksheet.pdf',  label: 'Assessment Worksheet' },
-  { path: 'downloads/family-activity.pdf',     name: 'CGB-05-Family-Activity.pdf',       label: 'Family Activity Sheet' },
-  { path: 'downloads/standards-chart.pdf',     name: 'CGB-06-Standards-Chart.pdf',       label: 'Standards Alignment Chart' }
-];
-
-async function downloadZip() {
-  const overlay = document.getElementById('dl-progress');
-  const fill    = document.getElementById('progress-fill');
-  const msg     = document.getElementById('progress-msg');
-  const status  = document.getElementById('progress-status');
-  const allBtns = document.querySelectorAll('.dl-hero-btn');
-
-  overlay.classList.add('visible');
-  allBtns.forEach(b => b.disabled = true);
-
-  const zip = new JSZip();
-  const folder = zip.folder('Clarence-Gets-a-Bargain-Educator-Toolkit');
-
-  for (let i = 0; i < files.length; i++) {
-    const f = files[i];
-    msg.textContent = `Loading: ${f.label}...`;
-    status.textContent = `${i} of ${files.length} files`;
-    fill.style.width = `${(i / files.length) * 85}%`;
-    try {
-      const res = await fetch(f.path);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const blob = await res.blob();
-      folder.file(f.name, blob);
-    } catch (e) {
-      console.warn(`Could not load ${f.path}:`, e.message);
-    }
-  }
-
-  msg.textContent = 'Compressing ZIP...';
-  fill.style.width = '90%';
-
-  const zipBlob = await zip.generateAsync({ type: 'blob', compression: 'DEFLATE', compressionOptions: { level: 6 } });
-
-  fill.style.width = '100%';
-
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(zipBlob);
-  a.download = 'Clarence-Gets-a-Bargain-Educator-Toolkit.zip';
-  a.click();
-  URL.revokeObjectURL(a.href);
-
-  document.getElementById('progress-building').style.display = 'none';
-  document.getElementById('progress-success').style.display  = 'block';
-
-  setTimeout(() => {
-    overlay.classList.remove('visible');
-    document.getElementById('progress-building').style.display = 'block';
-    document.getElementById('progress-success').style.display  = 'none';
-    fill.style.width = '0%';
-    allBtns.forEach(b => b.disabled = false);
-  }, 3000);
-}
-</script>
 </body>
 </html>

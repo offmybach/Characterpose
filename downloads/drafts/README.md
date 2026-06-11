@@ -63,7 +63,11 @@ A custom `cgb-style.css` (Hold font headers, #0054a6 blue, #ff6b2b orange, cream
 
 ## What's still TODO
 
-- The **Wyze Shopper Certificate** referenced in Week 4 of the lesson plans needs a printable design.
-- The **Curriculum Alignment Matrix** tool already exists at `resources/curriculum-alignment-matrix.html`. Sanity-check that its concept list matches the 23 concepts in `06-standards-chart.md`.
-- **Printables marked [P]** in the lesson plans (sort cards, clearance stickers, comparison worksheets, coupon templates) — either ship as a "Curriculum Companion Pack" or remove the [P] markers and rely on teachers to make their own.
 - Polish-tier suggestions from the review weren't addressed (these are nice-to-have, not credibility risks). See chat transcript or rerun the review for the punch list.
+
+## Done (June 2026)
+
+- **Wyze Shopper Certificate** — shipped at `resources/wyze-shopper-certificate.html` (typeable name, landscape print).
+- **Curriculum Companion Pack** — shipped at `resources/curriculum-companion.html` (5 printables); [P] markers dropped from lesson plans.
+- **Curriculum Alignment Matrix sanity check** — done. Three concepts from the 23-row crosswalk were missing (Income, Charitable Giving, Black Friday/Cyber Monday/Prime Day) and FDIC Money Smart wasn't a filterable framework. All added to both the standalone matrix and the `res-curriculum` modal in index.html: 11 concept clusters now cover all 23 crosswalk rows across 5 frameworks.
+- **Contaminated v1 PDFs fully de-referenced** — the dead "download all as ZIP" code on educator-toolkit.html still pointed at the six fabricated-plot PDFs; removed along with the JSZip dependency.
