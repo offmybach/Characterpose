@@ -443,5 +443,5 @@ clarencegetsabargain.com
 
 ## Notes
 
-- Comment bait if you want it (first comment, ~10 min after posting): "What's the best thing YOU ever snuck past your kids? I'll go first: piano lessons disguised as a video game."
+- Comment bait if you want it (first comment, ~10 min after posting): "What's the best thing YOU ever snuck past your kids? I'll go first: the pediatrician said my 5-year-old was a little behind on hand-eye coordination and fine motor skills. I bought him the newest PlayStation. Weaknesses: eliminated. Kid's now a magician with a controller. Occupational therapy, disguised as a present." (True story — keep it; real beats clever.)
 - Don't run both platforms the same day; FB first, LI 2-3 days later.
