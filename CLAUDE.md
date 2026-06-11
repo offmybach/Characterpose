@@ -6,6 +6,10 @@ financial-literacy picture book aimed at ages 6–10, grades 1–5.
 This file is auto-loaded every session. It is the single source of truth for
 mission, voice, invariants, and code map. Keep it tight; don't bloat it.
 
+**FIRST: read `session-notes.md`** — the running cross-session log. It has the
+latest branch, what shipped, decisions already made (don't re-litigate), open
+flags awaiting Jonathan's veto, and next likely tasks.
+
 ---
 
 ## 1. Mission
