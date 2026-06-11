@@ -2,6 +2,8 @@
 
 Six standalone posts to invite teachers, librarians, and credit-union youth program leads to the refreshed toolkit. Don't post them all in one week. Space them out — one every 5–10 days. Mix in real teacher photos, classroom shots, or book spreads if you have them.
 
+**Positioning note (June 2026):** the pitch is the consumer transformation — impulsive young spenders in, aware educated consumers out; "I want it" → "Is it worth it?" — not "financial literacy," which is what every competitor says. Vary the wording post to post; never paste the same line twice.
+
 All link to: **clarencegetsabargain.com/educator-toolkit**
 
 ---
@@ -104,9 +106,11 @@ That homework is comparison shopping.
 
 He doesn't know that's what it's called. He just knows Mom wants him to look at sale ads before they go to the store. He grumbles. He gets it done. He becomes the kid at Sea-Mart asking the lady in the red vest where the robot aisle is.
 
-Story first. Money smarts sneak in.
+He walks in saying "I want it." He walks out asking "Is it worth it?"
 
-That's the pitch. There's a free, refreshed, standards-aligned 4-week curriculum waiting at clarencegetsabargain.com/educator-toolkit if you want to run it with your class.
+That's the pitch. Not a money unit; a changed kid. Impulsive young spenders go in, aware, educated consumers come out, and the whole time they think they're reading a robot story.
+
+There's a free, refreshed, standards-aligned 4-week curriculum waiting at clarencegetsabargain.com/educator-toolkit if you want to run it with your class.
 
 Grades 1–5. Jump$tart, CEE, CCSS, FDIC. 6 PDFs. Browser-printable. No email required. (Total price: zero. I've reviewed the books. They balance.)
 
@@ -122,7 +126,7 @@ Not in textbook language. In her voice:
 
 That's not curriculum. That's just a mom talking to her kid.
 
-It's also one of 21 financial terms built into the back matter of Clarence Gets a Bargain — a picture book that teaches 16+ money concepts to kids ages 6–10 without ever feeling like a textbook.
+It's also one of 21 financial terms built into the back matter of Clarence Gets a Bargain — the picture book that takes kids from impulsive young spenders to aware, educated consumers, ages 6–10, without ever feeling like a textbook.
 
 The whole free educator toolkit just got rebuilt: lesson plans, discussion guide with the official glossary verbatim, pre/post assessment, family activity sheet, standards chart. Six PDFs. All standards-aligned to Jump$tart 2021, CEE, CCSS, and FDIC Money Smart.
 
@@ -220,7 +224,7 @@ I'll wait.
 
 That's what I thought.
 
-This is the gap *Clarence Gets a Bargain* was built to close. Free 4-week curriculum for grades 1–5 just relaunched. Six standards-aligned PDFs. Built around a 36-page story your kids will actually want to read.
+This is the gap *Clarence Gets a Bargain* was built to close. The job was never teaching kids "financial literacy" — the job is moving a kid from "I want it" to "Is it worth it?" Free 4-week curriculum for grades 1–5 just relaunched. Six standards-aligned PDFs. Built around a 36-page story your kids will actually want to read.
 
 clarencegetsabargain.com/educator-toolkit
 
@@ -298,7 +302,7 @@ I want those quarters.
 
 Drop yours below. I'll feature the best ones in coming weeks; credit to you, I keep the quarters metaphorically. No prize. No prep. Just a question.
 
-(I wrote a financial literacy picture book for grades 1–5 — *Clarence Gets a Bargain* — that hits the age where money habits stick. Free educator toolkit at clarencegetsabargain.com/educator-toolkit. Bonus points if your memory involves a vending machine. Triple points if the vending machine ate your quarter and gave you the silent treatment.)
+(I wrote a picture book that turns impulsive young spenders into aware, educated consumers — *Clarence Gets a Bargain*, grades 1–5, aimed at exactly the age where the habits stick. Free educator toolkit at clarencegetsabargain.com/educator-toolkit. Bonus points if your memory involves a vending machine. Triple points if the vending machine ate your quarter and gave you the silent treatment.)
 
 ---
 
