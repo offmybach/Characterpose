@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+sync.log
+_new_connections.json
+.contact-sync-state.json
+contact-sync-backups/
