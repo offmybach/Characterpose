@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Clarence Gets a Bargain — A Money Book Kids Actually Read (Ages 6–10)</title>
-<meta name="description" content="A children's book that secretly teaches financial literacy. Budgeting, comparison shopping, coupon math — disguised as a story about a kid and a robot. Ages 6–10. Educator approved.">
-<meta name="keywords" content="children's book, financial literacy, kids money skills, edutainment, Clarence Gets a Bargain, Jonathan Bach, kids budgeting, comparison shopping, ages 6-10, elementary school, financial literacy for kids, money lessons for kids, wants vs needs, saving spending sharing, teach kids money, educational picture book, life skills for kids, classroom ready, kids and money">
+<meta name="description" content="The kids' money book that doesn't stop at the piggy bank: sale ads, markdowns, coupons, and sales tax in one robot story. Financial literacy, ages 6–10.">
+<meta name="keywords" content="money books for kids, books about money for kids, children's book about money, financial literacy for kids, financial literacy picture book, teach kids about money, how to teach kids about money, kids money skills, comparison shopping for kids, kids book about spending money, budgeting for kids, wants vs needs, coupons for kids, smart shopper, elementary financial literacy, money lessons for kids, edutainment, Clarence Gets a Bargain, Jonathan Bach, ages 6-10, grades 1-5, classroom read-aloud">
 <meta name="author" content="Jonathan Bach">
 <meta name="robots" content="index, follow">
 <meta property="og:title" content="Clarence Gets a Bargain — A Money Book Kids Actually Read">
-<meta property="og:description" content="We snuck a financial education into a story about a kid and a robot. Budgeting, comparison shopping, coupon math — disguised as adventure. Ages 6–10. Aligned to Jump$tart National Standards.">
+<meta property="og:description" content="We snuck financial education into a story about a kid and a robot. One real purchase, start to finish: sale ads, markdowns, coupons, sales tax. Ages 6–10. Aligned to Jump$tart National Standards.">
 <meta property="og:type" content="book">
 <meta property="og:site_name" content="Clarence Gets a Bargain">
 <meta property="book:author" content="Jonathan Bach">
@@ -17,7 +17,7 @@
 <meta property="book:tag" content="children's book">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Clarence Gets a Bargain — A Money Book Kids Actually Read">
-<meta name="twitter:description" content="We hid a financial education inside a robot story. Kids haven't noticed. Budgeting, coupons, smart shopping. Ages 6–10. ★★★★★">
+<meta name="twitter:description" content="We hid financial education inside a robot story. Kids haven't noticed. Budgeting, coupons, smart shopping, sales tax at the register. Ages 6–10.">
 <meta name="twitter:image" content="https://www.clarencegetsabargain.com/images/clarence-og-card.jpg">
 <meta name="twitter:image:alt" content="Clarence Gets a Bargain book cover - a children's financial literacy picture book">
 <meta property="og:image" content="https://www.clarencegetsabargain.com/images/clarence-og-card.jpg">
@@ -436,6 +436,23 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .concept-card p{font-size:.82rem;color:#555;line-height:1.65;margin-bottom:14px}
 .concept-pages{display:inline-block;background:#fff3e0;color:#e65100;font-family:'Hold',sans-serif;font-size:.68rem;padding:3px 12px;border-radius:20px;letter-spacing:.5px}
 
+/* === DIFFERENCE SECTION — VS THE OTHER MONEY BOOKS === */
+.difference-section{padding:84px 20px;background:#f5ecd7;text-align:center}
+.difference-section>.section-tag{color:#ff6b2b;font-family:'Hold',sans-serif;font-size:.7rem;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
+.difference-section>h2{font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(1.6rem,4vw,2.5rem);margin-bottom:26px;line-height:1.15}
+.diff-statement{max-width:720px;margin:0 auto 48px;color:#333;font-size:1.02rem;line-height:1.85;text-align:left}
+.diff-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:1060px;margin:0 auto 44px;align-items:stretch}
+@media(max-width:900px){.diff-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.diff-grid{grid-template-columns:1fr}}
+.diff-card{background:#fff;border:2px dashed #c9b98f;border-radius:16px;padding:26px 20px;text-align:left}
+.diff-card h3{font-family:'Hold',sans-serif;color:#777;font-size:.92rem;margin-bottom:10px;letter-spacing:.3px}
+.diff-card p{font-size:.83rem;color:#666;line-height:1.7}
+.diff-card.diff-winner{border:3px dashed #ff6b2b;box-shadow:0 14px 40px rgba(255,107,43,.18);transform:scale(1.03)}
+.diff-card.diff-winner h3{color:#0054a6;font-size:1.02rem}
+.diff-card.diff-winner p{color:#333}
+@media(max-width:900px){.diff-card.diff-winner{transform:none}}
+.diff-kicker{font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(1.05rem,2.6vw,1.4rem);max-width:780px;margin:0 auto;line-height:1.55}
+
 /* === FAQ SECTION === */
 .faq-section{padding:76px 20px;background:linear-gradient(180deg,#0d1a2e,#0a0f18)}
 .faq-section>.section-tag{text-align:center;font-family:'Hold',sans-serif;font-size:.7rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
@@ -537,7 +554,10 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       "alternateName": "Clarence Gets a Bargain: A Kids Financial Literacy Book",
       "author": {"@id": "https://www.clarencegetsabargain.com/#author"},
       "publisher": {"@type": "Organization", "name": "Kids Money Book Publishing"},
-      "description": "A children's book teaching financial literacy through adventure. Clarence earns a robot reward for good grades and chores, then learns budgeting, comparison shopping, markdowns, and coupons on a trip to Sea-Mart. Ages 6-10.",
+      "illustrator": {"@id": "https://www.clarencegetsabargain.com/#author"},
+      "description": "A 36-page financial literacy picture book for ages 6-10. Clarence earns a robot reward for good grades and chores, gets 'shopping homework,' and walks through a real purchase start to finish: reading sale ads, comparison shopping, clearance markdowns, redeeming a coupon at checkout, and paying sales tax. Most kids' money books teach earning or saving; this one teaches kids how to spend well — the money skill they use first.",
+      "image": "https://www.clarencegetsabargain.com/images/frontcover.jpg",
+      "keywords": "money book for kids, financial literacy for kids, financial literacy picture book, comparison shopping, budgeting for kids, wants vs needs, coupons, markdowns, sales tax, 529 college savings, consumer education, read-aloud",
       "genre": ["Children's Literature", "Financial Literacy", "Edutainment"],
       "inLanguage": "en",
       "audience": {
@@ -610,23 +630,43 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What age is Clarence Gets a Bargain for?",
+          "name": "What age is this book for?",
           "acceptedAnswer": {"@type": "Answer", "text": "Ages 6-10 is the sweet spot. First graders love the pictures and the robot drama. Fourth graders pick up on the money lessons. Estimated Guided Reading Level L-N, estimated Lexile AD 620L."}
         },
         {
           "@type": "Question",
-          "name": "Is Clarence Gets a Bargain a series?",
-          "acceptedAnswer": {"@type": "Answer", "text": "For now it is a standalone book, but Clarence has more adventures coming. Sequels are in the works."}
+          "name": "How is this different from other kids' money books?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Most money books for kids teach earning, saving, or vocabulary, then stop before the kid ever spends a dime. Clarence Gets a Bargain walks through one real purchase start to finish: sale ads at the kitchen table, comparison shopping in the aisle, a clearance markdown, a coupon at the register, even the sales tax. Spending well is the money skill kids use first. This is the book that teaches it."}
         },
         {
           "@type": "Question",
-          "name": "Can I use this book in a classroom?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Absolutely. Clarence Gets a Bargain is a 36-page narrative tool designed for grades 1-5 classrooms, libraries, and financial education programs. It aligns with Jump$tart National Standards, Common Core Math & ELA, CEE, and FDIC Money Smart frameworks. Free lesson plans and discussion guides are available."}
+          "name": "Is this a series?",
+          "acceptedAnswer": {"@type": "Answer", "text": "For now it's a standalone book, but Clarence has more adventures coming. Sequels are in the works — because apparently one robot isn't enough."}
         },
         {
           "@type": "Question",
-          "name": "What financial concepts does the book teach?",
-          "acceptedAnswer": {"@type": "Answer", "text": "The book covers budgeting, comparison shopping, sale pricing, coupons and percentage markdowns, Wants vs. Needs, receipts and record-keeping, savings and delayed gratification, college savings accounts, and consumer awareness."}
+          "name": "Can I use this in a classroom?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Absolutely. Clarence Gets a Bargain is designed for grades 1-5 classrooms, libraries, and financial education programs. It aligns with Jump$tart National Standards, Common Core Math & ELA, CEE, and FDIC Money Smart. Free lesson plans, discussion guides, and a full curriculum alignment matrix are available — download everything. It's all free."}
+        },
+        {
+          "@type": "Question",
+          "name": "What financial concepts does the book cover?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Budgeting, comparison shopping, sale pricing, coupons and percentage markdowns, Wants vs. Needs, receipts and record-keeping, savings and delayed gratification, college savings accounts (529s), consumer awareness — plus a full glossary of money terms. 36 pages. Zero worksheets."}
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to read?",
+          "acceptedAnswer": {"@type": "Answer", "text": "About 15-20 minutes as a read-aloud, or a single sitting for independent readers. Short enough to finish in one class period. Rich enough to fuel a month of discussion."}
+        },
+        {
+          "@type": "Question",
+          "name": "What if my kid doesn't like reading?",
+          "acceptedAnswer": {"@type": "Answer", "text": "That's exactly who this book is for. The story leads — the money lessons follow. There's a robot, a plot twist, and a dad joke on page 31. Reluctant readers have been known to flip back to the beginning the moment they finish."}
+        },
+        {
+          "@type": "Question",
+          "name": "Our family is doing fine financially. Is this still for us?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Especially you. Clarence and his family are comfortable — they can afford a robot from Sea-Mart, after all. But financial literacy isn't about fixing a problem. It's about planting a seed before one develops. Kids from comfortable homes still grow into adults who carry credit card debt, skip savings, and impulse-buy — because nobody gave them a framework when it was easy to learn. The habit you build at seven is the one that sticks at twenty-seven."}
         }
       ]
     }
@@ -967,6 +1007,32 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   </div>
 </section>
 
+<!-- THE DIFFERENCE — VS EVERY OTHER KIDS' MONEY BOOK -->
+<section class="difference-section reveal" id="difference">
+  <div class="section-tag">The Honest Comparison</div>
+  <h2>Every Other Money Book Stops at the Piggy Bank.</h2>
+  <p class="diff-statement">Walk the kids&rsquo; money shelf and you&rsquo;ll meet the same three books over and over. The jar book. The glossary with a mascot. The lemonade stand. All fine. All parked on the earning-and-saving side of the register. <strong><em>Clarence Gets a Bargain</em> works the other side &mdash; the side your kid actually visits every week.</strong> He gets shopping homework, reads the sale ads, compares two robots in the aisle, finds the markdown, and hands the cashier a coupon. Spending well is the first money skill a kid ever uses. It shouldn&rsquo;t be the last one anyone teaches.</p>
+  <div class="diff-grid">
+    <div class="diff-card reveal">
+      <h3>The Jar Books</h3>
+      <p>Save, spend, share. Three labeled jars and a pat on the head. The kid never leaves the kitchen.</p>
+    </div>
+    <div class="diff-card reveal reveal-delay-1">
+      <h3>The Mini-Textbooks</h3>
+      <p>Definitions with cartoons on top. Kids smell a worksheet one page in.</p>
+    </div>
+    <div class="diff-card reveal reveal-delay-2">
+      <h3>The Lemonade Stands</h3>
+      <p>Earn a buck, feel proud. That&rsquo;s half the job. Nobody shows kids how to spend what they made.</p>
+    </div>
+    <div class="diff-card diff-winner reveal reveal-delay-2">
+      <h3>Clarence Gets a Bargain</h3>
+      <p>One real purchase, ad to register: budgeting, comparison shopping, a clearance markdown, a coupon, the sales tax. The kid does the math because the robot depends on it.</p>
+    </div>
+  </div>
+  <p class="diff-kicker">Name another picture book where the kid reads the sale ads before the trip, compares models in the aisle, hands over a coupon, and pays the sales tax. We&rsquo;ll wait.</p>
+</section>
+
 <!-- SECTION 1: THE AUTHORITY ANCHOR -->
 <section class="endorsement-section reveal" id="educators">
   <div class="authority-anchor">
@@ -1208,6 +1274,15 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       </button>
       <div class="faq-answer"><div class="faq-answer-inner">
         Ages 6&ndash;10 is the sweet spot. First graders love the pictures and the robot drama. Fourth graders pick up on the money lessons. Estimated Guided Reading Level L&ndash;N, estimated Lexile AD 620L.
+      </div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false">
+        How is this different from other kids&rsquo; money books?
+        <span class="faq-chevron" aria-hidden="true">&#9660;</span>
+      </button>
+      <div class="faq-answer"><div class="faq-answer-inner">
+        Most money books for kids teach earning, saving, or vocabulary, then stop before the kid ever spends a dime. <em>Clarence Gets a Bargain</em> walks through one real purchase start to finish: sale ads at the kitchen table, comparison shopping in the aisle, a clearance markdown, a coupon at the register, even the sales tax. Spending well is the money skill kids use first. This is the book that teaches it.
       </div></div>
     </div>
     <div class="faq-item">
