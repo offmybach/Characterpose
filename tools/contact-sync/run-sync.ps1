@@ -22,7 +22,7 @@ Log "----- contact sync run -----"
 $csv = Join-Path $downloads "Connections.csv"
 if (Test-Path $csv) {
     Log "Found Connections.csv — ingesting."
-    & $python (Join-Path $here "sync_contacts.py") --file $workbook --from-csv $csv 2>&1 | Tee-Object -FilePath $log -Append
+    & $python (Join-Path $here "finlit_sync.py") --file $workbook --from-csv $csv 2>&1 | Tee-Object -FilePath $log -Append
     $processed = Join-Path $downloads ("Connections.processed-{0}.csv" -f (Get-Date -Format yyyyMMdd-HHmmss))
     Move-Item -Path $csv -Destination $processed -Force
     Log "Moved export to $processed"
@@ -39,7 +39,7 @@ else {
 # Log "Asking OpenClaw to gather new connections..."
 # openclaw run linkedin-contact-sync          # adjust to your OpenClaw invocation
 # if (Test-Path $json) {
-#     & $python (Join-Path $here "sync_contacts.py") --file $workbook --from-json $json 2>&1 | Tee-Object -FilePath $log -Append
+#     & $python (Join-Path $here "finlit_sync.py") --file $workbook --from-json $json 2>&1 | Tee-Object -FilePath $log -Append
 #     Remove-Item $json -Force
 # }
 
