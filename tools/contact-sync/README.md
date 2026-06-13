@@ -38,7 +38,7 @@ risk.
 newest connections off the page (read-only, capped) and write them to
 `_new_connections.json`, which the same engine ingests. This is the
 LinkedIn-automation path discussed in `PROJECT-NOTES.md` — use it knowing the
-risk.
+risk. Full wiring (install, Edge config, scheduling): `OPENCLAW-SETUP.md`.
 
 ---
 

@@ -42,6 +42,15 @@ Workbook: `C:\Users\mdmen\Downloads\finlit_contacts_categorized_bespoke_groups.x
 6. **Org wins role-vs-org ties.** A finlit role at a foundation routes to
    Nonprofit, not Financial Literacy — the organization type wins. (Per Jonathan,
    2026-06-13.)
+7. **Going with the clawbot morning gather** (2026-06-13). Jonathan wants the bot
+   to open Edge each morning, check My Network, and update the sheet — not manual
+   CSV exports per acceptance. Risk acknowledged (see item 1). Setup is in
+   `OPENCLAW-SETUP.md`.
+8. **Attended vs unattended — open.** OpenClaw can't drive the *real* logged-in
+   Edge unattended (attach needs approval). So it's either one approval click each
+   morning on the real session (recommended, lower footprint) or a dedicated
+   always-logged-in Edge profile for true zero-click cron (higher footprint,
+   occasional re-login). Jonathan to pick.
 
 ---
 
@@ -142,7 +151,8 @@ Task Scheduler for the wake case). `run-sync.ps1` is what the task calls.
   `ANTHROPIC_API_KEY`. Tiny per-contact cost at this volume.
 - **Bespoke email writer** (the tabled piece): per-person opener + group angle +
   general body → Gmail drafts.
-- **OpenClaw browser gather** front end, if/when you accept the LinkedIn risk.
+- **OpenClaw browser gather** front end — in progress; skill written, setup in
+  `OPENCLAW-SETUP.md`. Untested end-to-end (needs OpenClaw + Edge on the PC).
 - **Custom Email Priority/Score:** currently left blank. Decide whether to compute
   a heuristic tier or keep it a manual call.
 

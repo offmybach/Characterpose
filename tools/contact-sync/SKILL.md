@@ -1,68 +1,70 @@
 ---
 name: linkedin-contact-sync
 description: >
-  Gather the newest LinkedIn connections from the logged-in browser and append
-  them to the FinLit contacts workbook, classified into the right category and
-  tab. Use when asked to "sync contacts", "add new connections", or on the
-  daily/on-wake schedule. Read-only on LinkedIn — never sends requests or messages.
+  Each morning, open LinkedIn in Edge, go to My Network, find newly added
+  connections, and append them to the FinLit contacts workbook (classified and
+  routed to the right tab) via finlit_sync.py. Use when asked to "sync contacts",
+  "check for new connections", or "run the morning LinkedIn sync". Read-only on
+  LinkedIn — never sends connection requests or messages.
+user-invocable: true
 metadata:
   author: CGB
   volume_cap: 25
   engine: finlit_sync.py
 ---
 
-# LinkedIn → FinLit contacts sync
+# LinkedIn → FinLit contacts sync (morning routine)
 
-Collect only **new** first-degree connections and hand them to `finlit_sync.py`,
-which classifies each into a Primary Category, routes them to Master and the right
-category tab, and fills the categorization columns. Your job is just to gather and
-hand off.
+Collect only **newly added** first-degree connections and hand them to
+`finlit_sync.py`, which classifies each into a Primary Category, routes them to
+the top of Master and the right category tab, fills the categorization columns,
+and dedupes against everyone already in the sheet. You just gather and hand off.
 
 ## Guardrails (do not skip)
 
-- **Read-only.** Read pages only. Never send a connection request, never open the
-  messaging panel, never click Connect or Follow.
-- **Small and human-paced.** At most **25** connections per run. Pause a few
-  seconds between actions. If LinkedIn shows a checkpoint or CAPTCHA, stop and
-  tell the user — do not loop on it.
-- **Use the person's own logged-in browser** (`profile: "user"`). They're at the
-  machine to approve the attach prompt.
+- **Read-only.** Read pages only. Never send a connection request, open the
+  messaging panel, or click Connect / Follow / Message.
+- **Small and human-paced.** At most **25** people per run. Pause a few seconds
+  between actions. If LinkedIn shows a checkpoint or CAPTCHA, **stop** and tell the
+  user — never loop on it or try to solve it.
+- **Browser:** use the configured Edge profile (see OPENCLAW-SETUP.md). With the
+  `user` profile the user must approve the attach prompt — that's expected.
 
 ## Steps
 
-1. Open the browser with `profile: "user"` and navigate to:
-   `https://www.linkedin.com/mynetwork/invite-connect/connections/`
-   (sorted most-recent-first).
-
-2. `browser snapshot` and read connection cards from the top. For each, capture
-   `name`, `headline` (the grey subtitle), and the `/in/...` profile URL.
-
-3. Collect down to **25** cards, or until you recognize names from a prior run.
-   Don't scroll deep — a handful of new people per day is expected.
-
-4. (Optional, for richer columns) open each new profile and read current
-   **company**, **title**, **location**, and the **connection degree**; then go
-   back. Same 25-cap and pacing.
-
-5. Write the people to `%USERPROFILE%\Downloads\_new_connections.json` as a JSON
-   array. Use these keys (omit any you didn't capture — the engine fills the rest):
+1. Open Edge to the LinkedIn homepage: `https://www.linkedin.com/feed/`
+2. Click **My Network** in the top nav (or go to
+   `https://www.linkedin.com/mynetwork/`).
+3. Open **Connections** (Manage my network → Connections, i.e.
+   `https://www.linkedin.com/mynetwork/invite-connect/connections/`). Confirm the
+   sort is **"Recently added"** so the newest are at the top.
+4. `browser snapshot` and read connection cards from the top. For each, capture
+   `name`, `headline` (the grey subtitle), and the `/in/...` profile URL. Collect
+   down to **25**, or stop sooner once you reach people you recognize from a prior
+   run — the engine dedupes, so a little overlap is fine.
+5. (Optional, for richer columns) open each new profile and read current
+   **company/account**, **title**, **location**, and the **connection degree**;
+   then go back. Same 25-cap and pacing.
+6. Write the people to `%USERPROFILE%\Downloads\_new_connections.json` as a JSON
+   array. Keys (omit any you didn't capture — the engine fills the rest):
 
    ```json
    [
      {"name": "Maria Lopez", "title": "Financial Literacy Director",
       "account": "Sunrise Credit Union", "degree": "1st",
-      "location": "Columbus, OH", "headline": "Financial Literacy Director at Sunrise Credit Union"}
+      "location": "Columbus, OH",
+      "headline": "Financial Literacy Director at Sunrise Credit Union"}
    ]
    ```
-   (`account` = company; `title` or `headline` both work; `degree` like "1st".)
 
-6. Run the engine to classify and append (it dedupes, routes to the right tab,
-   copies the group angle, and backs up the workbook first):
+7. Run the engine that ships in this skill's folder (it dedupes, classifies,
+   routes to the right tab, copies the group angle, and backs up the workbook
+   first). Adjust the path if you installed the skill elsewhere; the workbook path
+   is already baked into the engine:
 
    ```
-   python "%USERPROFILE%\path\to\tools\contact-sync\finlit_sync.py" --from-json "%USERPROFILE%\Downloads\_new_connections.json"
+   python "%USERPROFILE%\.openclaw\skills\linkedin-contact-sync\finlit_sync.py" --from-json "%USERPROFILE%\Downloads\_new_connections.json"
    ```
-   Add `--dry-run` first to preview.
 
-7. Report the engine's summary (added / duplicates / per-category tally), then
+8. Report the engine's summary (added / duplicates / per-category tally), then
    delete `_new_connections.json`.
