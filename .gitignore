@@ -1,0 +1,13 @@
+# Outreach: generated drafts contain real contacts' names/titles/locations.
+# Keep personal data out of the repo. The generator (outreach/*.py) is tracked;
+# its output is not.
+outreach/drafts/
+outreach/*.zip
+__pycache__/
+*.pyc
+
+# Source contact spreadsheets / exports (PII). Never commit these.
+*.xlsx
+*.xls
+finlit*contacts*.csv
+linkedin*connections*.csv
