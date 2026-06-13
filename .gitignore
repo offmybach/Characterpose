@@ -1,7 +1,7 @@
 # Outreach: generated drafts contain real contacts' names/titles/locations.
 # Keep personal data out of the repo. The generator (outreach/*.py) is tracked;
 # its output is not.
-outreach/drafts/
+outreach/drafts*/
 outreach/*.zip
 __pycache__/
 *.pyc

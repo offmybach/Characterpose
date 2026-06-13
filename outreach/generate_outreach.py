@@ -31,7 +31,19 @@ BOOK = "Clarence Gets a Bargain"
 SITE = "[your book link]"        # e.g. clarencegetsabargain.com
 AUTHOR = "Jonathan Bach"
 
-PRIORITIES = {"Custom Email - Tier 1", "Strong Personalized Outreach"}
+# Outreach priority tiers, and the named sets you can target from the CLI.
+TIER_TAG = {
+    "Custom Email - Tier 1": "TIER 1",
+    "Strong Personalized Outreach": "Strong",
+    "Consider Custom Email": "Consider",
+}
+TIER_RANK = {"Custom Email - Tier 1": 0, "Strong Personalized Outreach": 1,
+             "Consider Custom Email": 2}
+TIER_SETS = {
+    "core": {"Custom Email - Tier 1", "Strong Personalized Outreach"},
+    "consider": {"Consider Custom Email"},
+    "all": set(TIER_TAG),
+}
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "drafts")
@@ -444,7 +456,7 @@ def build(contact):
     }
 
 
-def load_contacts(path):
+def load_contacts(path, priorities):
     wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
     ws = wb["High Value Targets"]
     rows = list(ws.iter_rows(values_only=True))
@@ -455,16 +467,26 @@ def load_contacts(path):
         if not any(c is not None and str(c).strip() for c in r):
             continue
         rec = {h: ("" if r[i] is None else str(r[i]).strip()) for h, i in idx.items()}
-        if rec.get("Custom Email Priority") in PRIORITIES:
+        if rec.get("Custom Email Priority") in priorities:
             out.append(rec)
     return out
 
 
 def main():
-    if len(sys.argv) < 2:
-        sys.exit("usage: generate_outreach.py <contacts.xlsx>")
-    path = sys.argv[1]
-    contacts = load_contacts(path)
+    import argparse
+    ap = argparse.ArgumentParser(description="Generate bespoke outreach drafts.")
+    ap.add_argument("xlsx", help="path to the FinLit contacts workbook")
+    ap.add_argument("--tiers", choices=sorted(TIER_SETS), default="core",
+                    help="which priority set to draft (default: core = Tier-1 + Strong)")
+    ap.add_argument("--outdir", default=None,
+                    help="output dir name under outreach/ (default: drafts / drafts-<tiers>)")
+    args = ap.parse_args()
+
+    path = args.xlsx
+    priorities = TIER_SETS[args.tiers]
+    out_name = args.outdir or ("drafts" if args.tiers == "core" else f"drafts-{args.tiers}")
+    OUT = os.path.join(HERE, out_name)
+    contacts = load_contacts(path, priorities)
     os.makedirs(os.path.join(OUT, "by-group"), exist_ok=True)
 
     by_group = defaultdict(list)
@@ -477,8 +499,7 @@ def main():
         items = by_group.get(grp, [])
         if not items:
             continue
-        prio_rank = {"Custom Email - Tier 1": 0, "Strong Personalized Outreach": 1}
-        items.sort(key=lambda c: (prio_rank.get(c["Custom Email Priority"], 9), c["Name"]))
+        items.sort(key=lambda c: (TIER_RANK.get(c["Custom Email Priority"], 9), c["Name"]))
         slug = GROUPS[grp]["slug"]
         lines = [f"# {grp}", "",
                  f"_{len(items)} contacts — {GROUPS[grp].get('note','')}_".replace(" — _", "_"),
@@ -486,7 +507,7 @@ def main():
         for c in items:
             d = build(c)
             total += 1
-            tag = "TIER 1" if c["Custom Email Priority"].startswith("Custom") else "Strong"
+            tag = TIER_TAG.get(c["Custom Email Priority"], c["Custom Email Priority"])
             deg = c.get("LI Connection Degree", "")
             geo = c.get("Geography", "")
             meta = " · ".join(x for x in [tag, f"{deg} degree" if deg else "", geo] if x)
