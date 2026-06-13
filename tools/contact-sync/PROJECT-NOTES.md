@@ -36,6 +36,12 @@ Workbook: `C:\Users\mdmen\Downloads\finlit_contacts_categorized_bespoke_groups.x
    tab, group, the group's shared angle, fit notes, name-parse, degree, etc. It
    leaves Custom Email Priority/Score and the per-person Suggested Custom Angle /
    High Value Note blank — those are human calls (and the tabled email step).
+5. **New rows go to the top.** New contacts are inserted directly under the header
+   in Master and each category tab (newest first); existing rows shift down. (Per
+   Jonathan, 2026-06-13.)
+6. **Org wins role-vs-org ties.** A finlit role at a foundation routes to
+   Nonprofit, not Financial Literacy — the organization type wins. (Per Jonathan,
+   2026-06-13.)
 
 ---
 
@@ -103,9 +109,9 @@ existing contact), backup, idempotent re-run, and all 15 sheets intact after sav
 ### Heuristic caveats (for review)
 
 - Classification is keyword-based, not the original (likely LLM) pipeline. Edge
-  cases will miss — e.g. a "Financial Literacy Director" at a "…Foundation"
-  currently lands in Nonprofit because the org word wins. Auto-rows are flagged in
-  Parse Notes so they're easy to find and fix.
+  cases will miss. A finlit role at a foundation routes to Nonprofit — that's the
+  intended "org wins" rule (confirmed), not a bug. Auto-rows are flagged in Parse
+  Notes so anything off is easy to find and fix.
 - `openpyxl` may drop charts/images on save. The Summary here is text, so it's
   fine, but keep the backups and eyeball the file after the first real run.
 
@@ -142,8 +148,8 @@ Task Scheduler for the wake case). `run-sync.ps1` is what the task calls.
 
 ## Open questions for Jonathan
 
-1. The "finlit role at a foundation" classification call — prefer title to win
-   (→ Financial Literacy) or org to win (→ Nonprofit)? Currently org wins.
-2. Also append new connections to the **LinkedIn Connections** tab, or keep that
-   as a frozen snapshot? Currently not touched.
-3. Want Custom Email Priority auto-estimated, or left blank for you?
+1. Also add new connections to the **LinkedIn Connections** tab, or keep that as a
+   frozen snapshot? Currently not touched.
+2. Want Custom Email Priority auto-estimated, or left blank for you? Currently blank.
+
+Resolved: org wins role-vs-org ties; new rows go to the top of each sheet.

@@ -22,7 +22,8 @@ Connection Degree, Geography, dates, and provenance (Parse Notes =
 **Leaves blank for you** (judgment / the tabled email step): Custom Email
 Priority, Custom Email Score, High Value Note, Suggested Custom Angle.
 
-Each new contact is written to **Master** and to its **category tab**.
+Each new contact is inserted at the **top** of **Master** and of its **category
+tab** (newest first); existing rows shift down.
 
 ---
 

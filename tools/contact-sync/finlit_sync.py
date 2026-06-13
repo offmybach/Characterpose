@@ -243,9 +243,16 @@ def existing_keys(ws):
     return keys
 
 
-def append_to_sheet(ws, fields):
+def insert_records_top(ws, fields_list):
+    """Insert new rows directly under the header (row 2), so the newest contacts
+    sit at the top. Existing rows shift down; input order is preserved top-down."""
+    if not fields_list:
+        return
+    ws.insert_rows(2, amount=len(fields_list))
     headers = [str(c.value).strip() if c.value else "" for c in ws[1]]
-    ws.append([fields.get(h) for h in headers])
+    for i, fields in enumerate(fields_list):
+        for col, h in enumerate(headers, start=1):
+            ws.cell(row=2 + i, column=col, value=fields.get(h))
 
 
 def main():
@@ -349,10 +356,14 @@ def main():
         shutil.copy2(target, backup)
         print(f"\nBackup   : {backup}")
 
-    for category, tab, fields in planned:
-        append_to_sheet(master, fields)
-        if not args.no_tabs and tab in wb.sheetnames:
-            append_to_sheet(wb[tab], fields)
+    insert_records_top(master, [fields for _, _, fields in planned])
+    if not args.no_tabs:
+        by_tab = {}
+        for _, tab, fields in planned:
+            if tab in wb.sheetnames:
+                by_tab.setdefault(tab, []).append(fields)
+        for tab, rows in by_tab.items():
+            insert_records_top(wb[tab], rows)
     try:
         wb.save(target)
     except PermissionError:
