@@ -46,11 +46,11 @@ Workbook: `C:\Users\mdmen\Downloads\finlit_contacts_categorized_bespoke_groups.x
    to open Edge each morning, check My Network, and update the sheet — not manual
    CSV exports per acceptance. Risk acknowledged (see item 1). Setup is in
    `OPENCLAW-SETUP.md`.
-8. **Attended vs unattended — open.** OpenClaw can't drive the *real* logged-in
-   Edge unattended (attach needs approval). So it's either one approval click each
-   morning on the real session (recommended, lower footprint) or a dedicated
-   always-logged-in Edge profile for true zero-click cron (higher footprint,
-   occasional re-login). Jonathan to pick.
+8. **Attended, wake-triggered** (2026-06-13, chosen). Jonathan wakes the PC and
+   opens LinkedIn himself, then fires the sync with one click (`sync-now.cmd` /
+   `/linkedin-contact-sync`) and approves the Edge attach. Uses his real session,
+   lowest footprint, no timing guesswork. Unattended cron profile is documented
+   but not the path.
 
 ---
 
