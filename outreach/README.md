@@ -32,7 +32,7 @@ Output lands in `outreach/drafts/` (git-ignored):
 
 At the top of `generate_outreach.py`:
 
-- `SITE` — your book link. Shows as `[your book link]` until you set it.
+- `SITE` — your book link (set to `www.clarencegetsabargain.com`).
 - `BOOK`, `AUTHOR` — title and signature name.
 
 ## Voice guardrails (baked in)

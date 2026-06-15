@@ -28,7 +28,7 @@ import openpyxl
 
 # Set this once and the signature drops into every draft.
 BOOK = "Clarence Gets a Bargain"
-SITE = "[your book link]"        # e.g. clarencegetsabargain.com
+SITE = "www.clarencegetsabargain.com"
 AUTHOR = "Jonathan Bach"
 
 # Outreach priority tiers, and the named sets you can target from the CLI.
