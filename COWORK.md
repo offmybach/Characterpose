@@ -104,20 +104,14 @@ and locations**. `offmybach/Characterpose` is a **public** repo. `outreach/READM
 and `.gitignore` say to keep both **out of git** for this reason.
 
 - Generated drafts: deliver as files, never commit.
-- The workbook: gitignored and kept local; pass its path to the tools on the CLI.
-  Do **not** take the repo private; it serves the public Pages site
-  (`clarencegetsabargain.com`). Keep the repo public, keep the data out of it.
-- Still-open cleanup: the workbook remains in git history and on branch
-  `claude/zen-curie-8igow`. Removing it from a branch tip does not purge history;
-  a full scrub means rewriting history on all branches and force-pushing, and you
-  should assume anything already public may have been copied.
+- The workbook: keep it local. (It is currently committed on two branches, which is
+  the inconsistency to clean up — pull it back out, or take the repo private.)
 
 ---
 
 ## 4. Sync watermark
-Single source of truth is **`CLAUDE.md` §11**. The newest 1st-degree connection
-was added 2026-06-16 (name in the local workbook, not in this public repo); 989
-unique contacts after that merge.
+Single source of truth is **`CLAUDE.md` §11**. As of 2026-06-16 the newest
+1st-degree connection was **Sogol J., CFP®**; 989 unique contacts after that merge.
 
 ---
 

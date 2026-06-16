@@ -493,7 +493,7 @@ Template prompts for website planning/design. Placeholders shown as `[brackets]`
 Outreach leads database: `data/finlit_contacts_categorized_bespoke_groups.xlsx`
 (Master sheet = source of truth; category tabs + Bespoke Email Groups legend hang
 off it). Tool: `tools/contact-sync/finlit_sync.py`. Newest contacts sit at the top
-(row 2).
+(row 2). **Full step-by-step runbook: `COWORK.md` §1** ("read COWORK.md first").
 
 - **Last sync watermark:** as of **2026-06-16**, the newest 1st-degree connection
   was **Sogol J., CFP®** (June 16, 2026). Start there when checking what's new in
