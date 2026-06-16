@@ -104,8 +104,13 @@ and locations**. `offmybach/Characterpose` is a **public** repo. `outreach/READM
 and `.gitignore` say to keep both **out of git** for this reason.
 
 - Generated drafts: deliver as files, never commit.
-- The workbook: keep it local. (It is currently committed on two branches, which is
-  the inconsistency to clean up — pull it back out, or take the repo private.)
+- The workbook: gitignored and kept local; pass its path to the tools on the CLI.
+  Do **not** take the repo private; it serves the public Pages site
+  (`clarencegetsabargain.com`). Keep the repo public, keep the data out of it.
+- Still-open cleanup: the workbook remains in git history and on branch
+  `claude/zen-curie-8igow`. Removing it from a branch tip does not purge history;
+  a full scrub means rewriting history on all branches and force-pushing, and you
+  should assume anything already public may have been copied.
 
 ---
 
