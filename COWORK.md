@@ -115,8 +115,9 @@ and `.gitignore` say to keep both **out of git** for this reason.
 ---
 
 ## 4. Sync watermark
-Single source of truth is **`CLAUDE.md` §11**. As of 2026-06-16 the newest
-1st-degree connection was **Sogol J., CFP®**; 989 unique contacts after that merge.
+Single source of truth is **`CLAUDE.md` §11**. The newest 1st-degree connection
+was added 2026-06-16 (name in the local workbook, not in this public repo); 989
+unique contacts after that merge.
 
 ---
 

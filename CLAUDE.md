@@ -495,9 +495,10 @@ Outreach leads database: `data/finlit_contacts_categorized_bespoke_groups.xlsx`
 off it). Tool: `tools/contact-sync/finlit_sync.py`. Newest contacts sit at the top
 (row 2). **Full step-by-step runbook: `COWORK.md` §1** ("read COWORK.md first").
 
-- **Last sync watermark:** as of **2026-06-16**, the newest 1st-degree connection
-  was **Sogol J., CFP®** (June 16, 2026). Start there when checking what's new in
-  the next LinkedIn "Recently added" export. Total after that merge: **989 unique**.
+- **Last sync watermark:** the newest 1st-degree connection was added **2026-06-16**
+  (name kept in the local workbook, top of `Master`; no real names in this public
+  repo). Start there when checking what's new in the next LinkedIn "Recently added"
+  export. Total after that merge: **989 unique**.
 - **Marking convention:** the `Letter Status` column on Master flags `NEEDS DRAFT`
   (no bespoke letter yet) vs `Drafted`. New rows also get a yellow highlight and a
   `Parse Notes` tag. Don't duplicate — dedupe across all name columns.
