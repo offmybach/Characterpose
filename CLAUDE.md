@@ -485,3 +485,20 @@ Template prompts for website planning/design. Placeholders shown as `[brackets]`
 8. **SEO Content** — "Write SEO-friendly website content for a [page type] about [topic/keyword]. Include a clear title, headings, short paragraphs, and natural keyword use. Target audience: [audience]. Keep it readable and avoid keyword stuffing."
 9. **Website UX Audit** — "Review my website idea for a [business type] and suggest improvements to user experience. Focus on layout, navigation, clarity, calls to action, readability, and mobile usability. Explain suggestions in simple language."
 10. **Code Improvement** — "Review and improve this website code. Fix errors, clean up the structure, make it responsive, improve accessibility, and explain what you changed. Keep the code easy for a beginner to edit."
+
+---
+
+## 11. FinLit Contacts DB — sync state
+
+Outreach leads database: `data/finlit_contacts_categorized_bespoke_groups.xlsx`
+(Master sheet = source of truth; category tabs + Bespoke Email Groups legend hang
+off it). Tool: `tools/contact-sync/finlit_sync.py`. Newest contacts sit at the top
+(row 2). **Full step-by-step runbook: `COWORK.md` §1** ("read COWORK.md first").
+
+- **Last sync watermark:** the newest 1st-degree connection was added **2026-06-16**
+  (name kept in the local workbook, top of `Master`; no real names in this public
+  repo). Start there when checking what's new in the next LinkedIn "Recently added"
+  export. Total after that merge: **989 unique**.
+- **Marking convention:** the `Letter Status` column on Master flags `NEEDS DRAFT`
+  (no bespoke letter yet) vs `Drafted`. New rows also get a yellow highlight and a
+  `Parse Notes` tag. Don't duplicate — dedupe across all name columns.

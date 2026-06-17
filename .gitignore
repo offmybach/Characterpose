@@ -1,0 +1,7 @@
+# Real-people PII and generated outreach. Keep local, never commit. See COWORK.md section 3.
+/data/finlit_contacts_categorized_bespoke_groups.xlsx
+/data/*.xlsx
+/outreach/drafts/
+/outreach/drafts-*/
+/contact-sync-backups/
+.contact-sync-state.json
