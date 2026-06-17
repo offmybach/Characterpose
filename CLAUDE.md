@@ -444,6 +444,24 @@ Six modals open as iframe srcdoc with `<base href="resources/">`. Modal IDs = `r
 ## Python utilities (not site code)
 - `image_dedupe_manager.py`, `image_prompt_search.py`, `streamlit_image_search_app.py`, `generate_qr.py`
 
+## Outreach data (the canonical target list)
+- `data/finlit_contacts_categorized_bespoke_groups.xlsx` — **the canonical CGB outreach database.** 942 unique contacts deduped from 1562 source rows (Sales Nav saved-list screenshots + LinkedIn-connections PDF + a few CSV exports). 14 sheets: `Summary`, `Bespoke Email Groups`, `High Value Targets` (262 rows, scored), `Master` (943 rows × 30 cols — the full canonical list), `LinkedIn Connections` (418 1st-degree contacts), plus 9 segment sheets.
+- **Custom Email Priority tiers:** `Custom Email - Tier 1` (top), `Strong Personalized Outreach`, `Consider Custom Email`, blank/`Other Review`.
+- **10 Bespoke Email Groups** (each has a Shared Bespoke Email Angle + Personalization Slot column in the master sheet, ready for mail-merge):
+  1. Classroom, school, curriculum, and library practitioners (120 contacts)
+  2. Personal-finance media and broad-audience storytellers (40)
+  3. Financial wellness educators, coaches, and practitioners (22)
+  4. Financial-literacy coalitions and curriculum organizations (21)
+  5. Federal Reserve and policy/institutional connectors (18)
+  6. Parent, PTA, and family advocates (15)
+  7. Children's books, publishing, and educational storytelling (11)
+  8. Public-sector financial education / consumer protection (10)
+  9. Individual review / one-off custom (3)
+  10. Community impact and nonprofit program leaders (1)
+- **This file supersedes** the older `LinkedIn_connections_grouped_by_category.xlsx` (312 rows, 17 different groups) — keep the old one only as reference. Don't outreach from it.
+- **The Sales Nav screenshot OCR work is obsolete** — every lead in `screensLI.zip` is already represented in this spreadsheet's Master sheet with a `Source Screenshots` column citing which PNG it came from.
+- The `target-extractor/` Chrome extension (still on branch `claude/zen-curie-8igow`) was the failed live-scrape attempt — current data flow is manual: screenshot → human review → this spreadsheet.
+
 ---
 
 ## 8. Common Tasks → Where to Touch
