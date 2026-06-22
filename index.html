@@ -1317,7 +1317,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     <div class="pitch-label">For Institutional Decision Makers</div>
     <h2 class="pitch-headline">Build It Into the Budget.<br>Defend It to the Board.</h2>
     <div class="pitch-body">
-      <p><em>Clarence Gets a Bargain</em> is a financial literacy resource (estimated Lexile AD 620L) aligned with FDIC Money Smart for Young People themes and Jump$tart National Standards for K&ndash;12 Personal Finance Education. It includes pre-built family engagement activities, making it well-suited to support CRA community development initiatives, Title I supplemental material programs, and corporate financial literacy philanthropy.</p>
+      <p><em>Clarence Gets a Bargain</em> is a financial literacy resource (estimated Lexile AD 620L) aligned with FDIC Money Smart for Young People themes and Jump$tart National Standards for K&ndash;12 Personal Finance Education. It includes pre-built family activities, making it well-suited to support Title I supplemental material programs and corporate financial literacy philanthropy. For banks, it documents a CRA community development service &mdash; examiner-ready, in your assessment area. For credit unions, it delivers on the youth financial-education mandate already in your charter.</p>
       <p>When your team asks why you selected this resource, the answer is documented: Jump$tart National Standards (Spending, Saving, Earning Income, Managing Credit). Common Core CCSS.Math.5.NBT.B.7. FDIC Money Smart K&ndash;5 themes. Council for Economic Education topics. Pre- and post-assessment activities included.</p>
       <p class="pitch-kicker">And the kids actually think it&rsquo;s hilarious.</p>
     </div>
@@ -5363,7 +5363,7 @@ function downloadQuoteCard(){
       _choices([
         {t:"I'm a parent",f:_pathParent},
         {t:"I'm a teacher",f:_pathTeacher},
-        {t:"School/district admin",f:_pathAdmin},
+        {t:"Admin / institution",f:_pathAdmin},
         {t:"Just browsing",f:_pathBrowse}
       ]);
     });
@@ -5472,21 +5472,26 @@ function downloadQuoteCard(){
 
   // ── ADMIN PATH ───────────────────────────────────────────
   function _pathAdmin(){
-    _user("School/district admin");_clear();
+    _user("Admin / institution");_clear();
     _type(650,function(){
       _bot("You've got the right book for the right reasons. What's your scope?");
       _choices([
         {t:"Library acquisition",f:function(){_adminScope('lib');}},
         {t:"Classroom sets",f:function(){_adminScope('class');}},
-        {t:"District-wide",f:function(){_adminScope('district');}}
+        {t:"District-wide",f:function(){_adminScope('district');}},
+        {t:"Bank / credit union",f:function(){_adminScope('fi');}}
       ]);
     });
   }
   function _adminScope(s){
-    var lab={lib:"Library acquisition",class:"Classroom sets",district:"District-wide"};
+    var lab={lib:"Library acquisition",class:"Classroom sets",district:"District-wide",fi:"Bank / credit union"};
     _user(lab[s]);_clear();
     _type(700,function(){
-      _bot("Easy to justify upstairs: est. Lexile AD 620L, Jump$tart aligned, FDIC-themed, CCSS math-hooked. CRA-eligible documentation available.");
+      if(s==='fi'){
+        _bot("Credit unions: youth financial ed is already in your charter. Banks: it's a documented CRA community development service — examiner-ready, in your assessment area. Pre/post assessment data included.");
+      } else {
+        _bot("Easy to justify upstairs: est. Lexile AD 620L, Jump$tart aligned, FDIC-themed, CCSS math-hooked. CRA-eligible documentation available.");
+      }
       setTimeout(function(){
         _bot("The institutional packet has everything your board needs.");
         _choices([{t:"Request the Packet →",f:function(){chatClose();location.href='mailto:questions@clarencegetsabargain.com?subject=Institutional%20Inquiry';},cls:'og'}]);
