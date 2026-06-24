@@ -236,8 +236,8 @@ nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
 .cvr-lb.active{display:flex}
 .cvr-lb-img{max-width:88vw;max-height:88vh;border-radius:10px;box-shadow:0 20px 80px rgba(0,0,0,.6);animation:lbFadeIn .2s ease;cursor:default}
 @keyframes lbFadeIn{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:scale(1)}}
-.cvr-lb-close{position:absolute;top:18px;right:22px;font-size:2.4rem;color:#fff;cursor:pointer;background:none;border:none;font-family:inherit;line-height:1;opacity:.75}
-.cvr-lb-close:hover{opacity:1}
+.cvr-lb-close{position:absolute;top:18px;right:22px;font-size:2.4rem;color:#fff;cursor:pointer;background:rgba(0,0,0,.4);border:2px solid rgba(255,255,255,.4);border-radius:50%;width:48px;height:48px;display:flex;align-items:center;justify-content:center;font-family:inherit;line-height:1;opacity:1;z-index:10001;padding:0}
+.cvr-lb-close:hover{background:rgba(255,107,43,.8);border-color:#ff6b2b}
 .cvr-lb-caption{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);font-family:'Hold',sans-serif;font-size:.8rem;color:rgba(255,255,255,.65);letter-spacing:2px;text-transform:uppercase;white-space:nowrap;pointer-events:none}
 
 /* === PARTICLES — muted on light bg === */
@@ -775,22 +775,6 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 </section>
 
 <!-- COVER SHOWCASE -->
-<section class="cover-showcase">
-  <div class="cover-showcase-label">The Book</div>
-  <h2>Front &amp; Back Cover</h2>
-  <div class="cover-pair">
-    <div class="cover-card" onclick="openCoverLightbox('images/frontcover.jpg','Front Cover')" role="button" tabindex="0" aria-label="View front cover full size" onkeydown="if(event.key==='Enter'||event.key===' ')openCoverLightbox('images/frontcover.jpg','Front Cover')">
-      <img src="images/frontcover.jpg" alt="Clarence Gets a Bargain — Front Cover" loading="lazy" width="270">
-      <div class="cover-card-label">Front Cover <span>&#128269; Tap to zoom</span></div>
-    </div>
-    <div class="cover-card" onclick="openCoverLightbox('images/rear-cover.jpg','Back Cover')" role="button" tabindex="0" aria-label="View back cover full size" onkeydown="if(event.key==='Enter'||event.key===' ')openCoverLightbox('images/rear-cover.jpg','Back Cover')">
-      <div class="cover-card-badge">Flip It Over</div>
-      <img src="images/rear-cover.jpg" alt="Clarence Gets a Bargain — Back Cover" loading="lazy" width="270">
-      <div class="cover-card-label">Back Cover <span>&#128269; Tap to zoom</span></div>
-    </div>
-  </div>
-</section>
-
 <section class="mag-section" id="magazine">
   <h2 class="reveal">Flip Through Clarence&rsquo;s Coupon Book!</h2>
   <p class="hint reveal" id="magHint">Click to open &bull; Flip pages by clicking left/right &bull; Arrow keys work</p>
