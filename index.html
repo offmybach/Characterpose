@@ -356,6 +356,10 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .inst-accepted-item{display:flex;align-items:center;gap:8px;color:rgba(255,255,255,.7);font-size:.85rem;font-weight:700}
 .inst-accepted-item .check{color:#4caf50;font-size:1.1rem}
 
+/* === SPEND/SAVE TAGLINE === */
+.spend-save-tagline{text-align:center;font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(1.6rem,4.5vw,2.8rem);line-height:1.35;padding:60px 20px;background:#eef4fb}
+.spend-save-tagline strong em{font-style:italic;font-weight:900}
+
 /* === AUTHORITY ANCHOR (Massive Clean Quote Block) === */
 .authority-anchor{max-width:820px;margin:0 auto;padding:20px 0}
 .anchor-line{height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent);margin:20px 0}
@@ -717,6 +721,8 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   <div class="stat-item"><div class="stat-num" data-target="4">4</div><div class="stat-label">Frameworks</div></div>
   <div class="stat-item"><div class="stat-num" style="color:#1cb854">&#9854;&#65039;</div><div class="stat-label">Laughs</div></div>
 </div>
+
+<div class="spend-save-tagline reveal">Any book can teach a kid to <strong><em>SAVE.</em></strong><br>The hard part is teaching them to <strong><em>SPEND.</em></strong></div>
 
 <nav class="coupon-nav" id="coupons" style="position:relative">
   <button class="coupon-close" onclick="var g=this.parentElement.querySelector('.coupon-grid');if(g.style.display==='none'){g.style.display='';this.textContent='\u00D7';this.setAttribute('aria-label','Collapse coupon section')}else{g.style.display='none';this.textContent='+';this.setAttribute('aria-label','Expand coupon section')}" aria-label="Collapse coupon section">&times;</button>
