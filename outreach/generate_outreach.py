@@ -108,7 +108,7 @@ GROUPS = {
             "Your money coverage{org_clause} is right in this lane.",
         ],
         "email_bodies": [
-            "Hi {first},\n\n{opener}\n\nHere's the story in a sentence: I snuck a financial education inside a children's book about a kid and a robot. {BOOK} follows a 6-year-old who earns a robot, then has to actually shop for it. Budgeting, comparison shopping, markdowns, the works, and not one worksheet. {fact}\n\n{ask}\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nHere's the story in a sentence: I snuck a financial education inside a children's book about a kid and a robot. {BOOK} follows a 7-year-old who earns a robot, then has to actually shop for it. Budgeting, comparison shopping, markdowns, the works, and not one worksheet. {fact}\n\n{ask}\n\n{sig}",
             "Hi {first},\n\n{opener}\n\nMost money advice talks to adults. I wrote a children's book that makes the family money conversation concrete and a little funny instead of scary. It's called {BOOK}. A kid earns a robot, then learns what it actually costs to bring one home.\n\n{ask}\n\n{sig}",
         ],
         "linkedin": [
