@@ -11,3 +11,6 @@ __pycache__/
 *.xls
 finlit*contacts*.csv
 linkedin*connections*.csv
+
+# Outreach release notes name real contacts — ships in the zip, stays out of git.
+outreach/WHATS-NEW-*.md
