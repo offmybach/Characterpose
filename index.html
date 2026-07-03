@@ -1534,7 +1534,8 @@ function submitSignup(e){
     if (data && data.success) {
       btn.textContent = 'Sent!';
       emailEl.value = '';
-      if (status) { status.innerHTML = 'You’re in. Free resources available now: <a href="educator-toolkit.html" style="color:#0054a6;font-weight:700">Educator Toolkit →</a>'; status.style.color = '#1a7a3a'; }
+      if (status) { status.innerHTML = 'You’re in. Opening your free resources now — or grab them here: <a href="educator-toolkit.html" style="color:#0054a6;font-weight:700">Educator Toolkit →</a>'; status.style.color = '#1a7a3a'; }
+      window.open('educator-toolkit.html', '_blank', 'noopener');
     } else {
       btn.textContent = origBtn;
       if (status) { status.textContent = (data && data.message) ? data.message : 'Something went wrong. Try again.'; status.style.color = '#c0392b'; }
