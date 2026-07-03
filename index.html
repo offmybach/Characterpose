@@ -688,7 +688,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 <div id="scroll-progress" aria-hidden="true"></div>
 <a class="skip-nav" href="#main">Skip to Content</a>
 <div class="particles" id="particles" aria-hidden="true"></div>
-<nav id="mainNav" role="navigation" aria-label="Main navigation"><div class="logo">Clarence Gets a Bargain</div><div class="links"><a href="#magazine">Peek Inside</a><a href="#coupons">Explore</a><a href="#educators">For Educators</a><a href="#buy" class="cta-nav">Buy Now</a></div></nav>
+<nav id="mainNav" role="navigation" aria-label="Main navigation"><div class="logo">Clarence Gets a Bargain</div><div class="links"><a href="#magazine">Peek Inside</a><a href="#coupons">Resources</a><a href="#educators">For Educators</a><a href="#buy" class="cta-nav">Buy Now</a></div></nav>
 
 <main id="main">
 <section class="hero"><div class="hero-bg"></div>
@@ -701,9 +701,9 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   <div class="masthead">We snuck financial education inside a story about a kid and a robot.</div>
   <div class="subtitle">Don&rsquo;t tell them. They&rsquo;re laughing too hard to notice.</div>
   <div class="author">Written &amp; Illustrated by Jonathan Bach</div>
-  <div class="hero-cta"><a href="https://buy.stripe.com/8x25kDf3v4JQcOR5pW3Ru00" target="_blank" rel="noopener">Invest in Your Kid&rsquo;s Future &mdash; $19.99</a></div>
+  <div class="hero-cta"><a href="https://buy.stripe.com/8x25kDf3v4JQcOR5pW3Ru00" target="_blank" rel="noopener">Get the Book &mdash; $19.99</a></div>
   <div class="hero-trust">
-    <span>Educator Approved &mdash; Mom (Ret.) &bull; Brother &amp; Neighbor (30+ Yrs, FinLit)</span>
+    <span>Endorsed by Maryann Milewski Moskal (30+ Yrs, K&ndash;5) &bull; Wally Luckeydoo Ed.D. (2026 Jump$tart Award)</span>
     <span class="ht-sep">&bull;</span>
     <span>Jump$tart Aligned</span>
     <span class="ht-sep">&bull;</span>
@@ -794,13 +794,13 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 <section class="mag-section" id="magazine">
   <h2 class="reveal">Flip Through Clarence&rsquo;s Coupon Book!</h2>
   <p class="hint reveal" id="magHint">Click to open &bull; Flip pages by clicking left/right &bull; Arrow keys work</p>
-  <div id="magCanvasWrap"><canvas id="magCanvas" role="img" aria-label="Interactive 3D flipbook preview of Clarence Gets a Bargain magazine pages — scroll to mobile view for accessible page list"></canvas></div>
+  <div id="magCanvasWrap"><canvas id="magCanvas" role="img" aria-label="Interactive 3D flipbook preview of Clarence Gets a Bargain — accessible page list below"></canvas></div>
   <div id="magMobileScroll" aria-label="Magazine pages"></div>
   <div class="mag-controls"><button class="mag-btn" id="btnOpen">Open</button><button class="mag-btn" id="btnPrev">&larr; Prev</button><button class="mag-btn" id="btnNext">Next &rarr;</button><button class="mag-btn" id="btnClose">Close</button></div>
   <div class="page-indicator" id="pageIndicator"></div>
   <div class="upload-row">
-    <div class="cover-upload" id="frontUpload"><div class="icon" aria-hidden="true">&#128248;</div><label class="text" for="frontInput">Upload Front Cover</label><img loading="lazy" decoding="async" id="frontPreview" alt=""><input type="file" id="frontInput" accept="image/*"></div>
-    <div class="cover-upload" id="backUpload"><div class="icon" aria-hidden="true">&#128248;</div><label class="text" for="backInput">Upload Back Cover</label><img loading="lazy" decoding="async" id="backPreview" alt=""><input type="file" id="backInput" accept="image/*"></div>
+    <div class="cover-upload" id="frontUpload"><div class="icon" aria-hidden="true">&#128248;</div><label class="text" for="frontInput">Upload Front Cover</label><img loading="lazy" decoding="async" id="frontPreview" alt="Front cover of Clarence Gets a Bargain"><input type="file" id="frontInput" accept="image/*"></div>
+    <div class="cover-upload" id="backUpload"><div class="icon" aria-hidden="true">&#128248;</div><label class="text" for="backInput">Upload Back Cover</label><img loading="lazy" decoding="async" id="backPreview" alt="Back cover of Clarence Gets a Bargain"><input type="file" id="backInput" accept="image/*"></div>
   </div>
 </section>
 
@@ -851,8 +851,6 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   </div>
   <div class="buy-btns reveal">
     <a class="buy-btn amazon" style="background:#ff6b2b; box-shadow:0 4px 20px rgba(255,107,43,.4);" href="https://buy.stripe.com/8x25kDf3v4JQcOR5pW3Ru00" target="_blank" rel="noopener">Buy Now &mdash; $19.99</a>
-    <a class="buy-btn bn" href="#" style="visibility:hidden;pointer-events:none"></a>
-    <a class="buy-btn indie" href="#" style="visibility:hidden;pointer-events:none"></a>
   </div>
   <div class="guarantee-badge reveal">
     <div class="gb-icon">&#128737;&#65039;</div>
@@ -928,7 +926,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       <p class="ff-privacy">By submitting, you give us permission to feature your name and review on this site. Your email is never shared or sold.</p>
       <div class="ff-thanks" id="ffThanks">
         <div class="ff-thanks-icon">&#9989;</div>
-        Thanks &mdash; your review is in. We read every one.
+        Thanks &mdash; your review is in. We read every one and feature the best right here on the page.
       </div>
       <div class="ff-error" id="ffError" role="alert"></div>
     </form>
@@ -937,7 +935,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 
 <!-- EMAIL SIGNUP -->
 <section class="email-signup reveal">
-  <h3>Get the Free Reading Guide + Classroom Activities</h3>
+  <h3>Free Resources + Updates</h3>
   <p>Parents. Teachers. The occasional grandparent who&rsquo;s already three steps ahead.</p>
   <form class="email-form" id="signupForm" onsubmit="return submitSignup(event);">
     <input type="email" id="su-email" name="email" placeholder="Enter your email" aria-label="Email address" required>
@@ -955,11 +953,11 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       <div class="section-tag">For the Pros</div>
       <h3>Why Clarence Belongs in Your Curriculum</h3>
       <p>Financial literacy is usually treated as a &ldquo;high school&rdquo; topic, but research shows that money habits are largely formed by age seven<sup style="font-size:.7em">1</sup>. Most educational books on this subject are either too dry for a first-grader or too simplistic for a fifth-grader.</p>
-      <p><em>Clarence Gets a Bargain</em> was built for that gap. 36 pages. Grades K&ndash;5. The book itself is the lesson plan. What&rsquo;s inside:</p>
+      <p><em>Clarence Gets a Bargain</em> was built for that gap. 36 pages. Grades 1&ndash;5. The book itself is the lesson plan. What&rsquo;s inside:</p>
       <ul>
         <li><strong>Behavioral Economics:</strong> The <strong><em>Wants vs. Needs</em></strong> decision, with real stakes a seven-year-old can feel.</li>
         <li><strong>Real-World Math:</strong> Percentage markdowns, sale pricing, and coupon savings applied at a register, not on a worksheet.</li>
-        <li><strong>College Savings:</strong> A rare, age-appropriate look at long-term college savings accounts and household budgeting.</li>
+        <li><strong>College Savings:</strong> A 529 account explained in a way a seven-year-old actually follows &mdash; and doesn&rsquo;t roll their eyes at.</li>
         <li><strong>The Financial Glossary:</strong> Two pages of page-referenced definitions. That is what makes the book defensible as curriculum, not just a picture book.</li>
       </ul>
       <p class="trust-closer">Stop teaching money with abstract worksheets. Teach it with a mission.</p>
@@ -1005,7 +1003,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     <div class="concept-card reveal reveal-delay-1">
       <span class="concept-icon">&#127891;</span>
       <h3>College Savings (529)</h3>
-      <p>A rare, age-appropriate introduction to long-term savings. Dad explains the future in a way that makes a 7-year-old nod seriously.</p>
+      <p>Dad explains a 529 account in a way that makes a 7-year-old nod seriously. Clarence rolls his eyes. The 529 keeps stacking.</p>
       <span class="concept-pages">Pages 6, 24</span>
     </div>
     <div class="concept-card reveal reveal-delay-2">
@@ -1360,7 +1358,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     <div class="pitch-label">For Institutional Decision Makers</div>
     <h2 class="pitch-headline">Build It Into the Budget.<br>Defend It to the Board.</h2>
     <div class="pitch-body">
-      <p><em>Clarence Gets a Bargain</em> is a financial literacy resource (estimated Lexile AD 620L) aligned with FDIC Money Smart for Young People themes and Jump$tart National Standards for K&ndash;12 Personal Finance Education. It includes pre-built family engagement activities, making it well-suited to support CRA community development initiatives, Title I supplemental material programs, and corporate financial literacy philanthropy.</p>
+      <p><em>Clarence Gets a Bargain</em> is a financial literacy resource (estimated Lexile AD 620L) aligned with FDIC Money Smart for Young People themes and Jump$tart National Standards for K&ndash;12 Personal Finance Education. It includes pre-built take-home activities built to support CRA community development initiatives, Title I supplemental material programs, and corporate financial literacy philanthropy.</p>
       <p>When your team asks why you selected this resource, the answer is documented: Jump$tart National Standards (Spending, Saving, Earning Income, Managing Credit). Common Core CCSS.Math.5.NBT.B.7. FDIC Money Smart K&ndash;5 themes. Council for Economic Education topics. Pre- and post-assessment activities included.</p>
       <p class="pitch-kicker">And the kids actually think it&rsquo;s hilarious.</p>
     </div>
@@ -1535,7 +1533,7 @@ function submitSignup(e){
     if (data && data.success) {
       btn.textContent = 'Sent!';
       emailEl.value = '';
-      if (status) { status.textContent = 'Thanks! Check your inbox for the guide.'; status.style.color = '#1a7a3a'; }
+      if (status) { status.innerHTML = 'You’re in. Free resources available now: <a href="educator-toolkit.html" style="color:#0054a6;font-weight:700">Educator Toolkit →</a>'; status.style.color = '#1a7a3a'; }
     } else {
       btn.textContent = origBtn;
       if (status) { status.textContent = (data && data.message) ? data.message : 'Something went wrong. Try again.'; status.style.color = '#c0392b'; }
@@ -1640,6 +1638,8 @@ function closeCoverLightbox(){
   document.getElementById('cvrLightbox').classList.remove('active');
   document.body.style.overflow='';
 }
+window.openCoverLightbox = openCoverLightbox;
+window.closeCoverLightbox = closeCoverLightbox;
 
 // FAQ ACCORDION
 document.querySelectorAll('.faq-question').forEach(function(btn){btn.addEventListener('click',function(){var item=this.closest('.faq-item'),isOpen=item.classList.contains('faq-open');document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('faq-open');i.querySelector('.faq-question').setAttribute('aria-expanded','false');});if(!isOpen){item.classList.add('faq-open');btn.setAttribute('aria-expanded','true');}});});
@@ -2044,7 +2044,7 @@ var pages = [
     var cH = (h - top - m) / 3 - gap;
     drawCard(c, m, top, w - m*2, cH,
       '\uD83D\uDCB8', 'The Money Talk Is Awkward',
-      'We talk to kids about stranger danger. But money? "We\'ll talk when you\'re older." Older when? This book cracks the door open early. With laughs, not lectures.');
+      'We talk to kids about stranger danger. But money? "We\'ll talk when you\'re older." Older when? This book starts that talk early. With laughs, not lectures.');
     drawCard(c, m, top + cH + gap, w - m*2, cH,
       '\uD83E\uDDE0', 'Seeds, Not Textbooks',
       'I wrote it to plant a seed \u2014 a tiny voice that says, "Wait... is there a better deal?" That seed grows into a lightbulb. That lightbulb sticks.');
