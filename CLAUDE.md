@@ -414,6 +414,13 @@ Each entry includes the page(s) where the term appears in the story.
 - `linkedin-profile-assets.html` — LinkedIn profile assets
 - `instagram-stories.html` — Instagram stories
 - `social-media-campaigns-april.html` — April campaign
+- `state-of-the-states.html` — interactive US tile map of state finlit requirements (30 guarantee states per NGPF May 2026; verify before editing data)
+- `receipt-builder.html` — kid-facing interactive Sea-Mart register (clearance markdown + 10% coupon + sales tax; prices in cents, book-accurate coupon rule: clearance toys only)
+- `press-kit.html` — media kit: bios ×3 lengths, fact sheet, art downloads, interview Qs (Q5 protects the Aisle Five spoiler — keep it that way)
+- `book-facts.html` — dense factual reference page + Book JSON-LD (for librarians, journalists, AI assistants)
+- `resources/procurement.html` — vendor packet: specs, sole-source justification letter, PO/Net 30 terms
+- `resources/grant-in-a-box.html` — pre-written funding requests: DonorsChoose, PTA, bank sponsorship, CRA memo (exact math: 25 copies = $499.75)
+- `llms.txt` — root-level AI-discovery file (llms.txt spec); update if URLs or key facts change
 
 ### Educator toolkit — print-HTML pages (the live PDFs)
 All open-in-browser → print-to-PDF. No external tooling. Each has a `@media print` stylesheet that hides the screen toolbar and renders a clean branded PDF (Hold-font headers, blue/orange/cream palette, dashed coupon borders, scissors detail, brand strip with orange/blue stripe).

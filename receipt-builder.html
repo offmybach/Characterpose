@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sea-Mart Receipt Builder — Ring It Up Like Clarence | Clarence Gets a Bargain</title>
+<meta name="description" content="An interactive pretend register for kids: pick a robot, spot the clearance sticker, hand over the coupon, pay the sales tax. The whole Clarence Gets a Bargain lesson in one receipt.">
+<link rel="canonical" href="https://www.clarencegetsabargain.com/receipt-builder.html">
+<meta property="og:title" content="Sea-Mart Receipt Builder — Ring It Up Like Clarence">
+<meta property="og:description" content="Pick a robot. Spot the sticker. Hand over the coupon. Pay the tax. Print the receipt. Financial literacy, one beep at a time.">
+<meta property="og:image" content="https://www.clarencegetsabargain.com/images/clarence-og-card.jpg">
+<style>
+@font-face{font-family:'Hold';src:url('fonts/Hold.woff2') format('woff2'),url('fonts/Hold.woff') format('woff')}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Hold','Trebuchet MS',sans-serif;background:#f5ecd7;color:#1a3a5c}
+.site-header{background:#0054a6;padding:14px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+.site-header a{color:#fff;text-decoration:none;font-size:.85rem;font-weight:700}
+.site-header a:hover{color:#ffe066}
+.hero{background:linear-gradient(160deg,#0054a6,#003d7a 55%,#ff6b2b);padding:44px 24px 38px;text-align:center;color:#fff}
+.hero h1{font-size:clamp(1.7rem,5vw,2.7rem);margin-bottom:10px}
+.hero p{max-width:560px;margin:0 auto;color:rgba(255,255,255,.92);font-family:'Trebuchet MS',sans-serif;font-size:.95rem;line-height:1.6}
+.wrap{max-width:980px;margin:0 auto;padding:36px 20px;display:grid;grid-template-columns:1fr 340px;gap:28px;align-items:start}
+@media(max-width:760px){.wrap{grid-template-columns:1fr}}
+.panel{background:#fff;border:3px dashed #1a3a5c;border-radius:16px;padding:24px}
+.panel h2{color:#0054a6;font-size:1.15rem;margin-bottom:4px}
+.panel .step-sub{font-family:'Trebuchet MS',sans-serif;font-size:.8rem;color:#8a7f68;margin-bottom:14px}
+.robots{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:22px}
+.robot{border:2px solid #e5dcc3;border-radius:12px;padding:14px;text-align:center;cursor:pointer;background:#fdfbf6;transition:all .15s;position:relative}
+.robot:hover{border-color:#0054a6}
+.robot.picked{border-color:#0054a6;background:#e3f0fc;box-shadow:0 4px 14px rgba(0,84,166,.15)}
+.robot .bot{font-size:2rem}
+.robot .nm{font-weight:900;font-size:.85rem;margin:6px 0 2px}
+.robot .pr{font-family:'Trebuchet MS',sans-serif;font-size:.8rem}
+.robot .clr{position:absolute;top:-10px;right:-8px;background:#ff6b2b;color:#fff;font-size:.6rem;font-weight:900;padding:4px 8px;border-radius:20px;transform:rotate(8deg);letter-spacing:.5px}
+.robot .was{text-decoration:line-through;color:#b0a488}
+.opt-row{display:flex;align-items:center;gap:12px;background:#fdfbf6;border:2px solid #e5dcc3;border-radius:12px;padding:14px;margin-bottom:14px;cursor:pointer;transition:border-color .15s}
+.opt-row:hover{border-color:#ff6b2b}
+.opt-row.active{border-color:#ff6b2b;background:#fff3e0}
+.opt-row input{width:20px;height:20px;accent-color:#ff6b2b;cursor:pointer}
+.opt-row label{cursor:pointer;flex:1;font-family:'Trebuchet MS',sans-serif;font-size:.85rem}
+.opt-row label strong{font-family:'Hold',sans-serif;color:#0054a6;display:block;font-size:.95rem}
+.tax-btns{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.tax-btn{border:2px solid #e5dcc3;background:#fdfbf6;border-radius:30px;padding:8px 16px;font-family:'Hold',sans-serif;font-weight:900;font-size:.8rem;color:#1a3a5c;cursor:pointer}
+.tax-btn.picked{background:#0054a6;color:#fff;border-color:#0054a6}
+.tip{font-family:'Trebuchet MS',sans-serif;font-size:.78rem;color:#8a7f68;font-style:italic}
+.receipt-wrap{position:sticky;top:16px}
+.receipt{background:#fff;box-shadow:0 10px 30px rgba(0,0,0,.15);padding:26px 22px;font-family:'Courier New',monospace;font-size:.82rem;color:#222;border-radius:4px 4px 0 0}
+.receipt .store{text-align:center;font-weight:bold;font-size:1.05rem;letter-spacing:2px}
+.receipt .meta{text-align:center;font-size:.7rem;color:#666;margin-bottom:12px}
+.receipt hr{border:none;border-top:1px dashed #999;margin:10px 0}
+.receipt .line{display:flex;justify-content:space-between;gap:8px;padding:2px 0}
+.receipt .line.neg{color:#c0392b}
+.receipt .line.total{font-weight:bold;font-size:1rem}
+.receipt .save-box{border:2px dashed #1a7a3a;color:#1a7a3a;text-align:center;font-weight:bold;padding:8px;margin-top:12px}
+.receipt .barcode{margin-top:14px;height:36px;background:repeating-linear-gradient(90deg,#222 0 2px,#fff 2px 5px,#222 5px 6px,#fff 6px 10px);border-radius:2px}
+.receipt .thanks{text-align:center;font-size:.7rem;margin-top:8px;color:#666}
+.receipt-zigzag{height:14px;background:linear-gradient(135deg,#fff 50%,transparent 50%) 0 0/14px 14px repeat-x,linear-gradient(225deg,#fff 50%,transparent 50%) 0 0/14px 14px repeat-x;filter:drop-shadow(0 6px 8px rgba(0,0,0,.08))}
+.r-actions{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+.btn{flex:1;min-width:120px;padding:12px;border-radius:40px;border:none;font-family:'Hold',sans-serif;font-weight:900;font-size:.85rem;cursor:pointer;text-align:center;text-decoration:none}
+.btn.orange{background:#ff6b2b;color:#fff}.btn.orange:hover{background:#e55000}
+.btn.ghost{background:#fff;color:#0054a6;border:2px solid #0054a6}
+.mom-tip{margin-top:16px;background:#e3f0fc;border-radius:12px;padding:14px 16px;font-family:'Trebuchet MS',sans-serif;font-size:.8rem;line-height:1.6}
+.mom-tip strong{color:#0054a6}
+.footer-cta{text-align:center;padding:20px 24px 56px}
+.footer-cta p{font-family:'Trebuchet MS',sans-serif;font-size:.95rem;margin-bottom:16px}
+@media print{
+  .site-header,.hero,.panel,.r-actions,.mom-tip,.footer-cta{display:none!important}
+  body{background:#fff}
+  .wrap{display:block;padding:0}
+  .receipt{box-shadow:none;max-width:320px;margin:0 auto}
+}
+</style>
+</head>
+<body>
+<div class="site-header">
+  <a href="index.html">&larr; Back to Clarence</a>
+  <span style="font-size:1rem">Sea-Mart Register &bull; Aisle Five</span>
+  <a href="index.html#buy">Get the Book</a>
+</div>
+
+<div class="hero">
+  <h1>Ring It Up Like Clarence.</h1>
+  <p>Pick a robot. Spot the orange sticker. Remember the coupon in your pocket. Pay the tax &mdash; yes, there&rsquo;s always tax. Build your receipt, then print it and show somebody how much you saved.</p>
+</div>
+
+<div class="wrap">
+  <div>
+    <div class="panel" style="margin-bottom:22px">
+      <h2>Step 1: Pick Your Robot</h2>
+      <p class="step-sub">Orange sticker means clearance — nothing wrong with it, it just needs a good home.</p>
+      <div class="robots" id="robots"></div>
+
+      <h2>Step 2: Check Your Pockets</h2>
+      <p class="step-sub">Clarence almost forgot his. Almost.</p>
+      <div class="opt-row" id="couponRow">
+        <input type="checkbox" id="coupon">
+        <label for="coupon"><strong>&#9986;&#65039; Use the Coupon — 10% Off Clearance Toys</strong><span id="couponHint">Tear it out of the sale ad and hand it to the cashier.</span></label>
+      </div>
+
+      <h2>Step 3: Pay the Tax</h2>
+      <p class="step-sub">It goes to the state, not the store. The sticker price is never quite the price you pay.</p>
+      <div class="tax-btns" id="taxBtns"></div>
+      <p class="tip">Real rates vary by state and city — ask a grown-up what yours is.</p>
+    </div>
+  </div>
+
+  <div class="receipt-wrap">
+    <div class="receipt" id="receipt"></div>
+    <div class="receipt-zigzag"></div>
+    <div class="r-actions">
+      <button class="btn orange" onclick="window.print()">&#128424; Print My Receipt</button>
+      <a class="btn ghost" href="quiz.html">Take the Quiz</a>
+    </div>
+    <div class="mom-tip"><strong>Mom&rsquo;s Rule:</strong> photograph the receipt the second you sit down in the car. Every time. It&rsquo;s your proof the purchase happened — and your best friend if something goes wrong.</div>
+  </div>
+</div>
+
+<div class="footer-cta">
+  <p>Want the whole story behind the register? There&rsquo;s a kid, a robot, and one very big orange sign.</p>
+  <a class="btn orange" style="flex:none;display:inline-block;padding:14px 34px" href="index.html#buy">Get the Book &mdash; $19.99</a>
+</div>
+
+<script>
+// Prices in cents. Pretend prices for a pretend store — the lesson is real, the robots are not.
+var ROBOTS = [
+  {id:0, bot:'🤖', name:'RoBimmie 3000', reg:5999, clr:3499},
+  {id:1, bot:'🦾', name:'RoBimmie X', reg:6999, clr:null},
+  {id:2, bot:'🛸', name:'MegaBot Deluxe', reg:8999, clr:null},
+  {id:3, bot:'⚙️', name:'RoBimmie Classic', reg:3999, clr:2499}
+];
+var TAXES = [{lbl:'No Tax', r:0},{lbl:'4%', r:0.04},{lbl:'6%', r:0.06},{lbl:'7%', r:0.07},{lbl:'8%', r:0.08}];
+var picked = 0, taxIdx = 2;
+
+function $(id){return document.getElementById(id)}
+function money(c){return '$' + (c/100).toFixed(2)}
+
+var rWrap = $('robots');
+ROBOTS.forEach(function(r){
+  var d = document.createElement('div');
+  d.className = 'robot';
+  d.setAttribute('role','button'); d.setAttribute('tabindex','0');
+  d.innerHTML = (r.clr !== null ? '<span class="clr">CLEARANCE</span>' : '') +
+    '<div class="bot">' + r.bot + '</div><div class="nm">' + r.name + '</div>' +
+    '<div class="pr">' + (r.clr !== null ? '<span class="was">' + money(r.reg) + '</span> <strong style="color:#e65100">' + money(r.clr) + '</strong>' : money(r.reg)) + '</div>';
+  function pick(){ picked = r.id; render(); }
+  d.addEventListener('click', pick);
+  d.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){e.preventDefault();pick();} });
+  rWrap.appendChild(d);
+});
+
+var tWrap = $('taxBtns');
+TAXES.forEach(function(t, i){
+  var b = document.createElement('button');
+  b.className = 'tax-btn'; b.textContent = t.lbl;
+  b.addEventListener('click', function(){ taxIdx = i; render(); });
+  tWrap.appendChild(b);
+});
+$('coupon').addEventListener('change', render);
+
+function render(){
+  var r = ROBOTS[picked];
+  var isClr = r.clr !== null;
+  var price = isClr ? r.clr : r.reg;
+  var couponOn = $('coupon').checked;
+  var couponOk = couponOn && isClr;
+  var couponAmt = couponOk ? Math.round(price * 0.10) : 0;
+  var subtotal = price - couponAmt;
+  var tax = Math.round(subtotal * TAXES[taxIdx].r);
+  var total = subtotal + tax;
+  var markdownSaved = isClr ? (r.reg - r.clr) : 0;
+  var saved = markdownSaved + couponAmt;
+
+  document.querySelectorAll('.robot').forEach(function(el, i){ el.classList.toggle('picked', i === picked); });
+  document.querySelectorAll('.tax-btn').forEach(function(el, i){ el.classList.toggle('picked', i === taxIdx); });
+  $('couponRow').classList.toggle('active', couponOk);
+  $('couponHint').textContent = !couponOn ? 'Tear it out of the sale ad and hand it to the cashier.' :
+    (couponOk ? 'Beep! The cashier smiles. That just worked.' : 'The cashier shakes her head — this coupon is for CLEARANCE toys only. Pick one with the orange sticker.');
+
+  var h = '<div class="store">SEA-MART</div><div class="meta">AISLE FIVE &bull; REGISTER 22<br>WHERE THE DEALS ARE</div><hr>';
+  h += '<div class="line"><span>' + r.name.toUpperCase() + '</span><span>' + money(r.reg) + '</span></div>';
+  if (isClr) h += '<div class="line neg"><span>&nbsp;CLEARANCE MARKDOWN</span><span>-' + money(markdownSaved) + '</span></div>';
+  if (couponOk) h += '<div class="line neg"><span>&nbsp;COUPON 10% OFF CLR TOY</span><span>-' + money(couponAmt) + '</span></div>';
+  h += '<hr><div class="line"><span>SUBTOTAL</span><span>' + money(subtotal) + '</span></div>';
+  h += '<div class="line"><span>SALES TAX (' + (TAXES[taxIdx].r*100).toFixed(0) + '%)</span><span>' + money(tax) + '</span></div>';
+  h += '<div class="line total"><span>TOTAL</span><span>' + money(total) + '</span></div>';
+  if (saved > 0) h += '<div class="save-box">YOU SAVED ' + money(saved) + ' TODAY<br>SMART LITTLE SHOPPER</div>';
+  else h += '<div class="save-box" style="border-color:#e65100;color:#e65100">YOU SAVED $0.00<br>THE SALE AISLE MISSES YOU</div>';
+  h += '<div class="barcode"></div><div class="thanks">THANK YOU FOR SHOPPING SEA-MART<br>KEEP THIS RECEIPT. SERIOUSLY. KEEP IT.</div>';
+  $('receipt').innerHTML = h;
+}
+render();
+</script>
+</body>
+</html>
