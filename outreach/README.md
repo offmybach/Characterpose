@@ -37,8 +37,11 @@ At the top of `generate_outreach.py`:
 
 ## Voice guardrails (baked in)
 
-No marketing slop, no AI tells, no finance puns, zero em-dashes. Never reveals
-the Clarence/Clearance wordplay or explains the "Wyze" pun. See `CLAUDE.md` §2.
+No marketing slop, no AI tells, no finance puns. Em-dashes are fine — Jonathan
+uses them. Every draft leads with the book's real hook: it teaches smart
+spending (sale ads, comparisons, markdowns, coupons), not another saving
+lecture. Never reveals the Clarence/Clearance wordplay or explains the "Wyze"
+pun. See `CLAUDE.md` §2.
 
 ## Privacy
 

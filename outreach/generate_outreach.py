@@ -58,9 +58,9 @@ SIG = f"Thanks,\n{AUTHOR}\nAuthor, {BOOK}\n{SITE}"
 
 FACTS = [
     "36 pages, 16+ money concepts, written for ages 6-10. Not one worksheet in sight.",
-    "It teaches budgeting, comparison shopping, and markdowns inside the plot instead of bolting them on after.",
+    "Kids read it for the robot. The money lessons ride along in the plot.",
     "A K-5 teacher with 30+ years in the classroom helped shape the lessons, so it holds up in front of real kids.",
-    "The whole financial education hides inside one Sea-Mart shopping trip.",
+    "He even picks the marked-down robot over the newest model, and he's proud of it.",
 ]
 
 GROUPS = {
@@ -70,6 +70,7 @@ GROUPS = {
             "A money book your students might actually finish",
             "Built for your classroom, not bolted on after",
             "Would this work with your kids? Honest answer wanted.",
+            "They teach saving. This one teaches spending.",
         ],
         "openers": [
             "Your work{org_clause} is exactly why your name is on my short list.",
@@ -81,12 +82,12 @@ GROUPS = {
             "You do this for real{org_clause}, so your read matters more than mine.",
         ],
         "email_bodies": [
-            "Hi {first},\n\n{opener}\n\nI wrote a children's book called {BOOK}. It's a story first. A kid earns a robot for good grades and chores, then has to go shop for it and learns how money actually works along the way. {fact}\n\nWhat I can't tell from my desk is whether it lands where it counts: a classroom, a library shelf, or a backpack headed home. {ask}\n\n{sig}",
-            "Hi {first},\n\n{opener}\n\nQuick why-I'm-writing: I wrote {BOOK}, a 36-page picture book that teaches kids real money skills without ever feeling like a lecture. A K-5 teacher with 30+ years in the classroom helped shape the lessons, so it's built to hold up in front of actual students.\n\n{ask}\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nI wrote a children's book called {BOOK}. It's a story first: a kid earns a robot for good grades and chores, then has to go shop for it. And here's the twist — it's not another piggy-bank book. Your students have heard 'save your money' a thousand times; Clarence learns the half nobody teaches, how to spend it well. {fact}\n\nWhat I can't tell from my desk is whether it lands where it counts: a classroom, a library shelf, or a backpack headed home. {ask}\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nQuick why-I'm-writing: I wrote {BOOK}, a 36-page picture book that teaches kids how to spend money well — compare prices, read the ads, catch the markdown — without ever feeling like a lecture. Every kid gets the saving speech. Almost nobody shows them what to do at the shelf. A K-5 teacher with 30+ years in the classroom helped shape the lessons, so it's built to hold up in front of actual students.\n\n{ask}\n\n{sig}",
         ],
         "linkedin": [
-            "Hi {first}, {opener_li} I wrote a kids' book, {BOOK}, that sneaks a real money education inside a story about a kid and a robot. Built with a 30-year K-5 teacher so it holds up in a classroom. Could I send you a copy and get your honest read on whether it'd work with your students?",
-            "Hi {first}, quick one. I wrote {BOOK}, a picture book that teaches kids money skills through a story instead of a worksheet. You do this for real, so your opinion beats mine. Mind if I send a copy your way?",
+            "Hi {first}, {opener_li} I wrote a kids' book, {BOOK}, that teaches smart spending — sale ads, price comparisons, markdowns — inside a story about a kid and a robot. Kids get the saving speech everywhere; this is the other half. Built with a 30-year K-5 teacher so it holds up in a classroom. Could I send you a copy and get your honest read on whether it'd work with your students?",
+            "Hi {first}, quick one. Every kids' money book says save. I wrote the one that teaches them how to spend: {BOOK}, a picture book where a kid shops smart for a robot. You do this for real, so your opinion beats mine. Mind if I send a copy your way?",
         ],
         "ask": "Want a copy to look at? I'll send the book and the zero-prep educator toolkit, and all I want back is whether it'd actually work with your kids.",
         "role_default": "educator",
@@ -97,6 +98,7 @@ GROUPS = {
             "Story idea: the money book kids actually read",
             "A kid, a robot, and a sneaky financial education",
             "For your money coverage: quick pitch",
+            "Story idea: the kids' money book about spending, not saving",
         ],
         "openers": [
             "I've been reading your work{org_clause}, so you already know the gap I'm trying to close.",
@@ -108,12 +110,12 @@ GROUPS = {
             "Your money coverage{org_clause} is right in this lane.",
         ],
         "email_bodies": [
-            "Hi {first},\n\n{opener}\n\nHere's the story in a sentence: I snuck a financial education inside a children's book about a kid and a robot. {BOOK} follows a 7-year-old who earns a robot, then has to actually shop for it. Budgeting, comparison shopping, markdowns, the works, and not one worksheet. {fact}\n\n{ask}\n\n{sig}",
-            "Hi {first},\n\n{opener}\n\nMost money advice talks to adults. I wrote a children's book that makes the family money conversation concrete and a little funny instead of scary. It's called {BOOK}. A kid earns a robot, then learns what it actually costs to bring one home.\n\n{ask}\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nHere's the angle in one line: every kids' money book teaches saving, and I wrote the one that teaches spending. {BOOK} follows a 7-year-old who earns a robot, then has to actually shop for it — sale ads, price comparisons, markdowns, and a coupon he almost forgets in his pocket. {fact}\n\n{ask}\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nMost money advice talks to adults, and most kids' money books stop at the piggy bank. I wrote the other one. {BOOK} makes the family money conversation concrete and a little funny instead of scary: a kid earns a robot, then learns what it actually costs to bring one home — and how to spend smart enough to bring it home for less.\n\n{ask}\n\n{sig}",
         ],
         "linkedin": [
-            "Hi {first}, {opener_li} I wrote a children's book, {BOOK}, that hides a real financial education inside a story about a kid and a robot. Might be a fun angle for your audience: the money book kids actually finish. Want a review copy or a quick summary?",
-            "Hi {first}, story idea for you. {BOOK} is a picture book that teaches kids how money works through a robot-shopping trip, no worksheet in sight. Happy to send a review copy, or point me to whoever covers this if it's not you.",
+            "Hi {first}, {opener_li} I wrote a children's book, {BOOK}, that hides a real financial education inside a story about a kid and a robot. The angle for your audience: every kids' money book teaches saving — this one teaches spending. Want a review copy or a quick summary?",
+            "Hi {first}, story idea for you. {BOOK} is a picture book that teaches kids how to spend money well — comparisons, markdowns, coupons — through a robot-shopping trip, no worksheet in sight. Happy to send a review copy, or point me to whoever covers this if it's not you.",
         ],
         "ask": "Happy to send a review copy or a two-line summary. And if money-for-kids isn't your lane, no hard feelings. Is there someone there I should talk to instead?",
         "role_default": "storyteller",
@@ -124,6 +126,7 @@ GROUPS = {
             "Does this make the concepts stick? Your call.",
             "A kids' money book: practitioner gut-check",
             "You know behavior change better than I do",
+            "The spending lesson, in picture-book form",
         ],
         "openers": [
             "You spend your days getting money concepts to actually stick{org_clause}.",
@@ -135,12 +138,12 @@ GROUPS = {
             "You get money concepts to stick for a living{org_clause}.",
         ],
         "email_bodies": [
-            "Hi {first},\n\n{opener}\n\nI wrote a children's book that tries to do the same thing for kids. It's called {BOOK}. It teaches budgeting, Wants vs. Needs, and comparison shopping through a story about a kid shopping for a robot, not through a lecture. {fact}\n\n{ask}\n\n{sig}",
-            "Hi {first},\n\n{opener}\n\nI wrote {BOOK}, a picture book that teaches kids real money habits inside a story. A kid earns a robot, then has to shop for it. You know what makes this stuff stick better than most people do.\n\n{ask}\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nI wrote a children's book that tries to do the same thing for kids, and it starts where the habits actually form: the spending decision. {BOOK} teaches budgeting and comparison shopping through a story about a kid shopping for a robot — he compares models, reads the stickers, and picks the markdown over the shiny new one. On purpose. {fact}\n\n{ask}\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nI wrote {BOOK}, a picture book that teaches kids real money habits inside a story. Not the saving lecture — the spending decision. A kid earns a robot, then has to shop for it, and every choice on that trip is one the kids you work with will face by age eight. You know what makes this stuff stick better than most people do.\n\n{ask}\n\n{sig}",
         ],
         "linkedin": [
-            "Hi {first}, {opener_li} I wrote {BOOK}, a kids' book that teaches money habits through a story instead of a lecture. You know what makes this stuff stick better than most. Would you take a look and tell me if it does? Happy to send a copy.",
-            "Hi {first}, quick practitioner gut-check. {BOOK} teaches kids budgeting and Wants vs. Needs through a robot-shopping story. Would you read it and tell me if it'd help the families you work with? I'll send a copy.",
+            "Hi {first}, {opener_li} I wrote {BOOK}, a kids' book that teaches money habits through a story instead of a lecture — and it teaches spending, the half everyone skips. You know what makes this stuff stick better than most. Would you take a look and tell me if it does? Happy to send a copy.",
+            "Hi {first}, quick practitioner gut-check. {BOOK} teaches kids smart spending — budgeting, comparisons, markdowns — through a robot-shopping story. The saving speech they get everywhere else. Would you read it and tell me if it'd help the families you work with? I'll send a copy.",
         ],
         "ask": "Would you take a look and tell me, practitioner to practitioner, whether it'd help the families and kids you work with? Glad to send a copy.",
         "role_default": "financial educator",
@@ -151,6 +154,7 @@ GROUPS = {
             "A family-friendly supplement for your programming",
             "Where might a kids' money book fit in what you run?",
             "Clarence Gets a Bargain: aligned to Jump$tart, CCM, CCELA, CEE",
+            "The spending half of financial literacy, K-5 edition",
         ],
         "openers": [
             "Your work{org_clause} puts you right where I'm trying to learn.",
@@ -162,12 +166,12 @@ GROUPS = {
             "Given what you run{org_clause}, you'll know fast whether there's a fit.",
         ],
         "email_bodies": [
-            "Hi {first},\n\n{opener}\n\nI wrote {BOOK}, a children's book that teaches 16+ money concepts inside a story. A kid earns a robot, then learns to shop for it. It lines up with Jump$tart, Common Core Math, Common Core ELA, and the CEE standards, and it comes with a zero-prep educator toolkit. {fact}\n\n{ask}\n\n{sig}",
-            "Hi {first},\n\n{opener}\n\n{BOOK} is a 36-page picture book that snuck a real financial education into a story about a kid and a robot. It's standards-aligned (Jump$tart, Common Core Math and ELA, CEE) and built for classroom, family, or library use.\n\n{ask}\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nI wrote {BOOK}, a children's book that teaches 16+ money concepts inside a story — and it covers the half of financial literacy that's hardest to find at the K-5 level: smart spending. A kid earns a robot, then learns to shop for it. It lines up with Jump$tart, Common Core Math, Common Core ELA, and the CEE standards, and it comes with a zero-prep educator toolkit. {fact}\n\n{ask}\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\n{BOOK} is a 36-page picture book that snuck a real financial education into a story about a kid and a robot. What sets it apart: it teaches spending skills — comparison shopping, sale ads, markdowns — where most K-5 materials stop at saving. Standards-aligned (Jump$tart, Common Core Math and ELA, CEE) and built for classroom, family, or library use.\n\n{ask}\n\n{sig}",
         ],
         "linkedin": [
-            "Hi {first}, {opener_li} I wrote {BOOK}, a kids' book that teaches money through story and lines up with Jump$tart, Common Core, and CEE. Wondering where something like this might fit in your programming. Could I send you a copy?",
-            "Hi {first}, {opener_li} {BOOK} is a standards-aligned picture book that teaches kids money skills through a robot-shopping story. Is there a spot for it in what you run: classroom, family night, library giveaway? Happy to send a copy.",
+            "Hi {first}, {opener_li} I wrote {BOOK}, a kids' book that teaches smart spending through story and lines up with Jump$tart, Common Core, and CEE. It covers the consumer half of financial literacy most K-5 materials skip. Wondering where it might fit in your programming. Could I send you a copy?",
+            "Hi {first}, {opener_li} {BOOK} is a standards-aligned picture book that teaches kids spending skills — comparisons, markdowns, coupons — through a robot-shopping story. Is there a spot for it in what you run: classroom, family night, library giveaway? Happy to send a copy.",
         ],
         "ask": "Is there a spot for something like this in what you're already running: classroom supplement, family night, library giveaway, enrichment? I'd value your read, and I'm glad to send a copy.",
         "role_default": "program lead",
@@ -189,12 +193,12 @@ GROUPS = {
             "Given your role{org_clause}, you'd know better than I would.",
         ],
         "email_bodies": [
-            "Hi {first},\n\n{opener}\n\nI'm not pitching you anything. I'm trying to find the right door. I wrote a children's book on family money skills, {BOOK}, and I'm looking for whoever handles youth or family financial education, consumer education, or community learning on your side.\n\nIf a name comes to mind, I'd be grateful for the pointer. And if it's you, even better.\n\n{sig}",
-            "Hi {first},\n\n{opener}\n\nThis is a referral question, not a pitch. I wrote {BOOK}, a kids' book on family money skills, and I'm trying to reach whoever works on youth or family financial education, consumer education, or community learning where you are. Any pointer would mean a lot.\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nI'm not pitching you anything. I'm trying to find the right door. I wrote a children's book on family money skills — the spending side: comparison shopping, reading ads, consumer awareness — called {BOOK}, and I'm looking for whoever handles youth or family financial education, consumer education, or community learning on your side.\n\nIf a name comes to mind, I'd be grateful for the pointer. And if it's you, even better.\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nThis is a referral question, not a pitch. I wrote {BOOK}, a kids' book on family money skills — smart spending, taught through story — and I'm trying to reach whoever works on youth or family financial education, consumer education, or community learning where you are. Any pointer would mean a lot.\n\n{sig}",
         ],
         "linkedin": [
-            "Hi {first}, not pitching anything, just hoping you can point me in a direction. I wrote a kids' book on family money skills, {BOOK}, and I'm trying to find who handles youth or family financial education on your side. Any idea who I should talk to?",
-            "Hi {first}, quick referral question. {BOOK} is a children's book on family money skills. Do you know who handles youth/family or consumer financial education where you are? Grateful for any pointer.",
+            "Hi {first}, not pitching anything, just hoping you can point me in a direction. I wrote a kids' book on family money skills — the smart-spending side — called {BOOK}, and I'm trying to find who handles youth or family financial education on your side. Any idea who I should talk to?",
+            "Hi {first}, quick referral question. {BOOK} is a children's book on smart spending for families. Do you know who handles youth/family or consumer financial education where you are? Grateful for any pointer.",
         ],
         "ask": "",
         "role_default": "your institution",
@@ -205,6 +209,7 @@ GROUPS = {
             "Making the money talk at home a little easier",
             "For your PTA families: a money book that's actually fun",
             "Would this help families start the money conversation?",
+            "The other money talk: how to spend it",
         ],
         "openers": [
             "Your work{org_clause} is exactly the audience I had in mind.",
@@ -216,12 +221,12 @@ GROUPS = {
             "You work with families directly{org_clause}.",
         ],
         "email_bodies": [
-            "Hi {first},\n\n{opener}\n\nThe money talk at home is awkward for most families. I wrote a children's book to give them an easier way in. It's called {BOOK}. A kid earns a robot, then has to shop for it, and parents get a story to read together instead of a lecture to give. {fact}\n\n{ask}\n\n{sig}",
-            "Hi {first},\n\n{opener}\n\nI wrote {BOOK}, a picture book that turns the family money talk into a story a kid actually wants to read. A robot is involved. It's built to make that first conversation easy for parents.\n\n{ask}\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nThe money talk at home is awkward for most families, and 'because we can't afford it' only goes so far. I wrote a children's book that gives parents a better script. It's called {BOOK}. A kid earns a robot, then has to shop for it — and suddenly sale ads, price tags, and coupons are things a kid finds exciting. It teaches spending smart, the money skill families use every single week. {fact}\n\n{ask}\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nI wrote {BOOK}, a picture book that turns the family money talk into a story a kid actually wants to read. A robot is involved. So is a coupon. And it teaches the lesson parents rarely get help with — how to spend well. The 'save your allowance' speech they've already got covered.\n\n{ask}\n\n{sig}",
         ],
         "linkedin": [
-            "Hi {first}, {opener_li} I wrote {BOOK}, a kids' book that gives families an easy, funny way into the money talk. A kid earns a robot, then learns to shop for it. Could I send you a copy?",
-            "Hi {first}, quick one. {BOOK} helps families start the money conversation through a story instead of a lecture. Think it'd help your families? Happy to send a copy.",
+            "Hi {first}, {opener_li} I wrote {BOOK}, a kids' book that gives families an easy, funny way into the money talk. A kid earns a robot, then learns to shop smart for it — sale ads, coupons, markdowns. The spending lesson, which is the one parents rarely get help with. Could I send you a copy?",
+            "Hi {first}, quick one. {BOOK} helps families start the money conversation through a story instead of a lecture — and it teaches kids how to spend well, which they'll do far more often than saving. Think it'd help your families? Happy to send a copy.",
         ],
         "ask": "Would something like this help the families you work with start the conversation? Glad to send a copy your way.",
         "role_default": "family advocate",
@@ -243,11 +248,11 @@ GROUPS = {
             "One kid-lit person to another{org_clause}.",
         ],
         "email_bodies": [
-            "Hi {first},\n\n{opener}\n\nI wrote {BOOK}, a picture book that teaches kids real money skills through a story. A kid earns a robot, then learns to shop for it. {fact}\n\nAny read you have on positioning it, or getting it in front of the right people, would mean a lot. Happy to trade copies.\n\n{sig}",
-            "Hi {first},\n\n{opener}\n\n{BOOK} is my picture book that sneaks a money education into a story about a kid and a robot. I'm at the positioning-and-distribution stage and would value the read of someone who's been there.\n\n{ask}\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nI wrote {BOOK}, a picture book that teaches kids real money skills through a story — and it claims ground the genre mostly leaves empty: how to spend. Every other money book preaches how to save. A kid earns a robot, then learns to shop for it. {fact}\n\nAny read you have on positioning it, or getting it in front of the right people, would mean a lot. Happy to trade copies.\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\n{BOOK} is my picture book that sneaks a money education into a story about a kid and a robot — the spending half, which the kids' shelf barely touches. I'm at the positioning-and-distribution stage and would value the read of someone who's been there.\n\n{ask}\n\n{sig}",
         ],
         "linkedin": [
-            "Hi {first}, one kid-lit author to another. I wrote {BOOK}, a picture book that sneaks a money education into a story about a kid and a robot. Would value any read you have on positioning or distribution. Happy to trade copies?",
+            "Hi {first}, one kid-lit author to another. I wrote {BOOK}, a picture book that sneaks a money education into a story about a kid and a robot — smart spending, which the kids' shelf barely touches. Would value any read you have on positioning or distribution. Happy to trade copies?",
             "Hi {first}, {opener_li} I just wrote {BOOK}, a financial-literacy picture book. Any wisdom on getting it in front of the right people? Happy to trade copies.",
         ],
         "ask": "Any read on positioning or distribution would mean a lot. Happy to trade copies.",
@@ -259,6 +264,7 @@ GROUPS = {
             "A family-facing money book: where might it fit?",
             "Supporting public financial-education goals",
             "Youth/family financial education: quick question",
+            "Consumer education for the youngest consumers",
         ],
         "openers": [
             "Your work{org_clause} is exactly where I'm trying to learn.",
@@ -270,12 +276,12 @@ GROUPS = {
             "Given your role{org_clause}, you'll know whether there's a fit.",
         ],
         "email_bodies": [
-            "Hi {first},\n\n{opener}\n\nI wrote a children's book on family money skills, {BOOK}. A kid earns a robot, then learns budgeting, comparison shopping, and markdowns by shopping for it. {fact}\n\nI'm trying to understand where a family-facing book like this might support public financial-education work: a school, library, family, or consumer-education pathway. {ask}\n\n{sig}",
-            "Hi {first},\n\n{opener}\n\n{BOOK} is a picture book that teaches kids real money skills through a story. I'm trying to learn where a family-facing book fits in public financial-education or consumer-education work, and who decides that.\n\n{ask}\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nI wrote a children's book that is, at heart, consumer education for the youngest consumers. {BOOK}: a kid earns a robot, then learns to read sale ads, compare prices, spot markdowns, and use a coupon. Smart spending, taught inside the story. {fact}\n\nI'm trying to understand where a family-facing book like this might support public financial-education work: a school, library, family, or consumer-education pathway. {ask}\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\n{BOOK} is a picture book that teaches kids smart spending through a story — comparison shopping, sale ads, markdowns, consumer awareness. I'm trying to learn where a family-facing book like this fits in public financial-education or consumer-education work, and who decides that.\n\n{ask}\n\n{sig}",
         ],
         "linkedin": [
-            "Hi {first}, {opener_li} I wrote {BOOK}, a kids' book on family money skills. Trying to learn where a family-facing book like this might fit in public financial-education or consumer-education work. Could I send you a copy and get your read?",
-            "Hi {first}, quick question. {BOOK} teaches kids money skills through a story. Is there a school, library, or consumer-education pathway where something like this fits on your side? Happy to send a copy.",
+            "Hi {first}, {opener_li} I wrote {BOOK}, a kids' book that's consumer education in disguise — smart spending, taught through story. Trying to learn where a family-facing book like this might fit in public financial-education or consumer-education work. Could I send you a copy and get your read?",
+            "Hi {first}, quick question. {BOOK} teaches kids smart spending through a story. Is there a school, library, or consumer-education pathway where something like this fits on your side? Happy to send a copy.",
         ],
         "ask": "If there's a fit, or a better person to ask, I'd be grateful for your perspective. Glad to send a copy.",
         "role_default": "program analyst",
@@ -285,6 +291,7 @@ GROUPS = {
         "subjects": [
             "A kids' money book: your read?",
             "Financial education, in picture-book form",
+            "A kids' money book about spending, not saving",
         ],
         "openers": [
             "Your work{org_clause} is why your name is on a very short list.",
@@ -295,10 +302,10 @@ GROUPS = {
             "Given your work{org_clause}, I wanted to ask directly.",
         ],
         "email_bodies": [
-            "Hi {first},\n\n{opener}\n\nI wrote {BOOK}, a children's book that teaches real money skills through a story. A kid earns a robot, then has to shop for it. {fact}\n\nGiven your work in financial education, I'd value your honest read on whether it'd be useful for the families or learners you reach. Glad to send a copy.\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nI wrote {BOOK}, a children's book that teaches kids how to spend money well — compare, read the ads, catch the markdown — through a story about a kid and a robot. Saving gets all the airtime; spending is where kids need the coaching. {fact}\n\nGiven your work in financial education, I'd value your honest read on whether it'd be useful for the families or learners you reach. Glad to send a copy.\n\n{sig}",
         ],
         "linkedin": [
-            "Hi {first}, {opener_li} I wrote {BOOK}, a kids' book that teaches money skills through a story about a kid and a robot. Given your work in financial education, I'd value your read. Could I send you a copy?",
+            "Hi {first}, {opener_li} I wrote {BOOK}, a kids' book that teaches smart spending through a story about a kid and a robot — the money lesson kids rarely get. Given your work in financial education, I'd value your read. Could I send you a copy?",
         ],
         "ask": "I'd value your honest read on whether it'd be useful for the families or learners you reach. Glad to send a copy.",
         "role_default": "financial educator",
@@ -308,6 +315,7 @@ GROUPS = {
         "subjects": [
             "A family money book for community programs",
             "Could this be useful for a program or giveaway?",
+            "Smart spending for families, in storybook form",
         ],
         "openers": [
             "Your work{org_clause} is the kind of program I had in mind.",
@@ -318,10 +326,10 @@ GROUPS = {
             "Given your work{org_clause}, I wanted to ask.",
         ],
         "email_bodies": [
-            "Hi {first},\n\n{opener}\n\nI wrote {BOOK}, a children's book that teaches money skills through a story about a kid and a robot. I'm wondering whether a small, easy family-money book could be useful for a community program, giveaway, or workshop.\n\n{ask}\n\n{sig}",
+            "Hi {first},\n\n{opener}\n\nI wrote {BOOK}, a children's book that teaches money skills through a story about a kid and a robot — specifically the spending skills families use every week: comparing prices, reading sale ads, making a dollar go further at the register. I'm wondering whether a small, easy family-money book could be useful for a community program, giveaway, or workshop.\n\n{ask}\n\n{sig}",
         ],
         "linkedin": [
-            "Hi {first}, {opener_li} I wrote {BOOK}, a kids' book that teaches money skills through a story. Could a small family-money book be useful for a community program or giveaway? Happy to send a copy.",
+            "Hi {first}, {opener_li} I wrote {BOOK}, a kids' book that teaches smart spending through a story — comparisons, coupons, markdowns. Could a small family-money book be useful for a community program or giveaway? Happy to send a copy.",
         ],
         "ask": "If there's a fit on your side, I'd be glad to send a copy.",
         "role_default": "program lead",
