@@ -203,7 +203,7 @@ soccer game, don't put it on the page.
 
 ### Copy invariants
 - **"Wants vs. Needs"** must ALWAYS be **bold and italic** — core FLAC concept
-- Standards: **Jump$tart, Common Core Math, Common Core ELA, CEE** (4 frameworks)
+- Standards: **Jump$tart, Common Core Math, Common Core ELA, CEE, FDIC Money Smart** (5 frameworks — FDIC added July 2026; stats row, hero trust bar, and schema all say 5)
 - Page count: **36 pages**
 - Concepts taught: **16+**
 - Ages: **6–10**, Grades **1–5**
