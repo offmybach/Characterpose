@@ -124,6 +124,11 @@ redirects to www and all existing canonicals become correct. (One-line change, r
 GitHub Pages settings.) Alternative: rewrite all canonicals/OG/sitemap to apex. Either works; the
 mismatch does not.
 
+> **Resolved 2026-07-10** — took the in-repo route (rewrote all 100 canonical/`og:url`/sitemap/
+> llms.txt/robots references from `www.` to the apex to match the existing CNAME) rather than
+> changing `CNAME` to `www.`, which would depend on unverifiable `www` DNS and could take the live
+> site down on a wrong guess. Same result, zero DNS risk.
+
 **P1 — schema depth.**
 - Add `AggregateRating` to the Book schema (you have three `Review`s; engines surface star ratings
   in results when an aggregate exists).
@@ -132,9 +137,12 @@ mismatch does not.
 - Add `Organization` / `publisher` sameAs links pointing to every social profile and Amazon.
 
 **P2 — indexation coverage.**
-- Sitemap lists 18 URLs but omits several indexable standalone pages (`the-money-talk.html`,
-  `smart-shopper-challenge.html`, `sea-mart-secret-mission.html`, `zero-prep-lesson-plans.html`).
-  Add them.
+- Sitemap omits the print/utility resource pages that are publicly linked from
+  `educator-toolkit.html` but never listed — `lesson-plans-print.html`, `discussion-guide-print.html`
+  (holds the verbatim 21-term glossary), `standards-chart-print.html`, `family-activity-print.html`,
+  `assessment-worksheet-print.html`, `educator-preview-print.html`, `wyze-shopper-certificate.html`.
+  These target the exact teacher/librarian queries ("free lesson plans," "discussion guide,"
+  "standards alignment") where the book has real depth. Add them. (Done 2026-07-10.)
 - Confirm the OG image (`images/clarence-og-card.jpg`) actually exists and is 1200x630. A broken
   OG card kills social/AI link previews.
 
