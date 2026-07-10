@@ -23,6 +23,181 @@ clips. Ten real emails beat a hundred templated ones.
 
 ---
 
+## READY TO SEND — personalized (verified name + a real book from their list)
+
+Contact filled in. Names and list titles verified July 2026. Paste, glance, send.
+
+### → Amanda Grossman · MoneyProdigy
+
+**Subject:** Your list teaches saving. Can I add the one that teaches spending?
+
+Hi Amanda,
+
+Your roundup — "29 Money Books for Kids (by Age)" — is one parents actually forward to
+each other. Putting *Those Shoes* on it is the reason I trust the list; most people skip
+the book that's really about wanting the pricey thing everybody else has.
+
+Quick pitch, no fluff. Every book on your list teaches earning or saving. Lemonade stands.
+Piggy banks. Three jars. All of it essential. But a kid spends money years before they
+earn a paycheck or open a savings account — usually on a Saturday, at a register, with a
+parent standing right there sweating the total.
+
+Nobody put THAT in a story. So I did.
+
+*Clarence Gets a Bargain* (ages 6–10) follows one robot-obsessed kid through a single
+purchase, start to finish: reading the sale ads at the kitchen table, comparing models in
+the aisle, finding a marked-down one, handing a coupon to the cashier, and — the part
+every other book skips — watching sales tax land on the total at the end. Real math. Exact
+dollars. One very determined kid.
+
+It's a 36-page hardcover, aligned to five standards frameworks (Jump$tart, Common Core
+Math & ELA, CEE, FDIC Money Smart), with a free educator toolkit — lesson plans,
+discussion guide, the works. A 30-year K–5 teacher and the 2026 EIFLE Educator of the Year
+both put their names on it.
+
+If it's a fit for the list, I'd be honored to be on it. Either way, I'll mail you a copy
+this week — hardback, to your door, no strings. If it's not for you, no hard feelings; I'll
+still be sending people to your list.
+
+Thanks for reading this far. You've earned a coupon's worth of my gratitude either way.
+
+Jonathan Bach
+Author & illustrator, *Clarence Gets a Bargain*
+clarencegetsabargain.com · jb@clarencegetsabargain.com · 410-456-7771
+
+*P.S. There's a sign in the store aisle that stops Clarence dead in his tracks. I'm not
+allowed to spoil why. Your kids will crack it before you do.*
+
+---
+
+### → Angie Olson · Lucky Little Learners
+
+**Subject:** Your list teaches saving. Can I add the one that teaches spending?
+
+Hi Angie,
+
+Your list — "Children's Books that Teach Money" — is one I send teachers to, and having
+*A Chair for My Mother* on it is the reason I do. That book taught a generation what saving
+up actually feels like.
+
+Quick pitch, teacher to teacher. Every title on your list teaches earning or saving. All
+essential. But a kid spends money years before they earn a paycheck or open a savings
+account — usually on a Saturday, at a register, with a parent right there sweating the total.
+
+Nobody put THAT in a story. So I did.
+
+*Clarence Gets a Bargain* (grades 1–5) walks one robot-obsessed kid through a single
+purchase, start to finish: sale ads at the kitchen table, comparison shopping in the aisle,
+a clearance markdown, a coupon at the register, and — the part every other book skips —
+sales tax on the total at the end. Real math. Exact dollars. One very determined kid.
+
+It's a 36-page hardcover built around ***Wants vs. Needs*** and aligned to five standards
+frameworks (Jump$tart, Common Core Math & ELA, CEE, FDIC Money Smart). The free toolkit has
+zero-prep lesson plans, a discussion guide with a 21-term glossary, and pre/post
+assessments — clarencegetsabargain.com/educator-toolkit.html. Endorsed by a 30-year K–5
+veteran and the 2026 EIFLE Educator of the Year.
+
+If it fits the list, I'd be honored. Either way, I'll get a hardback to your door this week,
+no strings. If it's not for you, no hard feelings — I'll still be sending teachers your way.
+
+Thanks for building a list the rest of us lean on.
+
+Jonathan Bach
+Author & illustrator, *Clarence Gets a Bargain*
+clarencegetsabargain.com · jb@clarencegetsabargain.com · 410-456-7771
+
+*P.S. It reads aloud in one class period and fuels a month of arguments about whether newer
+is actually better. Ask me how I know.*
+
+---
+
+### → Donna · That's So Montessori
+
+**Subject:** Your list teaches saving. Can I add the one that teaches spending?
+
+Hi Donna,
+
+Your roundup — "Teach Kids About Money: 35 Financial Literacy Books They'll Love" — is a
+genuinely good one, and *Alexander, Who Used to Be Rich Last Sunday* earning a spot is the
+reason I trust it. You kept the book that's really about watching a dollar evaporate one
+bad little purchase at a time.
+
+Quick pitch, no fluff. Every book on your list teaches earning or saving. All essential.
+But a kid spends money years before they earn a paycheck or open a savings account —
+usually on a Saturday, at a register, with a parent right there sweating the total.
+
+Nobody put THAT in a story. So I did.
+
+*Clarence Gets a Bargain* (ages 6–10) follows one robot-obsessed kid through a single
+purchase, start to finish: reading the sale ads at the kitchen table, comparing models in
+the aisle, finding a marked-down one, handing a coupon to the cashier, and — the part
+every other book skips — watching sales tax land on the total at the end. Real math. Exact
+dollars. One very determined kid.
+
+It's a 36-page hardcover, aligned to five standards frameworks (Jump$tart, Common Core
+Math & ELA, CEE, FDIC Money Smart), with a free educator toolkit — lesson plans,
+discussion guide, the works. A 30-year K–5 teacher and the 2026 EIFLE Educator of the Year
+both put their names on it.
+
+If it's a fit, I'd be honored to be on the list. Either way, I'll mail you a copy this week
+— hardback, to your door, no strings. If it's not for you, no hard feelings; I'll still be
+recommending your list.
+
+Thanks for reading this far. You've earned a coupon's worth of my gratitude either way.
+
+Jonathan Bach
+Author & illustrator, *Clarence Gets a Bargain*
+clarencegetsabargain.com · jb@clarencegetsabargain.com · 410-456-7771
+
+*P.S. There's a sign in the store aisle that stops Clarence dead in his tracks. I'm not
+allowed to spoil why. Your kids will crack it before you do.*
+
+---
+
+### → Jillian Starr · jillianstarrteaching.com
+
+**Subject:** A grades 1–5 money book that teaches the part kids do first
+
+Hi Jillian,
+
+Your list — "8 Valuable Children's Books to Teach Money" — is the one I point teachers to
+when they're starting with coins and counting. *The Penny Pot* still does that job better
+than anything.
+
+Here's my pitch, teacher to teacher. Your list gets kids counting money. Mine picks up
+where the counting ends — at the register, where they actually spend it. Because a first
+grader hands money to a cashier years before they earn it, and that's the money moment they
+really live.
+
+*Clarence Gets a Bargain* (grades 1–5) walks one robot-obsessed kid through a single
+purchase: sale ads, comparison shopping, a clearance markdown, a coupon at checkout, and
+sales tax on the total at the end. It's built around ***Wants vs. Needs*** and aligned to
+Jump$tart, Common Core Math & ELA, CEE, and FDIC Money Smart. The free toolkit has
+zero-prep lesson plans, a discussion guide with a 21-term glossary, and pre/post
+assessments — clarencegetsabargain.com/educator-toolkit.html. Endorsed by a 30-year K–5
+veteran and the 2026 EIFLE Educator of the Year.
+
+Want a copy for the classroom? I'll get a hardback to your desk this week. No cost, no catch.
+
+Thanks for building the list the rest of us lean on.
+
+Jonathan Bach
+Author & illustrator, *Clarence Gets a Bargain*
+clarencegetsabargain.com · jb@clarencegetsabargain.com · 410-456-7771
+
+*P.S. The math is real and the dollars are exact — the clearance robot lands at a price your
+second graders can check on their fingers. Well, most of it.*
+
+---
+
+## The templates (for the outlets below — verify the contact name first)
+
+Names I could NOT confirm to a single person, so I left the salutation to you rather than
+guess wrong: **MomMoneyMap**, **Brightly** (editorial team), **US News** (staff byline),
+**My First Nest Egg**, **Programming Librarian / ALA-FINRA** (editorial). Check the post
+byline or the About page, or open with "Hi there." A wrong first name undoes the whole
+respect play — better a plain "Hi there" than a confident mistake.
+
 ## Email 1 — the money bloggers (MoneyProdigy, MomMoneyMap, Brightly, etc.)
 
 **Subject line (pick one):**
@@ -64,7 +239,7 @@ Thanks for reading this far. You've earned a coupon's worth of my gratitude eith
 
 Jonathan Bach
 Author & illustrator, *Clarence Gets a Bargain*
-clarencegetsabargain.com · [email] · [phone]
+clarencegetsabargain.com · jb@clarencegetsabargain.com · 410-456-7771
 
 *P.S. There's a sign in the store aisle that stops Clarence dead in his tracks. I'm not
 allowed to spoil why. Your kids will crack it before you do.*
@@ -104,7 +279,7 @@ Thanks for building the list the rest of us lean on.
 
 Jonathan Bach
 Author & illustrator, *Clarence Gets a Bargain*
-clarencegetsabargain.com · [email] · [phone]
+clarencegetsabargain.com · jb@clarencegetsabargain.com · 410-456-7771
 
 *P.S. It reads aloud in one class period and fuels a month of arguments about whether
 newer is actually better. Ask me how I know.*
