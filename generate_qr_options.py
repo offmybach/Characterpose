@@ -25,11 +25,12 @@ from qrcode.constants import ERROR_CORRECT_H
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent
-# Center art: Clarence's hand (cropped from forsite/clarence_point.png)
-# handing over a fan of cartoon bills — a kid spending money smartly is the
-# pitch. Earlier drafts: piggy bank (reads as savings), RoBimmie, full-figure
-# Clarence; robimmie-cutout.png and clarence-bills.png are still around.
-CENTER_SRC = ROOT / "images" / "hand-bills.png"
+# Center art: a hand presenting a fan of US dollar bills, generated in
+# Nano Banana Pro from the page-11 pose and keyed off its checkerboard
+# (source: holdcash.png at repo root). A kid spending money smartly is
+# the pitch — not the savings-brand piggy bank. Spares in repo:
+# hand-bills.png (pointing pose), robimmie-cutout.png.
+CENTER_SRC = ROOT / "images" / "holdcash-cut.png"
 OUT_DIR = ROOT / "images" / "qr-options"
 URL = "https://www.clarencegetsabargain.com"
 
