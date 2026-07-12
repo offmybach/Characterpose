@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clarence Gets a Bargain — The All-Out Blitz (July–September 2026)</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0a;color:#e8e8e8;line-height:1.7}
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+
+/* HEADER */
+header{background:linear-gradient(135deg,#0054a6 0%,#003d7a 40%,#ff6b2b 100%);padding:80px 0 60px;text-align:center;position:relative;overflow:hidden}
+header::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:repeating-linear-gradient(45deg,transparent,transparent 35px,rgba(255,255,255,.03) 35px,rgba(255,255,255,.03) 70px);animation:drift 20s linear infinite}
+@keyframes drift{from{transform:translateX(0)}to{transform:translateX(70px)}}
+header h1{font-size:3.2rem;font-weight:900;color:#fff;text-shadow:0 2px 20px rgba(0,0,0,.3);position:relative;z-index:1}
+header h1 span{color:#ffe066}
+header p.sub{font-size:1.15rem;color:rgba(255,255,255,.9);margin-top:12px;position:relative;z-index:1;font-weight:500}
+header .badge{display:inline-block;background:#ffe066;color:#0054a6;font-weight:800;padding:8px 20px;border-radius:50px;margin-top:20px;font-size:.85rem;letter-spacing:1px;text-transform:uppercase;position:relative;z-index:1}
+
+/* NAV */
+nav{background:#111;border-bottom:2px solid #ff6b2b;padding:14px 0;position:sticky;top:0;z-index:100}
+nav .container{display:flex;gap:24px;justify-content:center;flex-wrap:wrap}
+nav a{color:#ccc;text-decoration:none;font-weight:600;font-size:.85rem;text-transform:uppercase;letter-spacing:1.5px;transition:color .2s}
+nav a:hover{color:#ff6b2b}
+
+/* SECTIONS */
+section{padding:60px 0}
+section.dark{background:#0f0f0f}
+section.blue{background:#0a1628}
+h2{font-size:2rem;font-weight:800;margin-bottom:8px}
+h2 .orange{color:#ff6b2b}
+h2 .blue{color:#4da6ff}
+h3{font-size:1.3rem;font-weight:700;margin-bottom:6px;color:#ffe066}
+h4{font-size:1rem;font-weight:700;color:#ff6b2b;margin-bottom:4px;text-transform:uppercase;letter-spacing:1px}
+.section-intro{color:#aaa;font-size:1rem;margin-bottom:40px;max-width:750px}
+.divider{width:60px;height:4px;background:linear-gradient(90deg,#ff6b2b,#ffe066);border-radius:2px;margin:12px 0 30px}
+
+/* STRATEGY BOX */
+.strategy-box{background:#161616;border:1px solid #222;border-radius:16px;padding:32px;margin-bottom:30px}
+.strategy-box h3{color:#4da6ff;margin-bottom:10px}
+.strategy-box ul{padding-left:20px;color:#ccc}
+.strategy-box li{margin-bottom:6px}
+.strategy-box li strong{color:#ffe066}
+
+/* RECON CARD */
+.recon-card{background:#161616;border:1px solid #222;border-radius:16px;padding:28px 32px;margin-bottom:22px}
+.recon-card h3{color:#4da6ff}
+.recon-card .what-they-do{color:#ccc;font-size:.95rem;margin:10px 0}
+.steal{background:#1a1305;border-left:4px solid #ffe066;padding:14px 18px;border-radius:0 8px 8px 0;margin-top:12px;font-size:.92rem;color:#eee}
+.steal strong{color:#ffe066;text-transform:uppercase;font-size:.75rem;letter-spacing:2px;display:block;margin-bottom:4px}
+
+/* POST CARD */
+.post-card{background:#161616;border:1px solid #222;border-radius:16px;overflow:hidden;margin-bottom:28px;transition:border-color .3s}
+.post-card:hover{border-color:#ff6b2b}
+.post-card-header{display:flex;align-items:center;gap:12px;padding:20px 24px 0;flex-wrap:wrap}
+.platform-tag{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:2px;padding:4px 12px;border-radius:50px;display:inline-block}
+.platform-tag.fb{background:#1877f2;color:#fff}
+.platform-tag.ig{background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);color:#fff}
+.platform-tag.li{background:#0077b5;color:#fff}
+.platform-tag.email{background:#2e7d32;color:#fff}
+.platform-tag.both{background:linear-gradient(135deg,#1877f2,#bc1888);color:#fff}
+.post-type{font-size:.7rem;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:1.5px}
+.day-label{font-size:.75rem;font-weight:700;color:#ff6b2b;margin-left:auto;text-transform:uppercase;letter-spacing:1px}
+.post-card-body{padding:20px 24px 24px}
+.post-copy{background:#1a1a1a;border-left:3px solid #ff6b2b;padding:16px 20px;border-radius:0 8px 8px 0;margin:12px 0;font-size:.92rem;color:#ddd;white-space:pre-line;line-height:1.8}
+.post-copy strong{color:#fff}
+.post-copy em{color:#ffe066;font-style:normal}
+.post-copy strong em, .post-copy em strong{font-style:italic}
+.visual-note{display:flex;align-items:flex-start;gap:10px;background:#111;border:1px dashed #333;padding:14px 16px;border-radius:8px;margin:12px 0;font-size:.82rem;color:#999}
+.visual-note .icon{font-size:1.2rem;flex-shrink:0}
+.hashtags{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.hashtags span{background:#1a1a2e;color:#4da6ff;font-size:.72rem;padding:3px 10px;border-radius:50px;font-weight:600}
+.engagement-tip{background:linear-gradient(135deg,#1a1a0a,#1a1a1a);border:1px solid #333;padding:12px 16px;border-radius:8px;margin-top:12px;font-size:.8rem;color:#ccc}
+.engagement-tip strong{color:#ffe066}
+.img-ref{display:inline-flex;align-items:center;gap:6px;background:#0d2137;border:1px solid #1a3a5c;padding:4px 12px;border-radius:6px;font-size:.75rem;color:#4da6ff;font-weight:600;margin:2px}
+
+/* WEEK HEADER */
+.week-header{background:linear-gradient(135deg,#0054a6,#003366);padding:28px 32px;border-radius:16px;margin:40px 0 24px;position:relative;overflow:hidden}
+.week-header h2{color:#fff;font-size:1.6rem;margin-bottom:4px}
+.week-header p{color:rgba(255,255,255,.7);font-size:.9rem}
+.week-header .week-num{background:#ff6b2b;color:#fff;font-size:.7rem;font-weight:800;padding:4px 14px;border-radius:50px;display:inline-block;margin-bottom:10px;letter-spacing:2px;text-transform:uppercase}
+.task-list{background:#0d1117;border:1px solid #1a3a5c;border-radius:12px;padding:20px 24px 20px 40px;margin-bottom:24px;color:#ccc;font-size:.92rem}
+.task-list li{margin-bottom:8px}
+.task-list li strong{color:#ffe066}
+.task-list li .asset{color:#4da6ff;font-weight:600}
+
+/* ARSENAL TABLE */
+.arsenal{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+.arsenal th{background:#0054a6;color:#fff;text-align:left;padding:10px 14px;font-size:.75rem;text-transform:uppercase;letter-spacing:1px}
+.arsenal td{border-bottom:1px solid #222;padding:12px 14px;color:#ccc;vertical-align:top}
+.arsenal td:first-child{color:#4da6ff;font-weight:600;white-space:nowrap}
+.arsenal-wrap{overflow-x:auto}
+
+/* STATS */
+.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:24px 0}
+.stat-card{background:#161616;border:1px solid #222;border-radius:12px;padding:20px;text-align:center}
+.stat-card .num{font-size:2rem;font-weight:900;color:#ff6b2b}
+.stat-card .label{font-size:.75rem;color:#888;text-transform:uppercase;letter-spacing:1px;margin-top:4px}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  header h1{font-size:2rem}
+  .stats-row{grid-template-columns:1fr 1fr}
+  body{overflow-x:hidden}
+  .img-ref{word-break:break-all;overflow-wrap:anywhere;max-width:100%;font-size:.7rem;padding:3px 8px}
+}
+</style>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header>
+  <div class="container">
+    <h1>Clarence Gets a Bargain<br><span>The All-Out Blitz</span></h1>
+    <p class="sub">July 13 &ndash; September 11, 2026 &bull; Two fronts, one book</p>
+    <div class="badge">Boardwalk-Proof Your Kid &bull; Back-to-School Ground Game</div>
+  </div>
+</header>
+
+<!-- ========== NAV ========== -->
+<nav>
+  <div class="container">
+    <a href="#strategy">Strategy</a>
+    <a href="#recon">Competitor Recon</a>
+    <a href="#arsenal">The Arsenal</a>
+    <a href="#vacation">Vacation Blitz</a>
+    <a href="#bts">Back-to-School</a>
+    <a href="#outreach">Outreach Templates</a>
+    <a href="#hashtags">Hashtags</a>
+  </div>
+</nav>
+
+<!-- ========== STRATEGY ========== -->
+<section id="strategy">
+  <div class="container">
+    <h2><span class="orange">The Two-Front</span> Blitz</h2>
+    <div class="divider"></div>
+    <p class="section-intro">Two campaigns, back to back, sharing one spine: kids who read this book stop being marks. Front one runs now, while every family in America is packing a minivan. Front two starts August 3, when teachers and librarians walk back into their buildings with a supply budget and a hole in their finlit shelf.</p>
+
+    <div class="stats-row">
+      <div class="stat-card"><div class="num">2</div><div class="label">Fronts</div></div>
+      <div class="stat-card"><div class="num">9</div><div class="label">Weeks</div></div>
+      <div class="stat-card"><div class="num">18</div><div class="label">Ready-to-Run Posts</div></div>
+      <div class="stat-card"><div class="num">5</div><div class="label">Outreach Templates</div></div>
+    </div>
+
+    <div class="strategy-box">
+      <h3>Front One &mdash; "Boardwalk-Proof Your Kid" (July 13 &ndash; August 16)</h3>
+      <ul>
+        <li><strong>The line:</strong> Read it before vacation. Prevent the boardwalk meltdown, the arcade hissy fit, the souvenir-shop standoff. Come home with a smart consumer instead of a hermit crab.</li>
+        <li><strong>Who it hits:</strong> Parents. They're booking beach houses right now and they already know exactly which kid is going to lose it at the ticket-redemption counter.</li>
+        <li><strong>Why it works:</strong> Every other money book sells "financial literacy." We're selling a peaceful Tuesday on the boardwalk. Parents don't search for curriculum in July; they search for survival.</li>
+        <li><strong>The math that sells it:</strong> The book is $19.99. One skipped airbrush t-shirt covers it, with change.</li>
+      </ul>
+    </div>
+
+    <div class="strategy-box">
+      <h3>Front Two &mdash; The Back-to-School Ground Game (August 3 &ndash; September 11)</h3>
+      <ul>
+        <li><strong>The line:</strong> Shopping Homework? Yes, Really. The one book where the homework is the fun part &mdash; and the teacher toolkit is already written.</li>
+        <li><strong>Who it hits:</strong> K&ndash;5 teachers, school librarians, PTAs, and the credit unions that sponsor classroom finlit programs.</li>
+        <li><strong>Why August:</strong> Teachers plan their year in the first two weeks of August. Librarians place fall orders in August. Miss the window and you're pitching people who already spent the budget.</li>
+        <li><strong>The closer:</strong> All six educator tools. All free. All finished. Nobody else in kid finlit hands over a zero-prep program and asks for nothing back.</li>
+      </ul>
+    </div>
+
+    <div class="strategy-box">
+      <h3>The bridge post</h3>
+      <ul>
+        <li>Labor Day is the hinge. The boardwalk closes; the classroom opens. One post (Sep 7, below) walks the audience from front one to front two: <strong>"The boardwalk closes today. The skill doesn't."</strong></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========== COMPETITOR RECON ========== -->
+<section id="recon" class="dark">
+  <div class="container">
+    <h2><span class="blue">Competitor</span> Recon</h2>
+    <div class="divider"></div>
+    <p class="section-intro">What the other kids' money books are running, and what we take from each. None of them have a story kids re-read; all of them have distribution tricks worth stealing.</p>
+
+    <div class="recon-card">
+      <h3>Sammy Rabbit (Sam Renick) &mdash; the school-visit machine</h3>
+      <p class="what-they-do">Renick has read, sung, and skit-ed his rabbit into schools across 30 states and 7 countries, reaching 250,000+ students. The trick isn't the rabbit; it's who pays. Credit unions and banks sponsor the visits and buy the books, because "we taught local kids to save" is exactly what their community-reinvestment reports need.</p>
+      <div class="steal"><strong>Steal this</strong>Pitch credit unions as sponsors, not customers. Our CRA memo in <em>grant-in-a-box</em> is already written for this. 25 copies = $499.75 puts a branch's name inside every folder that goes home. Template below.</div>
+    </div>
+
+    <div class="recon-card">
+      <h3>Danny Dollar Academy (Ty Allan Jackson) &mdash; the book that became a program</h3>
+      <p class="what-they-do">Jackson turned one book into "Danny Dollar Academy" &mdash; a named reading + finlit program that schools and state organizations adopt wholesale. A school can't put "we bought a book" in a grant report. It can put "we ran a program."</p>
+      <div class="steal"><strong>Steal this</strong>Stop saying "free downloads." Say <em>Program in a Box</em> everywhere, like it's a product with a name &mdash; because it is, and it's already on the site. Four 45-minute sessions, pre/post assessment, standards crosswalk. That's a program a principal can report on.</div>
+    </div>
+
+    <div class="recon-card">
+      <h3>Grandpa's Fortune Fables (Will Rainey) &mdash; the audience before the book</h3>
+      <p class="what-they-do">Rainey built Blue Tree Savings as a parent newsletter and got bylines in the Financial Times before most people knew the book existed. The book rides an email list that shows up every week whether or not there's anything to sell.</p>
+      <div class="steal"><strong>Steal this</strong>The email signup is already on the site; give it a job. A 5-email "Money Talk Monday" series for parents (one concept per week, one thing to try at the store). And pitch the press with the hook Rainey can't use: attorney-dad writes the money book his kid would actually finish. Press kit is live at <em>press-kit.html</em>.</div>
+    </div>
+
+    <div class="recon-card">
+      <h3>Greenlight &amp; the kid-fintech crowd &mdash; content that catches the search</h3>
+      <p class="what-they-do">Greenlight, GoHenry, and Benjamin Talks publish "family vacation budget" and "souvenir allowance" articles every summer and own the search results for every worried parent. Their advice: give kids a $20 souvenir budget and let them feel the limit. That's page 25 of our book, with a plot attached.</p>
+      <div class="steal"><strong>Steal this</strong>The vacation campaign below is our version, with a boardwalk instead of a blog. Their tip is our story. Also: <em>book-facts.html</em> and <em>llms.txt</em> already feed the AI assistants parents ask; add the vacation angle to both so "book to stop vacation meltdowns" finds Clarence.</div>
+    </div>
+
+    <div class="recon-card">
+      <h3>The indie kidlit August playbook &mdash; what every smart author does next month</h3>
+      <p class="what-they-do">The standard back-to-school moves across the category: classroom-set giveaways in August, ready-made activities teachers can print, introductions in educator Facebook groups, metadata cleanup on Amazon/Goodreads before the fall buying wave, and booking school visits in August for October.</p>
+      <div class="steal"><strong>Steal this</strong>All of it. Most authors improvise the "ready-made activity" part; ours is six print-PDFs deep. The week-by-week below runs the whole playbook with dates on it.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ARSENAL ========== -->
+<section id="arsenal" class="blue">
+  <div class="container">
+    <h2><span class="orange">The Arsenal</span> &mdash; Already Built, Just Aim It</h2>
+    <div class="divider"></div>
+    <p class="section-intro">Nothing below needs to be created. Every weapon in this blitz already exists on the site. The blitz is a targeting exercise.</p>
+    <div class="arsenal-wrap">
+    <table class="arsenal">
+      <tr><th>Asset</th><th>Blitz job</th></tr>
+      <tr><td>educator-toolkit.html + 6 print-PDFs</td><td>The giveaway payload and the teacher pitch. "All six tools. All free." Lead every educator touch with it.</td></tr>
+      <tr><td>receipt-builder.html</td><td>The vacation-blitz interactive. "Practice the register before the boardwalk gets your money." Link it from every summer post.</td></tr>
+      <tr><td>quiz.html</td><td>Post-read challenge for kids on the car ride home. Also the librarian demo: two minutes, on their own screen.</td></tr>
+      <tr><td>resources/wyze-shopper-certificate.html</td><td>Vacation graduation. Kid survives the souvenir shop under budget &rarr; print the certificate. Instantly shareable parent moment.</td></tr>
+      <tr><td>resources/grant-in-a-box.html</td><td>DonorsChoose ask for teachers, CRA memo for credit unions. Exact math: 25 copies = $499.75.</td></tr>
+      <tr><td>resources/procurement.html</td><td>The link that turns a librarian "maybe" into a PO. Sole-source letter, Net 30, done.</td></tr>
+      <tr><td>press-kit.html</td><td>Media pitches, podcast one-sheets, bios in three lengths. Q5 protects the Aisle Five spoiler; keep it that way.</td></tr>
+      <tr><td>state-of-the-states.html</td><td>Local press hook in all 30 guarantee states: "Your state now requires finlit. Here's a book that does it by stealth."</td></tr>
+      <tr><td>quiz + certificate + receipt-builder together</td><td>The "Smart Shopper Summer Challenge" bundle named in the vacation posts. Read &rarr; play &rarr; certify.</td></tr>
+    </table>
+    </div>
+  </div>
+</section>
+
+<!-- ========== VACATION BLITZ ========== -->
+<section id="vacation">
+  <div class="container">
+    <h2>&#127958;&#65039; <span class="orange">Front One:</span> Boardwalk-Proof Your Kid</h2>
+    <div class="divider"></div>
+    <p class="section-intro">July 13 &ndash; August 16. Parents, meet the only vacation prep that fits in a beach bag. Post 3&ndash;4&times; a week, rotate FB and IG, and let the comment sections do the selling &mdash; every parent has an arcade horror story and they are dying to tell it.</p>
+
+    <div class="week-header">
+      <div class="week-num">Wave 1 &bull; Jul 13&ndash;26</div>
+      <h2>THE PROBLEM &mdash; "You Know the Meltdown Is Coming"</h2>
+      <p>Name the pain. The boardwalk, the arcade, the souvenir shop. Every post is a scene the parent has already lived.</p>
+    </div>
+
+    <!-- V1 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Image Post &mdash; Launch</span>
+        <span class="day-label">Jul 14 &bull; Tue</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Boardwalk Doesn't Stand a Chance</h3>
+        <div class="post-copy">Family vacation countdown: two weeks.
+
+Somewhere between the beach and the arcade, your kid is going to ask for a $28 airbrushed t-shirt with someone else's name on it.
+
+You have two options. Argue about it in front of the fudge shop. Or hand them <strong>Clarence Gets a Bargain</strong> on the drive down and let them talk themselves out of it.
+
+36 pages. One kid, one robot, one shopping mission. By the last page your kid knows what a markdown is, what a coupon does, and why the newest one isn't always the best one.
+
+Read it before vacation. Watch them side-eye the claw machine.
+
+&#128218; $19.99 &bull; Ages 6&ndash;10 &bull; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">frontcover.png</span> on a beach towel, flip-flops in frame. Overlay: "The only vacation prep that fits in a beach bag."</div>
+        <div class="hashtags">
+          <span>#FamilyVacation</span><span>#RoadTripWithKids</span><span>#KidsAndMoney</span><span>#ClarenceGetsABargain</span><span>#SummerWithKids</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- V2 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Reel</span>
+        <span class="day-label">Jul 16 &bull; Thu</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Arcade Math</h3>
+        <div class="post-copy">ON SCREEN, beat by beat:
+
+"$20 in tokens."
+"45 minutes of skee-ball."
+"1,200 tickets."
+"One (1) plastic slinky."
+
+Beat. Then:
+
+"Your kid should see that trade coming."
+
+CAPTION: The arcade is a masterclass in bad deals, and every summer it graduates millions of kids. Clarence Gets a Bargain is the prequel your kid needs &mdash; comparison shopping, real value, <strong><em>wants vs. needs</em></strong> &mdash; all inside a story they'll actually finish. Read it before the boardwalk reads them. Link in bio.</div>
+        <div class="visual-note"><span class="icon">&#127916;</span> Fast cuts: token machine, skee-ball, ticket counter spitting tickets, sad slinky on a prize wall. Freeze on the slinky. Book cover end-card.</div>
+        <div class="engagement-tip"><strong>Engagement hook:</strong> "What's the worst arcade-ticket trade your kid ever made? We'll start: 900 tickets, one eraser shaped like a taco."</div>
+      </div>
+    </div>
+
+    <!-- V3 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Poll Post</span>
+        <span class="day-label">Jul 18 &bull; Sat</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Souvenir Shop Final Exam</h3>
+        <div class="post-copy">The souvenir shop is the final exam of every family vacation. &#128012;
+
+Your kid walks in with $20 and walks out with:
+
+&#x1f1e6; A hermit crab that will not survive the ride home
+&#x1f1e7; A shark-tooth necklace, made of plastic, "from the ocean"
+&#x1f1e8; A shot glass. Your kid is eight.
+&#x1f1e9; Change. Because they compared prices, checked the markdown shelf, and decided most of it was a want, not a need.
+
+D is a real thing that happens to kids who've read <strong>Clarence Gets a Bargain</strong>. The other three are how the shop pays its rent.
+
+&#128218; $19.99 &bull; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> Shelf of classic souvenir-shop junk, price tags visible. Overlay: "The final exam."</div>
+        <div class="engagement-tip"><strong>Engagement hook:</strong> Parents will confess their kid's worst souvenir in the comments. Pin the best one. Reply to all of them.</div>
+      </div>
+    </div>
+
+    <!-- V4 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag both">FB + IG</span>
+        <span class="post-type">Image Post</span>
+        <span class="day-label">Jul 21 &bull; Tue</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Give the Budget, Skip the Battle</h3>
+        <div class="post-copy">Every money expert gives parents the same summer tip: hand your kid a $20 souvenir budget and let them feel the limit.
+
+Good tip. Half a tip.
+
+A budget without the skills is just a countdown to zero. The kid still buys the first shiny thing at the first shop, then spends four days asking for a loan.
+
+<strong>Clarence Gets a Bargain</strong> is the other half: comparison shopping, markdowns, coupons, and the difference between <strong><em>wants vs. needs</em></strong> &mdash; taught by a story, not a lecture. Book first, budget second. Then stand back and watch a 7-year-old comparison-shop the entire boardwalk before spending a dime.
+
+Read before vacation. Thank us from the beach.
+
+&#128218; $19.99 &bull; Ages 6&ndash;10 &bull; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">clarence-armsfoldedcrop.png</span> &mdash; confident Clarence. Overlay: "Book first. Budget second."</div>
+      </div>
+    </div>
+
+    <!-- V5 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Engagement Post</span>
+        <span class="day-label">Jul 24 &bull; Fri</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Confession Booth</h3>
+        <div class="post-copy">No pitch today. Just a question.
+
+What is the single worst thing your kid ever talked you into buying on vacation?
+
+We'll go first: a $15 "growing dinosaur" that was supposed to triple in size in water. It grew 4%. It smelled like a pool filter. It came home in a cup holder and lives in a junk drawer to this day.
+
+Your turn. Worst one gets pinned. &#128071;</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> No image, or a single sad photo of vacation junk on a shelf. Raw beats polished here.</div>
+        <div class="engagement-tip"><strong>Why this works:</strong> Zero-pitch posts earn the pitch posts. Reply to every comment; drop the book link only when someone asks "so how do I fix this?" Someone will.</div>
+      </div>
+    </div>
+
+    <div class="week-header">
+      <div class="week-num">Wave 2 &bull; Jul 27&ndash;Aug 16</div>
+      <h2>THE FIX &mdash; "Read It on the Drive Down"</h2>
+      <p>Turn the pain into a plan: book on the drive down, receipt-builder at the rest stop, certificate on the way home.</p>
+    </div>
+
+    <!-- V6 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Carousel</span>
+        <span class="day-label">Jul 28 &bull; Tue</span>
+      </div>
+      <div class="post-card-body">
+        <h3>5 Boardwalk Rip-Offs Your Kid Should See Coming</h3>
+        <div class="post-copy">SLIDE 1: "5 boardwalk rip-offs your kid should see coming &#128064;"
+SLIDE 2: "The claw machine. It's not a game of skill. It's a slot machine wearing a carnival hat."
+SLIDE 3: "Ticket redemption. 1,200 tickets for a slinky is an exchange rate that would embarrass a currency trader."
+SLIDE 4: "The 'souvenir' markup. That shell was $2 at the shop by the highway. It's $9 with an ocean view."
+SLIDE 5: "Snack-stand pricing. Same lemonade, three stands, three prices. Nobody checks. Your kid could."
+SLIDE 6: "The airbrush tee. $28, and it says BRAYDEN. Your kid's name is not Brayden."
+SLIDE 7: Book cover. "Clarence Gets a Bargain. Read it before vacation, and your kid sees all five coming. $19.99. Link in bio."
+
+CAPTION: The boardwalk is a pop quiz your kid hasn't studied for. 36 pages fixes that.</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> Bold flat-color slides, coupon-dash borders, one rip-off per slide. Keep the jokes tight; the slides ARE the ad.</div>
+        <div class="hashtags">
+          <span>#BoardwalkLife</span><span>#FamilyTravel</span><span>#SmartConsumer</span><span>#TeachKidsMoney</span><span>#ClarenceGetsABargain</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- V7 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag both">FB + IG</span>
+        <span class="post-type">Image Post</span>
+        <span class="day-label">Jul 31 &bull; Fri</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Beach Read Standings</h3>
+        <div class="post-copy">Your beach read: 400 pages. You'll finish 60 of them.
+
+Their beach read: 36 pages. They'll finish it twice, then spend the rest of the trip auditing your spending.
+
+"Dad, is that lemonade a want or a need?"
+
+We're not saying the book creates a tiny in-house accountant. We're saying pack it and find out.
+
+&#128218; <strong>Clarence Gets a Bargain</strong> &bull; $19.99 &bull; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> Side-by-side: thick paperback with sunglasses vs. CGB with tiny sunglasses. Overlay: "The standings."</div>
+      </div>
+    </div>
+
+    <!-- V8 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag both">FB + IG</span>
+        <span class="post-type">Link Post &mdash; Interactive</span>
+        <span class="day-label">Aug 4 &bull; Tue</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Smart Shopper Summer Challenge</h3>
+        <div class="post-copy">Rest-stop challenge for the back seat: &#129302;
+
+STEP 1 &mdash; Read <strong>Clarence Gets a Bargain</strong> on the drive down. (36 pages. They'll beat you to the state line.)
+STEP 2 &mdash; Play the Sea-Mart register at clarencegetsabargain.com/receipt-builder.html &mdash; markdowns, coupons, sales tax, the works. It's the boardwalk with training wheels.
+STEP 3 &mdash; Hand over the souvenir budget and watch them work.
+STEP 4 &mdash; Kid comes home under budget? Print the official Wyze Shopper Certificate. Frame optional. Bragging mandatory.
+
+Free with the book. The meltdown you skip is on the house.</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> 4-panel graphic: book &rarr; register screen &rarr; kid with wallet &rarr; certificate. Coupon-dash borders on each panel.</div>
+        <div class="engagement-tip"><strong>Engagement hook:</strong> Ask parents to post the certificate photo and tag the page. Every one is a free ad from a trusted source: another parent.</div>
+      </div>
+    </div>
+
+    <!-- V9 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Reel</span>
+        <span class="day-label">Aug 8 &bull; Sat</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Hissy Fix (Before / After)</h3>
+        <div class="post-copy">ON SCREEN:
+
+BEFORE: kid horizontal on arcade carpet. Caption: "He wanted the $40 plush banana."
+
+AFTER: same kid at a souvenir shop shelf, flipping over price tags, checking the markdown stickers. Caption: "Three weeks after reading a certain book."
+
+END CARD: "We can't watch your kids. We can teach them <strong><em>wants vs. needs</em></strong>. Clarence Gets a Bargain &bull; $19.99"
+
+CAPTION: The meltdown isn't a discipline problem; it's a missing skill. Page 25 covers it. So does the whole book, come to think of it.</div>
+        <div class="visual-note"><span class="icon">&#127916;</span> Play it deadpan. Nature-documentary voiceover optional but recommended.</div>
+      </div>
+    </div>
+
+    <!-- V10 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Image Post &mdash; Wave Closer</span>
+        <span class="day-label">Aug 14 &bull; Fri</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Last Call for Late-Summer Trips</h3>
+        <div class="post-copy">Still got a trip on the calendar? Good. There's still time.
+
+Vacation math, one last time:
+
+Airbrush t-shirt: $28
+Hermit crab (deceased, Tuesday): $15
+Fudge nobody asked for: $12
+The book that ends this, forever, for every trip after this one: <strong>$19.99. Once.</strong>
+
+<strong>Clarence Gets a Bargain.</strong> Read before vacation. Turn your kid into the smartest shopper on the boardwalk.
+
+&#128218; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> Receipt-style graphic, itemized, coupon-dash border. Book line highlighted in orange.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== BACK TO SCHOOL ========== -->
+<section id="bts" class="dark">
+  <div class="container">
+    <h2>&#127979; <span class="blue">Front Two:</span> The Back-to-School Ground Game</h2>
+    <div class="divider"></div>
+    <p class="section-intro">August 3 &ndash; September 11. Teachers and librarians, week by week. Social posts are the air cover; the outreach templates in the next section are the ground troops. Run both.</p>
+
+    <div class="week-header">
+      <div class="week-num">Week of Aug 3</div>
+      <h2>CLEAN THE SHELVES &mdash; Metadata &amp; Media Week</h2>
+      <p>Before driving traffic anywhere, make sure every road is paved.</p>
+    </div>
+    <ul class="task-list">
+      <li><strong>Metadata audit:</strong> Amazon listing, Goodreads profile + book claim, Barnes &amp; Noble. Categories must include children's money/finance AND back-to-school-adjacent shelves. Fix stale copy; the "Story first. Money smarts sneak in." line goes everywhere.</li>
+      <li><strong>Pitch School Library Journal + local press</strong> using <span class="asset">press-kit.html</span>. Hook for the 30 guarantee states (see <span class="asset">state-of-the-states.html</span>): "Your state requires finlit now. This book does it by stealth."</li>
+      <li><strong>Queue the "Money Talk Monday" parent email series</strong> off the existing signup list. Five weeks, one concept each, one thing to try at the store.</li>
+    </ul>
+
+    <!-- B1 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Image Post &mdash; Teachers</span>
+        <span class="day-label">Aug 5 &bull; Wed</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Only Homework Kids Ask For</h3>
+        <div class="post-copy">Teachers: you already know which unit is going to fight you this year. It's the money one.
+
+The worksheets are dry. The textbook is drier. And the kids can smell a lesson coming from three hallways away.
+
+So we hid it in a story. <strong>Clarence Gets a Bargain</strong> &mdash; a kid, a robot, and "shopping homework" that students beg to do. 36 pages, 16+ money concepts, and every one of them is there because the plot needs it.
+
+The teacher side is done for you: four 45-minute lesson plans, discussion guide, pre/post assessment, standards crosswalk across 5 frameworks (Jump$tart, Common Core Math, Common Core ELA, CEE, FDIC Money Smart). All six tools. All free. All yours.
+
+&#128218; clarencegetsabargain.com &mdash; Educator Toolkit</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">clarence-desk.png</span> &mdash; Clarence doing homework. Overlay: "Shopping Homework? Yes, Really."</div>
+        <div class="hashtags">
+          <span>#BackToSchool</span><span>#TeachersOfInstagram</span><span>#FinancialLiteracy</span><span>#TeacherFreebies</span><span>#ElementaryTeacher</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="week-header">
+      <div class="week-num">Week of Aug 10</div>
+      <h2>THE GIVEAWAY &mdash; Classroom Set Week</h2>
+      <p>The category's proven August move. One classroom set, maximum noise.</p>
+    </div>
+    <ul class="task-list">
+      <li><strong>Launch the classroom-set giveaway</strong> (post below). Entry = tag a teacher + follow. Winner announced Aug 24, in time for the first week of school.</li>
+      <li><strong>Post the toolkit intro in 3&ndash;5 educator Facebook groups</strong> using the group-intro template below. Free tools first, book second, never spam.</li>
+      <li><strong>Seed DonorsChoose:</strong> the teacher-facing ask in <span class="asset">grant-in-a-box</span> is pre-written. Every giveaway entrant who doesn't win gets pointed at it.</li>
+    </ul>
+
+    <!-- B2 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag both">FB + IG</span>
+        <span class="post-type">Giveaway Post</span>
+        <span class="day-label">Aug 11 &bull; Tue</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Classroom Set Giveaway</h3>
+        <div class="post-copy">GIVEAWAY &#128226; One classroom is starting the year with a full set.
+
+We're giving one K&ndash;5 teacher <strong>25 copies of Clarence Gets a Bargain</strong> &mdash; a $499.75 classroom set &mdash; plus the complete Educator Toolkit (which is free anyway, but now it comes with the books).
+
+To enter:
+1. Tag a teacher who'd actually use it
+2. Follow this page
+
+That's it. Two steps. We counted.
+
+Winner announced Aug 24 &mdash; books arrive for the first week of school. Every other teacher who enters gets our pre-written DonorsChoose request; copy, paste, get your set funded anyway.
+
+&#128218; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> Stack of 25 books, apple on top, coupon-dash border. Overlay: "One classroom. 25 copies. Free."</div>
+        <div class="engagement-tip"><strong>Why "tag a teacher":</strong> Every tag is a personal recommendation delivered to the exact target market. This is the whole giveaway strategy in four words.</div>
+      </div>
+    </div>
+
+    <div class="week-header">
+      <div class="week-num">Week of Aug 17</div>
+      <h2>THE LIBRARIAN &amp; THE LENDER &mdash; Order Season</h2>
+      <p>Librarians place fall orders now; credit unions plan Q4 community programs now. Hit both inboxes this week.</p>
+    </div>
+    <ul class="task-list">
+      <li><strong>Send the librarian email</strong> (template below) to school + public library contacts. Attach nothing; link <span class="asset">book-facts.html</span> and <span class="asset">procurement.html</span>. Librarians want cataloging facts and a clean PO path, not a brochure.</li>
+      <li><strong>Send the credit union pitch</strong> (template below) to local CU marketing officers. This is the Sammy Rabbit move: they sponsor, kids read, their CRA report writes itself.</li>
+      <li><strong>Offer school visits &amp; virtual read-alouds</strong> for Sep&ndash;Oct. August is when the calendar fills. Attorney-artist-dad author talk: the coupon-craft session sells itself.</li>
+    </ul>
+
+    <!-- B3 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag ig">Instagram</span>
+        <span class="post-type">Image Post &mdash; Librarians</span>
+        <span class="day-label">Aug 18 &bull; Tue</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Dear Librarians</h3>
+        <div class="post-copy">Dear librarians: we know what August is. You're unpacking boxes, fixing displays, and deciding which books earn shelf space this year.
+
+Case for ours:
+
+&#128313; 36 pages; picture book on the outside, 16+ financial concepts on the inside
+&#128313; 21-term illustrated glossary in the back matter &mdash; it does reference-desk duty
+&#128313; Aligned to 5 frameworks, with the crosswalk already charted
+&#128313; Endorsed by a veteran educator with 30+ years in K&ndash;5 classrooms
+&#128313; PO-friendly, sole-source letter on file, Net 30
+
+Shelve it under picture books. File it under secret weapons.
+
+&#128218; clarencegetsabargain.com/book-facts.html &mdash; every cataloging fact on one page</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> Book face-out on a library shelf between thick reference books. Overlay: "File under: secret weapons."</div>
+        <div class="hashtags">
+          <span>#SchoolLibrary</span><span>#Librarian</span><span>#LibraryLife</span><span>#KidLit</span><span>#FinancialLiteracy</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="week-header">
+      <div class="week-num">Week of Aug 24</div>
+      <h2>FIRST BELL &mdash; Winner Week</h2>
+      <p>Announce the giveaway winner, ride the first-day-of-school wave, convert the losers into DonorsChoose requests.</p>
+    </div>
+    <ul class="task-list">
+      <li><strong>Announce the classroom-set winner</strong> with a photo of the shipping box. Ask the winning teacher for a shelfie when it lands; repost everywhere.</li>
+      <li><strong>DM every non-winning entrant</strong> the DonorsChoose template link. The giveaway's real yield is this list.</li>
+      <li><strong>PTA newsletter blurb</strong> (template below) goes out to every parent-group contact; September newsletters are assembled this week.</li>
+    </ul>
+
+    <!-- B4 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Image Post</span>
+        <span class="day-label">Aug 26 &bull; Wed</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Someone's Going to Ask</h3>
+        <div class="post-copy">First week of school. Some kid &mdash; there's one every year &mdash; is going to raise a hand and ask what a budget is.
+
+You can improvise. Or you can have page 3 do it: bills, budgeting, even the word "mortgage," explained by a mom who'd rather talk about it than pay for the Xbox to run in silence.
+
+<strong>Clarence Gets a Bargain.</strong> The money unit that doesn't look like one, plus four zero-prep lesson plans to run it.
+
+Teachers read it aloud once and the class asks for it again. That's the whole trick. There is no other trick.
+
+&#128218; clarencegetsabargain.com &mdash; Educator Toolkit, free</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> <span class="img-ref">frontcover.png</span> on a classroom easel, hands raised in the background.</div>
+      </div>
+    </div>
+
+    <div class="week-header">
+      <div class="week-num">Week of Aug 31 &ndash; Sep 11</div>
+      <h2>THE HANDOFF &mdash; Boardwalk to Backpack</h2>
+      <p>Labor Day bridges the fronts. Then back-to-school shopping season becomes the live demo.</p>
+    </div>
+    <ul class="task-list">
+      <li><strong>Run the bridge post Sep 7</strong> (below), then pivot all copy to the school-supply aisle: it's a comparison-shopping lab that every family visits this month, sale ads and all.</li>
+      <li><strong>Follow up every unanswered librarian/CU email</strong> from Aug 17. One follow-up, one week later, then done; polite persistence beats a drip campaign.</li>
+      <li><strong>Book Q4 school visits</strong> from whatever the outreach shook loose.</li>
+    </ul>
+
+    <!-- B5 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag both">FB + IG</span>
+        <span class="post-type">Image Post &mdash; The Bridge</span>
+        <span class="day-label">Sep 7 &bull; Mon (Labor Day)</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Boardwalk Closes Today. The Skill Doesn't.</h3>
+        <div class="post-copy">Labor Day. The boardwalk pulls in its awnings. The arcade goes quiet. The hermit crabs breathe a sigh of relief.
+
+But if your kid spent this summer with <strong>Clarence Gets a Bargain</strong>, they're not done. They're just getting started &mdash; because tomorrow is the school-supply aisle, and the school-supply aisle is the boardwalk with fluorescent lighting.
+
+Sale ads. Coupons. Three prices for the same folder. A kid who knows <strong><em>wants vs. needs</em></strong> walks that aisle differently.
+
+Summer taught the lesson. School's about to grade it.
+
+&#128218; $19.99 &bull; Ages 6&ndash;10 &bull; clarencegetsabargain.com</div>
+        <div class="visual-note"><span class="icon">&#127912;</span> Split image: shuttered boardwalk stand / glowing school-supply aisle. Overlay: "Same game. New arena."</div>
+      </div>
+    </div>
+
+    <!-- B6 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag li">LinkedIn</span>
+        <span class="post-type">Founder Post &mdash; Jonathan's account</span>
+        <span class="day-label">Sep 9 &bull; Wed</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Institutional Angle</h3>
+        <div class="post-copy">30 states now require financial literacy for graduation. Most of the required coursework starts in high school.
+
+That's a decade late. Kids form money habits long before algebra; ask any parent who's been to a boardwalk arcade in July.
+
+I wrote Clarence Gets a Bargain for the other end of the pipeline &mdash; grades 1&ndash;5, where a story about a kid and a robot can carry 16+ financial concepts without a single worksheet. It's aligned to 5 frameworks (Jump$tart, both Common Cores, CEE, FDIC Money Smart) because that's what makes it adoptable, and the educator program is free because that's what makes it adopted.
+
+If you run community programs for a credit union or bank: 25 copies is $499.75, the CRA memo is pre-written, and local kids learn to comparison-shop with your name on the bookplate.
+
+The pipeline problem is real; the fix is 36 pages long.</div>
+        <div class="visual-note"><span class="icon">&#128188;</span> Link to state-of-the-states.html. Comment 1 from Jonathan: link to grant-in-a-box. No hashtag soup on LinkedIn; two max.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== OUTREACH TEMPLATES ========== -->
+<section id="outreach" class="blue">
+  <div class="container">
+    <h2>&#128231; <span class="orange">Outreach</span> Templates</h2>
+    <div class="divider"></div>
+    <p class="section-intro">Copy, personalize the first line, send. Short on purpose &mdash; these audiences delete anything that scrolls.</p>
+
+    <!-- T1 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag email">Email</span>
+        <span class="post-type">Librarian Pitch</span>
+        <span class="day-label">Send week of Aug 17</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Subject: A money book kids actually read (36 pp, 5 frameworks, PO-friendly)</h3>
+        <div class="post-copy">Hi [Name],
+
+I'll keep this to four sentences.
+
+Clarence Gets a Bargain is a 36-page picture book (ages 6&ndash;10) that teaches budgeting, comparison shopping, and <strong><em>wants vs. needs</em></strong> through a story about a kid, a robot, and a trip to a big-box store &mdash; kids re-read it without being asked, which is the only metric that matters at your desk. It carries a 21-term back-matter glossary, alignment to 5 frameworks (Jump$tart, Common Core Math &amp; ELA, CEE, FDIC Money Smart), and an endorsement from a K&ndash;5 educator with 30+ years in the classroom.
+
+Every cataloging fact is on one page here: clarencegetsabargain.com/book-facts.html
+PO path, sole-source letter, and Net 30 terms here: clarencegetsabargain.com/resources/procurement.html
+
+Happy to send a review copy &mdash; just reply with a mailing address.
+
+Jonathan Bach
+Author, Clarence Gets a Bargain</div>
+      </div>
+    </div>
+
+    <!-- T2 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag email">Email</span>
+        <span class="post-type">Credit Union / Bank Pitch</span>
+        <span class="day-label">Send week of Aug 17</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Subject: A finlit sponsorship your CRA report will like ($499.75, turnkey it is not &mdash; it's simpler)</h3>
+        <div class="post-copy">Hi [Name],
+
+Quick idea for your community-education budget this fall.
+
+Clarence Gets a Bargain is a children's picture book that teaches budgeting, comparison shopping, and smart-consumer skills to grades 1&ndash;5 &mdash; the age band most bank programs skip. Classroom sponsorship math is simple: <strong>25 copies = $499.75</strong>, one classroom, your branch's name on every book that goes home to a family in your assessment area.
+
+The educator program (lesson plans, assessments, a standards crosswalk across 5 frameworks) is free, so the sponsorship is 100% books. I've drafted a CRA-ready memo describing the program in examiner-friendly language; it's here: clarencegetsabargain.com/resources/grant-in-a-box.html
+
+Want me to send a sample copy to your branch? Reply with an address and it ships this week.
+
+Jonathan Bach
+Attorney &amp; author, Clarence Gets a Bargain</div>
+      </div>
+    </div>
+
+    <!-- T3 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag fb">Facebook</span>
+        <span class="post-type">Educator Group Intro</span>
+        <span class="day-label">Post week of Aug 10</span>
+      </div>
+      <div class="post-card-body">
+        <h3>The Non-Spammy Group Introduction</h3>
+        <div class="post-copy">Hi all &mdash; author/dad here, sharing free stuff first and a book second, in that order.
+
+I wrote a picture book that sneaks 16+ money concepts into a story about a kid earning a robot (Clarence Gets a Bargain, ages 6&ndash;10). To go with it I built a free educator toolkit: four 45-minute lesson plans, a discussion guide, pre/post assessments, family activities, and a standards crosswalk covering Jump$tart, both Common Cores, CEE, and FDIC Money Smart. No email wall on the tools; print and go.
+
+clarencegetsabargain.com &mdash; Educator Toolkit
+
+If your money unit could use a story instead of a worksheet, that's the whole pitch. Happy to answer questions in the comments.</div>
+        <div class="engagement-tip"><strong>Group rules first.</strong> Some groups have promo days; post then. Getting banned from a 40,000-teacher group over one early post is a bad trade &mdash; the kind Clarence would warn you about.</div>
+      </div>
+    </div>
+
+    <!-- T4 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag email">Email</span>
+        <span class="post-type">PTA Newsletter Blurb</span>
+        <span class="day-label">Send week of Aug 24</span>
+      </div>
+      <div class="post-card-body">
+        <h3>60 Words, Paste-Ready</h3>
+        <div class="post-copy">&#128218; A money book kids actually read: <strong>Clarence Gets a Bargain</strong> follows a first-grader (and his robot) through budgeting, coupons, and comparison shopping &mdash; 16+ financial concepts hidden inside a story, ages 6&ndash;10. Free family activities and a printable Wyze Shopper Certificate at clarencegetsabargain.com. $19.99; classroom sets available. Great read before your next family trip to anywhere with a gift shop.</div>
+      </div>
+    </div>
+
+    <!-- T5 -->
+    <div class="post-card">
+      <div class="post-card-header">
+        <span class="platform-tag email">Email</span>
+        <span class="post-type">School Visit Offer</span>
+        <span class="day-label">Send week of Aug 17; book for Sep&ndash;Oct</span>
+      </div>
+      <div class="post-card-body">
+        <h3>Subject: Author visit: the money lesson your students will fight to answer</h3>
+        <div class="post-copy">Hi [Name],
+
+I'm Jonathan Bach &mdash; attorney, mixed-media artist, and author of Clarence Gets a Bargain, a picture book that teaches grades 1&ndash;5 real money skills through a story about a kid, a robot, and a shopping mission.
+
+I'm booking school visits and virtual read-alouds for September and October. The session runs 30&ndash;45 minutes: a read-aloud, a "spot the best deal" game with real sale ads, and a coupon craft. Students leave knowing what a markdown is; teachers leave with the free lesson-plan set already matched to 5 standards frameworks.
+
+Virtual visits are free with a classroom set (25 copies, $499.75). In-person rates and dates on request.
+
+Two openings left in September as of this email &mdash; want one?
+
+Jonathan Bach
+clarencegetsabargain.com/press-kit.html</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== HASHTAGS ========== -->
+<section id="hashtags">
+  <div class="container">
+    <h2><span class="orange">Hashtag</span> Strategy</h2>
+    <div class="divider"></div>
+    <p class="section-intro">Five per post, tops. Two big, two medium, one owned. Instagram gets the full five; Facebook two; LinkedIn two, reluctantly.</p>
+
+    <div class="strategy-box">
+      <h3>Front One &mdash; Vacation</h3>
+      <ul>
+        <li><strong>Big:</strong> #FamilyVacation #SummerWithKids #RoadTripWithKids #FamilyTravel</li>
+        <li><strong>Medium:</strong> #KidsAndMoney #TeachKidsMoney #SmartConsumer #BoardwalkLife #RaisingMoneySmartKids</li>
+        <li><strong>Owned (every post):</strong> #ClarenceGetsABargain</li>
+      </ul>
+    </div>
+
+    <div class="strategy-box">
+      <h3>Front Two &mdash; Back-to-School</h3>
+      <ul>
+        <li><strong>Big:</strong> #BackToSchool #TeachersOfInstagram #FirstDayOfSchool #KidLit</li>
+        <li><strong>Medium:</strong> #FinancialLiteracy #TeacherFreebies #ElementaryTeacher #SchoolLibrary #Librarian #ClassroomLibrary #DonorsChoose</li>
+        <li><strong>Owned (every post):</strong> #ClarenceGetsABargain</li>
+      </ul>
+    </div>
+
+    <div class="strategy-box">
+      <h3>House rules (unchanged from April)</h3>
+      <ul>
+        <li>Never reveal the Aisle Five moment. Tease the orange stickers; sell the setup; protect the payoff.</li>
+        <li>Quotes verbatim or not at all. Dollar amounts exact: $19.99 is $19.99, and 25 copies is $499.75.</li>
+        <li><strong><em>Wants vs. needs</em></strong> gets bold + italic every single time it appears.</li>
+        <li>Read every draft out loud. If it wouldn't survive a parent conversation at a soccer game, it doesn't post.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer style="background:#111;border-top:2px solid #ff6b2b;padding:30px 0;text-align:center;color:#666;font-size:.8rem">
+  <div class="container">Internal playbook &bull; Clarence Gets a Bargain &bull; July&ndash;September 2026 Blitz &bull; Not for indexing</div>
+</footer>
+
+</body>
+</html>
