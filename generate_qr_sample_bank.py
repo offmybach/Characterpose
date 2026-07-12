@@ -60,13 +60,16 @@ def draw_diagonal(draw, m, off, qrpx):
                 draw.ellipse([px - rr, py - rr, px + rr, py + rr], fill=color + (255,))
 
 
-def draw_finder_stacked(canvas, tlpx, color, corner):
-    """Rounded-square ring + filled center, with an offset 'shadow' ring
-    behind for the stacked look. Every corner keeps its inner square."""
-    x0, y0 = tlpx; s = FINDER * MODULE; pad = MODULE
+def draw_finder_stacked(canvas, tlpx, color, corner, tilt=3):
+    """Rounded-square ring + filled center + offset 'shadow' ring behind, then
+    the whole finder tilted a few degrees for the casual stacked look from the
+    reference. Every corner keeps its inner square. Tilt is capped low: past
+    ~4 deg the finder stops decoding (that askew look is why the reference
+    scans poorly)."""
+    x0, y0 = tlpx; s = FINDER * MODULE; pad = MODULE * 2
     size = s + 2 * pad
     layer = Image.new("RGBA", (size, size), (0, 0, 0, 0)); d = ImageDraw.Draw(layer)
-    shadow = tuple(int(ch * 0.62) for ch in color)
+    shadow = tuple(int(ch * 0.60) for ch in color)
 
     def ring(dx, dy, col):
         d.rounded_rectangle([pad + dx, pad + dy, pad + s - 1 + dx, pad + s - 1 + dy],
@@ -74,7 +77,7 @@ def draw_finder_stacked(canvas, tlpx, color, corner):
         d.rounded_rectangle([pad + MODULE + dx, pad + MODULE + dy,
                              pad + s - MODULE - 1 + dx, pad + s - MODULE - 1 + dy],
                             radius=int(MODULE * 1.0), fill=(0, 0, 0, 0))
-    off = int(MODULE * 0.42)
+    off = int(MODULE * 0.40)
     sx = off if corner in ("tl", "bl") else -off
     sy = off if corner in ("tl", "tr") else -off
     ring(sx, sy, shadow)
@@ -82,7 +85,10 @@ def draw_finder_stacked(canvas, tlpx, color, corner):
     cp = 2 * MODULE
     d.rounded_rectangle([pad + cp, pad + cp, pad + s - cp - 1, pad + s - cp - 1],
                         radius=int(MODULE * 0.85), fill=color + (255,))
-    canvas.alpha_composite(layer, dest=(x0 - pad, y0 - pad))
+    ang = {"tl": tilt, "tr": -tilt, "bl": -tilt}[corner]
+    if ang:
+        layer = layer.rotate(ang, resample=Image.BICUBIC, center=(pad + s / 2, pad + s / 2))
+    canvas.alpha_composite(layer, dest=(int(x0 - pad), int(y0 - pad)))
 
 
 def render(m):
