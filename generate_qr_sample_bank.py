@@ -60,34 +60,37 @@ def draw_diagonal(draw, m, off, qrpx):
                 draw.ellipse([px - rr, py - rr, px + rr, py + rr], fill=color + (255,))
 
 
-def draw_finder_stacked(canvas, tlpx, color, corner, tilt=3):
-    """Rounded-square ring + filled center + offset 'shadow' ring behind, then
-    the whole finder tilted a few degrees for the casual stacked look from the
-    reference. Every corner keeps its inner square. Tilt is capped low: past
-    ~4 deg the finder stops decoding (that askew look is why the reference
-    scans poorly)."""
+def _coeffs(target, source):
+    A, B = [], []
+    for (xt, yt), (xs, ys) in zip(target, source):
+        A.append([xt, yt, 1, 0, 0, 0, -xt * xs, -yt * xs])
+        A.append([0, 0, 0, xt, yt, 1, -xt * ys, -yt * ys]); B += [xs, ys]
+    return np.linalg.solve(np.array(A, float), np.array(B, float))
+
+
+def draw_finder_stacked(canvas, tlpx, color, corner, lean=0.5):
+    """Single sharp-cornered trapezoid finder: a square frame + inner filled
+    square, perspective-warped into a leaning trapezoid. No rounding, no
+    stack. Inner dark square on every corner. lean 0.5 keeps decode at 10/10."""
     x0, y0 = tlpx; s = FINDER * MODULE; pad = MODULE * 2
     size = s + 2 * pad
     layer = Image.new("RGBA", (size, size), (0, 0, 0, 0)); d = ImageDraw.Draw(layer)
-    shadow = tuple(int(ch * 0.60) for ch in color)
-
-    def ring(dx, dy, col):
-        d.rounded_rectangle([pad + dx, pad + dy, pad + s - 1 + dx, pad + s - 1 + dy],
-                            radius=int(MODULE * 1.5), fill=col + (255,))
-        d.rounded_rectangle([pad + MODULE + dx, pad + MODULE + dy,
-                             pad + s - MODULE - 1 + dx, pad + s - MODULE - 1 + dy],
-                            radius=int(MODULE * 1.0), fill=(0, 0, 0, 0))
-    off = int(MODULE * 0.40)
-    sx = off if corner in ("tl", "bl") else -off
-    sy = off if corner in ("tl", "tr") else -off
-    ring(sx, sy, shadow)
-    ring(0, 0, color)
+    d.rectangle([pad, pad, pad + s - 1, pad + s - 1], fill=color + (255,))
+    d.rectangle([pad + MODULE, pad + MODULE, pad + s - MODULE - 1, pad + s - MODULE - 1],
+                fill=(0, 0, 0, 0))
     cp = 2 * MODULE
-    d.rounded_rectangle([pad + cp, pad + cp, pad + s - cp - 1, pad + s - cp - 1],
-                        radius=int(MODULE * 0.85), fill=color + (255,))
-    ang = {"tl": tilt, "tr": -tilt, "bl": -tilt}[corner]
-    if ang:
-        layer = layer.rotate(ang, resample=Image.BICUBIC, center=(pad + s / 2, pad + s / 2))
+    d.rectangle([pad + cp, pad + cp, pad + s - cp - 1, pad + s - cp - 1], fill=color + (255,))
+    push = MODULE * 1.0 * lean; pull = MODULE * 0.45 * lean
+    tl, tr = [pad, pad], [pad + s, pad]; br, bl = [pad + s, pad + s], [pad, pad + s]
+    if corner == "tl":
+        tl = [pad - push, pad - push]; br = [pad + s - pull, pad + s - pull]
+    elif corner == "tr":
+        tr = [pad + s + push, pad - push]; bl = [pad + pull, pad + s - pull]
+    elif corner == "bl":
+        bl = [pad - push, pad + s + push]; tr = [pad + s - pull, pad + pull]
+    coeffs = _coeffs([tl, tr, br, bl],
+                     [[pad, pad], [pad + s, pad], [pad + s, pad + s], [pad, pad + s]])
+    layer = layer.transform((size, size), Image.PERSPECTIVE, coeffs, resample=Image.BICUBIC)
     canvas.alpha_composite(layer, dest=(int(x0 - pad), int(y0 - pad)))
 
 
