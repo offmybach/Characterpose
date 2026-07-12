@@ -418,6 +418,8 @@ Each entry includes the page(s) where the term appears in the story.
 - `receipt-builder.html` — kid-facing interactive Sea-Mart register (clearance markdown + 10% coupon + sales tax; prices in cents, book-accurate coupon rule: clearance toys only)
 - `press-kit.html` — media kit: bios ×3 lengths, fact sheet, art downloads, interview Qs (Q5 protects the Aisle Five spoiler — keep it that way)
 - `book-facts.html` — dense factual reference page + Book JSON-LD (for librarians, journalists, AI assistants)
+- `money-glossary.html` — SEO page: all 21 glossary terms verbatim with per-term anchors + DefinedTermSet JSON-LD; definitions must stay identical to §5 back-matter
+- `teaching-kids-about-money.html` — SEO page: age-by-age guide (3–5 / 6–7 / 8–10 / 11+) in Jonathan's voice, Article JSON-LD; targets "teaching kids about money"
 - `resources/procurement.html` — vendor packet: specs, sole-source justification letter, PO/Net 30 terms
 - `resources/grant-in-a-box.html` — pre-written funding requests: DonorsChoose, PTA, bank sponsorship, CRA memo (exact math: 25 copies = $499.75)
 - `llms.txt` — root-level AI-discovery file (llms.txt spec); update if URLs or key facts change
