@@ -25,9 +25,11 @@ from qrcode.constants import ERROR_CORRECT_H
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent
-# Center art: RoBimmie, the robot Clarence actually bargains for. The v1
-# piggy bank read as a savings brand — CGB is a smart-spending brand.
-CENTER_SRC = ROOT / "images" / "robimmie-cutout.png"
+# Center art: Clarence's hand (cropped from forsite/clarence_point.png)
+# handing over a fan of cartoon bills — a kid spending money smartly is the
+# pitch. Earlier drafts: piggy bank (reads as savings), RoBimmie, full-figure
+# Clarence; robimmie-cutout.png and clarence-bills.png are still around.
+CENTER_SRC = ROOT / "images" / "hand-bills.png"
 OUT_DIR = ROOT / "images" / "qr-options"
 URL = "https://www.clarencegetsabargain.com"
 
@@ -43,8 +45,9 @@ CARD_MARGIN = 1.5        # extra white card margin beyond quiet zone (modules)
 FINDER_SIZE = 7
 BAR_RATIO = 0.78         # bar/dot thickness as fraction of a module
 
-ART_RATIO = 0.38         # center art max dimension vs QR code width
-                         # (v1 piggy bank was 0.45 wide — too big to recover)
+PLATE_AREA = 0.105       # white plate covers ~10.5% of the code — ECC H can
+                         # recover 30%; v1's piggy bank plate was ~20%
+ART_MAX_DIM = 0.40       # cap on center art's largest dimension vs code width
 PLATE_PAD_W = 1.22       # white plate padding around the art
 PLATE_PAD_H = 1.06
 
@@ -324,7 +327,9 @@ def render_option(matrix, style: str) -> Image.Image:
     # code — well inside ECC H's 30% recovery budget.
     cx = cy = total // 2
     art = Image.open(CENTER_SRC).convert("RGBA")
-    scale = (qr_px * ART_RATIO) / max(art.size)
+    target = PLATE_AREA * qr_px * qr_px
+    scale = (target / (art.width * PLATE_PAD_W * art.height * PLATE_PAD_H)) ** 0.5
+    scale = min(scale, (qr_px * ART_MAX_DIM) / max(art.size))
     art = art.resize((int(art.width * scale), int(art.height * scale)),
                      Image.LANCZOS)
     pw = int(art.width * PLATE_PAD_W)
