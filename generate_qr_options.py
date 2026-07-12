@@ -2,8 +2,8 @@
 
 All six share the fixes that make the code easier to capture than v1:
 - darker purple-to-teal gradient (more contrast against white)
-- piggy bank shrunk from 45% to 30% of code width, sitting on a clean
-  white knockout instead of a purple halo washing over live modules
+- RoBimmie (the bargain itself) in the center on a clean white knockout —
+  replaces the off-brand piggy bank, sized well under the ECC recovery limit
 - white rounded card behind everything so the code pops on fabric
 - error correction H, version 3 (29x29 — big fat modules)
 
@@ -25,7 +25,9 @@ from qrcode.constants import ERROR_CORRECT_H
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent
-PIGGY_SRC = ROOT / "images" / "piggy-bank.png"
+# Center art: RoBimmie, the robot Clarence actually bargains for. The v1
+# piggy bank read as a savings brand — CGB is a smart-spending brand.
+CENTER_SRC = ROOT / "images" / "robimmie-cutout.png"
 OUT_DIR = ROOT / "images" / "qr-options"
 URL = "https://www.clarencegetsabargain.com"
 
@@ -41,8 +43,10 @@ CARD_MARGIN = 1.5        # extra white card margin beyond quiet zone (modules)
 FINDER_SIZE = 7
 BAR_RATIO = 0.78         # bar/dot thickness as fraction of a module
 
-BANK_RATIO = 0.30        # bank width vs QR code width (was 0.45 — too big)
-KNOCKOUT_RATIO = 1.12    # white plate slightly larger than the bank
+ART_RATIO = 0.38         # center art max dimension vs QR code width
+                         # (v1 piggy bank was 0.45 wide — too big to recover)
+PLATE_PAD_W = 1.22       # white plate padding around the art
+PLATE_PAD_H = 1.06
 
 STYLES = [
     ("vertical-bars", "Vertical Bars"),
@@ -316,20 +320,21 @@ def render_option(matrix, style: str) -> Image.Image:
         draw_finder(canvas, (offset + cm * MODULE_PX, offset + rm * MODULE_PX),
                     color, which, lean=FINDER_LEAN)
 
-    # White knockout plate + bank (30% of code width — scan-safe under ECC H)
+    # White knockout plate + center art. Plate area stays around 10% of the
+    # code — well inside ECC H's 30% recovery budget.
     cx = cy = total // 2
-    bank_w = int(qr_px * BANK_RATIO)
-    plate = int(bank_w * KNOCKOUT_RATIO)
+    art = Image.open(CENTER_SRC).convert("RGBA")
+    scale = (qr_px * ART_RATIO) / max(art.size)
+    art = art.resize((int(art.width * scale), int(art.height * scale)),
+                     Image.LANCZOS)
+    pw = int(art.width * PLATE_PAD_W)
+    ph = int(art.height * PLATE_PAD_H)
     d2 = ImageDraw.Draw(canvas, "RGBA")
-    d2.rounded_rectangle([cx - plate // 2, cy - plate // 2,
-                          cx + plate // 2, cy + plate // 2],
-                         radius=int(plate * 0.28), fill=(255, 255, 255, 255))
-
-    bank = Image.open(PIGGY_SRC).convert("RGBA")
-    scale = bank_w / bank.width
-    bank = bank.resize((bank_w, int(bank.height * scale)), Image.LANCZOS)
-    canvas.alpha_composite(bank, dest=(cx - bank.width // 2,
-                                       cy - bank.height // 2))
+    d2.rounded_rectangle([cx - pw // 2, cy - ph // 2, cx + pw // 2, cy + ph // 2],
+                         radius=int(min(pw, ph) * 0.28),
+                         fill=(255, 255, 255, 255))
+    canvas.alpha_composite(art, dest=(cx - art.width // 2,
+                                      cy - art.height // 2))
 
     # White rounded card behind everything (shows on colored fabric)
     margin = int(CARD_MARGIN * MODULE_PX)
