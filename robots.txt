@@ -2,14 +2,8 @@ User-agent: *
 Allow: /
 
 # Internal authoring/preview tools — not for indexing
-Disallow: /post-writer.html
-Disallow: /linkedin-carousel.html
-Disallow: /linkedin-profile-assets.html
-Disallow: /instagram-stories.html
-Disallow: /social-media-campaigns-april.html
-Disallow: /marketing-blitz.html
-Disallow: /social-assets.html
 Disallow: /review-cards.html
 Disallow: /badge-generator.html
+Disallow: /marketing-blitz.html
 
 Sitemap: https://www.clarencegetsabargain.com/sitemap.xml
