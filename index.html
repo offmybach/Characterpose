@@ -38,7 +38,7 @@
 <style>
 @font-face{font-family:'Hold';src:url('fonts/Hold.woff2') format('woff2'),url('fonts/Hold.woff') format('woff'),url('fonts/Hold.otf') format('opentype');font-weight:normal;font-style:normal;font-display:swap}
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--purple:#4a1a6b;--dpurple:#2d0f42;--orange:#ff6b2b;--gold:#ffd700;--cream:#FAF3E0;--blue:#0054a6;--seablue:#1a3a5c;--ltblue:#4fc3f7;--red:#d32f2f;--green:#2e7d32;--darkbg:#0f0520;--lavender:#c8a2e0;--ltlav:#d8bce8}
+:root{--purple:#4a1a6b;--dpurple:#2d0f42;--orange:#ff6b2b;--gold:#ffd700;--cream:#FAF3E0;--blue:#0054a6;--seablue:#1a3a5c;--midnight:#14346e;--ltblue:#4fc3f7;--red:#d32f2f;--green:#2e7d32;--darkbg:#0f0520;--lavender:#c8a2e0;--ltlav:#d8bce8}
 html{scroll-behavior:smooth}
 body{font-family:'Hold','Nunito',sans-serif;background:linear-gradient(180deg,#b3d4e8 0%,#d4e8f5 30%,#eaf3f9 60%,#f7fafe 85%,#fcfdfe 100%);color:#0054a6;overflow-x:hidden;min-height:100vh}
 .particles{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:hidden}
@@ -85,6 +85,7 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 @keyframes shimmer{to{background-position:200% center}}
 .hero .subtitle{font-family:'Hold',sans-serif;font-weight:900;font-size:clamp(1rem,2.2vw,1.3rem);color:rgba(255,255,255,.88);margin-bottom:10px;animation:fadeIn .8s ease-out .45s both;text-shadow:0 2px 6px rgba(0,0,0,.45)}
 .hero .author{font-family:'Hold',sans-serif;font-weight:900;font-size:clamp(.85rem,1.8vw,1.05rem);color:rgba(255,255,255,.75);margin-bottom:40px;animation:fadeIn .8s ease-out .6s both;text-shadow:0 1px 4px rgba(0,0,0,.4)}
+.hero .read-along-note{font-family:'Hold',sans-serif;font-weight:900;font-size:clamp(.9rem,2vw,1.1rem);color:#fff;background:rgba(0,84,166,.55);border:2px solid rgba(255,255,255,.35);border-radius:30px;padding:10px 24px;display:inline-block;max-width:640px;margin:4px auto 18px;line-height:1.4;animation:fadeIn .8s ease-out .5s both;text-shadow:0 1px 4px rgba(0,0,0,.4)}
 .stats{display:flex;justify-content:center;gap:50px;flex-wrap:wrap;animation:fadeIn .8s ease-out .75s both}
 .stat{text-align:center}.stat .num{font-family:'Hold',sans-serif;font-size:clamp(2rem,5vw,3.2rem);color:var(--gold);line-height:1}.stat .label{font-size:.8rem;color:rgba(255,255,255,.4);text-transform:uppercase;letter-spacing:2px;margin-top:4px}
 .hero-cta{margin-top:40px;animation:fadeIn .8s ease-out .9s both}
@@ -137,7 +138,7 @@ nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
 /* === BRAND TITLE BLOCK WITH PILLS === */
 .title-block{display:inline-flex;flex-direction:column;align-items:center;gap:12px;background:#F57C00;border-radius:20px;padding:20px 30px;box-shadow:0 8px 24px rgba(0,0,0,.3);position:relative;z-index:2;margin-bottom:20px;font-family:'Hold',sans-serif;font-weight:400}
 .title-pill{display:block;background:#fff;border-radius:12px;padding:10px 40px;border:3px solid #E65100;width:100%;box-sizing:border-box}
-.title-pill .title-word{font-family:'Hold',sans-serif;color:#000;letter-spacing:1px;text-align:center;display:block;line-height:1.05}
+.title-pill .title-word{font-family:'Hold',sans-serif;color:var(--midnight);letter-spacing:1px;text-align:center;display:block;line-height:1.05}
 .title-pill:first-child .title-word{font-size:clamp(2rem,5vw,3.5rem)}
 .title-pill:last-child .title-word{font-size:clamp(1.5rem,4vw,2.8rem)}
 
@@ -528,7 +529,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .ff-row{margin-bottom:18px}
 .ff-label{display:block;font-family:'Hold',sans-serif;font-size:.8rem;color:#0054a6;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px}
 .ff-opt{font-size:.72rem;color:#888;text-transform:none;letter-spacing:0;font-family:'Lato',sans-serif;font-weight:400}
-.feedback-form input[type="text"],.feedback-form input[type="email"],.feedback-form textarea{width:100%;font-family:'Lato',sans-serif;font-size:1rem;padding:12px 14px;border:2px solid #e8d9b8;border-radius:10px;background:#fffdf7;color:#111;transition:border-color .2s;box-sizing:border-box}
+.feedback-form input[type="text"],.feedback-form input[type="email"],.feedback-form textarea{width:100%;font-family:'Lato',sans-serif;font-size:1rem;padding:12px 14px;border:2px solid #e8d9b8;border-radius:10px;background:#fffdf7;color:var(--midnight);transition:border-color .2s;box-sizing:border-box}
 .feedback-form input[type="text"]:focus,.feedback-form input[type="email"]:focus,.feedback-form textarea:focus{outline:none;border-color:#ff6b2b}
 .feedback-form textarea{resize:vertical;min-height:120px;line-height:1.5;font-family:'Lato',sans-serif}
 .ff-stars{display:inline-flex;flex-direction:row-reverse;gap:4px;position:relative}
@@ -564,7 +565,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       "illustrator": {"@id": "https://www.clarencegetsabargain.com/#author"},
       "description": "A 36-page financial literacy picture book for ages 6-10. Clarence earns a robot reward for good grades and chores, gets 'shopping homework,' and walks through a real purchase start to finish: reading sale ads, comparison shopping, clearance markdowns, redeeming a coupon at checkout, and paying sales tax. Most kids' money books teach earning or saving; this one teaches kids how to spend well — the money skill they use first.",
       "image": "https://www.clarencegetsabargain.com/images/frontcover.jpg",
-      "keywords": "money book for kids, financial literacy for kids, financial literacy picture book, comparison shopping, budgeting for kids, wants vs needs, coupons, markdowns, sales tax, 529 college savings, consumer education, read-aloud",
+      "keywords": "money book for kids, financial literacy for kids, financial literacy picture book, comparison shopping, budgeting for kids, wants vs needs, coupons, markdowns, sales tax, 529 college savings, consumer education, read-aloud, read-along, parent child read-along",
       "genre": ["Children's Literature", "Financial Literacy", "Edutainment"],
       "inLanguage": "en",
       "audience": {
@@ -700,6 +701,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   <div class="hero-badge" style="margin-top:20px">Ages 6&ndash;10 &bull; Grades 1&ndash;5 &bull; Est. Lexile AD 620L &bull; Est. Guided Reading L&ndash;N</div>
   <div class="masthead">We snuck financial education inside a story about a kid and a robot.</div>
   <div class="subtitle">Don&rsquo;t tell them. They&rsquo;re laughing too hard to notice.</div>
+  <div class="read-along-note">&#128214; A read-along for a kid and a grown-up. Read it together. The money talk starts on its own.</div>
   <div class="author">Written &amp; Illustrated by Jonathan Bach</div>
   <div class="hero-cta"><a href="https://buy.stripe.com/8x25kDf3v4JQcOR5pW3Ru00" target="_blank" rel="noopener">Get the Book &mdash; $19.99</a></div>
   <div class="hero-trust">
@@ -827,6 +829,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   <img loading="lazy" decoding="async" class="reveal" src="images/clarence-arms.jpg" width="520" height="520" alt="Clarence celebrating his smart shopping win" style="width:260px;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:16px;display:block;margin:0 auto 20px;box-shadow:0 6px 24px rgba(0,0,0,.12)">
   <h2 class="reveal">Clarence Did It. Your Kids Can Too.</h2>
   <div class="buy-sub reveal">36 pages of adventure. 16+ concepts. One very determined kid with a robot obsession.</div>
+  <div class="buy-sub reveal" style="font-style:italic;opacity:.9">Read it together at bedtime or in the classroom. Your kid closes the book an aware, educated consumer &mdash; and starts asking the questions.</div>
   <div class="price reveal">$19.99</div>
   <div class="price-note reveal">Hardbound &bull; Full Color &bull; Ages 6&ndash;10 &bull; + $5.99 shipping</div>
   <div style="text-align:center" class="reveal">
@@ -1009,7 +1012,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     <div class="concept-card reveal reveal-delay-2">
       <span class="concept-icon">&#128161;</span>
       <h3>Consumer Awareness</h3>
-      <p>Think before you buy. Just because it&rsquo;s a deal doesn&rsquo;t mean you need it. Clarence learns the hardest lesson &mdash; and nails it.</p>
+      <p>Think before you buy. Just because it&rsquo;s a deal doesn&rsquo;t mean you need it. Clarence walks into Sea-Mart a kid who wants the newest robot. He walks out an aware, educated consumer.</p>
       <span class="concept-pages">Page 29</span>
     </div>
   </div>
@@ -1748,12 +1751,12 @@ function drawHeader(ctx, w, hH, pageTitle) {
     if (tW > w * 0.80) { tW = w * 0.80; tH = tW / imgAspect; }
     var sx = (w - tW) / 2, sy = (hH - tH) / 2;
     ctx.drawImage(stickerImg, sx, sy, tW, tH);
-    // Overlay page title in black on the white pill area of the sticker
+    // Overlay page title in midnight blue on the white pill area of the sticker
     // The white pills sit roughly in the lower 55% of the sticker image
     if (pageTitle) {
       ctx.save();
       ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-      ctx.fillStyle = '#1a1a1a';
+      ctx.fillStyle = '#14346e';
       // Size to fit inside the white pill — scale down for longer titles
       var maxTitleW = tW * 0.52;
       var titleSz = Math.floor(tH * 0.14);
@@ -1829,7 +1832,7 @@ function drawCard(ctx, x, y, w, h, emoji, title, body) {
   var titleSize = Math.floor(h * 0.13);
   var isWvN = title.indexOf('Wants vs') !== -1;
   ctx.font = (isWvN ? 'bold italic ' : 'bold ') + titleSize + 'px "Hold",sans-serif';
-  ctx.fillStyle = '#1a3a5c';
+  ctx.fillStyle = '#14346e';
   ctx.textAlign = 'left'; ctx.textBaseline = 'top';
   var titleY = y + pad + h * 0.13;
   var titleLines = wrapText(ctx, title, w - pad * 2 - 14);
@@ -2522,14 +2525,14 @@ var coverTex = makeTex(function(c, w, h) {
   rr(c, pillX, pillY, pillW, pillH, 8);
   c.fillStyle = '#fff'; c.fill();
   c.strokeStyle = '#E65100'; c.lineWidth = 2; c.stroke();
-  c.fillStyle = '#1a1a1a'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.fillStyle = '#14346e'; c.textAlign = 'center'; c.textBaseline = 'middle';
   c.font = '900 ' + Math.floor(pillH * 0.78) + 'px "Hold",sans-serif';
   c.fillText('Clarence', tbX + tbW / 2, pillY + pillH / 2);
   var pill2Y = pillY + pillH + tbH * 0.06;
   rr(c, pillX, pill2Y, pillW, pillH, 8);
   c.fillStyle = '#fff'; c.fill();
   c.strokeStyle = '#E65100'; c.lineWidth = 2; c.stroke();
-  c.fillStyle = '#1a1a1a';
+  c.fillStyle = '#14346e';
   c.font = '900 ' + Math.floor(pillH * 0.68) + 'px "Hold",sans-serif';
   c.fillText('Gets a Bargain', tbX + tbW / 2, pill2Y + pillH / 2);
   var cardX = w * 0.06, cardW = w * 0.88;
@@ -2543,7 +2546,7 @@ var coverTex = makeTex(function(c, w, h) {
   rr(c, cardX, cardY, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
   c.fillStyle = '#ffffff'; rr(c, cardX + 3, cardY + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, cardY + 16, 22);
-  c.fillStyle = '#1a3a5c'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.fillStyle = '#14346e'; c.textAlign = 'center'; c.textBaseline = 'middle';
   c.font = '900 ' + Math.floor(cardH * 0.12) + 'px "Hold",sans-serif';
   c.fillText('A BOOK FOCUSING ON KID\'S', cardX + cardW / 2, cardY + cardH * 0.30);
   c.fillText('FINANCIAL LITERACY', cardX + cardW / 2, cardY + cardH * 0.53);
@@ -2553,7 +2556,7 @@ var coverTex = makeTex(function(c, w, h) {
   rr(c, cardX, card2Y, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
   c.fillStyle = '#ffffff'; rr(c, cardX + 3, card2Y + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, card2Y + 16, 22);
-  c.fillStyle = '#1a3a5c'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.fillStyle = '#14346e'; c.textAlign = 'center'; c.textBaseline = 'middle';
   c.font = '900 ' + Math.floor(cardH * 0.12) + 'px "Hold",sans-serif';
   c.fillText('A PLAYFUL INTRODUCTION', cardX + cardW / 2, card2Y + cardH * 0.22);
   c.fillText('TO REAL-WORLD', cardX + cardW / 2, card2Y + cardH * 0.40);
@@ -2567,7 +2570,7 @@ var coverTex = makeTex(function(c, w, h) {
   rr(c, cardX, card3Y, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
   c.fillStyle = '#ffffff'; rr(c, cardX + 3, card3Y + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, card3Y + 16, 22);
-  c.fillStyle = '#1a3a5c'; c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.fillStyle = '#14346e'; c.textAlign = 'center'; c.textBaseline = 'middle';
   c.font = '900 ' + Math.floor(cardH * 0.13) + 'px "Hold",sans-serif';
   c.fillText('TURN THE PAGE FOR MORE', cardX + cardW / 2, card3Y + cardH * 0.25);
   c.fillText('FUN AND INSIGHT ON', cardX + cardW / 2, card3Y + cardH * 0.50);
