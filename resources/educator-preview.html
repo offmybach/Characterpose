@@ -6,9 +6,9 @@
 <style>
 @font-face{font-family:'Hold';src:url('../fonts/Hold.woff2') format('woff2'),url('../fonts/Hold.woff') format('woff'),url('../fonts/Hold.otf') format('opentype');font-weight:normal;font-style:normal;font-display:swap}
 @font-face{font-family:'Lato';src:url('../fonts/Lato-Semibold.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap}
-:root{--cream:#FAF3E0;--blue:#0054a6;--orange:#ff6b2b;--navy:#1a3a5c;--lgray:#f5f0e6;--green:#4CAF50;--red:#e74c3c;--gold:#FFD700;--teal:#009688;--purple:#7B2D8E}
+:root{--cream:#FAF3E0;--blue:#0054a6;--orange:#ff6b2b;--navy:#14346e;--lgray:#f5f0e6;--green:#4CAF50;--red:#e74c3c;--gold:#FFD700;--teal:#009688;--purple:#7B2D8E}
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--cream);font-family:'Lato','Nunito',sans-serif;color:#1a3a5c}
+body{background:var(--cream);font-family:'Lato','Nunito',sans-serif;color:#14346e}
 .hd{font-family:'Hold','Nunito',sans-serif}
 .hero{background:linear-gradient(160deg,var(--navy) 0%,var(--blue) 40%,var(--orange) 100%);position:relative;overflow:hidden;text-align:center;padding:50px 24px 0}
 .hero .starburst{display:inline-block;background:var(--red);color:#fff;font-family:'Hold',sans-serif;font-size:12px;font-weight:800;letter-spacing:4px;text-transform:uppercase;padding:7px 22px;border-radius:40px;margin-bottom:18px;box-shadow:0 2px 12px rgba(231,76,60,.4)}
@@ -71,7 +71,7 @@ body{background:var(--cream);font-family:'Lato','Nunito',sans-serif;color:#1a3a5
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EC7YNHV890"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-EC7YNHV890");</script>
 </head><body>
-<nav style="position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1a3a5c;"><a href="../index.html" style="font-family:'Hold','Nunito',sans-serif;font-size:1rem;color:#1a3a5c;text-decoration:none;" data-es="&larr; Volver al Inicio">← Clarence Gets a Bargain</a><a href="../index.html#buy" style="display:inline-block;padding:8px 20px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;text-decoration:none;border-radius:40px;" data-es="Comprar el Libro">Order the Book</a><button id="langToggle" onclick="toggleLang()" style="font-family:'Hold',sans-serif;font-size:.75rem;padding:6px 14px;border-radius:20px;border:2px solid #1a3a5c;background:transparent;color:#1a3a5c;cursor:pointer;font-weight:700;letter-spacing:1px;">ES</button></nav>
+<nav style="position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #14346e;"><a href="../index.html" style="font-family:'Hold','Nunito',sans-serif;font-size:1rem;color:#14346e;text-decoration:none;" data-es="&larr; Volver al Inicio">← Clarence Gets a Bargain</a><a href="../index.html#buy" style="display:inline-block;padding:8px 20px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;text-decoration:none;border-radius:40px;" data-es="Comprar el Libro">Order the Book</a><button id="langToggle" onclick="toggleLang()" style="font-family:'Hold',sans-serif;font-size:.75rem;padding:6px 14px;border-radius:20px;border:2px solid #14346e;background:transparent;color:#14346e;cursor:pointer;font-weight:700;letter-spacing:1px;">ES</button></nav>
 <div class="hero">
   <div class="starburst" data-es="Copia de Revisi&oacute;n Institucional">Institutional Review Copy</div>
   <h1>Clarence Gets<br>a <em>Bargain!</em></h1>
@@ -145,6 +145,6 @@ f.forEach(function(el){obs.observe(el)});
 </script>
 <script>
 var LANG="en";
-function toggleLang(){LANG=LANG==="en"?"es":"en";var b=document.getElementById("langToggle");b.textContent=LANG==="en"?"ES":"EN";b.style.background=LANG==="es"?"#1a3a5c":"transparent";b.style.color=LANG==="es"?"#fff":"#1a3a5c";document.querySelectorAll("[data-es]").forEach(function(el){if(LANG==="es"){if(!el.dataset.en)el.dataset.en=el.innerHTML;el.innerHTML=el.dataset.es;}else{if(el.dataset.en)el.innerHTML=el.dataset.en;}});}
+function toggleLang(){LANG=LANG==="en"?"es":"en";var b=document.getElementById("langToggle");b.textContent=LANG==="en"?"ES":"EN";b.style.background=LANG==="es"?"#14346e":"transparent";b.style.color=LANG==="es"?"#fff":"#14346e";document.querySelectorAll("[data-es]").forEach(function(el){if(LANG==="es"){if(!el.dataset.en)el.dataset.en=el.innerHTML;el.innerHTML=el.dataset.es;}else{if(el.dataset.en)el.innerHTML=el.dataset.en;}});}
 </script>
 </body></html>

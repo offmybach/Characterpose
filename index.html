@@ -38,7 +38,7 @@
 <style>
 @font-face{font-family:'Hold';src:url('fonts/Hold.woff2') format('woff2'),url('fonts/Hold.woff') format('woff'),url('fonts/Hold.otf') format('opentype');font-weight:normal;font-style:normal;font-display:swap}
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--purple:#4a1a6b;--dpurple:#2d0f42;--orange:#ff6b2b;--gold:#ffd700;--cream:#FAF3E0;--blue:#0054a6;--seablue:#1a3a5c;--midnight:#14346e;--ltblue:#4fc3f7;--red:#d32f2f;--green:#2e7d32;--darkbg:#0f0520;--lavender:#c8a2e0;--ltlav:#d8bce8}
+:root{--purple:#4a1a6b;--dpurple:#2d0f42;--orange:#ff6b2b;--gold:#ffd700;--cream:#FAF3E0;--blue:#0054a6;--seablue:#14346e;--midnight:#14346e;--ltblue:#4fc3f7;--red:#d32f2f;--green:#2e7d32;--darkbg:#0f0520;--lavender:#c8a2e0;--ltlav:#d8bce8}
 html{scroll-behavior:smooth}
 body{font-family:'Hold','Nunito',sans-serif;background:linear-gradient(180deg,#b3d4e8 0%,#d4e8f5 30%,#eaf3f9 60%,#f7fafe 85%,#fcfdfe 100%);color:#0054a6;overflow-x:hidden;min-height:100vh}
 .particles{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:hidden}
@@ -66,11 +66,11 @@ body{font-family:'Hold','Nunito',sans-serif;background:linear-gradient(180deg,#b
 /* Small coupon particle — dashed border with scissors */
 .coupon-tag{display:inline-flex;align-items:center;gap:2px;padding:4px 8px;border:2px dashed rgba(255,107,43,.7);border-radius:5px;background:rgba(255,255,255,.08);color:var(--orange);font-family:'Hold',sans-serif;font-size:.5rem;letter-spacing:.5px;backdrop-filter:blur(2px)}
 .coupon-tag .sci{font-size:.65rem;transform:rotate(-30deg);display:inline-block}
-nav{position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:14px 40px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1a3a5c;transition:.3s}
+nav{position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:14px 40px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #14346e;transition:.3s}
 nav.scrolled{padding:10px 40px;background:rgba(250,243,224,.98);box-shadow:0 4px 20px rgba(26,58,92,.15)}
-nav .logo{font-family:'Hold',sans-serif;font-size:1.3rem;color:#1a3a5c}
+nav .logo{font-family:'Hold',sans-serif;font-size:1.3rem;color:#14346e}
 nav .links{display:flex;align-items:center;gap:8px}
-nav .links a{color:#1a3a5c;text-decoration:none;font-weight:700;font-size:.9rem;padding:8px 16px;border-radius:20px;transition:.3s}
+nav .links a{color:#14346e;text-decoration:none;font-weight:700;font-size:.9rem;padding:8px 16px;border-radius:20px;transition:.3s}
 nav .links a:hover{color:#ff6b2b;background:rgba(255,107,43,.08)}
 nav .links a.cta-nav{background:var(--orange);color:#fff;font-family:'Hold',sans-serif;padding:10px 24px}
 nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
@@ -79,7 +79,7 @@ nav .links a.cta-nav:hover{background:#ff5500;transform:scale(1.05)}
 .hero>*{position:relative;z-index:1}
 .hero-badge{display:inline-block;background:#0a0a2e;border:2px solid #311b92;border-radius:30px;padding:12px 28px;font-size:.95rem;color:#ff6b2b;font-weight:900;margin-bottom:24px;letter-spacing:1px;text-transform:uppercase;animation:fadeIn .8s ease-out both;-webkit-text-stroke:0px transparent;text-shadow:0 2px 8px rgba(0,0,0,.4);box-shadow:0 6px 20px rgba(74,20,140,.35)}
 @keyframes fadeIn{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
-.hero h1{font-family:'Hold',sans-serif;font-size:clamp(2.8rem,7vw,4.8rem);color:#1a3a5c;line-height:1.1;margin-bottom:12px;animation:fadeIn .8s ease-out .15s both}
+.hero h1{font-family:'Hold',sans-serif;font-size:clamp(2.8rem,7vw,4.8rem);color:#14346e;line-height:1.1;margin-bottom:12px;animation:fadeIn .8s ease-out .15s both}
 .hero h1 .gold{color:var(--gold)}
 .hero .masthead{font-family:'Hold',sans-serif;font-weight:900;font-size:clamp(1.2rem,3vw,1.8rem);color:#fff;margin-bottom:16px;animation:fadeIn .8s ease-out .3s both;text-shadow:0 2px 8px rgba(0,0,0,.5)}
 @keyframes shimmer{to{background-position:200% center}}
@@ -149,15 +149,15 @@ nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
 
 /* === COUPON NAVIGATION MENU === */
 .coupon-nav{background:#FAF3E0;backdrop-filter:blur(8px);border-radius:16px;border:1px solid rgba(26,58,92,0.1);padding:40px 20px;max-width:1000px;margin:0 auto}
-.coupon-nav-title{text-align:center;font-family:'Hold',sans-serif;font-size:clamp(1.3rem,3vw,2rem);color:#1a3a5c;margin-bottom:30px}
+.coupon-nav-title{text-align:center;font-family:'Hold',sans-serif;font-size:clamp(1.3rem,3vw,2rem);color:#14346e;margin-bottom:30px}
 .coupon-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
-.coupon-close{position:absolute;top:12px;right:16px;background:none;border:2px solid #1a3a5c;border-radius:50%;width:32px;height:32px;font-size:1.2rem;color:#1a3a5c;cursor:pointer;display:flex;align-items:center;justify-content:center;font-weight:bold;transition:.2s;padding:0;line-height:1}
-.coupon-close:hover{background:#1a3a5c;color:#fff}
-.coupon-card{position:relative;background:#fff;border:5px dashed #1a3a5c;border-radius:12px;padding:35px 25px 25px;text-align:center;cursor:pointer;transition:transform .3s cubic-bezier(.4,0,.2,1),box-shadow .3s}
+.coupon-close{position:absolute;top:12px;right:16px;background:none;border:2px solid #14346e;border-radius:50%;width:32px;height:32px;font-size:1.2rem;color:#14346e;cursor:pointer;display:flex;align-items:center;justify-content:center;font-weight:bold;transition:.2s;padding:0;line-height:1}
+.coupon-close:hover{background:#14346e;color:#fff}
+.coupon-card{position:relative;background:#fff;border:5px dashed #14346e;border-radius:12px;padding:35px 25px 25px;text-align:center;cursor:pointer;transition:transform .3s cubic-bezier(.4,0,.2,1),box-shadow .3s}
 .coupon-card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(26,58,92,.18)}
 .coupon-scissor{display:none}
 .coupon-card::before{content:'';position:absolute;top:-14px;right:10px;width:30px;height:30px;background:url('images/scissors.svg') no-repeat center/contain;z-index:1}
-.coupon-card h3{font-family:'Hold',sans-serif;font-size:1.1rem;color:#1a3a5c;margin-bottom:10px}
+.coupon-card h3{font-family:'Hold',sans-serif;font-size:1.1rem;color:#14346e;margin-bottom:10px}
 .coupon-card p{font-size:.95rem;color:#0054a6;line-height:1.5}
 
 /* === ASSET MAPPING SECTIONS === */
@@ -167,7 +167,7 @@ nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
 .asset-row.reverse{flex-direction:row-reverse}
 .asset-image-placeholder{width:260px;height:260px;background:#e8dcc8;border-radius:16px;display:flex;align-items:center;justify-content:center;font-family:'Hold',sans-serif;color:#8d7b5e;font-size:.85rem;text-align:center;padding:20px;border:3px dashed #c4b594;flex-shrink:0}
 .asset-text{flex:1;min-width:260px}
-.asset-text h3{font-family:'Hold',sans-serif;font-size:clamp(1.2rem,2.5vw,1.6rem);color:#1a3a5c;margin-bottom:12px}
+.asset-text h3{font-family:'Hold',sans-serif;font-size:clamp(1.2rem,2.5vw,1.6rem);color:#14346e;margin-bottom:12px}
 .asset-text p{font-size:1rem;color:#0054a6;line-height:1.7}
 
 /* === SUCCESS / BUY SECTION OVERRIDE === */
@@ -177,9 +177,9 @@ nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
 .buy .buy-sub{color:rgba(255,255,255,.85);margin-bottom:20px;font-size:.95rem}
 .buy .price{font-family:'Hold',sans-serif;font-size:clamp(2.5rem,6vw,4rem);color:#fff;margin:20px 0 8px}
 .buy .price-note{color:rgba(255,255,255,.7);margin-bottom:35px;font-size:.9rem}
-.buy-btn.amazon{background:#1a3a5c;color:#fff;box-shadow:0 4px 16px rgba(0,0,0,.2);animation:none}
+.buy-btn.amazon{background:#14346e;color:#fff;box-shadow:0 4px 16px rgba(0,0,0,.2);animation:none}
 .buy-btn.amazon:hover{background:#0d2a44}
-.buy-btn.bn{background:#fff;color:#1a3a5c}
+.buy-btn.bn{background:#fff;color:#14346e}
 .buy-btn.indie{background:rgba(255,255,255,.2);color:#fff;border:2px solid rgba(255,255,255,.5)}
 .success-placeholder{width:180px;height:220px;margin:0 auto 20px;background:rgba(255,255,255,.2);border-radius:16px;display:flex;align-items:center;justify-content:center;font-family:'Hold',sans-serif;color:#fff;font-size:.85rem;text-align:center;padding:20px;border:3px dashed rgba(255,255,255,.4)}
 
@@ -200,7 +200,7 @@ nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
 .trust-text .trust-closer{font-family:'Hold',sans-serif;font-size:1.05rem;color:#ff6b2b;margin-top:20px}
 
 /* === AUTHORITY FOOTER === */
-.authority-footer{background:#1a3a5c;color:#fff;padding:50px 20px}
+.authority-footer{background:#14346e;color:#fff;padding:50px 20px}
 .footer-inner{max-width:960px;margin:0 auto;display:flex;gap:30px;flex-wrap:wrap;align-items:flex-start;justify-content:center}
 .footer-author-photo{width:200px;height:auto;aspect-ratio:1122/1402;border-radius:16px;object-fit:cover;flex-shrink:0;border:3px solid rgba(255,255,255,.2)}
 .footer-text{flex:1;min-width:260px}
@@ -211,20 +211,20 @@ nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
 
 /* === MAGAZINE SECTION on cream bg === */
 .mag-section{background:transparent;padding:30px 10px 20px;text-align:center;position:relative;z-index:1;overflow:hidden}
-.mag-section h2{font-family:'Hold',sans-serif;color:#1a3a5c;font-size:clamp(1.6rem,4vw,2.4rem);margin-bottom:8px}
+.mag-section h2{font-family:'Hold',sans-serif;color:#14346e;font-size:clamp(1.6rem,4vw,2.4rem);margin-bottom:8px}
 .mag-section .hint{color:#0054a6;margin-bottom:30px;font-size:.85rem;letter-spacing:1px}
-.mag-btn{padding:10px 24px;background:rgba(26,58,92,.08);border:1px solid #1a3a5c;color:#1a3a5c;border-radius:25px;font-family:'Hold',sans-serif;font-size:.85rem;cursor:pointer;transition:.3s;letter-spacing:1px}
-.mag-btn:hover{background:#1a3a5c;color:#fff}
+.mag-btn{padding:10px 24px;background:rgba(26,58,92,.08);border:1px solid #14346e;color:#14346e;border-radius:25px;font-family:'Hold',sans-serif;font-size:.85rem;cursor:pointer;transition:.3s;letter-spacing:1px}
+.mag-btn:hover{background:#14346e;color:#fff}
 .page-indicator{color:#888;margin-top:12px;font-size:.85rem;letter-spacing:1px;font-weight:700}
-.cover-upload{width:220px;height:170px;border:3px dashed #1a3a5c;border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;transition:.3s;position:relative;overflow:hidden;background:rgba(26,58,92,.03)}
+.cover-upload{width:220px;height:170px;border:3px dashed #14346e;border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;transition:.3s;position:relative;overflow:hidden;background:rgba(26,58,92,.03)}
 .cover-upload:hover{border-color:#ff6b2b;background:rgba(255,107,43,.05);transform:translateY(-3px)}
-.cover-upload .icon{font-size:1.8rem;margin-bottom:4px;color:#1a3a5c}
+.cover-upload .icon{font-size:1.8rem;margin-bottom:4px;color:#14346e}
 .cover-upload .text{font-size:.65rem;color:#888}
 
 /* === COVER SHOWCASE + LIGHTBOX === */
 .cover-showcase{padding:60px 20px;text-align:center;background:linear-gradient(135deg,#f5ecd7 0%,#fff9f0 100%)}
 .cover-showcase-label{font-family:'Hold',sans-serif;font-size:.7rem;letter-spacing:3px;text-transform:uppercase;color:#ff6b2b;margin-bottom:8px}
-.cover-showcase>h2{font-family:'Hold',sans-serif;color:#1a3a5c;font-size:clamp(1.5rem,3.5vw,2.2rem);margin-bottom:36px}
+.cover-showcase>h2{font-family:'Hold',sans-serif;color:#14346e;font-size:clamp(1.5rem,3.5vw,2.2rem);margin-bottom:36px}
 .cover-pair{display:flex;justify-content:center;gap:48px;flex-wrap:wrap;align-items:flex-start}
 .cover-card{position:relative;cursor:zoom-in;transition:transform .25s,box-shadow .25s;text-align:center}
 .cover-card:hover{transform:translateY(-6px)}
@@ -249,7 +249,7 @@ nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
 .skip-nav:focus{top:0}
 
 /* === ENHANCED NAV === */
-nav{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.92);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);padding:14px 40px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1a3a5c;transition:all .3s cubic-bezier(.4,0,.2,1)}
+nav{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.92);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);padding:14px 40px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #14346e;transition:all .3s cubic-bezier(.4,0,.2,1)}
 nav.scrolled{padding:10px 40px;background:rgba(255,255,255,.98);box-shadow:0 4px 30px rgba(26,58,92,.12)}
 nav .links a{position:relative}
 nav .links a::after{content:'';position:absolute;bottom:2px;left:50%;width:0;height:2px;background:var(--orange);transition:all .3s;transform:translateX(-50%)}
@@ -280,7 +280,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--orange);outline-off
 .email-signup p{color:rgba(255,255,255,.85);margin-bottom:24px;font-size:.95rem}
 .email-form{display:flex;justify-content:center;gap:0;max-width:480px;margin:0 auto}
 .email-form input{flex:1;padding:14px 20px;border:none;border-radius:40px 0 0 40px;font-size:1rem;font-family:'Hold',sans-serif;outline:none}
-.email-form button{padding:14px 28px;background:#1a3a5c;color:#fff;border:none;border-radius:0 40px 40px 0;font-family:'Hold',sans-serif;font-size:.95rem;cursor:pointer;transition:.3s;white-space:nowrap}
+.email-form button{padding:14px 28px;background:#14346e;color:#fff;border:none;border-radius:0 40px 40px 0;font-family:'Hold',sans-serif;font-size:.95rem;cursor:pointer;transition:.3s;white-space:nowrap}
 .email-form button:hover{background:#0d2a44}
 
 /* === SMOOTH SCROLL === */
@@ -295,13 +295,13 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 /* === STANDARDS ALIGNMENT GRID === */
 .standards-section{background:#fff;padding:80px 20px;text-align:center}
 .standards-section .section-tag{font-family:'Hold',sans-serif;font-size:.75rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
-.standards-section h2{font-family:'Hold',sans-serif;color:#1a3a5c;font-size:clamp(1.5rem,3.5vw,2.2rem);margin-bottom:8px}
+.standards-section h2{font-family:'Hold',sans-serif;color:#14346e;font-size:clamp(1.5rem,3.5vw,2.2rem);margin-bottom:8px}
 .standards-section .section-sub{color:#0054a6;font-size:.95rem;margin-bottom:40px;max-width:700px;margin-left:auto;margin-right:auto}
 .standards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:0;max-width:960px;margin:0 auto;border:2px solid #e0e0e0;border-radius:12px;overflow:hidden}
 .std-cell{padding:20px;border-bottom:1px solid #e8e8e8;border-right:1px solid #e8e8e8;text-align:left}
 .std-cell:nth-child(even){background:#f8f9fa}
-.std-header{background:#1a3a5c!important;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;letter-spacing:1px;padding:14px 20px}
-.std-concept{font-family:'Hold',sans-serif;color:#1a3a5c;font-size:.95rem;margin-bottom:6px}
+.std-header{background:#14346e!important;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;letter-spacing:1px;padding:14px 20px}
+.std-concept{font-family:'Hold',sans-serif;color:#14346e;font-size:.95rem;margin-bottom:6px}
 .std-pages{font-size:.8rem;color:#888;margin-bottom:8px}
 .std-badges{display:flex;flex-wrap:wrap;gap:6px}
 .std-badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.7rem;font-weight:700;letter-spacing:.5px}
@@ -312,33 +312,33 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 
 /* === BOOK METADATA / CREDENTIALS BAR === */
 .meta-section{background:#f5ecd7;padding:50px 20px;text-align:center}
-.meta-section h2{font-family:'Hold',sans-serif;color:#1a3a5c;font-size:clamp(1.2rem,2.5vw,1.6rem);margin-bottom:30px}
+.meta-section h2{font-family:'Hold',sans-serif;color:#14346e;font-size:clamp(1.2rem,2.5vw,1.6rem);margin-bottom:30px}
 .meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:16px;max-width:800px;margin:0 auto 30px}
 .meta-item{background:#fff;border-radius:12px;padding:18px 12px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
 .meta-item .meta-label{font-size:.7rem;color:#0054a6;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:6px;font-weight:700}
-.meta-item .meta-value{font-family:'Hold',sans-serif;color:#1a3a5c;font-size:1rem}
+.meta-item .meta-value{font-family:'Hold',sans-serif;color:#14346e;font-size:1rem}
 .credentials-bar{display:flex;justify-content:center;flex-wrap:wrap;gap:16px;max-width:800px;margin:0 auto}
-.credential-badge{display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:#fff;border:2px solid #e0e0e0;border-radius:30px;font-size:.8rem;font-weight:700;color:#1a3a5c;letter-spacing:.5px;transition:.3s}
+.credential-badge{display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:#fff;border:2px solid #e0e0e0;border-radius:30px;font-size:.8rem;font-weight:700;color:#14346e;letter-spacing:.5px;transition:.3s}
 .credential-badge:hover{border-color:#ff6b2b;box-shadow:0 2px 12px rgba(255,107,43,.15)}
 .credential-badge .badge-icon{font-size:1.1rem}
 
 /* === DOWNLOADABLE RESOURCES (Program in a Box) === */
 .resources-section{background:#FAF3E0;padding:70px 20px;text-align:center}
 .resources-section .section-tag{font-family:'Hold',sans-serif;font-size:.85rem;color:#ff6b2b;letter-spacing:3px;text-transform:uppercase;margin-bottom:12px}
-.resources-section h2{font-family:'Hold',sans-serif;color:#1a3a5c;font-size:clamp(1.6rem,4vw,2.4rem);margin-bottom:12px}
+.resources-section h2{font-family:'Hold',sans-serif;color:#14346e;font-size:clamp(1.6rem,4vw,2.4rem);margin-bottom:12px}
 .resources-section .section-sub{color:#0054a6;font-size:1.05rem;margin-bottom:40px;font-weight:600;max-width:800px;margin-left:auto;margin-right:auto;line-height:1.6}
 .resource-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;max-width:1100px;margin:0 auto}
-.resource-card{background:#fff;border:5px dashed #1a3a5c;border-radius:12px;padding:35px 25px 25px;text-align:center;transition:all .3s cubic-bezier(.4,0,.2,1);position:relative}
+.resource-card{background:#fff;border:5px dashed #14346e;border-radius:12px;padding:35px 25px 25px;text-align:center;transition:all .3s cubic-bezier(.4,0,.2,1);position:relative}
 .resource-card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(26,58,92,.18)}
 .resource-card::before{content:'';position:absolute;top:-14px;right:10px;width:30px;height:30px;background:url('images/scissors.svg') no-repeat center/contain;z-index:1}
 .resource-card .rc-free{display:inline-flex;align-items:center;justify-content:center;width:60px;height:60px;background:#d32f2f;color:#fff;font-family:'Hold',sans-serif;font-size:0.9rem;border-radius:50%;margin-bottom:16px;letter-spacing:1px;clip-path:polygon(50% 0%,61% 16%,80% 9%,82% 27%,100% 31%,91% 48%,100% 66%,83% 73%,83% 91%,63% 85%,50% 100%,37% 85%,17% 91%,17% 73%,0% 66%,9% 48%,0% 31%,18% 27%,20% 9%,39% 16%);box-shadow:0 4px 10px rgba(211,47,47,0.4)}
-.resource-card h3{font-family:'Hold',sans-serif;font-weight:700;color:#1a3a5c;font-size:1.3rem;margin-bottom:12px;line-height:1.2}
+.resource-card h3{font-family:'Hold',sans-serif;font-weight:700;color:#14346e;font-size:1.3rem;margin-bottom:12px;line-height:1.2}
 .resource-card p{font-family:'Lato',sans-serif;font-size:0.95rem;color:#0054a6;line-height:1.6;margin-bottom:24px;font-weight:700}
 .resource-card .rc-btn{display:inline-block;padding:14px 30px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:0.95rem;text-decoration:none;border-radius:40px;transition:.3s;border:none;cursor:pointer;box-shadow:0 4px 15px rgba(255,107,43,0.4)}
 .resource-card .rc-btn:hover{transform:scale(1.05);background:#ff5500;box-shadow:0 6px 20px rgba(255,107,43,0.6)}
 
 /* === INSTITUTIONAL ORDERING === */
-.institutional-section{background:linear-gradient(135deg,#1a3a5c 0%,#0d2a44 100%);padding:80px 20px;text-align:center}
+.institutional-section{background:linear-gradient(135deg,#14346e 0%,#0d2a44 100%);padding:80px 20px;text-align:center}
 .institutional-section .section-tag{font-family:'Hold',sans-serif;font-size:.75rem;color:#ff6b2b;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
 .institutional-section h2{font-family:'Hold',sans-serif;color:#fff;font-size:clamp(1.5rem,3.5vw,2.2rem);margin-bottom:8px}
 .institutional-section .section-sub{color:rgba(255,255,255,.7);font-size:.95rem;margin-bottom:40px}
@@ -370,7 +370,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .anchor-credential{color:rgba(255,255,255,.5);font-size:.85rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-top:6px}
 
 /* === CLEAN ICON REPLACEMENTS (No Emojis) === */
-.rc-icon-clean{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;background:#1a3a5c;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;border-radius:10px;margin:0 auto 12px;letter-spacing:1px}
+.rc-icon-clean{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;background:#14346e;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;border-radius:10px;margin:0 auto 12px;letter-spacing:1px}
 .ic-icon-clean{display:inline-flex;align-items:center;justify-content:center;width:56px;height:56px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:#FFB74D;font-family:'Hold',sans-serif;font-size:1.1rem;border-radius:12px;margin-bottom:16px;letter-spacing:1px}
 
 /* === PROCUREMENT NOTE === */
@@ -401,7 +401,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 /* === RESOURCE MODALS === */
 #resourceModalOverlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:99999;flex-direction:column;align-items:stretch}
 #resourceModalOverlay.open{display:flex}
-#resourceModalBar{display:flex;align-items:center;justify-content:flex-end;background:#1a3a5c;padding:8px 16px;flex-shrink:0}
+#resourceModalBar{display:flex;align-items:center;justify-content:flex-end;background:#14346e;padding:8px 16px;flex-shrink:0}
 #resourceModalClose{background:#ff6b2b;color:#fff;border:none;border-radius:50%;width:38px;height:38px;font-size:1.4rem;cursor:pointer;font-family:'Hold',sans-serif;line-height:1;display:flex;align-items:center;justify-content:center}
 #resourceModalFrame{flex:1;border:none;width:100%;background:#fff}
 
@@ -431,7 +431,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .concepts-section{padding:76px 20px;background:linear-gradient(180deg,#fef9f0,#fffdf8);text-align:center}
 .concepts-section>.section-tag{color:#ff6b2b;font-family:'Hold',sans-serif;font-size:.7rem;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
 .concepts-section>h2{font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(1.6rem,4vw,2.5rem);margin-bottom:10px}
-.concepts-section>.section-sub{color:#1a3a5c;font-size:.95rem;max-width:640px;margin:0 auto 44px;line-height:1.7}
+.concepts-section>.section-sub{color:#14346e;font-size:.95rem;max-width:640px;margin:0 auto 44px;line-height:1.7}
 .concepts-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:960px;margin:0 auto}
 @media(max-width:768px){.concepts-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:480px){.concepts-grid{grid-template-columns:1fr}}
@@ -439,23 +439,23 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .concept-card:hover{transform:translateY(-8px);box-shadow:0 20px 52px rgba(0,84,166,.14);border-color:#0054a6}
 .concept-icon{font-size:2.4rem;margin-bottom:14px;display:block;line-height:1}
 .concept-card h3{font-family:'Hold',sans-serif;color:#0054a6;font-size:1.05rem;margin-bottom:8px}
-.concept-card p{font-size:.82rem;color:#1a3a5c;line-height:1.65;margin-bottom:14px}
+.concept-card p{font-size:.82rem;color:#14346e;line-height:1.65;margin-bottom:14px}
 .concept-pages{display:inline-block;background:#fff3e0;color:#e65100;font-family:'Hold',sans-serif;font-size:.68rem;padding:3px 12px;border-radius:20px;letter-spacing:.5px}
 
 /* === DIFFERENCE SECTION — VS THE OTHER MONEY BOOKS === */
 .difference-section{padding:84px 20px;background:#f5ecd7;text-align:center}
 .difference-section>.section-tag{color:#ff6b2b;font-family:'Hold',sans-serif;font-size:.7rem;letter-spacing:4px;text-transform:uppercase;margin-bottom:12px}
 .difference-section>h2{font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(1.6rem,4vw,2.5rem);margin-bottom:26px;line-height:1.15}
-.diff-statement{max-width:720px;margin:0 auto 48px;color:#1a3a5c;font-size:1.02rem;line-height:1.85;text-align:left}
+.diff-statement{max-width:720px;margin:0 auto 48px;color:#14346e;font-size:1.02rem;line-height:1.85;text-align:left}
 .diff-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:1060px;margin:0 auto 44px;align-items:stretch}
 @media(max-width:900px){.diff-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:520px){.diff-grid{grid-template-columns:1fr}}
 .diff-card{background:#fff;border:2px dashed #c9b98f;border-radius:16px;padding:26px 20px;text-align:left}
 .diff-card h3{font-family:'Hold',sans-serif;color:#4a6a8a;font-size:.92rem;margin-bottom:10px;letter-spacing:.3px}
-.diff-card p{font-size:.83rem;color:#1a3a5c;line-height:1.7}
+.diff-card p{font-size:.83rem;color:#14346e;line-height:1.7}
 .diff-card.diff-winner{border:3px dashed #ff6b2b;box-shadow:0 14px 40px rgba(255,107,43,.18);transform:scale(1.03)}
 .diff-card.diff-winner h3{color:#0054a6;font-size:1.02rem}
-.diff-card.diff-winner p{color:#1a3a5c}
+.diff-card.diff-winner p{color:#14346e}
 @media(max-width:900px){.diff-card.diff-winner{transform:none}}
 .diff-kicker{font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(1.05rem,2.6vw,1.4rem);max-width:780px;margin:0 auto;line-height:1.55}
 
@@ -483,7 +483,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .moment-tag{display:inline-block;background:#0054a6;color:#fff;font-family:'Hold',sans-serif;font-size:.72rem;padding:7px 18px;border-radius:20px;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:20px}
 .moment-headline{font-family:'Hold',sans-serif;color:#0054a6;font-size:clamp(2rem,5.5vw,3.4rem);margin-bottom:32px;line-height:1.05;letter-spacing:-.5px}
 .moment-scene{text-align:left;background:#fff;border-radius:24px;padding:42px 36px;border:3px dashed #ff6b2b;box-shadow:0 14px 44px rgba(0,84,166,.1)}
-.moment-scene p{font-size:1.05rem;line-height:1.85;color:#1a1a1a;margin-bottom:18px}
+.moment-scene p{font-size:1.05rem;line-height:1.85;color:#14346e;margin-bottom:18px}
 .moment-scene .moment-action{font-size:1.4rem;color:#0054a6;text-align:center;margin:26px 0;font-family:'Hold',sans-serif}
 .moment-scene .moment-payoff{font-size:1.25rem;color:#e65100;text-align:center;margin:28px 0;font-family:'Hold',sans-serif;line-height:1.45;padding:16px 8px;border-top:2px dashed rgba(255,107,43,.25);border-bottom:2px dashed rgba(255,107,43,.25)}
 .moment-scene .moment-kicker{text-align:center;font-family:'Hold',sans-serif;font-size:1.6rem;color:#0054a6;margin-top:34px;margin-bottom:0}
@@ -728,10 +728,10 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 <section class="reveal" style="padding:64px 24px;text-align:center;background:rgba(255,255,255,.72);backdrop-filter:blur(6px)">
   <div style="max-width:760px;margin:0 auto">
     <h2 style="font-family:'Hold',sans-serif;font-size:clamp(1.45rem,3.5vw,2.15rem);color:#0054a6;line-height:1.3;margin-bottom:34px">Any book can teach a kid to <strong><em>SAVE.</em></strong><br>The hard part is teaching them to <strong><em>SPEND.</em></strong></h2>
-    <p style="font-family:'Hold',sans-serif;font-size:clamp(.95rem,2vw,1.1rem);color:#1a3a5c;line-height:1.8;margin-bottom:22px">One image of a piggy bank and a kid becomes a saver. One lemonade stand and they&rsquo;re an entrepreneur. Someday, a stock chart. Real skills. A kid will eventually need all of them.</p>
-    <p style="font-family:'Hold',sans-serif;font-size:clamp(.95rem,2vw,1.1rem);color:#1a3a5c;line-height:1.8;margin-bottom:22px">I just took a different fork in the road.</p>
-    <p style="font-family:'Hold',sans-serif;font-size:clamp(.95rem,2vw,1.1rem);color:#1a3a5c;line-height:1.8;margin-bottom:22px">Before a kid ever saves a dollar or invests one, they spend one. That&rsquo;s the skill <em>Clarence Gets a Bargain</em> teaches &mdash; the one they&rsquo;ll use this week: how to spend it wisely. Read the ad. Compare the prices. Spot the markdown. Hand over the coupon. Pay the tax. Keep the receipt.</p>
-    <p style="font-family:'Hold',sans-serif;font-size:clamp(.95rem,2vw,1.1rem);color:#1a3a5c;line-height:1.8;margin-bottom:30px">The whole trip from &ldquo;I want it&rdquo; to &ldquo;Is it worth it?&rdquo; The lesson is baked in. No workbook to buy. No activities to complete. The 21-term glossary is already in the back. Just a story a kid finishes because they want to know how it ends.</p>
+    <p style="font-family:'Hold',sans-serif;font-size:clamp(.95rem,2vw,1.1rem);color:#14346e;line-height:1.8;margin-bottom:22px">One image of a piggy bank and a kid becomes a saver. One lemonade stand and they&rsquo;re an entrepreneur. Someday, a stock chart. Real skills. A kid will eventually need all of them.</p>
+    <p style="font-family:'Hold',sans-serif;font-size:clamp(.95rem,2vw,1.1rem);color:#14346e;line-height:1.8;margin-bottom:22px">I just took a different fork in the road.</p>
+    <p style="font-family:'Hold',sans-serif;font-size:clamp(.95rem,2vw,1.1rem);color:#14346e;line-height:1.8;margin-bottom:22px">Before a kid ever saves a dollar or invests one, they spend one. That&rsquo;s the skill <em>Clarence Gets a Bargain</em> teaches &mdash; the one they&rsquo;ll use this week: how to spend it wisely. Read the ad. Compare the prices. Spot the markdown. Hand over the coupon. Pay the tax. Keep the receipt.</p>
+    <p style="font-family:'Hold',sans-serif;font-size:clamp(.95rem,2vw,1.1rem);color:#14346e;line-height:1.8;margin-bottom:30px">The whole trip from &ldquo;I want it&rdquo; to &ldquo;Is it worth it?&rdquo; The lesson is baked in. No workbook to buy. No activities to complete. The 21-term glossary is already in the back. Just a story a kid finishes because they want to know how it ends.</p>
     <p style="font-family:'Hold',sans-serif;font-size:clamp(1rem,2.2vw,1.2rem);color:#ff6b2b;font-style:italic;margin:0">It&rsquo;s not a book about saving money. It&rsquo;s a book about spending it wisely.</p>
   </div>
 </section>
@@ -1816,7 +1816,7 @@ function drawCard(ctx, x, y, w, h, emoji, title, body) {
   // Dashed border — bold and thick
   ctx.save();
   ctx.setLineDash([14, 8]);
-  ctx.strokeStyle = '#1a3a5c';
+  ctx.strokeStyle = '#14346e';
   ctx.lineWidth = 7;
   rr(ctx, x, y, w, h, 10);
   ctx.stroke();
@@ -1872,7 +1872,7 @@ function drawCard(ctx, x, y, w, h, emoji, title, body) {
 function drawReview(ctx, x, y, w, h, quote, name) {
   ctx.save();
   ctx.setLineDash([14, 8]);
-  ctx.strokeStyle = '#1a3a5c';
+  ctx.strokeStyle = '#14346e';
   ctx.lineWidth = 7;
   rr(ctx, x, y, w, h, 10);
   ctx.stroke();
@@ -1981,7 +1981,7 @@ var pages = [
   makeTex(function(c, w, h) {
     var hH = drawPageBg(c, w, h, 'Hold Up.');
     var pad = w * 0.08;
-    c.setLineDash([14, 8]); c.strokeStyle = '#1a3a5c'; c.lineWidth = 7;
+    c.setLineDash([14, 8]); c.strokeStyle = '#14346e'; c.lineWidth = 7;
     rr(c, pad, hH + pad*0.6, w - pad*2, h - hH - pad*1.2, 12); c.stroke(); c.setLineDash([]);
 
     c.textAlign = 'center'; c.textBaseline = 'middle';
@@ -2208,7 +2208,7 @@ var pages = [
   makeTex(function(c, w, h) {
     var hH = drawPageBg(c, w, h, 'One Last Thing');
     var pad = w * 0.08;
-    c.setLineDash([14, 8]); c.strokeStyle = '#1a3a5c'; c.lineWidth = 7;
+    c.setLineDash([14, 8]); c.strokeStyle = '#14346e'; c.lineWidth = 7;
     rr(c, pad, hH + pad*0.6, w - pad*2, h - hH - pad*1.2, 12); c.stroke(); c.setLineDash([]);
 
     c.textAlign = 'center'; c.textBaseline = 'middle';
@@ -2519,7 +2519,7 @@ var coverTex = makeTex(function(c, w, h) {
   g.addColorStop(0.9, '#F57C00'); g.addColorStop(1, '#ff6b2b');
   c.fillStyle = g; c.fillRect(0, 0, w, hH);
   c.fillStyle = '#FAF3E0'; c.fillRect(0, hH, w, h - hH);
-  c.strokeStyle = '#1a3a5c'; c.lineWidth = 6;
+  c.strokeStyle = '#14346e'; c.lineWidth = 6;
   c.strokeRect(w * 0.04, hH + 8, w * 0.92, h - hH - 16);
   var tbW = w * 0.55, tbH = h * 0.14;
   var tbX = (w - tbW) / 2, tbY = hH * 0.15;
@@ -2549,7 +2549,7 @@ var coverTex = makeTex(function(c, w, h) {
   var cardGapV = h * 0.02;
   var cardH = (totalSpace - cardGapV * 2) / 3;
   var cardY = topStart;
-  c.setLineDash([14, 8]); c.strokeStyle = '#1a3a5c'; c.lineWidth = 7;
+  c.setLineDash([14, 8]); c.strokeStyle = '#14346e'; c.lineWidth = 7;
   rr(c, cardX, cardY, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
   c.fillStyle = '#ffffff'; rr(c, cardX + 3, cardY + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, cardY + 16, 22);
@@ -2559,7 +2559,7 @@ var coverTex = makeTex(function(c, w, h) {
   c.fillText('FINANCIAL LITERACY', cardX + cardW / 2, cardY + cardH * 0.53);
   c.fillText('AND EDUCATION', cardX + cardW / 2, cardY + cardH * 0.76);
   var card2Y = cardY + cardH + cardGapV;
-  c.setLineDash([14, 8]); c.strokeStyle = '#1a3a5c'; c.lineWidth = 7;
+  c.setLineDash([14, 8]); c.strokeStyle = '#14346e'; c.lineWidth = 7;
   rr(c, cardX, card2Y, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
   c.fillStyle = '#ffffff'; rr(c, cardX + 3, card2Y + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, card2Y + 16, 22);
@@ -2573,7 +2573,7 @@ var coverTex = makeTex(function(c, w, h) {
   c.fillText('*Cloaked in a fun story about a young boy', cardX + cardW / 2, card2Y + cardH * 0.73);
   c.fillText('and his quest to earn a robot reward*', cardX + cardW / 2, card2Y + cardH * 0.88);
   var card3Y = card2Y + cardH + cardGapV;
-  c.setLineDash([14, 8]); c.strokeStyle = '#1a3a5c'; c.lineWidth = 7;
+  c.setLineDash([14, 8]); c.strokeStyle = '#14346e'; c.lineWidth = 7;
   rr(c, cardX, card3Y, cardW, cardH, 10); c.stroke(); c.setLineDash([]);
   c.fillStyle = '#ffffff'; rr(c, cardX + 3, card3Y + 3, cardW - 6, cardH - 6, 8); c.fill();
   drawScissors(c, cardX + cardW - 20, card3Y + 16, 22);
@@ -3049,9 +3049,9 @@ window.addEventListener('resize', function(){
 <style>
 @font-face{font-family:'Hold';src:url('../fonts/Hold.woff2') format('woff2'),url('../fonts/Hold.woff') format('woff'),url('../fonts/Hold.otf') format('opentype');font-weight:normal;font-style:normal;font-display:swap}
 @font-face{font-family:'Lato';src:url('../fonts/Lato-Semibold.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap}
-:root{--cream:#FAF3E0;--blue:#0054a6;--orange:#ff6b2b;--navy:#1a3a5c;--lgray:#f5f0e6;--green:#4CAF50;--red:#e74c3c;--gold:#FFD700;--teal:#009688;--purple:#7B2D8E}
+:root{--cream:#FAF3E0;--blue:#0054a6;--orange:#ff6b2b;--navy:#14346e;--lgray:#f5f0e6;--green:#4CAF50;--red:#e74c3c;--gold:#FFD700;--teal:#009688;--purple:#7B2D8E}
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--cream);font-family:'Lato','Nunito',sans-serif;color:#1a3a5c}
+body{background:var(--cream);font-family:'Lato','Nunito',sans-serif;color:#14346e}
 .hd{font-family:'Hold','Nunito',sans-serif}
 .hero{background:linear-gradient(160deg,var(--navy) 0%,var(--blue) 40%,var(--orange) 100%);position:relative;overflow:hidden;text-align:center;padding:50px 24px 0}
 .hero .starburst{display:inline-block;background:var(--red);color:#fff;font-family:'Hold',sans-serif;font-size:12px;font-weight:800;letter-spacing:4px;text-transform:uppercase;padding:7px 22px;border-radius:40px;margin-bottom:18px;box-shadow:0 2px 12px rgba(231,76,60,.4)}
@@ -3114,7 +3114,7 @@ body{background:var(--cream);font-family:'Lato','Nunito',sans-serif;color:#1a3a5
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EC7YNHV890"><\/script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-EC7YNHV890");<\/script>
 </head><body>
-<nav style="position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1a3a5c;"><a href="../index.html" style="font-family:'Hold','Nunito',sans-serif;font-size:1rem;color:#1a3a5c;text-decoration:none;" data-es="&larr; Volver al Inicio">← Clarence Gets a Bargain</a><a href="../index.html#buy" style="display:inline-block;padding:8px 20px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;text-decoration:none;border-radius:40px;" data-es="Comprar el Libro">Order the Book</a><button id="langToggle" onclick="toggleLang()" style="font-family:'Hold',sans-serif;font-size:.75rem;padding:6px 14px;border-radius:20px;border:2px solid #1a3a5c;background:transparent;color:#1a3a5c;cursor:pointer;font-weight:700;letter-spacing:1px;">ES</button></nav>
+<nav style="position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #14346e;"><a href="../index.html" style="font-family:'Hold','Nunito',sans-serif;font-size:1rem;color:#14346e;text-decoration:none;" data-es="&larr; Volver al Inicio">← Clarence Gets a Bargain</a><a href="../index.html#buy" style="display:inline-block;padding:8px 20px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;text-decoration:none;border-radius:40px;" data-es="Comprar el Libro">Order the Book</a><button id="langToggle" onclick="toggleLang()" style="font-family:'Hold',sans-serif;font-size:.75rem;padding:6px 14px;border-radius:20px;border:2px solid #14346e;background:transparent;color:#14346e;cursor:pointer;font-weight:700;letter-spacing:1px;">ES</button></nav>
 <div class="hero">
   <div class="starburst" data-es="Copia de Revisi&oacute;n Institucional">Institutional Review Copy</div>
   <h1>Clarence Gets<br>a <em>Bargain!</em></h1>
@@ -3177,7 +3177,7 @@ f.forEach(function(el){obs.observe(el)});
 <\/script>
 <script>
 var LANG="en";
-function toggleLang(){LANG=LANG==="en"?"es":"en";var b=document.getElementById("langToggle");b.textContent=LANG==="en"?"ES":"EN";b.style.background=LANG==="es"?"#1a3a5c":"transparent";b.style.color=LANG==="es"?"#fff":"#1a3a5c";document.querySelectorAll("[data-es]").forEach(function(el){if(LANG==="es"){if(!el.dataset.en)el.dataset.en=el.innerHTML;el.innerHTML=el.dataset.es;}else{if(el.dataset.en)el.innerHTML=el.dataset.en;}});}
+function toggleLang(){LANG=LANG==="en"?"es":"en";var b=document.getElementById("langToggle");b.textContent=LANG==="en"?"ES":"EN";b.style.background=LANG==="es"?"#14346e":"transparent";b.style.color=LANG==="es"?"#fff":"#14346e";document.querySelectorAll("[data-es]").forEach(function(el){if(LANG==="es"){if(!el.dataset.en)el.dataset.en=el.innerHTML;el.innerHTML=el.dataset.es;}else{if(el.dataset.en)el.innerHTML=el.dataset.en;}});}
 <\/script>
 </body></html>
 </script>
@@ -3190,9 +3190,9 @@ function toggleLang(){LANG=LANG==="en"?"es":"en";var b=document.getElementById("
 <title>Zero-Prep Lesson Plans | Clarence Gets a Bargain!</title>
 <style>@font-face{font-family:"Hold";src:url("../fonts/Hold.woff2") format("woff2"),url("../fonts/Hold.woff") format("woff"),url("../fonts/Hold.otf") format("opentype");font-weight:normal;font-style:normal;font-display:swap}@font-face{font-family:"Lato";src:url("../fonts/Lato-Semibold.ttf") format("truetype");font-weight:600;font-style:normal;font-display:swap}</style>
 <style>
-:root{--cream:#FAF3E0;--blue:#0054a6;--orange:#ff6b2b;--seablue:#1a3a5c;--dpurple:#2d0f42;--navy:#1B3A5C;--lgray:#f5f0e6;--green:#4CAF50;--red:#e74c3c;--gold:#FFD700;--teal:#009688;--purple:#7B2D8E}
+:root{--cream:#FAF3E0;--blue:#0054a6;--orange:#ff6b2b;--seablue:#14346e;--dpurple:#2d0f42;--navy:#14346e;--lgray:#f5f0e6;--green:#4CAF50;--red:#e74c3c;--gold:#FFD700;--teal:#009688;--purple:#7B2D8E}
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
+body{background:var(--cream);font-family:'Lato',sans-serif;color:#14346e}
 .hd{font-family:'Hold','Nunito',sans-serif}
 
 .hero{background:linear-gradient(160deg,var(--blue) 0%,var(--teal) 60%,var(--green) 100%);position:relative;overflow:hidden;text-align:center}
@@ -3200,7 +3200,7 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 .hero-inner{display:flex;align-items:center;justify-content:center;gap:20px;padding:36px 20px 0;flex-wrap:wrap;position:relative;z-index:1}
 .hero-char{position:relative}
 .hero-char img{width:100px;height:auto;border-radius:50%;border:4px solid rgba(255,255,255,.3);background:linear-gradient(135deg,var(--green),var(--teal));padding:4px}
-.speech{position:absolute;top:-8px;right:-90px;background:#fff;border-radius:14px 14px 14px 4px;padding:6px 12px;font-family:'Hold','Nunito',sans-serif;font-size:10px;font-weight:700;color:#1a3a5c;box-shadow:0 2px 8px rgba(0,0,0,.1);white-space:nowrap}
+.speech{position:absolute;top:-8px;right:-90px;background:#fff;border-radius:14px 14px 14px 4px;padding:6px 12px;font-family:'Hold','Nunito',sans-serif;font-size:10px;font-weight:700;color:#14346e;box-shadow:0 2px 8px rgba(0,0,0,.1);white-space:nowrap}
 .hero h1{font-family:'Hold','Nunito',sans-serif;font-weight:900;font-size:clamp(22px,5vw,38px);color:#fff;line-height:1.1}
 .hero h1 em{color:var(--orange);font-style:normal}
 .pill{display:inline-block;font-family:'Hold','Nunito',sans-serif;font-size:11px;font-weight:800;letter-spacing:4px;text-transform:uppercase;padding:5px 16px;border-radius:20px;margin:0 4px 10px}
@@ -3249,14 +3249,14 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 
 /* Activity items - coupon style */
 .activity-items{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
-.act-item{border:5px dashed #1a3a5c;border-radius:14px;padding:10px 16px;text-align:center;min-width:90px;position:relative;background:#fff}
+.act-item{border:5px dashed #14346e;border-radius:14px;padding:10px 16px;text-align:center;min-width:90px;position:relative;background:#fff}
 .act-item::before{content:'\2702';position:absolute;top:-9px;right:10px;font-size:13px;background:var(--cream);padding:0 3px;color:var(--blue)}
 .act-item .emoji{font-size:26px;display:block;margin-bottom:4px}
 .act-item .name{font-family:'Hold','Nunito',sans-serif;font-size:12px;font-weight:700}
 
 /* Math problems */
 .math-row{display:flex;flex-wrap:wrap;gap:10px}
-.math-card{border:5px dashed #1a3a5c;border-radius:14px;padding:14px 18px;text-align:center;flex:1;min-width:110px;background:#fff;position:relative}
+.math-card{border:5px dashed #14346e;border-radius:14px;padding:14px 18px;text-align:center;flex:1;min-width:110px;background:#fff;position:relative}
 .math-card::before{content:'\2702';position:absolute;top:-9px;right:10px;font-size:13px;background:var(--cream);padding:0 3px;color:var(--orange)}
 .math-card .price{font-family:'Hold','Nunito',sans-serif;font-size:22px;font-weight:900}
 .math-card .disc{font-family:'Hold','Nunito',sans-serif;font-size:14px;font-weight:700;color:var(--orange);margin:4px 0}
@@ -3323,7 +3323,7 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-EC7YNHV890");<\/script>
 </head>
 <body>
-<nav style="position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1a3a5c;"><a href="../index.html" style="font-family:'Hold','Nunito',sans-serif;font-size:1rem;color:#1a3a5c;text-decoration:none;display:flex;align-items:center;gap:8px;">← Clarence Gets a Bargain</a><a href="../index.html#buy" style="display:inline-block;padding:8px 20px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;text-decoration:none;border-radius:40px;transition:.3s;" data-es="Comprar el Libro">Order the Book</a><button id="langToggle" onclick="toggleLang()" style="font-family:'Hold',sans-serif;font-size:.75rem;padding:6px 14px;border-radius:20px;border:2px solid #1a3a5c;background:transparent;color:#1a3a5c;cursor:pointer;font-weight:700;letter-spacing:1px;transition:.2s;">ES</button></nav>
+<nav style="position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #14346e;"><a href="../index.html" style="font-family:'Hold','Nunito',sans-serif;font-size:1rem;color:#14346e;text-decoration:none;display:flex;align-items:center;gap:8px;">← Clarence Gets a Bargain</a><a href="../index.html#buy" style="display:inline-block;padding:8px 20px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;text-decoration:none;border-radius:40px;transition:.3s;" data-es="Comprar el Libro">Order the Book</a><button id="langToggle" onclick="toggleLang()" style="font-family:'Hold',sans-serif;font-size:.75rem;padding:6px 14px;border-radius:20px;border:2px solid #14346e;background:transparent;color:#14346e;cursor:pointer;font-weight:700;letter-spacing:1px;transition:.2s;">ES</button></nav>
 
 <div class="hero">
   <div class="hero-inner">
@@ -3613,8 +3613,8 @@ function toggleLang(){
   LANG=LANG==="en"?"es":"en";
   var b=document.getElementById("langToggle");
   b.textContent=LANG==="en"?"ES":"EN";
-  b.style.background=LANG==="es"?"#1a3a5c":"transparent";
-  b.style.color=LANG==="es"?"#fff":"#1a3a5c";
+  b.style.background=LANG==="es"?"#14346e":"transparent";
+  b.style.color=LANG==="es"?"#fff":"#14346e";
   document.querySelectorAll("[data-es]").forEach(function(el){
     if(LANG==="es"){
       if(!el.dataset.en)el.dataset.en=el.innerHTML;
@@ -3638,9 +3638,9 @@ function toggleLang(){
 <title>The Money Talk &mdash; Discussion Guide | Clarence Gets a Bargain!</title>
 <style>@font-face{font-family:"Hold";src:url("../fonts/Hold.woff2") format("woff2"),url("../fonts/Hold.woff") format("woff"),url("../fonts/Hold.otf") format("opentype");font-weight:normal;font-style:normal;font-display:swap}@font-face{font-family:"Lato";src:url("../fonts/Lato-Semibold.ttf") format("truetype");font-weight:600;font-style:normal;font-display:swap}</style>
 <style>
-:root{--cream:#FAF3E0;--blue:#0054a6;--orange:#ff6b2b;--seablue:#1a3a5c;--dpurple:#2d0f42;--navy:#1B3A5C;--lgray:#f5f0e6;--green:#4CAF50;--red:#e74c3c;--gold:#FFD700;--teal:#009688;--purple:#7B2D8E}
+:root{--cream:#FAF3E0;--blue:#0054a6;--orange:#ff6b2b;--seablue:#14346e;--dpurple:#2d0f42;--navy:#14346e;--lgray:#f5f0e6;--green:#4CAF50;--red:#e74c3c;--gold:#FFD700;--teal:#009688;--purple:#7B2D8E}
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
+body{background:var(--cream);font-family:'Lato',sans-serif;color:#14346e}
 .hd{font-family:'Hold','Nunito',sans-serif}
 
 .hero{background:linear-gradient(160deg,var(--teal) 0%,#00695C 50%,#004D40 100%);position:relative;overflow:hidden;text-align:center}
@@ -3648,7 +3648,7 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 .hero-inner{display:flex;align-items:center;justify-content:center;gap:20px;padding:36px 20px 0;flex-wrap:wrap;position:relative;z-index:1}
 .hero-char{position:relative}
 .hero-char img{width:100px;height:auto;border-radius:50%;border:4px solid rgba(255,255,255,.3);padding:4px}
-.speech{position:absolute;top:-8px;right:-80px;background:#fff;border-radius:14px 14px 14px 4px;padding:6px 12px;font-family:'Hold','Nunito',sans-serif;font-size:10px;font-weight:700;color:#1a3a5c;box-shadow:0 2px 8px rgba(0,0,0,.1);white-space:nowrap}
+.speech{position:absolute;top:-8px;right:-80px;background:#fff;border-radius:14px 14px 14px 4px;padding:6px 12px;font-family:'Hold','Nunito',sans-serif;font-size:10px;font-weight:700;color:#14346e;box-shadow:0 2px 8px rgba(0,0,0,.1);white-space:nowrap}
 .hero h1{font-family:'Hold','Nunito',sans-serif;font-weight:900;font-size:clamp(24px,5vw,40px);color:#fff;line-height:1.1}
 .hero h1 em{color:var(--gold);font-style:normal}
 .pill{display:inline-block;font-family:'Hold','Nunito',sans-serif;font-size:11px;font-weight:800;letter-spacing:4px;text-transform:uppercase;padding:5px 16px;border-radius:20px;margin-bottom:10px}
@@ -3689,7 +3689,7 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 .section.open .sbody{display:block;animation:slideUp .3s ease}
 
 /* Prompt card - coupon style */
-.prompt{border:5px dashed #1a3a5c;border-radius:16px;background:#fff;margin-bottom:10px;overflow:hidden;transition:.2s;position:relative}
+.prompt{border:5px dashed #14346e;border-radius:16px;background:#fff;margin-bottom:10px;overflow:hidden;transition:.2s;position:relative}
 .prompt::before{content:'\2702';position:absolute;top:-9px;right:16px;font-size:14px;background:var(--lgray);padding:0 4px;color:var(--blue)}
 .prompt-head{padding:14px 16px;cursor:pointer;display:flex;gap:12px;align-items:flex-start}
 .prompt-head .bubble{width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;margin-top:2px}
@@ -3737,7 +3737,7 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
   .section .sbar .arrow, .prompt .arrow{display:none !important}
   .section{margin-bottom:14px;page-break-inside:auto}
   .sbar{page-break-after:avoid;background:#f5ecd7 !important;padding:8px 12px;border-radius:6px;font-family:'Hold','Nunito',sans-serif;color:var(--teal) !important}
-  .prompt{page-break-inside:avoid;break-inside:avoid;border:1.5px dashed #1a3a5c !important;margin-bottom:6px;background:#fff !important}
+  .prompt{page-break-inside:avoid;break-inside:avoid;border:1.5px dashed #14346e !important;margin-bottom:6px;background:#fff !important}
   .prompt::before{display:none !important}
   .prompt-head{padding:8px 12px !important;cursor:default !important}
   .prompt-detail{padding:8px 12px 12px !important;border-top:1px dashed #ddd !important}
@@ -3750,7 +3750,7 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-EC7YNHV890");<\/script>
 </head>
 <body>
-<nav style="position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1a3a5c;"><a href="../index.html" style="font-family:'Hold','Nunito',sans-serif;font-size:1rem;color:#1a3a5c;text-decoration:none;display:flex;align-items:center;gap:8px;">← Clarence Gets a Bargain</a><a href="../index.html#buy" style="display:inline-block;padding:8px 20px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;text-decoration:none;border-radius:40px;transition:.3s;" data-es="Comprar el Libro">Order the Book</a><button id="langToggle" onclick="toggleLang()" style="font-family:'Hold',sans-serif;font-size:.75rem;padding:6px 14px;border-radius:20px;border:2px solid #1a3a5c;background:transparent;color:#1a3a5c;cursor:pointer;font-weight:700;letter-spacing:1px;transition:.2s;">ES</button></nav>
+<nav style="position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #14346e;"><a href="../index.html" style="font-family:'Hold','Nunito',sans-serif;font-size:1rem;color:#14346e;text-decoration:none;display:flex;align-items:center;gap:8px;">← Clarence Gets a Bargain</a><a href="../index.html#buy" style="display:inline-block;padding:8px 20px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;text-decoration:none;border-radius:40px;transition:.3s;" data-es="Comprar el Libro">Order the Book</a><button id="langToggle" onclick="toggleLang()" style="font-family:'Hold',sans-serif;font-size:.75rem;padding:6px 14px;border-radius:20px;border:2px solid #14346e;background:transparent;color:#14346e;cursor:pointer;font-weight:700;letter-spacing:1px;transition:.2s;">ES</button></nav>
 
 <div class="hero">
   <div class="hero-inner">
@@ -3995,8 +3995,8 @@ function toggleLang(){
   LANG=LANG==="en"?"es":"en";
   var b=document.getElementById("langToggle");
   b.textContent=LANG==="en"?"ES":"EN";
-  b.style.background=LANG==="es"?"#1a3a5c":"transparent";
-  b.style.color=LANG==="es"?"#fff":"#1a3a5c";
+  b.style.background=LANG==="es"?"#14346e":"transparent";
+  b.style.color=LANG==="es"?"#fff":"#14346e";
   document.querySelectorAll("[data-es]").forEach(function(el){
     if(LANG==="es"){
       if(!el.dataset.en)el.dataset.en=el.innerHTML;
@@ -4020,9 +4020,9 @@ function toggleLang(){
 <title>Clarence's Smart Shopper Challenge | www.clarencegetsabargain.com</title>
 <style>@font-face{font-family:"Hold";src:url("../fonts/Hold.woff2") format("woff2"),url("../fonts/Hold.woff") format("woff"),url("../fonts/Hold.otf") format("opentype");font-weight:normal;font-style:normal;font-display:swap}@font-face{font-family:"Lato";src:url("../fonts/Lato-Semibold.ttf") format("truetype");font-weight:600;font-style:normal;font-display:swap}</style>
 <style>
-:root{--cream:#FAF3E0;--blue:#0054a6;--orange:#ff6b2b;--seablue:#1a3a5c;--dpurple:#2d0f42;--navy:#1B3A5C;--lgray:#f5f0e6;--green:#4CAF50;--red:#e74c3c;--gold:#FFD700;--teal:#009688;--purple:#7B2D8E}
+:root{--cream:#FAF3E0;--blue:#0054a6;--orange:#ff6b2b;--seablue:#14346e;--dpurple:#2d0f42;--navy:#14346e;--lgray:#f5f0e6;--green:#4CAF50;--red:#e74c3c;--gold:#FFD700;--teal:#009688;--purple:#7B2D8E}
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
+body{background:var(--cream);font-family:'Lato',sans-serif;color:#14346e}
 .hd{font-family:'Hold','Nunito',sans-serif}
 .hero{background:linear-gradient(160deg,var(--blue) 0%,var(--teal) 50%,var(--green) 100%);position:relative;overflow:hidden;text-align:center}
 .hero::before{content:'';position:absolute;top:-80px;right:-80px;width:240px;height:240px;border-radius:50%;background:rgba(255,255,255,.06)}
@@ -4030,7 +4030,7 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 .hero-inner{display:flex;align-items:center;justify-content:center;gap:20px;padding:36px 20px 0;flex-wrap:wrap;position:relative;z-index:1}
 .hero-char{position:relative}
 .hero-char img{width:120px;height:auto;border-radius:50%;border:4px solid rgba(255,255,255,.3);background:linear-gradient(135deg,var(--orange),var(--gold));padding:4px}
-.speech{position:absolute;top:-6px;right:-70px;background:#fff;border-radius:14px 14px 14px 4px;padding:6px 12px;font-family:'Hold','Nunito',sans-serif;font-size:11px;font-weight:700;color:#1a3a5c;box-shadow:0 2px 8px rgba(0,0,0,.1);white-space:nowrap}
+.speech{position:absolute;top:-6px;right:-70px;background:#fff;border-radius:14px 14px 14px 4px;padding:6px 12px;font-family:'Hold','Nunito',sans-serif;font-size:11px;font-weight:700;color:#14346e;box-shadow:0 2px 8px rgba(0,0,0,.1);white-space:nowrap}
 .hero-text h1{font-family:'Hold','Nunito',sans-serif;font-weight:900;font-size:clamp(22px,5vw,38px);color:#fff;line-height:1.1;text-shadow:0 2px 8px rgba(0,0,0,.15)}
 .hero-text p{color:rgba(255,255,255,.85);font-size:15px;margin-top:8px;line-height:1.5}
 .pill{display:inline-block;background:var(--orange);color:#fff;font-family:'Hold','Nunito',sans-serif;font-size:11px;font-weight:800;letter-spacing:4px;text-transform:uppercase;padding:5px 18px;border-radius:20px;margin-bottom:10px}
@@ -4083,7 +4083,7 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 .cert .tr{top:8px;right:8px;border-top:3px solid var(--gold);border-right:3px solid var(--gold)}
 .cert .bl{bottom:8px;left:8px;border-bottom:3px solid var(--gold);border-left:3px solid var(--gold)}
 .cert .br{bottom:8px;right:8px;border-bottom:3px solid var(--gold);border-right:3px solid var(--gold)}
-.cert .cname{font-family:'Hold','Nunito',sans-serif;font-size:28px;font-weight:900;color:var(--orange);border-bottom:5px dashed #1a3a5c;padding-bottom:6px;display:inline-block;min-width:180px;margin:14px 0}
+.cert .cname{font-family:'Hold','Nunito',sans-serif;font-size:28px;font-weight:900;color:var(--orange);border-bottom:5px dashed #14346e;padding-bottom:6px;display:inline-block;min-width:180px;margin:14px 0}
 .book-cta{background:linear-gradient(135deg,var(--orange),#E64A19);border-radius:20px;padding:28px 24px;text-align:center;margin-top:28px;position:relative;overflow:hidden}
 .book-cta::after{content:'';position:absolute;top:-30px;right:-30px;width:100px;height:100px;border-radius:50%;background:rgba(255,255,255,.08)}
 .book-cta img{width:200px;height:auto;margin:0 auto 16px;display:block;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.25)}
@@ -4129,7 +4129,7 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-EC7YNHV890");<\/script>
 </head>
 <body>
-<nav style="position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1a3a5c;"><a href="../index.html" style="font-family:'Hold','Nunito',sans-serif;font-size:1rem;color:#1a3a5c;text-decoration:none;display:flex;align-items:center;gap:8px;">← Clarence Gets a Bargain</a><a href="../index.html#buy" style="display:inline-block;padding:8px 20px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;text-decoration:none;border-radius:40px;transition:.3s;" data-es="Comprar el Libro">Order the Book</a><button id="langToggle" onclick="toggleLang()" style="font-family:'Hold',sans-serif;font-size:.75rem;padding:6px 14px;border-radius:20px;border:2px solid #1a3a5c;background:transparent;color:#1a3a5c;cursor:pointer;font-weight:700;letter-spacing:1px;transition:.2s;">ES</button></nav>
+<nav style="position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #14346e;"><a href="../index.html" style="font-family:'Hold','Nunito',sans-serif;font-size:1rem;color:#14346e;text-decoration:none;display:flex;align-items:center;gap:8px;">← Clarence Gets a Bargain</a><a href="../index.html#buy" style="display:inline-block;padding:8px 20px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;text-decoration:none;border-radius:40px;transition:.3s;" data-es="Comprar el Libro">Order the Book</a><button id="langToggle" onclick="toggleLang()" style="font-family:'Hold',sans-serif;font-size:.75rem;padding:6px 14px;border-radius:20px;border:2px solid #14346e;background:transparent;color:#14346e;cursor:pointer;font-weight:700;letter-spacing:1px;transition:.2s;">ES</button></nav>
 <div class="hero">
   <div class="hero-inner">
     <div class="hero-char">
@@ -4292,8 +4292,8 @@ function toggleLang(){
   LANG=LANG==="en"?"es":"en";
   var b=document.getElementById("langToggle");
   b.textContent=LANG==="en"?"ES":"EN";
-  b.style.background=LANG==="es"?"#1a3a5c":"transparent";
-  b.style.color=LANG==="es"?"#fff":"#1a3a5c";
+  b.style.background=LANG==="es"?"#14346e":"transparent";
+  b.style.color=LANG==="es"?"#fff":"#14346e";
   document.querySelectorAll("[data-es]").forEach(function(el){
     if(LANG==="es"){
       if(!el.dataset.en)el.dataset.en=el.innerHTML;
@@ -4317,16 +4317,16 @@ function toggleLang(){
 <title>The Sea-Mart Secret Mission | www.clarencegetsabargain.com</title>
 <style>@font-face{font-family:"Hold";src:url("../fonts/Hold.woff2") format("woff2"),url("../fonts/Hold.woff") format("woff"),url("../fonts/Hold.otf") format("opentype");font-weight:normal;font-style:normal;font-display:swap}@font-face{font-family:"Lato";src:url("../fonts/Lato-Semibold.ttf") format("truetype");font-weight:600;font-style:normal;font-display:swap}</style>
 <style>
-:root{--cream:#FAF3E0;--blue:#0054a6;--orange:#ff6b2b;--seablue:#1a3a5c;--dpurple:#2d0f42;--navy:#1B3A5C;--lgray:#f5f0e6;--green:#4CAF50;--red:#e74c3c;--gold:#FFD700;--teal:#009688;--purple:#7B2D8E}
+:root{--cream:#FAF3E0;--blue:#0054a6;--orange:#ff6b2b;--seablue:#14346e;--dpurple:#2d0f42;--navy:#14346e;--lgray:#f5f0e6;--green:#4CAF50;--red:#e74c3c;--gold:#FFD700;--teal:#009688;--purple:#7B2D8E}
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
+body{background:var(--cream);font-family:'Lato',sans-serif;color:#14346e}
 .hd{font-family:'Hold','Nunito',sans-serif}
 .hero{background:linear-gradient(160deg,var(--orange) 0%,#E64A19 40%,var(--blue) 100%);position:relative;overflow:hidden;text-align:center}
 .hero::before{content:'';position:absolute;top:-60px;right:-60px;width:200px;height:200px;border-radius:50%;background:rgba(255,255,255,.06)}
 .hero-inner{display:flex;align-items:center;justify-content:center;gap:20px;padding:36px 20px 0;flex-wrap:wrap;position:relative;z-index:1}
 .hero-char{position:relative}
 .hero-char img{width:110px;height:auto;border-radius:50%;border:4px solid rgba(255,255,255,.3);background:linear-gradient(135deg,var(--orange),var(--gold));padding:4px}
-.speech{position:absolute;top:-8px;right:-80px;background:#fff;border-radius:14px 14px 14px 4px;padding:6px 12px;font-family:'Hold','Nunito',sans-serif;font-size:10px;font-weight:700;color:#1a3a5c;box-shadow:0 2px 8px rgba(0,0,0,.1);white-space:nowrap}
+.speech{position:absolute;top:-8px;right:-80px;background:#fff;border-radius:14px 14px 14px 4px;padding:6px 12px;font-family:'Hold','Nunito',sans-serif;font-size:10px;font-weight:700;color:#14346e;box-shadow:0 2px 8px rgba(0,0,0,.1);white-space:nowrap}
 .hero h1{font-family:'Hold','Nunito',sans-serif;font-weight:900;font-size:clamp(22px,5vw,38px);color:#fff;line-height:1.1}
 .hero h1 em{color:var(--gold);font-style:normal}
 .hero>p{color:rgba(255,255,255,.85);font-size:15px;padding:0 20px}
@@ -4347,7 +4347,7 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 
 /* COUPON-STYLE item cards */
 .coupon-item{
-  border:5px dashed #1a3a5c;
+  border:5px dashed #14346e;
   border-radius:16px;
   padding:14px 16px;
   margin-bottom:10px;
@@ -4401,7 +4401,7 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 .report{background:#fff;border-radius:24px;padding:36px 28px;text-align:center;border:4px solid var(--gold);box-shadow:0 8px 32px rgba(255,215,0,.15);animation:bounceIn .6s ease}
 .report img.char{width:100px;height:auto;margin:0 auto 12px;display:block;border-radius:50%;border:4px solid var(--gold)}
 .report .rank{font-family:'Hold','Nunito',sans-serif;font-size:28px;font-weight:900;color:var(--blue)}
-.report .aname{font-family:'Hold','Nunito',sans-serif;font-size:26px;font-weight:900;color:var(--orange);border-bottom:5px dashed #1a3a5c;padding-bottom:6px;display:inline-block;min-width:160px;margin:14px 0}
+.report .aname{font-family:'Hold','Nunito',sans-serif;font-size:26px;font-weight:900;color:var(--orange);border-bottom:5px dashed #14346e;padding-bottom:6px;display:inline-block;min-width:160px;margin:14px 0}
 .report .badges{display:flex;justify-content:center;gap:10px;margin:18px 0;flex-wrap:wrap}
 .report .bdg{background:var(--lgray);border-radius:10px;padding:10px 14px;font-family:'Hold','Nunito',sans-serif;font-size:12px;font-weight:700;color:var(--blue)}
 
@@ -4447,7 +4447,7 @@ body{background:var(--cream);font-family:'Lato',sans-serif;color:#1a3a5c}
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-EC7YNHV890");<\/script>
 </head>
 <body>
-<nav style="position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1a3a5c;"><a href="../index.html" style="font-family:'Hold','Nunito',sans-serif;font-size:1rem;color:#1a3a5c;text-decoration:none;display:flex;align-items:center;gap:8px;">← Clarence Gets a Bargain</a><a href="../index.html#buy" style="display:inline-block;padding:8px 20px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;text-decoration:none;border-radius:40px;transition:.3s;" data-es="Comprar el Libro">Order the Book</a><button id="langToggle" onclick="toggleLang()" style="font-family:'Hold',sans-serif;font-size:.75rem;padding:6px 14px;border-radius:20px;border:2px solid #1a3a5c;background:transparent;color:#1a3a5c;cursor:pointer;font-weight:700;letter-spacing:1px;transition:.2s;">ES</button></nav>
+<nav style="position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #14346e;"><a href="../index.html" style="font-family:'Hold','Nunito',sans-serif;font-size:1rem;color:#14346e;text-decoration:none;display:flex;align-items:center;gap:8px;">← Clarence Gets a Bargain</a><a href="../index.html#buy" style="display:inline-block;padding:8px 20px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;text-decoration:none;border-radius:40px;transition:.3s;" data-es="Comprar el Libro">Order the Book</a><button id="langToggle" onclick="toggleLang()" style="font-family:'Hold',sans-serif;font-size:.75rem;padding:6px 14px;border-radius:20px;border:2px solid #14346e;background:transparent;color:#14346e;cursor:pointer;font-weight:700;letter-spacing:1px;transition:.2s;">ES</button></nav>
 
 <div class="hero">
   <div class="hero-inner">
@@ -4891,8 +4891,8 @@ function toggleLang(){
   LANG=LANG==="en"?"es":"en";
   var b=document.getElementById("langToggle");
   b.textContent=LANG==="en"?"ES":"EN";
-  b.style.background=LANG==="es"?"#1a3a5c":"transparent";
-  b.style.color=LANG==="es"?"#fff":"#1a3a5c";
+  b.style.background=LANG==="es"?"#14346e":"transparent";
+  b.style.color=LANG==="es"?"#fff":"#14346e";
   document.querySelectorAll("[data-es]").forEach(function(el){
     if(LANG==="es"){
       if(!el.dataset.en)el.dataset.en=el.innerHTML;
@@ -4916,9 +4916,9 @@ function toggleLang(){
 <style>
 @font-face{font-family:'Hold';src:url('../fonts/Hold.woff2') format('woff2'),url('../fonts/Hold.woff') format('woff'),url('../fonts/Hold.otf') format('opentype');font-weight:normal;font-style:normal;font-display:swap}
 @font-face{font-family:'Lato';src:url('../fonts/Lato-Semibold.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap}
-:root{--cream:#FAF3E0;--blue:#0054a6;--orange:#ff6b2b;--navy:#1a3a5c;--lgray:#f5f0e6;--green:#4CAF50;--red:#e74c3c;--gold:#FFD700;--teal:#009688;--purple:#7B2D8E;--seablue:#1a3a5c}
+:root{--cream:#FAF3E0;--blue:#0054a6;--orange:#ff6b2b;--navy:#14346e;--lgray:#f5f0e6;--green:#4CAF50;--red:#e74c3c;--gold:#FFD700;--teal:#009688;--purple:#7B2D8E;--seablue:#14346e}
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--cream);font-family:'Lato','Nunito',sans-serif;color:#1a3a5c}
+body{background:var(--cream);font-family:'Lato','Nunito',sans-serif;color:#14346e}
 .hd{font-family:'Hold','Nunito',sans-serif}
 .hero{background:linear-gradient(160deg,var(--navy) 0%,var(--blue) 60%,var(--teal) 100%);position:relative;overflow:hidden;text-align:center}
 .hero-inner{display:flex;align-items:center;justify-content:center;gap:20px;padding:36px 20px 0;flex-wrap:wrap;position:relative;z-index:1}
@@ -4943,8 +4943,8 @@ body{background:var(--cream);font-family:'Lato','Nunito',sans-serif;color:#1a3a5
 .legend-item{display:flex;align-items:center;gap:5px}
 .legend-dot{width:10px;height:10px;border-radius:50%}
 .legend-item span{font-family:'Lato',sans-serif;font-size:11px;color:#999;font-weight:700}
-.concept-row{border:5px dashed #1a3a5c;border-radius:18px;background:#fff;margin-bottom:12px;overflow:hidden;transition:.3s;position:relative}
-.concept-row::before{content:'\2702';position:absolute;top:-9px;right:18px;font-size:14px;background:var(--cream);padding:0 4px;color:#1a3a5c;z-index:1}
+.concept-row{border:5px dashed #14346e;border-radius:18px;background:#fff;margin-bottom:12px;overflow:hidden;transition:.3s;position:relative}
+.concept-row::before{content:'\2702';position:absolute;top:-9px;right:18px;font-size:14px;background:var(--cream);padding:0 4px;color:#14346e;z-index:1}
 .concept-row:nth-child(even){background:var(--lgray)}
 .concept-row:nth-child(even)::before{background:var(--lgray)}
 .concept-row.expanded{border-color:var(--blue);box-shadow:0 4px 16px rgba(0,84,166,.1)}
@@ -4989,7 +4989,7 @@ body{background:var(--cream);font-family:'Lato','Nunito',sans-serif;color:#1a3a5
   .print-banner{display:block !important;padding:14px 20px;border-bottom:3px solid #0054a6;margin-bottom:16px}
   .print-banner h1{font-family:'Hold',sans-serif;color:#0054a6;font-size:22px;margin:0 0 6px}
   .print-banner .print-meta{font-size:12px;color:#444;line-height:1.5}
-  .concept-row{background:#fff !important;border:1.5px solid #1a3a5c !important;box-shadow:none !important;page-break-inside:avoid;break-inside:avoid;margin-bottom:8px;border-radius:8px !important;border-style:solid !important}
+  .concept-row{background:#fff !important;border:1.5px solid #14346e !important;box-shadow:none !important;page-break-inside:avoid;break-inside:avoid;margin-bottom:8px;border-radius:8px !important;border-style:solid !important}
   .concept-row::before{display:none !important}
   .concept-row .crow-body{display:block !important;padding:8px 14px 14px}
   .concept-row .arrow{display:none !important}
@@ -5005,7 +5005,7 @@ body{background:var(--cream);font-family:'Lato','Nunito',sans-serif;color:#1a3a5
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-EC7YNHV890");<\/script>
 </head>
 <body>
-<nav style="position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1a3a5c;"><a href="../index.html" style="font-family:'Hold','Nunito',sans-serif;font-size:1rem;color:#1a3a5c;text-decoration:none;display:flex;align-items:center;gap:8px;" data-es="&larr; Volver al Inicio">← Clarence Gets a Bargain</a><a href="../index.html#buy" style="display:inline-block;padding:8px 20px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;text-decoration:none;border-radius:40px;transition:.3s;" data-es="Comprar el Libro">Order the Book</a><button id="langToggle" onclick="toggleLang()" style="font-family:'Hold',sans-serif;font-size:.75rem;padding:6px 14px;border-radius:20px;border:2px solid #1a3a5c;background:transparent;color:#1a3a5c;cursor:pointer;font-weight:700;letter-spacing:1px;transition:.2s;">ES</button></nav>
+<nav style="position:sticky;top:0;z-index:1000;background:rgba(250,243,224,.96);backdrop-filter:blur(20px);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #14346e;"><a href="../index.html" style="font-family:'Hold','Nunito',sans-serif;font-size:1rem;color:#14346e;text-decoration:none;display:flex;align-items:center;gap:8px;" data-es="&larr; Volver al Inicio">← Clarence Gets a Bargain</a><a href="../index.html#buy" style="display:inline-block;padding:8px 20px;background:#ff6b2b;color:#fff;font-family:'Hold',sans-serif;font-size:.85rem;text-decoration:none;border-radius:40px;transition:.3s;" data-es="Comprar el Libro">Order the Book</a><button id="langToggle" onclick="toggleLang()" style="font-family:'Hold',sans-serif;font-size:.75rem;padding:6px 14px;border-radius:20px;border:2px solid #14346e;background:transparent;color:#14346e;cursor:pointer;font-weight:700;letter-spacing:1px;transition:.2s;">ES</button></nav>
 <div class="hero">
   <div class="hero-inner">
     <div class="hero-char" style="position:relative">
@@ -5159,8 +5159,8 @@ function toggleLang(){
   LANG=LANG==="en"?"es":"en";
   var b=document.getElementById("langToggle");
   b.textContent=LANG==="en"?"ES":"EN";
-  b.style.background=LANG==="es"?"#1a3a5c":"transparent";
-  b.style.color=LANG==="es"?"#fff":"#1a3a5c";
+  b.style.background=LANG==="es"?"#14346e":"transparent";
+  b.style.color=LANG==="es"?"#fff":"#14346e";
   document.querySelectorAll("[data-es]").forEach(function(el){
     if(LANG==="es"){if(!el.dataset.en)el.dataset.en=el.innerHTML;el.innerHTML=el.dataset.es;}
     else{if(el.dataset.en)el.innerHTML=el.dataset.en;}
@@ -5349,7 +5349,7 @@ function downloadQuoteCard(){
 @keyframes notifPop{from{transform:scale(0)}to{transform:scale(1)}}
 #chat-panel{position:fixed;left:20px;bottom:84px;z-index:8800;width:min(320px,calc(100vw - 40px));background:#fff;border-radius:20px 20px 20px 4px;box-shadow:0 16px 50px rgba(0,0,0,.28);display:flex;flex-direction:column;max-height:490px;overflow:hidden;transform:scale(.88) translateY(20px);opacity:0;pointer-events:none;transition:all .35s cubic-bezier(.34,1.56,.64,1);transform-origin:bottom left}
 #chat-panel.open{transform:scale(1) translateY(0);opacity:1;pointer-events:auto}
-.cp-head{background:linear-gradient(135deg,#0054a6 0%,#1a3a5c 100%);padding:13px 15px;display:flex;align-items:center;gap:10px;flex-shrink:0}
+.cp-head{background:linear-gradient(135deg,#0054a6 0%,#14346e 100%);padding:13px 15px;display:flex;align-items:center;gap:10px;flex-shrink:0}
 .cp-avatar{width:36px;height:36px;border-radius:50%;background:#ff6b2b;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,.2)}
 .cp-head-info{flex:1;min-width:0}
 .cp-name{font-family:'Hold','Nunito',sans-serif;color:#fff;font-size:.83rem;font-weight:900;line-height:1.2}
@@ -5364,7 +5364,7 @@ function downloadQuoteCard(){
 @keyframes cmIn{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
 .cm.bot{align-self:flex-start}.cm.user{align-self:flex-end}
 .cm-bub{padding:9px 13px;border-radius:13px;font-size:.78rem;line-height:1.55;font-weight:600;word-break:break-word}
-.cm.bot .cm-bub{background:#fff;color:#1a3a5c;border-radius:4px 13px 13px 13px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+.cm.bot .cm-bub{background:#fff;color:#14346e;border-radius:4px 13px 13px 13px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
 .cm.user .cm-bub{background:#0054a6;color:#fff;border-radius:13px 4px 13px 13px}
 .cp-typing{display:flex;gap:4px;align-items:center;padding:9px 13px;background:#fff;border-radius:4px 13px 13px 13px;box-shadow:0 2px 8px rgba(0,0,0,.07);align-self:flex-start}
 .cp-typing span{width:6px;height:6px;border-radius:50%;background:#0054a6;animation:tdot .7s ease-in-out infinite}
