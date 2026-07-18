@@ -216,6 +216,18 @@ nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
 .mag-btn{padding:10px 24px;background:rgba(26,58,92,.08);border:1px solid #14346e;color:#14346e;border-radius:25px;font-family:'Hold',sans-serif;font-size:.85rem;cursor:pointer;transition:.3s;letter-spacing:1px}
 .mag-btn:hover{background:#14346e;color:#fff}
 .page-indicator{color:#888;margin-top:12px;font-size:.85rem;letter-spacing:1px;font-weight:700}
+.mag-btn-read{background:#ff6b2b!important;color:#fff!important;border-color:#ff6b2b!important}
+.mag-btn-read:hover{background:#ff5500!important;color:#fff!important}
+#magReader{display:none;position:fixed;inset:0;z-index:10050;background:rgba(10,18,40,.94);backdrop-filter:blur(4px);padding:24px;overflow:auto;align-items:center;justify-content:center;gap:14px}
+#magReader.open{display:flex;flex-wrap:wrap}
+#magReaderPages{display:flex;gap:16px;justify-content:center;align-items:center;flex-wrap:wrap;max-width:1500px;width:100%}
+#magReaderPages img{background:#f5ecd7;border-radius:10px;box-shadow:0 16px 50px rgba(0,0,0,.55);width:min(44vw,640px);height:auto;max-height:92vh;object-fit:contain}
+#magReaderClose{position:fixed;top:18px;right:22px;width:46px;height:46px;border-radius:50%;border:none;background:#ff6b2b;color:#fff;font-size:1.7rem;line-height:1;cursor:pointer;font-family:'Hold',sans-serif;z-index:2;box-shadow:0 4px 16px rgba(0,0,0,.4)}
+#magReaderInd{position:fixed;bottom:18px;left:0;right:0;text-align:center;color:#fff;font-family:'Hold',sans-serif;font-size:.9rem;letter-spacing:1px;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+.mr-nav{position:fixed;top:50%;transform:translateY(-50%);width:54px;height:54px;border-radius:50%;border:none;background:rgba(255,255,255,.9);color:#14346e;font-size:2rem;line-height:1;cursor:pointer;font-family:'Hold',sans-serif;z-index:2;box-shadow:0 4px 16px rgba(0,0,0,.4)}
+.mr-nav:hover{background:#fff}
+.mr-prev{left:18px}.mr-next{right:18px}
+@media(max-width:768px){#magReaderPages img{width:min(92vw,640px);max-height:none}#magReader.open{align-items:flex-start}}
 .cover-upload{width:220px;height:170px;border:3px dashed #14346e;border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;transition:.3s;position:relative;overflow:hidden;background:rgba(26,58,92,.03)}
 .cover-upload:hover{border-color:#ff6b2b;background:rgba(255,107,43,.05);transform:translateY(-3px)}
 .cover-upload .icon{font-size:1.8rem;margin-bottom:4px;color:#14346e}
@@ -810,10 +822,10 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 <!-- COVER SHOWCASE -->
 <section class="mag-section" id="magazine">
   <h2 class="reveal">Flip Through Clarence&rsquo;s Coupon Book!</h2>
-  <p class="hint reveal" id="magHint">Click to open &bull; Flip pages by clicking left/right &bull; Arrow keys work</p>
+  <p class="hint reveal" id="magHint">Click to open &bull; Flip pages by clicking left/right &bull; Arrow keys work &bull; Hit <strong>Read Full Size</strong> to read the pages up close</p>
   <div id="magCanvasWrap"><canvas id="magCanvas" role="img" aria-label="Interactive 3D flipbook preview of Clarence Gets a Bargain — accessible page list below"></canvas></div>
   <div id="magMobileScroll" aria-label="Magazine pages"></div>
-  <div class="mag-controls"><button class="mag-btn" id="btnOpen">Open</button><button class="mag-btn" id="btnPrev">&larr; Prev</button><button class="mag-btn" id="btnNext">Next &rarr;</button><button class="mag-btn" id="btnClose">Close</button></div>
+  <div class="mag-controls"><button class="mag-btn" id="btnOpen">Open</button><button class="mag-btn" id="btnPrev">&larr; Prev</button><button class="mag-btn" id="btnNext">Next &rarr;</button><button class="mag-btn" id="btnClose">Close</button><button class="mag-btn mag-btn-read" id="btnRead">&#128214; Read Full Size</button></div>
   <div class="page-indicator" id="pageIndicator"></div>
   <div class="upload-row">
     <div class="cover-upload" id="frontUpload"><div class="icon" aria-hidden="true">&#128248;</div><label class="text" for="frontInput">Upload Front Cover</label><img loading="lazy" decoding="async" id="frontPreview" alt="Front cover of Clarence Gets a Bargain"><input type="file" id="frontInput" accept="image/*"></div>
@@ -1705,7 +1717,7 @@ var W = wrap.clientWidth || 800, H = wrap.clientHeight || 600;
 var scene, cam, ren;
 if (!IS_MAG_MOBILE) {
   scene = new THREE.Scene();
-  cam = new THREE.PerspectiveCamera(26, W/H, 0.1, 100);
+  cam = new THREE.PerspectiveCamera(30, W/H, 0.1, 100);
   // Slightly above and left — reading perspective matching Framer ref
   cam.position.set(-0.3, 2.0, 3.6);
   cam.lookAt(0, -0.1, 0);
@@ -2893,6 +2905,42 @@ document.getElementById('btnClose').addEventListener('click', closeMag);
 document.getElementById('btnNext').addEventListener('click', flipForward);
 document.getElementById('btnPrev').addEventListener('click', flipBackward);
 
+// ---- READ FULL SIZE: show the current two pages flat and large ----
+var readerSpread = 0;
+function _pageCanvas(i){ var p = pages[i]; if(!p) return null; return p.image || p; }
+function renderReader(){
+  var box = document.getElementById('magReaderPages'); if(!box) return;
+  box.innerHTML = '';
+  var li = readerSpread * 2, ri = readerSpread * 2 + 1;
+  [li, ri].forEach(function(idx){
+    var cv = _pageCanvas(idx); if(!cv) return;
+    var img = document.createElement('img');
+    try { img.src = cv.toDataURL('image/png'); } catch(e){ return; }
+    img.alt = 'Page ' + (idx + 1);
+    box.appendChild(img);
+  });
+  var last = Math.ceil(pages.length / 2) - 1;
+  var ind = document.getElementById('magReaderInd');
+  if(ind){ ind.textContent = 'Pages ' + (li + 1) + (pages[ri] ? ('–' + (ri + 1)) : '') + ' of ' + pages.length; }
+  document.getElementById('magReaderPrev').style.visibility = readerSpread <= 0 ? 'hidden' : 'visible';
+  document.getElementById('magReaderNext').style.visibility = readerSpread >= last ? 'hidden' : 'visible';
+}
+function openReader(){ readerSpread = currentSpread || 0; renderReader(); document.getElementById('magReader').classList.add('open'); document.body.style.overflow = 'hidden'; }
+function closeReader(){ document.getElementById('magReader').classList.remove('open'); document.body.style.overflow = ''; }
+function readerNext(){ var last = Math.ceil(pages.length / 2) - 1; if(readerSpread < last){ readerSpread++; renderReader(); } }
+function readerPrev(){ if(readerSpread > 0){ readerSpread--; renderReader(); } }
+document.getElementById('btnRead').addEventListener('click', openReader);
+document.getElementById('magReaderClose').addEventListener('click', closeReader);
+document.getElementById('magReaderNext').addEventListener('click', readerNext);
+document.getElementById('magReaderPrev').addEventListener('click', readerPrev);
+document.getElementById('magReader').addEventListener('click', function(e){ if(e.target === this) closeReader(); });
+document.addEventListener('keydown', function(e){
+  if(!document.getElementById('magReader').classList.contains('open')) return;
+  if(e.key === 'Escape') closeReader();
+  else if(e.key === 'ArrowRight') readerNext();
+  else if(e.key === 'ArrowLeft') readerPrev();
+});
+
 // CLICK
 var ray = new THREE.Raycaster(), mp = new THREE.Vector2();
 canvas.addEventListener('click', function(ev){
@@ -2920,6 +2968,7 @@ canvas.addEventListener('click', function(ev){
 
 // KEYBOARD
 document.addEventListener('keydown', function(e){
+  if(document.getElementById('magReader').classList.contains('open')) return;
   if(animating) return;
   if(e.key==='ArrowRight') flipForward();
   else if(e.key==='ArrowLeft') flipBackward();
@@ -3044,6 +3093,15 @@ window.addEventListener('resize', function(){
 
 })(); // end magazine setup IIFE
 </script>
+<!-- MAGAZINE READ-FULL-SIZE OVERLAY -->
+<div id="magReader" role="dialog" aria-modal="true" aria-label="Read the pages full size">
+  <button id="magReaderClose" aria-label="Close reader">&times;</button>
+  <button class="mr-nav mr-prev" id="magReaderPrev" aria-label="Previous pages">&#8249;</button>
+  <div id="magReaderPages"></div>
+  <button class="mr-nav mr-next" id="magReaderNext" aria-label="Next pages">&#8250;</button>
+  <div id="magReaderInd" aria-live="polite"></div>
+</div>
+
 <!-- COVER LIGHTBOX -->
 <div class="cvr-lb" id="cvrLightbox" onclick="closeCoverLightbox()" aria-modal="true" role="dialog" aria-label="Book cover full size">
   <button class="cvr-lb-close" onclick="closeCoverLightbox()" aria-label="Close">&times;</button>
