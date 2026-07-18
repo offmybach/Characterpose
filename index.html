@@ -1873,21 +1873,31 @@ function drawCard(ctx, x, y, w, h, emoji, title, body) {
   for (var i = 0; i < Math.min(titleLines.length, 4); i++) {
     ctx.fillText(titleLines[i], x + pad, titleY + i * (titleSize * 1.18));
   }
-  // Body — auto-size to fill remaining card space
+  // Body — auto-size to FILL remaining card space (shrink if too big, grow to fill if room)
   var titleBottom = titleY + Math.min(titleLines.length, 4) * (titleSize * 1.18);
   var bodyTop = titleBottom + h * 0.04;
   var remainingH = (y + h - pad) - bodyTop;
-  // Try body text — start large, shrink to fit
+  var bodyCap = Math.floor(h * 0.155); // ceiling so sparse cards don't balloon
   var bodySize = Math.floor(h * 0.11);
   ctx.font = 'bold ' + bodySize + 'px "Lato",sans-serif';
   var bodyLines = wrapText(ctx, body, w - pad * 2 - 14);
   var neededH = bodyLines.length * (bodySize * 1.32);
+  // Shrink until it fits
   while (neededH > remainingH && bodySize > 14) {
     bodySize--;
     ctx.font = 'bold ' + bodySize + 'px "Lato",sans-serif';
     bodyLines = wrapText(ctx, body, w - pad * 2 - 14);
     neededH = bodyLines.length * (bodySize * 1.32);
   }
+  // Grow to use leftover space, one step at a time, never past the cap or the card
+  while (bodySize < bodyCap) {
+    var nextSize = bodySize + 1;
+    ctx.font = 'bold ' + nextSize + 'px "Lato",sans-serif';
+    var nextLines = wrapText(ctx, body, w - pad * 2 - 14);
+    if (nextLines.length * (nextSize * 1.32) > remainingH) break;
+    bodySize = nextSize; bodyLines = nextLines;
+  }
+  ctx.font = 'bold ' + bodySize + 'px "Lato",sans-serif';
   ctx.fillStyle = '#0054a6';
   for (var j = 0; j < bodyLines.length; j++) {
     ctx.fillText(bodyLines[j], x + pad, bodyTop + j * (bodySize * 1.32));
