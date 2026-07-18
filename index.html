@@ -1705,7 +1705,7 @@ var W = wrap.clientWidth || 800, H = wrap.clientHeight || 600;
 var scene, cam, ren;
 if (!IS_MAG_MOBILE) {
   scene = new THREE.Scene();
-  cam = new THREE.PerspectiveCamera(30, W/H, 0.1, 100);
+  cam = new THREE.PerspectiveCamera(26, W/H, 0.1, 100);
   // Slightly above and left — reading perspective matching Framer ref
   cam.position.set(-0.3, 2.0, 3.6);
   cam.lookAt(0, -0.1, 0);
