@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Crabby Guy’s Little Book of Beach Etiquette — Read Before Your Feet Meet Sand</title>
+<meta name="description" content="Seventeen rules you already knew, written down by the one guy who read the signs. A beach-etiquette humor book by Jonathan Bach. $12.99 — consider it a cover charge.">
+<meta property="og:title" content="The Crabby Guy’s Little Book of Beach Etiquette">
+<meta property="og:description" content="Compiled under duress. Enforced by no one. Eighteen pages of things you already knew — $12.99, consider it a cover charge.">
+<meta property="og:type" content="book">
+<meta name="theme-color" content="#2f6f6d">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦀</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "The Crabby Guy's Little Book of Beach Etiquette",
+  "alternateName": "Read Before Your Feet Meet Sand",
+  "author": {"@type": "Person", "name": "Jonathan Bach", "description": "Attorney, mixed-media artist, author, ex beach summer code enforcer."},
+  "genre": "Humor",
+  "numberOfPages": 18,
+  "bookFormat": "https://schema.org/Paperback",
+  "offers": {"@type": "Offer", "price": "12.99", "priceCurrency": "USD"},
+  "description": "Seventeen beach rules you already knew, written down under duress by an ex beach code enforcer. Humor / Self-Defense."
+}
+</script>
+<style>
+/* ============ THE CRABBY GUY — posted-sign alt-weekly aesthetic ============ */
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --paper:#f7f1e2;        /* white paper showing through */
+  --paper-deep:#efe5cd;
+  --sand:#e5d5ae;         /* warm sand tan */
+  --sand-deep:#d3bd8a;
+  --teal:#2f6f6d;         /* faded ocean teal */
+  --teal-deep:#1e4a49;
+  --coral:#d9584a;        /* sunburn coral-red */
+  --coral-deep:#b23e31;
+  --mustard:#d69f3b;
+  --dustblue:#5b7f9e;
+  --ink:#33302a;          /* driftwood ink */
+  --ink-soft:#5c574c;
+  --hand:'Caveat',cursive;
+  --sign:'Staatliches',sans-serif;
+  --body:'Spectral',serif;
+}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--body);color:var(--ink);overflow-x:hidden;
+  background-color:var(--paper);
+  background-image:radial-gradient(rgba(140,115,70,.07) 1px,transparent 1px),radial-gradient(rgba(140,115,70,.05) 1px,transparent 1px);
+  background-size:22px 22px,31px 31px;background-position:0 0,11px 11px;
+}
+::selection{background:var(--coral);color:#fff}
+#scroll-progress{position:fixed;top:0;left:0;height:4px;width:0;background:linear-gradient(90deg,var(--coral),var(--mustard));z-index:2000;transition:width .1s linear}
+.skip-nav{position:absolute;left:-9999px;top:0;background:var(--ink);color:#fff;padding:10px 18px;z-index:3000}
+.skip-nav:focus{left:12px;top:12px}
+
+/* ---------- nav ---------- */
+nav{position:sticky;top:0;z-index:1000;background:rgba(247,241,226,.94);backdrop-filter:blur(14px);padding:14px 38px;display:flex;align-items:center;justify-content:space-between;border-bottom:3px solid var(--teal);transition:.3s}
+nav.scrolled{padding:9px 38px;box-shadow:0 4px 22px rgba(51,48,42,.14)}
+nav .logo{font-family:var(--sign);font-size:1.35rem;letter-spacing:1.5px;color:var(--teal-deep);text-decoration:none;display:flex;align-items:center;gap:8px}
+nav .links{display:flex;align-items:center;gap:6px}
+nav .links a{color:var(--ink);text-decoration:none;font-family:var(--sign);letter-spacing:1px;font-size:.95rem;padding:8px 15px;border-radius:4px;transition:.25s}
+nav .links a:hover{color:var(--coral);background:rgba(217,88,74,.08)}
+nav .links a.cta-nav{background:var(--coral);color:var(--paper);padding:9px 22px;box-shadow:0 3px 0 var(--coral-deep)}
+nav .links a.cta-nav:hover{background:var(--coral-deep);transform:translateY(-1px)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;padding:64px 26px 58px;overflow:hidden;background:
+  linear-gradient(180deg,#cfe0dd 0%,#dbe7de 34%,#ece2c4 62%,var(--paper) 100%)}
+.hero::after{content:'';position:absolute;left:0;right:0;bottom:0;height:110px;background:radial-gradient(120% 100% at 50% 130%,rgba(211,189,138,.55),transparent 70%);pointer-events:none}
+.hero-inner{position:relative;z-index:2;max-width:1080px;margin:0 auto;display:flex;gap:52px;align-items:center;justify-content:center;flex-wrap:wrap}
+.hero-copy{flex:1 1 460px;max-width:600px}
+/* gulls */
+.gull{position:absolute;opacity:.5;animation:gullDrift linear infinite;z-index:1}
+.gull svg{width:46px;height:auto}
+@keyframes gullDrift{from{transform:translateX(-80px) translateY(0)}50%{transform:translateX(50vw) translateY(-14px)}to{transform:translateX(105vw) translateY(6px)}}
+
+/* the posted sign */
+.sign-board{background:var(--paper);border:4px solid var(--teal-deep);border-radius:6px;box-shadow:0 14px 40px rgba(30,74,73,.22),inset 0 0 0 2px var(--paper),inset 0 0 0 5px rgba(30,74,73,.25);padding:38px 34px 30px;position:relative;transform:rotate(-.5deg)}
+.sign-board .bolt{position:absolute;width:13px;height:13px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#c9c2ae,#7d7663 65%,#57513f);box-shadow:inset 0 -1px 2px rgba(0,0,0,.4)}
+.bolt.tl{top:9px;left:9px}.bolt.tr{top:9px;right:9px}.bolt.bl{bottom:9px;left:9px}.bolt.br{bottom:9px;right:9px}
+.sign-posted{display:inline-block;font-family:var(--sign);letter-spacing:5px;font-size:.82rem;color:var(--paper);background:var(--coral);padding:5px 15px 4px;border-radius:3px;margin-bottom:16px;box-shadow:0 2px 0 var(--coral-deep);animation:fadeDown .7s ease-out both}
+.sign-pre{font-family:var(--sign);font-size:clamp(1.25rem,3vw,1.7rem);letter-spacing:3px;color:var(--coral-deep);animation:fadeDown .7s ease-out .1s both}
+h1.sign-title{font-family:var(--sign);font-size:clamp(2.5rem,6.2vw,4.2rem);line-height:.98;color:var(--teal-deep);letter-spacing:1px;margin:6px 0 14px;animation:fadeDown .7s ease-out .2s both}
+h1.sign-title .etq{color:var(--ink)}
+.sign-rule{height:3px;background:repeating-linear-gradient(90deg,var(--teal-deep) 0 14px,transparent 14px 22px);margin:14px 0;animation:fadeDown .7s ease-out .28s both}
+.sign-tag{font-family:var(--body);font-style:italic;font-size:clamp(1.12rem,2.4vw,1.4rem);color:var(--ink);animation:fadeDown .7s ease-out .34s both}
+.sign-sub{font-family:var(--sign);font-size:.95rem;letter-spacing:2.5px;color:var(--ink-soft);margin-top:10px;animation:fadeDown .7s ease-out .4s both}
+.sign-blurb{font-family:var(--hand);font-size:clamp(1.35rem,2.6vw,1.6rem);color:var(--coral-deep);transform:rotate(-1.6deg);margin:20px 0 4px;animation:fadeDown .7s ease-out .48s both}
+.sign-blurb small{display:block;font-size:.72em;color:var(--ink-soft);margin-top:2px}
+.sign-author{font-family:var(--sign);letter-spacing:2px;font-size:1rem;color:var(--teal);margin-top:14px;animation:fadeDown .7s ease-out .54s both}
+.hero-cta-row{margin-top:24px;display:flex;gap:14px;align-items:center;flex-wrap:wrap;animation:fadeDown .7s ease-out .62s both}
+.btn{display:inline-block;font-family:var(--sign);letter-spacing:1.5px;font-size:1.05rem;text-decoration:none;padding:14px 34px;border-radius:5px;transition:.25s;cursor:pointer;border:none}
+.btn-coral{background:var(--coral);color:var(--paper);box-shadow:0 4px 0 var(--coral-deep)}
+.btn-coral:hover{transform:translateY(-3px);box-shadow:0 7px 0 var(--coral-deep),0 12px 26px rgba(217,88,74,.35)}
+.btn-ghost{background:transparent;color:var(--teal-deep);border:2.5px solid var(--teal);box-shadow:none}
+.btn-ghost:hover{background:var(--teal);color:var(--paper)}
+.cover-charge{font-family:var(--hand);font-size:1.25rem;color:var(--ink-soft);transform:rotate(1deg)}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-16px)}to{opacity:1;transform:translateY(0)}}
+
+/* pictogram strip */
+.picto-strip{display:flex;gap:18px;justify-content:flex-start;flex-wrap:wrap;margin-top:26px;animation:fadeDown .7s ease-out .7s both}
+.picto{display:flex;flex-direction:column;align-items:center;gap:5px;width:64px}
+.picto .ring{position:relative;width:52px;height:52px;border:4px solid var(--coral);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.35rem;background:rgba(247,241,226,.85);box-shadow:0 2px 8px rgba(51,48,42,.12)}
+.picto .ring::after{content:'';position:absolute;width:118%;height:4px;background:var(--coral);transform:rotate(-45deg);border-radius:2px}
+.picto span.lbl{font-family:var(--sign);font-size:.6rem;letter-spacing:1.2px;color:var(--ink-soft);text-align:center}
+
+/* hero cover slot */
+.hero-cover{flex:0 0 300px;transform:rotate(2deg);position:relative;animation:fadeDown .8s ease-out .5s both}
+.hero-cover .tape{position:absolute;top:-14px;left:50%;transform:translateX(-50%) rotate(-3deg);width:110px;height:30px;background:rgba(214,159,59,.45);box-shadow:0 1px 4px rgba(0,0,0,.12);z-index:3}
+
+/* ---------- universal art slot (auto-swaps when image exists) ---------- */
+.art-slot{position:relative;background:repeating-linear-gradient(-45deg,var(--paper-deep) 0 18px,#e9dec2 18px 36px);border:3px dashed var(--sand-deep);border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.art-slot img{display:none;width:100%;height:100%;object-fit:cover}
+.art-slot.loaded{border-style:solid;border-color:var(--teal);background:none}
+.art-slot.loaded img{display:block}
+.art-slot.loaded .art-pending{display:none}
+.art-pending{text-align:center;padding:18px 16px}
+.art-pending .crab{font-size:1.7rem;display:block;margin-bottom:6px;filter:grayscale(.3);opacity:.8}
+.art-pending .t1{display:block;font-family:var(--sign);letter-spacing:2px;font-size:.78rem;color:var(--ink-soft);text-transform:uppercase}
+.art-pending .t2{display:block;font-family:var(--hand);font-size:1.15rem;color:var(--teal-deep);margin-top:4px}
+.ratio-land{aspect-ratio:3/2}
+.ratio-cover{aspect-ratio:2/3;width:300px;max-width:80vw;box-shadow:0 16px 38px rgba(51,48,42,.25)}
+
+/* ---------- ticker ---------- */
+.banner{background:var(--teal);padding:13px 0;overflow:hidden;border-top:3px solid var(--teal-deep);border-bottom:3px solid var(--teal-deep)}
+.banner-track{display:flex;width:max-content;animation:scrollBanner 38s linear infinite}
+.banner-track:hover{animation-play-state:paused}
+.banner-track span{font-family:var(--sign);font-size:1.02rem;letter-spacing:2.5px;color:var(--paper);white-space:nowrap;padding:0 26px}
+.banner-track span b{color:var(--mustard);font-weight:normal}
+@keyframes scrollBanner{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ---------- stats ---------- */
+.stats-row{display:flex;justify-content:center;gap:clamp(26px,6vw,86px);flex-wrap:wrap;padding:46px 20px 40px;text-align:center}
+.stat-num{font-family:var(--sign);font-size:clamp(2.4rem,6vw,3.6rem);color:var(--coral);line-height:1}
+.stat-label{font-family:var(--sign);font-size:.8rem;letter-spacing:2.5px;color:var(--ink-soft);margin-top:6px;text-transform:uppercase}
+.stat-note{font-family:var(--hand);font-size:1.05rem;color:var(--teal);margin-top:2px}
+
+/* ---------- shared section chrome ---------- */
+section{position:relative}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+.sec-tag{display:inline-block;font-family:var(--sign);font-size:.8rem;letter-spacing:4px;color:var(--paper);background:var(--teal);padding:5px 14px 4px;border-radius:3px;margin-bottom:14px}
+h2.sec-title{font-family:var(--sign);font-size:clamp(1.9rem,4.6vw,3rem);color:var(--teal-deep);letter-spacing:1px;line-height:1.05;margin-bottom:14px}
+.sec-sub{font-style:italic;font-size:clamp(1.02rem,2vw,1.2rem);color:var(--ink-soft);max-width:640px}
+
+/* ---------- affidavit / statement ---------- */
+.statement{padding:72px 0 64px}
+.affidavit{position:relative;background:#fbf7ec;border:1.5px solid var(--sand-deep);box-shadow:0 10px 34px rgba(51,48,42,.13);padding:clamp(28px,5vw,54px);max-width:820px;margin:34px auto 0;transform:rotate(.4deg)}
+.affidavit::before{content:'EXHIBIT A';position:absolute;top:22px;right:-14px;font-family:var(--sign);font-size:1.05rem;letter-spacing:3px;color:var(--coral);border:3px solid var(--coral);border-radius:4px;padding:6px 14px 4px;transform:rotate(8deg);opacity:.85;background:rgba(247,241,226,.9)}
+.affidavit p{font-size:clamp(1rem,2vw,1.13rem);line-height:1.85;margin-bottom:18px}
+.affidavit p:last-child{margin-bottom:0}
+.affidavit .drop::first-letter{font-family:var(--sign);font-size:3.1em;float:left;line-height:.82;padding:4px 10px 0 0;color:var(--coral)}
+.affidavit em{color:var(--teal-deep)}
+.affidavit .kicker{font-family:var(--hand);font-size:1.5rem;color:var(--coral-deep);transform:rotate(-.8deg);display:inline-block}
+
+/* ---------- field guide / host ---------- */
+.host{padding:70px 0;background:linear-gradient(180deg,var(--paper) 0%,#ece0c3 50%,var(--paper) 100%)}
+.host-card{display:flex;gap:40px;align-items:stretch;flex-wrap:wrap;background:var(--paper);border:3px solid var(--teal-deep);border-radius:10px;box-shadow:0 12px 36px rgba(30,74,73,.16);padding:clamp(22px,4vw,44px);margin-top:36px}
+.host-art{flex:1 1 380px;display:flex;flex-direction:column;gap:10px}
+.host-art .art-slot{flex:1;min-height:260px}
+.host-facts{flex:1 1 340px}
+.host-facts h3{font-family:var(--sign);font-size:1.7rem;letter-spacing:1.5px;color:var(--coral-deep);margin-bottom:4px}
+.host-facts .latin{font-style:italic;color:var(--ink-soft);margin-bottom:18px}
+.spec-list{list-style:none;margin:0 0 22px}
+.spec-list li{font-size:1.05rem;padding:9px 0 9px 34px;border-bottom:1.5px dashed var(--sand-deep);position:relative}
+.spec-list li::before{content:'✓';position:absolute;left:6px;font-family:var(--sign);color:var(--teal);font-size:1.1rem}
+.field-table{width:100%;border-collapse:collapse;font-size:.98rem}
+.field-table td{padding:8px 10px;border:1.5px solid var(--sand-deep);vertical-align:top}
+.field-table td:first-child{font-family:var(--sign);letter-spacing:1.5px;color:var(--teal-deep);width:96px;background:var(--paper-deep)}
+
+/* ---------- the docket / rules ---------- */
+.docket{padding:76px 0 60px}
+.rules-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:26px;margin-top:40px}
+.rule-card{background:#fbf7ec;border:2px solid var(--sand-deep);border-radius:9px;overflow:hidden;box-shadow:0 6px 20px rgba(51,48,42,.09);transition:transform .3s cubic-bezier(.4,0,.2,1),box-shadow .3s;display:flex;flex-direction:column}
+.rule-card:hover{transform:translateY(-5px) rotate(-.3deg);box-shadow:0 14px 34px rgba(51,48,42,.16)}
+.rule-head{display:flex;align-items:baseline;gap:12px;padding:16px 20px 10px}
+.rule-no{font-family:var(--sign);font-size:.85rem;letter-spacing:2px;color:var(--paper);background:var(--dustblue);padding:4px 10px 3px;border-radius:3px;white-space:nowrap}
+.rule-card:nth-child(3n) .rule-no{background:var(--coral)}
+.rule-card:nth-child(3n+2) .rule-no{background:var(--teal)}
+.rule-head h3{font-family:var(--sign);font-size:1.45rem;letter-spacing:1px;color:var(--ink);line-height:1}
+.rule-card .art-slot{margin:0 20px;aspect-ratio:3/2}
+.rule-quote{font-style:italic;font-size:1.04rem;color:var(--teal-deep);padding:16px 22px 0;line-height:1.55}
+.rule-quote::before{content:'“';font-family:var(--sign);font-size:1.6em;color:var(--coral);line-height:0;vertical-align:-8px;margin-right:2px}
+.rule-line{font-size:.97rem;color:var(--ink-soft);line-height:1.7;padding:10px 22px 20px}
+.docket-note{font-family:var(--hand);font-size:1.45rem;color:var(--coral-deep);text-align:center;margin-top:36px;transform:rotate(-.6deg)}
+
+/* ---------- back cover / the moment ---------- */
+.backcover{background:var(--teal-deep);color:var(--paper);padding:86px 0;position:relative;overflow:hidden}
+.backcover::before{content:'';position:absolute;inset:0;background:radial-gradient(90% 70% at 50% -10%,rgba(95,150,148,.5),transparent 70%);pointer-events:none}
+.backcover .sec-tag{background:var(--coral)}
+.backcover h2.sec-title{color:var(--paper)}
+.bc-copy{max-width:720px;margin:0 auto;position:relative;z-index:1}
+.bc-copy p{font-size:clamp(1.05rem,2.2vw,1.25rem);line-height:1.85;margin-bottom:20px;color:#e9e2cf}
+.bc-copy p.punch{font-family:var(--sign);font-size:clamp(1.2rem,2.6vw,1.5rem);letter-spacing:1px;color:var(--mustard)}
+.bc-copy .bc-cta{text-align:center;margin-top:34px}
+
+/* ---------- buy ---------- */
+.buy{background:linear-gradient(150deg,var(--coral) 0%,var(--coral-deep) 78%);padding:80px 0;text-align:center;color:var(--paper);position:relative;overflow:hidden}
+.buy::after{content:'';position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.06) 2px,transparent 2px);background-size:26px 26px;pointer-events:none}
+.buy .wrap{position:relative;z-index:1}
+.buy h2{font-family:var(--sign);font-size:clamp(2rem,5vw,3.1rem);letter-spacing:1px;line-height:1.05;margin-bottom:10px}
+.buy-sub{font-style:italic;font-size:clamp(1.02rem,2.1vw,1.22rem);color:#f8e4d9;max-width:560px;margin:0 auto 8px}
+.price{font-family:var(--sign);font-size:clamp(3rem,7vw,4.6rem);margin:26px 0 2px}
+.price-note{font-family:var(--sign);letter-spacing:2.5px;font-size:.85rem;color:#f3cfc2;text-transform:uppercase}
+.price-hand{font-family:var(--hand);font-size:1.4rem;color:#ffe9b8;transform:rotate(-1deg);display:inline-block;margin:8px 0 26px}
+.buy .btn-paper{background:var(--paper);color:var(--coral-deep);box-shadow:0 4px 0 rgba(0,0,0,.25)}
+.buy .btn-paper:hover{transform:translateY(-3px);box-shadow:0 7px 0 rgba(0,0,0,.25),0 12px 26px rgba(0,0,0,.2)}
+.gift-tag{display:inline-block;margin-top:26px;background:rgba(0,0,0,.16);border:1.5px dashed rgba(247,241,226,.55);border-radius:8px;padding:12px 22px;font-size:.98rem;color:#f8e4d9}
+
+/* ---------- praise ---------- */
+.praise{padding:76px 0}
+.praise-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px;margin-top:38px}
+.p-card{background:#fbf7ec;border:2px solid var(--sand-deep);border-radius:9px;padding:26px 24px;box-shadow:0 6px 18px rgba(51,48,42,.08);position:relative;transition:transform .3s}
+.p-card:hover{transform:translateY(-4px) rotate(.4deg)}
+.p-card .stars{font-size:1rem;color:var(--mustard);letter-spacing:3px;margin-bottom:12px}
+.p-card .q{font-size:1rem;line-height:1.7;font-style:italic;color:var(--ink);margin-bottom:16px}
+.p-card .who{font-family:var(--sign);letter-spacing:1.2px;font-size:.95rem;color:var(--coral-deep)}
+.p-card .role{font-size:.85rem;color:var(--ink-soft);margin-top:2px}
+
+/* ---------- FAQ ---------- */
+.faq{padding:0 0 80px}
+.faq-list{max-width:760px;margin:36px auto 0}
+.faq-item{border:2px solid var(--sand-deep);border-radius:8px;background:#fbf7ec;margin-bottom:14px;overflow:hidden}
+.faq-item summary{list-style:none;cursor:pointer;padding:18px 22px;font-family:var(--sign);font-size:1.12rem;letter-spacing:1px;color:var(--teal-deep);display:flex;justify-content:space-between;align-items:center;gap:14px;transition:background .2s}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary:hover{background:var(--paper-deep)}
+.faq-item summary::after{content:'+';font-family:var(--sign);font-size:1.5rem;color:var(--coral);transition:transform .25s;flex-shrink:0}
+.faq-item[open] summary::after{transform:rotate(45deg)}
+.faq-item .a{padding:0 22px 20px;font-size:1rem;line-height:1.75;color:var(--ink-soft)}
+.faq-item .a a{color:var(--coral-deep)}
+
+/* ---------- tipline / list ---------- */
+.tipline{background:var(--sand);border-top:3px solid var(--sand-deep);border-bottom:3px solid var(--sand-deep);padding:64px 0}
+.tip-grid{display:flex;gap:30px;flex-wrap:wrap;justify-content:center}
+.tip-card{flex:1 1 340px;max-width:470px;background:var(--paper);border:2.5px solid var(--teal-deep);border-radius:10px;padding:32px 30px;box-shadow:0 8px 24px rgba(51,48,42,.12)}
+.tip-card h3{font-family:var(--sign);font-size:1.5rem;letter-spacing:1.5px;color:var(--teal-deep);margin-bottom:10px}
+.tip-card p{font-size:.99rem;line-height:1.7;color:var(--ink-soft);margin-bottom:20px}
+.tip-card .btn{font-size:.95rem;padding:12px 26px}
+
+/* ---------- footer ---------- */
+footer{background:var(--ink);color:#b8b2a4;padding:44px 24px 36px;text-align:center;font-size:.92rem}
+footer .f-sign{font-family:var(--sign);letter-spacing:2px;font-size:1.15rem;color:var(--paper);margin-bottom:10px}
+footer a{color:var(--mustard);text-decoration:none}
+footer a:hover{text-decoration:underline}
+footer .f-note{font-family:var(--hand);font-size:1.15rem;color:#8f897a;margin-top:14px}
+
+/* ---------- reveal ---------- */
+.reveal{opacity:0;transform:translateY(34px);transition:opacity .7s cubic-bezier(.4,0,.2,1),transform .7s cubic-bezier(.4,0,.2,1)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.rd-1{transition-delay:.12s}.rd-2{transition-delay:.24s}.rd-3{transition-delay:.36s}
+
+/* ---------- responsive ---------- */
+@media(max-width:820px){
+  nav{padding:12px 16px}
+  nav .links a:not(.cta-nav){display:none}
+  nav .logo{font-size:1.05rem}
+  .hero-inner{gap:34px}
+  .hero-cover{transform:rotate(1deg)}
+  .affidavit::before{right:8px;top:-16px}
+  .banner-track{animation-duration:26s}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<div id="scroll-progress" aria-hidden="true"></div>
+<a class="skip-nav" href="#main">Skip to content</a>
+
+<nav id="mainNav" aria-label="Main navigation">
+  <a class="logo" href="#top">🦀 THE CRABBY GUY</a>
+  <div class="links">
+    <a href="#statement">The Record</a>
+    <a href="#host">Your Host</a>
+    <a href="#docket">The Rules</a>
+    <a href="#faq">Questions</a>
+    <a href="#buy" class="cta-nav">Get the Book</a>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="gull" style="top:12%;animation-duration:34s"><svg viewBox="0 0 44 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 13 Q11 2 22 11 Q33 2 42 13" stroke="#4a6b6a" stroke-width="2.4" stroke-linecap="round"/></svg></div>
+  <div class="gull" style="top:24%;animation-duration:47s;animation-delay:-18s"><svg viewBox="0 0 44 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 13 Q11 2 22 11 Q33 2 42 13" stroke="#4a6b6a" stroke-width="2" stroke-linecap="round"/></svg></div>
+  <div class="gull" style="top:7%;animation-duration:56s;animation-delay:-30s"><svg viewBox="0 0 44 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 13 Q11 2 22 11 Q33 2 42 13" stroke="#4a6b6a" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <div class="sign-board">
+        <span class="bolt tl"></span><span class="bolt tr"></span><span class="bolt bl"></span><span class="bolt br"></span>
+        <div class="sign-posted">POSTED</div>
+        <div class="sign-pre">THE CRABBY GUY’S</div>
+        <h1 class="sign-title">LITTLE BOOK OF<br><span class="etq">BEACH ETIQUETTE</span></h1>
+        <div class="sign-rule" aria-hidden="true"></div>
+        <div class="sign-tag">Read before your feet meet sand.</div>
+        <div class="sign-sub">COMPILED UNDER DURESS &nbsp;·&nbsp; ENFORCED BY NO ONE</div>
+        <div class="sign-blurb">“Eighteen pages of things you already knew.”<small>— the author, in the book, about the book</small></div>
+        <div class="sign-author">BY JONATHAN BACH</div>
+        <div class="hero-cta-row">
+          <a class="btn btn-coral" href="#buy">Get the Book — $12.99</a>
+          <span class="cover-charge">consider it a cover charge</span>
+        </div>
+      </div>
+
+      <div class="picto-strip" aria-label="Universal beach symbols, all of them ignored">
+        <div class="picto"><span class="ring">🔊</span><span class="lbl">YOUR DJ SET</span></div>
+        <div class="picto"><span class="ring">🚬</span><span class="lbl">THE FOG</span></div>
+        <div class="picto"><span class="ring">🔥</span><span class="lbl">BURIED COALS</span></div>
+        <div class="picto"><span class="ring">🚁</span><span class="lbl">YOUR DRONE</span></div>
+        <div class="picto"><span class="ring">⛺</span><span class="lbl">THE CABANA</span></div>
+        <div class="picto"><span class="ring">🎣</span><span class="lbl">HUMAN FISHING</span></div>
+      </div>
+    </div>
+
+    <div class="hero-cover">
+      <span class="tape" aria-hidden="true"></span>
+      <!-- ART SLOT: drop the front cover at images/cover.png and it appears automatically -->
+      <div class="art-slot ratio-cover">
+        <img src="images/cover.png" alt="Front cover of The Crabby Guy’s Little Book of Beach Etiquette" onload="this.parentElement.classList.add('loaded')">
+        <div class="art-pending">
+          <span class="crab">🦀</span>
+          <span class="t1">Cover art en route</span>
+          <span class="t2">the Crabby Guy is reviewing proofs. slowly. with a red pen.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TICKER ============ -->
+<div class="banner" aria-hidden="true"><div class="banner-track">
+  <span>FILL YOUR HOLES <b>✖</b> THE OCEAN IS NOT A TOILET <b>✖</b> YOUR MUSIC IS NOT A GIFT <b>✖</b> BURY THE UMBRELLA TO THE HILT <b>✖</b> THE TIDE BRINGS IT BACK. TWICE A DAY. ON SCHEDULE. <b>✖</b> READ THE SIGNS <b>✖</b></span>
+  <span>FILL YOUR HOLES <b>✖</b> THE OCEAN IS NOT A TOILET <b>✖</b> YOUR MUSIC IS NOT A GIFT <b>✖</b> BURY THE UMBRELLA TO THE HILT <b>✖</b> THE TIDE BRINGS IT BACK. TWICE A DAY. ON SCHEDULE. <b>✖</b> READ THE SIGNS <b>✖</b></span>
+</div></div>
+
+<!-- ============ STATS ============ -->
+<div class="stats-row">
+  <div class="stat-item reveal"><div class="stat-num">17</div><div class="stat-label">Rules</div><div class="stat-note">all posted. all ignored.</div></div>
+  <div class="stat-item reveal rd-1"><div class="stat-num">18</div><div class="stat-label">Pages</div><div class="stat-note">you already knew them</div></div>
+  <div class="stat-item reveal rd-2"><div class="stat-num">$25</div><div class="stat-label">The Going Fine</div><div class="stat-note">a cover charge, and everybody knows it</div></div>
+  <div class="stat-item reveal rd-3"><div class="stat-num">0</div><div class="stat-label">Consequences</div><div class="stat-note">hence the book</div></div>
+</div>
+
+<!-- ============ STATEMENT FOR THE RECORD ============ -->
+<section class="statement" id="statement">
+  <div class="wrap">
+    <div style="text-align:center" class="reveal">
+      <span class="sec-tag">FROM THE INTRODUCTION</span>
+      <h2 class="sec-title">A Statement for the Record</h2>
+      <p class="sec-sub" style="margin:0 auto">One summer of beach code enforcement. Sworn, notarized, and still annoyed.</p>
+    </div>
+    <div class="affidavit reveal">
+      <p class="drop">I wrote this book out of frustration. Not the ordinary kind — the kind you earn by spending a summer in code enforcement with a beach patrol. The offenses weren’t just constant. Some were so inventive there was no precedent for handling them. And enforcement had teeth of Silly Putty. Compliance was theater — it lasted exactly as long as I was in view, and the beach is long.</p>
+      <p>By the third pass my opening line had worn down to <em>“Did I stutter the first two times?”</em> — which appears nowhere in the training manual. On the rare occasion a citation actually materialized, it ran twenty-five dollars. On a beach holding ten thousand people, twenty-five dollars isn’t deterring anybody. It’s a cover charge, and everybody knows it.</p>
+      <p>Full disclosure: I am not, strictly speaking, a rule follower. I’m a rule reader — completely different animal. I read every posted sign, voluntarily, and then I sort them. The rules protecting the person on the next blanket get followed to the letter. The stupid ones get bent as far as the material allows. <em>My violations come with a legal theory. Yours come with a Bluetooth speaker.</em></p>
+      <p><span class="kicker">The rules that follow are common sense — for those who possess any. For everyone else, I wrote them down.</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ YOUR HOST ============ -->
+<section class="host" id="host">
+  <div class="wrap">
+    <div style="text-align:center" class="reveal">
+      <span class="sec-tag">FIELD IDENTIFICATION CHART</span>
+      <h2 class="sec-title">Your Host: The Crabby Guy</h2>
+      <p class="sec-sub" style="margin:0 auto">Ex beach summer code enforcer. May have once or ten times exhibited excessive enforcement to repeat offenders.</p>
+    </div>
+    <div class="host-card reveal">
+      <div class="host-art">
+        <!-- ART SLOT: drop the host illustration at images/host.png -->
+        <div class="art-slot ratio-land">
+          <img src="images/host.png" alt="The Crabby Guy — arms crossed, whistle around his neck, rolled-up rulebook in his back pocket" onload="this.parentElement.classList.add('loaded')">
+          <div class="art-pending">
+            <span class="crab">🦀</span>
+            <span class="t1">Portrait pending</span>
+            <span class="t2">arms crossed. eyebrow cocked. rulebook in the back pocket.</span>
+          </div>
+        </div>
+      </div>
+      <div class="host-facts">
+        <h3>SPECIMEN NOTES</h3>
+        <div class="latin">Vigilans litoralis, non-migratory</div>
+        <ul class="spec-list">
+          <li>Sees everything</li>
+          <li>Forgets nothing</li>
+          <li>No off button</li>
+          <li>Points at signs</li>
+          <li>Resting beach face</li>
+          <li>Will call you out</li>
+        </ul>
+        <table class="field-table">
+          <tr><td>HABITAT</td><td>The quiet end of the beach, which you are about to find.</td></tr>
+          <tr><td>DIET</td><td>Posted rules, read voluntarily.</td></tr>
+          <tr><td>CALL</td><td><em>“Did I stutter the first two times?”</em></td></tr>
+          <tr><td>IF SEEN</td><td>Comply. His violations come with a legal theory. Yours come with a Bluetooth speaker.</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE DOCKET ============ -->
+<section class="docket" id="docket">
+  <div class="wrap" style="max-width:1120px">
+    <div style="text-align:center" class="reveal">
+      <span class="sec-tag">THE DOCKET</span>
+      <h2 class="sec-title">Seventeen Rules. All Posted. All Ignored.</h2>
+      <p class="sec-sub" style="margin:0 auto">Each one earned the hard way, at close range, downwind. A sampling of the charges:</p>
+    </div>
+
+    <div class="rules-grid">
+      <article class="rule-card reveal">
+        <div class="rule-head"><span class="rule-no">RULE 01</span><h3>Personal Space</h3></div>
+        <div class="art-slot"><img src="images/rule-01.png" alt="Rule 1 illustration — the invader" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: all this: available</span></div></div>
+        <p class="rule-quote">Four thousand feet of beach. He chose these four.</p>
+        <p class="rule-line">Prime oceanfront, zero money down, no closing costs — and you passed on the deal of the century to set up camp on top of me.</p>
+      </article>
+
+      <article class="rule-card reveal rd-1">
+        <div class="rule-head"><span class="rule-no">RULE 02</span><h3>The Smoke Show</h3></div>
+        <div class="art-slot"><img src="images/rule-02.png" alt="Rule 2 illustration — the smoke show" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: *cough*</span></div></div>
+        <p class="rule-quote">Local forecast: dense fog, 100% chance of you. Aircraft diverting.</p>
+        <p class="rule-line">Your vape cloud has its own weather pattern, and it smells like a combination of skunk and cotton candy.</p>
+      </article>
+
+      <article class="rule-card reveal rd-2">
+        <div class="rule-head"><span class="rule-no">RULE 03</span><h3>Audio Terrorism</h3></div>
+        <div class="art-slot"><img src="images/rule-03.png" alt="Rule 3 illustration — the speaker tower" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: (bass, via skeleton)</span></div></div>
+        <p class="rule-quote">The set list nobody requested, at a volume nobody survived.</p>
+        <p class="rule-line">Nobody within earshot arranged your playlist. We are hostages. And we are not enjoying the set.</p>
+      </article>
+
+      <article class="rule-card reveal">
+        <div class="rule-head"><span class="rule-no">RULE 04</span><h3>The Excavators</h3></div>
+        <div class="art-slot"><img src="images/rule-04.png" alt="Rule 4 illustration — the crater" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: depth: one toddler, and holding</span></div></div>
+        <p class="rule-quote">It’s not a hole. It’s a lawsuit with a view.</p>
+        <p class="rule-line">That hole you dug, with the diameter of my kitchen table and the depth of a World War I trench, is an open grave. Fill it.</p>
+      </article>
+
+      <article class="rule-card reveal rd-1">
+        <div class="rule-head"><span class="rule-no">RULE 05</span><h3>Fire &amp; Flight Hazards</h3></div>
+        <div class="art-slot"><img src="images/rule-05.png" alt="Rule 5 illustration — fire and flight" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: incoming!</span></div></div>
+        <p class="rule-quote">An $85 nylon death bird, cleared for one more victim.</p>
+        <p class="rule-line">Leave the fireworks to the professionals; they spend 364 days a year training for this one day. You bought yours from a tent in the parking lot off the highway.</p>
+      </article>
+
+      <article class="rule-card reveal rd-2">
+        <div class="rule-head"><span class="rule-no">RULE 06</span><h3>Shanty Towns &amp; Projectiles</h3></div>
+        <div class="art-slot"><img src="images/rule-06.png" alt="Rule 6 illustration — the airborne tent" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: four stakes. he used none.</span></div></div>
+        <p class="rule-quote">The cabana has its own ZIP code.</p>
+        <p class="rule-line">An umbrella that isn’t buried to the hilt is a javelin on standby. I’ve been hit by one, and the pointed end missed my face by inches.</p>
+      </article>
+
+      <article class="rule-card reveal">
+        <div class="rule-head"><span class="rule-no">RULE 07</span><h3>Trash &amp; Beasts</h3></div>
+        <div class="art-slot"><img src="images/rule-07.png" alt="Rule 7 illustration — the seagull crime family" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: witness / the muscle / the don / the lookout</span></div></div>
+        <p class="rule-quote">A crime family with wings. They know you have fries.</p>
+        <p class="rule-line">Throw one fry onto the sand and you’ve rung the dinner bell for the entire flock to mug the rest of us. You just became their supplier.</p>
+      </article>
+
+      <article class="rule-card reveal rd-1">
+        <div class="rule-head"><span class="rule-no">RULE 08</span><h3>Unsupervised Chaos</h3></div>
+        <div class="art-slot"><img src="images/rule-08.png" alt="Rule 8 illustration — the doomed nachos" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: nice spiral / the nachos never saw it coming</span></div></div>
+        <p class="rule-quote">The game concluded on impact. Ball impounded. Rules are rules.</p>
+        <p class="rule-line">A jam-packed beach is not a sporting venue. Your perfect spiral has a flight path, and it terminates in someone’s nachos.</p>
+      </article>
+
+      <article class="rule-card reveal rd-2">
+        <div class="rule-head"><span class="rule-no">RULE 09</span><h3>The Exfoliators</h3></div>
+        <div class="art-slot"><img src="images/rule-09.png" alt="Rule 9 illustration — sunscreen downwind" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: wind / pizza, now SPF 50</span></div></div>
+        <p class="rule-quote">Basting everyone downwind. Coconut and zinc oxide, family style.</p>
+        <p class="rule-line">Snapping your towel into open air is the “I’m outta here, so you all get exfoliated” maneuver, and it is a coward’s farewell.</p>
+      </article>
+
+      <article class="rule-card reveal">
+        <div class="rule-head"><span class="rule-no">RULE 10</span><h3>The Nuisance Trifecta</h3></div>
+        <div class="art-slot"><img src="images/rule-10.png" alt="Rule 10 illustration — the towel change and the drone" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: Big Brother, hovering / one sibling too many</span></div></div>
+        <p class="rule-quote">Big Brother with a camera. I have enough siblings.</p>
+        <p class="rule-line">There is a fine line between “vacation mode” and “public nuisance,” and you, sir, are drinking Jack out of the bottle at 10:47 a.m. on a Tuesday. That line is a mile behind you.</p>
+      </article>
+
+      <article class="rule-card reveal rd-1">
+        <div class="rule-head"><span class="rule-no">RULE 11</span><h3>Authority</h3></div>
+        <div class="art-slot"><img src="images/rule-11.png" alt="Rule 11 illustration — the lifeguard stand" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: one of them is watching the water</span></div></div>
+        <p class="rule-quote">They’re scanning the water. You’re scanning them.</p>
+        <p class="rule-line">The lifeguard isn’t judging your buzz. He’s mentally calculating how much you’ll weigh soaking wet.</p>
+      </article>
+
+      <article class="rule-card reveal rd-2">
+        <div class="rule-head"><span class="rule-no">RULE 12</span><h3>The Ocean Is Not a Toilet</h3></div>
+        <div class="art-slot"><img src="images/rule-12.png" alt="Rule 12 illustration — suspiciously relaxed" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: nope. / nope nope. / suspiciously relaxed</span></div></div>
+        <p class="rule-quote">The “Eh, it’s all water” doctrine, rejected by every court and both swimmers.</p>
+        <p class="rule-line">Shared water is not a private commode. The fact that I must put this in writing, with a straight face, is its own small tragedy.</p>
+      </article>
+
+      <article class="rule-card reveal">
+        <div class="rule-head"><span class="rule-no">RULE 13</span><h3>The Squatters</h3></div>
+        <div class="art-slot"><img src="images/rule-13.png" alt="Rule 13 illustration — ten empty chairs" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: 6:00 a.m. / population: zero / my chair, two feet closer</span></div></div>
+        <p class="rule-quote">Ten empty chairs. One occupied one, two feet in front of them.</p>
+        <p class="rule-line">You cannot hold the front row with a flip-flop and good intentions. First-come, first-seated. So come.</p>
+      </article>
+
+      <article class="rule-card reveal rd-1">
+        <div class="rule-head"><span class="rule-no">RULE 14</span><h3>Rods &amp; Boards</h3></div>
+        <div class="art-slot"><img src="images/rule-14.png" alt="Rule 14 illustration — casting into the swim zone" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: not a striper / the flags / take it past the flags</span></div></div>
+        <p class="rule-quote">Catch and release. The hook still hurts.</p>
+        <p class="rule-line">Your treble hook does not distinguish between a striper and a second-grader. Take it past the flags, where the fish are plentiful and the second-graders are not.</p>
+      </article>
+
+      <article class="rule-card reveal rd-2">
+        <div class="rule-head"><span class="rule-no">RULE 15</span><h3>Personal Maintenance</h3></div>
+        <div class="art-slot"><img src="images/rule-15.png" alt="Rule 15 illustration — the launch pad" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: ten small crescents of you, airborne</span></div></div>
+        <p class="rule-quote">Grooming with a blast radius. The umbrella was a lifestyle choice.</p>
+        <p class="rule-line">Clipping your toenails on the beach launches ten small crescents of you into the general population. All of it belongs behind a locked door, ideally in another state.</p>
+      </article>
+
+      <article class="rule-card reveal">
+        <div class="rule-head"><span class="rule-no">RULE 16</span><h3>Parenting</h3></div>
+        <div class="art-slot"><img src="images/rule-16.png" alt="Rule 16 illustration — mirrored blame" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: “with YOU!” / “with YOU!” / exhibit A, walking</span></div></div>
+        <p class="rule-quote">“I thought he was with you.” Nobody was with him.</p>
+        <p class="rule-line">The ocean does not babysit. It has no references, no certifications, and a record. An adult goes in too, or no one does.</p>
+      </article>
+
+      <article class="rule-card reveal rd-1">
+        <div class="rule-head"><span class="rule-no">RULE 17</span><h3>The Golden Rule</h3></div>
+        <div class="art-slot"><img src="images/rule-17.png" alt="Rule 17 illustration — the sign, ignored" onload="this.parentElement.classList.add('loaded')"><div class="art-pending"><span class="crab">🦀</span><span class="t1">Art en route</span><span class="t2">caption: BEACH RULES / cannot read, will do the stupid thing anyway</span></div></div>
+        <p class="rule-quote">They’re not decorative. Someone did the stupid thing before you.</p>
+        <p class="rule-line">Just read the signs. If reading requires too much effort, the universal symbols — the red circle, the slash — are not difficult to decipher.</p>
+      </article>
+    </div>
+
+    <p class="docket-note reveal">That’s the sampler. The full charges — with evidence — are in the book.</p>
+  </div>
+</section>
+
+<!-- ============ BACK COVER ============ -->
+<section class="backcover" id="backcover">
+  <div class="wrap">
+    <div style="text-align:center" class="reveal">
+      <span class="sec-tag">FROM THE BACK COVER</span>
+      <h2 class="sec-title">He Has Been Watching.</h2>
+    </div>
+    <div class="bc-copy reveal">
+      <p>People spend thousands of dollars a week to sit on this sand.</p>
+      <p>Then you showed up with a Bluetooth speaker, a tent the size of a Cirque du Soleil rig, and an overflowing bucket of boardwalk fries that left a trail from the fry stand to your towel, so now every seagull on the beach is following you like you’re the Pied — dare I say, Fried — Piper.</p>
+      <p>The Crabby Guy has seen you shake your towel upwind of a family of five. He’s seen you dig a hole deep enough to swallow a labradoodle, then walk away like it’s the beach’s problem now. He’s read the rules posted at the entrance. Even the pictograms. That’s more than you can say.</p>
+      <p class="punch">This book covers everything the signs already told you — except this version costs money, so maybe you’ll actually pay attention.</p>
+      <p>You already know these rules. Every time someone broke one, you chose to endure the skin-crawl rather than confront the guy. The Crabby Guy chose differently.</p>
+      <p>Read it before you go. Or don’t. The Crabby Guy knows where you set up.</p>
+      <div class="bc-cta"><a class="btn btn-coral" href="#buy">Fine. I’ll Buy the Book.</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BUY ============ -->
+<section class="buy" id="buy">
+  <div class="wrap">
+    <h2 class="reveal">Buy One for You.<br>Buy One for the Offender.</h2>
+    <p class="buy-sub reveal">Then enjoy watching them realize page 11 is about them.</p>
+    <div class="price reveal">$12.99</div>
+    <div class="price-note reveal">HUMOR / SELF-DEFENSE · 18 PAGES · FITS IN THE COOLER LID</div>
+    <div class="reveal"><span class="price-hand">consider it a cover charge</span></div>
+    <div class="reveal">
+      <a class="btn btn-paper" href="#list">Get Notified at Launch</a>
+    </div>
+    <div class="reveal"><span class="gift-tag">🎁 Fits in a stocking, a beach bag, or an anonymous manila envelope left on a towel.</span></div>
+  </div>
+</section>
+
+<!-- ============ ADVANCE PRAISE ============ -->
+<section class="praise" id="praise">
+  <div class="wrap">
+    <div style="text-align:center" class="reveal">
+      <span class="sec-tag">ADVANCE PRAISE</span>
+      <h2 class="sec-title">Unsolicited. Unverified. Unrepentant.</h2>
+    </div>
+    <div class="praise-grid">
+      <div class="p-card reveal">
+        <div class="stars">★☆☆☆☆</div>
+        <p class="q">“I’m in this book. I don’t come off well.”</p>
+        <div class="who">The Man From Rule 12</div>
+        <div class="role">Suspiciously relaxed · waist-deep · hasn’t moved in five minutes</div>
+      </div>
+      <div class="p-card reveal rd-1">
+        <div class="stars">★★★★★</div>
+        <p class="q">“He impounded our smash ball, launched it into the dunes, and we bought the book anyway. It’s that good.”</p>
+        <div class="who">Kevin</div>
+        <div class="role">Repeat offender · nice spiral, though</div>
+      </div>
+      <div class="p-card reveal rd-2">
+        <div class="stars">★★★★★</div>
+        <p class="q">“We regret nothing. The fries were unattended.”</p>
+        <div class="who">The Seagulls</div>
+        <div class="role">A crime family with wings · currently watching you eat</div>
+      </div>
+      <div class="p-card reveal rd-3">
+        <div class="stars">★★★★★</div>
+        <p class="q">“Finally, someone wrote it all down. I’ve been guarding these ten empty chairs since 6 a.m. and I agree with every word.”</p>
+        <div class="who">A Squatter</div>
+        <div class="role">Front row · population: zero · missed the point entirely</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div style="text-align:center" class="reveal">
+      <span class="sec-tag">QUESTIONS FROM THE PUBLIC</span>
+      <h2 class="sec-title">Asked, Answered, Filed.</h2>
+    </div>
+    <div class="faq-list reveal">
+      <details class="faq-item">
+        <summary>Is this book about me?</summary>
+        <div class="a">Statistically? Yes. Page through it at the store. If your ears get hot anywhere between Rule 1 and Rule 17, that’s your receipt. Buy it.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Does the Crabby Guy have any actual authority?</summary>
+        <div class="a">He had a polo shirt, a whistle, and a summer of code enforcement behind him. Enforcement had teeth of Silly Putty; compliance was theater. The book is what’s left of the authority — and it costs the same as the citation nobody feared. $12.99 versus a $25 fine. The book is the better deal, and unlike the fine, people actually read it.</div>
+      </details>
+      <details class="faq-item">
+        <summary>I follow the rules. Why would I need this?</summary>
+        <div class="a">You’re not buying it for you. Buy two: one for the beach bag, one to leave on the offender’s towel like a citation. Watching them reach page 11 costs nothing extra.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Is it for kids?</summary>
+        <div class="a">No. The kids already have <a href="https://www.clarencegetsabargain.com/" target="_blank" rel="noopener">a book with a robot in it</a>. This one is about adults behaving badly, written for the adults stuck six feet downwind of them. The shame is calibrated for someone with a mortgage.</div>
+      </details>
+      <details class="faq-item">
+        <summary>When can I get it?</summary>
+        <div class="a">The words are done. The illustrations are being drawn — loose linework, watercolor wash, seagulls with gangster body language. Join the list below and the Crabby Guy will notify you once. Only once. He hates spam more than glass on sand.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TIPLINE / LIST ============ -->
+<section class="tipline" id="list">
+  <div class="wrap">
+    <div class="tip-grid">
+      <div class="tip-card reveal">
+        <h3>📋 GET ON THE CLIPBOARD</h3>
+        <p>The good list — not the one in the book. One email when the book launches. That’s the whole arrangement. No newsletter, no “journey,” no drip campaign.</p>
+        <a class="btn btn-coral" href="mailto:jonbachlaw@gmail.com?subject=Put%20me%20on%20the%20Clipboard&body=Notify%20me%20when%20The%20Crabby%20Guy%27s%20Little%20Book%20of%20Beach%20Etiquette%20launches.">Put Me on the List</a>
+      </div>
+      <div class="tip-card reveal rd-1">
+        <h3>🚨 REPORT A VIOLATION</h3>
+        <p>Witnessed something? A cabana with its own ZIP code? A toenail incident? The Crabby Guy sees everything anyway, but confirmation is nice. Anonymous tips accepted. The best ones may end up in the sequel.</p>
+        <a class="btn btn-ghost" href="mailto:jonbachlaw@gmail.com?subject=Violation%20Report&body=Rule%20violated%3A%0ALocation%3A%0AWhat%20happened%3A">File a Report</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="f-sign">🦀 THE CRABBY GUY’S LITTLE BOOK OF BEACH ETIQUETTE</div>
+  <div>© 2026 Jonathan Bach. All rights reserved. · Also by Jonathan Bach: <a href="https://www.clarencegetsabargain.com/" target="_blank" rel="noopener">Clarence Gets a Bargain</a> — the one for the kids.</div>
+  <div class="f-note">No consequences were enforced in the making of this site.</div>
+</footer>
+
+<script>
+// nav scrolled state + progress bar
+const nav=document.getElementById('mainNav'),prog=document.getElementById('scroll-progress');
+addEventListener('scroll',()=>{
+  nav.classList.toggle('scrolled',scrollY>40);
+  const h=document.documentElement.scrollHeight-innerHeight;
+  prog.style.width=(h>0?(scrollY/h)*100:0)+'%';
+},{passive:true});
+
+// reveal on scroll
+const io=new IntersectionObserver(es=>{
+  es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}});
+},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+// art slots: hide broken-image icon while art is pending
+document.querySelectorAll('.art-slot img').forEach(img=>{
+  img.addEventListener('error',()=>{img.style.display='none'});
+  if(img.complete&&img.naturalWidth>0){img.parentElement.classList.add('loaded')}
+});
+</script>
+</body>
+</html>
