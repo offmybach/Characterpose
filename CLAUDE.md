@@ -157,6 +157,26 @@ Flag and rewrite any of these on sight:
 - Over-polished structure (intro → 3 points → conclusion, every single time)
 - Canned assistant phrases ("Hope this helps!", "Let me know if you have questions!", "Happy to assist!")
 
+**Jonathan's kill list (delete on sight — words & phrases):**
+1. "Delve." Never said it out loud. Once.
+2. "Crucial / pivotal." Nothing is that pivotal.
+3. "Tapestry." No human speaks like this.
+4. "Here's the thing." There is no thing.
+5. "Hope this helps." It doesn't. It outs you.
+6. "After careful consideration." (usually written without any.)
+7. "To provide a quick update." Just give the update.
+8. "Most people…" The lazy oversimplification.
+9. "Robust / seamless / realm." The corporate AI.
+10. Adverb abuse — "X quietly runs Y." Nothing runs.
+11. **The "It's not X, it's Y" sentence.** The most alive AI tell. Kill it every time.
+12. Fake-deep reframes — "This isn't a budget. It's a statement of intent." No.
+
+**Jonathan's kill list (patterns & discipline):**
+- Break the robotic rhythm where every sentence is the same ~18 words. Vary length hard.
+- Kill the fake-deep ending / tidy TED-talk bow. Stop mid-thought if that's where it ends.
+- Contractions in, em dashes out (use em dashes only when the rhythm truly demands it).
+- Self-critique loop: read it back as a skeptical recipient before it ships; if a line smells like AI, it dies.
+
 **The rule:** if Jonathan wouldn't say it out loud to another parent at a kid's
 soccer game, don't put it on the page.
 
