@@ -4,81 +4,63 @@ Follow-up to `competitive-audit-kids-finlit-social.md` (June 2026). That one ask
 *what are competitors posting.* This one asks *why are they beating us in search,
 and is the social gap real.*
 
-Short answer: the search gap is real and it has a specific, fixable cause. The
-social gap is mostly imaginary.
+Short answer: you rank fine for your own name and can't rank at all for the
+category — because the category SERP doesn't serve book sites. The social gap is
+mostly imaginary.
 
-**Method caveat up front:** search results here came through a search API, not a
-logged-in Google session, and LinkedIn gates post bodies behind auth. Where a
-number is verified, it says so. Where it's inferred, it says that too. The one
-thing that would settle the search question in 30 seconds is Google Search
-Console — see "Verify this yourself" at the bottom.
+**Correction, and a hard method caveat.** The first version of this document
+concluded the site was not in Google's index. That was wrong, and it was wrong
+because of my tooling. The search API available to me returns results that do not
+match real Google for this domain — it fails to surface clarencegetsabargain.com
+even for the literal domain name, and for `clarence bach money book` it returns
+David Bach's catalog and never the site. Real Google, logged in, returns
+clarencegetsabargain.com as the **#1 organic result** for that same query, with
+title and meta description rendering correctly.
+
+So: **nothing in this report about where the site does or doesn't rank can be
+sourced to my searches.** Anything ranking-related below is either from the
+user's own screenshot or flagged as needing confirmation. Findings about *other*
+sites (which pages own the category SERPs, what's on the ABA list) and the
+LinkedIn engagement numbers came from directly fetching those pages and are
+unaffected.
 
 ---
 
 ## Part 1 — Google
 
-### The finding: this isn't a ranking problem
+### What the SERP actually shows
 
-Ran the obvious searches. Here's what came back.
+From a real logged-in Google search for `clarence bach money book`:
 
-| Query | Does clarencegetsabargain.com appear? |
-|---|---|
-| `best children's books to teach kids about money 2026` | No |
-| `children's picture book financial literacy ages 6-10 classroom` | No |
-| `"Clarence Gets a Bargain" Jonathan Bach book` | **No** |
-| `clarencegetsabargain.com` | **No** |
-| `"Story First. Money Smarts Sneak In."` | **No** |
-| `"9798234076380"` (the ISBN) | **No** |
+- **clarencegetsabargain.com ranks #1.** Indexed, crawled, title and meta
+  description rendering as written. Branded search works.
+- **One blue link. No sitelinks.** For a #1 branded result, Google will often
+  expand into sitelinks (Educator Toolkit, Book Facts, Buy). It didn't.
+- **No Book rich result, no knowledge panel** — despite valid `Book` JSON-LD with
+  Offer, Review, and Rating on the page.
+- **"People also ask" served: *"What is the best finance book of all time?"* and
+  *"What is the best book to read to become rich?"***
 
-Read those bottom four rows again. An exact-match search for the book's title
-plus the author's name returns nothing. A search for the literal domain returns
-the City of Clarence, Iowa. A quoted search for a tagline that exists on exactly
-one page on the internet returns nothing.
+That last one is the tell, and it's the most useful thing in the screenshot.
 
-You are not ranking #40 for "money books for kids." You are not in the index in
-any way these searches can reach. Competitors aren't soaring above you. They're
-the only ones in the pool.
+Those are **adult personal-finance questions.** Google generated them from its
+read of the query and the result. Nothing about "children's book," "ages 6–10,"
+"read-aloud," "classroom," or "picture book." Google has the site indexed but has
+not confidently classified it as *children's literature / K–5 education*. It's
+filing you somewhere near the adult money-book shelf — the David Bach shelf.
 
-That's the good news, weirdly. Ranking gaps take a year to close. Indexing gaps
-take weeks.
+That's a topical-authority problem, not an indexing problem. And it's consistent
+with the one thing I could verify independently: the sites that own the category
+queries are not books at all.
 
-### Why it's happening — four causes, in order of damage
+### Why competitors are above you on category searches
 
-**1. The book has no presence anywhere except your own website.**
+**1. The category SERP doesn't rank book sites. It ranks lists.**
 
-This is the big one. Searched the ISBN — nothing. Searched Amazon — nothing.
-Goodreads returns a different Jonathan Bach entirely.
+This is the finding that survives intact, and it reframes everything.
 
-Google ranks *entities*, not just pages. For a book, the entity gets built from
-Amazon, Bowker/Books In Print, Goodreads, WorldCat/library catalogs, Bookshop.org,
-and Google Books. You have an LCCN (2026906164) and an ISBN, which means the book
-is real and registered — but if the ISBN doesn't resolve anywhere Google crawls,
-Google has no reason to believe the book exists. Your `Book` JSON-LD is asserting
-a thing that nothing else on the web corroborates.
-
-Every competitor on every list I pulled has an Amazon detail page. That page is
-what ranks, and it's what feeds every other mention.
-
-**2. Name collisions are eating your brand searches.**
-
-Two of them, both brutal:
-
-- **"Jonathan Bach"** already belongs to Richard Bach's son, author of *Above the
-  Clouds*, with 11 books on Goodreads and a personal site at jonathanbach.info.
-  Google has had 30 years to decide who that name means. It isn't you.
-- **"Clarence"** is a Cartoon Network series on Disney+ and Hulu, a 2023 A24 film
-  (*The Book of Clarence*), and a town in Iowa.
-
-You're fighting two established entities for your own name. This is why
-title-plus-author searches fail: Google resolves both halves of the query to
-somebody else. The fix isn't keywords, it's disambiguation — schema `sameAs`
-links, an author entity tied to *this* book, and third-party listings that pair
-the two names in a context Google trusts.
-
-**3. The pages that actually rank for your keywords aren't authors — they're
-affiliate roundups and institutions.**
-
-This reframes the whole competitive set. Who owns page one:
+For `best children's books to teach kids about money 2026` and
+`children's picture book financial literacy ages 6-10 classroom`, page one is:
 
 - **Affiliate listicles** — michaelryanmoney.com, wealthywomanfinance.com,
   mommoneymap.com, moneyparents.com, thatssomontessori.com, myfirstnestegg.com,
@@ -89,19 +71,51 @@ This reframes the whole competitive set. Who owns page one:
   Brightly (Penguin Random House), gohenry, Creative Teaching Press, Hills Bank,
   Tuttle Twins.
 
-Sam Renick, Beth Kobliner, Tom Henske, Susan Beacham — none of their own sites
-showed up in these SERPs either. They're not winning search. They're winning
-*placement inside the pages that win search.*
+Sam Renick, Beth Kobliner, Tom Henske, Susan Beacham — **none of their own sites
+rank on these queries either.** Not one. They're not beating you with better SEO.
+They're winning by being *listed inside* the pages that rank.
 
-The ABA Foundation list alone carries 25 titles. Kimberly Wilson has three slots
-on it. The Berenstain Bears have three. Jasmine Paul's *A Boy, a Budget, and a
-Dream* — the closest peer comp, flagged in the June audit — appears on both the
-ABA list and the My First Nest Egg list. That's not a social-media win. That's
-list placement.
+The ABA Foundation list carries 25 titles. Kimberly Wilson holds three slots. The
+Berenstain Bears hold three. Jasmine Paul's *A Boy, a Budget, and a Dream* — the
+closest peer comp from the June audit — sits on both the ABA list and the My First
+Nest Egg list.
 
-**Your entire SEO strategy should be: get on those lists.** Not outrank them.
-Get on them. They're mostly affiliate sites that need Amazon links to monetize —
-which loops straight back to cause #1.
+**You cannot win "best money books for kids" with your homepage.** The format is
+wrong. Google has decided that query wants a comparison article, and a
+single-book site will never be one. The only two ways in are to get cited inside
+those lists, or to publish comparison-format content of your own.
+
+**2. Name collisions — worse than I first thought.**
+
+There are three, not two:
+
+- **"Jonathan Bach"** belongs to Richard Bach's son, author of *Above the Clouds*,
+  11 books on Goodreads, personal site at jonathanbach.info.
+- **"David Bach"** — 10x NYT bestselling money author, 13 books, 7M+ copies, owns
+  the *Automatic Millionaire* and *Finish Rich* series. **Bach + money already
+  means him.** This is almost certainly why Google's "People also ask" went to
+  adult finance: in Google's model, a Bach who writes about money is David.
+- **"Clarence"** is a Cartoon Network series on Disney+ and Hulu, a 2023 A24 film
+  (*The Book of Clarence*), and a town in Iowa.
+
+You rank #1 when someone types all three signal words. The problem is everything
+short of that resolves to somebody else.
+
+**3. Verify whether the book has listings off-site.**
+
+I flagged this as confirmed in the first draft. It isn't — same broken tool. But
+it's worth you checking directly, because it's the input to the roundup-list play:
+does the ISBN (979-8-234-07638-0) resolve on Amazon, Goodreads, Bookshop.org,
+Google Books, and in Bowker/Books In Print?
+
+Google builds book entities from those sources. If they're thin or absent, that
+would explain both the missing Book rich result and the topical misclassification
+— your `Book` schema asserts facts nothing else corroborates. And the affiliate
+listicles are Amazon-monetized, so they structurally can't feature a title with no
+Amazon link.
+
+If the listings are already live and healthy, this drops off the list and the play
+becomes purely outreach.
 
 **4. Technical issues — real, but the smallest of the four.**
 
@@ -116,10 +130,13 @@ which loops straight back to cause #1.
   You may be verified via DNS or the GA property — worth confirming.
 - `robots.txt`, `sitemap.xml` (17 URLs), `llms.txt`, canonical tag, and the
   JSON-LD (Book, FAQPage, Review, Person, AlignmentObject) are all **correct**.
-  Genuinely good schema work. It's just describing a book the rest of the web has
-  never heard of.
+  Genuinely good schema work.
 
-Fixing all of #4 changes nothing if #1 stays broken.
+One thing worth chasing here: valid `Book` schema with `Offer`, `Review`, and
+`Rating` and *still* no rich result at #1 is unusual. Run the homepage through
+Google's Rich Results Test. Either the markup is being rejected for a reason the
+validator will name, or Google isn't trusting the review data — three on-site
+reviews with no corroborating source is a common reason for suppression.
 
 ---
 
@@ -183,54 +200,70 @@ page by an order of magnitude. That's a real asset you're not using.
 
 ## What to do, ranked by return
 
-**1. Get the book listed where Google looks.** Amazon first — it's the single
-highest-leverage action available and it unblocks everything below it. Then
-Goodreads, Bookshop.org, Google Books, and confirm the Bowker/Books In Print
-record is live so the ISBN resolves. Nothing else on this list works until the
-ISBN returns something.
+**1. Pitch the roundup lists.** This is the whole ballgame for category search.
+They are the page-one competition, and no amount of on-site work will replace
+being on them. Start with the institutional lists — ABA Foundation, ALA/FINRA
+LibGuides, WeAreTeachers, Brightly — because they carry the most authority and
+don't need affiliate economics. Then work the affiliate blogs.
 
-**2. Pitch the roundup lists.** They're the actual page-one competition and most
-of them are affiliate-funded, so they want new titles with buyable links. Start
-with the institutional ones (ABA Foundation, ALA/FINRA LibGuides, WeAreTeachers,
-Brightly) because they carry the most authority and don't need affiliate
-economics — then work the affiliate blogs. Your angle writes itself and no one
-else on those lists has it: **every book on the ABA list teaches earning and
-saving. Yours is the only one that teaches spending** — the whole transaction,
-through the register, including sales tax.
+Your pitch angle writes itself and nobody else on those lists has it: **every
+book on the ABA list teaches earning and saving. Yours is the only one that
+teaches spending** — the complete transaction, through the register, including
+sales tax. That's a genuine hole in every list I read.
 
-**3. Fix the name collision.** Add `sameAs` to the Person schema pointing at your
-real author profiles. Where possible, publish as a distinct byline. Make every
-third-party listing pair "Jonathan Bach" with "Clarence Gets a Bargain" so Google
-gets enough co-occurrence to build a separate entity.
+**2. Confirm the off-site listings.** Amazon, Goodreads, Bookshop.org, Google
+Books, Bowker/Books In Print. If the ISBN doesn't resolve on these, fix that
+first — it feeds the Book rich result, the entity classification, and the
+affiliate lists' ability to feature you at all. If they're already live, skip it.
 
-**4. Split the 1 MB homepage.** Load the six resource modals by iframe `src`
-instead of inlined `srcdoc`. Cuts page weight hard, kills the duplicate content,
-and collapses 14 H1s down to one.
+**3. Fix the topical classification.** Google is serving adult-finance "People
+also ask" on a K–5 picture book. Add `sameAs` to the Person schema pointing at
+real author profiles. Make sure every off-site listing pairs "Jonathan Bach" with
+"Clarence Gets a Bargain" *and* a children's/education context — you're competing
+with David Bach for "Bach + money," and he has 7 million copies of head start.
+Chase coverage in kidlit, teacher, and librarian venues over finance venues; the
+inbound context is what teaches Google which shelf you're on.
 
-**5. On social, write the Henske post.** Not the stats post, not the FinLit Month
+**4. Publish comparison-format content.** You can't beat listicles with a
+homepage, but you can publish pages that match the format the SERP wants. You
+already have the raw material: `state-of-the-states.html`, the curriculum
+alignment matrix, the standards crosswalk. A page like "K–5 money books, compared
+by what they actually teach" — honest, including competitors — is a format Google
+already rewards on these queries, and it's the kind of page librarians link to.
+
+**5. Run the Rich Results Test** on the homepage. #1 with valid Book schema and no
+rich result is a solvable anomaly.
+
+**6. Split the 1 MB homepage.** Load the six resource modals by iframe `src`
+instead of inlined `srcdoc`. Cuts page weight, kills the duplicate content, and
+collapses 14 H1s to one. Also a candidate explanation for the missing sitelinks.
+
+**7. On social, write the Henske post.** Not the stats post, not the FinLit Month
 post. The arrogant checklist with a hole in it. Two you already own:
 *"Everything a 4th grader should know before they walk into a store"* and
 *"Nine things Clarence's mom did that your mom probably did too"* — the receipt
 photo, the grocery-price game, Guess the Price at dinner. End on an open question
 and let parents finish it.
 
-**6. Point Maryann at teacher Facebook groups.** One classroom read-aloud story
+**8. Point Maryann at teacher Facebook groups.** One classroom read-aloud story
 from a 30-year veteran beats fifty author-page posts.
 
 ---
 
-## Verify this yourself
+## Open questions I couldn't answer
 
-The API-based searches behind this report are strong evidence but not proof.
-Settle it in five minutes:
+My search tooling can't see this domain the way Google does, so these need to come
+from Search Console. They're the difference between guessing and knowing:
 
-1. Google `site:clarencegetsabargain.com` while logged in. Zero results confirms
-   the diagnosis outright.
-2. Google Search Console → **Pages** report. It will name the exact reason
-   (Discovered–not indexed, Crawled–not indexed, noindex, etc.).
-3. Search Console → **URL Inspection** on the homepage → Request Indexing.
-4. Search Console → **Sitemaps** — confirm `sitemap.xml` was submitted and read.
+1. **Which queries actually bring impressions and clicks?** Search Console →
+   Performance → Queries. This answers "why are competitors above me" directly,
+   with real numbers, in about a minute. Sort by impressions with low CTR — that's
+   the list of queries where you're on the board but nobody's clicking.
+2. **How many pages are indexed?** Search Console → Pages. All 17 sitemap URLs, or
+   just a few? If the resource pages aren't indexed, that's a lot of dead weight.
+3. **Any manual actions or Core Web Vitals failures?** Both would explain
+   suppressed sitelinks and rich results.
+4. **Does the ISBN resolve off-site?** (See fix #2.)
 
-If Search Console shows the site indexed and I've read this wrong, the story
-changes from "invisible" to "ranking poorly," and the fix list reorders — but
-items 1 and 2 stay at the top either way.
+Send me a screenshot of the Performance → Queries tab and I can tell you exactly
+which category terms you're close on and which are out of reach.
