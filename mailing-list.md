@@ -35,6 +35,17 @@ is a better argument than a fourth follow-up.
 | **Sarah Wright** (NYPL), **Amy Boglarski** (Boston PL) | Librarians assess binding, trim size, and shelf-fit by hand. A link is close to useless to them. |
 | **Neale Godfrey**, **Cinders McLeod** | Peer authors. The offer is a **trade**, not a gift. Ask for theirs back; it turns a pitch into a relationship. |
 
+## Delaware — added July 2026
+
+| Who | Why physical matters |
+|---|---|
+| **Dr. Bonnie Meszaros** 🔵 | The one exception to the mail-on-a-yes rule, and mail it early. She co-authored the National Standards for Financial Literacy and built a K–1 curriculum where every lesson is a binder wrapped around a picture book. Judging whether a children's book carries real economics is literally her job. She cannot do that with a flipbook link. |
+| **Dr. Jennifer Nauman** | Superintendent over five elementary schools in Lewes, Rehoboth, and Milton. Spent eight years as an elementary principal. If she holds it, five buildings are one forward away. |
+| **Equetta Jones** | Love Creek principal and moderator of NAESP's Early Career Principal Community of Practice. A local yes that carries nationally. |
+| **Matthew Keen** | New principal at Rehoboth Elementary. Hand-deliver this one — it is four blocks from the boardwalk and nobody walks a book into a school. |
+
+Full detail and addresses: `contacts-delaware.md`.
+
 ## Tier 2 — mail if they engage at all
 
 Tracy Hilliard · Justin Holbrook · Megan Kirts · Daniel Rauen · Annie Shoen and
