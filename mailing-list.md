@@ -57,6 +57,10 @@ Podcasters, reporters, columnists, and academics. They want a hook, a fact, or a
 they can search. A parcel is friction for them, not flattery. The exception is a
 reviewer who asks for a physical copy, which some will.
 
+**The Stanford three fall here** — Annamaria Lusardi 🔵, Andrea Sticha 🐋, and Neale
+Mahoney 🐋. All whales, all digital. Send the flipbook link and the argument, never a
+box. Letters and the full reasoning are in `jumpstart-clearinghouse-strategy.md`.
+
 ---
 
 ## Two Baltimore ones you should hand-deliver
