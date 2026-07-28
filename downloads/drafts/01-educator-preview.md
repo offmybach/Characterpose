@@ -81,7 +81,7 @@ By the end of the 4-week module, students will:
 
 | Framework | Strand | Concepts Hit |
 |---|---|---|
-| Jump$tart 2021 National Standards | Spending & Saving (Standards 1–4); Financial Decision Making (Standards 1–2) | Wants/Needs, Budgeting, Comparison Shopping, Markdowns, Smart Choices |
+| Jump$tart: Spending; Saving; Earning Income; Managing Credit | Wants/Needs, Budgeting, Comparison Shopping, Markdowns, Smart Choices |
 | CEE National Standards for Financial Literacy | Standard 2 (Buying Goods and Services); Standard 3 (Saving) | Budgeting, Smart Purchasing, 529 |
 | CCSS Math | 1.OA.A.1, 2.OA.A.1, 2.MD.C.8, 4.NF.B.6, 5.NBT.B.7 | Money operations, percentage discount (gr. 3–5), decimals (gr. 5) |
 | CCSS ELA | RI.1.1–RI.5.1, RI.1.3–RI.5.3, SL.1.1–SL.5.1 | Key Ideas, Vocabulary, Collaborative Discussion |
