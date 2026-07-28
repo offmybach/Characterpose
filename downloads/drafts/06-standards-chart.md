@@ -14,29 +14,29 @@ The book's teaching concepts, in order of appearance, with the strongest standar
 
 | # | Concept | Story Pages | Glossary | Primary Standard |
 |---|---|---|---|---|
-| 1 | ***Wants vs. Needs*** | 1–3, 25–26, 30 | ✓ | Jump$tart: Spending; CEE Standard 2 |
-| 2 | Budgeting | 3, 30 | ✓ | Jump$tart: Spending; CEE Standard 2 |
-| 3 | Household bills | 3 | ✓ | Jump$tart: Spending |
-| 4 | Mortgage | 3 | ✓ | Jump$tart: Spending |
-| 5 | Income | 24 (implied) | ✓ | Jump$tart: Earning Income |
+| 1 | ***Wants vs. Needs*** | 1–3, 25–26, 30 | ✓ | Jump$tart: Spending 4-1; CEE Standard 2 |
+| 2 | Budgeting | 3, 30 | ✓ | Jump$tart: Spending 4-3; CEE Standard 2 |
+| 3 | Household bills | 3 | ✓ | Jump$tart: Spending 4-3|
+| 4 | Mortgage | 3 | ✓ | Jump$tart: Credit 4-2|
+| 5 | Income | 24 (implied) | ✓ | Jump$tart: Earning Income 4-6|
 | 6 | Charitable giving | 4 | ✓ | CEE Standard 3 (Saving); FDIC 3–5 |
-| 7 | Sale ads | 4–5 | ✓ | Jump$tart: Spending |
+| 7 | Sale ads | 4–5 | ✓ | Jump$tart: Spending 4-5|
 | 8 | Comparison shopping | 5, 9–10, 27, 30 | ✓ | CEE Standard 2; CCSS.Math 2.MD.C.8 |
-| 9 | 529 college savings | 6, 24 | ✓ | Jump$tart: Saving; CEE Standard 3 |
+| 9 | 529 college savings | 6, 24 | ✓ | Jump$tart: Saving 4-2; CEE Standard 3 |
 | 10 | College & tuition | 6 | ✓ | CEE Standard 3 |
-| 11 | Coupons (paper, mail, email, text) | 7–8, 22 | ✓ | Jump$tart: Spending |
+| 11 | Coupons (paper, mail, email, text) | 7–8, 22 | ✓ | Jump$tart: Spending 4-5|
 | 12 | Picking the right store | 9–11 | — | CEE Standard 2 |
-| 13 | Clearance section | 13–18 | ✓ | Jump$tart: Spending |
-| 14 | Markdowns | 16–18 | ✓ | Jump$tart: Spending |
+| 13 | Clearance section | 13–18 | ✓ | Jump$tart: Spending 4-5|
+| 14 | Markdowns | 16–18 | ✓ | Jump$tart: Spending 4-5|
 | 15 | Comparing similar products | 19–21 | — | CCSS.Math 4.NF.B.6 (gr. 4–5) |
-| 16 | Smart purchase decision | 21 | — | Jump$tart: Spending |
+| 16 | Smart purchase decision | 21 | — | Jump$tart: Spending 4-4|
 | 17 | Sales tax | 22 | ✓ | CEE Standard 2 |
-| 18 | Combining coupon + clearance | 22 | — | Jump$tart: Spending; CCSS.Math 5.NBT.B.7 |
-| 19 | Receipt as proof of purchase | 22 | ✓ | Jump$tart: Spending |
-| 20 | Consumer awareness ("use what you buy") | 25, 29 | ✓ | Jump$tart: Spending |
-| 21 | Lifelong saving habits | 24, 26–30 | ✓ | Jump$tart: Saving; CEE Standard 3 |
+| 18 | Combining coupon + clearance | 22 | — | Jump$tart: Spending 4-5; CCSS.Math 5.NBT.B.7 |
+| 19 | Receipt as proof of purchase | 22 | ✓ | Jump$tart: Spending|
+| 20 | Consumer awareness ("use what you buy") | 25, 29 | ✓ | Jump$tart: Spending 4-4|
+| 21 | Lifelong saving habits | 24, 26–30 | ✓ | Jump$tart: Saving 4-1; CEE Standard 3 |
 | 22 | Family money games | 27–28 | — | CEE Standard 2 |
-| 23 | Future shopping events (Black Friday, Cyber Monday, Prime Day) | 32 | ✓ | Jump$tart: Spending |
+| 23 | Future shopping events (Black Friday, Cyber Monday, Prime Day) | 32 | ✓ | Jump$tart: Spending 4-5|
 
 **Legend:** Glossary ✓ = term has its own entry in the book's official two-page back-matter glossary.
 
