@@ -30,16 +30,52 @@ The board also carries 4 zone reps, 24 county and Baltimore City reps, plus midd
 
 | Role | Name | Note |
 |---|---|---|
-| **Executive Director** | **Stephanie A. Morris** | **Starts 1 August 2026.** Arrives from CEO of SHAPE America; before that deputy executive director at NAEYC. |
+| **Executive Director (incoming)** | **Stephanie A. Morris** | Starts **1 August 2026**. |
+| Executive Director (outgoing) | L. Earl Franks | Retires 31 July 2026 after nine years. Not worth pitching. |
 | President | April Knight | |
 | Assoc. Exec. Director, Communications & **Editor-in-Chief, *Principal* magazine** | **Kaylen Tucker, Ph.D.** | At NAESP since 2007. |
 | Assoc. Exec. Director, Policy & Advocacy | David Griffith | |
 
-### Timing worth acting on
+### Finding Stephanie A. Morris — she is hard to identify, and here is why
 
-**Stephanie Morris starts August 1** — days from now. Do **not** write in week one; you land in the pile every new executive gets. Write in **late September**, roughly 60 days in, when she wants early wins and has cleared her inbox. Her background matters: she came from **NAEYC — early childhood**, which is exactly the band your book serves.
+"Stephanie Morris" is a common name and she has not started at NAESP yet, so her
+profile almost certainly still reads SHAPE America. Use these to confirm you have
+the right person:
 
-**Kaylen Tucker is the better first contact regardless.** *Principal* goes to elementary principals nationally, and an editor there since 2007 knows what her readers actually use. A mention in *Principal* reaches more elementary decision-makers than any single endorsement will.
+- **MBA, University of Maryland, Robert H. Smith School of Business**
+- **BA in Russian and Eurasian Studies, Mount Holyoke College** — this is the giveaway. Almost nobody in education association leadership has that degree.
+- **CEO, SHAPE America** — current title until 31 July 2026
+- Before that: **Deputy Executive Director, NAEYC**, working on developmentally appropriate practice and research-based early learning
+
+If the profile you found has none of those, it is a different Stephanie Morris.
+
+**If she is not findable on LinkedIn at all**, that is normal for association
+executives. Two other routes:
+
+1. **SHAPE America** — still her employer until 31 July. Their press office can forward.
+2. **NAESP directly** — she takes the seat 1 August, so mail addressed to the executive director's office will reach her from then.
+
+### Two things worth knowing about her
+
+**She came out of early childhood.** NAEYC is the early childhood body, and her
+work there was developmentally appropriate practice. That is the exact argument
+your book rests on: that spending competence comes before saving competence
+developmentally. She will either recognise that framing immediately or tell you
+it is wrong, and both are useful.
+
+**She has a Maryland MBA.** Robert H. Smith is College Park. That is not a deep
+tie, but it is a real one, and you are local.
+
+### Timing
+
+Do **not** write in her first week. Write in **late September**, roughly 60 days
+in, when she wants early wins and has cleared the inbox every new executive
+inherits.
+
+**Kaylen Tucker is the better first contact regardless.** *Principal* goes to
+elementary principals nationally, and an editor there since 2007 knows what her
+readers actually use. A mention in *Principal* reaches more elementary
+decision-makers than any single endorsement will.
 
 ### Order I would work it
 
