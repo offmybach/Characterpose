@@ -11,4 +11,4 @@ Disallow: /social-assets.html
 Disallow: /review-cards.html
 Disallow: /badge-generator.html
 
-Sitemap: https://www.clarencegetsabargain.com/sitemap.xml
+Sitemap: https://clarencegetsabargain.com/sitemap.xml
