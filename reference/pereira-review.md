@@ -69,7 +69,7 @@ sentences together from different paragraphs.
 
 ## Guard
 
-`scripts/check_pereira_quote.py` compares every rendering on the site against section 2 and
+`scripts/check_reviews.py` compares every rendering on the site against section 2 and
 fails if the full text drifts or a short version stops being an exact excerpt. Run it after
 touching any review markup. If she revises again, update section 2 and the log below —
 never section 1.

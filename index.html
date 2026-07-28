@@ -669,7 +669,21 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
             "name": "Anonymous Teacher",
             "jobTitle": "3rd Grade Teacher, NJ Public Schools"
           },
-          "reviewBody": "My students fought over who got to hold the book during read-aloud. Fought. Over a book about money."
+          "reviewBody": "My students fought over who got to hold the book during read-aloud. Fought. Over a book about money. If that doesn't tell you something, I don't know what will."
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Wally Luckeydoo, Ed.D.",
+            "jobTitle": "2026 EIFLE Educator of the Year; 2026 Jump$tart Corey Carlisle Award"
+          },
+          "reviewBody": "I love the hands-on moments like using the coupon at the register and learning why saving money is important. The introduction to 529 accounts is a great way to show how saving for the future works."
         },
         {
           "@type": "Review",
@@ -1067,10 +1081,17 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       <div class="t-author">Maryann Milewski Moskal</div>
       <div class="t-role">Veteran Elementary School Educator &bull; 30+ Years Classroom Experience</div>
     </div>
+    <div class="t-card reveal reveal-delay-4">
+      <span class="t-avatar">&#127942;</span>
+      <div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="t-quote">&ldquo;I love the hands-on moments like using the coupon at the register and learning why saving money is important. The introduction to 529 accounts is a great way to show how saving for the future works.&rdquo;</p>
+      <div class="t-author">Wally Luckeydoo, Ed.D.</div>
+      <div class="t-role">2026 EIFLE Educator of the Year &bull; 2026 Jump$tart Corey Carlisle Award</div>
+    </div>
     <div class="t-card reveal reveal-delay-3">
       <span class="t-avatar">&#129302;</span>
       <div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-      <p class="t-quote">&ldquo;It taught me how to get sales to save money, which made me feel more grown-up and smart. I would recommend this book to other kids!&rdquo;</p>
+      <p class="t-quote">&ldquo;It taught me how to get sales to save money, which made me feel more grown-up and smart.&rdquo;</p>
       <div class="t-author">Josie K., Age 10</div>
       <div class="t-role">Student Reader</div>
     </div>
@@ -2343,12 +2364,12 @@ var pages = [
       '\u2014 Maryann Milewski Moskal, Veteran Elementary School Educator \u00B7 30+ Years');
     drawReview(c, m, top + cH + gap, w - m*2, cH,
       'My students fought over who got to hold the book during read-aloud. Fought. Over a book about money. If that doesn\'t tell you something, I don\'t know what will.',
-      '\u2014 3rd Grade Teacher, NJ Public Schools');
+      '\u2014 Anonymous Teacher \u00b7 3rd Grade, NJ Public Schools');
     drawReview(c, m, top + (cH + gap) * 2, w - m*2, cH,
       'I love the hands-on moments like using the coupon at the register and learning why saving money is important. The introduction to 529 accounts is a great way to show how saving for the future works.',
       '\u2014 Wally Luckeydoo, Ed.D. \u00b7 2026 EIFLE Educator of the Year');
     drawReview(c, m, top + (cH + gap) * 3, w - m*2, cH,
-      'This book was really interesting and fun to read! It taught me how to get sales to save money. My favorite part was learning that small decisions, like saving a little at a time, can make a big difference later.',
+      'This book was really interesting and fun to read! It taught me how to get sales to save money, which made me feel more grown-up and smart.',
       '\u2014 Josie K., Age 10');
     drawCornerCurl(c, w, h);
   }),
