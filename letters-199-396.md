@@ -1,13 +1,68 @@
 # Letters 199–396
 
-Ranks 199–396. Heavier on district, curriculum, academic, and credit union contacts than the first file.
+Heavier on district, curriculum, academic and credit union contacts.
 
-**198 letters.** Copy the block under each name. Nothing else needs editing.
+**198 letters — 4 whales.** Copy the block under each name.
+
+🐋 = whale. One yes from these moves the needle by itself.
 
 ---
 
+## 🐋 WHALES — send these first
+
+| | Who | Why they matter |
+|---|---|---|
+| 1 | [Carly Urban](#carly-urban) | Montana State — definitive research on finlit mandates |
+| 2 | [Iris SooJin Park](#iris-soojin-park) | UW-Madison — the group that picked the CFPB Bookshelf titles |
+| 3 | [Neale Mahoney](#neale-mahoney) | Stanford SIEPR — Director |
+| 4 | [Bina Shrimali](#bina-shrimali) | SF Fed — VP, Community Engagement & Analysis |
+
+### 🐋 Carly Urban
+*Montana State — definitive research on finlit mandates*  
+*1st-degree · DM*
+
+```
+Professor Urban — your work on financial education mandates is the best evidence we have on what actually moves outcomes, and nearly all of it sits at high school. I wrote a K-5 book on the premise that elementary is both untested and undersupplied. Is there research I should know before I keep saying that? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### 🐋 Iris SooJin Park
+*UW-Madison — the group that picked the CFPB Bookshelf titles*  
+*1st-degree · DM*
+
+```
+Iris — you're at UW-Madison, which is where the Center for Financial Security picked the titles for the CFPB's Money as You Grow Bookshelf. Mine is K-5 and goes at spending instead of saving. Do you know who evaluates additions to that shelf? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### 🐋 Neale Mahoney
+*Stanford SIEPR — Director*  
+*1st-degree · DM*
+
+```
+Professor Mahoney — a question rather than a pitch. My K-5 book argues consumer transaction competence is taught almost nowhere, despite being the money behavior kids perform first. From a behavioral angle, is that a real gap or a rounding error? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### 🐋 Bina Shrimali
+*SF Fed — VP, Community Engagement & Analysis*  
+*1st-degree · DM*
+
+```
+Bina — community engagement at the SF Fed is where household financial capability actually gets measured. Mine teaches the spending half, on the theory the sequence is backwards. Does that square with what you see? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+
+---
+
+# Everything else
+
 
 ## Academic
+
+### Hanna Yu
+*Ph.D. Candidate | Financial Literacy & Well-Being | Consumer & Family Science | Educator · 1st-degree · DM*
+
+```
+Hanna — you study financial literacy and wellbeing, so you'll spot the seams. My premise: spending is the first money skill a kid uses and no picture book is built around it. I'd value a researcher's read on whether that holds for ages 6-10. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
 
 ### Casey Halliley
 *Award-winning financial literacy educator, Speaker, Professor, Founder of The Orchard Method · 1st-degree · DM*
@@ -17,80 +72,17 @@ Casey — an award-winning financial literacy educator and founder of The Orchar
 ```
 
 ### Clarissa Theiss
-*Financial Literacy Ambassador; President of Penn State Mock Trial Association | Schreyer Scholar at Penn State · 1st-degree · DM*
+*Financial Literacy Ambassador; President of Penn State Mock Trial Association | Schreyer Scholar at Penn  · 1st-degree · DM*
 
 ```
 Clarissa — as a financial literacy ambassador you already sell people on why this matters. Mine teaches six-year-olds to spend deliberately. Fit the students or events you reach? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Hanna Yu
-*Ph.D. Candidate | Financial Literacy & Well-Being | Consumer & Family Science | Educator · 1st-degree · DM*
-
-```
-Hanna — you study financial literacy and wellbeing, so you'll spot the seams. My premise: spending is the first money skill a kid uses and no picture book is built around it. I'd value a researcher's read on whether that holds for ages 6-10. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
 ### Nicholas Hotalen
-*Senior Financial Literacy Student Ambassador; Economics and Mathematics (Systems Analysis) Student at Penn Sta · 1st-degree · DM*
+*Senior Financial Literacy Student Ambassador; Economics and Mathematics (Systems Analysis) Student at Pen · 1st-degree · DM*
 
 ```
 Nicholas — a senior student ambassador sees which material actually lands. Mine is K-5, teaching spending rather than saving. Fit your outreach, or too young? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Andrea Sticha
-*Research Director · 1st-degree · DM*
-
-```
-Andrea — as a research director you'll want the claim before the book. Mine: consumer transaction competence is taught almost nowhere in K-5. I built a picture book and free toolkit around it. Evidence against? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Angela Fontes
-*Executive Director | Academic Researcher | Bridging data and hands-on work in the community to improve financi · 1st-degree · DM*
-
-```
-Angela — you bridge data and practice, which is exactly where I need checking. My claim: children's financial education is overwhelmingly saving-focused and the sequencing is backwards. Is there data contradicting me? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Anjana Ranjit MPH
-*Adjunct Professor; Associate Lecturer @ Curry College | Doctoral Candidate ABD · 1st-degree · DM*
-
-```
-Anjana — a public health lens on financial capability is unusual and useful. Mine treats spending competence as a preventive intervention rather than a curriculum topic. Does that framing make sense to you? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Carly Urban
-*Professor of Economics at Montana State University · 1st-degree · DM*
-
-```
-Professor Urban — your work on financial education mandates is the best evidence we have on what actually moves outcomes, and nearly all of it sits at high school. I wrote a K-5 book on the premise that elementary is both untested and undersupplied. Is there research I should know before I keep saying that? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Derek Tharp
-*Professor | Financial Planner | Researcher · 1st-degree · DM*
-
-```
-Derek — you sit between research and practice, which is where my premise should get stress-tested. I argue we teach kids saving first when spending is the transaction they actually perform. Does the sequencing claim survive? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Dr. Chelsea Dowell
-*Lecturer in Economics; Business Economist, Educator, & Consultant uplifting communities with servant leadershi · 1st-degree · DM*
-
-```
-Dr. Dowell — as an economics lecturer you'll want the premise tested. Mine: we teach children saving first, but spending is the transaction they perform first, so the sequence is backwards. Does it survive scrutiny? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Iris SooJin Park
-*PhD Candidate at the University of Wisconsin-Madison Department of Insurance Economics and Actuarial Analytics · 1st-degree · DM*
-
-```
-Iris — you're at UW-Madison, which is where the Center for Financial Security picked the titles for the CFPB's Money as You Grow Bookshelf. Mine is K-5 and goes at spending instead of saving. Do you know who evaluates additions to that shelf? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Jordan Hall
-*Graduate Student; Masters Student at Alvernia University · 1st-degree · DM*
-
-```
-Jordan — a graduate student's read is useful because you're close to the research and not yet committed to a position. My premise: spending competence precedes saving competence and is untaught. Does it hold? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Mark Duggan
@@ -100,11 +92,46 @@ Jordan — a graduate student's read is useful because you're close to the resea
 Professor Duggan — well outside your usual work, so briefly. I wrote a children's book on the premise that spending competence is untaught and precedes saving competence. If someone at SIEPR studies early financial capability, I'd value the name. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
+### Derek Tharp
+*Professor | Financial Planner | Researcher · 1st-degree · DM*
+
+```
+Derek — you sit between research and practice, which is where my premise should get stress-tested. I argue we teach kids saving first when spending is the transaction they actually perform. Does the sequencing claim survive? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Shinae Choi
+*Associate Professor at The University of Alabama · 1st-degree · DM*
+
+```
+Professor Choi — your work on family financial wellbeing is adjacent to my premise: spending competence is taught almost nowhere in K-5 despite being the first money behavior kids perform. Does that match the literature? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Angela Fontes
+*Executive Director | Academic Researcher | Bridging data and hands-on work in the community to improve fi · 1st-degree · DM*
+
+```
+Angela — you bridge data and practice, which is exactly where I need checking. My claim: children's financial education is overwhelmingly saving-focused and the sequencing is backwards. Is there data contradicting me? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
 ### Melanie D. Jewkes
 *Extension Professor · 1st-degree · DM*
 
 ```
 Melanie — Extension reaches families where money is concrete, which is how mine teaches it: one purchase, start to register. Fit Extension programming, and does the premise hold for the families you serve? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Anjana Ranjit MPH
+*Adjunct Professor; Associate Lecturer @ Curry College | Doctoral Candidate ABD · 1st-degree · DM*
+
+```
+Anjana — a public health lens on financial capability is unusual and useful. Mine treats spending competence as a preventive intervention rather than a curriculum topic. Does that framing make sense to you? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Dr. Chelsea Dowell
+*Lecturer in Economics; Business Economist, Educator, & Consultant uplifting communities with servant lead · 1st-degree · DM*
+
+```
+Dr. Dowell — as an economics lecturer you'll want the premise tested. Mine: we teach children saving first, but spending is the transaction they perform first, so the sequence is backwards. Does it survive scrutiny? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Narmin Nahidi
@@ -114,18 +141,18 @@ Melanie — Extension reaches families where money is concrete, which is how min
 Dr. Nahidi — you teach finance at graduate level, where the gaps students carry up from childhood are plainly visible. Mine tries to close one at six. I'd value an academic's read on whether the premise is sound or merely convenient. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Neale Mahoney
-*Director; Director of the Stanford Institute for Economic Policy Research and Professor of Economics at Stanfo · 1st-degree · DM*
+### Andrea Sticha
+*Research Director · 1st-degree · DM*
 
 ```
-Professor Mahoney — a question rather than a pitch. My K-5 book argues consumer transaction competence is taught almost nowhere, despite being the money behavior kids perform first. From a behavioral angle, is that a real gap or a rounding error? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Andrea — as a research director you'll want the claim before the book. Mine: consumer transaction competence is taught almost nowhere in K-5. I built a picture book and free toolkit around it. Evidence against? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Shinae Choi
-*Associate Professor at The University of Alabama · 1st-degree · DM*
+### Jordan Hall
+*Graduate Student; Masters Student at Alvernia University · 1st-degree · DM*
 
 ```
-Professor Choi — your work on family financial wellbeing is adjacent to my premise: spending competence is taught almost nowhere in K-5 despite being the first money behavior kids perform. Does that match the literature? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Jordan — a graduate student's read is useful because you're close to the research and not yet committed to a position. My premise: spending competence precedes saving competence and is untaught. Does it hold? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### William McKeel III
@@ -177,81 +204,11 @@ Joel — an AFC with an MPA judges both the content and the delivery. It's a 36-
 Ryan — a money success center sees the downstream cost of what nobody taught at eight. Mine teaches the complete purchase at six, sales tax included. Does starting that early actually stick, in your experience? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Ali Ibrahimov
-*Financial Analyst II · 2nd-degree · InMail*
+### Megan McCoy, Ph.D., L...
+*Acting Personal Financial Planning Program Chair · 2nd-degree · InMail*
 
 ```
-Ali — an analyst's read on a simple claim: children's financial education teaches saving and skips the transaction entirely. I wrote the counterexample for ages 6-10. Does the gap look real to you? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Anna LO PRETE
-*Associate Professor · 2nd-degree · InMail*
-
-```
-Professor Lo Prete — a question from outside the academy. My children's book argues spending competence precedes saving competence developmentally. Is there literature that settles the sequencing either way? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Ashley Danielle
-*Sport Management Instructor · 2nd-degree · InMail*
-
-```
-Ashley — outside your field, so quickly. I wrote a children's book teaching six-year-olds to spend deliberately. If you work with young athletes or families, it may be useful. Worth a look? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Beau Brannan
-*Visiting Professor · 2nd-degree · InMail*
-
-```
-Beau — a visiting professor's read is useful precisely because you see many programs. Mine is a spending book, not a saving one, K-5, five frameworks. Does the premise hold up? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Bryan Bulmer
-*Advisor II, College of Arts and Sciences · 2nd-degree · InMail*
-
-```
-Bryan — you advise students who often arrive without the basics. Mine plants one at six: compare before you buy, and know what the register adds. Fit anything you point families toward? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### CMA Dr. Niranjan Mah ...
-*Associate Professor (Finance) in School of Business Management · 2nd-degree · InMail*
-
-```
-Dr. Niranjan — a finance academic's read on a children's book premise: spending competence precedes saving competence and is taught almost nowhere. Does that survive in your context? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Carly Escue
-*Director of Executive Education - Jones College of Business · 2nd-degree · InMail*
-
-```
-Carly — executive education is a long way from a picture book, so briefly: mine teaches the complete purchase to six-year-olds. If your college does community or K-12 outreach, would it fit? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Didine Erskine, CFP®
-*Certified Financial Planner · 2nd-degree · InMail*
-
-```
-Didine — a CFP's read on a children's book. Mine teaches the complete purchase, sales tax included, to six-year-olds. Does it get the money right, and would you point families to it? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Jaime Barajas, M. A.
-*C) Ethnic Studies Assistant Professor · 2nd-degree · InMail*
-
-```
-Jaime — an ethnic studies lens raises a fair question about my book: it's a working family talking honestly about bills and tradeoffs, which is rarer in this category than it should be. Would you tell me whether it rings true? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Jay Sexton, MBA, Doct .. .
-*Instructor of Business · 2nd-degree · InMail*
-
-```
-Jay — as a business instructor you see students arrive with gaps set a decade earlier. Mine tries to close one at six. Would the premise hold up in your classroom? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Jaycob A. Arbogast CF...
-*Director - Center for Excellence in Finance · 2nd-degree · InMail*
-
-```
-Jaycob — a center for excellence in finance sees where competence actually comes from. Mine argues it starts with one supervised purchase at six. Does that framing interest you? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Dr. McCoy — financial therapy says money behavior is emotional and early. Mine meets a six-year-old at the first want in a store and walks him to his own decision. Does that land clinically, or is it wishful? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Kim Holder
@@ -261,25 +218,11 @@ Jaycob — a center for excellence in finance sees where competence actually com
 Kim — a center for economic education knows what teachers actually adopt versus politely accept. Mine is aligned to CEE and four others with a full crosswalk, and elementary is usually the thinnest shelf. Fit your teacher work? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Lamya Alsaadi, Ph.D.
-*Assistant Professor, Finance · 2nd-degree · InMail*
-
-```
-Dr. Alsaadi — as a finance professor you'll test a premise quickly. Mine: children's financial education teaches saving almost exclusively while spending is the first transaction kids perform. Does it hold? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
 ### Maria Edlin King
 *Director, TN Council on Economic & Free Enterprise Education · 2nd-degree · InMail*
 
 ```
 Maria — Tennessee's council decides what reaches classrooms. Mine is K-5 plus a free zero-prep toolkit against five frameworks. Elementary is where most states have the least. Route in? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Megan McCoy, Ph.D., L...
-*Acting Personal Financial Planning Program Chair · 2nd-degree · InMail*
-
-```
-Dr. McCoy — financial therapy says money behavior is emotional and early. Mine meets a six-year-old at the first want in a store and walks him to his own decision. Does that land clinically, or is it wishful? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Panu Kalmi
@@ -289,11 +232,46 @@ Dr. McCoy — financial therapy says money behavior is emotional and early. Mine
 Professor Kalmi — your work on financial education crosses national contexts. My premise is that spending competence is taught almost nowhere at primary level, in any country I've checked. Does that hold in the European data? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Samantha Hicks, MBA,...
-*Assistant Vice President of Financial Aid and Scholarships · 2nd-degree · InMail*
+### Anna LO PRETE
+*Associate Professor · 2nd-degree · InMail*
 
 ```
-Samantha — financial aid sees the end of a long chain that starts absurdly early. Mine starts at six with spending rather than saving. Fit any family-facing program you run? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Professor Lo Prete — a question from outside the academy. My children's book argues spending competence precedes saving competence developmentally. Is there literature that settles the sequencing either way? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Lamya Alsaadi, Ph.D.
+*Assistant Professor, Finance · 2nd-degree · InMail*
+
+```
+Dr. Alsaadi — as a finance professor you'll test a premise quickly. Mine: children's financial education teaches saving almost exclusively while spending is the first transaction kids perform. Does it hold? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Jaycob A. Arbogast CF...
+*Director - Center for Excellence in Finance · 2nd-degree · InMail*
+
+```
+Jaycob — a center for excellence in finance sees where competence actually comes from. Mine argues it starts with one supervised purchase at six. Does that framing interest you? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Beau Brannan
+*Visiting Professor · 2nd-degree · InMail*
+
+```
+Beau — a visiting professor's read is useful precisely because you see many programs. Mine is a spending book, not a saving one, K-5, five frameworks. Does the premise hold up? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### CMA Dr. Niranjan Mah ...
+*Associate Professor (Finance) in School of Business Management · 2nd-degree · InMail*
+
+```
+Dr. Niranjan — a finance academic's read on a children's book premise: spending competence precedes saving competence and is taught almost nowhere. Does that survive in your context? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Jay Sexton, MBA, Doct .. .
+*Instructor of Business · 2nd-degree · InMail*
+
+```
+Jay — as a business instructor you see students arrive with gaps set a decade earlier. Mine tries to close one at six. Would the premise hold up in your classroom? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Sebastian Sanders, MBA
@@ -303,14 +281,70 @@ Samantha — financial aid sees the end of a long chain that starts absurdly ear
 Sebastian — an adjunct's read is useful because you see the practical end. Mine teaches the complete purchase, sales tax included, to six-year-olds. Right first lesson, or wrong one? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
+### Bryan Bulmer
+*Advisor II, College of Arts and Sciences · 2nd-degree · InMail*
+
+```
+Bryan — you advise students who often arrive without the basics. Mine plants one at six: compare before you buy, and know what the register adds. Fit anything you point families toward? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Carly Escue
+*Director of Executive Education - Jones College of Business · 2nd-degree · InMail*
+
+```
+Carly — executive education is a long way from a picture book, so briefly: mine teaches the complete purchase to six-year-olds. If your college does community or K-12 outreach, would it fit? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Ali Ibrahimov
+*Financial Analyst II · 2nd-degree · InMail*
+
+```
+Ali — an analyst's read on a simple claim: children's financial education teaches saving and skips the transaction entirely. I wrote the counterexample for ages 6-10. Does the gap look real to you? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Ashley Danielle
+*Sport Management Instructor · 2nd-degree · InMail*
+
+```
+Ashley — outside your field, so quickly. I wrote a children's book teaching six-year-olds to spend deliberately. If you work with young athletes or families, it may be useful. Worth a look? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Jaime Barajas, M. A.
+*C) Ethnic Studies Assistant Professor · 2nd-degree · InMail*
+
+```
+Jaime — an ethnic studies lens raises a fair question about my book: it's a working family talking honestly about bills and tradeoffs, which is rarer in this category than it should be. Would you tell me whether it rings true? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Didine Erskine, CFP®
+*Certified Financial Planner · 2nd-degree · InMail*
+
+```
+Didine — a CFP's read on a children's book. Mine teaches the complete purchase, sales tax included, to six-year-olds. Does it get the money right, and would you point families to it? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Samantha Hicks, MBA,...
+*Assistant Vice President of Financial Aid and Scholarships · 2nd-degree · InMail*
+
+```
+Samantha — financial aid sees the end of a long chain that starts absurdly early. Mine starts at six with spending rather than saving. Fit any family-facing program you run? Concepts and specs: https://clarencegetsabargain.com/book-facts.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
 
 ## Credit union / Bank
 
-### Alyssa Osorio
-*Corporate Training & Financial Literacy Officer at Falcon International Bank · 1st-degree · DM*
+### Cherry Dale
+*Senior Vice President Financial Education; Sr. Vice President of Financial Education at Virginia Credit U · 1st-degree · DM*
 
 ```
-Alyssa — corporate training and financial literacy at a bank is an unusual double. Mine is K-5 with free ungated teacher materials and a CRA-friendly funding packet. Fit Falcon's community work? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Cherry — you run one of the few credit union financial education programs that isn't a poster and a pencil. Mine is K-5 with the whole toolkit free, plus a grant packet with the math already done: 25 copies, $499.75, sponsor logo optional. Built so somebody in your seat doesn't have to build the case from scratch. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Monica Van Arsdale
+*Financial Education Program Manager at Virginia Credit Union · 1st-degree · DM*
+
+```
+Monica — you run financial education for a credit union, so the useful detail is this: there's a grant-ready packet behind the book with exact cost math for classroom sets, built for precisely this kind of sponsorship. Fit a member or school program? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Angela De Gennaro
@@ -320,32 +354,18 @@ Alyssa — corporate training and financial literacy at a bank is an unusual dou
 Angela — in-school financial wellness is the hardest version of this job and the most useful. Mine is a K-5 read-aloud with zero-prep lessons, which is what a visiting educator actually needs rather than what looks good in a binder. Fit your Visions work? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Brittney Owens
-*Financial Education Specialist; Financial Education Specialist at SchoolsFirst Federal Credit Union · 1st-degree · DM*
-
-```
-Brittney — SchoolsFirst puts you in front of educators constantly, which is the audience for the free toolkit as much as the book. Four lessons, assessments, a crosswalk, all ungated. Fit a member program? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Cherry Dale
-*Senior Vice President Financial Education; Sr. Vice President of Financial Education at Virginia Credit Union · 1st-degree · DM*
-
-```
-Cherry — you run one of the few credit union financial education programs that isn't a poster and a pencil. Mine is K-5 with the whole toolkit free, plus a grant packet with the math already done: 25 copies, $499.75, sponsor logo optional. Built so somebody in your seat doesn't have to build the case from scratch. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Corey G.
-*Personal Finance Educator · 1st-degree · DM*
-
-```
-Corey — as a personal finance educator you know spending is where habits form and where nobody teaches. Mine is the K-5 version: one purchase, ad to register. Fit the learners you reach? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
 ### Jon Cofield
 *Financial Education Specialist @ Cy-Fair Federal Credit Union | Psychology · 1st-degree · DM*
 
 ```
 Jon — a financial education specialist with a psychology background will care that the book is built around one decision rather than a list of concepts. Fit a Cy-Fair member or family program? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Brittney Owens
+*Financial Education Specialist; Financial Education Specialist at SchoolsFirst Federal Credit Union · 1st-degree · DM*
+
+```
+Brittney — SchoolsFirst puts you in front of educators constantly, which is the audience for the free toolkit as much as the book. Four lessons, assessments, a crosswalk, all ungated. Fit a member program? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Judette Kurasz
@@ -369,25 +389,11 @@ Kayleigh — CTE banking students are older than my readers, but HRCU's communit
 Kenda — you've said financial literacy should be offered to everyone, and elementary is usually where that promise breaks without anyone saying so. Mine is K-5 with a free ungated toolkit. Fit a program you run? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Mass B Santos CRUZ
-*Senior Relationship Banker; Experienced Program Director | Financial Empowerment Advocate | International Busi · 1st-degree · DM*
-
-```
-Hello — you run financial programs alongside the banking work, so you see both sides. Mine is K-5 with free ungated teacher materials. Fit a community or family program you run? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
 ### Michael D. Fluker
 *Financial Well-Being Expert: Financial Well-Being Manager at Credit Union 1 · 1st-degree · DM*
 
 ```
 Michael — Credit Union 1's community work reaches families directly, which is where a read-along earns its keep. The free family activity was built for a kitchen table, not a classroom. Fit? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Monica Van Arsdale
-*Financial Education Program Manager at Virginia Credit Union · 1st-degree · DM*
-
-```
-Monica — you run financial education for a credit union, so the useful detail is this: there's a grant-ready packet behind the book with exact cost math for classroom sets, built for precisely this kind of sponsorship. Fit a member or school program? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Sarah Willmett-Whiteman
@@ -397,18 +403,25 @@ Monica — you run financial education for a credit union, so the useful detail 
 Sarah — MidFirst's education work reaches schools and families both. Mine is K-5 with free zero-prep lessons and a grant-ready packet if the bank wanted to fund classroom sets. Worth a look? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Alfredo Martinez
-*Financial Inclusion & Education Officer; Financial Counselor | CUDE | Board Member · 1st-degree · DM*
+### Alyssa Osorio
+*Corporate Training & Financial Literacy Officer at Falcon International Bank · 1st-degree · DM*
 
 ```
-Alfredo — financial inclusion meets families where the gaps are widest, and elementary is where almost nothing exists. Mine is K-5 plus a free toolkit. Fit a member or community program? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Alyssa — corporate training and financial literacy at a bank is an unusual double. Mine is K-5 with free ungated teacher materials and a CRA-friendly funding packet. Fit Falcon's community work? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Bina Shrimali
-*VP, Community Engagement and Analysis at Federal Reserve Bank of San Francisco · 1st-degree · DM*
+### Mass B Santos CRUZ
+*Senior Relationship Banker; Experienced Program Director | Financial Empowerment Advocate | International · 1st-degree · DM*
 
 ```
-Bina — community engagement at the SF Fed is where household financial capability actually gets measured. Mine teaches the spending half, on the theory the sequence is backwards. Does that square with what you see? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Hello — you run financial programs alongside the banking work, so you see both sides. Mine is K-5 with free ungated teacher materials. Fit a community or family program you run? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Corey G.
+*Personal Finance Educator · 1st-degree · DM*
+
+```
+Corey — as a personal finance educator you know spending is where habits form and where nobody teaches. Mine is the K-5 version: one purchase, ad to register. Fit the learners you reach? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Dan Littman
@@ -416,6 +429,20 @@ Bina — community engagement at the SF Fed is where household financial capabil
 
 ```
 Dan — after a career at the Cleveland Fed you've thought about financial capability from the top down; I came at it from age six. Mine teaches the transaction itself. I'd value your read on whether that's where it should start. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Seema Sheth
+*SVP Federal Reserve Bank of St. Louis | Regional Executive | Louisville Branch | Local Passion - National · 1st-degree · DM*
+
+```
+Seema — the St. Louis Fed connects national research to local programs, which is where a K-5 resource fits. Mine runs 36 pages plus free toolkit against five frameworks. Fit a Louisville branch program? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Alfredo Martinez
+*Financial Inclusion & Education Officer; Financial Counselor | CUDE | Board Member · 1st-degree · DM*
+
+```
+Alfredo — financial inclusion meets families where the gaps are widest, and elementary is where almost nothing exists. Mine is K-5 plus a free toolkit. Fit a member or community program? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Jennifer Webb
@@ -426,31 +453,24 @@ Jennifer — community development officers need things that are fundable and co
 ```
 
 ### Juli Lewis
-*VP of Community Engagement at USF Federal Credit Union, Chief Relationship Officer at Michael Walters Advertis · 1st-degree · DM*
+*VP of Community Engagement at USF Federal Credit Union, Chief Relationship Officer at Michael Walters Adv · 1st-degree · DM*
 
 ```
 Juli — community engagement at a credit union usually means finding programs that scale cheaply. Mine is a book plus a completely free toolkit, so the only line item is the copies. Fit USF's work? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Mark Miyamoto
-*The Salus platform enables credit unions and community banks the ability attract and service GenZ with relevan · 1st-degree · DM*
-
-```
-Mark — Salus works with credit unions and community banks, which are exactly the institutions that fund K-5 financial literacy locally. Mine is a book plus free toolkit with a grant packet attached. Worth knowing about? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
 ### Rick Durante
-*Vice President, Director of Social Corporate Responsibility & Government Affairs; Director of Corporate Social · 1st-degree · DM*
+*Vice President, Director of Social Corporate Responsibility & Government Affairs; Director of Corporate S · 1st-degree · DM*
 
 ```
 Rick — social corporate responsibility needs outcomes you can actually report. Mine ships with a pre/post assessment and a 25-row tracking table, built so a sponsor can show what changed rather than what happened. Fit your CRA reporting? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Seema Sheth
-*SVP Federal Reserve Bank of St. Louis | Regional Executive | Louisville Branch | Local Passion - National Impa · 1st-degree · DM*
+### Mark Miyamoto
+*The Salus platform enables credit unions and community banks the ability attract and service GenZ with re · 1st-degree · DM*
 
 ```
-Seema — the St. Louis Fed connects national research to local programs, which is where a K-5 resource fits. Mine runs 36 pages plus free toolkit against five frameworks. Fit a Louisville branch program? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Mark — Salus works with credit unions and community banks, which are exactly the institutions that fund K-5 financial literacy locally. Mine is a book plus free toolkit with a grant packet attached. Worth knowing about? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Veronica Frisancho
@@ -503,7 +523,7 @@ Peyton — as a financial wellness director you decide what reaches families. Mi
 ```
 
 ### Salman Shehzad
-*Project Director — Financial Literacy Integration & National Program Cascia Lynn Fonta • 2 nd 2 Lists Executiv · 2nd-degree · InMail*
+*Project Director — Financial Literacy Integration & National Program Cascia Lynn Fonta • 2 nd 2 Lists Exe · 2nd-degree · InMail*
 
 ```
 Salman — national program integration is exactly the scale where K-5 gets forgotten. Mine runs 36 pages plus free ungated toolkit against five frameworks. Fit your integration work? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -527,53 +547,32 @@ Melissa — a curriculum specialist in an elementary school is exactly the read 
 ```
 
 ### Samantha Zimdars
-*Curriculum Developer | Reading Intervention & Social Emotional Learning Specialist | Elementary & Middle Schoo · 1st-degree · DM*
+*Curriculum Developer | Reading Intervention & Social Emotional Learning Specialist | Elementary & Middle  · 1st-degree · DM*
 
 ```
 Samantha — reading intervention plus SEL is an unusual pairing and useful here: mine is AD 620L, and the money decision doubles as an impulse-control lesson. Fit either side of your work? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Amy-Marie Rivera
-*Head of Early Childhood at The Center for Early Education · 1st-degree · DM*
+### Suzanne Devitt
+*Director- Early Childhood Education/ School Readiness at Stockton Unified School District · 1st-degree · DM*
 
 ```
-Amy-Marie — head of early childhood is the reader I hoped for. Mine starts where kids start with money, which is spending it. One trip, one decision, no worksheet. Would it work in your setting? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Angela Allen
-*Head of School · 1st-degree · DM*
-
-```
-Angela — as head of school you set what students read. Mine is a 36-page picture book teaching money through a story, with free standards-aligned lessons. Would it earn a place in your school? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Bruce Merritt
-*Assistant Director of Purchasing @ Auburn SD | NIGP-CPP Certified Procurement Professional | Certified School  · 1st-degree · DM*
-
-```
-Bruce — procurement first, charm later. Hardcover, 36 pages, nothing consumable, nothing to reorder next August. Lesson plans free and ungated. $19.99, PO and Net 30. ISBN 979-8-234-07638-0. It's a book about comparison shopping, so it would be embarrassing if it weren't good value. Specs and PO terms: https://clarencegetsabargain.com/resources/procurement.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Cynthia Lynn-Garbe
-*Director at Westminster Early Childhood Programs · 1st-degree · DM*
-
-```
-Cynthia — early childhood programs are the exact window I wrote for. Mine teaches the first money behavior a child performs, which is spending, not saving. Fit Westminster's programs? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### David Pinder
-*Superintendent of Schools · 1st-degree · DM*
-
-```
-Dr. Pinder — a superintendent's read matters most on placement rather than merit. Mine is K-5, teaching spending through a story, free standards-aligned lessons. Classroom, library, or family night. Where would you put it? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Suzanne — early childhood and school readiness is the exact window. Mine starts where a kid actually starts with money, which is spending it. One trip, one real decision, no worksheet anywhere. Fit an early-grades classroom in Stockton? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Jacquelyn Alvarez
 *School Principal | MEd in Educational Administration and Supervision
-Experience as a Principal, Assistant Prin · 1st-degree · DM*
+Experience as a Principal, Assistant · 1st-degree · DM*
 
 ```
 Jacquelyn — a principal who has run early childhood has seen every reading level in the building. Mine is a 36-page read-aloud at AD 620L teaching money through one shopping trip. Would it work in your school? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Bruce Merritt
+*Assistant Director of Purchasing @ Auburn SD | NIGP-CPP Certified Procurement Professional | Certified Sc · 1st-degree · DM*
+
+```
+Bruce — procurement first, charm later. Hardcover, 36 pages, nothing consumable, nothing to reorder next August. Lesson plans free and ungated. $19.99, PO and Net 30. ISBN 979-8-234-07638-0. It's a book about comparison shopping, so it would be embarrassing if it weren't good value. Specs and PO terms: https://clarencegetsabargain.com/resources/procurement.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Jake Lappi
@@ -583,11 +582,32 @@ Jacquelyn — a principal who has run early childhood has seen every reading lev
 Jake — DCPS classrooms tell you fast whether something works. Mine is K-5, teaching spending, with four zero-prep standards-aligned lessons. Elementary is usually where financial literacy gets skipped entirely. Where would it fit? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Kim M. Braud
-*Financial Power For Life™ Proprietary Financial Literacy Framework | Principal Strategist | Publisher | Curric · 1st-degree · DM*
+### Shawn Joseph
+*Incoming Superintendent | ShawnJosephEdD.org · 1st-degree · DM*
 
 ```
-Kim — you built your own financial literacy framework, so you think in systems. Mine is narrow by design: one transaction taught completely rather than a survey of concepts. Does narrow beat broad at K-5? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Shawn — congratulations on the superintendency. As you set priorities: elementary financial literacy is the gap nobody gets assigned. I made a picture book plus free toolkit for K-5. Early grades or family programming — or not a priority this year? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### David Pinder
+*Superintendent of Schools · 1st-degree · DM*
+
+```
+Dr. Pinder — a superintendent's read matters most on placement rather than merit. Mine is K-5, teaching spending through a story, free standards-aligned lessons. Classroom, library, or family night. Where would you put it? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Mallory Wright Gayle
+*Educational Leader | Ed.D. | Leadership Development, Student Success & Organizational Change | Assistant  · 1st-degree · DM*
+
+```
+Mallory — assistant principal, adjunct, and speaker means you've taught every audience there is. Mine is K-5, and a six-year-old makes one real money decision and gets it right. Does it land in an elementary classroom? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Angela Allen
+*Head of School · 1st-degree · DM*
+
+```
+Angela — as head of school you set what students read. Mine is a 36-page picture book teaching money through a story, with free standards-aligned lessons. Would it earn a place in your school? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Kristen Johnson
@@ -597,11 +617,11 @@ Kim — you built your own financial literacy framework, so you think in systems
 Kristen — as a director of education you decide what reaches learners. Mine skips saving and teaches spending, with four zero-prep lessons. Elementary is usually the thinnest shelf. Fit your programs? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Mallory Wright Gayle
-*Educational Leader | Ed.D. | Leadership Development, Student Success & Organizational Change | Assistant Princ · 1st-degree · DM*
+### Sarah Galetti, Ed.D.
+*Director of Curriculum and Instruction · 2nd-degree · InMail*
 
 ```
-Mallory — assistant principal, adjunct, and speaker means you've taught every audience there is. Mine is K-5, and a six-year-old makes one real money decision and gets it right. Does it land in an elementary classroom? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Sarah — curriculum and instruction is where a book like this lives or dies. Mine has a 23-row crosswalk and four 45-minute lessons written alongside the book rather than added after. Would you look at whether that claim holds? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Malori Bigler
@@ -618,6 +638,27 @@ Malori — you lead financial literacy curriculum and build educational games, s
 Michael — education and outreach at Troutwood aims at making the future tangible. Mine makes the present tangible for a six-year-old: one purchase, compared and paid for, tax included. Fit your outreach? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
+### Peggy Muldoon
+*Founder, Altitude Learning Group - Financial Education Consultant & Instructional Designer | K–12 Teacher · 1st-degree · DM*
+
+```
+Peggy — as a consultant and instructional designer you'll see whether the lessons teach or just look like they do. Mine are four 45-minute plans with assessments and a crosswalk. Would you look? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Kim M. Braud
+*Financial Power For Life™ Proprietary Financial Literacy Framework | Principal Strategist | Publisher | C · 1st-degree · DM*
+
+```
+Kim — you built your own financial literacy framework, so you think in systems. Mine is narrow by design: one transaction taught completely rather than a survey of concepts. Does narrow beat broad at K-5? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Peter Myers
+*Financial Literacy Advisory Committee Member; Financial Literacy Educator & Curriculum Designer Specializ · 1st-degree · DM*
+
+```
+Peter — on an advisory committee you weigh which resources are worth backing. Mine is K-5 plus a free ungated toolkit against five frameworks. Fit the committee's work? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
 ### Nechama Yaffe
 *Early Childhood Consultant, M.S. Ed., IMH-E · 1st-degree · DM*
 
@@ -625,46 +666,39 @@ Michael — education and outreach at Troutwood aims at making the future tangib
 Nechama — early childhood consulting means you know what actually holds a young child's attention. Mine is 36 pages where the money lesson never interrupts the plot. Fit the settings you advise? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Peggy Muldoon
-*Founder, Altitude Learning Group - Financial Education Consultant & Instructional Designer | K–12 Teacher PD | · 1st-degree · DM*
+### Amy-Marie Rivera
+*Head of Early Childhood at The Center for Early Education · 1st-degree · DM*
 
 ```
-Peggy — as a consultant and instructional designer you'll see whether the lessons teach or just look like they do. Mine are four 45-minute plans with assessments and a crosswalk. Would you look? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Amy-Marie — head of early childhood is the reader I hoped for. Mine starts where kids start with money, which is spending it. One trip, one decision, no worksheet. Would it work in your setting? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Peter Myers
-*Financial Literacy Advisory Committee Member; Financial Literacy Educator & Curriculum Designer Specializing i · 1st-degree · DM*
+### Cynthia Lynn-Garbe
+*Director at Westminster Early Childhood Programs · 1st-degree · DM*
 
 ```
-Peter — on an advisory committee you weigh which resources are worth backing. Mine is K-5 plus a free ungated toolkit against five frameworks. Fit the committee's work? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Sarah Galetti, Ed.D.
-*Director of Curriculum and Instruction · 2nd-degree · InMail*
-
-```
-Sarah — curriculum and instruction is where a book like this lives or dies. Mine has a 23-row crosswalk and four 45-minute lessons written alongside the book rather than added after. Would you look at whether that claim holds? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Shawn Joseph
-*Incoming Superintendent | ShawnJosephEdD.org · 1st-degree · DM*
-
-```
-Shawn — congratulations on the superintendency. As you set priorities: elementary financial literacy is the gap nobody gets assigned. I made a picture book plus free toolkit for K-5. Early grades or family programming — or not a priority this year? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Suzanne Devitt
-*Director- Early Childhood Education/ School Readiness at Stockton Unified School District · 1st-degree · DM*
-
-```
-Suzanne — early childhood and school readiness is the exact window. Mine starts where a kid actually starts with money, which is spending it. One trip, one real decision, no worksheet anywhere. Fit an early-grades classroom in Stockton? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Cynthia — early childhood programs are the exact window I wrote for. Mine teaches the first money behavior a child performs, which is spending, not saving. Fit Westminster's programs? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Ann Loorz
-*Executive Director, Purchasing; Executive Director, Purchasing, Warehouse and Graphics at Fresno Unified Schoo · 1st-degree · DM*
+*Executive Director, Purchasing; Executive Director, Purchasing, Warehouse and Graphics at Fresno Unified  · 1st-degree · DM*
 
 ```
 Ann — Fresno Unified buys at real scale, so facts first: hardcover, 36 pages, nothing consumable, free ungated teacher materials, PO and Net 30, ISBN 979-8-234-07638-0. Route to get it reviewed? Specs and PO terms: https://clarencegetsabargain.com/resources/procurement.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Gina Klug
+*Purchasing Agent; Purchasing Agent at Smithtown CSD | NYSAMPO Board Member | Elevating Public Procurement · 1st-degree · DM*
+
+```
+Gina — a purchasing agent's questions, answered before you ask them: 36-page hardcover, no consumables to reorder, free zero-prep lessons, PO and Net 30, ISBN 979-8-234-07638-0, LCCN 2026906164. Clear Smithtown's bar? Specs and PO terms: https://clarencegetsabargain.com/resources/procurement.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Michael J. Martirano
+*Superintendent, Allegany County Public Schools. Sr Fellow, Center for Digital Education. Former Superinte · 1st-degree · DM*
+
+```
+Dr. Martirano — a superintendent who's also a digital education fellow sees the whole board. Mine is deliberately analog: a printed read-along with free digital lessons behind it. Does that combination still work in Allegany County, or is print a liability now? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Christopher Dormer
@@ -674,25 +708,11 @@ Ann — Fresno Unified buys at real scale, so facts first: hardcover, 36 pages, 
 Christopher — Norristown sets what reaches every elementary classroom. Mine teaches the complete purchase, sales tax included, with zero-prep lessons. Classroom, library, or family night? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Gina Klug
-*Purchasing Agent; Purchasing Agent at Smithtown CSD | NYSAMPO Board Member | Elevating Public Procurement Thro · 1st-degree · DM*
+### Stephanie Schoembs
+*Curriculum Developer; K–8 Curriculum Leader | AI-Enabled Curriculum Transformation | EdTech & Publishing · 1st-degree · DM*
 
 ```
-Gina — a purchasing agent's questions, answered before you ask them: 36-page hardcover, no consumables to reorder, free zero-prep lessons, PO and Net 30, ISBN 979-8-234-07638-0, LCCN 2026906164. Clear Smithtown's bar? Specs and PO terms: https://clarencegetsabargain.com/resources/procurement.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Hema Mangatoo
-*DIRECTOR - EXECUTIVE DIRECTOR | HEAD OF SCHOOL Early Childhood Education | Business Operations | Enrollment Gr · 1st-degree · DM*
-
-```
-Hema — leading an early childhood school, you set what young kids read. Mine is a read-along that teaches money through story, free lessons behind it. Would it work in your setting? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Kevin Wright
-*Specializes in Operations & Culture | Learning & Instructional Design | Leadership & Supervision Development | · 1st-degree · DM*
-
-```
-Kevin — operations and instruction together means you see what survives implementation rather than what looks good in a pilot. Mine runs 36 pages with nothing to reorder and free lessons. Hold up in a real building? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Stephanie — a K-8 curriculum leader can tell whether lessons were built alongside a book or afterward. Mine were built alongside: four lessons, assessments, a 23-row crosswalk. Would you test that? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Mansi Dodiya
@@ -702,13 +722,6 @@ Kevin — operations and instruction together means you see what survives implem
 Mansi — curriculum design and academic coordination is where my materials should get judged. Four zero-prep lessons, a pre/post assessment with answer key, a 23-row crosswalk. Does the design hold up? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Michael J. Martirano
-*Superintendent, Allegany County Public Schools. Sr Fellow, Center for Digital Education. Former Superintendent · 1st-degree · DM*
-
-```
-Dr. Martirano — a superintendent who's also a digital education fellow sees the whole board. Mine is deliberately analog: a printed read-along with free digital lessons behind it. Does that combination still work in Allegany County, or is print a liability now? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
 ### Nikole Clayton
 *O Director of Education; Director of Education at Banzai, Inc · 1st-degree · DM*
 
@@ -716,11 +729,18 @@ Dr. Martirano — a superintendent who's also a digital education fellow sees th
 Nikole — Banzai builds financial literacy for real classrooms, and K-5 is the band with the least of it. It's a 36-page picture book plus free zero-prep lessons against five frameworks. Does the approach fit how you think about it? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Stephanie Schoembs
-*Curriculum Developer; K–8 Curriculum Leader | AI-Enabled Curriculum Transformation | EdTech & Publishing · 1st-degree · DM*
+### Hema Mangatoo
+*DIRECTOR - EXECUTIVE DIRECTOR | HEAD OF SCHOOL Early Childhood Education | Business Operations | Enrollme · 1st-degree · DM*
 
 ```
-Stephanie — a K-8 curriculum leader can tell whether lessons were built alongside a book or afterward. Mine were built alongside: four lessons, assessments, a 23-row crosswalk. Would you test that? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Hema — leading an early childhood school, you set what young kids read. Mine is a read-along that teaches money through story, free lessons behind it. Would it work in your setting? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Kevin Wright
+*Specializes in Operations & Culture | Learning & Instructional Design | Leadership & Supervision Developm · 1st-degree · DM*
+
+```
+Kevin — operations and instruction together means you see what survives implementation rather than what looks good in a pilot. Mine runs 36 pages with nothing to reorder and free lessons. Hold up in a real building? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Ashley Villalobos
@@ -773,7 +793,7 @@ Julie — as senior director of elementary curriculum you decide what reaches a 
 ```
 
 ### Katie Gullett
-*Director of Elementary Curriculum and Instruction Amy Pinnay • 2 rd 1 List Supervisor of Elementary Curriculum · 3rd-degree · InMail*
+*Director of Elementary Curriculum and Instruction Amy Pinnay • 2 rd 1 List Supervisor of Elementary Curri · 3rd-degree · InMail*
 
 ```
 Katie — elementary curriculum is exactly the band that gets skipped on financial literacy. I made a picture book plus four free zero-prep lessons. Fit your district? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -828,18 +848,25 @@ Toby — you coordinate across ELA, math, and social studies, which is unusual a
 Gerri — money habits form in early childhood long before anyone calls them habits. Mine teaches the first one a child actually uses: how to spend on purpose. Fit the families you serve? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
+### Noelani Mussman
+*Professional Learning Design | Adult Learning | Instructional Coaching | Leadership Development | Equity  · 1st-degree · DM*
+
+```
+Noelani — you design adult learning, so you'll know whether my teacher materials teach. Four 45-minute plans, a pre/post assessment with answer key, a 23-row crosswalk, all free. Would you look at the instructional design? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
 ### Jennifer Huff
-*EdTech Leadership | Director of Implementation & State Program Success | M.Ed. & Principal Certified | Driving · 1st-degree · DM*
+*EdTech Leadership | Director of Implementation & State Program Success | M.Ed. & Principal Certified | Dr · 1st-degree · DM*
 
 ```
 Jennifer — as an EdTech implementation lead you know adoption dies on friction. Mine has none: a book and print-ready lessons. No login, no platform, no seats to provision. Fit any state program you run? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Noelani Mussman
-*Professional Learning Design | Adult Learning | Instructional Coaching | Leadership Development | Equity | Str · 1st-degree · DM*
+### Gil Coble
+*Curriculum Developer / SME — Financial Literacy Math (Contract) · 2nd-degree · InMail*
 
 ```
-Noelani — you design adult learning, so you'll know whether my teacher materials teach. Four 45-minute plans, a pre/post assessment with answer key, a 23-row crosswalk, all free. Would you look at the instructional design? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Gil — a curriculum developer working on financial literacy math will care that mine has real arithmetic in it: comparing two prices, applying a percentage off, adding sales tax. Fit what you're building? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Amanda Reardon,
@@ -854,13 +881,6 @@ Amanda — a practitioner gut-check. Mine teaches spending through a story about
 
 ```
 Charlene — would you tell me whether this skews too old? 36-page read-aloud at AD 620L, one shopping trip start to finish. I aimed at 6-10 but I'd rather be corrected than confident. Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Gil Coble
-*Curriculum Developer / SME — Financial Literacy Math (Contract) · 2nd-degree · InMail*
-
-```
-Gil — a curriculum developer working on financial literacy math will care that mine has real arithmetic in it: comparing two prices, applying a percentage off, adding sales tax. Fit what you're building? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 
@@ -890,6 +910,27 @@ Leslie — consumer markets work is upstream of everything my book teaches: comp
 
 ## Kids-finance founder
 
+### Sito Narcisse
+*K-12 Education Leader | Strategist | Consultant · 1st-degree · DM*
+
+```
+Sito — you've led K-12 at system level, so you know financial literacy usually starts in ninth grade and acts like that was always the plan. Mine is the elementary on-ramp. Fit a district push? More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Dr. Ashley C. Williams
+*Board Member; ECE Strategist | Always in service of children, families & educators. Never at the expense  · 1st-degree · DM*
+
+```
+Ashley — an ECE strategist who keeps wellbeing central will get what I was after: a six-year-old making a real decision without being lectured at. Fit the early-childhood settings you advise? More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Dominic DeLaquil
+*Founder, Millionaire Habits for Families - Helping Parents Raise Money-Smart Kids with a Simple, Habit-Ba · 1st-degree · DM*
+
+```
+Dominic — Millionaire Habits for Families is habit-first, which is exactly my book's design: one repeatable behavior, taught once, inside a story. Fit the parents you help? More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
 ### Cassandra Russell
 *Director of Operations; Financial Educator | Financial Literacy, Education · 1st-degree · DM*
 
@@ -898,7 +939,7 @@ Cassandra — a financial educator running operations knows what gets used versu
 ```
 
 ### Chris Scott
-*O Founder & Product Lead; Founder, CoinSprout Kids | Financial Literacy for Kids | Programs • Schools • Commun · 1st-degree · DM*
+*O Founder & Product Lead; Founder, CoinSprout Kids | Financial Literacy for Kids | Programs • Schools • C · 1st-degree · DM*
 
 ```
 Chris — CoinSprout Kids and my book are after the same kid from different directions: yours digital, mine a printed read-along. Do those complement each other, or is print a liability now? More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -912,24 +953,10 @@ Christina — Think Pieces is building financial education for children, so we'r
 ```
 
 ### Claudia Martins
-*Community Engagement Director @ National Financial Educators Council (NFEC) | Florida Financial Educators Coun · 1st-degree · DM*
+*Community Engagement Director @ National Financial Educators Council (NFEC) | Florida Financial Educators · 1st-degree · DM*
 
 ```
 Claudia — community engagement at NFEC puts you in front of real families. Mine is a K-5 read-along with a free family activity built for a kitchen table rather than a classroom. Fit your outreach? More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Dominic DeLaquil
-*Founder, Millionaire Habits for Families - Helping Parents Raise Money-Smart Kids with a Simple, Habit-Based 1 · 1st-degree · DM*
-
-```
-Dominic — Millionaire Habits for Families is habit-first, which is exactly my book's design: one repeatable behavior, taught once, inside a story. Fit the parents you help? More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Dr. Ashley C. Williams
-*Board Member; ECE Strategist | Always in service of children, families & educators. Never at the expense of we · 1st-degree · DM*
-
-```
-Ashley — an ECE strategist who keeps wellbeing central will get what I was after: a six-year-old making a real decision without being lectured at. Fit the early-childhood settings you advise? More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Gayatri Upasani
@@ -946,29 +973,15 @@ Gayatri — FIntelligenZ teaches financial literacy to kids and teens; mine sits
 J.P. — you speak to teens, a decade past my readers. But the gaps you see in teenagers were set at six. Mine tries to prevent one. Does that framing match what you encounter? More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Kimberly Evans Sulfridge
-*Financial Professional & Founder of Kidz Money Lab, helping families raise money-smart kids · 1st-degree · DM*
-
-```
-Kimberly — Kidz Money Lab helps families raise money-smart kids, which is my book's whole job in 36 pages. Mine is a spending book, not a saving one. Fit what you put in front of families? More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Sito Narcisse
-*K-12 Education Leader | Strategist | Consultant · 1st-degree · DM*
-
-```
-Sito — you've led K-12 at system level, so you know financial literacy usually starts in ninth grade and acts like that was always the plan. Mine is the elementary on-ramp. Fit a district push? More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
 ### Ta'Donna Nagle
-*Financial Education Consultant Supporting Program Leaders of Schools and Youth Organizations Deliver Measurabl · 1st-degree · DM*
+*Financial Education Consultant Supporting Program Leaders of Schools and Youth Organizations Deliver Meas · 1st-degree · DM*
 
 ```
 Ta'Donna — you help program leaders deliver measurable financial education, and measurement is the part most kids' books skip entirely. Mine has a pre/post assessment with answer key and a 25-row tracking table, all free. Fit your programs? More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Val Chapman
-*Financial Literacy Disruptor; Founder & CEO | Leading Early Financial Education Initiatives | Social Impact Vi · 1st-degree · DM*
+*Financial Literacy Disruptor; Founder & CEO | Leading Early Financial Education Initiatives | Social Impa · 1st-degree · DM*
 
 ```
 Val — a self-described financial literacy disruptor leading early financial education is the right audience for a contrarian premise. Mine: we teach saving first and we have the sequence backwards. Does that land? More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -979,6 +992,13 @@ Val — a self-described financial literacy disruptor leading early financial ed
 
 ```
 Vanessa — Money Adventures and Clarence are after the same kid and the same confidence. Mine builds it through one successful purchase rather than a curriculum. As a fellow builder, does the approach land? More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Kimberly Evans Sulfridge
+*Financial Professional & Founder of Kidz Money Lab, helping families raise money-smart kids · 1st-degree · DM*
+
+```
+Kimberly — Kidz Money Lab helps families raise money-smart kids, which is my book's whole job in 36 pages. Mine is a spending book, not a saving one. Fit what you put in front of families? More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Liberty Venn
@@ -1025,6 +1045,13 @@ Varun — an economist teaching at community college level sees exactly what stu
 
 ## Peer author
 
+### Ramat Oyetunji
+*Founder; Founder, FLEX Financial Education™| K–8 financial education for Pennsylvania schools | Growing f · 1st-degree · DM*
+
+```
+Ramat — FLEX runs K-8 financial education in Pennsylvania schools, which is the exact band and the exact problem. Mine is K-5 plus free zero-prep lessons against five frameworks. Complement FLEX, or compete with it? More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
 ### Alex R. Claycomb
 *Financial Literacy Published Author, Speaker & Educator · 1st-degree · DM*
 
@@ -1039,25 +1066,25 @@ Alex — a published financial literacy author and educator is the read I want m
 Lisa — children's author to children's author. My worry is craft, not content: does a 36-page arc about one shopping trip hold a young reader? I'd value your read as a writer rather than a subject expert. More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Ramat Oyetunji
-*Founder; Founder, FLEX Financial Education™| K–8 financial education for Pennsylvania schools | Growing financ · 1st-degree · DM*
+### Kago Wamuyu
+*Africa’s relatable financial storyteller. Let’s build your future, together 💪Personal Finance Coach & Edu · 1st-degree · DM*
 
 ```
-Ramat — FLEX runs K-8 financial education in Pennsylvania schools, which is the exact band and the exact problem. Mine is K-5 plus free zero-prep lessons against five frameworks. Complement FLEX, or compete with it? More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Kago — you're a relatable financial storyteller, which is exactly what I attempted for six-year-olds. Mine teaches spending through a boy and a robot rather than a lesson. Storyteller to storyteller: does the story carry it, or buckle? More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Cathy L. Davis
-*Professional Publishing Consultant, #1 International Best-Selling Author, Publisher/Ghost Publisher, · 1st-degree · DM*
+### James Redelsheimer
+*Education Manager; Barron’s AP Economics Author | Education Manager at the Foundation for Economic Educat · 1st-degree · DM*
 
 ```
-Cathy — a publishing consultant and bestselling author sees the whole path. Mine goes at spending instead of saving, ages 6-10, direct sales only, no Amazon by choice. I'd value your read on positioning something with no shelf-mates. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+James — a Barron's AP Economics author will judge accuracy first. Mine teaches comparison, percentage markdowns, and sales tax to six-year-olds. Does it get the economics right at that level, or oversimplify? More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Corwin Melvin
-*Author Coach | Self-Publishing Expert | Writing Mentor | I Help Everyday People Turn Their Stories Into Publis · 1st-degree · DM*
+### Larry Faulkner
+*Certified Financial Instructor | Bestselling Author of The Illustrated Guide to Financial Independence · 1st-degree · DM*
 
 ```
-Corwin — you coach authors through self-publishing, so you'll see the strategic question rather than the literary one: I've deliberately skipped Amazon and sell direct. Brave or dumb? I'd genuinely value the straight answer. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Larry — a bestselling author and certified financial instructor covers both halves of what I need judged. Mine teaches the complete purchase to ages 6-10. Does the instruction hold up under the story? More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Donna L Martin
@@ -1074,39 +1101,32 @@ Donna — as a KidLit author you'll spot immediately whether the lesson pokes th
 Ilene — author to author. Mine hides a financial education inside a story about a boy and a robot. Authors are the worst judges of their own subtlety, which is why I'm asking you. Take a look? More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### James Redelsheimer
-*Education Manager; Barron’s AP Economics Author | Education Manager at the Foundation for Economic Education · 1st-degree · DM*
-
-```
-James — a Barron's AP Economics author will judge accuracy first. Mine teaches comparison, percentage markdowns, and sales tax to six-year-olds. Does it get the economics right at that level, or oversimplify? More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Kago Wamuyu
-*Africa’s relatable financial storyteller. Let’s build your future, together 💪Personal Finance Coach & Educator · 1st-degree · DM*
-
-```
-Kago — you're a relatable financial storyteller, which is exactly what I attempted for six-year-olds. Mine teaches spending through a boy and a robot rather than a lesson. Storyteller to storyteller: does the story carry it, or buckle? More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Larry Faulkner
-*Certified Financial Instructor | Bestselling Author of The Illustrated Guide to Financial Independence · 1st-degree · DM*
-
-```
-Larry — a bestselling author and certified financial instructor covers both halves of what I need judged. Mine teaches the complete purchase to ages 6-10. Does the instruction hold up under the story? More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Michele DeFilippo
-*Helping Independent Authors Create Outstanding Books with Full Control and Profits | One-Stop Publishing Servi · 1st-degree · DM*
-
-```
-Michele — you help independent authors produce books that hold up physically. Mine is hardbound, full color, 11x8.5, 36 pages, and I wrote and illustrated it myself. Do the production choices serve it, or fight it? More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
 ### Patricia Mott
 *Book Author at Self-Employed · 1st-degree · DM*
 
 ```
 Patricia — a fellow author's read is the one I trust most. Mine is 36 pages teaching money through a single shopping trip. Does the story stand on its own if you strip the lesson out? More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Corwin Melvin
+*Author Coach | Self-Publishing Expert | Writing Mentor | I Help Everyday People Turn Their Stories Into P · 1st-degree · DM*
+
+```
+Corwin — you coach authors through self-publishing, so you'll see the strategic question rather than the literary one: I've deliberately skipped Amazon and sell direct. Brave or dumb? I'd genuinely value the straight answer. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Cathy L. Davis
+*Professional Publishing Consultant, #1 International Best-Selling Author, Publisher/Ghost Publisher, · 1st-degree · DM*
+
+```
+Cathy — a publishing consultant and bestselling author sees the whole path. Mine goes at spending instead of saving, ages 6-10, direct sales only, no Amazon by choice. I'd value your read on positioning something with no shelf-mates. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Michele DeFilippo
+*Helping Independent Authors Create Outstanding Books with Full Control and Profits | One-Stop Publishing  · 1st-degree · DM*
+
+```
+Michele — you help independent authors produce books that hold up physically. Mine is hardbound, full color, 11x8.5, 36 pages, and I wrote and illustrated it myself. Do the production choices serve it, or fight it? More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Bill Corbett
@@ -1157,144 +1177,11 @@ Aarav — Rich Lessons and my book are after the same idea from opposite ends of
 
 ## Press / Editor
 
-### Barbara Shecter
-*Business Correspondent · 2nd-degree · InMail*
-
-```
-Barbara — well off your beat, so briefly. I wrote a children's book teaching spending rather than saving, and the story is what the category ignored. If a colleague covers consumer or family money, I'd take the name. Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Casey Bond
-*Lead Editor and Content Strategist, Banking · 2nd-degree · InMail*
-
-```
-Casey — you lead banking content, so here's the odd end of that funnel: a picture book teaching a six-year-old the mechanics of a purchase, register and sales tax included. That's where a banking customer actually starts. Story, or a colleague? Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Christine Dobby
-*Canadian Finance Reporter · 2nd-degree · InMail*
-
-```
-Christine — you cover finance in Canada, and my claim travels: no children's picture book teaches the complete purchase, through the register, sales tax included. Mine does. Is there a story in the omission? Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Damilola Esebame, CFEI®
-*Personal Finance Analyst; Personal Finance Analyst & Journalist · 2nd-degree · InMail*
-
-```
-Damilola — you hold the CFEI and write personal finance, so you'll test the premise. Mine: spending competence precedes saving competence, and the category has the sequence backwards. Does that hold? Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Deborah Kearns
-*Writer, Editor & Content Strategist · 2nd-degree · InMail*
-
-```
-Deborah — a content strategist's question as much as a reporter's. Children's financial literacy is 90% saving and nobody covers spending. Is the gap itself the story? Happy to send the book either way. Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Helen Reis I
-*Deputy Editor, On the Money · 2nd-degree · InMail*
-
-```
-Helen — you'll want the angle, not the book. Children's financial literacy is all saving and no spending, and has been for forty years. I wrote the counterexample. Worth a look? Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### J.R. Duren
-*Consumer and Personal Finance Editor · 2nd-degree · InMail*
-
-```
-J.R. — consumer and personal finance is exactly where my book sits, just at reading level 620L. Sale ad, comparison, coupon, tax. A consumer education in 36 pages. Angle for you? Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Jessica Walrack
-*Freelance Finance Writer and Journalist · 2nd-degree · InMail*
-
-```
-Jessica — a kids' picture book teaching spending rather than saving, sales tax at the register, ages 6-10. The interesting part is what forty years of children's money books skipped. Something here for you? Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Jill Cornfield
-*Personal Finance Editor & Content Producer · 2nd-degree · InMail*
-
-```
-Jill — a kids' money book that teaches sales tax. Six-year-old reaches the register, total's higher than the sticker, and he gets an explanation rather than a shrug. I don't believe another picture book does it. Story, or a better contact? Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
 ### Kathryn Vasel
 *Journalist | Personal Finance Reporter; Journalist I Personal Finance Reporter · 2nd-degree · InMail*
 
 ```
 Kathryn — a claim you can check over coffee: every children's money book teaches saving. I read all 25 on the ABA Foundation's list rather than assume it. None teaches spending, which is the only transaction a six-year-old performs. Mine does, sales tax included. Story, or wrong desk? Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Kelly (Dilworth) Campbell
-*Writer, Editor, Designer and Reporter + Veteran Consumer Finance Journalist · 2nd-degree · InMail*
-
-```
-Kelly — a veteran consumer finance journalist will know instantly whether this gap is real or convenient. Every children's money book teaches saving; none teaches the transaction. Does that hold up to you? Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Kerri Anne Renzulli
-*Personal Finance Writer and Editor · 2nd-degree · InMail*
-
-```
-Kerri Anne — you know a story beats a lecture, which is the entire design. Six-year-old runs one real purchase and takes the cheaper older model on purpose. No saving lesson anywhere in it. Something here for you? Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Leslie Albrecht
-*Personal Finance Editor · 2nd-degree · InMail*
-
-```
-Leslie — as an editor you decide what earns a reader's time. My angle: children's money books are almost entirely saving, and the skill kids use first is spending. I wrote the counterexample. Worth a look? Press kit: https://clarencegetsabargain.com/press-kit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Liz Knueven
-*Lead Reporter · 2nd-degree · InMail*
-
-```
-Liz — a kids' money book with no piggy bank in it. Deliberate. It teaches spending: comparison, markdowns, coupons, sales tax. The story is the forty-year gap in the category, not my book. Interested, or a better contact? Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Manisha Thakor
-*Trustee, Independent Mutual Fund Board of Directors Kato CFP®, FA 2 Lists Personal Finance Reporter · 2nd-degree · InMail*
-
-```
-Manisha — your work is about money and wellbeing, and the emotional part starts absurdly young. Mine meets a six-year-old at the first want in a store aisle and walks him to a decision he makes himself. Does that land for you? Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Marc Guberti, CPFC
-*Investing Writer · 2nd-degree · InMail*
-
-```
-Marc — you write about investing for people well past first grade. Mine starts at six with the skill that comes before all of it: spending on purpose. Angle for your readers? Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Mark Fuitt
-*Senior Editor · 2nd-degree · InMail*
-
-```
-Mark — a senior editor's filter, so a checkable claim: no children's picture book teaches the complete purchase through the register, sales tax included. I checked the ABA's 25-title list. Mine is the exception. Story? Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Maureen Farrell
-*Finance Reporter · 2nd-degree · InMail*
-
-```
-Maureen — well off your beat, so briefly. I wrote the only children's picture book I can find that skips saving and teaches spending. If there's someone at the Times who'd want it, I'd take the name. Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Megan Harwood-Baynes
-*Senior Money Reporter · 2nd-degree · InMail*
-
-```
-Megan — a money desk fact you may enjoy: my children's picture book teaches sales tax. The six-year-old pays it, notices, and objects. Everything else in the category stops at saving. Story, or a better contact? Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Mike Lowe
-*News Reporter · 2nd-degree · InMail*
-
-```
-Mike — a local angle: an attorney wrote and illustrated a children's book teaching kids to shop, sales tax at the register included. It's the only one I can find that does. Segment, or wrong desk? Press kit: https://clarencegetsabargain.com/press-kit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Mike Winters
@@ -1311,11 +1198,137 @@ Mike — you write for people building habits right now. Mine starts them at six
 Pete — a small odd fact you may be able to use. I wrote a children's picture book in which a six-year-old pays sales tax and asks where it went. I can't find another kids' book that does it. Story, or just a strange thing to have made? Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
+### Liz Knueven
+*Lead Reporter · 2nd-degree · InMail*
+
+```
+Liz — a kids' money book with no piggy bank in it. Deliberate. It teaches spending: comparison, markdowns, coupons, sales tax. The story is the forty-year gap in the category, not my book. Interested, or a better contact? Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Kerri Anne Renzulli
+*Personal Finance Writer and Editor · 2nd-degree · InMail*
+
+```
+Kerri Anne — you know a story beats a lecture, which is the entire design. Six-year-old runs one real purchase and takes the cheaper older model on purpose. No saving lesson anywhere in it. Something here for you? Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Leslie Albrecht
+*Personal Finance Editor · 2nd-degree · InMail*
+
+```
+Leslie — as an editor you decide what earns a reader's time. My angle: children's money books are almost entirely saving, and the skill kids use first is spending. I wrote the counterexample. Worth a look? Press kit: https://clarencegetsabargain.com/press-kit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Jill Cornfield
+*Personal Finance Editor & Content Producer · 2nd-degree · InMail*
+
+```
+Jill — a kids' money book that teaches sales tax. Six-year-old reaches the register, total's higher than the sticker, and he gets an explanation rather than a shrug. I don't believe another picture book does it. Story, or a better contact? Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### J.R. Duren
+*Consumer and Personal Finance Editor · 2nd-degree · InMail*
+
+```
+J.R. — consumer and personal finance is exactly where my book sits, just at reading level 620L. Sale ad, comparison, coupon, tax. A consumer education in 36 pages. Angle for you? Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Casey Bond
+*Lead Editor and Content Strategist, Banking · 2nd-degree · InMail*
+
+```
+Casey — you lead banking content, so here's the odd end of that funnel: a picture book teaching a six-year-old the mechanics of a purchase, register and sales tax included. That's where a banking customer actually starts. Story, or a colleague? Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Kelly (Dilworth) Campbell
+*Writer, Editor, Designer and Reporter + Veteran Consumer Finance Journalist · 2nd-degree · InMail*
+
+```
+Kelly — a veteran consumer finance journalist will know instantly whether this gap is real or convenient. Every children's money book teaches saving; none teaches the transaction. Does that hold up to you? Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Deborah Kearns
+*Writer, Editor & Content Strategist · 2nd-degree · InMail*
+
+```
+Deborah — a content strategist's question as much as a reporter's. Children's financial literacy is 90% saving and nobody covers spending. Is the gap itself the story? Happy to send the book either way. Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Jessica Walrack
+*Freelance Finance Writer and Journalist · 2nd-degree · InMail*
+
+```
+Jessica — a kids' picture book teaching spending rather than saving, sales tax at the register, ages 6-10. The interesting part is what forty years of children's money books skipped. Something here for you? Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
 ### Rachel Christian
 *Contributing Writer · 2nd-degree · InMail*
 
 ```
 Rachel — mine teaches six-year-olds the money skill that never gets its own title: spending. One purchase, ad to register. Is there a piece in why children's financial literacy is all piggy banks and no cash registers? Press kit: https://clarencegetsabargain.com/press-kit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Venessa Wong
+*Personal Finance Reporter · 2nd-degree · InMail*
+
+```
+Venessa — you cover the consumer side. Mine is a consumer origin story: a six-year-old's first purchase, complete with discovering the sticker price was never the price. 36 pages. Story, or a better name? Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Maureen Farrell
+*Finance Reporter · 2nd-degree · InMail*
+
+```
+Maureen — well off your beat, so briefly. I wrote the only children's picture book I can find that skips saving and teaches spending. If there's someone at the Times who'd want it, I'd take the name. Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Suman Bhattacharyya
+*Business Writer and Reporter · 2nd-degree · InMail*
+
+```
+Suman — a business angle rather than a book pitch. Children's financial literacy is a real category with a structural hole in it: everything teaches saving, nothing teaches the transaction. Worth a look? Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Christine Dobby
+*Canadian Finance Reporter · 2nd-degree · InMail*
+
+```
+Christine — you cover finance in Canada, and my claim travels: no children's picture book teaches the complete purchase, through the register, sales tax included. Mine does. Is there a story in the omission? Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Megan Harwood-Baynes
+*Senior Money Reporter · 2nd-degree · InMail*
+
+```
+Megan — a money desk fact you may enjoy: my children's picture book teaches sales tax. The six-year-old pays it, notices, and objects. Everything else in the category stops at saving. Story, or a better contact? Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Barbara Shecter
+*Business Correspondent · 2nd-degree · InMail*
+
+```
+Barbara — well off your beat, so briefly. I wrote a children's book teaching spending rather than saving, and the story is what the category ignored. If a colleague covers consumer or family money, I'd take the name. Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Mike Lowe
+*News Reporter · 2nd-degree · InMail*
+
+```
+Mike — a local angle: an attorney wrote and illustrated a children's book teaching kids to shop, sales tax at the register included. It's the only one I can find that does. Segment, or wrong desk? Press kit: https://clarencegetsabargain.com/press-kit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Damilola Esebame, CFEI®
+*Personal Finance Analyst; Personal Finance Analyst & Journalist · 2nd-degree · InMail*
+
+```
+Damilola — you hold the CFEI and write personal finance, so you'll test the premise. Mine: spending competence precedes saving competence, and the category has the sequence backwards. Does that hold? Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Marc Guberti, CPFC
+*Investing Writer · 2nd-degree · InMail*
+
+```
+Marc — you write about investing for people well past first grade. Mine starts at six with the skill that comes before all of it: spending on purpose. Angle for your readers? Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Robin Amos
@@ -1339,18 +1352,81 @@ Rui — a children's picture book teaching the complete purchase, sales tax incl
 Sarah — you'll want the angle before the book. Mine: children's financial literacy teaches saving almost exclusively while spending is what kids actually do. I wrote the counterexample. Worth a look? Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Suman Bhattacharyya
-*Business Writer and Reporter · 2nd-degree · InMail*
+### Manisha Thakor
+*Trustee, Independent Mutual Fund Board of Directors Kato CFP®, FA 2 Lists Personal Finance Reporter · 2nd-degree · InMail*
 
 ```
-Suman — a business angle rather than a book pitch. Children's financial literacy is a real category with a structural hole in it: everything teaches saving, nothing teaches the transaction. Worth a look? Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Manisha — your work is about money and wellbeing, and the emotional part starts absurdly young. Mine meets a six-year-old at the first want in a store aisle and walks him to a decision he makes himself. Does that land for you? Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-### Venessa Wong
-*Personal Finance Reporter · 2nd-degree · InMail*
+### Helen Reis I
+*Deputy Editor, On the Money · 2nd-degree · InMail*
 
 ```
-Venessa — you cover the consumer side. Mine is a consumer origin story: a six-year-old's first purchase, complete with discovering the sticker price was never the price. 36 pages. Story, or a better name? Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Helen — you'll want the angle, not the book. Children's financial literacy is all saving and no spending, and has been for forty years. I wrote the counterexample. Worth a look? Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Mark Fuitt
+*Senior Editor · 2nd-degree · InMail*
+
+```
+Mark — a senior editor's filter, so a checkable claim: no children's picture book teaches the complete purchase through the register, sales tax included. I checked the ABA's 25-title list. Mine is the exception. Story? Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Jason Nark
+*Staff writer · 3rd-degree · InMail*
+
+```
+Jason — a feature rather than a finance story. An attorney and mixed-media artist wrote and illustrated a picture book teaching six-year-olds how to shop, then gave the classroom materials away free. Worth a look? Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Katie Balevic
+*Reporter · 3rd-degree · InMail*
+
+```
+Katie — a kids' money book that skips saving entirely: read the ad, compare, use the coupon, pay the tax. Ages 6-10. Story in the gap, or a better contact? Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Josyana Joshua
+*Personal Finance Reporter · 3rd-degree · InMail*
+
+```
+Josyana — mine teaches six-year-olds the complete purchase, sales tax included, which appears to be unique in children's financial literacy. Story for you, or someone else on the desk? Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Claire Dickey
+*Editor, Personal Finance · 3rd-degree · InMail*
+
+```
+Claire — the claim is that children's money publishing has a spending-shaped hole in it, forty years wide. I wrote the book that fills it. Interested in the gap, the book, or neither? Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Melina Chalkia
+*Leveraged Finance Reporter · 3rd-degree · InMail*
+
+```
+Melina — a long way from leveraged finance, so I'll be brief. I wrote a children's book teaching six-year-olds how a purchase actually works, tax and all. If a colleague covers consumer or family money, I'd take the name. Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Danielle Librizzo
+*Producer · 3rd-degree · InMail*
+
+```
+Danielle — a segment idea. An attorney wrote and illustrated a children's book teaching kids to shop properly, sales tax included, then gave the lesson plans away free. Work for you, or a better producer? Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Mark Talercio
+*Executive Producer · 3rd-degree · InMail*
+
+```
+Mark — producer-level pitch, one line. Every children's money book teaches saving; mine teaches spending, and the six-year-old pays sales tax on page 22. Worth a look, or wrong show? Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+```
+
+### Mark Evitt
+*Senior Editor · 1st-degree · DM*
+
+```
+Mark — children's financial literacy has been all saving for forty years and nobody teaches the transaction. I wrote the one that does. Is the omission the story? Press kit: https://clarencegetsabargain.com/press-kit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Alisha Isable
@@ -1365,60 +1441,4 @@ Alisha — as a reading content editor you'll care about the literacy side as mu
 
 ```
 Brian — an angle rather than a book pitch. Children's money publishing skips spending entirely, which is the transaction kids actually perform. I wrote the one that doesn't. Interested, or a better contact? Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Claire Dickey
-*Editor, Personal Finance · 3rd-degree · InMail*
-
-```
-Claire — the claim is that children's money publishing has a spending-shaped hole in it, forty years wide. I wrote the book that fills it. Interested in the gap, the book, or neither? Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Danielle Librizzo
-*Producer · 3rd-degree · InMail*
-
-```
-Danielle — a segment idea. An attorney wrote and illustrated a children's book teaching kids to shop properly, sales tax included, then gave the lesson plans away free. Work for you, or a better producer? Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Jason Nark
-*Staff writer · 3rd-degree · InMail*
-
-```
-Jason — a feature rather than a finance story. An attorney and mixed-media artist wrote and illustrated a picture book teaching six-year-olds how to shop, then gave the classroom materials away free. Worth a look? Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Josyana Joshua
-*Personal Finance Reporter · 3rd-degree · InMail*
-
-```
-Josyana — mine teaches six-year-olds the complete purchase, sales tax included, which appears to be unique in children's financial literacy. Story for you, or someone else on the desk? Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Katie Balevic
-*Reporter · 3rd-degree · InMail*
-
-```
-Katie — a kids' money book that skips saving entirely: read the ad, compare, use the coupon, pay the tax. Ages 6-10. Story in the gap, or a better contact? Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Mark Evitt
-*Senior Editor · 1st-degree · DM*
-
-```
-Mark — children's financial literacy has been all saving for forty years and nobody teaches the transaction. I wrote the one that does. Is the omission the story? Press kit: https://clarencegetsabargain.com/press-kit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Mark Talercio
-*Executive Producer · 3rd-degree · InMail*
-
-```
-Mark — producer-level pitch, one line. Every children's money book teaches saving; mine teaches spending, and the six-year-old pays sales tax on page 22. Worth a look, or wrong show? Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-```
-
-### Melina Chalkia
-*Leveraged Finance Reporter · 3rd-degree · InMail*
-
-```
-Melina — a long way from leveraged finance, so I'll be brief. I wrote a children's book teaching six-year-olds how a purchase actually works, tax and all. If a colleague covers consumer or family money, I'd take the name. Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```

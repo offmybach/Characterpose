@@ -1,13 +1,14 @@
 # Letters — New First-Degree Connections (July 19–27)
 
-Ten new connections read off the LinkedIn screenshots. Ranked by reach and fit.
+Ten new connections off the LinkedIn screenshots.
 
-Three were 86ed: Rachael VanLandingham, Anouk Malavoy, Carly Lund.
+🐋 = whale. Three were 86ed: Rachael VanLandingham, Anouk Malavoy, Carly Lund.
 
 ---
 
-## 1. Sandy Spavone
-*Gatekeeper · connected Jul 25 · 1st-degree*
+## 1. 🐋 Sandy Spavone
+*Gatekeeper · connected Jul 25 · 1st-degree*  
+*FCCLA CEO — 257,000+ members, 5,300+ chapters, 49 states*
 
 **The skinny:** CEO of FCCLA. 257,000+ members, 5,300+ chapters, 49 state associations. Financial literacy is already an active focus (Virtual Business Challenge). The catch: FCCLA is Family & Consumer Sciences, so members are middle and high school, not K-5. The play is not curriculum adoption, it is service projects. FCCLA chapters run community service; a chapter reading Clarence to an elementary class is a ready-made project. Biggest name in this batch by an order of magnitude.
 
@@ -15,8 +16,9 @@ Three were 86ed: Rachael VanLandingham, Anouk Malavoy, Carly Lund.
 Sandy — FCCLA members are a decade older than my readers, so this is not a curriculum pitch. It's a service-project one. Your chapters already run community work, and a high schooler reading a money book to a second-grade class is about the cleanest version of that I can think of. Mine is 36 pages, teaches the whole purchase through the register, and the toolkit behind it is free. Does that fit how chapters choose projects, or am I inventing a use case? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-## 2. Megan Kirts
-*Gatekeeper · connected Jul 24 · 1st-degree*
+## 2. 🐋 Megan Kirts
+*Gatekeeper · connected Jul 24 · 1st-degree*  
+*Econiful — Executive Director*
 
 **The skinny:** Executive Director, Econiful (Tucson nonprofit, free resources for economics educators). 17 years in the classroom, 2024 NAEE Rising Star, currently building an 80-lesson high school econ curriculum. Econiful serves Grade 6+, so mine sits directly below her band. Complementary rather than competitive, and worth saying so plainly.
 
@@ -24,8 +26,9 @@ Sandy — FCCLA members are a decade older than my readers, so this is not a cur
 Megan — Econiful starts at grade 6, which puts my book directly underneath you rather than beside you. Mine is the K-5 on-ramp: a six-year-old runs one purchase, ad to register, sales tax at the end. Congratulations on the Rising Star, by the way. Genuine question rather than a pitch — do you see elementary as in scope for Econiful, or a gap somebody else has to fill? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-## 3. Daniel Rauen
-*Peer author · connected Jul 22 · 1st-degree*
+## 3. 🐋 Daniel Rauen
+*Peer author · connected Jul 22 · 1st-degree*  
+*CASHVERSE KIDS — same story-first thesis, verbatim*
 
 **The skinny:** Founder of CASHVERSE KIDS, 'Building a Story-First Financial Literacy Universe for Kids.' German-speaking (headline reads 'Founder bei'). Not indexed anywhere I can find, so likely pre-launch or very new. Same thesis as yours, stated almost word for word. Closest philosophical peer in the entire list — treat as a peer note, not a pitch.
 
@@ -33,8 +36,9 @@ Megan — Econiful starts at grade 6, which puts my book directly underneath you
 Daniel — 'story-first financial literacy' is my entire thesis too, which is either a good sign or a crowded room. Mine went narrow: one purchase, ad to register, sales tax at the end, 36 pages. Yours sounds like a universe rather than a single trip. Curious whether we are solving the same problem at different scales, or the same scale from different ends. Trade notes? More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-## 4. Stephanie Zimmermann
-*Press / Editor · connected Jul 23 · 1st-degree*
+## 4. 🐋 Stephanie Zimmermann
+*Press / Editor · connected Jul 23 · 1st-degree*  
+*Chicago Sun-Times — investigative reporter*
 
 **The skinny:** Investigative reporter, Chicago Sun-Times. Consumer investigations rather than personal finance columns, so the hook is the category gap, not the book. Pitch the omission and let her decide whether it's a story.
 
@@ -42,8 +46,9 @@ Daniel — 'story-first financial literacy' is my entire thesis too, which is ei
 Stephanie — an investigations angle rather than a book pitch. Children's financial literacy is a real publishing category, and every title in it teaches saving. I read all 25 on the ABA Foundation's list to be sure. None teaches spending, which is the only money thing a six-year-old actually does. Forty years, one blind spot. I wrote the counterexample, but the gap is the more interesting half. Worth a look, or a colleague who'd want it? Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
-## 5. Danial Khan
-*Credit union / Bank · connected Jul 24 · 1st-degree*
+## 5. 🐋 Danial Khan
+*Credit union / Bank · connected Jul 24 · 1st-degree*  
+*Stanford FCU — Financial Wellness Lead*
 
 **The skinny:** Financial Wellness Lead at Stanford Federal Credit Union. '2026 GAC Crasher' means he was at the Governmental Affairs Conference, so he is plugged into the national credit union scene, not just his own shop. Credit unions are the most likely local funders of K-5 sets.
 
