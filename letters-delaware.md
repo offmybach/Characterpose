@@ -1,7 +1,7 @@
 # Letters — Delaware, Cape Region + State
 
-Sixteen letters. Fifteen are email; one is a phone script, because DASA publishes no
-address.
+Eighteen letters. Fifteen are email, one is a phone script because DASA publishes no address,
+and two go to Rehoboth venues by phone or web form because neither publishes an address either.
 
 Every one of these leans on something true and local: Delaware adopted K–12 financial
 literacy standards in 2018, then handed the entire HB 203 rollout to high school. That gap
@@ -496,3 +496,74 @@ than checked.
 is `andrew.coulter`, Jenny Nauman is `jennifer.nauman`. Every address in
 `contacts-delaware.md` was read off the school's own page, so send to those and don't
 improvise.
+
+---
+
+# 17. James Wilson — Browseabout Books
+
+**Events Coordinator, Browseabout Books** · 133 Rehoboth Avenue, Rehoboth Beach, DE 19971
+**Phone:** 302.226.2665 — they answer 11 to 3, Monday to Friday
+**Email:** none published. Use the contact form at browseaboutbooks.com, addressed to him, or
+call. Susan Kehoe owns the store; Alexandra Colevas is manager and buyer.
+**When:** Now. Summer is their season and a kids' event needs lead time.
+**Tier A — full strength. This is a bookseller in a beach town, not a procurement officer.**
+
+**Subject:** `The guy in the boardwalk shirt would like to come inside`
+
+```
+James — I have been walking up and down the boardwalk this summer in a shirt that reads PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW. Strangers ask. I then point them toward a book you do not carry, which is a marketing plan with an obvious flaw in it. Your front door is four blocks from where I am standing when it happens.
+
+I wrote and illustrated Clarence Gets a Bargain. Thirty-six pages, ages 6-10, hardbound. A boy earns a robot for chores and grades, works the sale ads at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, and then meets sales tax and regards it as a personal insult. Every other children's money book teaches saving. This one teaches the part where a kid is actually standing at a register holding money.
+
+Two reasons to talk to me rather than the next local author with a tote bag.
+
+The first is that it is not a signing. Signings are four people and a folding table. I bring printable mock price tags, ten-percent-off coupons, and a pretend register the kids run in a browser, ringing up the same purchase and watching the markdown and the coupon move the total. They get competitive about it. Loudly. Parents stand behind them and read the back cover, which is the actual mechanism.
+
+The second is that I am the deal guy, and I can prove it. I have twice walked out of the same Nordstrom Rack having paid one cent — once for a $293 pair of shoes, once for a $69.50 shirt. I kept both tags. Both stickers say "99% Savings," which is modest of them, since a penny off $293 is 99.997%. If you want a photo for the window I have one.
+
+I also wrote a book in which a crab complains about how people behave on the beach, so I am aware of my own genre range.
+
+Storytime slot, a Saturday morning, a festival table, or a no — all useful answers.
+
+Jonathan Bach
+Baltimore and Rehoboth Beach
+clarencegetsabargain.com
+```
+
+---
+
+# 18. Beachside Book Festival — Sussex County Libraries
+
+**Sussex County Libraries, in partnership with Browseabout Books**
+Rehoboth Beach Convention Center, 229 Rehoboth Avenue
+**When it runs:** a Saturday in late April, local author talks and craft vendors 10 a.m. to
+1 p.m., with a headline author in the evening. David Baldacci headlined 2025, so the traffic
+is real.
+**Details:** `delawarelibraries.libcal.com/event/14369630`
+**No author-application contact is published.** Ask in the winter, before the slate fills.
+
+**⚠️ Do not cold-open this one.** Rehoboth Beach Public Library sits inside the Sussex County
+Libraries system, which means **Leslie Glenn is already on the inside** — letter 14. Write her
+first and ask who builds the author slate. A referral from a youth services librarian beats a
+form. Use the letter below only if she has gone quiet for a month.
+
+**Subject:** `A festival table where the kids run a cash register`
+
+```
+To whoever builds the author slate for the Beachside Book Festival —
+
+I would like a table, and I think I fit the ten-to-one o'clock block better than most authors who ask.
+
+I wrote and illustrated Clarence Gets a Bargain, a 36-page picture book for ages 6-10 about the money skill nobody writes for children: spending. A boy earns a robot, reads the sale ads, compares two models, takes the cheaper one deliberately, redeems a coupon, and discovers sales tax the way we all did, which is badly and in public.
+
+Here is why the format suits you. Your morning block puts local author talks next to craft vendors, which means families are already circulating and looking for something a child can do with their hands. I am not asking to give a talk. I want a table where kids ring up a purchase themselves — printable price tags, ten-percent-off coupons, and a pretend register running in a browser where a markdown and a coupon visibly change the total. It behaves like a craft table and teaches percentages by accident.
+
+I am local for a good part of the year. I have also spent this summer walking the boardwalk in a shirt reading PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW, which is a fair description of the demand for this at the beach in April.
+
+What is the application, and when does the slate close?
+
+Jonathan Bach
+Baltimore and Rehoboth Beach
+clarencegetsabargain.com
+https://heyzine.com/flip-book/eeb1ef6cff.html
+```

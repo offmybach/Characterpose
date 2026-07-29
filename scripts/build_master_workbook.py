@@ -99,7 +99,9 @@ def parse_email_file(path, batch, hlevel):
             address=(n(em.group(1)) if em
                      else ('302-674-0630 (no email published — call)' if 'Brown' in name else '')),
             subject=n(sub.group(1)) if sub else '',
-            channel=('Phone' if 'PHONE SCRIPT' in head.upper() else 'Email'), msg=n(msg),
+            channel=('Phone' if 'PHONE SCRIPT' in head.upper()
+                     else 'Phone / web form' if re.search(r'none published|no published|no author-application contact', meta, re.I)
+                     else 'Email'), msg=n(msg),
             note=n(when.group(1)) if when else '')
 
 parse_email_file("letters-maesp-naesp.md", "MAESP/NAESP", 2)
