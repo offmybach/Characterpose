@@ -108,9 +108,46 @@ line is free and it is funnier than anything written about it, so let their labe
 - **29 Jul 2026** — All 15 corrected against the photographed tags. Story 3 (the shirt) added.
   Cruise-ship story kept, stripped of the invented penny and the invented dollar figure.
 
-## Still open
+## Still open — the tag photos
 
-The photographed tags are **not in the repo** — only `images/sticker.png`, which is the
-orange brand graphic. When Jonathan supplies the two tag photos they should go in
-`images/` and be offered as downloadable proof in the press kit, captioned with Nordstrom
-Rack's own "99% Savings."
+The photographed tags are **not in the repo**. Only `images/sticker.png` is here, and that is
+the orange brand graphic, not a receipt. Pasting a photo into chat lets it be read but does
+not create a file, and dragging one into a local folder does not reach this container.
+
+**To get them in:** commit them from the local machine and push to the working branch.
+
+```
+git add images/tag-mephisto-one-cent.jpg images/tag-shirt-one-cent.jpg
+git commit -m "Add one-cent clearance tag photos"
+git push origin claude/competitor-seo-social-analysis-n6caiy
+```
+
+Filenames do not matter; whatever lands in `images/` will be found.
+
+### Decision on record — barcodes get obscured (Jonathan, 29 Jul 2026)
+
+Both tags carry scannable barcodes and identify store **077**. Before publishing, **crop or
+blur the barcode strips.** Keep everything the story needs and nothing it does not:
+
+| Keep | Remove |
+|---|---|
+| Brand and item (Mephisto Sano · RB) | Barcode strips, both the printed number and the bars |
+| Size, colour | Store number 077 |
+| Compare at $293 · $199.97 · $69.50 | |
+| **$.01** and **"99% Savings"** | |
+
+Pillow 12.3.0 is available and verified for crop, Gaussian blur, and JPEG save. Blur is
+preferable to a hard crop where the barcode sits inside the sticker, so the red clearance
+label stays visibly intact — the label is the point.
+
+### Then, in one pass
+
+1. **`press-kit.html`** — a "Proof" card beside the art downloads, both tags, captioned with
+   Nordstrom Rack's own "99% Savings" and the real percentages underneath. Turns interview
+   question one from an anecdote into a document.
+2. **`index.html` ~1633** — the deal-master line currently asserts the penny with nothing
+   behind it. The tags belong there.
+3. **Alt text, stated as fact:** "Nordstrom Rack clearance tag: Mephisto Sano, compare at
+   $293, marked $199.97, final price $.01, sticker reads 99% Savings."
+4. **A social post** — two tags, the two percentages their sticker rounded down, one line
+   about the clearance aisle.
