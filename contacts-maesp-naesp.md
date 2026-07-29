@@ -24,6 +24,25 @@ Office: 7467 Ridge Road, Suite 310, Hanover, MD 21076 · 410-994-8768
 
 The board also carries 4 zone reps, 24 county and Baltimore City reps, plus middle school, private school, and assistant principal reps. If Wooleyhand says yes to anything, that list is the distribution.
 
+### 🐋 Briana Walker — Zone 4 (Eastern Shore) rep, and already a connection
+
+Added July 2026 from a 1st-degree LinkedIn connection. The strongest single MAESP contact
+after Rachel, for three reasons that stack:
+
+- **MAESP Zone 4 (Eastern Shore) Rep** — the regional leadership seat, so she is a
+  distribution node for Eastern Shore principals, not just one reader.
+- **2026 NAESP National Outstanding Assistant Principal** — one of ~29 nationally and the
+  first elementary winner ever from **Caroline County**.
+- **MAESP Connected School Leader** — recognized for using digital tools, which is exactly
+  what the free browser-based toolkit needs on the other end.
+
+Assistant Principal, **Greensboro Elementary, Caroline County Public Schools** — Eastern
+Shore, ~40 minutes from Lewes and Rehoboth, so the local tie is real and overlaps the
+Delaware Cape Region work. She is a 1st-degree connection: send the DM, no email needed.
+Letter drafted in `letters-new-july-28-29.md`. No published district email is used — if you
+ever need it off LinkedIn, Caroline County uses the school directory at ccpsstaff.org; do
+not guess the pattern.
+
 ---
 
 ## NAESP — national

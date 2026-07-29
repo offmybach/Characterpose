@@ -69,6 +69,18 @@ for m in re.finditer(r'\n## (\d+)\. ([^\n]+)\n(.*?)```\n(.*?)\n```', txt, re.S):
         channel=n(italics[0]) if italics else '',
         why=n(skinny.group(1))[:300] if skinny else '', msg=n(msg))
 
+# ---------- new July 28-29 (same format as letters-new-july.md) ----------
+txt = open("letters-new-july-28-29.md").read()
+for m in re.finditer(r'\n## (\d+)\. ([^\n]+)\n(.*?)```\n(.*?)\n```', txt, re.S):
+    head, meta, msg = m.group(2), m.group(3), m.group(4)
+    whale = '🐋' if '🐋' in head else ''
+    italics = re.findall(r'\*([^*\n]+)\*', meta)
+    skinny = re.search(r'\*\*The skinny:\*\*\s*(.*)', meta)
+    add(whale=whale, batch="New Jul 28-29", name=n(head.replace('🐋', '')),
+        role=n(italics[1]) if len(italics) > 1 else '',
+        channel=n(italics[0]) if italics else '',
+        why=n(skinny.group(1))[:300] if skinny else '', msg=n(msg))
+
 # ---------- MAESP / NAESP + Delaware (## or # N. Name / **Email:** / **Subject:** / ```) ----
 def parse_email_file(path, batch, hlevel):
     txt = open(path).read()
