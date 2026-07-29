@@ -114,6 +114,8 @@ https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 Mr. Keen — congratulations on the building. You took over a school in a town where I spend a good part of my year, so this is a local letter, and I'll keep it short because it's your first fall.
 
+You may have seen me on the boardwalk this summer in a shirt reading PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW. Half your families were on that boardwalk in July, mid-negotiation with a seven-year-old over a claw machine. That is the moment this book is about.
+
 I wrote and illustrated a children's book about money. Clarence Gets a Bargain — 36 pages, grades 1-5, and it does the one thing the rest of the category skips. Every other kids' money book teaches saving. Mine teaches a purchase: a boy earns a robot, reads the sale ads at his kitchen table, compares two on a shelf, walks past the newer one deliberately, redeems a coupon at the register, and gets ambushed by sales tax. He is not thrilled about the sales tax. Neither was I at that age.
 
 Delaware has had K-12 financial literacy standards since 2018, and HB 203 last October sent the whole rollout to high school. Your grade band has the standard and none of the shopping list.
@@ -395,7 +397,9 @@ clarencegetsabargain.com
 ```
 Attn: Leslie Glenn, Youth Services
 
-Ms. Glenn — I'm on Rehoboth Avenue often enough that this feels less like a cold email than it probably reads. I wrote and illustrated a children's book and I'd like to read it in your building.
+Ms. Glenn — I have been walking the boardwalk in a shirt that reads PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW. It is either marketing or a cry for help. Strangers keep asking, which was the idea, so I am now asking you.
+
+I wrote and illustrated a children's book and I would like to read it in your building.
 
 Clarence Gets a Bargain is 36 pages, ages 6-10. A boy earns a robot for good grades and chores, learns to read the sale ads, compares two models in a store, picks the discounted one over the newest one, hands a coupon to a cashier, and discovers sales tax the way we all did — badly, and in public. It reads aloud in about twenty minutes.
 
@@ -423,6 +427,8 @@ addressed to her.
 
 ```
 Ms. Noonan — you coordinate the children's programming at Lewes, so you already know the difference between a book event that fills a room and one where six kids show up because it was raining. I'll tell you which one I think this is and you can decide.
+
+For calibration: I have been walking the boardwalk in a shirt that says PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW. Parents actually ask. Turns out the arcade is where the money conversation happens whether anybody planned it or not.
 
 I wrote and illustrated Clarence Gets a Bargain — 36 pages, ages 6-10. A boy earns a robot, does his "shopping homework" in the newspaper sale inserts, compares two models in a store, chooses the cheaper of the two on purpose, redeems a coupon at the checkout, and then meets sales tax and takes it as a personal betrayal. Twenty minutes read aloud.
 

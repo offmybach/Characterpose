@@ -42,6 +42,7 @@ and I walked into it.
 | 25+ years a real estate and title attorney | **0** |
 | "Page 22. Aisle Five." | **0** |
 | Attorney who draws robots | 1 |
+| **"PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS / ASK ME HOW"** — his own boardwalk shirt | **now 3** |
 
 The one-cent tags are the single best icebreaker you own — and there are two of them, from the same store, which is a habit rather than a fluke. It is funny, it is verifiable, it
 proves the deal-master claim instead of asserting it, and it is *the reason you were
@@ -50,6 +51,12 @@ number one and the letters almost never mention it.
 
 The Crabby Guy is a comic credential with a Rehoboth address, and every Delaware letter
 ignores it.
+
+**The boardwalk shirt is the proof he has the register.** "Hissy-fits" is exactly the
+not-in-use-much word this audit says is missing, and the line leads with the parent's problem
+instead of the product — a boardwalk in July is dense with people mid-negotiation over a claw
+machine. Added to the Glenn, Noonan and Keen letters on 29 Jul 2026. QR on the shirt confirmed
+scanning; www.clarencegetsabargain.com 301s to the apex, so the printed URL resolves.
 
 ---
 
