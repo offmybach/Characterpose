@@ -67,7 +67,7 @@ Top of the rescored master list.
 *1st-degree · DM*
 
 ```
-Alex — I read a dozen kids' money books to see where mine fit. Every one taught saving. Save your pennies, save for a rainy day, save, save, save. Not one covered the moment a kid stands there with his own five bucks deciding if the thing is worth it. Am I qualified to fix that? Debatable. I did once talk a cruise-ship shop into a price match and walk out having paid one cent for $300 shoes. Not a typo. Mine runs that whole gauntlet — ad, aisle, markdown, coupon, and the sales tax nobody warns a six-year-old about. Segment, or am I picking a fight the category doesn't want? Press kit: https://clarencegetsabargain.com/press-kit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Alex — I read a dozen kids' money books to see where mine fit. Every one taught saving. Save your pennies, save for a rainy day, save, save, save. Not one covered the moment a kid stands there with his own five bucks deciding if the thing is worth it. Am I qualified to fix that? Debatable. I did once pay one cent for a $293 pair of shoes, and I kept the tag. Not a typo. Mine runs that whole gauntlet — ad, aisle, markdown, coupon, and the sales tax nobody warns a six-year-old about. Segment, or am I picking a fight the category doesn't want? Press kit: https://clarencegetsabargain.com/press-kit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Tami Lehman-Wilzig

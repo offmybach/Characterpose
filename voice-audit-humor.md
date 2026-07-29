@@ -36,14 +36,14 @@ and I walked into it.
 
 | Your asset | Times used in 669 letters |
 |---|---|
-| **The one-cent shoes** — $300 pair, cruise ship, price-match, paid one cent | **2** |
+| **The one-cent tags** — two of them, same Nordstrom Rack, $293 shoes and a $69.50 shirt | **2** |
 | "Deal master" reputation | **0** |
 | **The Crabby Guy's Little Book of Beach Etiquette** | **0** |
 | 25+ years a real estate and title attorney | **0** |
 | "Page 22. Aisle Five." | **0** |
 | Attorney who draws robots | 1 |
 
-The one-cent shoes is the single best icebreaker you own. It is funny, it is verifiable, it
+The one-cent tags are the single best icebreaker you own — and there are two of them, from the same store, which is a habit rather than a fluke. It is funny, it is verifiable, it
 proves the deal-master claim instead of asserting it, and it is *the reason you were
 qualified to write this book*. It appears twice. The press kit lists it as interview question
 number one and the letters almost never mention it.
@@ -95,7 +95,7 @@ Clarence Gets a Bargain is 36 pages, ages 6-10, and it takes about twenty minute
 
 What makes it work for summer is what happens after. I bring printable price tags and ten-percent-off coupons, and there's a pretend register the kids run on a library computer, ringing up the same purchase and watching the markdown and the coupon do their work. Seven-year-olds get competitive about it. Loudly.
 
-My own credentials in this area: I once talked a cruise-ship shop into price-matching a competitor and walked out with a $300 pair of shoes for one cent. Not a typo. I have been insufferable about it for years.
+My own credentials in this area: I have twice walked out of the same Nordstrom Rack having paid one cent — once for a $293 pair of shoes, once for a $69.50 shirt. Both stickers say "99% Savings," which is generous of them, because a penny off $293 is 99.997. I kept the tags. I have been insufferable about it for years.
 
 Free, obviously. I illustrated the book myself, so if a drawing demo lands better with your room than a straight read-aloud, I'll do that instead.
 
@@ -114,7 +114,7 @@ You're the Eastern Shore rep for MAESP and I'm down that way half the year — R
 
 I wrote and illustrated a K-5 book about the money thing nobody writes about. Every other kids' money book teaches saving. Piggy banks, jars, be patient. Mine teaches a purchase: a boy earns a robot, works the sale inserts at the kitchen table, compares two on a shelf, takes the cheaper one deliberately, hands a coupon to the cashier, and discovers sales tax the way we all did, which is badly and in public.
 
-Qualifications, such as they are: I'm a title attorney who draws robots, and I once got a cruise-ship shop to price-match a competitor and paid one cent for $300 shoes. My kid comes by it honestly.
+Qualifications, such as they are: I'm a title attorney who draws robots, and I have paid one cent at the same Nordstrom Rack twice — a $293 pair of shoes and a $69.50 shirt. I kept both tags. My kid comes by it honestly.
 
 The real reason I'm writing you and not a longer list — MAESP named you a Connected School Leader for actually using the digital tools. The whole teacher kit behind this is free, ungated, and prints from a browser. Four lesson plans, assessments with the answer keys already done, a standards crosswalk. No account, no budget line, nothing to sign. It's exactly the kind of thing that dies in a staff room in October unless a principal who gets it hands it to the right teacher.
 
