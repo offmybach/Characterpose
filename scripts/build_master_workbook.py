@@ -124,6 +124,16 @@ add(whale='🐋', batch="Standalone", name="Dr. Rachel Edoho-Eket",
     why="Maryland elementary gatekeeper, local, and an author who judges production.",
     note="Already a connection — single DM, no request note.")
 
+# ---------- CFPB / NCLC consumer-rights (## N. Name / *chan* / ```) ----------
+txt = open("letters-cfpb-consumer-rights.md").read()
+for m in re.finditer(r'\n## \d+\. ([^\n]+)\n\*([^*\n]+)\*(.*?)```\n(.*?)\n```', txt, re.S):
+    head, chan, meta, msg = m.group(1), m.group(2), m.group(3), m.group(4)
+    whale = '🐋' if '🐋' in head else ''
+    name = n(head.replace('🐋', '').replace('🔵', ''))
+    add(whale=whale, batch="CFPB/rights", name=name, channel=n(chan.split('·')[0]),
+        why="Kids-as-consumers-with-rights thesis. " + n(re.sub(r'\*\*[^*]+\*\*','',meta))[:220],
+        msg=n(msg))
+
 # ---------- Jump$tart / Stanford (## X. Name — ... / **Subject:** / ```) ----------
 txt = open("jumpstart-clearinghouse-strategy.md").read()
 for m in re.finditer(r'\n## ([A-G])\. ([^\n]+)\n(.*?)```\n(.*?)\n```', txt, re.S):
