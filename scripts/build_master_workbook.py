@@ -126,6 +126,19 @@ add(whale='🐋', batch="Standalone", name="Dr. Rachel Edoho-Eket",
     why="Maryland elementary gatekeeper, local, and an author who judges production.",
     note="Already a connection — single DM, no request note.")
 
+# ---------- Top 25 week 1 (## N. Name — score / *role* / ```) ----------
+txt = open("letters-top25-week1.md").read()
+for m in re.finditer(r'\n## (\d+)\. ([^\n]+?) — (\d+)\n\*([^*\n]+)\*(.*?)```\n(.*?)\n```', txt, re.S):
+    num, nm, score, role, meta, msg = m.groups()
+    whale = '🐋' if '🐋' in nm else ''
+    name = n(nm.replace('🐋','').replace('🔵',''))
+    chan = 'InMail' if 'InMail' in role else 'LinkedIn message (1st-degree)'
+    sub = re.search(r'\*\*Subject:\*\*\s*`([^`]+)`', meta)
+    add(whale=whale, batch="TOP25 wk1", name=name, role=n(role), score=int(score),
+        channel=chan, subject=n(sub.group(1)) if sub else '',
+        why=f"Week-1 top 25, rank {num}, score {score}. Full-length rewrite using the real channel limit.",
+        msg=n(msg))
+
 # ---------- CFPB / NCLC consumer-rights (## N. Name / *chan* / ```) ----------
 txt = open("letters-cfpb-consumer-rights.md").read()
 for m in re.finditer(r'\n## \d+\. ([^\n]+)\n\*([^*\n]+)\*(.*?)```\n(.*?)\n```', txt, re.S):
