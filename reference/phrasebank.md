@@ -506,28 +506,23 @@ that mattered.
 ---
 ---
 
-# 🎰 The claw machine — recovered, and the numbers need settling
+# 🎰 The claw machine — settled 30 Jul 2026
 
-Jonathan raised this from memory on 30 Jul 2026. It turns out he had **already written it**,
-in `marketing-blitz.html`, a page that lives on branch `claude/cgb-marketing-blitz-g5g1wb`
-and had never reached main or any working branch. Restored 30 Jul 2026.
+Jonathan raised this from memory. It turned out he had **already written it**, in
+`marketing-blitz.html` (commit ec2ac44, 12 Jul 2026) — a page that lived only on branch
+`claude/cgb-marketing-blitz-g5g1wb` and had never reached main. Restored 30 Jul 2026.
 
-## ⚠️ Two versions, different numbers. Do not merge them.
+## ✅ The figures of record
 
-| | Written version (commit ec2ac44, 12 Jul 2026) | Recalled version (30 Jul 2026) |
-|---|---|---|
-| Cost | **$25**, total | **$1 a try, sixteen tries = $16** |
-| Prize | a basketball | "the same" toy |
-| Retail | **$9.99** at Walmart | **$10** at Walmart |
-| Markup | 150% | 60% |
+**$25 into the claw machine. The prize is a basketball. Walmart sells that basketball
+for $9.99.**
 
-The written one is the version of record because it is written down and dated. The recalled
-one is the better story, because you watch it happen a dollar at a time and the sunk cost is
-visible by try four.
+Confirmed by Jonathan 30 Jul 2026. A recalled version — a dollar a try, sixteen tries,
+a $10 toy — was **a guess and is retired.** Do not use it, and do not blend the two.
 
-**Jonathan: which is true?** If both happened, they are two anecdotes and both are usable. If
-the recalled one is right, the written post needs correcting. Dollar amounts are never
-rounded or merged in this project — so nothing ships until this is settled.
+⚠️ **$25 and $9.99, exact.** Never "about twenty-five," never "ten bucks," and no
+percentage — the raw pair does the work and the written post is right to skip the math.
+Same rule as `reference/deal-master-facts.md`.
 
 ## The written version, verbatim
 
@@ -544,9 +539,18 @@ rounded or merged in this project — so nothing ships until this is settled.
 >
 > One book. Every glass box on the boardwalk, defused.
 
-Engagement hook underneath it, which is the best comment-bait in the bank:
+Engagement hook underneath it, the best comment-bait in the bank:
 > "Most money you've ever watched someone feed a claw machine? Dollar figures only. **This is
 > a safe space.**"
+
+## Why it earns a place in cold letters
+
+It is the book's thesis inverted. Clarence compares two robots on a shelf and takes the
+cheaper one on purpose. Sixty feet up the boardwalk another six-year-old hands over $25 for
+a $9.99 basketball and calls it winning. Only one of them was taught.
+
+It also gives the boardwalk shirt its punchline. The shirt says PREVENT BOARDWALK MELTDOWNS
+& ARCADE HISSY-FITS, ASK ME HOW. Until now there was no answer to "how."
 
 ## The rest of the arcade material, all of it his, all of it buried
 

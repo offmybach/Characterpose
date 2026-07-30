@@ -115,7 +115,7 @@ https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 Mr. Keen — congratulations on the building. You took over a school in a town where I spend a good part of my year, so this is a local letter, and I'll keep it short because it's your first fall.
 
-I have had a shirt printed that reads PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW, so you may yet see me in it. Half your families were on that boardwalk in July, mid-negotiation with a seven-year-old over a claw machine. That is the moment this book is about.
+I have had a shirt printed that reads PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW, so you may yet see me in it. Half your families were on that boardwalk in July, mid-negotiation with a seven-year-old over a claw machine. That machine takes $25 to hand back a basketball Walmart sells for $9.99, and the kid has no way of knowing that. That is the moment this book is about.
 
 I wrote and illustrated a children's book about money. Clarence Gets a Bargain — 36 pages, grades 1-5, and it does the one thing the rest of the category skips. Every other kids' money book teaches saving. Mine teaches a purchase: a boy earns a robot, reads the sale ads at his kitchen table, compares two on a shelf, walks past the newer one deliberately, redeems a coupon at the register, and gets ambushed by sales tax. He is not thrilled about the sales tax. Neither was I at that age.
 
@@ -418,7 +418,7 @@ clarencegetsabargain.com
 ```
 Attn: Leslie Glenn, Youth Services
 
-Ms. Glenn — I have had a shirt printed that reads PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW. It is either marketing or a cry for help, and I intend to find out on the boardwalk this summer. In the meantime I am asking you.
+Ms. Glenn — I have had a shirt printed that reads PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW. It is either marketing or a cry for help, and I intend to find out on the boardwalk this summer. If anyone does ask, the answer is short: the claw machine takes $25 to hand back a basketball Walmart sells for $9.99, and a kid who has seen the $9.99 stops feeding it. In the meantime I am asking you.
 
 I wrote and illustrated a children's book and I would like to read it in your building.
 
@@ -451,7 +451,7 @@ addressed to her.
 ```
 Ms. Noonan — you coordinate the children's programming at Lewes, so you already know the difference between a book event that fills a room and one where six kids show up because it was raining. I'll tell you which one I think this is and you can decide.
 
-For calibration, I have had a shirt printed that says PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW. Whether anyone stops me is still an open question. But the arcade is where the money conversation happens whether a parent planned it or not, and that is the whole subject of the book.
+For calibration, I have had a shirt printed that says PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW. Whether anyone stops me is still an open question. But the arcade is where the money conversation happens whether a parent planned it or not — $25 into a glass box for a basketball Walmart sells for $9.99 — and that is the whole subject of the book.
 
 I wrote and illustrated Clarence Gets a Bargain — 36 pages, ages 6-10. A boy earns a robot, does his "shopping homework" in the newspaper sale inserts, compares two models in a store, chooses the cheaper of the two on purpose, redeems a coupon at the checkout, and then meets sales tax and takes it as a personal betrayal. Twenty minutes read aloud.
 
