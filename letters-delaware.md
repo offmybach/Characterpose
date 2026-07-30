@@ -1,7 +1,8 @@
 # Letters — Delaware, Cape Region + State
 
-Eighteen letters. Fifteen are email, one is a phone script because DASA publishes no address,
-and two go to Rehoboth venues by phone or web form because neither publishes an address either.
+Eighteen letters, seventeen sendable. Fifteen are email, one is a phone script because DASA
+publishes no address, and letter 17 (Browseabout) is marked DO NOT SEND — they already declined
+the book. Read that entry before touching letter 18; the festival shares a partner with them.
 
 Every one of these leans on something true and local: Delaware adopted K–12 financial
 literacy standards in 2018, then handed the entire HB 203 rollout to high school. That gap
@@ -499,7 +500,43 @@ improvise.
 
 ---
 
-# 17. James Wilson — Browseabout Books
+# 17. Browseabout Books — ⛔ DO NOT SEND
+
+**They already rejected the book.** Per Jonathan, 29 Jul 2026: declined without reading it,
+on the basis that someone there believed she spotted AI in a small thumbnail of the cover.
+The cover is Jonathan's own mixed-media illustration.
+
+So the letter below is dead as written. It opens warm, assumes no history, and offers to walk
+in the front door — which to someone who has already said no reads as either amnesia or
+pressure. Sending it would cost more than it could win.
+
+**Three options, in the order I'd rank them.**
+
+1. **Leave it.** A store that declined on a thumbnail is not a store whose yes is worth
+   chasing this year. Rehoboth has Biblion in Lewes, the library, and the festival. Spend the
+   effort there.
+2. **One short correction, no ask.** If the AI accusation is what stings — and it should, you
+   drew it — a four-line note that corrects the record and requests nothing is defensible.
+   It is not a pitch, it is a fact on file. Say the word and I'll write it.
+3. **Re-approach in a year with a third-party credential in hand** — a Bank Street listing, a
+   NAPPA award, a *Principal* mention. Booksellers reverse themselves for outside validation,
+   not for a better email.
+
+**⚠️ The festival is affected too.** The Beachside Book Festival is run by Sussex County
+Libraries **in partnership with Browseabout**. That makes letter 18's cold route risky —
+it could land in front of the same person. The library side is now the only sensible way in,
+which makes **Leslie Glenn (letter 14) the required first step**, not merely the preferred
+one.
+
+**Also worth having ready: the art provenance.** If one bookseller called AI on a thumbnail,
+others will. That is a recurring risk, not a one-off, and the answer should exist before the
+next person asks — process photos, work-in-progress scans, whatever documents the mixed-media
+practice. It belongs in the press kit next to the author photo.
+
+---
+
+<details>
+<summary>Dead letter, kept for reference only — do not send</summary>
 
 **Events Coordinator, Browseabout Books** · 133 Rehoboth Avenue, Rehoboth Beach, DE 19971
 **Phone:** 302.226.2665 — they answer 11 to 3, Monday to Friday
@@ -529,6 +566,8 @@ Jonathan Bach
 Baltimore and Rehoboth Beach
 clarencegetsabargain.com
 ```
+
+</details>
 
 ---
 
