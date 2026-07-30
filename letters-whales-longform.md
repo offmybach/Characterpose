@@ -337,7 +337,7 @@ Financial education answers this by teaching saving. But saving is the second th
 
 I wrote the picture book rather than the paper. Clarence Gets a Bargain follows one complete purchase — the sale ads, the comparison, the markdown, the coupon, the sales tax, and living with the choice afterward. Sixteen-plus concepts, none announced. Twenty-one terms in a back-matter glossary, each page-referenced to the scene it came from. Catalogued Lexile AD 620L — Adult Directed — so the reading is a joint activity by design rather than a solo one.
 
-The question I would genuinely like answered: is there work on when price competence forms, and whether early exposure to comparison changes anything measurable later? If the honest answer is that it is unstudied because it is unmeasurable at that age, that is worth knowing too.
+The question I would actually like answered: is there work on when price competence forms, and whether early exposure to comparison changes anything measurable later? If the honest answer is that it is unstudied because it is unmeasurable at that age, that is worth knowing too.
 
 clarencegetsabargain.com/book-facts.html
 
@@ -883,7 +883,7 @@ That is the book I wrote. Clarence Gets a Bargain follows one purchase the whole
 
 Catalogued Lexile AD 620L — Adult Directed — about twenty minutes out loud, with every concept explained inside the text, so somebody can read it cold to a class. You will recognise why that mattered to me.
 
-You also solved a distribution problem the rest of us have not: banks and credit unions sponsor the visits and buy the books, and their community reports write themselves. I would genuinely rather learn that from you than reverse-engineer it.
+You also solved a distribution problem the rest of us have not: banks and credit unions sponsor the visits and buy the books, and their community reports write themselves. I would rather learn that from you than reverse-engineer it.
 
 Trade copies and compare notes? I will read Sammy properly and tell you the truth about it, which is the only thing worth trading.
 

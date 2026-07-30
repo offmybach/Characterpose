@@ -27,19 +27,19 @@ neither belongs in this lane — leave both out.
 ```
 Christine,
 
-You're closing September, Grandparents Day lands on the 13th, and I have a piece for it that isn't about a gift. It's about an afternoon.
+You're closing September, Grandparents Day is the 13th, and every other pitch on your desk this week is a gift guide. Mine is an afternoon.
 
 I'm an attorney, a mixed-media artist, and a dad, and I wrote and illustrated a children's picture book called Clarence Gets a Bargain. Ages 6–10. A boy earns a robot with chores and grades, then has to figure out how to buy it — sale ads at the kitchen table, two models compared on a shelf, the cheaper one taken on purpose, a coupon handed to the cashier, and sales tax showing up uninvited at the end.
 
-Here's the part your readers own. Every children's money book teaches saving. Piggy banks, jars, three little tins labeled spend-save-give where "spend" gets one page and a guilty look. But saving is the second thing a child does with money. The first is spending, and a six-year-old has already done it, in a store, holding a birthday five, deciding whether the thing is worth what it costs. We teach the second thing first and the first thing never.
+Your readers own the next part. Every children's money book teaches saving. Piggy banks, jars, three little tins labeled spend-save-give where "spend" gets one page and a guilty look. But saving is the second thing a child does with money; the first is spending, and a six-year-old has already done it, in a store, holding a birthday five, deciding whether the thing is worth what it costs. We teach the second thing first and the first thing never.
 
 Grandparents are the only people left who can teach the first one from experience. You clipped coupons back when it was a survival skill rather than a hobby. You remember layaway. You know what your first paycheck was and exactly what it wouldn't cover. Those stories are the best money curriculum a child will ever get and they have nowhere to land — until a book puts a kid in a store and every page comes with a "that reminds me of the time" already sitting in it.
 
-The format is the argument. The book is catalogued Lexile AD 620L, and the AD means Adult Directed — the industry's own code for a book meant to be read WITH a child, not handed to one. You're not optional equipment. You're cast. Mom explains everything inside the story, so the grandparent reading aloud gets handed the script and can take the credit for knowing it. Twenty minutes out loud, interrupted the whole way, and the interruptions are the point: "Do we have a 529?" "Why do you take pictures of receipts?" "Can I hand the cashier the coupon next time?"
+The book is catalogued Lexile AD 620L, and the AD means Adult Directed — the industry's own code for a book meant to be read WITH a child rather than handed to one. It needs a grown-up in the room. You're cast. Mom explains everything inside the story, so the grandparent reading aloud gets handed the script and can take the credit for knowing it. Twenty minutes out loud, interrupted the whole way, and the interruptions are the point: "Do we have a 529?" "Why do you take pictures of receipts?" "Can I hand the cashier the coupon next time?"
 
-And two of the games in it can't be played alone. Page 27: whoever spots the biggest savings at the grocery store wins, loser carries the bags in from the car. Page 28: after dinner somebody shares a deal they got that day and everyone guesses the price. Three players minimum. Grandma counts.
+And two of the games in it can't be played alone. Page 27: whoever spots the biggest savings at the grocery store wins, loser carries the bags in from the car. Page 28: after dinner somebody shares a deal they got that day and everyone guesses the price. Kids' guesses are unhinged. A gallon of milk goes for $45; a car for $100. The reveal face is the whole entertainment. Three players minimum. Grandma counts.
 
-I'd write it for you as 800–1,200 words — "What Grandparents Can Teach About Money That Nobody Else Can" — with the games as a sidebar readers can tear out and use. Or if you'd rather run it as a product review, the book is $19.99, 36 pages, hardbound, and I'll send a copy today either way.
+I'd write it for you as 800–1,200 words, under the title "What Grandparents Can Teach About Money That Nobody Else Can," with the games as a sidebar readers can tear out and use. Or if you'd rather run it as a product review, the book is $19.99, 36 pages, hardbound, and I'll send a copy today either way.
 
 Which is more useful to you?
 
@@ -67,7 +67,7 @@ The format backs that up. It's catalogued Lexile AD 620L, and AD stands for Adul
 
 Two of the games in the back half need other people, which I did on purpose. Page 27: everyone hunts for the biggest savings on the next grocery run, loser carries the bags in from the car. Page 28: after dinner someone shares a deal they got that day and everybody guesses the price. Three players minimum. Grandma counts.
 
-And if you're the grandparent who quietly opened the 529 — page 6 is your victory lap. Read it twice.
+And if you're the grandparent who opened the 529 and never mentioned it to anyone — page 6 is your victory lap. Read it twice.
 
 You run two pages that this could belong on: Best Books on Grandparenting, and Gifts for Grandchildren. I'd rather be on the first one than the second, because the pitch isn't "buy this for them," it's "here's something to do with them." But you know your readers and I don't.
 
@@ -222,7 +222,7 @@ P.S. — At the back there's a 21-term glossary where every definition points to
 ```
 Grandparents buy a lot of books. Most get carried off to a bedroom and you never hear another word about them. I wrote one that doesn't work that way. It needs you in the room.
 
-Clarence Gets a Bargain carries a reading level of Lexile AD 620L. The AD stands for "Adult Directed" — the book industry's own label for a title meant to be read WITH a child rather than handed to one. You're not optional equipment here. You're cast.
+Clarence Gets a Bargain carries a reading level of Lexile AD 620L. The AD stands for "Adult Directed" — the book industry's own label for a title meant to be read WITH a child rather than handed to one. It needs a grown-up in the room. You're cast.
 ```
 
 Then continue from "Here's why."
