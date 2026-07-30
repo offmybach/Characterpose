@@ -25,7 +25,7 @@ Every lesson works for:
 **Pages read:** 1–3
 **Grades:** 1–5
 **Standards:**
-- Jump$tart 2021: Spending & Saving — Standard 1 (Develop a plan for spending and saving)
+- Jump$tart: Spending; Saving
 - CEE Financial Literacy: Standard 2 (Buying Goods and Services), Standard 3 (Saving)
 - CCSS.ELA-LITERACY.SL.1.1 through SL.5.1 (Collaborative Discussion)
 - CCSS.ELA-LITERACY.RI.1.1, RI.2.1, RI.3.1 (Key Ideas and Details)
@@ -78,7 +78,7 @@ By the end of this lesson, students will:
 **Pages read:** 4–10
 **Grades:** 1–5
 **Standards:**
-- Jump$tart 2021: Spending & Saving — Standard 2 (Develop a system for keeping track of personal finances); Standard 4 (Apply consumer skills to spending decisions)
+- Jump$tart: Spendingsumer skills to spending decisions)
 - CEE Financial Literacy: Standard 2 (Buying Goods and Services)
 - CCSS.MATH.CONTENT.2.MD.C.8 (Word problems with $ and ¢); 3.NBT.A.2; 4.NF.B.6 (decimals — grades 4–5)
 - CCSS.ELA-LITERACY.RI.1.7, RI.2.7, RI.3.7 (Use illustrations/text features to clarify meaning)
@@ -132,7 +132,7 @@ Which saved the most? Discuss why the math sometimes surprises us.
 **Pages read:** 11–22
 **Grades:** 1–5
 **Standards:**
-- Jump$tart 2021: Spending & Saving — Standard 4 (Apply consumer skills to spending and saving decisions)
+- Jump$tart: Spending
 - CEE Financial Literacy: Standard 2 (Buying Goods and Services)
 - CCSS.MATH.CONTENT.2.MD.C.8 (grades 1–2); 4.NF.B.6 (grade 4); 5.NBT.B.7 (grade 5)
 - CCSS.ELA-LITERACY.RI.3.1, RI.4.1 (Key Ideas and Details)
@@ -191,7 +191,7 @@ By the end of this lesson, students will:
 **Grades:** 1–5
 **Standards:**
 - All standards from Weeks 1–3 reviewed
-- Jump$tart 2021: Spending & Saving Standard 3 (Saving vehicles); Financial Decision Making Standard 1 (Responsibility)
+- Jump$tart: Saving; Spending
 - CEE Financial Literacy: Standard 3 (Saving)
 - CCSS.ELA-LITERACY.SL.1.1 through SL.5.1 (Collaborative Discussion)
 - CCSS.ELA-LITERACY.W.1.1 through W.5.1 (Written Reflection — gr. 3–5)

@@ -33,7 +33,7 @@ Clarence has earned a robot. He's been talking about it all week. Mom reminds hi
 - **[E]** What's something at YOUR house that costs money you didn't know about?
 - **[E]** Could YOU live without YouTube? For how long?
 
-**Standards:** Jump$tart SPD-1; CEE Standard 2.1; FDIC Money Smart.
+**Standards:** Jump$tart: Spending; CEE Standard 2.1; FDIC Money Smart.
 
 ---
 
@@ -58,7 +58,7 @@ Mom asks Clarence to bring a pile of newspapers from the kitchen. She opens the 
 - **[E]** Have you ever seen a coupon at home? What was it for?
 - **[E]** If you were saving money in a 529 for college, what would you want to study?
 
-**Standards:** Jump$tart SPD-2, SPD-3, SVG-1; CEE Standard 2; CCSS Math 2.MD.8.
+**Standards:** Jump$tart: Spending & Saving; CEE Standard 2; CCSS Math 2.MD.8.
 
 ---
 
@@ -85,7 +85,7 @@ Clarence walks into Sea-Mart already knowing where to ask. The lady in the red v
 
 **Teaching note — "Aren't you becoming a Wyze little shopper?"** Clarence's last name is **Wyze** (page 1). Page 21 makes the wordplay explicit: Mom calls him a "Wyze little shopper" — wise spelled with a Y to match his name. Point this out to older readers (grades 3+). Vocabulary callback: "Wyze" lives in the official glossary's Sale entry too — *"like a certain Wyze kid we know."* It's the book's running pun and the curriculum's identity.
 
-**Standards:** Jump$tart 2021 Spending & Saving (Standard 4: Apply consumer skills); CEE Standard 2 (Buying Goods and Services); CCSS.ELA RI.3.1, RI.4.1, L.3.5 (figurative language for the wordplay).
+**Standards:** Jump$tart: Spending; CEE Standard 2 (Buying Goods and Services); CCSS.ELA RI.3.1, RI.4.1, L.3.5 (figurative language for the wordplay).
 
 ---
 
@@ -112,7 +112,7 @@ Clarence finds a RoBimmie on the clearance shelf — the one he had in mind. He 
 
 **Teaching note — The Receipt Habit:** Mom photographs every receipt. The book treats this as a casual aside on page 22, but it's a real-world money habit kids rarely learn. A photographed receipt is proof of purchase if the item breaks, if you're charged the wrong amount, or if you want a refund. Use this as a 30-second life-skill aside.
 
-**Standards:** Jump$tart 2021 Spending & Saving (Standards 3 and 4); CEE Standard 2 (Buying Goods and Services); CCSS.Math 4.NF.B.6, 5.NBT.B.7.
+**Standards:** Jump$tart: Spending & Saving; CEE Standard 2 (Buying Goods and Services); CCSS.Math 4.NF.B.6, 5.NBT.B.7.
 
 ---
 
@@ -135,7 +135,7 @@ At home, Dad is impressed. So impressed that he confesses: Mom and Dad were kind
 
 **Teaching note — Handle the bills conversation carefully:** Pages 23–24 reveal Mom and Dad were partly *teaching* with their bills speech. Most kids will find this funny. But some kids in your class come from families that truly can't always pay every bill. Don't ask students to share their own family's financial situation. Frame discussion around Clarence's family, not their own. If a student volunteers that their family struggles, acknowledge ("that's a real thing in lots of families — money is hard"), redirect to the book, and follow up privately if needed.
 
-**Standards:** Jump$tart 2021 Spending & Saving (Standards 1, 3); CEE Standards 2 and 3 (Buying, Saving); FDIC Money Smart.
+**Standards:** Jump$tart: Spending & Saving; CEE Standards 2 and 3 (Buying, Saving); FDIC Money Smart.
 
 ---
 
@@ -156,7 +156,7 @@ Clarence brings the lessons home. He and Mom make games out of finding deals at 
 - **[E]** What money game could YOU play with your family this week?
 - **[E]** Have you ever shopped on Black Friday or Cyber Monday with your family? What was it like?
 
-**Standards:** Jump$tart SVG-2, FM-1; CEE Standard 5.2.
+**Standards:** Jump$tart: Saving & Spending; CEE Standard 5.2.
 
 ---
 

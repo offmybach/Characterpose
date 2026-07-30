@@ -10,5 +10,6 @@ Disallow: /social-media-campaigns-april.html
 Disallow: /social-assets.html
 Disallow: /review-cards.html
 Disallow: /badge-generator.html
+Disallow: /marketing-blitz.html
 
-Sitemap: https://www.clarencegetsabargain.com/sitemap.xml
+Sitemap: https://clarencegetsabargain.com/sitemap.xml

@@ -14,45 +14,44 @@ The book's teaching concepts, in order of appearance, with the strongest standar
 
 | # | Concept | Story Pages | Glossary | Primary Standard |
 |---|---|---|---|---|
-| 1 | ***Wants vs. Needs*** | 1–3, 25–26, 30 | ✓ | Jump$tart S&S Standard 1; CEE Standard 2 |
-| 2 | Budgeting | 3, 30 | ✓ | Jump$tart S&S Standard 1; CEE Standard 2 |
-| 3 | Household bills | 3 | ✓ | Jump$tart S&S Standard 1 |
-| 4 | Mortgage | 3 | ✓ | Jump$tart S&S Standard 1 |
-| 5 | Income | 24 (implied) | ✓ | Jump$tart E&I Standard 1 |
+| 1 | ***Wants vs. Needs*** | 1–3, 25–26, 30 | ✓ | Jump$tart: Spending 4-1; CEE Standard 2 |
+| 2 | Budgeting | 3, 30 | ✓ | Jump$tart: Spending 4-3; CEE Standard 2 |
+| 3 | Household bills | 3 | ✓ | Jump$tart: Spending 4-3|
+| 4 | Mortgage | 3 | ✓ | Jump$tart: Credit 4-2|
+| 5 | Income | 24 (implied) | ✓ | Jump$tart: Earning Income 4-6|
 | 6 | Charitable giving | 4 | ✓ | CEE Standard 3 (Saving); FDIC 3–5 |
-| 7 | Sale ads | 4–5 | ✓ | Jump$tart S&S Standard 4 |
+| 7 | Sale ads | 4–5 | ✓ | Jump$tart: Spending 4-5|
 | 8 | Comparison shopping | 5, 9–10, 27, 30 | ✓ | CEE Standard 2; CCSS.Math 2.MD.C.8 |
-| 9 | 529 college savings | 6, 24 | ✓ | Jump$tart S&S Standard 3; CEE Standard 3 |
+| 9 | 529 college savings | 6, 24 | ✓ | Jump$tart: Saving 4-2; CEE Standard 3 |
 | 10 | College & tuition | 6 | ✓ | CEE Standard 3 |
-| 11 | Coupons (paper, mail, email, text) | 7–8, 22 | ✓ | Jump$tart S&S Standard 4 |
+| 11 | Coupons (paper, mail, email, text) | 7–8, 22 | ✓ | Jump$tart: Spending 4-5|
 | 12 | Picking the right store | 9–11 | — | CEE Standard 2 |
-| 13 | Clearance section | 13–18 | ✓ | Jump$tart S&S Standard 4 |
-| 14 | Markdowns | 16–18 | ✓ | Jump$tart S&S Standard 4 |
+| 13 | Clearance section | 13–18 | ✓ | Jump$tart: Spending 4-5|
+| 14 | Markdowns | 16–18 | ✓ | Jump$tart: Spending 4-5|
 | 15 | Comparing similar products | 19–21 | — | CCSS.Math 4.NF.B.6 (gr. 4–5) |
-| 16 | Smart purchase decision | 21 | — | Jump$tart FDM Standard 1 |
+| 16 | Smart purchase decision | 21 | — | Jump$tart: Spending 4-4|
 | 17 | Sales tax | 22 | ✓ | CEE Standard 2 |
-| 18 | Combining coupon + clearance | 22 | — | Jump$tart S&S Standard 4; CCSS.Math 5.NBT.B.7 |
-| 19 | Receipt as proof of purchase | 22 | ✓ | Jump$tart FDM Standard 1 |
-| 20 | Consumer awareness ("use what you buy") | 25, 29 | ✓ | Jump$tart S&S Standard 4 |
-| 21 | Lifelong saving habits | 24, 26–30 | ✓ | Jump$tart S&S Standard 3; CEE Standard 3 |
+| 18 | Combining coupon + clearance | 22 | — | Jump$tart: Spending 4-5; CCSS.Math 5.NBT.B.7 |
+| 19 | Receipt as proof of purchase | 22 | ✓ | Jump$tart: Spending|
+| 20 | Consumer awareness ("use what you buy") | 25, 29 | ✓ | Jump$tart: Spending 4-4|
+| 21 | Lifelong saving habits | 24, 26–30 | ✓ | Jump$tart: Saving 4-1; CEE Standard 3 |
 | 22 | Family money games | 27–28 | — | CEE Standard 2 |
-| 23 | Future shopping events (Black Friday, Cyber Monday, Prime Day) | 32 | ✓ | Jump$tart S&S Standard 4 |
+| 23 | Future shopping events (Black Friday, Cyber Monday, Prime Day) | 32 | ✓ | Jump$tart: Spending 4-5|
 
 **Legend:** Glossary ✓ = term has its own entry in the book's official two-page back-matter glossary.
 
 ---
 
-## Jump$tart Coalition 2021 National Standards in K–12 Personal Finance Education
+## Jump$tart Coalition 2021 National Standards for Personal Financial Education
 
 The Jump$tart framework has six topic areas, each with knowledge & ability statements. Clarence Gets a Bargain hits four directly.
 
 | Topic Area | Standard | Book Concept | Pages |
 |---|---|---|---|
-| **Spending & Saving (S&S)** | Standard 1: Develop a plan for spending and saving | Wants/needs sort; bills speech; budgeting | 1–3, 30 |
-| **Spending & Saving** | Standard 3: Describe how to use different payment methods and savings vehicles | 529 account; lifelong saving habits | 6, 24, 26–30 |
-| **Spending & Saving** | Standard 4: Apply consumer skills to spending and saving decisions | Comparison shopping; coupons; clearance; markdowns; smart purchase | 4–22 |
-| **Employment & Income (E&I)** | Standard 1: Explore job and career options | Income (definition); chores → reward framing | 1, 24 |
-| **Financial Decision Making (FDM)** | Standard 1: Recognize the responsibilities associated with personal financial decisions | Smart purchase decision; receipt habit | 21–22, 25 |
+| **Spending** | Wants vs. Needs; household bills; budgeting; reading sale ads; comparison shopping; coupons; clearance and markdowns; sales tax; the purchase decision; receipts | 1–30 |
+| **Saving** | 529 college savings account; setting money aside for a goal; lifelong saving habits | 6, 24, 26–30 |
+| **Earning Income** | Income as money earned for work; chores and grades as the path to a reward | 1, 24 |
+| **Managing Credit** | Mortgage as a loan repaid monthly over many years | 3 |
 
 ---
 
@@ -130,7 +129,7 @@ For a custom standards report filtered by framework or grade level, use the Curr
 
 ## Framework Source Citations
 
-- **Jump$tart Coalition for Personal Financial Literacy.** *National Standards in K–12 Personal Finance Education* (2021 ed.). Available at **jumpstartcoalition.org/national-standards**.
+- **Jump$tart Coalition for Personal Financial Literacy.** *National Standards for Personal Financial Education* (2021 ed.). Available at **jumpstartcoalition.org/national-standards**.
 - **Council for Economic Education (CEE).** *National Standards for Financial Literacy* (2nd ed.). Available at **councilforeconed.org/national-standards-for-financial-literacy**.
 - **Common Core State Standards Initiative.** *Common Core State Standards for English Language Arts & Literacy* and *Mathematics*. Available at **corestandards.org**.
 - **Federal Deposit Insurance Corporation.** *Money Smart for Young People*. Available at **fdic.gov/resources/consumers/money-smart**.

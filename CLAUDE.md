@@ -434,6 +434,10 @@ Each entry includes the page(s) where the term appears in the story.
 - `linkedin-profile-assets.html` — LinkedIn profile assets
 - `instagram-stories.html` — Instagram stories
 - `social-media-campaigns-april.html` — April campaign
+- `marketing-blitz.html` — July–Sept 2026 two-front blitz playbook: "Boardwalk-Proof Your Kid" (parents, Jul 13–Aug 16) + back-to-school ground game (teachers/librarians, Aug 3–Sep 11). Competitor recon, 22 dated posts, 5 outreach templates. Internal, robots-blocked. **Recovered 30 Jul 2026 from branch `claude/cgb-marketing-blitz-g5g1wb`; it had never reached main.**
+- `vs-other-money-books.html` — the gracious comparison page other assets funnel into
+- `school-visits.html` — "The Clearance Aisle Assembly": four visit formats, run of show, school funding lines (MD/DE/DC Metro)
+- `money-glossary.html`, `teaching-kids-about-money.html` — SEO landing pages
 - `state-of-the-states.html` — interactive US tile map of state finlit requirements (30 guarantee states per NGPF May 2026; verify before editing data)
 - `receipt-builder.html` — kid-facing interactive Sea-Mart register (clearance markdown + 10% coupon + sales tax; prices in cents, book-accurate coupon rule: clearance toys only)
 - `press-kit.html` — media kit: bios ×3 lengths, fact sheet, art downloads, interview Qs (Q5 protects the Aisle Five spoiler — keep it that way)
