@@ -33,6 +33,8 @@ Built with a K-5 teacher of 30+ years who told me what to cut, and endorsed by W
 
 The classroom pack is free and ungated — four lesson plans, assessments with answer keys, a 23-row standards crosswalk. A principal hands a teacher the whole thing on a Friday and it costs the building nothing.
 
+One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+
 You have the rarest vantage point in this conversation: you sit in the association chair and in a principal's chair on the same day. So the question is genuinely for you. Would your members use this, or is it one more good idea that dies in a staff room?
 
 Jonathan Bach
@@ -56,6 +58,8 @@ The claim, and you can check it in an afternoon: every children's financial lite
 Meanwhile financial literacy mandates keep landing in high school and elementary principals get the expectation without the materials.
 
 I wrote the K-5 book for the register rather than the piggy bank. A boy earns a robot, compares two on a shelf, takes the marked-down one on purpose, hands over a coupon, and meets sales tax for the first time. Free ungated lesson set behind it — four lesson plans, assessments, a 23-row crosswalk. Endorsed by Wally Luckeydoo, Ed.D., 2026 EIFLE Educator of the Year.
+
+One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 Two questions, either one useful:
 
@@ -87,6 +91,8 @@ I wrote the book that fills it, which is my interest declared up front. But the 
 
 If that is a piece for Principal, I am glad to talk, or to hand it to whoever covers curriculum. If it is not, tell me and I will stop.
 
+One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+
 Book facts: https://clarencegetsabargain.com/book-facts.html
 Free teacher materials: https://clarencegetsabargain.com/educator-toolkit.html
 Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -116,6 +122,8 @@ For a principal the relevant facts are these: hardcover, 36 pages, nothing consu
 
 The question: would a Maryland elementary principal actually use this, or is it one more good-sounding thing that dies in a staff room?
 
+One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+
 I would rather have a blunt no from you than a polite maybe from anyone else.
 
 Jonathan Bach
@@ -144,6 +152,8 @@ I wrote the K-5 book for it. One purchase, start to finish: sale ad, comparison,
 
 The relevant part for an association: the whole teaching pack is free and ungated, so nothing about it requires a budget line. Four lesson plans, assessments, a 23-row standards crosswalk.
 
+One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+
 If that is nowhere near what you want your year to be about, say so and I will leave you to plan in peace.
 
 Jonathan Bach
@@ -169,6 +179,8 @@ Now the part that justifies it existing.
 Every children's money book teaches saving. I read all 25 on the ABA Foundation's list. None teaches spending, which is the only money thing an elementary student actually does — no second grader has a savings rate, but every second grader has stood in a store holding money and had to decide.
 
 Mine teaches the register instead of the piggy bank. One purchase, sale ad to sales tax. Endorsed by Wally Luckeydoo, Ed.D., 2026 EIFLE Educator of the Year.
+
+One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 It is a book about comparison shopping, so it would be embarrassing if it were not good value.
 
@@ -198,6 +210,8 @@ The part that matters for a principal: the whole classroom pack is free. Four 45
 
 Endorsed by Wally Luckeydoo, Ed.D., 2026 EIFLE Educator of the Year, and built with a K-5 teacher of 30+ years who told me what to cut.
 
+One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+
 I am not after an endorsement. I want to know whether a principal would actually use it, or whether it dies in a staff room like most things do.
 
 Jonathan Bach
@@ -222,6 +236,8 @@ Which leaves elementary principals holding an expectation with no mandate, no fu
 The research keeps saying money habits form by seven. The policy keeps arriving at fourteen. That gap is a story your members live inside.
 
 I wrote a K-5 book for it and gave the classroom lesson set away free, which is my interest declared. But the advocacy point stands whether or not you ever look at the book: elementary is doing financial literacy work nobody funded and nobody wrote for.
+
+Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home.
 
 Happy to send anything useful, including the standards crosswalk, if it helps make that case somewhere.
 
@@ -251,6 +267,8 @@ But a six-year-old does not save. A six-year-old stands in an aisle holding five
 So I wrote the book for the register instead of the piggy bank. A boy earns a robot, reads the sale ad at the kitchen table, compares two models on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, and then meets sales tax for the first time and takes it personally. Thirty-six pages, grades 1-5, and the classroom teacher materials behind it is free and ungated.
 
 Wally Luckeydoo, Ed.D., endorsed it. He was named 2026 EIFLE Educator of the Year and took the Jump$tart Corey Carlisle Award the same year, which suggests he was not being polite.
+
+Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home.
 
 I am not asking NAESP for anything yet. I am asking whether the developmental argument holds, because if it does not, you are the person best placed to tell me so and save me a great deal of confident talking.
 

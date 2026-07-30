@@ -123,6 +123,8 @@ Delaware has had K-12 financial literacy standards since 2018, and HB 203 last O
 
 The teacher side is free — four 45-minute lessons, a discussion guide, assessments with the answer keys already done, and a crosswalk to Jump$tart, CEE, Common Core, and FDIC Money Smart. It prints straight from a browser. No account, no email gate, no cost to the building.
 
+One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+
 Say the word and I'll drop copies at Stockley Street myself. And if a read-aloud in a Rehoboth classroom is ever useful to you, I'm ten minutes away for half the year.
 
 Jonathan Bach
@@ -150,6 +152,8 @@ Why it exists: nearly every children's money book on the shelf teaches saving, a
 Delaware's board adopted K-12 financial literacy standards in 2018. HB 203 landed last October and went entirely to ninth grade. Elementary is holding a standard with no materials attached, which I suspect is not news to you.
 
 Everything a teacher needs is free and ungated at clarencegetsabargain.com — four 45-minute lesson plans, discussion guide, pre- and post-assessments with answer keys, a 23-row standards crosswalk, plus printable sort cards, price tags, and mock coupons. All of it prints from a browser. No signup wall.
+
+One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 I'm in Rehoboth a good part of the year. Copies for Savannah Road are easy, and so is a read-aloud if that's ever useful.
 
@@ -180,6 +184,8 @@ Clarence Gets a Bargain is 36 pages, grades 1-5, and it follows one purchase all
 
 The free materials: four 45-minute lesson plans, discussion guide, pre- and post-assessments with answer keys and a tracking sheet, a 23-row crosswalk to Jump$tart, CEE, Common Core Math and ELA, and FDIC Money Smart, plus printable classroom pieces. Browser to PDF. No account, no cost.
 
+One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+
 Built with a K-5 teacher of 30-plus years and endorsed by Wally Luckeydoo, Ed.D., 2026 EIFLE Educator of the Year.
 
 Jonathan Bach
@@ -208,6 +214,8 @@ Why it's Delaware's problem specifically: the State Board adopted K-12 financial
 
 What's free at clarencegetsabargain.com: four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, a 23-row standards crosswalk, and printable classroom pieces — sort cards, mock price tags, clearance stickers, ten-percent-off coupons. Everything prints from a browser. No account, no email gate, no purchase order.
 
+One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+
 I'll send copies to Mulberry Street if you want to see it before you decide.
 
 Jonathan Bach
@@ -233,6 +241,8 @@ The day does what its name says. A volunteer walks into a fourth-grade classroom
 I wrote the book for it. Clarence Gets a Bargain — 36 pages, grades 1-5, one boy, one purchase, followed all the way through. He earns a robot, reads the sale inserts, compares two models on a shelf, does the math and goes with the cheaper one, hands a coupon to the cashier, and gets hit with sales tax. Sixteen-plus concepts. It reads aloud in about twenty minutes, which is roughly a volunteer visit with time left for questions.
 
 There's a free classroom kit behind it — lesson plans, a discussion guide, printable mock price tags and coupons, and an online pretend register where a kid rings up the same purchase and watches the markdown, the coupon, and the tax do their work on the total. It runs in a browser on a Chromebook.
+
+One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result.
 
 I'd like it to be useful to your volunteers, not just to teachers. If there's a version of the TCTS materials where a spending hour would fit, I'll build whatever's missing.
 
@@ -262,6 +272,8 @@ Clarence Gets a Bargain is that book. Thirty-six pages, grades 1-5. A boy earns 
 
 The free kit includes an interactive pretend register — kids ring up the same purchase in a browser and watch a markdown, a coupon, and sales tax move the total. It pairs with a deposit lesson better than anything I could design on purpose.
 
+One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+
 If Bank At School ever wants the spending half, it exists and it's free. Happy to send you a copy.
 
 Jonathan Bach
@@ -288,6 +300,8 @@ Clarence Gets a Bargain is a 36-page picture book for grades 1-5. A boy earns a 
 
 Free teacher materials, ungated: four 45-minute lessons, a discussion guide, a pre/post assessment with the key already written, and a 23-row crosswalk that maps each concept to Jump$tart, CEE, Common Core Math and ELA, and FDIC Money Smart. Print from a browser.
 
+One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result.
+
 I'm not asking to be part of Keys. I'm asking whether the K-5 side of Delaware's standards has anyone building for it, and if it doesn't, whether this is worth being on the list when someone finally asks.
 
 Jonathan Bach
@@ -313,6 +327,8 @@ When the K-3 and upper-elementary plans came in, what were districts using?
 I ask because I went looking for K-5 financial literacy material and mostly found saving. Piggy banks and jars, forty years of them. Almost nothing on spending, which is the only money behavior a first grader has ever performed. Delaware adopted K-12 standards in 2018 and then, understandably, spent the last year building for ninth grade.
 
 I wrote the elementary book that's missing. Clarence Gets a Bargain — 36 pages, grades 1-5, one boy and one complete purchase: sale ads, comparison, a deliberate markdown, a coupon at the register, and sales tax. Sixteen-plus concepts, a 21-term glossary, and a free ungated teacher kit including a 23-row crosswalk to Jump$tart, CEE, Common Core, and FDIC Money Smart.
+
+Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home.
 
 Dr. Meszaros has a copy and her opinion is worth more than mine. If she thinks it holds up, I'd like to know whether there's a place for it in what CEEE puts in front of Delaware elementary teachers — the conference, the model lessons, or nothing at all if nothing fits.
 
@@ -351,6 +367,8 @@ The teacher materials are free, ungated, and print from a browser with no accoun
 
 Everything is at clarencegetsabargain.com. Nothing there costs a district anything.
 
+One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result.
+
 The 2018 standards cover K-12. HB 203 answered grades 9-12. If there's any list, memo, or resource page that goes out to elementary curriculum staff, I'd like to be on it — and if there isn't one, I'd like to know that too, because it's the more useful answer.
 
 Jonathan Bach
@@ -377,6 +395,8 @@ Delaware became the 30th state to require a personal finance course when Governo
 I am not volunteering to run one. I want to be honest about that up front — I'm an attorney and a children's book author, not an association manager, and a coalition run by someone with a book to sell would deserve the skepticism it got.
 
 What I am is a body who would show up. I wrote Clarence Gets a Bargain, a K-5 picture book that teaches spending — the actual transaction, sale ad to receipt — because the rest of the children's shelf teaches saving and no first grader has a savings rate. It's aligned to Jump$tart's standards among others, the teacher materials are free and ungated, and I have working relationships forming in Cape Henlopen and at UD's CEEE, which is where any Delaware coalition would have to start anyway.
+
+Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home.
 
 If there's a list of interested Delaware parties, put me on it. If there are three of us, that's a first meeting.
 
@@ -408,6 +428,8 @@ What makes it work for a summer program is that the kids do something afterward.
 
 I'd do it for free, obviously. Parents get something out of it too — most of them have never had a way to start this conversation with a seven-year-old and this hands them one.
 
+Spec for the shelf: Lexile AD 620L — AD is Adult Directed, the trade's code for a book meant to be read WITH a child rather than handed over. Twenty minutes out loud, which makes it a storytime and a family take-home at the same time.
+
 I illustrated it myself, so if a drawing demonstration for the kids is more useful than a straight reading, I can do that instead.
 
 Jonathan Bach
@@ -437,6 +459,8 @@ The reason it works as programming rather than just a reading: afterward the kid
 
 No fee. I'm nearby a good part of the year, and I illustrated the book myself, so a drawing session is on the table if that suits the room better.
 
+Spec for the shelf: Lexile AD 620L — AD is Adult Directed, the trade's code for a book meant to be read WITH a child rather than handed over. Twenty minutes out loud, which makes it a storytime and a family take-home at the same time.
+
 If summer's already built, I'm equally happy with a fall or a spring-break date.
 
 Jonathan Bach
@@ -465,6 +489,8 @@ fall sent the whole rollout to high school. Elementary principals have the requi
 no materials. I wrote a K-5 picture book that teaches spending rather than saving, and the
 entire teacher kit behind it — lesson plans, assessments, a standards crosswalk — is free
 and ungated. No purchase order, no account, nothing to buy.
+
+One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 I'm not looking to sell anything to DASA. I'm asking whether there's a newsletter, a member
 resource list, or a conference session where free K-5 material would be welcome, and who I
@@ -560,6 +586,8 @@ The second is that I am the deal guy, and I can prove it. I have twice walked ou
 
 I also wrote a book in which a crab complains about how people behave on the beach, so I am aware of my own genre range.
 
+One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result.
+
 Storytime slot, a Saturday morning, a festival table, or a no — all useful answers.
 
 Jonathan Bach
@@ -598,6 +626,8 @@ I wrote and illustrated Clarence Gets a Bargain, a 36-page picture book for ages
 Here is why the format suits you. Your morning block puts local author talks next to craft vendors, which means families are already circulating and looking for something a child can do with their hands. I am not asking to give a talk. I want a table where kids ring up a purchase themselves — printable price tags, ten-percent-off coupons, and a pretend register running in a browser where a markdown and a coupon visibly change the total. It behaves like a craft table and teaches percentages by accident.
 
 I am local for a good part of the year. I have also had a shirt printed reading PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW, which I offer less as a credential than as a fair description of the demand for this at the beach in April.
+
+Spec for the shelf: Lexile AD 620L — AD is Adult Directed, the trade's code for a book meant to be read WITH a child rather than handed over. Twenty minutes out loud, which makes it a storytime and a family take-home at the same time.
 
 What is the application, and when does the slate close?
 

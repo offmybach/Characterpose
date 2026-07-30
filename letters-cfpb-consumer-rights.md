@@ -65,6 +65,8 @@ I know the full rights picture crosses agencies — warranties and returns are F
 
 Realistic version of the ask: is the Bookshelf still evaluating titles, and who owns it now? And if the framing above is interesting, I'd trade ten minutes for your read on it.
 
+One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+
 The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html
 The book in four minutes: https://heyzine.com/flip-book/eeb1ef6cff.html
 
@@ -87,6 +89,8 @@ Consumer law assumes a consumer who can read a contract, keep a receipt, and ass
 I wrote a children's book about the spending half of money. A boy runs one full purchase — comparison, coupon, sales tax — and learns how a transaction actually works. What I keep circling back to is the part I did not put in it: the same kid, the moment he buys the robot, has rights he will never be told about. That a broken thing can go back. That a warranty is a promise with teeth. That "the food was bad and I get to say so" is a real position, not a tantrum. Financial literacy teaches kids to save. Nobody teaches them they are a party to a deal that has two sides.
 
 That reads to me as a consumer-rights gap, not a financial-education one, which is exactly why I'm asking you. Has NCLC ever taken up children as consumers — or pointed anyone toward who has? Even a "that's an FTC education question, talk to so-and-so" would move me forward.
+
+Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home.
 
 Not a book pitch. A where-does-this-belong question from someone who wrote half of it by accident and wants to know where the other half lives. The book is here if it's ever useful: https://clarencegetsabargain.com
 
