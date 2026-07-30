@@ -92,6 +92,8 @@ The design choice that matters for your work: nothing is announced. Sixteen-plus
 
 The shape of it, if it helps: one funny story about a boy and his dream robot takes a kid from "I want it" to "Is it worth it?" She opens it an impulsive little spender and closes it an aware, educated consumer.
 
+The part I'd most want your professional read on is the delayed return. The book is not really working in the twenty minutes it takes to read. It works in month eighteen, in an actual store, when the kid hits a real money moment and the book fires back — "wait, is the newer one really better? Clarence checked." Recognition first, then the habit. That is the book doing its job when the parent isn't even in the room.
+
 Two questions, either useful. Does the spending-before-saving sequence hold up against what you see in families? And is there a version of this that belongs in front of the parents you train?
 
 clarencegetsabargain.com/book-facts.html · https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -113,6 +115,8 @@ Money education for kids begins with saving. Every time. But saving is the secon
 So I wrote the spending book. One purchase, followed the entire way: a boy wants a robot, earns it with chores and grades, reads the sale ads at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, hands the cashier an extra ten-percent-off coupon like a tiny attorney presenting Exhibit A, discovers sales tax the way we all did — badly, and in public — and then has to live with the thing he chose. From the idea to after the receipt.
 
 Here is why it might fit a parenting audience rather than a classroom one. The concepts are smuggled. Sixteen-plus of them, none announced, nobody saying the word "budget." It reads as a story about a kid and a robot, and the parent doing the read-aloud gets handed the money conversation without having to deliver a lesson. And the kid does not know he's been schooled until he gets to the glossary — twenty-one terms at the end, each page-referenced to the scene it came from. A parent can turn straight back to the exact page.
+
+The argument I'd bring to a podcast is the delayed one. It clicks later, in a real store. Months out, a kid says "there's a coupon in my pocket, just like Clarence" or "the sticker price isn't what you pay, there's tax" — recognition first, then the habit, and the parent isn't even in the room when it happens.
 
 Would it work for your audience — podcast, newsletter, or neither? A no is a fine answer and faster than a maybe.
 
@@ -177,6 +181,8 @@ They all teach saving. A piggy bank, a lemonade stand, a lesson. Which is fine a
 Mine is the spending one, and it follows a single purchase the whole distance rather than gesturing at the idea: a boy wants a robot, earns it with chores and grades, works the sale ads at the kitchen table, compares two models in the aisle, takes the cheaper one on purpose, hands a coupon to the cashier, gets hit with sales tax, and then has to live with the thing. Idea to post-receipt. I read all 25 on the ABA Foundation's list to be sure nobody had done it. Nobody had.
 
 What I'd actually want your eye on is the smuggling. Sixteen-plus concepts and not one of them is announced — no character stops to explain a term, nobody says "budget." The reader does not know he's been schooled until he reaches the glossary — twenty-one terms, each page-referenced to the scene it came from, working as a decoder rather than a homework appendix. The reveal is deliberate and it is on the last page. That balance is the hardest thing in the book and the thing most likely to be off by a hair.
+
+One thing I'd want you to test rather than take on faith: whether it clicks later. The book is built to fire back months on, in a real store — "is the newer one really better? Clarence checked." Recognition first, then the habit. If that isn't actually in the pages, I'd want to know.
 
 Would you read it as an editor rather than as a friend? I would rather hear where it sags than be told it's charming.
 
@@ -370,6 +376,8 @@ Every children's money book teaches saving. All 25 on the ABA Foundation's list 
 Mine is the spending one, and it follows a single purchase the whole way rather than talking about the idea: a boy wants a robot, earns it through chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands the cashier a coupon he has been clutching like a winning lottery ticket, gets hit with sales tax, and then lives with what he chose. Idea to post-receipt.
 
 The design choice: none of the sixteen-plus concepts is announced. Nobody in the book says "budget," which for a book that is largely about budgeting took some doing. The kid does not know she's been schooled until the glossary — twenty-one terms at the end, each page-referenced to the scene it came from. There for the kid who wants it, invisible to the kid who doesn't.
+
+The claim I'd defend hardest is the delayed one: it clicks later, in a real store. Recognition first, then the habit — the book doing its job when nobody is standing there teaching.
 
 You know better than almost anyone whether a thing lands with the people it's for. Would you look, and tell me if the six-year-old version of your audience would sit still for it?
 

@@ -155,6 +155,51 @@ concept; never the name misread.
 dollars."* "Cents/sense" of any kind is on the tired-finance-pun list in CLAUDE.md. Do not
 resurrect it.
 
+
+---
+
+## 🔑 The recall payoff — the delayed-return argument
+
+Live at `index.html` 916–924, from commit **ce8c136**, *"Add prominent 'It clicks later' recall
+payoff band."* This is the answer to "why does a picture book matter," and it was in no letter.
+
+> **"It Clicks Later — In a Real Store."**
+
+> "You read it today. It pays off months — even years — from now, when your kid hits a real
+> money moment and **the book fires back**:"
+
+> 💡 "Oh yeah — Clarence's mom took a picture of the receipt!"
+> 💡 "Wait — is the newer one really better? Clarence checked."
+> 💡 "The sticker price isn't what you pay — there's tax. Clarence's mom warned him."
+
+**And from the original version of the band, since replaced — both worth keeping:**
+
+> 💡 "Oh yeah — I remember Clarence had a 529!"
+> 💡 "There's a coupon in my pocket. Just like Clarence."
+
+The closing line is the whole thesis of delayed payoff and the best sentence in the section:
+
+> **"Recognition first. Then the habit. That's the book doing its job when you're not even in
+> the room."**
+
+**Why it earns its place in letters.** Every other claim about a children's book is about the
+twenty minutes it takes to read. This one is about month eighteen, in an actual store, with
+the parent absent. It answers the retention question a teacher, a librarian and a journalist
+all ask in different words, and it does it without a single statistic.
+
+---
+
+## ⛔ Third thing found in the history — fixed 30 Jul 2026
+
+A live line on the site read: *"It's not a book about saving money. It's a book about spending
+it wisely."* That is the **"It's not X, it's Y"** construction — item 11 on the kill list in
+CLAUDE.md, *"the most alive AI tell, kill it every time."* It had also appeared in dozens of
+the original 365 outreach messages.
+
+Replaced with the owned positioning line, which says the same thing and commits:
+
+> **"Any book can teach a kid to save. The hard part is teaching them to spend."**
+
 ---
 
 ## Where this came from
