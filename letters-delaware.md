@@ -114,7 +114,7 @@ https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 Mr. Keen — congratulations on the building. You took over a school in a town where I spend a good part of my year, so this is a local letter, and I'll keep it short because it's your first fall.
 
-You may have seen me on the boardwalk this summer in a shirt reading PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW. Half your families were on that boardwalk in July, mid-negotiation with a seven-year-old over a claw machine. That is the moment this book is about.
+I have had a shirt printed that reads PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW, so you may yet see me in it. Half your families were on that boardwalk in July, mid-negotiation with a seven-year-old over a claw machine. That is the moment this book is about.
 
 I wrote and illustrated a children's book about money. Clarence Gets a Bargain — 36 pages, grades 1-5, and it does the one thing the rest of the category skips. Every other kids' money book teaches saving. Mine teaches a purchase: a boy earns a robot, reads the sale ads at his kitchen table, compares two on a shelf, walks past the newer one deliberately, redeems a coupon at the register, and gets ambushed by sales tax. He is not thrilled about the sales tax. Neither was I at that age.
 
@@ -397,7 +397,7 @@ clarencegetsabargain.com
 ```
 Attn: Leslie Glenn, Youth Services
 
-Ms. Glenn — I have been walking the boardwalk in a shirt that reads PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW. It is either marketing or a cry for help. Strangers keep asking, which was the idea, so I am now asking you.
+Ms. Glenn — I have had a shirt printed that reads PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW. It is either marketing or a cry for help, and I intend to find out on the boardwalk this summer. In the meantime I am asking you.
 
 I wrote and illustrated a children's book and I would like to read it in your building.
 
@@ -428,7 +428,7 @@ addressed to her.
 ```
 Ms. Noonan — you coordinate the children's programming at Lewes, so you already know the difference between a book event that fills a room and one where six kids show up because it was raining. I'll tell you which one I think this is and you can decide.
 
-For calibration: I have been walking the boardwalk in a shirt that says PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW. Parents actually ask. Turns out the arcade is where the money conversation happens whether anybody planned it or not.
+For calibration, I have had a shirt printed that says PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW. Whether anyone stops me is still an open question. But the arcade is where the money conversation happens whether a parent planned it or not, and that is the whole subject of the book.
 
 I wrote and illustrated Clarence Gets a Bargain — 36 pages, ages 6-10. A boy earns a robot, does his "shopping homework" in the newspaper sale inserts, compares two models in a store, chooses the cheaper of the two on purpose, redeems a coupon at the checkout, and then meets sales tax and takes it as a personal betrayal. Twenty minutes read aloud.
 
@@ -511,7 +511,7 @@ call. Susan Kehoe owns the store; Alexandra Colevas is manager and buyer.
 **Subject:** `The guy in the boardwalk shirt would like to come inside`
 
 ```
-James — I have been walking up and down the boardwalk this summer in a shirt that reads PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW. Strangers ask. I then point them toward a book you do not carry, which is a marketing plan with an obvious flaw in it. Your front door is four blocks from where I am standing when it happens.
+James — I have had a shirt printed that reads PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW, and the plan is to wear it up and down the boardwalk until somebody asks. At which point I will point them toward a book you do not carry. Your front door is four blocks from where I will be standing, so you can see the flaw in my plan as clearly as I can.
 
 I wrote and illustrated Clarence Gets a Bargain. Thirty-six pages, ages 6-10, hardbound. A boy earns a robot for chores and grades, works the sale ads at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, and then meets sales tax and regards it as a personal insult. Every other children's money book teaches saving. This one teaches the part where a kid is actually standing at a register holding money.
 
@@ -558,7 +558,7 @@ I wrote and illustrated Clarence Gets a Bargain, a 36-page picture book for ages
 
 Here is why the format suits you. Your morning block puts local author talks next to craft vendors, which means families are already circulating and looking for something a child can do with their hands. I am not asking to give a talk. I want a table where kids ring up a purchase themselves — printable price tags, ten-percent-off coupons, and a pretend register running in a browser where a markdown and a coupon visibly change the total. It behaves like a craft table and teaches percentages by accident.
 
-I am local for a good part of the year. I have also spent this summer walking the boardwalk in a shirt reading PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW, which is a fair description of the demand for this at the beach in April.
+I am local for a good part of the year. I have also had a shirt printed reading PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW, which I offer less as a credential than as a fair description of the demand for this at the beach in April.
 
 What is the application, and when does the slate close?
 

@@ -55,8 +55,19 @@ ignores it.
 **The boardwalk shirt is the proof he has the register.** "Hissy-fits" is exactly the
 not-in-use-much word this audit says is missing, and the line leads with the parent's problem
 instead of the product — a boardwalk in July is dense with people mid-negotiation over a claw
-machine. Added to the Glenn, Noonan and Keen letters on 29 Jul 2026. QR on the shirt confirmed
-scanning; www.clarencegetsabargain.com 301s to the apex, so the printed URL resolves.
+machine. Added to five letters on 29 Jul 2026 — Glenn, Noonan, Keen, Browseabout, Beachside Festival.
+QR on the shirt confirmed scanning; www.clarencegetsabargain.com 301s to the apex, so the
+printed URL resolves.
+
+**Written as a plan, not an accomplishment.** The shirt has not been worn in public yet. The
+first drafts said "I have been walking the boardwalk" and two of them claimed results —
+"parents actually ask," "strangers ask." Neither had happened. Corrected the same day to "I
+have had a shirt printed," which is true and, in the Browseabout letter, funnier: the flaw in
+the plan is the joke, and a plan can have a flaw before it has a result.
+
+**When he does wear it, the number is the asset.** If five parents a day stop him, that is a
+claim almost no author can make — a hook tested on strangers. Put the real number in the
+letters then. Not before.
 
 ---
 
