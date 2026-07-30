@@ -506,85 +506,111 @@ that mattered.
 ---
 ---
 
-# 🎰 The claw machine — his own, 30 Jul 2026
+# 🎰 The claw machine — recovered, and the numbers need settling
 
-Not recovered from history. Jonathan supplied it. It is the best concrete scene in the
-project after the grocery-cart memory, and it was in no letter.
+Jonathan raised this from memory on 30 Jul 2026. It turns out he had **already written it**,
+in `marketing-blitz.html`, a page that lives on branch `claude/cgb-marketing-blitz-g5g1wb`
+and had never reached main or any working branch. Restored 30 Jul 2026.
 
-## The facts of record
+## ⚠️ Two versions, different numbers. Do not merge them.
 
-**A dollar a try. Sixteen tries. The same toy is $10 at Walmart.**
+| | Written version (commit ec2ac44, 12 Jul 2026) | Recalled version (30 Jul 2026) |
+|---|---|---|
+| Cost | **$25**, total | **$1 a try, sixteen tries = $16** |
+| Prize | a basketball | "the same" toy |
+| Retail | **$9.99** at Walmart | **$10** at Walmart |
+| Markup | 150% | 60% |
 
-He wins it on the sixteenth. He has spent $16 on a $10 toy — a **60% markup**, paid one
-dollar at a time, and every parent watching knew by try four.
+The written one is the version of record because it is written down and dated. The recalled
+one is the better story, because you watch it happen a dollar at a time and the sunk cost is
+visible by try four.
 
-⚠️ **Exact figures. $1, 16, $10, $16, 60%.** Never "about fifteen bucks," never "nearly
-twenty." The arithmetic is the point and rounding it kills the line. Same rule as
-`deal-master-facts.md`.
+**Jonathan: which is true?** If both happened, they are two anecdotes and both are usable. If
+the recalled one is right, the written post needs correcting. Dollar amounts are never
+rounded or merged in this project — so nothing ships until this is settled.
 
-⚠️ **Written as the universal arcade scene, not as a specific event**, because it has not
-been confirmed as one. If this is Jonathan's own kid on a specific boardwalk, say so and
-every version below gets sharper — a first-person one beats an observed one every time.
+## The written version, verbatim
 
-## Why it works harder than anything else available
+> **The $25 Basketball**
+>
+> The claw machine ate $25 tonight. The prize: a basketball.
+> Walmart sells that basketball for $9.99.
+>
+> **That's the entire boardwalk business model in one glass box — charge $25 for the $9.99
+> thing and make it feel like winning.**
+>
+> Kids who've read *Clarence Gets a Bargain* run this math on their own… **Once a kid has
+> seen the $9.99, the claw loses its grip.**
+>
+> One book. Every glass box on the boardwalk, defused.
 
-1. **Every parent has stood there.** No explaining required, no setup, no statistic.
-2. **The math is exact**, which is the brand.
-3. **It is the book's thesis inverted.** Clarence compares two robots on a shelf and takes
-   the cheaper one on purpose. The arcade kid pays 160% of retail and calls it winning.
-   Same child, same week, opposite outcome — and only one of them was taught.
-4. **It is sunk cost at a second-grade reading level.** Dollars one through fifteen are
-   gone whether he wins or not. Adults get this wrong too, which is why it lands with a
-   grown-up audience.
-5. **It welds onto the shirt he already had printed** — PREVENT BOARDWALK MELTDOWNS &
-   ARCADE HISSY-FITS, ASK ME HOW. The shirt was a joke without a punchline. This is the
-   punchline.
+Engagement hook underneath it, which is the best comment-bait in the bank:
+> "Most money you've ever watched someone feed a claw machine? Dollar figures only. **This is
+> a safe space.**"
 
-## The renderings
+## The rest of the arcade material, all of it his, all of it buried
 
-**The core line:**
-> **"A dollar a try. He won it on the sixteenth. The same toy is ten dollars at Walmart."**
+> **"Not a game of skill — a slot machine wearing a carnival hat."**
 
-**The turn** — flagged so he can kill it if the rhythm reads wrong to him. Two declaratives
-rather than the banned *"it's not X, it's Y"*, but it sits near that construction:
-> **"He didn't win it. He bought it, at a sixty percent markup, one dollar at a time."**
+> **"1,200 tickets for a slinky is an exchange rate that would embarrass a currency trader."**
 
-**The sunk-cost version, for anyone who thinks in money:**
-> "By try four the whole arcade knew how it ended. Dollars one through fifteen were gone
-> whether the claw closed or not, and that is the exact thing a grown man does with a
-> stock he is down on."
+> "$28, and it says BRAYDEN. **Your kid's name is not Brayden.**"
 
-**The parent version:**
-> "Every parent has stood behind that machine doing the math their kid isn't doing."
+> "That shell was $2 at the shop by the highway. **It's $9 with an ocean view.**"
 
-**Against the book:**
-> "In my book a six-year-old compares two robots on a shelf and takes the cheaper one on
-> purpose. Sixty feet up the boardwalk, another six-year-old pays sixteen dollars for a
-> ten-dollar toy a dollar at a time and calls it winning. Only one of them was taught."
+> **"The boardwalk is a pop quiz your kid hasn't studied for."**
 
-**The hissy fit, earned rather than asserted:**
-> "The hissy fit isn't about the toy. It arrives at dollar seventeen, when the money is
-> gone and the claw still hasn't closed." *(⚠️ this one IS the banned construction —
-> rewrite before use, or cut the first clause and open on "The hissy fit arrives at
-> dollar seventeen.")*
+> **"A budget doesn't say no; it makes you pick."**
 
-**The shirt, now with its punchline:**
-> "I had a shirt printed that reads PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK
-> ME HOW. Nobody has asked yet. The answer is a dollar a try, sixteen tries, and a
-> ten-dollar toy."
+> "Read it before vacation. **Watch them side-eye the claw machine.**"
 
-## Where it belongs
+> **"Read it before the boardwalk reads them."**
 
-- **Cold opener for parent, media and podcast letters.** It is a scene, not an argument,
-  and the 659 short letters are 97% argument with no scene at all.
-- **The Delaware letters already carry the shirt line in five places** and one bare mention
-  of "mid-negotiation with a seven-year-old over a claw machine." Those five are the first
-  place to add the math — the setup is already sitting there without its payoff.
-- **Not for institutional or procedural letters.** Jump$tart, FDIC, CFPB, NEFE get the
-  deadpan register; a claw-machine bit reads as unserious to a program officer.
-- **Social:** this is the strongest single post in the bank. No book cover needed.
+> "The meltdown isn't a discipline problem; **it's a missing skill.**"
 
-## ⚠️ Standing note
+> "Your beach read: 400 pages. You'll finish 60 of them. Their beach read: 36 pages. They'll
+> finish it twice, **then spend the rest of the trip auditing your spending.**"
 
-The shirt has **not been worn in public yet.** Every version above says "had printed" and
-"nobody has asked yet." Do not write it as a thing that has happened until it has.
+> "A $15 growing dinosaur that was supposed to triple in size in water. **It grew 4%. It
+> smelled like a pool filter.**"
+
+> **"A trunk is a budget you can see. 'Room for everything' is never one of the options."**
+
+> "The souvenir shop is **the final exam** of every family vacation."
+
+> "Same money. One version is a junk drawer by Labor Day. The other one is October, November,
+> every recess, and the backyard at Thanksgiving."
+
+> **"The boardwalk closes today. The skill doesn't."** … "the school-supply aisle is **the
+> boardwalk with fluorescent lighting.**"
+
+> **"Shelve it under picture books. File it under secret weapons."**
+
+> "Teachers read it aloud once and the class asks for it again. **That's the whole trick.
+> There is no other trick.**"
+
+> "One skipped airbrush t-shirt covers it, with change."
+
+**The Cross-Examination** — the attorney register, fully realised, and the single funniest
+thing in the project:
+> "I'm an attorney. On vacation, that mostly means the souvenirs get cross-examined.
+>
+> THE KEYCHAIN. You need this for what keys, exactly? We have a digital door lock. **No
+> further questions.**
+>
+> THE HERMIT CRAB. Who watches it and feeds it when we go away for the holidays? It smells
+> worse than your tennis shoes after a month at camp… And in two weeks, when it dies — **and
+> buddy, it will** — is it worth the tears?
+>
+> THE RULING. **A purchase isn't over when you pay.**"
+
+## ⚠️ Standing notes
+
+- **The shirt has not been worn in public yet.** Every version says "had printed." Do not
+  write it as something that has happened until it has.
+- **"Arcade," not "Funland."** The blitz page already carries this note: Funland is the
+  operating name of real parks. Keep it generic.
+- The hissy-fit line *"The meltdown isn't a discipline problem; it's a missing skill"* sits
+  near the banned *"it's not X, it's Y"* construction. It survives because it is a semicolon
+  rather than the tidy two-sentence pivot, and semicolons are on the approved list. Judgment
+  call — kill it if it reads wrong.

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>School &amp; Library Visits | The Clearance Aisle Assembly | Clarence Gets a Bargain</title>
+<meta name="description" content="Jonathan Bach visits schools, libraries, and PTA events for author readings of Clarence Gets a Bargain — an interactive financial literacy read-aloud for Grades 1–5. Available in-person and virtually.">
+<style>
+@font-face{font-family:'Hold';src:url('fonts/Hold.woff2') format('woff2'),url('fonts/Hold.woff') format('woff'),url('fonts/Hold.otf') format('opentype');font-weight:normal;font-style:normal;font-display:swap}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--blue:#0054a6;--orange:#ff6b2b;--cream:#f5ecd7;--seablue:#1a3a5c;--gold:#ffe066}
+body{font-family:'Inter',sans-serif;background:#fff;color:#222;min-height:100vh}
+
+.site-header{background:#0054a6;padding:14px 30px;display:flex;justify-content:space-between;align-items:center}
+.site-header a{color:rgba(255,255,255,.8);text-decoration:none;font-size:.8rem;font-weight:600;transition:color .2s}
+.site-header a:hover{color:#fff}
+.brand{font-family:'Hold',sans-serif;color:#fff;font-size:1rem}
+
+/* HERO */
+.hero{background:linear-gradient(135deg,#0054a6 0%,#003d7a 50%,#002050 100%);padding:72px 30px 64px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(255,255,255,.02) 40px,rgba(255,255,255,.02) 80px)}
+.hero-badge{display:inline-block;background:var(--gold);color:#0054a6;font-size:.65rem;font-weight:900;padding:6px 18px;border-radius:50px;letter-spacing:2px;text-transform:uppercase;margin-bottom:20px;position:relative;z-index:1}
+.hero h1{font-family:'Hold',sans-serif;font-size:clamp(2rem,5.5vw,3.6rem);color:#fff;line-height:1.15;position:relative;z-index:1;margin-bottom:14px}
+.hero h1 span{color:var(--gold)}
+.hero-sub{color:rgba(255,255,255,.82);font-size:1rem;max-width:600px;margin:0 auto 28px;line-height:1.7;position:relative;z-index:1}
+.hero-stats{display:flex;gap:28px;justify-content:center;flex-wrap:wrap;position:relative;z-index:1;margin-bottom:32px}
+.hs{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:12px;padding:12px 22px;text-align:center}
+.hs-num{font-family:'Hold',sans-serif;font-size:1.6rem;color:var(--gold);display:block;line-height:1}
+.hs-label{font-size:.7rem;color:rgba(255,255,255,.7);font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-top:4px;display:block}
+.hero-cta{display:inline-flex;align-items:center;gap:10px;background:var(--orange);color:#fff;padding:18px 42px;border-radius:50px;font-family:'Hold',sans-serif;font-size:1.15rem;text-decoration:none;box-shadow:0 8px 30px rgba(255,107,43,.45);transition:all .3s;position:relative;z-index:1}
+.hero-cta:hover{transform:translateY(-3px);box-shadow:0 14px 40px rgba(255,107,43,.55)}
+.hero-note{color:rgba(255,255,255,.45);font-size:.72rem;margin-top:12px;position:relative;z-index:1}
+
+/* LAYOUT */
+.container{max-width:960px;margin:0 auto;padding:0 24px}
+section{padding:64px 0}
+.section-label{font-family:'Hold',sans-serif;font-size:.72rem;color:var(--orange);letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+h2{font-family:'Hold',sans-serif;color:var(--blue);font-size:clamp(1.6rem,3vw,2.2rem);margin-bottom:10px}
+.section-sub{color:#666;font-size:.9rem;line-height:1.7;margin-bottom:36px;max-width:640px}
+
+/* VISIT FORMAT CARDS */
+.formats-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:22px;margin-bottom:16px}
+.fmt-card{border:5px dashed var(--blue);border-radius:20px;padding:28px 24px 26px;position:relative;background:#fff;transition:transform .2s,box-shadow .2s}
+.fmt-card:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(0,84,166,.12)}
+.fmt-card.featured{border-color:var(--orange);background:#fff9f5}
+.fmt-chip{display:inline-block;font-family:'Hold',sans-serif;font-size:.62rem;font-weight:800;letter-spacing:2px;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:14px;background:var(--blue);color:#fff}
+.fmt-card.featured .fmt-chip{background:var(--orange)}
+.fmt-card h3{font-family:'Hold',sans-serif;color:var(--seablue);font-size:1.15rem;margin-bottom:8px}
+.fmt-card p{font-size:.85rem;color:#555;line-height:1.65;margin-bottom:12px}
+.fmt-meta{display:flex;flex-wrap:wrap;gap:6px}
+.fmt-tag{background:#f0f6ff;color:#0054a6;font-size:.65rem;font-weight:700;padding:3px 9px;border-radius:5px}
+.fmt-card.featured .fmt-tag{background:#fff0e8;color:#c94a00}
+.fmt-scissors{position:absolute;top:-13px;left:20px;font-size:1rem;background:#fff;padding:0 5px;color:var(--orange)}
+.fmt-card.featured .fmt-scissors{color:var(--orange)}
+
+/* WHAT HAPPENS */
+.what-section{background:var(--cream)}
+.steps{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px}
+.step{background:#fff;border-radius:16px;padding:24px 20px;border:1px solid #e8dcc8;position:relative}
+.step-num{font-family:'Hold',sans-serif;font-size:2.4rem;color:var(--orange);line-height:1;margin-bottom:8px;opacity:.9}
+.step h4{font-family:'Hold',sans-serif;color:var(--blue);font-size:.95rem;margin-bottom:6px}
+.step p{font-size:.82rem;color:#666;line-height:1.6}
+
+/* ABOUT AUTHOR */
+.author-section{background:#fff;border-top:4px dashed var(--blue)}
+.author-wrap{display:flex;gap:40px;align-items:flex-start;flex-wrap:wrap}
+.author-text{flex:1;min-width:280px}
+.author-text h2{margin-bottom:14px}
+.author-text p{font-size:.88rem;color:#444;line-height:1.75;margin-bottom:12px}
+.author-creds{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.cred-chip{background:#f0f6ff;border:1px solid #c4d9f5;color:#0054a6;font-size:.72rem;font-weight:700;padding:5px 12px;border-radius:6px}
+.author-photo-box{width:200px;flex-shrink:0;background:linear-gradient(135deg,#0054a6,#1a3a5c);border-radius:20px;aspect-ratio:1;display:flex;align-items:center;justify-content:center;border:4px dashed var(--orange)}
+.author-photo-box span{font-size:4rem}
+
+/* FUNDING BOX */
+.funding-section{background:#1a3a5c;padding:60px 30px}
+.funding-section h2{color:var(--gold);margin-bottom:10px}
+.funding-section .section-sub{color:rgba(255,255,255,.75);margin-bottom:32px}
+.funding-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.fund-card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:14px;padding:20px 18px}
+.fund-card h4{font-family:'Hold',sans-serif;color:var(--gold);font-size:.95rem;margin-bottom:7px}
+.fund-card p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.6}
+.fund-note{color:rgba(255,255,255,.5);font-size:.78rem;margin-top:22px;font-style:italic;text-align:center}
+
+/* LOGISTICS FAQ */
+.faq-section{background:#f5f0e8}
+.faq-list{display:grid;gap:14px;max-width:740px}
+.faq-item{background:#fff;border-radius:12px;padding:20px 22px;border-left:4px solid var(--orange)}
+.faq-item h4{font-family:'Hold',sans-serif;color:var(--seablue);font-size:.95rem;margin-bottom:6px}
+.faq-item p{font-size:.85rem;color:#555;line-height:1.65}
+
+/* BOOK CTA */
+.book-section{background:var(--blue);padding:70px 30px;text-align:center}
+.book-section h2{font-family:'Hold',sans-serif;color:#fff;font-size:clamp(1.8rem,4vw,2.6rem);margin-bottom:14px}
+.book-section p{color:rgba(255,255,255,.8);font-size:.95rem;max-width:520px;margin:0 auto 30px;line-height:1.7}
+.book-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.bb{padding:16px 36px;border-radius:50px;font-family:'Hold',sans-serif;font-size:1rem;cursor:pointer;text-decoration:none;display:inline-block;transition:all .3s}
+.bb.primary{background:var(--orange);color:#fff;box-shadow:0 6px 22px rgba(255,107,43,.45)}
+.bb.primary:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(255,107,43,.55)}
+.bb.secondary{background:rgba(255,255,255,.12);color:#fff;border:2px solid rgba(255,255,255,.3)}
+.bb.secondary:hover{background:rgba(255,255,255,.2)}
+
+/* BRAND STRIP */
+.brandstrip{height:10px;background:linear-gradient(90deg,var(--orange) 0%,var(--orange) 50%,var(--blue) 50%,var(--blue) 100%)}
+
+@media(max-width:640px){
+  .author-photo-box{display:none}
+  .hero-stats{gap:14px}
+  .hs{padding:10px 16px}
+}
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <a href="index.html">← Back to Clarence Gets a Bargain</a>
+  <span class="brand">School Visits</span>
+</div>
+<div class="brandstrip"></div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-badge">✂ Available In-Person &amp; Virtual</div>
+  <h1>The Clearance Aisle<br><span>Assembly.</span></h1>
+  <p class="hero-sub">A read-aloud visit where Clarence shops for a robot — and the kids do the math. Author Jonathan Bach, live in your school or library.</p>
+
+  <div class="hero-stats">
+    <div class="hs">
+      <span class="hs-num">45</span>
+      <span class="hs-label">min session</span>
+    </div>
+    <div class="hs">
+      <span class="hs-num">Gr. 1–5</span>
+      <span class="hs-label">grade levels</span>
+    </div>
+    <div class="hs">
+      <span class="hs-num">16+</span>
+      <span class="hs-label">concepts taught</span>
+    </div>
+    <div class="hs">
+      <span class="hs-num">100%</span>
+      <span class="hs-label">story-first</span>
+    </div>
+  </div>
+
+  <a class="hero-cta" href="mailto:jonbachlaw@gmail.com?subject=School%20Visit%20Request%20%E2%80%94%20Clarence%20Gets%20a%20Bargain">Request a Visit →</a>
+  <p class="hero-note">No form. No portal. Just an email.</p>
+</div>
+
+<!-- VISIT FORMATS -->
+<section>
+  <div class="container">
+    <div class="section-label">✂ Visit Formats</div>
+    <h2>Pick Your Format.</h2>
+    <p class="section-sub">PTA reading, full-school assembly, single classroom, or virtual — same content, different footprint.</p>
+
+    <div class="formats-grid">
+
+      <div class="fmt-card featured" style="position:relative">
+        <span class="fmt-scissors">✂</span>
+        <span class="fmt-chip">Most Popular</span>
+        <h3>The Full Assembly</h3>
+        <p>The whole school gathers. Clarence shops. Kids answer questions, spot the deals, and figure out the math before Clarence does. Grades 1–5 in one room. Loud. Fun. Educational, whether they notice or not.</p>
+        <div class="fmt-meta">
+          <span class="fmt-tag">All Grades 1–5</span>
+          <span class="fmt-tag">45 min</span>
+          <span class="fmt-tag">Q&amp;A included</span>
+          <span class="fmt-tag">Signed copies option</span>
+        </div>
+      </div>
+
+      <div class="fmt-card" style="position:relative">
+        <span class="fmt-scissors" style="color:var(--blue)">✂</span>
+        <span class="fmt-chip">PTA / Family Night</span>
+        <h3>The PTA Reading</h3>
+        <p>Parents in the room changes everything. Kids show off what they know; parents realize they're sitting through a money lesson, too. Works as a standalone PTA event or paired with curriculum nights.</p>
+        <div class="fmt-meta">
+          <span class="fmt-tag">Families welcome</span>
+          <span class="fmt-tag">45–60 min</span>
+          <span class="fmt-tag">Book sale option</span>
+        </div>
+      </div>
+
+      <div class="fmt-card" style="position:relative">
+        <span class="fmt-scissors" style="color:var(--blue)">✂</span>
+        <span class="fmt-chip">Classroom Visit</span>
+        <h3>One Class, Deep Dive</h3>
+        <p>More room for discussion when it's just one class. Read-aloud plus the interactive shopping activity — kids physically compare "robots" and vote on the better deal. Works especially well for Grade 2–4 financial literacy units.</p>
+        <div class="fmt-meta">
+          <span class="fmt-tag">Single classroom</span>
+          <span class="fmt-tag">45 min</span>
+          <span class="fmt-tag">Activity included</span>
+        </div>
+      </div>
+
+      <div class="fmt-card" style="position:relative">
+        <span class="fmt-scissors" style="color:var(--blue)">✂</span>
+        <span class="fmt-chip">Virtual</span>
+        <h3>No Travel Required</h3>
+        <p>Same visit, Zoom or Google Meet. Works for schools in any state — or for districts running coordinated financial literacy week programming across multiple buildings. Presentation materials shared in advance.</p>
+        <div class="fmt-meta">
+          <span class="fmt-tag">Any state</span>
+          <span class="fmt-tag">Zoom / Meet</span>
+          <span class="fmt-tag">Multi-school option</span>
+        </div>
+      </div>
+
+    </div>
+
+    <p style="font-size:.8rem;color:#999;margin-top:8px">In-person visits currently available in <strong>Maryland</strong>, <strong>Delaware</strong>, and the greater <strong>DC Metro</strong> area. Travel considered for multi-school bookings.</p>
+  </div>
+</section>
+
+<!-- WHAT HAPPENS -->
+<section class="what-section">
+  <div class="container">
+    <div class="section-label">✂ Run of Show</div>
+    <h2>What Happens During a Visit.</h2>
+    <p class="section-sub">Roughly 45 minutes. No prep required from teachers. Here's how it flows.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <h4>The Setup</h4>
+        <p>Jonathan introduces the book and Clarence's mission — earn a robot reward, then figure out how to spend it like a smart shopper.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <h4>The Read-Aloud</h4>
+        <p>Full read-through with stops for interactive questions. Kids predict what Clarence should do next. Spoiler: they argue about it.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <h4>The Shopping Game</h4>
+        <p>Students compare two robots side-by-side — price, features, markdown. They vote. They debate. One kid always argues for the more expensive one. He's usually wrong.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <h4>Q&amp;A + Concepts</h4>
+        <p>Open Q&amp;A covers the financial terms from the story — budgeting, comparison shopping, coupons, clearance, savings. Teachers get a terms reference sheet.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">05</div>
+        <h4>The Signing</h4>
+        <p>If books are available, Jonathan signs. For assemblies, a signing table is set up after dismissal. Personalized inscriptions — just bring the book.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT THE AUTHOR -->
+<section class="author-section">
+  <div class="container">
+    <div class="author-wrap">
+      <div class="author-photo-box">
+        <span>📚</span>
+      </div>
+      <div class="author-text">
+        <div class="section-label">✂ About the Author</div>
+        <h2>Jonathan Bach</h2>
+        <p>Attorney. Mixed-media artist. Dad. He wrote <em>Clarence Gets a Bargain</em> because his own kids needed a money book that didn't read like a worksheet.</p>
+        <p>The book covers 16+ financial concepts — budgeting, comparison shopping, coupons, clearance, 529 accounts — woven into a 36-page story about a kid who really wants a robot. Jonathan reads it the same way he wrote it: punchy, interactive, and allergic to boring.</p>
+        <p>School visits are a continuation of that. Same energy. Same mission. The kids learn the money stuff because the story demands it — not because a grading rubric told them to.</p>
+        <div class="author-creds">
+          <span class="cred-chip">📖 Author, CGB</span>
+          <span class="cred-chip">⚖️ Attorney</span>
+          <span class="cred-chip">🎨 Mixed-Media Artist</span>
+          <span class="cred-chip">🏆 4-Category Award Winner</span>
+          <span class="cred-chip">Maryland &amp; Delaware</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FUNDING IDEAS -->
+<section class="funding-section">
+  <div class="container">
+    <div class="section-label" style="color:rgba(255,230,102,.7)">✂ Funding Your Visit</div>
+    <h2>How Schools Pay for It.</h2>
+    <p class="section-sub">Most schools find at least one budget line that fits. Here are the most common ones.</p>
+    <div class="funding-grid">
+
+      <div class="fund-card">
+        <h4>PTA / PTO Budget</h4>
+        <p>Author visits are a standard PTA line item. If your PTA has done any cultural arts event this year, this qualifies. A one-page visit description is available on request.</p>
+      </div>
+
+      <div class="fund-card">
+        <h4>Title I Funds</h4>
+        <p>Financial literacy author events are eligible under Title I supplemental services. Check with your school's Title I coordinator — most already have an author visit category.</p>
+      </div>
+
+      <div class="fund-card">
+        <h4>Literacy Grants</h4>
+        <p>Dollar General, Barnes &amp; Noble, and state humanities councils (Maryland Humanities, Delaware Humanities) all fund school author events. Grant cycles vary; plan 60–90 days ahead.</p>
+      </div>
+
+      <div class="fund-card">
+        <h4>Credit Union Partnership</h4>
+        <p>Maryland and Delaware credit unions actively fund K–5 financial literacy programming. If your district has a credit union relationship, this is the fastest path to full sponsorship.</p>
+      </div>
+
+      <div class="fund-card">
+        <h4>Split Across Classrooms</h4>
+        <p>For multi-classroom visits, the fee splits across participating classes. A visit covering four classrooms often costs less per class than a single field trip bus.</p>
+      </div>
+
+      <div class="fund-card">
+        <h4>Cultural Arts Programming</h4>
+        <p>Many districts have a cultural arts or enrichment fund separate from classroom budgets. Check with your arts or enrichment coordinator — author visits are a natural fit.</p>
+      </div>
+
+    </div>
+    <p class="fund-note">Documentation for grant applications and PTA budget requests is available on request. Happy to write a one-paragraph program description for your proposal.</p>
+  </div>
+</section>
+
+<!-- LOGISTICS FAQ -->
+<section class="faq-section">
+  <div class="container">
+    <div class="section-label">✂ Logistics</div>
+    <h2>The Practical Stuff.</h2>
+    <p class="section-sub" style="margin-bottom:28px">Most schools have the same questions. Here they are.</p>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h4>How far in advance should we book?</h4>
+        <p>4–6 weeks is ideal. Fall slots (September–November) fill early — if you're planning a financial literacy month event in October, reach out in August.</p>
+      </div>
+      <div class="faq-item">
+        <h4>What does the school need to provide?</h4>
+        <p>Projector or display screen for the virtual option. For in-person: a microphone if the group is larger than 80 students. That's it. No prep work, no printed materials needed in advance.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Are books available for purchase on the day?</h4>
+        <p>Yes — order forms go home two weeks before the visit so families can pre-order. Jonathan signs every copy, including those students already own. Hardbound, $19.99.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Can teachers use the free educator resources before the visit?</h4>
+        <p>Absolutely — and it makes the visit land harder when kids already know the characters. All six classroom resources are free at <a href="educator-toolkit.html" style="color:var(--orange);font-weight:700">clarencegetsabargain.com/educator-toolkit</a>. No email required.</p>
+      </div>
+      <div class="faq-item">
+        <h4>What grade levels is this right for?</h4>
+        <p>Written for Grades 1–5. The read-aloud and shopping game are designed so younger students engage with the story and older students dig into the financial concepts. Mixed-grade assemblies work well.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Is there a fee?</h4>
+        <p>Yes. Pricing is based on visit format and travel. Email to discuss — the goal is to make the visit work within your budget, not the other way around. Virtual visits are priced lower than in-person.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING CTA -->
+<section class="book-section">
+  <h2>Reserve Your Date.</h2>
+  <p>Slots are limited. Email to check availability — include your school name, grade levels, preferred format, and a rough date range.</p>
+  <div class="book-btns">
+    <a class="bb primary" href="mailto:jonbachlaw@gmail.com?subject=School%20Visit%20Request%20%E2%80%94%20Clarence%20Gets%20a%20Bargain&body=School%20name%3A%0AGrade%20levels%3A%0APreferred%20format%20(assembly%2C%20PTA%2C%20classroom%2C%20virtual)%3A%0APreferred%20date%20range%3A%0AEstimated%20audience%20size%3A">Email to Book a Visit</a>
+    <a class="bb secondary" href="educator-toolkit.html">Free Educator Resources →</a>
+  </div>
+  <p style="color:rgba(255,255,255,.4);font-size:.75rem;margin-top:16px">Maryland · Delaware · DC Metro · Virtual Available Nationwide</p>
+</section>
+
+<div class="brandstrip"></div>
+</body>
+</html>
