@@ -168,6 +168,23 @@ BLUE, ORANGE, CREAM = "0054A6", "FF6B2B", "F5ECD7"
 thin = Side(style='thin', color='D9D2BF')
 BORD = Border(left=thin, right=thin, top=thin, bottom=thin)
 
+# ---------- grandparent / read-along lane (## N. Head / `email` / ```) ----------
+txt = open("letters-grandparents-readalong.md").read()
+for m in re.finditer(r'\n## (\d+)\. ([^\n]+)\n(.*?)```\n(.*?)\n```', txt, re.S):
+    num, head, meta, msg = m.groups()
+    name = n(re.split(r'\s+—\s+', head)[0])
+    role = n(re.split(r'\s+—\s+', head)[1]) if ' — ' in head else ''
+    em  = re.search(r'`([A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,})`', meta)
+    sub = re.search(r'\*\*Subject:\*\*\s*`([^`]+)`', meta)
+    whale = '\U0001F40B' if 'Lieber' in head else ''
+    add(whale=whale, batch="Grandparents", name=name, role=role,
+        address=em.group(1) if em else '',
+        subject=n(sub.group(1)) if sub else '',
+        channel=('Email' if em else 'Web form'),
+        why="Read-along / grandparent lane. Lexile AD 620L = Adult Directed is the load-bearing claim.",
+        msg=n(msg),
+        note="National Grandparents Day is Sun 13 Sep 2026 — the September peg for this lane.")
+
 wb = openpyxl.Workbook()
 
 def style_header(ws, ncols):

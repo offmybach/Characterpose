@@ -1,9 +1,17 @@
 # Top 25 — Week 1
 
 Ordered by the score in the original workbooks, highest first. Sized for the real channel:
-**1st-degree LinkedIn messages have roughly 8,000 characters**, so these run 900–1,600 —
+**1st-degree LinkedIn messages have roughly 8,000 characters**, so these run 1,200–2,000 —
 long enough to make the argument, short enough that someone reads it. The two InMails are
 under the 1,900 body cap.
+
+**Every letter now carries the read-along paragraph.** The argument is the same one in all
+25 and it is not an opinion: the book is catalogued **Lexile AD 620L**, and AD means
+**Adult Directed** — the trade's own code for a book meant to be read *with* a child rather
+than handed to one. Mom explains every concept inside the text, so whoever holds the book is
+handed the script instead of being expected to know the material. Teacher in a classroom,
+parent at a kitchen table, grandparent on a couch: same pages, same interruptions, and the
+interruptions are the product. Each of the 25 states it in the recipient's own terms.
 
 Twenty-five in a week keeps you well under the ~100 invite ceiling and leaves you time to
 answer whoever writes back, which is the whole point.
@@ -47,6 +55,8 @@ Sixteen-plus concepts are in there and none of them are announced. Nobody says t
 
 The segment I'd pitch is not the book. It's the forty-year hole: why an entire publishing category skipped the cash register. There is a Planet Money episode in that whether or not mine is the book that gets mentioned.
 
+One structural note, since you make things people take in together: the reading level is Lexile AD 620L, and the AD stands for Adult Directed — the trade's own code for a book meant to be read *with* a child rather than handed to one. That was the design, not the accident. Twenty minutes out loud, interrupted the whole way, and the interruptions are the product. Classroom, kitchen table, grandparent's couch — same pages, same arguments break out.
+
 Am I wrong that it's a story? clarencegetsabargain.com/book-facts.html has the specs. Four-minute flip: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
@@ -67,6 +77,8 @@ Every book in this category teaches saving. Piggy banks, jars, be patient, wait.
 The part I think you'll appreciate as a craftsperson: none of the sixteen-plus concepts is ever announced. No worksheet voice, no character stopping to explain a term. Budgeting, comparison shopping, charity and Wants vs. Needs all ride into the house in the belly of a story about a kid and his robot. Kids smell a worksheet one page in; they never smell this one, because they're laughing too hard to notice. A kid does not know he's been schooled until he reaches the glossary — twenty-one terms in the back, each page-referenced to the scene it came from. That is the moment the book admits what it was doing, and it is the last page rather than the first.
 
 I did the illustrations too, which means I have opinions about it that are worth exactly nothing.
+
+The other craft problem, which you will have solved in your own books: it is written to be read aloud by an adult who does not know the material either. Lexile has it at AD 620L — Adult Directed, read-with rather than read-alone — and the mother explains every concept on the page, so whoever is holding the book gets handed the script. Teacher, parent, grandparent, same outcome: the reading stops every few pages because somebody in the room asks a question.
 
 Would you look at it and tell me where the seams show? I'd trade — send me yours and I'll read it properly, not politely.
 
@@ -94,6 +106,8 @@ The shape of it, if it helps: one funny story about a boy and his dream robot ta
 
 The part I'd most want your professional read on is the delayed return. The book is not really working in the twenty minutes it takes to read. It works in month eighteen, in an actual store, when the kid hits a real money moment and the book fires back — "wait, is the newer one really better? Clarence checked." Recognition first, then the habit. That is the book doing its job when the parent isn't even in the room.
 
+And the handoff you teach is the mechanism itself. The book is Lexile AD 620L — Adult Directed, the trade's own label for a book meant to be read *with* a child, not left in a bedroom — and Mom explains everything on the page, so the adult reading aloud is handed the script rather than asked to know the material. A parent who feels unqualified to teach money can still run it. Classroom, kitchen table, grandparent's couch: the reading stops every few pages because somebody asks.
+
 Two questions, either useful. Does the spending-before-saving sequence hold up against what you see in families? And is there a version of this that belongs in front of the parents you train?
 
 clarencegetsabargain.com/book-facts.html · https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -117,6 +131,8 @@ So I wrote the spending book. One purchase, followed the entire way: a boy wants
 Here is why it might fit a parenting audience rather than a classroom one. The concepts are smuggled. Sixteen-plus of them, none announced, nobody saying the word "budget." It reads as a story about a kid and a robot, and the parent doing the read-aloud gets handed the money conversation without having to deliver a lesson. And the kid does not know he's been schooled until he gets to the glossary — twenty-one terms at the end, each page-referenced to the scene it came from. A parent can turn straight back to the exact page.
 
 The argument I'd bring to a podcast is the delayed one. It clicks later, in a real store. Months out, a kid says "there's a coupon in my pocket, just like Clarence" or "the sticker price isn't what you pay, there's tax" — recognition first, then the habit, and the parent isn't even in the room when it happens.
+
+For a parenting audience the format may matter more than the content. Lexile AD 620L — the AD is Adult Directed, the industry's own label for a book meant to be read *with* a child rather than left in their room. Mom explains every concept on the page, so the parent gets handed the script instead of being expected to know it. "Do we have a 529?" is a question a seven-year-old asks in the middle of page six, not after. Grandparents get the same deal, and they tend to enjoy it more.
 
 Would it work for your audience — podcast, newsletter, or neither? A no is a fine answer and faster than a maybe.
 
@@ -142,6 +158,8 @@ I wrote the K-5 on-ramp. One purchase, followed the whole distance — wanting a
 
 The real question, rather than the ask: does NGPF consider elementary in scope, or is it a gap you have consciously left to somebody else? Either answer is useful to me, and the second one tells me whether I'm building alone.
 
+One practical note for the classroom end: Lexile AD 620L — Adult Directed — reads aloud in one class period, with the mother explaining every concept in the text so a teacher without a finance background can run it cold. That is also why it survives going home. The same twenty minutes works at a kitchen table with a parent or a grandparent, and elementary teachers ask for that more than they ask for curriculum.
+
 Everything free and ungated: clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
@@ -160,6 +178,8 @@ I wrote the children's version of that idea, and I mean that structurally rather
 Clarence Gets a Bargain follows one purchase the whole way. A boy wants a robot. Earns it with chores and grades. Reads the newspaper sale inserts at the kitchen table. Compares two models on a shelf and takes the cheaper one on purpose. Hands a coupon to the cashier. Meets sales tax and regards it as a personal insult, correctly. Then lives with what he chose. Most money books end at the checkout; the purchase isn't over when the robot's in the bag, and that back half is the opportunity-cost argument nobody writes for kids.
 
 The craft bit: none of it is announced. Sixteen-plus concepts, and nobody in the book says the word "budget." A kid does not know he's been schooled until the glossary — twenty-one terms at the end, each page-referenced to the scene it came from. Available, never assigned.
+
+Format note, since your audience is adults deciding what to hand a kid: Lexile AD 620L, where AD means Adult Directed — the trade's code for a book meant to be read *with* a child. Not a book you leave in a bedroom. Twenty minutes out loud, and the kid interrupts constantly, which is the whole point. The argument about whether Wi-Fi is a need or a want is the product; the robot is the delivery vehicle.
 
 Is there an episode in the fact that the entire children's money category skipped the cash register for forty years? I'd rather you took the argument than the book.
 
@@ -184,6 +204,8 @@ What I'd actually want your eye on is the smuggling. Sixteen-plus concepts and n
 
 One thing I'd want you to test rather than take on faith: whether it clicks later. The book is built to fire back months on, in a real store — "is the newer one really better? Clarence checked." Recognition first, then the habit. If that isn't actually in the pages, I'd want to know.
 
+The other thing worth your reviewer's ear: it is built to be read aloud, and Lexile has it at AD 620L — Adult Directed, read-with rather than read-alone. The mother carries the exposition, which means the adult holding the book is handed the script. Whether that voice actually holds up out loud — across a classroom, a couch, and a grandparent's lap — is something you would hear in a page and I can only guess at.
+
 Would you read it as an editor rather than as a friend? I would rather hear where it sags than be told it's charming.
 
 clarencegetsabargain.com/press-kit.html · https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -204,6 +226,8 @@ What I think is still open is the sequence. The field starts children with savin
 So I went narrow and deep on one transaction. Clarence Gets a Bargain follows a single purchase from the idea to after the receipt — a boy wants a robot, earns it through chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, redeems a coupon, meets sales tax, and then lives with what he bought. It follows the money from the desire, through the receipt, and past it. I read all 25 titles on the ABA Foundation's list looking for another one that does; they are all parked on the earning-and-saving side of the register.
 
 The other thing, and it is the part I'd want your read on: nothing is announced. Sixteen-plus concepts, no worksheet voice, nobody in the book saying "budget." A child does not know he's been schooled until the glossary — twenty-one terms in the back, each page-referenced to the moment it happened. The book confesses on the last page or not at all. You would spot immediately whether that balance holds or whether I have hidden the lesson so well it isn't there.
+
+One design decision I would want your view on. It is written for an adult to read aloud, not for a child alone: Lexile AD 620L, Adult Directed. The mother carries every explanation on the page, so the grown-up gets the script rather than the homework. You spent a career telling parents to have the conversation. This one hands them the conversation and lets them take the credit for it.
 
 Author to author, I'd like to trade. Send me one of yours and I'll read it properly. And if you think the spending-first premise is wrong, that is worth more to me than a kind word about the illustrations.
 
@@ -227,6 +251,8 @@ The resource is a free, ungated classroom set built around a 36-page picture boo
 
 What the book does that the category does not: it teaches spending rather than saving, and it follows one complete purchase from the idea through the receipt — sale ads, comparison, markdown, coupon, sales tax. Sixteen-plus concepts, a twenty-one-term glossary page-referenced to the story. The elementary grade band has standards and very little built against them.
 
+One spec relevant to classroom use: Lexile AD 620L. The AD is Adult Directed — read-aloud with an adult rather than independent reading. It runs one class period, and the mother explains each concept inside the text, so a teacher with no finance background can run it without preparation. The same design makes it work as a family take-home.
+
 Two questions. Is the free classroom set the right thing to submit, rather than the book? And for the reference letter, would Wally Luckeydoo carry weight — he received your 2026 Corey Carlisle Award and endorsed the book before any of this came up.
 
 clarencegetsabargain.com/educator-toolkit.html
@@ -246,6 +272,8 @@ Michelle — you have written for twenty years that the money conversation with 
 Every children's financial literacy book teaches saving. I read all 25 on the ABA Foundation's list to be certain. Piggy banks, jars, patience. But saving is the second thing a child does with money. The first is spending, and a six-year-old has already done it — in a store, holding money, deciding whether the thing is worth what it costs.
 
 Mine follows one purchase the entire way. A boy wants a robot, earns it with chores and grades, reads the newspaper sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, meets sales tax, and then lives with what he bought. Idea to post-receipt. Sixteen-plus concepts and nobody in the book says "budget." Twenty-one terms in the glossary, each page-referenced to the scene it came from.
+
+The format is part of the argument. Lexile AD 620L — Adult Directed, the industry's own code for a book meant to be read *with* a child. Which means the conversation you have been telling parents to have for twenty years happens on its own: an adult reads, a kid interrupts, and somebody in the room has to answer "do we have one of those?" out loud. It works the same when the adult is a grandparent, which is often who is actually sitting there.
 
 The column, if there is one: an entire publishing category has taught children to save for forty years and skipped the cash register, which is the only place a child has ever actually handled money. That is a story about the field, not about me.
 
@@ -270,6 +298,8 @@ Every mandate lands in high school. Delaware just became the thirtieth state and
 
 I wrote the K-5 on-ramp — one purchase followed the whole way, from wanting a robot to living with it. Sale ads at the kitchen table, comparison on a shelf, a markdown taken on purpose, a coupon at the register, sales tax. Sixteen-plus concepts, none announced, and a twenty-one-term glossary page-referenced back into the story. Free ungated classroom set behind it.
 
+For the teacher side: AD 620L — Adult Directed — one class period out loud, with the mother explaining every concept in the text so a teacher without a finance background can run it cold. The same book does the job at a kitchen table with a parent or a grandparent, which is the part elementary teachers actually ask for and rarely get.
+
 Honest question rather than a pitch: when you talk to teachers, does elementary ever come up as something they want and cannot find? I am trying to work out whether I am filling a gap or inventing one.
 
 clarencegetsabargain.com/educator-toolkit.html
@@ -290,6 +320,8 @@ I went deep on one of your four. Spending, and specifically the whole transactio
 The reason I think it sits beside Moneybunnies rather than against it: you give a child the four categories, and mine walks them through the mechanics of one. Sixteen-plus concepts, none announced — nobody says "budget" — and twenty-one terms in a glossary in the back, each page-referenced to the scene where it happened.
 
 Author-illustrator to author-illustrator: I did the art as well, so I know exactly how much of the work nobody sees. I'd rather you saw this from me than off a shelf.
+
+The read-aloud is the other half of it. Lexile AD 620L — Adult Directed — written for the adult voice in the room rather than for a child alone, with the mother carrying the explanations so the grown-up gets handed the script. You will know better than most how much that changes what has to happen on the page.
 
 Trade copies? I'll read yours properly and tell you the truth about it, which is the only thing worth trading.
 
@@ -313,6 +345,8 @@ The idea. A child becomes a consumer the first time they hand money to a cashier
 
 My book follows one purchase the entire way, which is the part I could not find anywhere else — from wanting the thing, through the sale ads, the comparison, the markdown, the coupon, and the sales tax, to living with what was bought. Idea to post-receipt. Sixteen-plus concepts, none announced. Twenty-one terms in the glossary, each page-referenced to the scene where it happened.
 
+One format note relevant to Money as You Grow: Lexile AD 620L — Adult Directed, a read-with rather than a read-alone. The caregiver conversation the framework is built around happens inside the reading rather than after it, and it happens whether the adult is a parent, a teacher, or a grandparent.
+
 I know the full picture crosses agencies — warranties and returns are FTC, product safety is CPSC — and I am not asking CFPB to cover those. I am asking whether Money as You Grow has room for material that treats the child as a consumer on the financial side from the first purchase forward.
 
 clarencegetsabargain.com/educator-toolkit.html
@@ -335,6 +369,8 @@ What the book covers that Money Smart's book lists mostly do not: spending, and 
 
 Everything for teachers is free and ungated. No account, no email capture, no purchase order.
 
+Format, for the record: Lexile AD 620L, Adult Directed — read aloud with an adult, one class period. The mother explains each concept inside the text, so an instructor without a finance background can deliver it without training. That holds for a classroom, a library program, or a parent at home.
+
 The question: is there a route for a title to sit alongside Money Smart materials, or is that not how the program works? Either answer saves me guessing.
 
 clarencegetsabargain.com/educator-toolkit.html
@@ -355,6 +391,8 @@ The premise: financial education for children starts with saving, and the sequen
 Easy Peasy Finance explains concepts to kids clearly, one at a time. I went the other way and hid them. Clarence Gets a Bargain follows a single purchase the whole distance — a boy wants a robot, earns it with chores and grades, reads the sale ads at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, meets sales tax, and then lives with what he chose. Sixteen-plus concepts and nobody in the book says "budget." The twenty-one-term glossary in the back is page-referenced to where each thing happened, which is the closest the book comes to admitting it was teaching anything.
 
 You explain; I smuggle. I think both work and I'd like to know if you disagree.
+
+And on the read-along specifically, since I raised it: the book is Lexile AD 620L — AD for Adult Directed, the trade's code for read-with rather than read-alone. It is built for somebody to perform. You explain to camera; this hands the explaining to whoever is holding the book — teacher, parent, grandparent — and then the kid interrupts them. Different mechanism, same job.
 
 Is there a version of this worth putting in front of your audience — a read-along, a segment, a mention? And separately: at sixteen, would this book have been too young for you, or exactly right for the you at six?
 
@@ -379,6 +417,8 @@ The design choice: none of the sixteen-plus concepts is announced. Nobody in the
 
 The claim I'd defend hardest is the delayed one: it clicks later, in a real store. Recognition first, then the habit — the book doing its job when nobody is standing there teaching.
 
+One more thing about how it gets used, because it changes who it is for. Lexile AD 620L — Adult Directed, the industry's own code for a book meant to be read *with* a child. The mother explains every concept on the page, so the adult reading aloud gets handed the script and does not have to be the one who already knows about money. That matters most in the houses where nobody feels qualified to teach it, which is most houses.
+
 You know better than almost anyone whether a thing lands with the people it's for. Would you look, and tell me if the six-year-old version of your audience would sit still for it?
 
 https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -401,6 +441,8 @@ The reason I ask. The current shelf is weighted toward saving and earning. What 
 
 Sixteen-plus concepts are in it and none is announced — no character pauses to define a term, nobody says the word "budget." The proof is the back matter, and so is the reveal: a reader does not know he's been schooled until he reaches the glossary. Twenty-one terms, each page-referenced to the scene it came from — a decoder rather than an appendix.
 
+One spec for the Bookshelf's purposes: Lexile AD 620L. The AD is Adult Directed — a read-with rather than a read-alone, which is how the Bookshelf's own titles are meant to be used. The caregiver conversation happens inside the reading, with a parent, a teacher, or a grandparent doing the reading.
+
 Ages 6-10, which sits inside the Bookshelf's 4-10 band. Free ungated classroom materials behind it. Happy to send a copy to whoever evaluates, or to leave it alone if the shelf is closed.
 
 clarencegetsabargain.com/book-facts.html
@@ -420,6 +462,8 @@ Professor Lusardi — you built the instruments the field measures itself with, 
 The premise. Financial literacy is measured, sensibly, on saving, compounding and risk. Those are the right things to measure in adults. But each of them is downstream of a decision a child makes years earlier that nobody scores: standing in front of two prices and picking one. Spending is the first financial behavior a person performs. It is taught last, or not at all.
 
 I could not find the children's book for it, so I wrote one. Clarence Gets a Bargain follows a single purchase the entire way — wanting the thing, earning it, reading the sale ads, comparing two models, choosing the cheaper one deliberately, redeeming a coupon, meeting sales tax, and then living with the choice. Idea to post-receipt. Sixteen-plus concepts, none announced. Twenty-one terms in the glossary, each page-referenced to the scene it came from.
+
+One design feature that may matter for measurement. The book is classified Lexile AD 620L — Adult Directed — so the intervention is not a child reading alone but an adult and a child reading together, with the adult prompted by the text rather than expected to supply the content. If shared reading is doing the work rather than the book, that is testable, and it would be a more interesting finding than anything about my book.
 
 The question I would actually like answered: does the evidence base start at adolescence the way the books do? If spending competence at seven predicts nothing at twenty-seven, that is worth knowing and you would know it. If it does predict something, then there is a gap in the literature sitting underneath a picture book, and you are far better placed to say so than I am.
 
@@ -443,6 +487,8 @@ Every book in this category teaches saving. Saving is the second thing a child d
 
 The craft problem I'd most like another author's view on: I smuggled sixteen-plus concepts in without announcing any of them. Nobody says "budget." The glossary in the back — twenty-one terms, each page-referenced to the scene it came from — is the only place the book admits it was teaching. Getting that balance right, so it stays a story, was the whole job.
 
+The other half of the craft problem: it is written for an adult voice. Lexile AD 620L — Adult Directed — with the mother carrying every explanation, so whoever reads aloud gets handed the script. A series lives or dies on whether the grown-up still enjoys the fourth reading. You would know inside a page whether mine does.
+
 Would you read it and tell me where it stops being a story? I'll trade — send me a Noah and I'll read it properly.
 
 https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -462,7 +508,9 @@ Your chapters run community service. A high schooler reading a money book to a s
 
 The book is Clarence Gets a Bargain, 36 pages, ages 6-10. It follows one purchase the whole way, which is the thing that makes it work as a read-aloud rather than a lecture: a boy wants a robot, earns it with chores and grades, reads the sale ads at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, meets sales tax, and then has to live with what he chose. Idea to post-receipt. Sixteen-plus concepts and nobody in it says "budget" — the twenty-one-term glossary in the back is page-referenced to the story, so the reader can field questions without preparing.
 
-It reads aloud in about twenty minutes, which is a class visit with time left for questions. And there is a free browser-based pretend register the younger kids can run afterward — a markdown, a coupon, sales tax, and a total that changes in front of them.
+The read-aloud is the entire project, so the spec matters. Lexile AD 620L — the AD is Adult Directed, the trade's own code for a book built to be read *with* a child rather than handed to one. About twenty minutes out loud, which is a class visit with time left for questions, and the mother explains every concept inside the text. A high schooler can read it cold to a second-grade class and field the questions straight off the page. Nothing to memorize, nothing to prepare, no training call beforehand.
+
+There is also a free browser-based pretend register the younger kids can run afterward — a markdown, a coupon, sales tax, and a total that changes in front of them.
 
 Does that fit how chapters choose service projects, or am I inventing a use case? Everything is free and ungated either way.
 
@@ -486,6 +534,8 @@ I wrote the K-5 piece. One purchase followed from the idea to after the receipt 
 
 What matters for a partnership is the rest of it, and it is free. Four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, a 23-row crosswalk to the 2021 National Standards plus Common Core Math and ELA, CEE and FDIC Money Smart. Ungated, no account, prints from a browser. A district adopting it spends nothing.
 
+One practical spec for adoption: Lexile AD 620L — Adult Directed — one class period read aloud, with the text carrying the explanations so a teacher needs no finance training. The same book goes home and works at a kitchen table with a parent or a grandparent, which is usually where a partnership wants the family-engagement half to come from and rarely finds it.
+
 Does elementary sit inside what the partnership funds or convenes, or is high school the whole remit?
 
 clarencegetsabargain.com/educator-toolkit.html
@@ -507,6 +557,8 @@ Here is my version of the argument, and I'd like to know whether it matches how 
 Clarence Gets a Bargain is the picture-book version. It follows a single purchase the whole distance — a boy wants a robot, earns it with chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, meets sales tax, and then lives with what he picked. Idea to post-receipt. Sixteen-plus concepts, none of them announced; nobody says "budget." Twenty-one terms in a glossary at the end, each page-referenced to where it happened — which is the only point at which a kid works out he's been schooled.
 
 One story takes a kid from "I want it" to "Is it worth it?" — which I suspect is the same door your Challenge walks them through, thirty days at a time. Yours is a habit; mine is one transaction read in twenty minutes. Those look complementary to me rather than competing — the book could be the on-ramp to a challenge, or the thing a parent reads on day one.
+
+One thing your Challenge and the book share: neither one works with a kid alone in a room. It is Lexile AD 620L — Adult Directed, the trade's code for read-with rather than read-alone — and the mother explains every concept on the page, so whoever is reading gets handed the script. Parent, teacher or grandparent, the reading stops every few pages because the kid asks something.
 
 Worth a conversation? I'd rather compare notes with the one other person who put spending first than pitch anybody.
 
@@ -530,6 +582,8 @@ The content, briefly, because you'll want to know whether it's worth the product
 
 What I'd actually value from you is the unglamorous part: trim size, the cover, whether the interior typography holds at read-aloud distance, whether the object reads as professionally published or as a very determined amateur. I would rather hear it from you now than infer it from a bookseller later.
 
+And the read-aloud is why I asked about typography at distance rather than at arm's length. It is Lexile AD 620L — Adult Directed — so the object gets held up by an adult with a kid beside them, or a class in front of them, looking at it from three or four feet. If the interior does not hold at that distance the whole use case fails, and that is a production question rather than a content one.
+
 Paid engagement or a favour returned, whichever you prefer. https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
@@ -551,6 +605,8 @@ Clarence Gets a Bargain follows one purchase from the idea to after the receipt.
 
 Two asks, and the second one matters more. Worth a look for the next update to the roundup? And separately — you run a company built on kids and money, so if you think spending-before-saving is wrong, I would rather hear it from you than keep saying it at conferences.
 
+One line worth having in a roundup, because parents ask it: Lexile AD 620L — Adult Directed, the industry's own code for a book meant to be read *with* a child rather than handed over. Twenty minutes out loud, interrupted the whole way. Grandparents take to it fastest — it gives them something to do with the grandkid instead of something to hand them, and every page has a "that reminds me of the time" sitting in it.
+
 I'll send a copy either way. https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
@@ -570,6 +626,8 @@ Thirty states now require a personal finance course to graduate. Delaware became
 The sequence assumption underneath all of it is that children should learn saving first. I think that is backwards. Saving is the second thing a person does with money. The first is spending — and a first grader has done that, at a register, with a parent standing behind her. The behaviors a high school course is trying to correct were installed a decade earlier.
 
 I wrote the elementary piece rather than an argument about it: a 36-page picture book that follows one purchase from the idea to after the receipt, plus a free ungated classroom set crosswalked to the 2021 National Standards, Common Core, CEE and FDIC Money Smart. Sixteen-plus concepts, none announced, twenty-one-term glossary page-referenced into the story.
+
+One implementation note, since policy has to survive contact with an actual classroom. Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations, no teacher training required, and the same book does the family-engagement job at home with a parent or a grandparent. Elementary programs usually die on training cost. This one has none.
 
 The question: does NEFE's advocacy work have a position on the elementary band, or is the practical view that high school mandates are where the effort actually pays? I ask because if it's the second, I'd like to know I'm arguing with the consensus rather than filling a gap it agrees exists.
 
