@@ -502,3 +502,89 @@ a markdown file in this repo again, harvest it first.
 
 Re-run: `git log --all --diff-filter=D --name-only` finds what's gone. That's the query
 that mattered.
+
+---
+---
+
+# 🎰 The claw machine — his own, 30 Jul 2026
+
+Not recovered from history. Jonathan supplied it. It is the best concrete scene in the
+project after the grocery-cart memory, and it was in no letter.
+
+## The facts of record
+
+**A dollar a try. Sixteen tries. The same toy is $10 at Walmart.**
+
+He wins it on the sixteenth. He has spent $16 on a $10 toy — a **60% markup**, paid one
+dollar at a time, and every parent watching knew by try four.
+
+⚠️ **Exact figures. $1, 16, $10, $16, 60%.** Never "about fifteen bucks," never "nearly
+twenty." The arithmetic is the point and rounding it kills the line. Same rule as
+`deal-master-facts.md`.
+
+⚠️ **Written as the universal arcade scene, not as a specific event**, because it has not
+been confirmed as one. If this is Jonathan's own kid on a specific boardwalk, say so and
+every version below gets sharper — a first-person one beats an observed one every time.
+
+## Why it works harder than anything else available
+
+1. **Every parent has stood there.** No explaining required, no setup, no statistic.
+2. **The math is exact**, which is the brand.
+3. **It is the book's thesis inverted.** Clarence compares two robots on a shelf and takes
+   the cheaper one on purpose. The arcade kid pays 160% of retail and calls it winning.
+   Same child, same week, opposite outcome — and only one of them was taught.
+4. **It is sunk cost at a second-grade reading level.** Dollars one through fifteen are
+   gone whether he wins or not. Adults get this wrong too, which is why it lands with a
+   grown-up audience.
+5. **It welds onto the shirt he already had printed** — PREVENT BOARDWALK MELTDOWNS &
+   ARCADE HISSY-FITS, ASK ME HOW. The shirt was a joke without a punchline. This is the
+   punchline.
+
+## The renderings
+
+**The core line:**
+> **"A dollar a try. He won it on the sixteenth. The same toy is ten dollars at Walmart."**
+
+**The turn** — flagged so he can kill it if the rhythm reads wrong to him. Two declaratives
+rather than the banned *"it's not X, it's Y"*, but it sits near that construction:
+> **"He didn't win it. He bought it, at a sixty percent markup, one dollar at a time."**
+
+**The sunk-cost version, for anyone who thinks in money:**
+> "By try four the whole arcade knew how it ended. Dollars one through fifteen were gone
+> whether the claw closed or not, and that is the exact thing a grown man does with a
+> stock he is down on."
+
+**The parent version:**
+> "Every parent has stood behind that machine doing the math their kid isn't doing."
+
+**Against the book:**
+> "In my book a six-year-old compares two robots on a shelf and takes the cheaper one on
+> purpose. Sixty feet up the boardwalk, another six-year-old pays sixteen dollars for a
+> ten-dollar toy a dollar at a time and calls it winning. Only one of them was taught."
+
+**The hissy fit, earned rather than asserted:**
+> "The hissy fit isn't about the toy. It arrives at dollar seventeen, when the money is
+> gone and the claw still hasn't closed." *(⚠️ this one IS the banned construction —
+> rewrite before use, or cut the first clause and open on "The hissy fit arrives at
+> dollar seventeen.")*
+
+**The shirt, now with its punchline:**
+> "I had a shirt printed that reads PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK
+> ME HOW. Nobody has asked yet. The answer is a dollar a try, sixteen tries, and a
+> ten-dollar toy."
+
+## Where it belongs
+
+- **Cold opener for parent, media and podcast letters.** It is a scene, not an argument,
+  and the 659 short letters are 97% argument with no scene at all.
+- **The Delaware letters already carry the shirt line in five places** and one bare mention
+  of "mid-negotiation with a seven-year-old over a claw machine." Those five are the first
+  place to add the math — the setup is already sitting there without its payoff.
+- **Not for institutional or procedural letters.** Jump$tart, FDIC, CFPB, NEFE get the
+  deadpan register; a claw-machine bit reads as unserious to a program officer.
+- **Social:** this is the strongest single post in the bank. No book cover needed.
+
+## ⚠️ Standing note
+
+The shirt has **not been worn in public yet.** Every version above says "had printed" and
+"nobody has asked yet." Do not write it as a thing that has happened until it has.
