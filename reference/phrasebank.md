@@ -614,3 +614,118 @@ thing in the project:
   near the banned *"it's not X, it's Y"* construction. It survives because it is a semicolon
   rather than the tidy two-sentence pivot, and semicolons are on the approved list. Judgment
   call — kill it if it reads wrong.
+
+---
+---
+
+# 🥇 Round 3 — the pages recovered from unmerged branches, 30 Jul 2026
+
+Mined after restoring 14 files that lived only on branches. **All 18 lines below are in no
+letter.** Three of them are at claw-machine level.
+
+## The three best lines in the project that nobody has ever sent
+
+> **"A card is magic; a five-dollar bill is arithmetic."**
+> — *teaching-kids-about-money.html*, ages 3–5. Twelve words, and it explains why cashless
+> parenting produces kids who cannot estimate. Use it on any parent, any journalist, anyone.
+
+> **"Stop bringing kids to the store as cargo. Bring them as staff."**
+> — *ibid*, ages 8–10. The whole book as an instruction. Two sentences, no jargon.
+
+> **"Mistakes at eleven cost $14. The same mistake at twenty-seven has a credit card
+> attached."**
+> — *ibid*, ages 11+. Exact figure, and it makes the case for teaching early without a
+> single statistic. This is the answer to "why does elementary matter."
+
+## The gracious comparison — the argument that wins without attacking
+
+From *vs-other-money-books.html*, which is a genuinely fair page and stronger for it.
+
+> **"My only argument is about order: spending should come first."**
+
+> **"Teach that moment first, and everything these other books preach lands harder."**
+> — The most generous version of the thesis in existence. It makes every competing book an
+> ally rather than a target. Lead with this in any letter to another author.
+
+> "**Coverage, not quality** — every book below is good at what it sets out to do."
+
+> "— = not the book's focus (**not a knock — just a different job**)."
+
+> **"And it teaches *Wants vs. Needs* while the robot steals the show."**
+
+> "the lesson lands because the plot demands it — not because a worksheet asked."
+
+## The age-by-age guide — a whole voice nobody has used
+
+Section headers alone are better than most copy: **"Make money physical" → "Put them on
+payroll" → "Promote them to staff" → "Move them online."**
+
+> "Things we need, things we want. Dinner: need. Robot: want. **They will argue the robot is
+> a need. Good — that argument IS the lesson starting.**"
+
+> "Count coins into a clear jar. **Watching it fill beats any app with a progress bar.**"
+
+> "Which store has the better price on the thing your kid wants? Have them find it.
+> **Circle it with a marker like it's 1995.**"
+
+> **"Marked down doesn't mean broken; it means the timing is on your side."**
+> *(semicolon rather than the banned two-sentence pivot — judgment call, kill it if it reads
+> wrong)*
+
+> "Income has your name on it because you did something to earn it."
+
+> "**Giving planned before the fun stuff lands differently than giving from leftovers.**"
+
+> "Black Friday, Cyber Monday, Prime Day: **gold mines if you did your homework first; traps
+> if you didn't.**"
+
+> **"Don't lecture. One store trip beats ten speeches."**
+
+> **"If a money lesson looks like school, it gets filed under school."**
+
+> "It takes four seconds, it saves returns, and a kid who watches it happen learns that
+> **a purchase isn't over at the register.**"
+
+## The outreach templates in the blitz — closers worth stealing
+
+> Librarian pitch, and it is the single best sentence for that audience:
+> **"kids re-read it without being asked, which is the only metric that matters at your desk."**
+
+> School-visit subject line: **"Author visit: the money lesson your students will fight to
+> answer."** Close: **"Two openings left in September as of this email — want one?"**
+
+> Credit union: **"the age band most bank programs skip."**
+
+> PTA blurb closer: **"Great read before your next family trip to anywhere with a gift shop."**
+
+> LinkedIn founder post: **"The pipeline problem is real; the fix is 36 pages long."**
+
+> On not spamming teacher groups: "Getting banned from a 40,000-teacher group over one early
+> post is a bad trade — **the kind Clarence would warn you about.**"
+
+## The free sample page — the best close on the site
+
+*resources/free-sample-print.html* prints pages 1–5 verbatim, no email wall, then:
+
+> **"That's 5 pages down. 31 to go."**
+> "Still ahead: the trip to Sea-Mart. The aisle full of robots. A coupon folded up in a kid's
+> pocket. And a huge neon-orange sign that stops Clarence dead in his tracks."
+> **"The shopping homework was the easy part."**
+
+Spoiler discipline is exactly right — it names the sign and refuses the payoff. Keep it.
+
+> Header: "Word for word, exactly as printed. **If the kid asks for page six, you know what
+> to do.**"
+
+---
+
+## ⚠️ One defect in the recovered blitz — fix before sending
+
+The credit-union email subject line reads:
+
+> `A finlit sponsorship your CRA report will like ($499.75, turnkey it is not — it's simpler)`
+
+Two problems. **"Turnkey" is on the never-say list** in CLAUDE.md, and the inverted clause is
+unreadable. Replace with something like:
+
+> `A finlit sponsorship your CRA report will like — $499.75, and the curriculum is already free`
