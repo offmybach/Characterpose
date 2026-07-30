@@ -287,11 +287,11 @@ So: what would you like that letter to say, and who would you like it from?
 
 I ask because I have a choice worth making well. One possible signer is Wally Luckeydoo, Ed.D., who received the 2026 Jump$tart Corey Carlisle Award. Another is Bonnie Meszaros at the University of Delaware, who co-authored the National Standards for Financial Literacy. I'd rather send you the one you'd find useful than the one I happen to like.
 
-What I'd be listing, briefly. Clarence Gets a Bargain is a 36-page picture book for grades 1-5 about a boy who earns a robot, reads the sale ads, compares two models, redeems a coupon at the register, and meets sales tax. The resource I want listed first is not the book — it's the free classroom toolkit behind it: four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, a 23-row crosswalk to the National Standards for Personal Financial Education and four other frameworks, printable classroom pieces, and a browser-based pretend register.
+What I'd be listing, briefly. Clarence Gets a Bargain is a 36-page picture book for grades 1-5 about a boy who earns a robot, reads the sale ads, compares two models, redeems a coupon at the register, and meets sales tax. The resource I want listed first is not the book — it's the free classroom teaching pack behind it: four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, a 23-row crosswalk to the National Standards for Personal Financial Education and four other frameworks, printable classroom pieces, and a browser-based pretend register.
 
 All of it is free, ungated, and needs no account or email address. Anyone in the country can print it in about a minute. clarencegetsabargain.com
 
-One thing I'd rather raise than have you find. The toolkit is free and the book it accompanies is $19.99. I read that against the commerce exclusion and I believe footnote 1 covers it — "a free resource can promote a paid upgrade." If you read it differently, I'd rather know now than after a review.
+One thing I'd rather raise than have you find. The teaching pack is free and the book it accompanies is $19.99. I read that against the commerce exclusion and I believe footnote 1 covers it — "a free resource can promote a paid upgrade." If you read it differently, I'd rather know now than after a review.
 
 Jonathan Bach
 Baltimore
@@ -310,7 +310,7 @@ and it never asks anyone for a relationship.
 ```
 Wally — a favor, and you can say no without it costing us anything.
 
-I'm applying to list the Clarence toolkit in the Jump$tart Clearinghouse. To get in the door as a Provider, I need a letter of reference attesting to reputation and viability, because I'm not a National Partner and Jump$tart has no reason to know who I am.
+I'm applying to list the Clarence teacher pack in the Jump$tart Clearinghouse. To get in the door as a Provider, I need a letter of reference attesting to reputation and viability, because I'm not a National Partner and Jump$tart has no reason to know who I am.
 
 You took the Corey Carlisle Award from them this year. A letter from you is worth more than anything I could write about myself, and it isn't asking you to say anything you haven't already said — you endorsed the book on the merits before any of this came up.
 
@@ -353,13 +353,13 @@ Wally Luckeydoo, Ed.D.
 ```
 Dr. Russell — I wrote to you a while back about a K-5 book on spending. This is a different and much smaller ask, and it will take you ninety seconds to decide.
 
-I'm applying to list a free classroom toolkit in the Jump$tart Clearinghouse. Provider eligibility runs through a letter of reference, and I'm choosing signers carefully rather than casting wide.
+I'm applying to list a free classroom classroom pack in the Jump$tart Clearinghouse. Provider eligibility runs through a letter of reference, and I'm choosing signers carefully rather than casting wide.
 
 Three reasons it's you. You hold the AFC credential, and AFCPE has a seat on the Jump$tart board. You ran Money Smart at Maryland Extension, and Land Grant and Cooperative Extension has a seat. You led youth financial health philanthropy at the Wells Fargo Foundation, and Wells Fargo has a seat. Three of twenty-four seats sit next to your career. I'd rather say that out loud than pretend I picked you at random.
 
 The resource: four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, a 23-row crosswalk to the National Standards for Personal Financial Education and four other frameworks, printable classroom pieces, and a browser-based register where a kid rings up a markdown, a coupon, and sales tax. Free, ungated, no account. It sits behind a 36-page picture book for grades 1-5.
 
-I'm not asking you to endorse the book. I'm asking whether you'd look at the toolkit and, if it holds up, say so in a paragraph. If it doesn't hold up, that's a more useful answer and I'd take it.
+I'm not asking you to endorse the book. I'm asking whether you'd look at the classroom pack and, if it holds up, say so in a paragraph. If it doesn't hold up, that's a more useful answer and I'd take it.
 
 Jonathan Bach
 Baltimore
@@ -382,7 +382,7 @@ Here is what I ran into. Almost every children's financial literacy book teaches
 
 But no seven-year-old has a savings rate. Every seven-year-old has stood in a store holding money and had to choose. The first financial decision a person ever makes is a purchase, and the literature written for them starts one step later.
 
-I wrote the K-5 book for that step. Thirty-six pages, grades 1-5. A boy earns a robot, reads the sale ads, compares two models on a shelf, takes the marked-down one on purpose, redeems a coupon at the register, and meets sales tax. Sixteen-plus concepts, a 21-term glossary, and a free ungated teacher toolkit crosswalked to the National Standards for Personal Financial Education.
+I wrote the K-5 book for that step. Thirty-six pages, grades 1-5. A boy earns a robot, reads the sale ads, compares two models on a shelf, takes the marked-down one on purpose, redeems a coupon at the register, and meets sales tax. Sixteen-plus concepts, a 21-term glossary, and a free ungated teacher lesson set crosswalked to the National Standards for Personal Financial Education.
 
 The question I'd actually like answered: is there research on financial decision-making in the first five school years, or does the evidence base start in adolescence the same way the books do? If it starts late, that's a finding, and it's one your initiative is better placed to say out loud than I am.
 

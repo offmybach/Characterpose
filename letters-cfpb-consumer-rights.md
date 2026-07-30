@@ -65,7 +65,7 @@ I know the full rights picture crosses agencies — warranties and returns are F
 
 Realistic version of the ask: is the Bookshelf still evaluating titles, and who owns it now? And if the framing above is interesting, I'd trade ten minutes for your read on it.
 
-Toolkit: https://clarencegetsabargain.com/educator-toolkit.html
+The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html
 The book in four minutes: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan

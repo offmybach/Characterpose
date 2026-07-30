@@ -83,7 +83,7 @@ Tami — an award-winning picture book author is the read I want most, because m
 *1st-degree · DM*
 
 ```
-Tim — NGPF owns 9-12 and does it better than anyone. I wrote the K-5 on-ramp: a picture book where a kid runs one real purchase, ad to register, sales tax and all. Genuine question rather than a pitch — do you see elementary as in scope for NGPF, or a gap somebody else has to fill? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Tim — NGPF owns 9-12 and does it better than anyone. I wrote the K-5 on-ramp: a picture book where a kid runs one real purchase, ad to register, sales tax and all. Genuine question rather than a pitch — do you see elementary as in scope for NGPF, or a gap somebody else has to fill? Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Paula Pant
@@ -115,7 +115,7 @@ Neale — you built this category. Money Doesn't Grow on Trees was on shelves be
 *1st-degree · DM*
 
 ```
-Joel — no login, no email capture, no funnel. Four 45-minute lesson plans, a pre/post assessment with the answer key, and a 23-row crosswalk, all built against the National Standards and all free. I'd like it in the Clearinghouse. Does it clear the bar as you read the criteria? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Joel — no login, no email capture, no funnel. Four 45-minute lesson plans, a pre/post assessment with the answer key, and a 23-row crosswalk, all built against the National Standards and all free. I'd like it in the Clearinghouse. Does it clear the bar as you read the criteria? Lesson plans: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Michelle Singletary
@@ -139,7 +139,7 @@ Cinders — you got four books out of Earn, Save, Spend, Give. I got greedy and 
 *2nd-degree · InMail*
 
 ```
-Yanely — you've said the gaps show up long before high school. I wrote the K-5 version, and it teaches spending because that's the transaction a six-year-old actually performs. Does NGPF ever point teachers below ninth grade, or is that outside the remit? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Yanely — you've said the gaps show up long before high school. I wrote the K-5 version, and it teaches spending because that's the transaction a six-year-old actually performs. Does NGPF ever point teachers below ninth grade, or is that outside the remit? For teachers: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Leslie Jones
@@ -147,7 +147,7 @@ Yanely — you've said the gaps show up long before high school. I wrote the K-5
 *1st-degree · DM*
 
 ```
-Leslie — a Bookshelf question, not a pitch. The Money as You Grow selections skew toward saving and earning. Mine teaches the transaction itself, right through the register. Is the shelf still open, and who does the evaluating? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Leslie — a Bookshelf question, not a pitch. The Money as You Grow selections skew toward saving and earning. Mine teaches the transaction itself, right through the register. Is the shelf still open, and who does the evaluating? The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Ken Worthey Jr
@@ -155,7 +155,7 @@ Leslie — a Bookshelf question, not a pitch. The Money as You Grow selections s
 *1st-degree · DM*
 
 ```
-Ken — my book and its free K-5 toolkit are aligned to Money Smart for Young People, with a crosswalk mapping every concept to the specific standard rather than asking you to take my word. Is there a process for a title to sit alongside Money Smart materials, or is that not how it works? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Ken — my book and its free K-5 classroom materials are aligned to Money Smart for Young People, with a crosswalk mapping every concept to the specific standard rather than asking you to take my word. Is there a process for a title to sit alongside Money Smart materials, or is that not how it works? Print it here: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Rishi Vamdatt
@@ -179,7 +179,7 @@ Tiffany — Get Good with Money worked because you refused to talk down to anyon
 *1st-degree · DM*
 
 ```
-Lyn — is the Money as You Grow Bookshelf still taking titles? Mine is K-5 and teaches spending: comparison shopping, markdowns, coupons, sales tax at the register. The current shelf leans heavily toward saving. Happy to send it to whoever evaluates. Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Lyn — is the Money as You Grow Bookshelf still taking titles? Mine is K-5 and teaches spending: comparison shopping, markdowns, coupons, sales tax at the register. The current shelf leans heavily toward saving. Happy to send it to whoever evaluates. Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Annamaria Lusardi
@@ -195,7 +195,7 @@ Professor Lusardi — your work established how early these gaps open and how st
 *1st-degree · DM*
 
 ```
-Tracy — a public-private partnership is how a K-5 resource actually scales, since elementary rarely gets its own budget line. It's a 36-page picture book plus free ungated toolkit against five frameworks. Fit inside the partnership? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Tracy — a public-private partnership is how a K-5 resource actually scales, since elementary rarely gets its own budget line. It's a 36-page picture book plus free ungated teacher pack against five frameworks. Fit inside the partnership? Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Nicolle Hood
@@ -211,7 +211,7 @@ Nicolle — your twelve-book roundup is the one I point people to, which is awkw
 *1st-degree · DM*
 
 ```
-Bill — Tennessee's commission decides what reaches classrooms statewide, and elementary is usually where state mandates run thin. Mine is a K-5 picture book with a free zero-prep toolkit against Jump$tart, CEE, Common Core, and FDIC Money Smart. Route to get it in front of the commission? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Bill — Tennessee's commission decides what reaches classrooms statewide, and elementary is usually where state mandates run thin. Mine is a K-5 picture book with a free zero-prep classroom pack against Jump$tart, CEE, Common Core, and FDIC Money Smart. Route to get it in front of the commission? Lesson plans: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Dave Mancl
@@ -219,7 +219,7 @@ Bill — Tennessee's commission decides what reaches classrooms statewide, and e
 *1st-degree · DM*
 
 ```
-Dave — Wisconsin has been at this longer than most states. My K-5 book and free toolkit map to five frameworks. Elementary tends to be the underserved band everywhere I look. Is there a submission route, or a person who reviews outside materials? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Dave — Wisconsin has been at this longer than most states. My K-5 book and free lesson set map to five frameworks. Elementary tends to be the underserved band everywhere I look. Is there a submission route, or a person who reviews outside materials? For teachers: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Hunter Field
@@ -227,7 +227,7 @@ Dave — Wisconsin has been at this longer than most states. My K-5 book and fre
 *1st-degree · DM*
 
 ```
-Hunter — policy and advocacy at NEFE puts you where the K-5 gap is most visible. Nearly everything funded sits at high school. I wrote a picture book plus free toolkit for grades 1-5 against five frameworks. Is early elementary getting any policy attention, or still an orphan? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Hunter — policy and advocacy at NEFE puts you where the K-5 gap is most visible. Nearly everything funded sits at high school. I wrote a picture book plus free teacher materials for grades 1-5 against five frameworks. Is early elementary getting any policy attention, or still an orphan? The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Tom Henske
@@ -299,7 +299,7 @@ Amanda — Planet Money is good at the moment someone realizes the economy just 
 *1st-degree · DM*
 
 ```
-Bethann — a bankers association reaches classrooms and families at once, which is the distribution a K-5 book needs and rarely gets. Mine is five frameworks, free zero-prep lessons, plus a grant packet if a member bank wanted to fund classroom sets. Fit Utah's outreach? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Bethann — a bankers association reaches classrooms and families at once, which is the distribution a K-5 book needs and rarely gets. Mine is five frameworks, free zero-prep lessons, plus a grant packet if a member bank wanted to fund classroom sets. Fit Utah's outreach? Free classroom materials: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Lynnette Khalfani-Cox
@@ -315,7 +315,7 @@ Lynnette — you've built both a body of work and a network around this. Mine is
 *1st-degree · DM*
 
 ```
-Ruben — my book and toolkit are aligned to the CEE standards with a full crosswalk. Is there a route for a K-5 title into CEE's resource library or EconEdLink, and what would you want to see first? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Ruben — my book and teaching pack are aligned to the CEE standards with a full crosswalk. Is there a route for a K-5 title into CEE's resource library or EconEdLink, and what would you want to see first? Free teaching pack: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Beth Pinsker, CFP®
@@ -347,7 +347,7 @@ Matt — Ask Questions, Save Money, Make More is a skill book. Mine is the same 
 *1st-degree · DM*
 
 ```
-Jillian — Intuit for Education is built around real financial decisions, which is my book's entire structure: one purchase, ad to register, sales tax included. Mine sits at K-5, below your usual band. Does the framing match how you think about curriculum? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Jillian — Intuit for Education is built around real financial decisions, which is my book's entire structure: one purchase, ad to register, sales tax included. Mine sits at K-5, below your usual band. Does the framing match how you think about curriculum? Free teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Saskia Brown
@@ -355,7 +355,7 @@ Jillian — Intuit for Education is built around real financial decisions, which
 *1st-degree · DM*
 
 ```
-Saskia — Promise Academy is deliberate about what earns classroom time, which is the right instinct. Mine teaches the complete purchase, sales tax included, and the family activity was built for a kitchen table. Classrooms or family programming — or neither? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Saskia — Promise Academy is deliberate about what earns classroom time, which is the right instinct. Mine teaches the complete purchase, sales tax included, and the family activity was built for a kitchen table. Classrooms or family programming — or neither? Free classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Ben Eisen I
@@ -395,7 +395,7 @@ Veronica — you write about money across a whole life. This is hour one. Six-ye
 *1st-degree · DM*
 
 ```
-Dr. Taylor — Montgomery County sets what reaches a lot of classrooms. Mine is a K-5 picture book with a free zero-prep toolkit, five frameworks, nothing consumable to reorder next August. The honest question is placement rather than merit: classroom, library, or family night? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Dr. Taylor — Montgomery County sets what reaches a lot of classrooms. Mine is a K-5 picture book with a free zero-prep lesson set, five frameworks, nothing consumable to reorder next August. The honest question is placement rather than merit: classroom, library, or family night? Free lesson set: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Beth Bean, Ph.D.
@@ -403,7 +403,7 @@ Dr. Taylor — Montgomery County sets what reaches a lot of classrooms. Mine is 
 *1st-degree · DM*
 
 ```
-Beth — a research question. My K-5 book argues spending competence precedes saving competence developmentally, which would mean the field teaches the wrong skill first. Does that square with your research and impact work, or am I overstating a tidy story? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Beth — a research question. My K-5 book argues spending competence precedes saving competence developmentally, which would mean the field teaches the wrong skill first. Does that square with your research and impact work, or am I overstating a tidy story? The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Sam X Renick
@@ -419,7 +419,7 @@ Sam — twenty-plus years and a quarter million kids means you've seen every app
 *1st-degree · DM*
 
 ```
-Vince — NFEC reaches thousands of instructors, and K-5 is where most of them have the least to hand anyone. Mine runs 36 pages plus free toolkit against five frameworks, crosswalk included. Route into the NFEC resource network? More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Vince — NFEC reaches thousands of instructors, and K-5 is where most of them have the least to hand anyone. Mine runs 36 pages plus free classroom materials against five frameworks, crosswalk included. Route into the NFEC resource network? More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Billy J. Hensley
@@ -427,7 +427,7 @@ Vince — NFEC reaches thousands of instructors, and K-5 is where most of them h
 *1st-degree · DM*
 
 ```
-Billy — a NEFE-shaped question. The research keeps saying money attitudes form by seven, and almost every dollar of material lands at 9-12. I wrote a K-5 picture book teaching spending rather than saving. Does NEFE ever point people to elementary, or is that band still nobody's mandate? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Billy — a NEFE-shaped question. The research keeps saying money attitudes form by seven, and almost every dollar of material lands at 9-12. I wrote a K-5 picture book teaching spending rather than saving. Does NEFE ever point people to elementary, or is that band still nobody's mandate? Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Laura L. Levine
@@ -435,7 +435,7 @@ Billy — a NEFE-shaped question. The research keeps saying money attitudes form
 *1st-degree · DM*
 
 ```
-Laura — a Clearinghouse question rather than a pitch. My K-5 toolkit is built against the National Standards, free, ungated, no email capture and no drip campaign. Is Suzann Knight the right first stop, or is there a step I'm skipping? Wally Luckeydoo endorsed the book, which I mention only because he's your 2026 Corey Carlisle recipient. Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Laura — a Clearinghouse question rather than a pitch. My K-5 teacher pack is built against the National Standards, free, ungated, no email capture and no drip campaign. Is Suzann Knight the right first stop, or is there a step I'm skipping? Wally Luckeydoo endorsed the book, which I mention only because he's your 2026 Corey Carlisle recipient. Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Prince Dykes,
@@ -529,42 +529,42 @@ Natasha — PiggyyBank and Clarence are after the same kid. Mine is the analog v
 *Principal at Literary Safari, a boutique studio and publisher that creates inclusive media for children a · 1st-degree · DM*
 
 ```
-Sandhya — Literary Safari builds media that respects kids, which was the bar I aimed at. Mine gives a six-year-old a real financial decision with a real tradeoff and lets him make it himself. I'd take your read on positioning. Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Sandhya — Literary Safari builds media that respects kids, which was the bar I aimed at. Mine gives a six-year-old a real financial decision with a real tradeoff and lets him make it himself. I'd take your read on positioning. Free classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Penelope Martin-Knox
 *Superintendent- Baltimore born & raised, Educator, Advocate for Children, Life-Long Learner, Ed. Leader,  · 1st-degree · DM*
 
 ```
-Dr. Martin-Knox — a superintendent who's a lifelong learner is the read I hoped for. Mine is K-5 with free standards-aligned lessons, and elementary is where financial literacy gets politely skipped. Where would it fit in your district? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Dr. Martin-Knox — a superintendent who's a lifelong learner is the read I hoped for. Mine is K-5 with free standards-aligned lessons, and elementary is where financial literacy gets politely skipped. Where would it fit in your district? Free lesson set: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Dr. Cortez McCoy
 *K-12 Executive Leader | Former Assistant Superintendent | Stabilizing & Transforming School Systems for S · 1st-degree · DM*
 
 ```
-Dr. McCoy — you've stabilized whole systems, so you know which resources survive contact with an actual building. I wrote a picture book with zero-prep lessons and nothing to reorder. Does it hold up at K-12 scale, or is it too small to matter? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Dr. McCoy — you've stabilized whole systems, so you know which resources survive contact with an actual building. I wrote a picture book with zero-prep lessons and nothing to reorder. Does it hold up at K-12 scale, or is it too small to matter? Free teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Denise Cobb-Williams
 *Director of Elementary Curriculum, Walton County School District · 1st-degree · DM*
 
 ```
-Denise — financial literacy politely skips K-5 and turns up in ninth grade acting surprised. Mine doesn't. 36 pages, four zero-prep lessons, a 23-row crosswalk you can check rather than take on faith, and a K-5 teacher with 30+ years who told me what to cut. Clear your bar? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Denise — financial literacy politely skips K-5 and turns up in ninth grade acting surprised. Mine doesn't. 36 pages, four zero-prep lessons, a 23-row crosswalk you can check rather than take on faith, and a K-5 teacher with 30+ years who told me what to cut. Clear your bar? Free classroom materials: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Sarai Ovalle
 *Curriculum Specialist at Glenview Elementary Spanish Immersion Magnet School · 1st-degree · DM*
 
 ```
-Sarai — a Spanish immersion magnet raises a question I should ask outright: the book is English-only, though the free companion activities have a Spanish toggle. Does that limit it too much for your classrooms, or does it still work? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Sarai — a Spanish immersion magnet raises a question I should ask outright: the book is English-only, though the free companion activities have a Spanish toggle. Does that limit it too much for your classrooms, or does it still work? Free teaching pack: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Dr Richard Y Kim
 *O Founder; Founder, 4MQ.org | Financial Literacy Frameworks for Early Childhood and Teens I EdTech Innova · 1st-degree · DM*
 
 ```
-Richard — 4MQ builds financial literacy frameworks for early childhood, which is the band almost nobody serves. Mine is a K-5 picture book plus free toolkit against five frameworks. Does the approach fit what you're building, or duplicate it? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Richard — 4MQ builds financial literacy frameworks for early childhood, which is the band almost nobody serves. Mine is a K-5 picture book plus free teacher pack against five frameworks. Does the approach fit what you're building, or duplicate it? Free teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 
@@ -574,168 +574,168 @@ Richard — 4MQ builds financial literacy frameworks for early childhood, which 
 *O Senior Curriculum Designer and AI Program Manager; Senior Curriculum Designer & AI Program Manager at N · 1st-degree · DM*
 
 ```
-David — a senior curriculum designer can tell in five minutes whether something was built to teach or built to look like it was. Mine has four zero-prep lessons, assessments, and a 23-row crosswalk, all written alongside the book rather than bolted on afterward. Does the design hold? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+David — a senior curriculum designer can tell in five minutes whether something was built to teach or built to look like it was. Mine has four zero-prep lessons, assessments, and a 23-row crosswalk, all written alongside the book rather than bolted on afterward. Does the design hold? Lesson plans: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Kevin Morgan
 *Founder & President, LifeFinanceEd LLC | Financial literacy teacher @ Marlboro H.S. | Council for Economi · 1st-degree · DM*
 
 ```
-Kevin — a CEE Master Teacher running LifeFinanceEd is the read I want most. My K-5 book aligns to CEE, Jump$tart, Common Core, and FDIC Money Smart, and it is a spending book, not a saving one. Does that framing hold up against how you actually teach it? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Kevin — a CEE Master Teacher running LifeFinanceEd is the read I want most. My K-5 book aligns to CEE, Jump$tart, Common Core, and FDIC Money Smart, and it is a spending book, not a saving one. Does that framing hold up against how you actually teach it? For teachers: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Gina Hutchinson
 *Head of Marketing Communications & Brand at Jumpstart · 1st-degree · DM*
 
 ```
-Gina — brand and comms at Jump$tart means you see every resource that wants a logo near it. Mine wants a listing, not a logo. K-5 toolkit against the National Standards, completely free. Anything you need to see beyond the crosswalk before something gets listed? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Gina — brand and comms at Jump$tart means you see every resource that wants a logo near it. Mine wants a listing, not a logo. K-5 teacher materials against the National Standards, completely free. Anything you need to see beyond the crosswalk before something gets listed? The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Ryan Wood
 *O Partnerships Manager; Partnerships Manager @ Next Gen Personal Finance · 1st-degree · DM*
 
 ```
-Ryan — a partnerships question. My K-5 book plus free toolkit sits below NGPF's grade band, which probably makes it complementary rather than competitive. Is elementary something you partner around, or strictly out of scope? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Ryan — a partnerships question. My K-5 book plus free classroom materials sits below NGPF's grade band, which probably makes it complementary rather than competitive. Is elementary something you partner around, or strictly out of scope? Print it here: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Michael Segal
 *Director, Financial Literacy Programming; O Director, Financial Literacy Programming; Director of Financi · 1st-degree · DM*
 
 ```
-Michael — you decide what programming actually reaches people. Mine is K-5, teaching the complete purchase, sales tax included, with free zero-prep lessons behind it. Elementary is usually the thinnest shelf in the building. Fit your programming? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Michael — you decide what programming actually reaches people. Mine is K-5, teaching the complete purchase, sales tax included, with free zero-prep lessons behind it. Elementary is usually the thinnest shelf in the building. Fit your programming? Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Utah JumpStart Coalition for Financial Literacy
 *C) Non-Profit Coalition; Non-Profit Coalition at Jump $tart Utah Coalition · 1st-degree · DM*
 
 ```
-Hello — a Utah Jump$tart question. My K-5 book and free toolkit are built against the National Standards with a crosswalk. Elementary is usually where state coalitions have the least to hand a teacher. Is there a route to be listed or shared with your network? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Hello — a Utah Jump$tart question. My K-5 book and free teacher pack are built against the National Standards with a crosswalk. Elementary is usually where state coalitions have the least to hand a teacher. Is there a route to be listed or shared with your network? Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Lorne Novick
 *Chief Executive Officer at JumpStart Inc. · 1st-degree · DM*
 
 ```
-Lorne — you back programs that reach kids at scale. Mine is a K-5 picture book teaching spending rather than saving, with a free zero-prep toolkit behind it. Fit anything JumpStart Inc. runs or funds? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Lorne — you back programs that reach kids at scale. Mine is a K-5 picture book teaching spending rather than saving, with a free zero-prep classroom pack behind it. Fit anything JumpStart Inc. runs or funds? Lesson plans: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Ruth Cookson
 *Senior Manager, Educational Content; Cheerleader for Economics and Personal Finance Education · 1st-degree · DM*
 
 ```
-Ruth — a self-described cheerleader for personal finance education is exactly who I want reading this. My K-5 book comes with free ungated content: four lessons, assessments, a 23-row crosswalk. Any of it fit your educational content? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Ruth — a self-described cheerleader for personal finance education is exactly who I want reading this. My K-5 book comes with free ungated content: four lessons, assessments, a 23-row crosswalk. Any of it fit your educational content? For teachers: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Samantha Drost
 *Building Financially Savvy Futures | History & Personal Finance Educator | Maine Jump$tart VP | ME Jump$t · 1st-degree · DM*
 
 ```
-Samantha — as Maine Jump$tart VP you know exactly how thin the elementary shelf is. Mine is K-5 against the National Standards with a free toolkit. Route into what Maine Jump$tart shares with teachers? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Samantha — as Maine Jump$tart VP you know exactly how thin the elementary shelf is. Mine is K-5 against the National Standards with a free teacher materials. Route into what Maine Jump$tart shares with teachers? The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Eva Burkett
 *Supervisory Administrative Officer at Consumer Financial Protection Bureau · 1st-degree · DM*
 
 ```
-Eva — I'm trying to find the right person at the Bureau to ask whether the Money as You Grow Bookshelf still adds titles. Mine is a K-5 picture book teaching spending rather than saving. Can you point me? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Eva — I'm trying to find the right person at the Bureau to ask whether the Money as You Grow Bookshelf still adds titles. Mine is a K-5 picture book teaching spending rather than saving. Can you point me? Print it here: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Jesse Johnson
 *Director of Outreach and Community Engagement - Washington State Treasurer · 1st-degree · DM*
 
 ```
-Jesse — the Treasurer's outreach reaches families directly, which is where a read-along does its best work. Mine teaches spending through one purchase, and the free family activity was built for a kitchen table rather than a classroom. Fit for a Washington program? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Jesse — the Treasurer's outreach reaches families directly, which is where a read-along does its best work. Mine teaches spending through one purchase, and the free family activity was built for a kitchen table rather than a classroom. Fit for a Washington program? Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Andrea Mozo
 *Senior Director, Digital Products; Senior Director, Products; Social impact deserves great product leader · 1st-degree · DM*
 
 ```
-Andrea — you lead digital products for social impact, so you'll know whether a printed picture book is an asset or a liability in 2026. Mine teaches K-5 spending with free digital lessons behind it. Would you tell me straight? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Andrea — you lead digital products for social impact, so you'll know whether a printed picture book is an asset or a liability in 2026. Mine teaches K-5 spending with free digital lessons behind it. Would you tell me straight? Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Sandra Hernandez
 *Senior Consumer Education Specialist at Federal Deposit Insurance Corporation (FDIC) · 1st-degree · DM*
 
 ```
-Sandra — my K-5 book and free toolkit are aligned to Money Smart for Young People, crosswalk included. Is there a route for outside materials to sit alongside Money Smart, or is that closed by policy? Either answer is useful. Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Sandra — my K-5 book and free classroom pack are aligned to Money Smart for Young People, crosswalk included. Is there a route for outside materials to sit alongside Money Smart, or is that closed by policy? Either answer is useful. Lesson plans: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Christian Sherrill
 *Director of Teacher Success · 2nd-degree · InMail*
 
 ```
-Christian — teacher success is the whole ballgame, and elementary teachers have close to nothing for financial literacy. I built a free K-5 toolkit around a picture book: four lessons, assessments, a crosswalk, zero prep. Would NGPF ever surface something below ninth grade? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Christian — teacher success is the whole ballgame, and elementary teachers have close to nothing for financial literacy. I built a free K-5 lesson set around a picture book: four lessons, assessments, a crosswalk, zero prep. Would NGPF ever surface something below ninth grade? For teachers: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Florida JumpStart Coalition for Personal Financial Literacy
 *Nonprofit; s VMP TART. Nonprofit · 2nd-degree · InMail*
 
 ```
-Hello — my K-5 book and free ungated toolkit align to the Jump$tart National Standards, crosswalk included. Elementary tends to be the thinnest band for coalition resources. Submission route for Florida's network? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Hello — my K-5 book and free ungated teacher materials align to the Jump$tart National Standards, crosswalk included. Elementary tends to be the thinnest band for coalition resources. Submission route for Florida's network? The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Dan Hebert
 *State President · 2nd-degree · InMail*
 
 ```
-Dan — as state president you back programs that reach whole communities. Mine is a K-5 picture book with a free toolkit against five frameworks, teaching kids the complete purchase. Fit with what your organization funds or distributes? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Dan — as state president you back programs that reach whole communities. Mine is a K-5 picture book with a free classroom materials against five frameworks, teaching kids the complete purchase. Fit with what your organization funds or distributes? Print it here: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Aaron Standish
 *Partnerships Manager · 2nd-degree · InMail*
 
 ```
-Aaron — a partnerships question. My K-5 book plus free toolkit fills the elementary gap most financial-literacy programs leave wide open, since almost everything is built for high school. Is early elementary something you partner around? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Aaron — a partnerships question. My K-5 book plus free teaching pack fills the elementary gap most financial-literacy programs leave wide open, since almost everything is built for high school. Is early elementary something you partner around? Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Variny Yim
 *Director of Partner and Affiliate Relations · 2nd-degree · InMail*
 
 ```
-Variny — you decide what's worth putting in front of a partner network. Mine is K-5 with a free ungated toolkit against five frameworks. Elementary is the band most partners have nothing for. Worth a look? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Variny — you decide what's worth putting in front of a partner network. Mine is K-5 with a free ungated teacher pack against five frameworks. Elementary is the band most partners have nothing for. Worth a look? Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Meghan Sellers
 *Manager, Grants and Research Projects · 2nd-degree · InMail*
 
 ```
-Meghan — a grants question rather than a pitch. My K-5 book has a free toolkit and a grant-ready packet with the math already done: 25 copies, $499.75. Is early elementary financial literacy something your grants program funds? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Meghan — a grants question rather than a pitch. My K-5 book has a free classroom pack and a grant-ready packet with the math already done: 25 copies, $499.75. Is early elementary financial literacy something your grants program funds? Lesson plans: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Joshua Caraballo, Psy.D.
 *Managing Director, Research & Evalution · 2nd-degree · InMail*
 
 ```
-Joshua — research and evaluation is exactly where my premise should get tested. I argue spending competence precedes saving competence developmentally. Does that survive scrutiny, or is there literature I've conveniently ignored? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Joshua — research and evaluation is exactly where my premise should get tested. I argue spending competence precedes saving competence developmentally. Does that survive scrutiny, or is there literature I've conveniently ignored? For teachers: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Syeda Zahan, CRCM
 *Board Member & Officer · 2nd-degree · InMail*
 
 ```
-Syeda — a CRCM sees the CRA angle immediately. My K-5 book has a grant-ready packet with cost math already done, which makes it easy for a bank to fund locally and report. Something your board would consider? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Syeda — a CRCM sees the CRA angle immediately. My K-5 book has a grant-ready packet with cost math already done, which makes it easy for a bank to fund locally and report. Something your board would consider? The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Christopher Caltabiano
 *Chief Program Officer · 2nd-degree · InMail*
 
 ```
-Christopher — as chief program officer you decide what reaches learners. Mine is K-5, teaching the complete purchase, sales tax included, with free zero-prep lessons. Elementary is usually the thinnest part of any program. Fit? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Christopher — as chief program officer you decide what reaches learners. Mine is K-5, teaching the complete purchase, sales tax included, with free zero-prep lessons. Elementary is usually the thinnest part of any program. Fit? Print it here: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### John McKenney
 *Financial Education Administrator · 1st-degree · DM*
 
 ```
-John — as a financial education administrator you decide what actually gets used. Mine is K-5 plus a free zero-prep toolkit against five frameworks. Elementary is usually the gap. Fit your programs? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+John — as a financial education administrator you decide what actually gets used. Mine is K-5 plus a free zero-prep teaching pack against five frameworks. Elementary is usually the gap. Fit your programs? Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Jason Rothkowitz
 *Volunteer Board Member · 1st-degree · DM*
 
 ```
-Jason — a board-level question. Elementary financial literacy is the least funded band and the one the research says matters most, which is an odd combination. I built a K-5 book and free toolkit for it. Something your board would want to see? Toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Jason — a board-level question. Elementary financial literacy is the least funded band and the one the research says matters most, which is an odd combination. I built a K-5 book and free teacher pack for it. Something your board would want to see? Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 
@@ -912,14 +912,14 @@ Talaya — accountant, professor, author: three angles on one question. Mine is 
 *Author of Responsible Money Financial Literacy Curriculum, Teacher, Education Consultant, Financial Liter · 1st-degree · DM*
 
 ```
-Ronald — you built a financial literacy curriculum, so you know what teachers actually pick up versus what they politely accept. It's a 36-page picture book with four zero-prep lessons, aimed at K-5 where most curricula don't reach. Complement Responsible Money, or compete with it? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Ronald — you built a financial literacy curriculum, so you know what teachers actually pick up versus what they politely accept. It's a 36-page picture book with four zero-prep lessons, aimed at K-5 where most curricula don't reach. Complement Responsible Money, or compete with it? Free classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Dr. Fernando Branch
 *O Principal of Robert F. Smith STEAM Academy; Executive Director, Principal, Author, and Leadership Coach · 1st-degree · DM*
 
 ```
-Dr. Branch — principal, author, and coach means you see the whole building at once. Mine teaches spending through a story, with free standards-aligned lessons behind it. Would it work at Robert F. Smith STEAM Academy, and where would you slot it? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Dr. Branch — principal, author, and coach means you see the whole building at once. Mine teaches spending through a story, with free standards-aligned lessons behind it. Would it work at Robert F. Smith STEAM Academy, and where would you slot it? Free lesson set: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Anthony Delauney
@@ -947,7 +947,7 @@ Pamela — The Money Lady and a fellow author; you make money approachable for a
 *Founder and Executive Director | Youth Financial Literacy Innovator | Author | EdTech Builder | Cybersecu · 1st-degree · DM*
 
 ```
-Cash — you're building youth financial literacy from the ground up, so we're after the same kid. I made a picture book plus free zero-prep toolkit for K-5, the band almost nobody serves. Fit anything you're building? More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Cash — you're building youth financial literacy from the ground up, so we're after the same kid. I made a picture book plus free zero-prep teacher materials for K-5, the band almost nobody serves. Fit anything you're building? More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Tonia Ibeneme
@@ -1080,7 +1080,7 @@ Elisabeth — you guide adults through money; mine starts two decades earlier. I
 *Chief Relationship Officer/Co-Founder at Electus Global Education Inc.; CEO/President/Chief Relationship  · 1st-degree · DM*
 
 ```
-John — you build learning that scales globally. Mine is K-5 with a free zero-prep toolkit against five frameworks. Does the approach fit what Electus builds, or duplicate it? More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+John — you build learning that scales globally. Mine is K-5 with a free zero-prep classroom materials against five frameworks. Does the approach fit what Electus builds, or duplicate it? More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 
@@ -1338,7 +1338,7 @@ Elizabeth — author, publisher, managing editor: you see the whole path. Mine l
 *Publishing Pro | Copy Editor | Project Manager | Content Writer | Author of The Book Publisher’s Handbook · 1st-degree · DM*
 
 ```
-Sue — you wrote the handbook. Mine is a 36-page full-color picture book with a free educator toolkit and no Amazon listing, by choice. Brave or dumb? I'd genuinely rather have the straight answer than the polite one. Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Sue — you wrote the handbook. Mine is a 36-page full-color picture book with a free teaching pack and no Amazon listing, by choice. Brave or dumb? I'd genuinely rather have the straight answer than the polite one. Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Paul Vigna

@@ -89,7 +89,7 @@ Emily — family governance and education, plus the AFC, means you bridge money 
 *Philanthropist | Helping Organizations Implement Financial Literacy & AI Programs | Founder, Young Boss N · 1st-degree · DM*
 
 ```
-Zion — you help organizations stand up financial literacy programs, so you know the gap: they all teach saving and skip spending, which is what kids actually do. Mine is K-5 with a completely free toolkit. Where might a family-facing book fit in your work? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Zion — you help organizations stand up financial literacy programs, so you know the gap: they all teach saving and skip spending, which is what kids actually do. Mine is K-5 with a completely free teacher pack. Where might a family-facing book fit in your work? Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Angelina Cook
@@ -152,7 +152,7 @@ Shawn — you help underserved communities out of debt, so you know prevention b
 *Director, Financial Know-How · 1st-degree · DM*
 
 ```
-Jim — financial know-how is the whole game, and I'm trying to start it at six. Any book can teach a kid to save; the hard part is teaching him to spend. Five frameworks, free toolkit. Does the framing hold? More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Jim — financial know-how is the whole game, and I'm trying to start it at six. Any book can teach a kid to save; the hard part is teaching him to spend. Five frameworks, free classroom pack. Does the framing hold? More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Christopher Power
@@ -334,7 +334,7 @@ Jordan — a program and grants manager will ask what's fundable and countable. 
 *Founder & Executive Director | NextGen Prosperity Foundation, Inc. · 1st-degree · DM*
 
 ```
-Keith — NextGen Prosperity is after the same generation I am, just at a different age. Mine is K-5 with a completely free toolkit. Complement your work, or duplicate it? Either answer is useful. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Keith — NextGen Prosperity is after the same generation I am, just at a different age. Mine is K-5 with a completely free lesson set. Complement your work, or duplicate it? Either answer is useful. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Kimberly Cole
@@ -495,7 +495,7 @@ Fatima — a financial health coach and agency owner sees where habits go wrong.
 *Franchisor Partnerships | Strategic Alliances | HCM & Fintech Expert | Partner Enablement | · 1st-degree · DM*
 
 ```
-James — partnerships and fintech means you'll ask whether this scales. Mine is a book plus a completely free toolkit, so the only line item is the copies. Does that hold as a model? More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+James — partnerships and fintech means you'll ask whether this scales. Mine is a book plus a completely free teacher materials, so the only line item is the copies. Does that hold as a model? More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Jamila Owens
@@ -586,7 +586,7 @@ Tara — running MTSS means you think about what reaches every kid rather than m
 *EXECUTIVE LEADER | REVENUE GROWTH | STRATEGIC PARTNERSHIPS | CUSTOMER EXPERIENCE · 1st-degree · DM*
 
 ```
-Amber — revenue growth and strategic partnerships is a long way from a picture book. Mine teaches six-year-olds to spend on purpose, and it comes with a free toolkit. Fit any partnership you're building, or wrong lane? More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Amber — revenue growth and strategic partnerships is a long way from a picture book. Mine teaches six-year-olds to spend on purpose, and it comes with a free classroom materials. Fit any partnership you're building, or wrong lane? More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Amit Bansal
@@ -600,7 +600,7 @@ Amit — directing a CFP Board-registered program, you see students arrive with 
 *Senior Sales Director; Senior Sales Director @ SavvyMoney | CRM, Strategy, Team Building, ‘Merica 🇺🇸 · 1st-degree · DM*
 
 ```
-Andi — SavvyMoney puts financial tools in front of credit union members, which is the same audience that funds K-5 programs locally. Mine is a book plus a free toolkit with a grant packet attached. Worth knowing about? More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Andi — SavvyMoney puts financial tools in front of credit union members, which is the same audience that funds K-5 programs locally. Mine is a book plus a free teaching pack with a grant packet attached. Worth knowing about? More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Angel Pantoja
@@ -649,7 +649,7 @@ César — real estate acquisitions and financial literacy is a combination I re
 *Chief Revenue Officer; CRO @ SavvyMoney | Builder of high-performing teams, crusher of quotas, and cultur · 1st-degree · DM*
 
 ```
-Chris — SavvyMoney reaches credit union members at scale, and those institutions are exactly who fund K-5 financial literacy locally. Mine is a book plus free toolkit with a grant packet attached. Worth knowing about? More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Chris — SavvyMoney reaches credit union members at scale, and those institutions are exactly who fund K-5 financial literacy locally. Mine is a book plus free teacher pack with a grant packet attached. Worth knowing about? More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Christina Lynn

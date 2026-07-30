@@ -31,7 +31,7 @@ So I wrote the spending one. A boy earns a robot, reads the sale ad, compares tw
 
 Built with a K-5 teacher of 30+ years who told me what to cut, and endorsed by Wally Luckeydoo, Ed.D., who was named 2026 EIFLE Educator of the Year and took the Jump$tart Corey Carlisle Award the same year.
 
-The toolkit is free and ungated — four lesson plans, assessments with answer keys, a 23-row standards crosswalk. A principal hands a teacher the whole thing on a Friday and it costs the building nothing.
+The classroom pack is free and ungated — four lesson plans, assessments with answer keys, a 23-row standards crosswalk. A principal hands a teacher the whole thing on a Friday and it costs the building nothing.
 
 You have the rarest vantage point in this conversation: you sit in the association chair and in a principal's chair on the same day. So the question is genuinely for you. Would your members use this, or is it one more good idea that dies in a staff room?
 
@@ -55,7 +55,7 @@ The claim, and you can check it in an afternoon: every children's financial lite
 
 Meanwhile financial literacy mandates keep landing in high school and elementary principals get the expectation without the materials.
 
-I wrote the K-5 book for the register rather than the piggy bank. A boy earns a robot, compares two on a shelf, takes the marked-down one on purpose, hands over a coupon, and meets sales tax for the first time. Free ungated toolkit behind it — four lesson plans, assessments, a 23-row crosswalk. Endorsed by Wally Luckeydoo, Ed.D., 2026 EIFLE Educator of the Year.
+I wrote the K-5 book for the register rather than the piggy bank. A boy earns a robot, compares two on a shelf, takes the marked-down one on purpose, hands over a coupon, and meets sales tax for the first time. Free ungated lesson set behind it — four lesson plans, assessments, a 23-row crosswalk. Endorsed by Wally Luckeydoo, Ed.D., 2026 EIFLE Educator of the Year.
 
 Two questions, either one useful:
 
@@ -88,7 +88,7 @@ I wrote the book that fills it, which is my interest declared up front. But the 
 If that is a piece for Principal, I am glad to talk, or to hand it to whoever covers curriculum. If it is not, tell me and I will stop.
 
 Book facts: https://clarencegetsabargain.com/book-facts.html
-Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html
+Free teacher materials: https://clarencegetsabargain.com/educator-toolkit.html
 Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan Bach
@@ -112,7 +112,7 @@ Every children's money book teaches saving. I read all 25 on the ABA Foundation'
 
 So I wrote the one for the register rather than the piggy bank. A boy earns a robot, does his own comparison, takes the marked-down model on purpose, hands over a coupon, and then meets sales tax and takes it badly.
 
-For a principal the relevant facts are these: hardcover, 36 pages, nothing consumable, and the entire teacher toolkit is free and ungated. Four lesson plans, assessments with answer keys, a 23-row standards crosswalk against Jump$tart, Common Core, CEE, and FDIC Money Smart. Endorsed by Wally Luckeydoo, Ed.D., 2026 EIFLE Educator of the Year.
+For a principal the relevant facts are these: hardcover, 36 pages, nothing consumable, and the entire teacher classroom materials is free and ungated. Four lesson plans, assessments with answer keys, a 23-row standards crosswalk against Jump$tart, Common Core, CEE, and FDIC Money Smart. Endorsed by Wally Luckeydoo, Ed.D., 2026 EIFLE Educator of the Year.
 
 The question: would a Maryland elementary principal actually use this, or is it one more good-sounding thing that dies in a staff room?
 
@@ -142,7 +142,7 @@ That is a gap a state association could visibly close, cheaply, in one school ye
 
 I wrote the K-5 book for it. One purchase, start to finish: sale ad, comparison, markdown, coupon, and sales tax at the end, which the six-year-old resents. Endorsed by Wally Luckeydoo, Ed.D., 2026 EIFLE Educator of the Year, and built alongside a K-5 teacher with 30+ years.
 
-The relevant part for an association: the whole toolkit is free and ungated, so nothing about it requires a budget line. Four lesson plans, assessments, a 23-row standards crosswalk.
+The relevant part for an association: the whole teaching pack is free and ungated, so nothing about it requires a budget line. Four lesson plans, assessments, a 23-row standards crosswalk.
 
 If that is nowhere near what you want your year to be about, say so and I will leave you to plan in peace.
 
@@ -162,7 +162,7 @@ Baltimore
 ```
 Dr. Messier — you are the treasurer, so I will lead with the money and you can decide whether the rest is worth reading.
 
-The classroom toolkit is free. Not freemium, not free-with-registration. Four 45-minute lesson plans, a pre/post assessment with the answer key, a 23-row standards crosswalk, print-ready. No login, no seats, no renewal, nothing consumable to reorder next August. The only cost that ever exists is the copies of the book, at $19.99, with PO and Net 30 terms available.
+The classroom teacher pack is free. Not freemium, not free-with-registration. Four 45-minute lesson plans, a pre/post assessment with the answer key, a 23-row standards crosswalk, print-ready. No login, no seats, no renewal, nothing consumable to reorder next August. The only cost that ever exists is the copies of the book, at $19.99, with PO and Net 30 terms available.
 
 Now the part that justifies it existing.
 
@@ -194,7 +194,7 @@ Here is what I think everyone got backwards. Every children's money book teaches
 
 So the book teaches spending. One purchase, start to finish: read the ad, compare two robots on a shelf, take the marked-down one on purpose, hand over a coupon, then discover sales tax and object to it.
 
-The part that matters for a principal: the whole toolkit is free. Four 45-minute lesson plans, a pre/post assessment with the answer key, a 23-row standards crosswalk. No login, no email capture, nothing consumable to reorder. You can hand a teacher the entire thing on a Friday and it costs the building nothing.
+The part that matters for a principal: the whole classroom pack is free. Four 45-minute lesson plans, a pre/post assessment with the answer key, a 23-row standards crosswalk. No login, no email capture, nothing consumable to reorder. You can hand a teacher the entire thing on a Friday and it costs the building nothing.
 
 Endorsed by Wally Luckeydoo, Ed.D., 2026 EIFLE Educator of the Year, and built with a K-5 teacher of 30+ years who told me what to cut.
 
@@ -221,7 +221,7 @@ Which leaves elementary principals holding an expectation with no mandate, no fu
 
 The research keeps saying money habits form by seven. The policy keeps arriving at fourteen. That gap is a story your members live inside.
 
-I wrote a K-5 book for it and gave the classroom toolkit away free, which is my interest declared. But the advocacy point stands whether or not you ever look at the book: elementary is doing financial literacy work nobody funded and nobody wrote for.
+I wrote a K-5 book for it and gave the classroom lesson set away free, which is my interest declared. But the advocacy point stands whether or not you ever look at the book: elementary is doing financial literacy work nobody funded and nobody wrote for.
 
 Happy to send anything useful, including the standards crosswalk, if it helps make that case somewhere.
 
@@ -248,7 +248,7 @@ Children's financial literacy has ignored that for forty years. I read all 25 ti
 
 But a six-year-old does not save. A six-year-old stands in an aisle holding five dollars, looking at a thing, deciding. That is the transaction they actually perform, and we have been teaching the other one first.
 
-So I wrote the book for the register instead of the piggy bank. A boy earns a robot, reads the sale ad at the kitchen table, compares two models on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, and then meets sales tax for the first time and takes it personally. Thirty-six pages, grades 1-5, and the classroom toolkit behind it is free and ungated.
+So I wrote the book for the register instead of the piggy bank. A boy earns a robot, reads the sale ad at the kitchen table, compares two models on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, and then meets sales tax for the first time and takes it personally. Thirty-six pages, grades 1-5, and the classroom teacher materials behind it is free and ungated.
 
 Wally Luckeydoo, Ed.D., endorsed it. He was named 2026 EIFLE Educator of the Year and took the Jump$tart Corey Carlisle Award the same year, which suggests he was not being polite.
 

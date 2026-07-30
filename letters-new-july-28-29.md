@@ -28,7 +28,7 @@ I wrote and illustrated a K-5 book about money that does the one thing the rest 
 
 Here is why I'm writing you and not a longer list. MAESP recognized you as a Connected School Leader for actually using the digital tools, and the entire teacher kit behind the book is free, ungated, and prints from a browser — four lesson plans, assessments with answer keys, a standards crosswalk. No account, no budget line. It is exactly the kind of thing that dies in a staff room unless a principal who gets it hands it over.
 
-Would it be useful on the Eastern Shore, or am I overreaching? Toolkit: clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Would it be useful on the Eastern Shore, or am I overreaching? Teacher pack: clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 ```

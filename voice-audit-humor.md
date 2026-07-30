@@ -166,16 +166,44 @@ Jonathan
 
 ---
 
+## The three non-taste fixes — run 29 Jul 2026, and one of three was real
+
+I proposed three fixes that did not depend on anyone's sense of humor. Measured properly,
+only the first survived. Recording all three so the two dead ones do not get re-proposed.
+
+**1. Retire "toolkit" — REAL, and done.** 300 total hits split into **111 inside the
+`educator-toolkit.html` URL, which must never be touched**, and **189 in prose**. All 189
+replaced across 160 letters with six rotating variants — teacher pack, classroom pack, lesson
+set, teacher materials, classroom materials, teaching pack — assigned per letter, so each
+letter is internally consistent and no two neighbours match. URLs verified still at 111. One
+awkward join ("educator teaching pack") cleaned up after a spot check.
+
+**2. Put the one-cent tags in more letters — NOT POSSIBLE AT SCALE, correctly no action.**
+The 620 numbered-batch DMs are a median of **327 characters**. The tag story needs about 185.
+Adding it would push **395 of 620 past 500 characters**, roughly doubling notes that were
+written short on purpose. A regex found five letters with a "qualified" slot, and on reading
+all five, none was a real one: Childress is about editorial judgment, Lusardi and Yim are
+deliberate humility that a shopping brag would undercut, Slattengren is about *parents*
+feeling unqualified. The tags belong in long-form letters and are already there.
+
+**3. Cut duplicate hedges — I OVERSTATED THIS. Nothing to fix.** I claimed "'if that's ever
+useful' three times in one letter reads as apologising for existing." Measured: **23 hedges
+across 671 letters, and zero letters carry two or more.** Seventeen of the 23 are a plain
+"Happy to," which is not a hedge. I was pattern-matching from having written the letters
+rather than counting them. There was no problem here.
+
+---
+
 ## What I'd change, beyond jokes
 
 1. **Put the one-cent shoes in every Tier A letter.** It's your best thirty seconds and it's
    been sitting in the press kit unused.
-2. **Retire "toolkit."** It appears 300 times. Say "the teacher stuff," "the classroom
+2. **Retire "toolkit."** ~~It appears 300 times.~~ **Done 29 Jul** — 189 prose uses replaced, 111 URLs untouched. Say "the teacher stuff," "the classroom
    pack," "everything a teacher needs" — vary it like a person would.
 3. **Vary the plot spine.** I fixed this in the Delaware set; the other 630 still march
    through the same six beats in the same order. A reader only sees one, but *you* have to
    believe it, and identical construction is how it starts sounding generated.
-4. **Kill one hedge per letter.** "I'd be happy to," "if that's ever useful," "or am I
+4. ~~**Kill one hedge per letter.**~~ **Withdrawn — measured at 23 across 671 letters, none doubled up.** "I'd be happy to," "if that's ever useful," "or am I
    overreaching" — one is charming, three is apologising for existing.
 5. **Use "Page 22. Aisle Five."** It's the best line you own and it's in zero letters.
 

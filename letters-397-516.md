@@ -31,7 +31,7 @@ Jennifer — Harlem Children's Zone is deliberate about what earns a kid's time.
 *1st-degree · DM*
 
 ```
-Flora — JA reaches more kids than almost anybody, and elementary is usually where the material thins out. Mine is a K-5 picture book with a free zero-prep toolkit against five frameworks, teaching spending rather than saving. Fit anything JA Alaska runs? More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Flora — JA reaches more kids than almost anybody, and elementary is usually where the material thins out. Mine is a K-5 picture book with a free zero-prep classroom pack against five frameworks, teaching spending rather than saving. Fit anything JA Alaska runs? More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Elizabeth Coogan
@@ -70,28 +70,28 @@ Rob — you create financial education resources, so you know what teachers actu
 *Director of Early Childhood Education at Palmdale School District · 1st-degree · DM*
 
 ```
-Dr. Melanie — early childhood is the exact window I wrote for. Mine starts where a kid actually starts with money, which is spending it. One trip, one real decision, no worksheet anywhere. Fit an early-grades classroom in Palmdale? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Dr. Melanie — early childhood is the exact window I wrote for. Mine starts where a kid actually starts with money, which is spending it. One trip, one real decision, no worksheet anywhere. Fit an early-grades classroom in Palmdale? Free lesson set: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Amanda Hughens,
 *National Curriculum Consultant Manager · 1st-degree · DM*
 
 ```
-Amanda — a national curriculum consultant sees whether something was built to teach or built to look like it was. Mine has four zero-prep lessons and a 23-row crosswalk written alongside the book, not bolted on after. Does the design hold? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Amanda — a national curriculum consultant sees whether something was built to teach or built to look like it was. Mine has four zero-prep lessons and a 23-row crosswalk written alongside the book, not bolted on after. Does the design hold? Free teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Hayley Rutchow
 *Curriculum Specialist · 1st-degree · DM*
 
 ```
-Hayley — a curriculum specialist will test whether the lessons match the book. Mine were written alongside it: four 45-minute plans, a pre/post assessment with answer key, a 23-row crosswalk. Would you look at the alignment? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Hayley — a curriculum specialist will test whether the lessons match the book. Mine were written alongside it: four 45-minute plans, a pre/post assessment with answer key, a 23-row crosswalk. Would you look at the alignment? Free classroom materials: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Holden Antoniou,
 *Curriculum & Instruction Coordinator · 1st-degree · DM*
 
 ```
-Holden — curriculum and instruction is where a book like this lives or dies. Mine is K-5, teaching the complete purchase, sales tax included, with free zero-prep lessons. Elementary is where financial literacy gets skipped. Fit your scope? Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Holden — curriculum and instruction is where a book like this lives or dies. Mine is K-5, teaching the complete purchase, sales tax included, with free zero-prep lessons. Elementary is where financial literacy gets skipped. Fit your scope? Free teaching pack: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 
@@ -227,7 +227,7 @@ Cami — an Oklahoma financial education market manager needs things that are fu
 *Founder of WizeUp Financial Education Charity; Founder and President of WizeUp Financial Education · 1st-degree · DM*
 
 ```
-Ed — WizeUp runs financial education as a charity, which means every pound has to earn its place. Mine is a book plus a completely free toolkit, so the only cost is the copies. Fit what WizeUp delivers? More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Ed — WizeUp runs financial education as a charity, which means every pound has to earn its place. Mine is a book plus a completely free teacher pack, so the only cost is the copies. Fit what WizeUp delivers? More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Hillary Seiler
@@ -346,7 +346,7 @@ Gene — helping families protect their future means you've seen where habits go
 *Chief Financial Educator, We work exclusively with disciplined families and business owners who are serio · 1st-degree · DM*
 
 ```
-Jeffery — as a chief financial educator you build programs for real audiences. Mine is K-5 with a free ungated toolkit and a 21-term glossary in the back. Fit the learners you serve? More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Jeffery — as a chief financial educator you build programs for real audiences. Mine is K-5 with a free ungated classroom pack and a 21-term glossary in the back. Fit the learners you serve? More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Kevin Davila Lopez
@@ -479,14 +479,14 @@ Ayomide — a financial economist who also educates will judge the premise fast.
 *Director of Financial Education · 1st-degree · DM*
 
 ```
-Bjorn — directing financial education with an AFC behind you, you decide what actually reaches learners. Mine is K-5, the band with the least material, plus a free ungated toolkit. Fit a program you run? More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Bjorn — directing financial education with an AFC behind you, you decide what actually reaches learners. Mine is K-5, the band with the least material, plus a free ungated lesson set. Fit a program you run? More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Bob (Gilly) Gillingham
 *Executive Board Member; Executive Board Member at FinMango · 1st-degree · DM*
 
 ```
-Gilly — FinMango works at real scale, and elementary is usually where the material runs out. Mine is a K-5 picture book with a completely free toolkit. Fit anything FinMango distributes? More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Gilly — FinMango works at real scale, and elementary is usually where the material runs out. Mine is a K-5 picture book with a completely free teacher materials. Fit anything FinMango distributes? More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Brian Li
@@ -528,7 +528,7 @@ Clyde — GetAhead-StayAhead is about the habits that compound. Mine plants the 
 *Financial Education & Business Strategy | MBA UMD ‘26 | Founder, Bayside Harbor & Harbor Intelligence Sol · 1st-degree · DM*
 
 ```
-Corey — financial education plus business strategy means you'll ask whether this scales. Mine is a book plus a completely free toolkit, so the only line item is the copies. Does that hold up as a model? More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Corey — financial education plus business strategy means you'll ask whether this scales. Mine is a book plus a completely free classroom materials, so the only line item is the copies. Does that hold up as a model? More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Dalia Georgianna
@@ -549,7 +549,7 @@ Dan — coach and teacher both, you know money lessons stick when they're lived 
 *Financial Coach; Financial Coach | Personal Finance Speaker | Financial Educator - You CAN get good with  · 1st-degree · DM*
 
 ```
-Debra — an AFC with an Ed.M bridges coaching and the classroom, which is exactly the two audiences for my book. K-5, five frameworks, free toolkit. Point families toward it? More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Debra — an AFC with an Ed.M bridges coaching and the classroom, which is exactly the two audiences for my book. K-5, five frameworks, free teaching pack. Point families toward it? More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Deneise Taylor McKesey
@@ -577,14 +577,14 @@ Douglas — you teach money basics to real people, so you know spending is basic
 *Financial Education & Financial Wellbeing Consultant | Certified Financial Education Instructor℠ | Financ · 1st-degree · DM*
 
 ```
-Hafsat — a financial education consultant with the CFEI knows what actually teaches versus what merely informs. Mine is K-5 against five frameworks with a free toolkit. Fit the families or programs you work with? More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Hafsat — a financial education consultant with the CFEI knows what actually teaches versus what merely informs. Mine is K-5 against five frameworks with a free teacher pack. Fit the families or programs you work with? More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Helen Ruan
 *Executive Vice Chairman; Certified Financial Educator (CFEd) · 1st-degree · DM*
 
 ```
-Helen — an executive who's also a Certified Financial Educator sees both the strategy and the teaching. Mine is K-5, five frameworks, free ungated toolkit. Fit the programs you lead? More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Helen — an executive who's also a Certified Financial Educator sees both the strategy and the teaching. Mine is K-5, five frameworks, free ungated classroom pack. Fit the programs you lead? More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Joe Koss
@@ -675,7 +675,7 @@ Leah — a student loan expert has seen the far end of a chain that starts absur
 *Team Leader Financial Literacy · 1st-degree · DM*
 
 ```
-Lita — leading a financial literacy team means you choose what reaches people. Mine is K-5, usually the band with nothing, plus a free ungated toolkit. Worth a look? More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Lita — leading a financial literacy team means you choose what reaches people. Mine is K-5, usually the band with nothing, plus a free ungated lesson set. Worth a look? More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Mark Hunter
@@ -710,7 +710,7 @@ Monique — a coach with the CFP, ChFC, and AFC will judge this in a page. Mine 
 *Financial Education Consultant · 1st-degree · DM*
 
 ```
-Mya — as a financial education consultant you know what actually teaches. Mine is K-5 against five frameworks with a completely free toolkit. Fit the programs you advise? More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Mya — as a financial education consultant you know what actually teaches. Mine is K-5 against five frameworks with a completely free teacher materials. Fit the programs you advise? More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Natalie Firestone
@@ -745,7 +745,7 @@ Sandra — as a money coach you meet people after the spending habits set. Mine 
 *Financial Literacy Specialist · 1st-degree · DM*
 
 ```
-Sarah — as a financial literacy specialist you decide what's worth putting in front of people. Mine is K-5, usually the emptiest shelf, with a free ungated toolkit. Worth a look? More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Sarah — as a financial literacy specialist you decide what's worth putting in front of people. Mine is K-5, usually the emptiest shelf, with a free ungated classroom materials. Worth a look? More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Saravanan Manorkorum
@@ -787,7 +787,7 @@ Terence — a CPA teaching people to be their own money manager will care that m
 *Certified Financial Educator® · 1st-degree · DM*
 
 ```
-Tom — as a Certified Financial Educator you know spending is where it starts. Mine is the K-5 version with a free ungated toolkit. Fit the families you reach? More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Tom — as a Certified Financial Educator you know spending is where it starts. Mine is the K-5 version with a free ungated teaching pack. Fit the families you reach? More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Tonia Brinston

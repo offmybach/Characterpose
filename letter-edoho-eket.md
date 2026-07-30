@@ -42,7 +42,7 @@ I'm not asking you to endorse it. I'm asking whether an elementary principal wou
 Also, we're practically neighbors — I'm in Baltimore, you're up the road in Howard County. Coffee travels better than a link if you'd rather.
 
 Concepts and specs: https://clarencegetsabargain.com/book-facts.html
-Free toolkit: https://clarencegetsabargain.com/educator-toolkit.html
+Free classroom materials: https://clarencegetsabargain.com/educator-toolkit.html
 Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
