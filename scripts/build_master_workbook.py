@@ -168,6 +168,17 @@ BLUE, ORANGE, CREAM = "0054A6", "FF6B2B", "F5ECD7"
 thin = Side(style='thin', color='D9D2BF')
 BORD = Border(left=thin, right=thin, top=thin, bottom=thin)
 
+# ---------- whales long-form (## N. 🐋 Name / *role* / ```) ----------
+txt = open("letters-whales-longform.md").read()
+for m in re.finditer(r'\n## (\d+)\. 🐋 ([^\n]+)\n\*([^*\n]+)\*(.*?)```\n(.*?)\n```', txt, re.S):
+    num, nm, role, meta, msg = m.groups()
+    chan = 'InMail' if 'InMail' in role else 'LinkedIn message (1st-degree)'
+    sub = re.search(r'\*\*Subject:\*\*\s*`([^`]+)`', meta)
+    add(whale='\U0001F40B', batch="Whales long-form", name=n(nm), role=n(role),
+        channel=chan, subject=n(sub.group(1)) if sub else '',
+        why="Whale rewrite: 1,200-2,000 chars, one concrete image from the phrasebank, read-along included.",
+        msg=n(msg))
+
 # ---------- grandparent / read-along lane (## N. Head / `email` / ```) ----------
 txt = open("letters-grandparents-readalong.md").read()
 for m in re.finditer(r'\n## (\d+)\. ([^\n]+)\n(.*?)```\n(.*?)\n```', txt, re.S):
