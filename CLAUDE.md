@@ -460,6 +460,7 @@ All open-in-browser → print-to-PDF. No external tooling. Each has a `@media pr
 - `resources/standards-chart-print.html` (8 pp, 23-row concept crosswalk)
 - `resources/curriculum-companion.html` (5 printables: sort cards, comparison worksheet, clearance stickers, mock price tags, 10%-off coupons)
 - `resources/wyze-shopper-certificate.html` (typeable student name, landscape print)
+- `resources/grandparents-day-games-print.html` (the two family games from pp. 27–28, one page, no cover / no price / no buy link — built for the Generations United Do Something Grand ask)
 - `resources/curriculum-alignment-matrix.html` (interactive filterable matrix; has both standalone + inline modal copy in `index.html` as `res-curriculum` — edits must hit both)
 - The old contaminated PDFs in `downloads/` are *no longer linked* from the live site. Leave them for diff reference; do not link them.
 
