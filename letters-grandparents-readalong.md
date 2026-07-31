@@ -95,6 +95,8 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 ## 3. Generations United — Do Something Grand
 `gu@gu.org` · 202-289-3979
 
+**Subject:** `Two free Do Something Grand activities, no strings`
+
 ⚠️ **Keep this separate from the grandfamilies conversation in Lane G.** This letter is
 about the September celebration only. Do not mention kinship care here.
 
