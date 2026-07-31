@@ -107,9 +107,13 @@ significant, substantial, remarkable, profound, meaningful.
 **Empty assurance / closers:** "Rest assured…", "Look no further…",
 "In conclusion,", "All in all,", "To sum up,", "Hope this helps!".
 
-**Em-dash paranoia:** AI over-uses the em-dash as a pivot or dramatic pause —
-like this — constantly. Use it only when the rhythm genuinely demands it.
-Forensic evidence of AI authorship.
+**Em dashes — SETTLED, 31 Jul 2026. Do not thin them.** Jonathan's ruling:
+*"I support em dashes. They are a middle finger taking a nap to me."* He uses them
+without remorse and wants them. Earlier guidance in this file treated em-dash
+density as an AI tell and a pass was run that converted pairs to commas; that pass
+was reverted. **No future audit should flag, count, or reduce em dashes.** The real
+tells are the never-say terms and the structural patterns below, not punctuation
+the author has explicitly claimed.
 
 **AI sewage words (May 8 rule):** quietly, honestly, genuinely, "that matters",
 "moves the needle", "at the intersection of", "here's the thing".

@@ -202,9 +202,9 @@ Here's why. In the story, Clarence doesn't learn about money from a worksheet. H
 
 And the interruptions will come. "Do we have a 529?" "Why do you take pictures of receipts?" "Can I hand the cashier the coupon next time?" "Is the internet a need or a want?" A kid alone in the corner reads a robot story and moves on. A kid pressed against your shoulder reads the same story and starts an argument about whether Wi-Fi counts as shelter. You want that argument. The argument is the product; the robot is the delivery vehicle.
 
-Every other money book for kids teaches saving, which is the second thing a child does with money. Spending is the first, and this one follows a single purchase the whole way , the sale ads, the aisle, the markdown, the coupon, the sales tax, and living with what got bought. Sixteen or more money concepts are in there and not one of them is announced. Nobody says the word "budget." Your kid won't know she's been taught anything until she reaches the glossary at the back , which is the last page, on purpose.
+Every other money book for kids teaches saving, which is the second thing a child does with money. Spending is the first, and this one follows a single purchase the whole way — the sale ads, the aisle, the markdown, the coupon, the sales tax, and living with what got bought. Sixteen or more money concepts are in there and not one of them is announced. Nobody says the word "budget." Your kid won't know she's been taught anything until she reaches the glossary at the back — which is the last page, on purpose.
 
-You don't need to know anything about finance to do this well. Mom explains everything to Clarence inside the story , sale ads, clearance, markdowns, sales tax , so your only job is to read her lines like you knew it all along. I wrote you the script. Take the credit.
+You don't need to know anything about finance to do this well. Mom explains everything to Clarence inside the story — sale ads, clearance, markdowns, sales tax — so your only job is to read her lines like you knew it all along. I wrote you the script. Take the credit.
 
 Two parts of the book flat-out require company:
 

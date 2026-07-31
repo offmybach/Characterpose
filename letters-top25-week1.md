@@ -200,11 +200,11 @@ They all teach saving. A piggy bank, a lemonade stand, a lesson. Which is fine a
 
 Mine is the spending one, and it follows a single purchase the whole distance rather than gesturing at the idea: a boy wants a robot, earns it with chores and grades, works the sale ads at the kitchen table, compares two models in the aisle, takes the cheaper one on purpose, hands a coupon to the cashier, gets hit with sales tax, and then has to live with the thing. Idea to post-receipt. I read all 25 on the ABA Foundation's list to be sure nobody had done it. Nobody had.
 
-What I'd actually want your eye on is the smuggling. Sixteen-plus concepts and not one of them is announced , no character stops to explain a term, nobody says "budget." The reader does not know he's been schooled until he reaches the glossary , twenty-one terms, each page-referenced to the scene it came from, working as a decoder rather than a homework appendix. The reveal is deliberate and it is on the last page. That balance is the hardest thing in the book and the thing most likely to be off by a hair.
+What I'd actually want your eye on is the smuggling. Sixteen-plus concepts and not one of them is announced — no character stops to explain a term, nobody says "budget." The reader does not know he's been schooled until he reaches the glossary — twenty-one terms, each page-referenced to the scene it came from, working as a decoder rather than a homework appendix. The reveal is deliberate and it is on the last page. That balance is the hardest thing in the book and the thing most likely to be off by a hair.
 
 One thing I'd want you to test rather than take on faith: whether it clicks later. The book is built to fire back months on, in a real store — "is the newer one really better? Clarence checked." Recognition first, then the habit. If that isn't actually in the pages, I'd want to know.
 
-The other thing worth your reviewer's ear: it is built to be read aloud, and Lexile has it at AD 620L — Adult Directed, read-with rather than read-alone. The mother carries the exposition, which means the adult holding the book is handed the script. Whether that voice actually holds up out loud , across a classroom, a couch, and a grandparent's lap , is something you would hear in a page and I can only guess at.
+The other thing worth your reviewer's ear: it is built to be read aloud, and Lexile has it at AD 620L — Adult Directed, read-with rather than read-alone. The mother carries the exposition, which means the adult holding the book is handed the script. Whether that voice actually holds up out loud — across a classroom, a couch, and a grandparent's lap — is something you would hear in a page and I can only guess at.
 
 Would you read it as an editor rather than as a friend? I would rather hear where it sags than be told it's charming.
 
@@ -317,11 +317,11 @@ Cinders — Moneybunnies splits money into Earn, Save, Spend and Give, which mak
 
 I went deep on one of your four. Spending, and specifically the whole transaction rather than the idea of it. Clarence Gets a Bargain follows a single purchase from beginning to end: a boy wants a robot, earns it with chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, meets sales tax, and then has to live with what he picked. Idea to post-receipt.
 
-The reason I think it sits beside Moneybunnies rather than against it: you give a child the four categories, and mine walks them through the mechanics of one. Sixteen-plus concepts, none announced , nobody says "budget" , and twenty-one terms in a glossary in the back, each page-referenced to the scene where it happened.
+The reason I think it sits beside Moneybunnies rather than against it: you give a child the four categories, and mine walks them through the mechanics of one. Sixteen-plus concepts, none announced — nobody says "budget" — and twenty-one terms in a glossary in the back, each page-referenced to the scene where it happened.
 
 Author-illustrator to author-illustrator: I did the art as well, so I know exactly how much of the work nobody sees. I'd rather you saw this from me than off a shelf.
 
-The read-aloud is the other half of it. Lexile AD 620L , Adult Directed , written for the adult voice in the room rather than for a child alone, with the mother carrying the explanations so the grown-up gets handed the script. You will know better than most how much that changes what has to happen on the page.
+The read-aloud is the other half of it. Lexile AD 620L — Adult Directed — written for the adult voice in the room rather than for a child alone, with the mother carrying the explanations so the grown-up gets handed the script. You will know better than most how much that changes what has to happen on the page.
 
 Trade copies? I'll read yours properly and tell you the truth about it, which is the only thing worth trading.
 
@@ -485,9 +485,9 @@ Mine is a money book, which I appreciate is the least promising sentence in chil
 
 Every book in this category teaches saving. Saving is the second thing a child does with money. The first is spending, and a six-year-old has already done it — in a store, holding money, deciding whether the thing is worth what it costs. So mine follows one purchase from the idea to after the receipt: a boy wants a robot, earns it with chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, meets sales tax, and then lives with what he chose.
 
-The craft problem I'd most like another author's view on: I smuggled sixteen-plus concepts in without announcing any of them. Nobody says "budget." The glossary in the back , twenty-one terms, each page-referenced to the scene it came from , is the only place the book admits it was teaching. Getting that balance right, so it stays a story, was the whole job.
+The craft problem I'd most like another author's view on: I smuggled sixteen-plus concepts in without announcing any of them. Nobody says "budget." The glossary in the back — twenty-one terms, each page-referenced to the scene it came from — is the only place the book admits it was teaching. Getting that balance right, so it stays a story, was the whole job.
 
-The other half of the craft problem: it is written for an adult voice. Lexile AD 620L , Adult Directed , with the mother carrying every explanation, so whoever reads aloud gets handed the script. A series lives or dies on whether the grown-up still enjoys the fourth reading. You would know inside a page whether mine does.
+The other half of the craft problem: it is written for an adult voice. Lexile AD 620L — Adult Directed — with the mother carrying every explanation, so whoever reads aloud gets handed the script. A series lives or dies on whether the grown-up still enjoys the fourth reading. You would know inside a page whether mine does.
 
 Would you read it and tell me where it stops being a story? I'll trade — send me a Noah and I'll read it properly.
 
@@ -554,11 +554,11 @@ Roda — you built a 30-Day Smart Spending Challenge. Not a saving challenge. Sp
 
 Here is my version of the argument, and I'd like to know whether it matches how you arrived at yours. Every children's money book teaches saving — I read all 25 on the ABA Foundation's list to be sure. But saving is the second thing a child does with money. The first is spending, and a six-year-old has already done it, in a store, holding money, deciding whether the thing is worth what it costs. We teach the second thing first and the first thing never.
 
-Clarence Gets a Bargain is the picture-book version. It follows a single purchase the whole distance , a boy wants a robot, earns it with chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, meets sales tax, and then lives with what he picked. Idea to post-receipt. Sixteen-plus concepts, none of them announced; nobody says "budget." Twenty-one terms in a glossary at the end, each page-referenced to where it happened , which is the only point at which a kid works out he's been schooled.
+Clarence Gets a Bargain is the picture-book version. It follows a single purchase the whole distance — a boy wants a robot, earns it with chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, meets sales tax, and then lives with what he picked. Idea to post-receipt. Sixteen-plus concepts, none of them announced; nobody says "budget." Twenty-one terms in a glossary at the end, each page-referenced to where it happened — which is the only point at which a kid works out he's been schooled.
 
-One story takes a kid from "I want it" to "Is it worth it?" , which I suspect is the same door your Challenge walks them through, thirty days at a time. Yours is a habit; mine is one transaction read in twenty minutes. Those look complementary to me rather than competing , the book could be the on-ramp to a challenge, or the thing a parent reads on day one.
+One story takes a kid from "I want it" to "Is it worth it?" — which I suspect is the same door your Challenge walks them through, thirty days at a time. Yours is a habit; mine is one transaction read in twenty minutes. Those look complementary to me rather than competing — the book could be the on-ramp to a challenge, or the thing a parent reads on day one.
 
-One thing your Challenge and the book share: neither one works with a kid alone in a room. It is Lexile AD 620L , Adult Directed, the trade's code for read-with rather than read-alone , and the mother explains every concept on the page, so whoever is reading gets handed the script. Parent, teacher or grandparent, the reading stops every few pages because the kid asks something.
+One thing your Challenge and the book share: neither one works with a kid alone in a room. It is Lexile AD 620L — Adult Directed, the trade's code for read-with rather than read-alone — and the mother explains every concept on the page, so whoever is reading gets handed the script. Parent, teacher or grandparent, the reading stops every few pages because the kid asks something.
 
 Worth a conversation? I'd rather compare notes with the one other person who put spending first than pitch anybody.
 
