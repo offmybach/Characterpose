@@ -17,6 +17,11 @@ neither belongs in this lane — leave both out.
 
 **The clock.** National Grandparents Day is **Sunday, 13 September 2026.**
 
+**One intentional exception.** Letter 3 (Generations United) carries the spending-first
+premise and the read-along, and deliberately leaves out the smuggling line, the glossary and
+the full purchase arc. It is a donation of two free activities, not a pitch. Loading the book
+argument into it would turn a gift into a sales letter and lose the reason it works.
+
 ---
 
 ## 1. GRAND Magazine — Christine Crosby, Editorial Director
@@ -29,19 +34,19 @@ Christine,
 
 You're closing September, Grandparents Day is the 13th, and every other pitch on your desk this week is a gift guide. Mine is an afternoon.
 
-I'm an attorney, a mixed-media artist, and a dad, and I wrote and illustrated a children's picture book called Clarence Gets a Bargain. Ages 6–10. A boy earns a robot with chores and grades, then has to figure out how to buy it — sale ads at the kitchen table, two models compared on a shelf, the cheaper one taken on purpose, a coupon handed to the cashier, and sales tax showing up uninvited at the end.
+I'm an attorney, a mixed-media artist, and a dad, and I wrote and illustrated a children's picture book called Clarence Gets a Bargain. Ages 6–10. A boy earns a robot with chores and grades, then has to figure out how to buy it — sale ads at the kitchen table, two models compared on a shelf, the cheaper one taken on purpose, a coupon handed to the cashier, and sales tax showing up uninvited at the end. Sixteen-plus money concepts are in there and not one of them is announced; nobody in the book ever says the word "budget." A kid doesn't work out he's been taught anything until he reaches the glossary at the back — twenty-one terms, each one pointing back to the page where it happened.
 
 Your readers own the next part. Every children's money book teaches saving. Piggy banks, jars, three little tins labeled spend-save-give where "spend" gets one page and a guilty look. But saving is the second thing a child does with money; the first is spending, and a six-year-old has already done it, in a store, holding a birthday five, deciding whether the thing is worth what it costs. We teach the second thing first and the first thing never.
 
-Grandparents are the only people left who can teach the first one from experience. You clipped coupons back when it was a survival skill rather than a hobby. You remember layaway. You know what your first paycheck was and exactly what it wouldn't cover. Those stories are the best money curriculum a child will ever get and they have nowhere to land — until a book puts a kid in a store and every page comes with a "that reminds me of the time" already sitting in it.
+Your readers clipped coupons back when it was a survival skill rather than a hobby. They remember layaway. They know what their first paycheck was and exactly what it wouldn't cover. That is better money curriculum than anything a school hands out, and it has nowhere to land, because nobody asks. A book that puts a kid in a store gives it somewhere to land: every page has a "that reminds me of the time" already sitting in it, waiting for somebody to say it out loud.
 
 The book is catalogued Lexile AD 620L, and the AD means Adult Directed — the industry's own code for a book meant to be read WITH a child rather than handed to one. It needs a grown-up in the room. You're cast. Mom explains everything inside the story, so the grandparent reading aloud gets handed the script and can take the credit for knowing it. Twenty minutes out loud, interrupted the whole way, and the interruptions are the point: "Do we have a 529?" "Why do you take pictures of receipts?" "Can I hand the cashier the coupon next time?"
 
 And two of the games in it can't be played alone. Page 27: whoever spots the biggest savings at the grocery store wins, loser carries the bags in from the car. Page 28: after dinner somebody shares a deal they got that day and everyone guesses the price. Kids' guesses are unhinged. A gallon of milk goes for $45; a car for $100. The reveal face is the whole entertainment. Three players minimum. Grandma counts.
 
-I'd write it for you as 800–1,200 words, under the title "What Grandparents Can Teach About Money That Nobody Else Can," with the games as a sidebar readers can tear out and use. Or if you'd rather run it as a product review, the book is $19.99, 36 pages, hardbound, and I'll send a copy today either way.
+The piece I want to write for you is 800 to 1,200 words: "What Grandparents Can Teach About Money That Nobody Else Can," with the two games as a tear-out sidebar. If you'd rather have a product review instead, I'll take that too; the book is $19.99, 36 pages, hardbound. But the article is the better use of your page, and I'd rather argue for it than hedge.
 
-Which is more useful to you?
+Copy goes in the mail today either way. Say the word on the piece and you'll have a draft this week.
 
 Jonathan Bach
 Author & illustrator, Clarence Gets a Bargain
@@ -59,7 +64,7 @@ DeeDee,
 
 You started More Than Grand in 2019 because you couldn't find the grandparent resource you wanted, so you built it. I did the same thing on a different shelf, which is the only reason I'm comfortable writing to you cold.
 
-I went looking for the children's book that teaches a kid how to spend money — not save it, spend it — and there wasn't one. Every book in that category is about a piggy bank or a lemonade stand. All of them teach saving, which is the second thing a child does with money. The first is spending, and a six-year-old has already done it, standing in a store holding a birthday five, working out whether the thing is worth what it costs. So I wrote and illustrated it: Clarence Gets a Bargain, ages 6–10, one kid following one purchase the whole way, from wanting the robot to living with the one he chose.
+I went looking for the children's book that teaches a kid how to spend money — not save it, spend it — and there wasn't one. Every book in that category is about a piggy bank or a lemonade stand. All of them teach saving, which is the second thing a child does with money. The first is spending, and a six-year-old has already done it, standing in a store holding a birthday five, working out whether the thing is worth what it costs. So I wrote and illustrated it: Clarence Gets a Bargain, ages 6–10, one kid following one purchase the whole way, from wanting the robot to living with the one he chose. Sixteen-plus concepts, none of them announced — nobody says "budget" — and a twenty-one-term glossary in the back where every entry points to the page it came from. The kid doesn't know he's been schooled until he gets there.
 
 I'm writing to you rather than to a gift guide, and here's the difference. Your whole editorial line is that a good grandparent supports the parents instead of running past them. This book does that structurally. Mom is the one who teaches Clarence in the story — the sale ads, the markdown, the coupon, the sales tax. A grandparent reading it aloud is reading the parent's lines, not competing with them.
 
@@ -94,11 +99,15 @@ A contribution to Do Something Grand rather than a request, and it's free.
 
 Grandparents Day falls on September 13 this year, and your activity-ideas page is built around things a grandparent and a grandchild can actually do together. I have two that cost nothing and take one afternoon, and I'd like to hand them over.
 
+The premise behind both: saving is the second thing a child does with money, and spending is the first. The games teach the first one, which is the half nobody covers.
+
 I wrote and illustrated a children's picture book, Clarence Gets a Bargain, about a kid learning how to spend money rather than save it — one purchase followed all the way, from reading the sale ads at the kitchen table to the sales tax at the register. Two of the games in it were written to require more than one person:
 
 The Grocery Savings Hunt — on the next shopping trip, everyone looks for the biggest markdown. Best find wins. The loser carries the bags in from the car.
 
 Guess the Price — after dinner, one person shares something they bought that day and everybody guesses what it cost. Closest guess wins. Kids' guesses are unhinged, which is the entire entertainment value.
+
+The book itself is catalogued Lexile AD 620L — Adult Directed — which is the trade's way of saying it only works with a grown-up in the room, so the games and the book are built on the same idea: a grandparent and a grandchild, doing something together.
 
 I'll build both as a free one-page printable in your Do Something Grand look, with no book cover on it and no purchase link — a grandparent can use it having never heard of me. Everything else on my site for teachers and families is already free and ungated, no email capture and no account, and this would be the same.
 
@@ -155,7 +164,9 @@ Contact form at `cool-grandpa.us`. No published email. Keep it short; it's a for
 ```
 Greg — a grandfather-adjacent pitch, though I'm a dad rather than a grandpa yet, so tell me if that disqualifies me and I'll take it well.
 
-I wrote and illustrated a kids' picture book about the money skill nobody teaches: spending. Every children's money book is about a piggy bank. But saving is the second thing a kid does with money — the first is spending, usually on a Saturday, at a register, with a grown-up standing right there sweating the total.
+I wrote and illustrated a kids' picture book about the money skill nobody teaches: spending — one kid, one purchase, followed the whole way from the sale ads at the kitchen table to the sales tax on the receipt. Every children's money book is about a piggy bank. But saving is the second thing a kid does with money — the first is spending, usually on a Saturday, at a register, with a grown-up standing right there sweating the total.
+
+Sixteen-plus money concepts are hidden in it and none are announced — the glossary in the back is the only place the book admits what it was doing, and it's the last thing a kid reads.
 
 The reason I think it's a grandpa episode: the book is built to be read out loud with a kid, not handed to one. It's catalogued Lexile AD 620L — Adult Directed, the industry's own code for read-WITH. And the grandparents are the last people alive who remember layaway and clipping coupons as a survival skill. Every page has a "that reminds me of the time" sitting in it.
 
@@ -190,6 +201,8 @@ Clarence Gets a Bargain carries a reading level of Lexile AD 620L. The AD stands
 Here's why. In the story, Clarence doesn't learn about money from a worksheet. He learns it from his mom — at the kitchen table with the sale ads, in the car, in the middle of the store. Read the book to your kid and you aren't describing that scene. You're in it.
 
 And the interruptions will come. "Do we have a 529?" "Why do you take pictures of receipts?" "Can I hand the cashier the coupon next time?" "Is the internet a need or a want?" A kid alone in the corner reads a robot story and moves on. A kid pressed against your shoulder reads the same story and starts an argument about whether Wi-Fi counts as shelter. You want that argument. The argument is the product; the robot is the delivery vehicle.
+
+Every other money book for kids teaches saving, which is the second thing a child does with money. Spending is the first, and this one follows a single purchase the whole way — the sale ads, the aisle, the markdown, the coupon, the sales tax, and living with what got bought. Sixteen or more money concepts are in there and not one of them is announced. Nobody says the word "budget." Your kid won't know she's been taught anything until she reaches the glossary at the back — which is the last page, on purpose.
 
 You don't need to know anything about finance to do this well. Mom explains everything to Clarence inside the story — sale ads, clearance, markdowns, sales tax — so your only job is to read her lines like you knew it all along. I wrote you the script. Take the credit.
 
