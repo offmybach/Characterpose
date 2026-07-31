@@ -61,6 +61,8 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 ## 2. More Than Grand — DeeDee Moore
 `deedee@morethangrand.com`
 
+**Subject:** `You built the resource you couldn't find. So did I.`
+
 ```
 DeeDee,
 
