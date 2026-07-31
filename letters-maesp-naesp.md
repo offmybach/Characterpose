@@ -33,9 +33,9 @@ Built with a K-5 teacher of 30+ years who told me what to cut, and endorsed by W
 
 The classroom pack is free and ungated — four lesson plans, assessments with answer keys, a 23-row standards crosswalk. A principal hands a teacher the whole thing on a Friday and it costs the building nothing.
 
-One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
-You have the rarest vantage point in this conversation: you sit in the association chair and in a principal's chair on the same day. So the question is genuinely for you. Would your members use this, or is it one more good idea that dies in a staff room?
+You have the rarest vantage point in this conversation: you sit in the association chair and in a principal's chair on the same day. So the question is squarely for you. Would your members use this, or is it one more good idea that dies in a staff room?
 
 Jonathan Bach
 Baltimore
@@ -59,7 +59,7 @@ Meanwhile financial literacy mandates keep landing in high school and elementary
 
 I wrote the K-5 book for the register rather than the piggy bank. A boy earns a robot, compares two on a shelf, takes the marked-down one on purpose, hands over a coupon, and meets sales tax for the first time. Free ungated lesson set behind it — four lesson plans, assessments, a 23-row crosswalk. Endorsed by Wally Luckeydoo, Ed.D., 2026 EIFLE Educator of the Year.
 
-One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 Two questions, either one useful:
 
@@ -91,7 +91,7 @@ I wrote the book that fills it, which is my interest declared up front. But the 
 
 If that is a piece for Principal, I am glad to talk, or to hand it to whoever covers curriculum. If it is not, tell me and I will stop.
 
-One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 Book facts: https://clarencegetsabargain.com/book-facts.html
 Free teacher materials: https://clarencegetsabargain.com/educator-toolkit.html
@@ -122,7 +122,7 @@ For a principal the relevant facts are these: hardcover, 36 pages, nothing consu
 
 The question: would a Maryland elementary principal actually use this, or is it one more good-sounding thing that dies in a staff room?
 
-One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 I would rather have a blunt no from you than a polite maybe from anyone else.
 
@@ -152,7 +152,7 @@ I wrote the K-5 book for it. One purchase, start to finish: sale ad, comparison,
 
 The relevant part for an association: the whole teaching pack is free and ungated, so nothing about it requires a budget line. Four lesson plans, assessments, a 23-row standards crosswalk.
 
-One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 If that is nowhere near what you want your year to be about, say so and I will leave you to plan in peace.
 
@@ -180,7 +180,7 @@ Every children's money book teaches saving. I read all 25 on the ABA Foundation'
 
 Mine teaches the register instead of the piggy bank. One purchase, sale ad to sales tax. Endorsed by Wally Luckeydoo, Ed.D., 2026 EIFLE Educator of the Year.
 
-One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 It is a book about comparison shopping, so it would be embarrassing if it were not good value.
 
@@ -206,11 +206,11 @@ Here is what I think everyone got backwards. Every children's money book teaches
 
 So the book teaches spending. One purchase, start to finish: read the ad, compare two robots on a shelf, take the marked-down one on purpose, hand over a coupon, then discover sales tax and object to it.
 
-The part that matters for a principal: the whole classroom pack is free. Four 45-minute lesson plans, a pre/post assessment with the answer key, a 23-row standards crosswalk. No login, no email capture, nothing consumable to reorder. You can hand a teacher the entire thing on a Friday and it costs the building nothing.
+The part a principal will care about: the whole classroom pack is free. Four 45-minute lesson plans, a pre/post assessment with the answer key, a 23-row standards crosswalk. No login, no email capture, nothing consumable to reorder. You can hand a teacher the entire thing on a Friday and it costs the building nothing.
 
 Endorsed by Wally Luckeydoo, Ed.D., 2026 EIFLE Educator of the Year, and built with a K-5 teacher of 30+ years who told me what to cut.
 
-One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 I am not after an endorsement. I want to know whether a principal would actually use it, or whether it dies in a staff room like most things do.
 

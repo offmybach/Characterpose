@@ -123,7 +123,7 @@ Delaware has had K-12 financial literacy standards since 2018, and HB 203 last O
 
 The teacher side is free — four 45-minute lessons, a discussion guide, assessments with the answer keys already done, and a crosswalk to Jump$tart, CEE, Common Core, and FDIC Money Smart. It prints straight from a browser. No account, no email gate, no cost to the building.
 
-One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 Say the word and I'll drop copies at Stockley Street myself. And if a read-aloud in a Rehoboth classroom is ever useful to you, I'm ten minutes away for half the year.
 
@@ -153,7 +153,7 @@ Delaware's board adopted K-12 financial literacy standards in 2018. HB 203 lande
 
 Everything a teacher needs is free and ungated at clarencegetsabargain.com — four 45-minute lesson plans, discussion guide, pre- and post-assessments with answer keys, a 23-row standards crosswalk, plus printable sort cards, price tags, and mock coupons. All of it prints from a browser. No signup wall.
 
-One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 I'm in Rehoboth a good part of the year. Copies for Savannah Road are easy, and so is a read-aloud if that's ever useful.
 
@@ -184,7 +184,7 @@ Clarence Gets a Bargain is 36 pages, grades 1-5, and it follows one purchase all
 
 The free materials: four 45-minute lesson plans, discussion guide, pre- and post-assessments with answer keys and a tracking sheet, a 23-row crosswalk to Jump$tart, CEE, Common Core Math and ELA, and FDIC Money Smart, plus printable classroom pieces. Browser to PDF. No account, no cost.
 
-One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 Built with a K-5 teacher of 30-plus years and endorsed by Wally Luckeydoo, Ed.D., 2026 EIFLE Educator of the Year.
 
@@ -214,7 +214,7 @@ Why it's Delaware's problem specifically: the State Board adopted K-12 financial
 
 What's free at clarencegetsabargain.com: four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, a 23-row standards crosswalk, and printable classroom pieces — sort cards, mock price tags, clearance stickers, ten-percent-off coupons. Everything prints from a browser. No account, no email gate, no purchase order.
 
-One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 I'll send copies to Mulberry Street if you want to see it before you decide.
 
@@ -272,7 +272,7 @@ Clarence Gets a Bargain is that book. Thirty-six pages, grades 1-5. A boy earns 
 
 The free kit includes an interactive pretend register — kids ring up the same purchase in a browser and watch a markdown, a coupon, and sales tax move the total. It pairs with a deposit lesson better than anything I could design on purpose.
 
-One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 If Bank At School ever wants the spending half, it exists and it's free. Happy to send you a copy.
 
@@ -490,7 +490,7 @@ no materials. I wrote a K-5 picture book that teaches spending rather than savin
 entire teacher kit behind it — lesson plans, assessments, a standards crosswalk — is free
 and ungated. No purchase order, no account, nothing to buy.
 
-One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 I'm not looking to sell anything to DASA. I'm asking whether there's a newsletter, a member
 resource list, or a conference session where free K-5 material would be welcome, and who I

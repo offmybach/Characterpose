@@ -65,7 +65,7 @@ I know the full rights picture crosses agencies — warranties and returns are F
 
 Realistic version of the ask: is the Bookshelf still evaluating titles, and who owns it now? And if the framing above is interesting, I'd trade ten minutes for your read on it.
 
-One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
+The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it.
 
 The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html
 The book in four minutes: https://heyzine.com/flip-book/eeb1ef6cff.html

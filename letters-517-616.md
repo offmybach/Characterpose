@@ -30,7 +30,7 @@ Martin — Chair-Elect of the CFP Board means a kids' picture book is a long way
 *1st-degree · DM*
 
 ```
-Ed — a director at the Department of Education is exactly who I want on this. Mine is K-5, teaching spending rather than saving, with free standards-aligned lessons and nothing to reorder. Fit any program you touch, or a steer on who'd know? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Ed — a director at the Department of Education is exactly who I want on this. Mine is K-5, teaching spending rather than saving, with free standards-aligned lessons and nothing to reorder. Fit any program you touch, or a steer on who'd know? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### 🐋 Jeff Larrimore
@@ -61,28 +61,28 @@ Annie — My First Nest Egg and Clarence chase the same kid. Yours is the accoun
 *School Based Literacy Coach @ Maryland State Department of Education | National Board of Certification- L · 1st-degree · DM*
 
 ```
-Alohaa — a state literacy coach in Maryland, and I'm local. Mine doubles as a literacy read and a money book, except it teaches the skill kids use first: spending. 36 pages, story first. Fit any classroom or program you support? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Alohaa — a state literacy coach in Maryland, and I'm local. Mine doubles as a literacy read and a money book, except it teaches the skill kids use first: spending. 36 pages, story first. Fit any classroom or program you support? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Christie Biggerstaff
 *Director of Early Literacy; O Director of Early Literacy; Kentucky Department of Education, Director of E · 1st-degree · DM*
 
 ```
-Christie — directing early literacy for Kentucky, you know a story is how a lesson reaches a young reader at all. Mine hides a money education inside one: a boy, a robot, one purchase. Fit early-literacy work in Kentucky? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Christie — directing early literacy for Kentucky, you know a story is how a lesson reaches a young reader at all. Mine hides a money education inside one: a boy, a robot, one purchase. Fit early-literacy work in Kentucky? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Diego Mendez-Carbajo
 *Senior Economic Education Specialist · 1st-degree · DM*
 
 ```
-Diego — economic education specialists see every classroom resource in the category, so a checkable claim: none of them teach the complete purchase, through the register, sales tax included. Mine does, at K-5. Real gap, or have I missed something? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Diego — economic education specialists see every classroom resource in the category, so a checkable claim: none of them teach the complete purchase, through the register, sales tax included. Mine does, at K-5. Real gap, or have I missed something? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Emily Koochel
 *Director, Family Governance & Education · 1st-degree · DM*
 
 ```
-Emily — family governance and education, plus the AFC, means you bridge money and teaching. Mine is K-5, teaching the transaction itself, and the family activity was built for a kitchen table rather than a boardroom. Fit the families you work with? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Emily — family governance and education, plus the AFC, means you bridge money and teaching. Mine is K-5, teaching the transaction itself, and the family activity was built for a kitchen table rather than a boardroom. Fit the families you work with? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### ZION GARCIA
@@ -103,49 +103,49 @@ Angelina — you work with K-3 and you know visual storytelling, which is the wh
 *Teacher; Business, Finance & CTE Teacher | 2025 MACUL Innovative Teacher · 1st-degree · DM*
 
 ```
-Melissa — a business and finance CTE teacher and a 2025 MACUL Innovative Teacher meets kids as money gets real. Mine is a decade younger: six-year-olds, spending rather than saving, zero-prep lessons behind it. Fit your classroom, or too young? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Melissa — a business and finance CTE teacher and a 2025 MACUL Innovative Teacher meets kids as money gets real. Mine is a decade younger: six-year-olds, spending rather than saving, zero-prep lessons behind it. Fit your classroom, or too young? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Tony DeSanctis
 *Banking Geek Helping Financial Institutions Navigate Strategy | Educator, Speaker & Banking Industry Comm · 1st-degree · DM*
 
 ```
-Tony — a self-described banking geek advising institutions on strategy knows what reaches families versus what fills a brochure. Mine is K-5 with a grant-ready packet: 25 copies, $499.75, sponsor logo optional. Fit a program you advise? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Tony — a self-described banking geek advising institutions on strategy knows what reaches families versus what fills a brochure. Mine is K-5 with a grant-ready packet: 25 copies, $499.75, sponsor logo optional. Fit a program you advise? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Meaghan Vitale
 *Economic Education Specialist · 1st-degree · DM*
 
 ```
-Meaghan — an economic education specialist is exactly the right filter. Mine is K-5 with standards-aligned lessons, and it teaches the complete purchase rather than the piggy bank. Fit the classrooms you support? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Meaghan — an economic education specialist is exactly the right filter. Mine is K-5 with standards-aligned lessons, and it teaches the complete purchase rather than the piggy bank. Fit the classrooms you support? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Angela Schumann
 *AI in Education | EdTech Consultant | Partnerships Manager · 1st-degree · DM*
 
 ```
-Angela — AI in education plus edtech partnerships. Mine is defiantly analog: a printed read-along with free digital lessons behind it. Is print still an asset at K-5, or am I fighting the tide? I'd take the honest answer. One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Angela — AI in education plus edtech partnerships. Mine is defiantly analog: a printed read-along with free digital lessons behind it. Is print still an asset at K-5, or am I fighting the tide? I'd take the honest answer. The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Jaymyi Lesmond
 *High School Teacher & Licensed Financial Professional | FSRA Licensed | Founder, Cashademics · 1st-degree · DM*
 
 ```
-Jaymyi — a high school teacher who's also a licensed financial professional sees both sides of the same failure. Mine tries to prevent it at six: one purchase, ad to register, tax at the end. Fit your classroom, or too early? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Jaymyi — a high school teacher who's also a licensed financial professional sees both sides of the same failure. Mine tries to prevent it at six: one purchase, ad to register, tax at the end. Fit your classroom, or too early? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Mirella Nespoli
 *Former Teacher 🍎 I help teachers: ✔ understand their benefits (TRS, retirement, etc.) · 1st-degree · DM*
 
 ```
-Mirella — a former teacher who now helps teachers knows what survives a real classroom. Mine needs no prep, no platform, nothing consumable, and the lessons are free. Would you point teachers toward it? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Mirella — a former teacher who now helps teachers knows what survives a real classroom. Mine needs no prep, no platform, nothing consumable, and the lessons are free. Would you point teachers toward it? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Shawn Brigham, M.Ed.,...
 *Educator / Financial Literacy Advocate | helping individuals break free from debt in underserved communit · 1st-degree · DM*
 
 ```
-Shawn — you help underserved communities out of debt, so you know prevention beats repair by a wide margin. Mine starts at six with spending rather than saving. Fit the families or classrooms you reach? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Shawn — you help underserved communities out of debt, so you know prevention beats repair by a wide margin. Mine starts at six with spending rather than saving. Fit the families or classrooms you reach? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Jim Curran
@@ -166,42 +166,42 @@ Christopher — strategy, partnerships, and an economics background. Mine is a K
 *Co-Founder; Once a teacher, always a teacher. · 1st-degree · DM*
 
 ```
-David — once a teacher, always a teacher, so you'll know whether this actually teaches. Mine is K-5 with zero-prep lessons and nothing to reorder. Fit a classroom you'd recommend it to? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+David — once a teacher, always a teacher, so you'll know whether this actually teaches. Mine is K-5 with zero-prep lessons and nothing to reorder. Fit a classroom you'd recommend it to? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Devona Little-Fleming
 *Credit Structure Strategist | Credit Education Consultant | Identity Protection Advocate | Helping Indivi · 1st-degree · DM*
 
 ```
-Devona — credit education is downstream of exactly what mine teaches: check the price, question the deal, know what you're paying. Mine is the six-year-old version. Fit the people you reach? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Devona — credit education is downstream of exactly what mine teaches: check the price, question the deal, know what you're paying. Mine is the six-year-old version. Fit the people you reach? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Suzanne Wilburn
 *teacher at Garrett Co. Bd. of Ed · 1st-degree · DM*
 
 ```
-Suzanne — a teacher sees which books kids actually finish and which get abandoned at page four. Mine teaches spending rather than saving, built with a K-5 teacher of 30+ years, standards-aligned. Fit your classroom? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Suzanne — a teacher sees which books kids actually finish and which get abandoned at page four. Mine teaches spending rather than saving, built with a K-5 teacher of 30+ years, standards-aligned. Fit your classroom? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Amanda Stiglbauer
 *Educational Consultant · 1st-degree · DM*
 
 ```
-Amanda — as an educational consultant you see which resources get used versus which get downloaded once and forgotten. Mine needs no prep and nothing consumable. Would you point a school or family toward it? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Amanda — as an educational consultant you see which resources get used versus which get downloaded once and forgotten. Mine needs no prep and nothing consumable. Would you point a school or family toward it? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Timothy Lightman
 *Educational Consultant · 1st-degree · DM*
 
 ```
-Timothy — you know which materials survive contact with a real classroom. Mine is a 36-page read-aloud with four zero-prep lessons and a 23-row crosswalk. Would you point a school toward it? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Timothy — you know which materials survive contact with a real classroom. Mine is a 36-page read-aloud with four zero-prep lessons and a 23-row crosswalk. Would you point a school toward it? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Aren Inan
 *Junior @ Bergen County Technical High School · 1st-degree · DM*
 
 ```
-Aren — a high school junior thinking about finance early is exactly the fresh read I want. Mine teaches six-year-olds to spend on purpose. Does it read like something a real kid would finish, or does it talk down? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Aren — a high school junior thinking about finance early is exactly the fresh read I want. Mine teaches six-year-olds to spend on purpose. Does it read like something a real kid would finish, or does it talk down? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Duanda Dixon
@@ -215,21 +215,21 @@ Duanda — public-sector and community partnerships puts you close to families. 
 *O Senior Consultant; CLC Consulting: Empowering financial journeys with culturally aware education since  · 1st-degree · DM*
 
 ```
-Larry — CLC Consulting picks people up well after the habits hardened. Mine starts at six: one purchase, compared and paid for. Fit the people you reach? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Larry — CLC Consulting picks people up well after the habits hardened. Mine starts at six: one purchase, compared and paid for. Fit the people you reach? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Sheena Young
 *Licensed Financial Advisor at 11 Financial: Services include financial planning, child education planning · 1st-degree · DM*
 
 ```
-Sheena — as a licensed advisor you meet clients who were never taught this. Mine teaches it at six. Would the families you work with hand it to their kids? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Sheena — as a licensed advisor you meet clients who were never taught this. Mine teaches it at six. Would the families you work with hand it to their kids? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Emily Schwartz
 *Speaker, Speaking Coach, Educator · 1st-degree · DM*
 
 ```
-Emily — a speaker and speaking coach knows a message lands when it's a story. Mine is a money lesson disguised as a boy and a robot. Fit the audiences you reach? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Emily — a speaker and speaking coach knows a message lands when it's a story. Mine is a money lesson disguised as a boy and a robot. Fit the audiences you reach? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Jennifer Steinert
@@ -250,21 +250,21 @@ Brenna — helping people grow into their best selves, you know money confidence
 *Founder, Elysium School of Innovation | Education Leader Defining the Age of Innovation | Champion for Pe · 1st-degree · DM*
 
 ```
-Tory — founding a school of innovation means you decide what reaches your kids. Mine is K-5 with standards-aligned, zero-prep lessons and nothing consumable. Would it work at Elysium? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Tory — founding a school of innovation means you decide what reaches your kids. Mine is K-5 with standards-aligned, zero-prep lessons and nothing consumable. Would it work at Elysium? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Walter McKenzie
 *Co-Founder; Champion and Mentor to Educators · 1st-degree · DM*
 
 ```
-Walter — a champion and mentor to educators knows which resources actually get used. Mine needs no prep, nothing to reorder, and the lessons are free. Would you point teachers toward it? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Walter — a champion and mentor to educators knows which resources actually get used. Mine needs no prep, nothing to reorder, and the lessons are free. Would you point teachers toward it? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### William Ramirez
 *Magnet of Banking and Finance Teacher @ Miami-Dade County Public Schools | MBA in Leadership · 1st-degree · DM*
 
 ```
-William — teaching in a magnet of banking and finance, you know money lessons land when they're lived. Mine is a decade younger: six-year-olds, one purchase, ad to register. Fit your classroom at Miami-Dade, or too early? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+William — teaching in a magnet of banking and finance, you know money lessons land when they're lived. Mine is a decade younger: six-year-olds, one purchase, ad to register. Fit your classroom at Miami-Dade, or too early? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Clare Baggaley
@@ -397,14 +397,14 @@ Valentino — The Financial Awareness Foundation works the whole lifespan. Mine 
 *Make financial education fun | CEO & Founder @ Cashy · 1st-degree · DM*
 
 ```
-Mart — Cashy and Clarence chase the same goal: make financial education something kids actually want. Mine does it in 36 printed pages rather than an app. Complementary, or is print the wrong bet now? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Mart — Cashy and Clarence chase the same goal: make financial education something kids actually want. Mine does it in 36 printed pages rather than an app. Complementary, or is print the wrong bet now? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Jeremiah Riesenbeck
 *Financial education instructor (CFEI) | Educator · 1st-degree · DM*
 
 ```
-Jeremiah — an M.Ed with the CFEI teaches money for real. Mine is K-5 with zero-prep, standards-aligned lessons built alongside the book. Does it land for that age, or skew older? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Jeremiah — an M.Ed with the CFEI teaches money for real. Mine is K-5 with zero-prep, standards-aligned lessons built alongside the book. Does it land for that age, or skew older? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Gregory Mazen
@@ -425,35 +425,35 @@ Neziah — a financial literacy advocate who's also a filmmaker gets that story 
 *Consumer Education / Consumer Vulnerability / Training & Coaching · 1st-degree · DM*
 
 ```
-Melanie — consumer education and vulnerability is your world, and spending is where people get tripped. Mine teaches kids to handle exactly that, at six. Does the framing fit how you think about it? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Melanie — consumer education and vulnerability is your world, and spending is where people get tripped. Mine teaches kids to handle exactly that, at six. Does the framing fit how you think about it? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Sajeev Pillai
 *Director | Driving Financial Literacy & Teacher Training Initiatives · 1st-degree · DM*
 
 ```
-Sajeev — you drive financial literacy and teacher training, so you know a lesson dies the moment kids tune out. Mine keeps them in the story. Built with a veteran K-5 teacher, zero-prep lessons. Fit a teacher-training or classroom program? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Sajeev — you drive financial literacy and teacher training, so you know a lesson dies the moment kids tune out. Mine keeps them in the story. Built with a veteran K-5 teacher, zero-prep lessons. Fit a teacher-training or classroom program? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Clarity Burke
 *Democratizing finance and decolonizing financial education · 1st-degree · DM*
 
 ```
-Clarity — you're rethinking who financial education is built for, which is the spirit behind mine. Every money book stops at the piggy bank; mine starts at the register, where the kid actually is. Does it open the door for the kids you're thinking of? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Clarity — you're rethinking who financial education is built for, which is the spirit behind mine. Every money book stops at the piggy bank; mine starts at the register, where the kid actually is. Does it open the door for the kids you're thinking of? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Oliver V. Brooks
 *CFO | Mentor & Coach | Certified Financial Education Instructor · 1st-degree · DM*
 
 ```
-Oliver — a CFO who's also a CFEI sees the numbers and the teaching at once. Mine is K-5 against five frameworks, teaching the complete purchase, sales tax included. Does the framing hold? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Oliver — a CFO who's also a CFEI sees the numbers and the teaching at once. Mine is K-5 against five frameworks, teaching the complete purchase, sales tax included. Does the framing hold? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Lorraine C-K
 *Accountant (LedgerWolf) | Educator · 1st-degree · DM*
 
 ```
-Lorraine — an accountant who teaches and holds the CFEI knows money from the ledger to the lesson. Mine ends with a six-year-old doing real arithmetic: comparison, percentage off, sales tax. Does it land for that age? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Lorraine — an accountant who teaches and holds the CFEI knows money from the ledger to the lesson. Mine ends with a six-year-old doing real arithmetic: comparison, percentage off, sales tax. Does it land for that age? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Jacob Yunger
@@ -551,7 +551,7 @@ Veronica — The Wealth Whisperer helping women who serve is specific work, and 
 *Founder/President | Small Business Specialist | Financial Educator · 1st-degree · DM*
 
 ```
-Steven — you wear the financial-educator hat alongside the small-business one, so you know the basics start young. Mine teaches the hard one at six: not saving, spending. Fit the families or clients in your world? One spec that matters in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Steven — you wear the financial-educator hat alongside the small-business one, so you know the basics start young. Mine teaches the hard one at six: not saving, spending. Fit the families or clients in your world? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Stacia Ragolia
@@ -614,7 +614,7 @@ Secretary Pantoja — Treasury reaches families across Puerto Rico. Mine is a K-
 *Program Manager & Engagement Specialist ◆ Change that sticks, communities that thrive ◆ Digital & Financi · 1st-degree · DM*
 
 ```
-Annette — running programs and engagement, you know what actually holds attention versus what merely gets scheduled. Mine holds a six-year-old through 36 pages because it's a story first. Fit a program you manage? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Annette — running programs and engagement, you know what actually holds attention versus what only gets scheduled. Mine holds a six-year-old through 36 pages because it's a story first. Fit a program you manage? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 ```
 
 ### Beth Darius

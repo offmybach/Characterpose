@@ -37,7 +37,7 @@ You've said your goal at MAESP was centering joy in school leadership and remind
 
 And the classroom materials are free and ungated. Four 45-minute lesson plans, a pre/post assessment with the answer key, a 23-row crosswalk against Jump$tart, Common Core math and ELA, CEE, and FDIC Money Smart. No login, no email capture, nothing consumable to reorder. A principal can hand a teacher the whole thing on a Friday and it costs the building nothing.
 
-I'm not asking you to endorse it. I'm asking whether an elementary principal would genuinely use it, or whether it's one more thing that sounds good and dies in a staff room. You have the kindergarten memory and the building to answer that honestly, which is a rare combination.
+I'm not asking you to endorse it. I'm asking whether an elementary principal would actually use it, or whether it's one more thing that sounds good and dies in a staff room. You have the kindergarten memory and the building to answer that straight, which is a rare combination.
 
 Also, we're practically neighbors — I'm in Baltimore, you're up the road in Howard County. Coffee travels better than a link if you'd rather.
 
