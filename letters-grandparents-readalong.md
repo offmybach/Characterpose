@@ -137,7 +137,7 @@ The Opposite of Spoiled is the reason I knew what I was looking for and couldn't
 
 Every children's book about money teaches earning or saving. I read all 25 titles on the ABA Foundation's list to be sure. Piggy banks, lemonade stands, three jars labeled spend-save-give where "spend" gets one page and a guilty look.
 
-But saving is the second thing a child does with money. The first is spending. A six-year-old has no savings rate and no income. What she has done is stand at a register holding a birthday five and decide. Spending is the first financial act a person performs, and the entire category skipped it for forty years.
+But saving is the second thing a child does with money; the first is spending. A six-year-old has no savings rate and no income. What she has done is stand at a register holding a birthday five and decide. Spending is the first financial act a person performs, and the entire category skipped it for forty years.
 
 The timing gap sharpens it. Thirty states now guarantee a personal finance course — in high school. Money habits are largely set by seven. We're preparing children for 65 and sending them to the register unarmed today, into a store that spent millions working out how to get the five dollars in their hand.
 
@@ -202,9 +202,9 @@ Here's why. In the story, Clarence doesn't learn about money from a worksheet. H
 
 And the interruptions will come. "Do we have a 529?" "Why do you take pictures of receipts?" "Can I hand the cashier the coupon next time?" "Is the internet a need or a want?" A kid alone in the corner reads a robot story and moves on. A kid pressed against your shoulder reads the same story and starts an argument about whether Wi-Fi counts as shelter. You want that argument. The argument is the product; the robot is the delivery vehicle.
 
-Every other money book for kids teaches saving, which is the second thing a child does with money. Spending is the first, and this one follows a single purchase the whole way — the sale ads, the aisle, the markdown, the coupon, the sales tax, and living with what got bought. Sixteen or more money concepts are in there and not one of them is announced. Nobody says the word "budget." Your kid won't know she's been taught anything until she reaches the glossary at the back — which is the last page, on purpose.
+Every other money book for kids teaches saving, which is the second thing a child does with money. Spending is the first, and this one follows a single purchase the whole way , the sale ads, the aisle, the markdown, the coupon, the sales tax, and living with what got bought. Sixteen or more money concepts are in there and not one of them is announced. Nobody says the word "budget." Your kid won't know she's been taught anything until she reaches the glossary at the back , which is the last page, on purpose.
 
-You don't need to know anything about finance to do this well. Mom explains everything to Clarence inside the story — sale ads, clearance, markdowns, sales tax — so your only job is to read her lines like you knew it all along. I wrote you the script. Take the credit.
+You don't need to know anything about finance to do this well. Mom explains everything to Clarence inside the story , sale ads, clearance, markdowns, sales tax , so your only job is to read her lines like you knew it all along. I wrote you the script. Take the credit.
 
 Two parts of the book flat-out require company:
 

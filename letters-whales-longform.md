@@ -41,9 +41,9 @@ A child becomes a consumer the first time money leaves their hand. Six years old
 
 The scale is small and the mechanics are identical to the ones you write about. A claw machine takes $25 to hand back a basketball that Walmart sells for $9.99, and the child has no way of knowing that. Not a game of skill — a slot machine wearing a carnival hat, aimed at someone with no price memory and no comparison to make.
 
-I wrote the picture book for it. One kid, one purchase, followed the whole way: he wants a robot, earns it, reads the newspaper sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands over a coupon, meets sales tax, and lives with what he chose. Idea to post-receipt. Sixteen-plus concepts and nobody in the book says the word "budget." The child works out he has been schooled only when he reaches the glossary — twenty-one terms in the back, each page-referenced to where it happened. It is catalogued Lexile AD 620L, where AD stands for Adult Directed — the trade's own code for a book an adult reads with a child rather than hands over.
+I wrote the picture book for it. One kid, one purchase, followed the whole way: he wants a robot, earns it, reads the newspaper sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands over a coupon, meets sales tax, and lives with what he chose. Idea to post-receipt; sixteen-plus concepts and nobody in the book says the word "budget." The child works out he has been schooled only when he reaches the glossary — twenty-one terms in the back, each page-referenced to where it happened. It is catalogued Lexile AD 620L, where AD stands for Adult Directed — the trade's own code for a book an adult reads with a child rather than hands over.
 
-The story is not the book. It is that an entire publishing category taught children to save for forty years and skipped the register, which is the only place a child has ever handled money — while the arcade, the app store and the checkout lane did not skip it at all.
+The story here has nothing to do with my book. An entire publishing category taught children to save for forty years and skipped the register, which is the only place a child has ever handled money — while the arcade, the app store and the checkout lane did not skip it at all.
 
 Is there anything there? clarencegetsabargain.com/press-kit.html
 
@@ -81,7 +81,7 @@ Terry — you have been telling adults the truth about money for decades, usuall
 
 The argument in one line: mistakes at eleven cost $14, and the same mistake at twenty-seven has a credit card attached. Everything you write about compounding cuts both ways, and the habits doing the compounding were installed in a store, at six, with a parent saying no.
 
-Which is where the whole category gets the order wrong. Children's money books teach saving — piggy banks, jars, patience, and a strong implication that wanting things is a character flaw. But saving is the second thing a child does with money. The first is spending. A six-year-old has no savings rate. She has stood at a register holding money and had to decide.
+Which is where the whole category gets the order wrong. Children's money books teach saving — piggy banks, jars, patience, and a strong implication that wanting things is a character flaw. But saving is the second thing a child does with money; the first is spending. A six-year-old has no savings rate. She has stood at a register holding money and had to decide.
 
 Clarence Gets a Bargain follows one purchase the entire way: a boy wants a robot, earns it through chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands over a coupon, meets sales tax and takes it personally, then lives with what he picked. Idea to post-receipt. Sixteen-plus concepts, none announced — nobody in the book says "budget." The reader finds out he has been schooled at the glossary, twenty-one terms in the back, each page-referenced to the scene it came from.
 
@@ -125,7 +125,7 @@ Ben — a story pitch about a gap in the coverage rather than a book pitch, thou
 
 Thirty states now guarantee a personal finance course. Every one of those mandates lands in high school. Money habits are largely set by seven, so the policy arrives roughly ten years after the cement dries — a fifteen-year-old handed a course for a habit he formed at six, and everyone acting surprised, and the funding, the training and the reporting all follow the mandate rather than the evidence.
 
-Underneath that sits an assumption nobody argues with: that children should learn saving first. I think it is backwards. Saving is the second thing a person does with money. The first is spending, and a first grader has done that, at a register, with a parent standing behind her. The behaviors a high school course tries to correct were installed a decade earlier by an arcade, a toy aisle and a checkout lane, none of which waited for a curriculum.
+Underneath that sits an assumption nobody argues with: that children should learn saving first. I think it is backwards. Saving is the second thing a person does with money; the first is spending, and a first grader has done that, at a register, with a parent standing behind her. The behaviors a high school course tries to correct were installed a decade earlier by an arcade, a toy aisle and a checkout lane, none of which waited for a curriculum.
 
 I wrote the elementary piece rather than an op-ed about it. A 36-page picture book following one purchase from the idea to after the receipt — sale ads, comparison, a markdown, a coupon, sales tax, and living with the choice. Sixteen-plus concepts, none announced. A twenty-one-term glossary page-referenced into the story. Free ungated classroom set behind it, crosswalked to five frameworks. Catalogued Lexile AD 620L — Adult Directed, so it is a read-with, and the caregiver conversation happens inside the reading.
 
@@ -148,11 +148,11 @@ Stacy — you write about what happens to ordinary people inside financial syste
 
 A child becomes a consumer the first time they hand money to a cashier. Not at eighteen, not at a first paycheck — at six, with a birthday five. From that moment they are party to a transaction and they have rights nobody mentions: the receipt is proof, the price on the shelf has to match the price at the register, a broken thing can go back. Consumer education is the missing wing of children's financial literacy. We teach them to save and never tell them they are already the buyer.
 
-That is why I wrote the book. Clarence Gets a Bargain follows one purchase the entire way — a boy wants a robot, earns it, reads the sale inserts at the kitchen table, compares two on a shelf, takes the cheaper one on purpose, hands over a coupon, meets sales tax, and lives with what he chose. Idea to post-receipt. Sixteen-plus concepts, none announced, and a twenty-one-term glossary in the back, each entry page-referenced to the scene it came from.
+That is why I wrote the book. Clarence Gets a Bargain follows one purchase the entire way — a boy wants a robot, earns it, reads the sale inserts at the kitchen table, compares two on a shelf, takes the cheaper one on purpose, hands over a coupon, meets sales tax, and lives with what he chose. Idea to post-receipt; sixteen-plus concepts, none announced, and a twenty-one-term glossary in the back, each entry page-referenced to the scene it came from.
 
-The detail people ask me about: the mother photographs the receipt the second she sits down in the car. Every time. It takes four seconds and it is what makes a return, an exchange or a warranty claim winnable. Almost nobody teaches a child that, which is why the book is catalogued AD 620L — Adult Directed — and gets read with an adult rather than handed to a kid alone.
+The detail people ask me about: the mother photographs the receipt the second she sits down in the car. Every time. It takes four seconds and it is what makes a return, an exchange or a warranty claim winnable. Almost nobody teaches a child that, which is why the book is catalogued AD 620L , Adult Directed , and gets read with an adult rather than handed to a kid alone.
 
-I am an attorney, and on vacation that mostly means the souvenirs get cross-examined. The hermit crab: who feeds it over the holidays, and in two weeks when it dies — and buddy, it will — is it worth the tears? My kids find this insufferable. It is also the entire skill.
+I am an attorney, and on vacation that mostly means the souvenirs get cross-examined. The hermit crab: who feeds it over the holidays, and in two weeks when it dies , and buddy, it will , is it worth the tears? My kids find this insufferable. It is also the entire skill.
 
 The honest version of the beat problem: the full picture crosses agencies. Warranties and returns sit with the FTC, product safety with the CPSC. Nobody owns "children as consumers," which may be exactly why nobody covers it.
 
@@ -194,7 +194,7 @@ Jonathan
 ```
 Kate — a pitch about a gap rather than a book, though I wrote the book because of the gap.
 
-Everything in kids' financial literacy points at a horizon no child can see: compound interest, credit scores, retirement. All real, all decades out, and all completely useless to somebody who is eight. Meanwhile the kid is eight, holding $20 of birthday money, standing in a store that spent millions working out how to get it. We are preparing children for 65 and sending them to the register unarmed today.
+Everything in kids' financial literacy points at a horizon no child can see: compound interest, credit scores, retirement. All real; all decades out, and all completely useless to somebody who is eight. Meanwhile the kid is eight, holding $20 of birthday money, standing in a store that spent millions working out how to get it. We are preparing children for 65 and sending them to the register unarmed today.
 
 So flip the order. Saving is the second thing a child does with money. The first is spending, and it is the one nobody puts in a story.
 
@@ -244,7 +244,7 @@ Every children's money book teaches saving. Piggy banks, lemonade stands, jars. 
 
 The category skipped that for forty years. The arcade did not. A claw machine takes $25 to hand back a basketball that Walmart sells for $9.99, and the kid has no price memory to defend himself with. Once a kid has seen the $9.99, the claw loses its grip.
 
-So I wrote the spending book. Clarence Gets a Bargain, ages 6–10: a boy earns a robot with chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands over a coupon, meets sales tax, and then lives with the thing he picked. Idea to post-receipt. Sixteen-plus concepts, none of them announced. Twenty-one terms in a glossary at the back, each page-referenced to where it happened. Catalogued AD 620L — Adult Directed — twenty minutes out loud, interrupted the whole way. The category's own defence is that money is a serious subject. It is. So is getting fleeced in an aisle at the age of seven.
+So I wrote the spending book. Clarence Gets a Bargain, ages 6–10: a boy earns a robot with chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands over a coupon, meets sales tax, and then lives with the thing he picked. Idea to post-receipt; sixteen-plus concepts, none of them announced. Twenty-one terms in a glossary at the back, each page-referenced to where it happened. Catalogued AD 620L — Adult Directed — twenty minutes out loud, interrupted the whole way. The category's own defence is that money is a serious subject. It is. So is getting fleeced in an aisle at the age of seven.
 
 I am an attorney and a mixed-media artist, and I have twice walked out of the same Nordstrom Rack having paid one cent — once for a $293 pair of shoes, once for a $69.50 shirt. I kept both tags. It makes for a good visual if you ever want one on screen.
 
@@ -290,7 +290,7 @@ Sixteen-plus concepts and none of them announced. Nobody in the book says "budge
 
 Their books are about earning and saving, which is fine, but there is no game in a piggy bank and kids work that out faster than we do. They smell a worksheet through a backpack.
 
-The episode I would pitch is not the book. It is the forty-year hole: an entire publishing category taught children to save and skipped the cash register, the only place a child has ever actually handled money.
+The episode worth doing has nothing to do with my book. Pitch the forty-year hole: an entire publishing category taught children to save and skipped the cash register, the only place a child has ever actually handled money.
 
 Worth twenty minutes of your show? https://heyzine.com/flip-book/eeb1ef6cff.html
 
@@ -309,7 +309,7 @@ Professor Urban — you produced the evidence base that mandates actually work, 
 
 Every mandate you have evaluated lands in high school. Thirty states now. The effects are real and I am not arguing with them. My question is about what is happening a decade earlier, because money habits are largely set by seven and the policy arrives roughly ten years after the cement dries.
 
-Underneath the whole field sits a sequencing assumption nobody tests: that children should learn saving first. I think it is backwards. Saving is the second thing a person does with money. The first is spending — standing in front of two prices and picking one. A first grader has done that. She has no savings rate at all.
+Underneath the whole field sits a sequencing assumption nobody tests: that children should learn saving first. I think it is backwards. Saving is the second thing a person does with money; the first is spending — standing in front of two prices and picking one. A first grader has done that. She has no savings rate at all.
 
 I could not find the children's book for it, so I wrote one. Clarence Gets a Bargain follows a single purchase the entire way: earning the reward, reading the sale ads, comparing two models on a shelf, choosing the cheaper one deliberately, redeeming a coupon, meeting sales tax, and then living with the choice. Sixteen-plus concepts, none announced. A twenty-one-term glossary page-referenced into the story. Elementary is not so much contested ground as unvisited ground.
 
@@ -407,7 +407,7 @@ Financial capability gets measured, sensibly, on saving, compounding and risk. T
 
 The environment is not waiting for the curriculum. Children are transacting constantly — arcades, app stores, checkout lanes — and none of it gets counted as financial education, though it plainly is.
 
-I wrote the elementary piece. A 36-page picture book following one purchase from the idea to after the receipt — sale ads, comparison, a markdown, a coupon, sales tax, and living with the choice. Sixteen-plus concepts, none announced. A twenty-one-term glossary page-referenced back into the story. Free ungated classroom set behind it, crosswalked to five frameworks. The polite version is that the elementary band is understudied. The blunt version is that nobody has to report on it, so nobody looks.
+I wrote the elementary piece. A 36-page picture book following one purchase from the idea to after the receipt — sale ads, comparison, a markdown, a coupon, sales tax, and living with the choice. Sixteen-plus concepts, none announced; a twenty-one-term glossary page-referenced back into the story. Free ungated classroom set behind it, crosswalked to five frameworks. The polite version is that the elementary band is understudied. The blunt version is that nobody has to report on it, so nobody looks.
 
 Design note that may matter to your work: the book is catalogued Lexile AD 620L — Adult Directed. The intervention is an adult and a child reading together, not a child reading alone, which makes it closer to a shared-reading study than a curriculum study.
 
@@ -431,7 +431,7 @@ Jeff — a question about scope, from someone who has read the SHED closely enou
 
 The survey measures financial outcomes in adults — emergency savings, credit access, unexpected expenses. Those outcomes have long histories. What I have not been able to find, in the SHED or elsewhere, is any measure of when spending competence forms: the ability to stand in front of two prices and choose deliberately rather than by impulse or brand.
 
-That matters because financial education for children is built almost entirely around saving, and saving is the second thing a person does with money. The first is spending. A first grader has no savings rate; she has handled money at a register.
+It bears on the whole design, because financial education for children is built almost entirely around saving, and saving is the second thing a person does with money. The first is spending. A first grader has no savings rate; she has handled money at a register.
 
 I wrote the elementary resource rather than a paper about it. A 36-page picture book that follows one complete purchase — sale ads, comparison shopping, a markdown, a coupon, sales tax, and living with what was bought — plus a free ungated classroom set crosswalked to the 2021 National Standards for Personal Financial Education, Common Core Math and ELA, CEE, and FDIC Money Smart. Sixteen-plus concepts, none announced in the text. A twenty-one-term glossary page-referenced into the story.
 
@@ -484,7 +484,7 @@ Billy — a question about where NEFE draws the line on grade band, asked by som
 
 Thirty states now require personal finance to graduate. The mandates land in high school, and the funding, the training and the reporting follow the mandate — which is a tidy way of arriving about nine years late and calling it early intervention. Meanwhile the K–5 standards that already exist in most states sit there with almost nothing built against them, because nobody has to report on them.
 
-The assumption underneath is that children should learn saving first. I think it is backwards, and I would rather be told so by NEFE than keep saying it at conferences. Saving is the second thing a person does with money. The first is spending — and a first grader has done it, at a register, with a parent standing behind her. The behaviors a high school course is trying to correct were installed a decade earlier.
+The assumption underneath is that children should learn saving first. I think it is backwards, and I would rather be told so by NEFE than keep saying it at conferences. Saving is the second thing a person does with money; the first is spending — and a first grader has done it, at a register, with a parent standing behind her. The behaviors a high school course is trying to correct were installed a decade earlier.
 
 I wrote the elementary piece rather than an argument about it: a 36-page picture book that follows one purchase from the idea to after the receipt, plus a free ungated classroom set crosswalked to the 2021 National Standards, Common Core, CEE and FDIC Money Smart. Sixteen-plus concepts, none announced. A twenty-one-term glossary page-referenced into the story. Catalogued Lexile AD 620L — Adult Directed — so the intervention is a shared read rather than solo reading, which also makes it easier to study than a curriculum. There is a whole industry aimed at teenagers who already have the habit, and almost nobody upstream of it.
 
@@ -552,7 +552,7 @@ Vince — you have thousands of instructors in the field, which means you know b
 
 Most financial education material aimed at children starts with saving. Saving is the second thing a child does with money. The first is spending — and a first grader has done it, at a register, with a parent behind her. An instructor standing in front of a second-grade class has almost nothing to hand them about that moment.
 
-Clarence Gets a Bargain is a 36-page picture book that follows one purchase the whole way: a boy wants a robot, earns it with chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the marked-down one deliberately, hands a coupon to the cashier, meets sales tax, and then lives with what he chose. Idea to post-receipt. Sixteen-plus concepts and nobody in the book says the word "budget."
+Clarence Gets a Bargain is a 36-page picture book that follows one purchase the whole way: a boy wants a robot, earns it with chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the marked-down one deliberately, hands a coupon to the cashier, meets sales tax, and then lives with what he chose. Idea to post-receipt; sixteen-plus concepts and nobody in the book says the word "budget."
 
 Why it works for an instructor rather than a teacher: it is catalogued Lexile AD 620L — Adult Directed — it runs about twenty minutes out loud, and the mother explains every concept inside the text. Somebody can read it cold to a class and field questions straight off the page. Nothing to memorise, no training call beforehand. Behind it sits a free ungated set — four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, printable classroom pieces, and a browser-based pretend register with a markdown, a coupon and sales tax.
 
@@ -596,7 +596,7 @@ Jonathan
 ```
 Dave — Wisconsin has run a state financial-literacy office longer than most states have had a requirement, so you have seen more of these come and go than almost anyone. I would like a read on one assumption.
 
-Every mandate in the country lands in high school. Thirty of them now. Money habits are largely set by seven, which puts the policy about a decade behind the behaviour. Underneath that sits the belief that children should learn saving first. Saving is the second thing a person does with money. The first is spending — and a first grader has done it, at a register, with a parent right there.
+Every mandate in the country lands in high school. Thirty of them now. Money habits are largely set by seven, which puts the policy about a decade behind the behaviour. Underneath that sits the belief that children should learn saving first. Saving is the second thing a person does with money; the first is spending — and a first grader has done it, at a register, with a parent right there.
 
 I built the K–5 piece rather than an argument about it. A 36-page picture book that follows one complete purchase: the sale ads at the kitchen table, comparison on a shelf, a markdown taken deliberately, a coupon at the register, sales tax, and then living with what was bought. Sixteen-plus concepts, none announced — nobody in the book says the word "budget." A twenty-one-term glossary in the back, each entry page-referenced to the scene it came from. We are very good at teaching this to people who have already made the mistake.
 
@@ -642,9 +642,9 @@ Flora — JA runs volunteers into elementary classrooms better than any organisa
 
 JA's elementary programs are strong on earning, jobs and community. What is thin across the whole field, JA included, is spending — the second thing everybody teaches and the first thing a child actually does. A first grader has no savings rate and no job. What she has done is stand at a register holding money and choose.
 
-Clarence Gets a Bargain is a 36-page picture book that puts the entire transaction on the page: a boy wants a robot, earns it with chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, meets sales tax, and then lives with what he chose. Idea to post-receipt. Sixteen-plus concepts, none announced. A twenty-one-term glossary in the back, each entry page-referenced to the scene it came from. Every year the field builds another high-school course for a habit that set in first grade, and every year it works about as well as you would expect.
+Clarence Gets a Bargain is a 36-page picture book that puts the entire transaction on the page: a boy wants a robot, earns it with chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, meets sales tax, and then lives with what he chose. Idea to post-receipt. Sixteen-plus concepts, none announced; a twenty-one-term glossary in the back, each entry page-referenced to the scene it came from. Every year the field builds another high-school course for a habit that set in first grade, and every year it works about as well as you would expect.
 
-The part that matters for a volunteer model: it is catalogued Lexile AD 620L — Adult Directed — about twenty minutes out loud, with every concept explained inside the text by the mother. A volunteer who has never taught anything can read it cold and answer questions off the page. Nothing to memorise and no prep call. Behind it, free and ungated: four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, printable price tags and clearance stickers for a classroom store, and a browser-based pretend register with a markdown, a coupon and sales tax.
+The part a volunteer model turns on: it is catalogued Lexile AD 620L — Adult Directed — about twenty minutes out loud, with every concept explained inside the text by the mother. A volunteer who has never taught anything can read it cold and answer questions off the page. Nothing to memorise and no prep call. Behind it, free and ungated: four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, printable price tags and clearance stickers for a classroom store, and a browser-based pretend register with a markdown, a coupon and sales tax.
 
 Alaska has its own complications on distance and travel, and virtual read-alouds work for this.
 
@@ -691,9 +691,9 @@ Federal attention to financial education, like every state mandate, concentrates
 
 The assumption underneath is that children begin with saving. Saving is the second thing a person does with money. The first is spending — a first grader has handled money at a register and made a decision there with no framework at all.
 
-I built a free, ungated K–5 resource for that: a 36-page picture book that follows one complete purchase from the idea through the receipt — sale ads, comparison shopping, a markdown, a coupon, sales tax — and a classroom set behind it. Four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, printable classroom pieces, a browser-based pretend register, and a 23-row crosswalk to the 2021 National Standards for Personal Financial Education alongside Common Core Math and ELA, CEE and FDIC Money Smart, cited at the Grade 4 benchmark level rather than claimed generally. Sixteen-plus concepts appear in the story without being announced, and a twenty-one-term glossary in the back matter page-references each one to the scene where it occurs.
+I built a free, ungated K–5 resource for that: a 36-page picture book that follows one complete purchase from the idea through the receipt , sale ads, comparison shopping, a markdown, a coupon, sales tax , and a classroom set behind it. Four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, printable classroom pieces, a browser-based pretend register, and a 23-row crosswalk to the 2021 National Standards for Personal Financial Education alongside Common Core Math and ELA, CEE and FDIC Money Smart, cited at the Grade 4 benchmark level rather than claimed generally. Sixteen-plus concepts appear in the story without being announced, and a twenty-one-term glossary in the back matter page-references each one to the scene where it occurs.
 
-No concept is announced in the text; the twenty-one-term glossary in the back matter carries the definitions, each page-referenced to where the term occurs. No account, no email capture, no purchase order. It prints from a browser. Catalogued Lexile AD 620L — Adult Directed — a one-period read-aloud requiring no instructor training.
+No concept is announced in the text; the twenty-one-term glossary in the back matter carries the definitions, each page-referenced to where the term occurs. No account, no email capture, no purchase order. It prints from a browser. Catalogued Lexile AD 620L , Adult Directed , a one-period read-aloud requiring no instructor training.
 
 The question: does any Department program or clearinghouse take elementary financial-education material, or is the practical route through the states? A steer on who would know is as useful to me as an answer.
 
@@ -712,11 +712,11 @@ Attorney and children's book author, Baltimore
 ```
 Ed — a narrow question about evidence standards, asked before I go further with something.
 
-I have built a free K–5 financial-education resource — a 36-page picture book plus a complete classroom set — and crosswalked it to the 2021 National Standards for Personal Financial Education, Common Core Math and ELA, CEE and FDIC Money Smart, at the Grade 4 benchmark level. Everything is ungated: no account, no email capture, no purchase order, and it prints from a browser.
+I have built a free K–5 financial-education resource , a 36-page picture book plus a complete classroom set , and crosswalked it to the 2021 National Standards for Personal Financial Education, Common Core Math and ELA, CEE and FDIC Money Smart, at the Grade 4 benchmark level. Everything is ungated: no account, no email capture, no purchase order, and it prints from a browser.
 
 The content premise is that the field has the sequence backwards. Financial education starts children with saving; saving is the second thing a person does with money. The first is spending, and a first grader has already done it at a register. The book follows one complete purchase from the idea through the receipt — the sale ads, the comparison, the markdown, the coupon, the sales tax, and living with what was bought. No concept is announced in the text; a twenty-one-term glossary in the back matter carries the definitions, each page-referenced to where the term occurs.
 
-One structural detail relevant to evaluation: the book is catalogued Lexile AD 620L — Adult Directed — so it is delivered as a shared read between an adult and a child rather than independent reading. That makes it closer to a shared-reading intervention than a curriculum, which may change what kind of evidence would be appropriate.
+One structural detail relevant to evaluation: the book is catalogued Lexile AD 620L , Adult Directed , so it is delivered as a shared read between an adult and a child rather than independent reading. That makes it closer to a shared-reading intervention than a curriculum, which may change what kind of evidence would be appropriate.
 
 The question: what would a resource like this need in order to be taken seriously on evidence — a pre/post instrument administered at scale, a quasi-experimental design, something else? I would rather build the right study once than assemble the wrong one. And if the honest answer is that no federal pathway exists for elementary material of this kind, that is worth knowing too.
 
@@ -738,7 +738,7 @@ Dr. Taylor — I am a Maryland attorney and children's book author writing about
 
 Maryland's requirement, like every state's, lands in high school. The elementary standards sit underneath it with almost nothing built against them, for the least respectable reason available: nobody has to report on that band. Meanwhile the habits a high school course is trying to correct were installed at six, in a store, with a parent saying no and no reasoning attached.
 
-The field's answer is to teach children saving first. Saving is the second thing a person does with money. The first is spending, and a first grader has done it — at a register, with a parent standing right there.
+The field's answer is to teach children saving first. Saving is the second thing a person does with money; the first is spending, and a first grader has done it — at a register, with a parent standing right there.
 
 I wrote the K–5 piece. A 36-page picture book following one purchase from the idea through the receipt: sale ads at the kitchen table, comparison shopping on a shelf, a markdown taken on purpose, a coupon at the register, sales tax, and living with what was bought. Sixteen-plus concepts, none announced. A twenty-one-term glossary page-referenced back into the story.
 
@@ -787,7 +787,7 @@ Jennifer — a funding-shaped question rather than an ask, and the resource itse
 
 I wrote and illustrated a K–5 financial-literacy picture book and built the entire classroom program behind it — four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, printable classroom pieces, a standards crosswalk across five frameworks. All of it is ungated: no account, no email capture, no purchase order, prints from a browser. The only thing that ever costs anything is the physical books, and 25 copies run $499.75.
 
-The content premise: every children's money book teaches saving, and saving is the second thing a child does with money. The first is spending — a first grader has stood at a register and chosen. The book follows one complete purchase from the idea through the receipt, with sixteen-plus concepts hidden in the plot and a twenty-one-term glossary page-referenced back into the story. If a money lesson looks like school, it gets filed under school and read at school speed.
+The content premise: every children's money book teaches saving, and saving is the second thing a child does with money; the first is spending — a first grader has stood at a register and chosen. The book follows one complete purchase from the idea through the receipt, with sixteen-plus concepts hidden in the plot and a twenty-one-term glossary page-referenced back into the story. If a money lesson looks like school, it gets filed under school and read at school speed.
 
 Why I am writing to development rather than to a classroom: this is unusually easy to fund. A bank or credit union sponsoring a classroom set gets its name on every book that goes home to a family in its assessment area, the curriculum costs the sponsor nothing because it is already free, and I have a CRA-ready memo written in examiner-friendly language. A funder can point at 25 books, one classroom, and a pre/post instrument. And because it is catalogued AD 620L — Adult Directed — it doubles as family engagement: the same book works at a kitchen table with a parent or a grandparent reading.
 
@@ -898,11 +898,11 @@ Prince — you took investing, which is the hardest concept in this category to 
 
 Wesley learns to invest. Clarence learns to spend — and I mean the mechanics of it rather than the idea. Every other book in the category teaches saving, which is the second thing a child does with money. The first is spending, and a six-year-old has already done it, in a store, holding money, deciding whether the thing is worth what it costs. Nobody had written that one, so I did.
 
-Clarence Gets a Bargain follows a single purchase from beginning to end: a boy wants a robot, earns it with chores and grades, works the sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one deliberately, hands a coupon to the cashier, meets sales tax, and then has to live with what he chose. Idea to post-receipt. Sixteen-plus concepts, none of them announced. Nobody says the word "budget."
+Clarence Gets a Bargain follows a single purchase from beginning to end: a boy wants a robot, earns it with chores and grades, works the sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one deliberately, hands a coupon to the cashier, meets sales tax, and then has to live with what he chose. Idea to post-receipt; sixteen-plus concepts, none of them announced. Nobody says the word "budget."
 
-The craft problem I would most like another author's view on: the reader is not supposed to know he has been taught anything until he reaches the glossary — twenty-one terms in the back, each page-referenced to the scene it came from. Getting that balance right, so it stays a story, was the whole job, and it is the thing most likely to be off by a hair. The rest of the shelf is piggy banks with plots. Good ones, some of them — but none of them has ever been to a register.
+The craft problem I would most like another author's view on: the reader is not supposed to know he has been taught anything until he reaches the glossary , twenty-one terms in the back, each page-referenced to the scene it came from. Getting that balance right, so it stays a story, was the whole job, and it is the thing most likely to be off by a hair. The rest of the shelf is piggy banks with plots. Good ones, some of them , but none of them has ever been to a register.
 
-I did the illustrations too, which means my opinion of them is worth nothing. It is written for the adult voice in the room — catalogued AD 620L, Adult Directed — with the mother carrying every explanation.
+I did the illustrations too, which means my opinion of them is worth nothing. It is written for the adult voice in the room , catalogued AD 620L, Adult Directed , with the mother carrying every explanation.
 
 Trade? Send me a Wesley and I will read it properly rather than politely.
 
@@ -923,9 +923,9 @@ Tom — you got more genuine engagement out of one post about kids and money tha
 
 My premise: the whole field has the sequence backwards. Financial education starts children with saving. Saving is the second thing a child does with money. The first is spending, and a six-year-old has already done it, standing in a store holding a birthday five, working out whether the thing is worth what it costs. We teach the second thing first and the first thing never.
 
-So I wrote and illustrated the spending book. Clarence Gets a Bargain follows one purchase the whole way — a boy wants a robot, earns it with chores and grades, reads the newspaper sale inserts at the kitchen table, compares two models on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, meets sales tax and objects to it, and then lives with what he chose. Idea to post-receipt. Sixteen-plus concepts and nobody in the book says "budget." The reader works out he has been schooled only at the glossary — twenty-one terms in the back, page-referenced to the scene each came from. A jar is a storage container. It has never once talked a kid out of anything.
+So I wrote and illustrated the spending book. Clarence Gets a Bargain follows one purchase the whole way , a boy wants a robot, earns it with chores and grades, reads the newspaper sale inserts at the kitchen table, compares two models on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, meets sales tax and objects to it, and then lives with what he chose. Idea to post-receipt; sixteen-plus concepts and nobody in the book says "budget." The reader works out he has been schooled only at the glossary , twenty-one terms in the back, page-referenced to the scene each came from. A jar is a storage container. It has never once talked a kid out of anything.
 
-The instruction underneath the whole book is four words long: stop bringing kids to the store as cargo, bring them as staff. Catalogued Lexile AD 620L — Adult Directed — so the parent gets handed the script rather than an assignment, which I suspect is why your posts land: parents want the conversation and do not feel qualified to start it.
+The instruction underneath the whole book is four words long: stop bringing kids to the store as cargo, bring them as staff. Catalogued Lexile AD 620L , Adult Directed , so the parent gets handed the script rather than an assignment, which I suspect is why your posts land: parents want the conversation and do not feel qualified to start it.
 
 The thing I would actually value: you know what makes a parent stop scrolling on this subject and what makes them scroll past. If "spending before saving" is the wrong hook, I would rather hear it from you than keep testing it slowly.
 
@@ -967,7 +967,7 @@ Gene — Troutwood is built on showing people the long arc of a decision, which 
 
 Everything in financial planning compounds, including the mistakes, and the compounding starts long before anyone opens an account. Mistakes at eleven cost $14. The same mistake at twenty-seven has a credit card attached. The habit doing the compounding was installed at six, in a store, with a parent saying no and no reasoning attached to the no.
 
-Financial education answers that by teaching children saving. Saving is the second thing a person does with money. The first is spending — and a first grader has done it, at a register, with no framework at all.
+Financial education answers that by teaching children saving. Saving is the second thing a person does with money; the first is spending — and a first grader has done it, at a register, with no framework at all.
 
 Clarence Gets a Bargain is the picture book for that. One purchase, followed the whole way: a boy wants a robot, earns it with chores and grades, works the sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, meets sales tax, and then lives with what he chose. Idea to post-receipt. Sixteen-plus concepts and nobody in the book says "budget." A twenty-one-term glossary in the back, each entry page-referenced to the scene it came from, and a Lexile of AD 620L — Adult Directed — so it is a shared read and the parent gets the script rather than a homework assignment. A jar is a storage container. It has never once talked a kid out of anything.
 
@@ -1013,7 +1013,7 @@ Annie — you built a product for the exact age band everyone else in this categ
 
 My First Nest Egg puts save, spend, give and invest in front of a young child in physical form. My argument is about which of those a child actually performs first. It is spending — a six-year-old has stood in a store holding money and chosen, years before she has anything to save or invest. The category teaches saving first anyway, and I could not find the book that teaches the other one.
 
-So I wrote and illustrated it. Clarence Gets a Bargain follows one purchase the whole distance: a boy wants a robot, earns it with chores and grades, reads the newspaper sale inserts at the kitchen table, compares two models on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, meets sales tax, and then lives with what he chose. Idea to post-receipt. Sixteen-plus concepts, none announced. A twenty-one-term glossary in the back, each entry page-referenced to the scene it came from, and a Lexile of AD 620L — Adult Directed — read with a grown-up rather than handed over. There is also a free browser-based pretend register behind it that runs a markdown, a coupon and sales tax, which is the closest thing I have to your physical product. Nobody has ever formed a money habit by looking at a jar.
+So I wrote and illustrated it. Clarence Gets a Bargain follows one purchase the whole distance: a boy wants a robot, earns it with chores and grades, reads the newspaper sale inserts at the kitchen table, compares two models on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, meets sales tax, and then lives with what he chose. Idea to post-receipt. Sixteen-plus concepts, none announced; a twenty-one-term glossary in the back, each entry page-referenced to the scene it came from, and a Lexile of AD 620L — Adult Directed — read with a grown-up rather than handed over. There is also a free browser-based pretend register behind it that runs a markdown, a coupon and sales tax, which is the closest thing I have to your physical product. Nobody has ever formed a money habit by looking at a jar.
 
 Those look complementary rather than competing to me: yours gives a kid the categories in their hands, mine walks them through the mechanics of one transaction in twenty minutes.
 

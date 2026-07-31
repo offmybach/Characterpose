@@ -733,3 +733,17 @@ Two problems. **"Turnkey" is on the never-say list** in CLAUDE.md, and the inver
 unreadable. Replace with something like:
 
 > `A finlit sponsorship your CRA report will like — $499.75, and the curriculum is already free`
+
+
+---
+
+## ⚖️ One kill-list phrase kept on purpose
+
+The librarian line — *"kids re-read it without being asked, **which is the only metric that
+matters** at your desk"* — trips the May 8 sewage list on "that matters." It stays because it
+is **Jonathan's own sentence**, recovered verbatim from `marketing-blitz.html` (12 Jul 2026),
+and because "the only metric that matters" is an idiom with a specific referent rather than
+the vague trailing qualifier the rule is aimed at.
+
+If it ever needs replacing: *"kids re-read it without being asked, which is the only number
+that counts at your desk."*
