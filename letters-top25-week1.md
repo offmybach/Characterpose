@@ -60,6 +60,8 @@ One structural note, since you make things people take in together: the reading 
 Am I wrong that it's a story? clarencegetsabargain.com/book-facts.html has the specs. Four-minute flip: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -85,6 +87,8 @@ Would you look at it and tell me where the seams show? I'd trade — send me you
 https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -113,6 +117,8 @@ Two questions, either useful. Does the spending-before-saving sequence hold up a
 clarencegetsabargain.com/book-facts.html · https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -139,6 +145,8 @@ Would it work for your audience — podcast, newsletter, or neither? A no is a f
 https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -186,6 +194,8 @@ Is there an episode in the fact that the entire children's money category skippe
 https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -211,6 +221,8 @@ Would you read it as an editor rather than as a friend? I would rather hear wher
 clarencegetsabargain.com/press-kit.html · https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -234,6 +246,8 @@ Author to author, I'd like to trade. Send me one of yours and I'll read it prope
 https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -249,7 +263,7 @@ I have a K-5 resource I would like to list in the Jump$tart Clearinghouse, and I
 
 The resource is a free, ungated classroom set built around a 36-page picture book: four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, a 23-row crosswalk to the 2021 National Standards for Personal Financial Education plus Common Core Math and ELA, CEE, and FDIC Money Smart, printable classroom pieces, and a browser-based pretend register. No account, no email capture, no purchase order. It prints from a browser.
 
-What the book does that the category does not: it teaches spending rather than saving, and it follows one complete purchase from the idea through the receipt — sale ads, comparison, markdown, coupon, sales tax. Sixteen-plus concepts, a twenty-one-term glossary page-referenced to the story. The elementary grade band has standards and very little built against them.
+What the book does that the category does not: it teaches spending rather than saving, and it follows one complete purchase from the idea through the receipt — sale ads, comparison, markdown, coupon, sales tax. Sixteen-plus concepts, none of them announced in the text, and a twenty-one-term glossary page-referenced to the story. The elementary grade band has standards and very little built against them.
 
 One spec relevant to classroom use: Lexile AD 620L. The AD is Adult Directed — read-aloud with an adult rather than independent reading. It runs one class period, and the mother explains each concept inside the text, so a teacher with no finance background can run it without preparation. The same design makes it work as a family take-home.
 
@@ -281,6 +295,8 @@ clarencegetsabargain.com/press-kit.html
 
 Jonathan Bach
 Baltimore
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -305,6 +321,8 @@ Honest question rather than a pitch: when you talk to teachers, does elementary 
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -328,6 +346,8 @@ Trade copies? I'll read yours properly and tell you the truth about it, which is
 https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -399,6 +419,8 @@ Is there a version of this worth putting in front of your audience — a read-al
 https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -424,6 +446,8 @@ You know better than almost anyone whether a thing lands with the people it's fo
 https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -494,6 +518,8 @@ Would you read it and tell me where it stops being a story? I'll trade — send 
 https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -504,7 +530,7 @@ Jonathan
 ```
 Sandy — FCCLA members are a decade older than my readers, so take this as a service-project idea rather than a curriculum pitch. I think it's a good one.
 
-Your chapters run community service. A high schooler reading a money book to a second-grade class is about the cleanest version of that I can think of — it needs no budget, no training, and one afternoon.
+Your chapters run community service. A high schooler reading a money book to a second-grade class is about the cleanest version of that I can think of — it needs no budget, no training, and one afternoon. The book teaches spending rather than saving, on the argument that saving is the second thing a child does with money and spending is the first.
 
 The book is Clarence Gets a Bargain, 36 pages, ages 6-10. It follows one purchase the whole way, which is the thing that makes it work as a read-aloud rather than a lecture: a boy wants a robot, earns it with chores and grades, reads the sale ads at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, meets sales tax, and then has to live with what he chose. Idea to post-receipt; sixteen-plus concepts and nobody in it says "budget" — the twenty-one-term glossary in the back is page-referenced to the story, so the reader can field questions without preparing.
 
@@ -517,6 +543,8 @@ Does that fit how chapters choose service projects, or am I inventing a use case
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -565,6 +593,8 @@ Worth a conversation? I'd rather compare notes with the one other person who put
 https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -587,6 +617,8 @@ And the read-aloud is why I asked about typography at distance rather than at ar
 Paid engagement or a favour returned, whichever you prefer. https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -610,6 +642,8 @@ One line worth having in a roundup, because parents ask it: Lexile AD 620L — A
 I'll send a copy either way. https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---

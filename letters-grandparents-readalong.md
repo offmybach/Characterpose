@@ -52,6 +52,8 @@ Jonathan Bach
 Author & illustrator, Clarence Gets a Bargain
 Attorney. Dad. Keeper of receipts.
 questions@clarencegetsabargain.com · clarencegetsabargain.com
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -82,6 +84,8 @@ Jonathan Bach
 Author & illustrator, Clarence Gets a Bargain
 Attorney. Dad. Keeper of receipts.
 questions@clarencegetsabargain.com · clarencegetsabargain.com
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -154,6 +158,8 @@ Wrong about that? You'd know better than anyone. clarencegetsabargain.com/book-f
 Jonathan Bach
 Attorney and children's book author, Baltimore
 questions@clarencegetsabargain.com
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -176,6 +182,8 @@ Worth twenty minutes of your show? I'll send a copy either way.
 
 Jonathan Bach — Clarence Gets a Bargain
 questions@clarencegetsabargain.com · clarencegetsabargain.com
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---

@@ -48,6 +48,8 @@ The story here has nothing to do with my book. An entire publishing category tau
 Is there anything there? clarencegetsabargain.com/press-kit.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -69,6 +71,8 @@ The retail angle, if you want one: every trick your beat covers — the fake mar
 Worth a look? clarencegetsabargain.com/book-facts.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -92,6 +96,8 @@ The column question rather than the book question: has anyone made the case that
 clarencegetsabargain.com/press-kit.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -113,6 +119,8 @@ The segment is the forty-year hole. A whole publishing category taught children 
 Is that an episode whether or not my book is in it? Four-minute flip: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -136,6 +144,8 @@ The story I would pitch your desk: the whole country legislated financial litera
 Does that belong to anyone on your team? clarencegetsabargain.com/book-facts.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -159,6 +169,8 @@ The honest version of the beat problem: the full picture crosses agencies. Warra
 Is there a story in that? clarencegetsabargain.com/press-kit.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -184,6 +196,8 @@ The angle for your beat: advisors spend fortunes trying to meet the next generat
 Worth a column, or am I describing something you have already covered? clarencegetsabargain.com/press-kit.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -207,6 +221,8 @@ Timely hook if you need one: thirty states now guarantee a personal finance cour
 Any of that useful to you? clarencegetsabargain.com/book-facts.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -230,6 +246,8 @@ The claim I would defend hardest is the delayed one. The book is not really work
 Does that hold up against what you see in readers? clarencegetsabargain.com/book-facts.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -251,6 +269,8 @@ I am an attorney and a mixed-media artist, and I have twice walked out of the sa
 Is there a hit in "the money skill nobody teaches kids"? clarencegetsabargain.com/press-kit.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -272,6 +292,8 @@ The question, since you have the data and I only have the book: does anything in
 clarencegetsabargain.com/book-facts.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -295,6 +317,8 @@ The episode worth doing has nothing to do with my book. Pitch the forty-year hol
 Worth twenty minutes of your show? https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -321,6 +345,8 @@ clarencegetsabargain.com/book-facts.html
 
 Jonathan Bach
 Attorney and children's book author, Baltimore
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -347,6 +373,8 @@ clarencegetsabargain.com/book-facts.html
 
 Jonathan Bach
 Attorney and children's book author, Baltimore
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -370,6 +398,8 @@ Two questions. Was the saving weighting deliberate, or just what existed? And is
 clarencegetsabargain.com/book-facts.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -393,6 +423,8 @@ Does the spending-first sequence match what you see in classrooms, or is there a
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -417,6 +449,8 @@ clarencegetsabargain.com/book-facts.html
 
 Jonathan Bach
 Attorney and children's book author, Baltimore
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -471,6 +505,8 @@ Two questions. Does Jump$tart consider elementary in scope, or is it a band the 
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -496,6 +532,8 @@ clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan Bach
 Attorney and children's book author, Baltimore
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -563,6 +601,8 @@ Does your instructor network want elementary material, or is the demand really a
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -630,6 +670,8 @@ Does that fit how Utah banks choose classroom programs, or am I inventing a use 
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -653,6 +695,8 @@ Does a read-aloud fit how JA Alaska builds a volunteer session, or does everythi
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -752,6 +796,8 @@ clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan Bach
 Attorney and children's book author, Baltimore
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -775,6 +821,8 @@ Would a read-aloud plus a pretend-store activity fit anywhere in a Promise Acade
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -796,6 +844,8 @@ Is a sponsored classroom set something HCZ's funders would recognise, or does ev
 clarencegetsabargain.com/resources/grant-in-a-box.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -817,6 +867,8 @@ The honest question rather than a pitch: when teachers come to Intuit for Educat
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -840,6 +892,8 @@ Programming is already built and free — printable price tags and clearance sti
 Kids re-read it without being asked, which is the only metric that matters at your desk. Review copy on request?
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -863,6 +917,8 @@ Endorsed by a K–5 educator with 30+ years in the classroom and by the 2026 EIF
 Shelve it under picture books; file it under secret weapons. Happy to send a review copy — reply with an address?
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -886,6 +942,8 @@ Trade copies and compare notes? I will read Sammy properly and tell you the trut
 https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -909,6 +967,8 @@ Trade? Send me a Wesley and I will read it properly rather than politely.
 https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -932,6 +992,8 @@ The thing I would actually value: you know what makes a parent stop scrolling on
 Would you look and tell me? https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -955,6 +1017,8 @@ Two questions. Does the spending-first argument hold up against what you hear fr
 https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -978,6 +1042,8 @@ Does the elementary end fit anything Troutwood does, or is that below the floor?
 clarencegetsabargain.com/book-facts.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -1001,6 +1067,8 @@ The honest question: what makes a free teacher resource actually get used rather
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -1022,6 +1090,8 @@ Worth a conversation about whether they belong near each other? And separately �
 https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
