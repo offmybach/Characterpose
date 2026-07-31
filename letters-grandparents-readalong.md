@@ -171,6 +171,8 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 ## 5. The Cool Grandpa Podcast — Greg
 Contact form at `cool-grandpa.us`. No published email. Keep it short; it's a form box.
 
+**Subject:** *none — web form, no subject field*
+
 ```
 Greg — a grandfather-adjacent pitch, though I'm a dad rather than a grandpa yet, so tell me if that disqualifies me and I'll take it well.
 
@@ -198,10 +200,8 @@ For the email list, an insert card in shipped books, a handout at readings, a ne
 piece, or the base of a note to any parent or grandparent. Recovered from a deleted draft
 and updated: price corrected, endorsements deliberately left out.
 
-**Subject options**
-1. This book doesn't work in the corner
-2. Read it WITH them. That's the whole trick.
-3. The "AD" in the reading level stands for something
+**Subject:** `This book doesn't work in the corner`
+*Alternates:* `Read it WITH them. That's the whole trick.` · `The "AD" in the reading level stands for something`
 
 ```
 Dear Parents — and Grandparents, don't skim off, this one is mostly for you,
