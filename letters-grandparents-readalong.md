@@ -128,6 +128,27 @@ Author & illustrator, Clarence Gets a Bargain
 questions@clarencegetsabargain.com · clarencegetsabargain.com
 ```
 
+### 3b. Generations United — the follow-up that delivers the printable
+Send 2–4 days after the first email. Not an apology and not a nudge; you promised a
+thing and the thing now exists. That is the only good reason to write twice.
+
+**Subject:** `The printable, as promised`
+
+```
+Following up on the two Grandparents Day activities — the printable is built.
+
+clarencegetsabargain.com/resources/grandparents-day-games-print.html
+
+One page, prints from a browser. The Grocery Savings Hunt with a scorecard, Guess the Price with a scorecard, and a short note for the grandparent on why they're the right person to run it. No book cover, no price, no purchase link — anybody can print it having never heard of me.
+
+Yours to use, post, or ignore. If you want it in the Do Something Grand colours instead, send them over and I'll rebuild it in a day.
+
+Jonathan Bach
+questions@clarencegetsabargain.com
+```
+
+---
+
 ---
 
 ## 4. Ron Lieber — New York Times
