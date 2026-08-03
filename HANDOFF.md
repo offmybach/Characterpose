@@ -123,6 +123,15 @@ Four promises were made in them:
 **Letter 3b** is the GU follow-up. It is a *delivery*, not a nudge — the printable now exists
 at `resources/grandparents-day-games-print.html`. Send 2–4 days after the first.
 
+### 🆕 New connections, 30 Jul – 3 Aug — `letters-new-aug.md`
+Twenty new letters for connections not previously tracked. **Top of the list: Stephen Day**,
+author of *Teach a Kid to Save* and Director of the VCU Center for Economic Education — the
+single most delicate letter in the project, because his book is the thing spending-first
+sequences second. It leads with the generous line and asks him to swing at the premise.
+Then Johanna Arnone (NerdWallet), Billy Mills (audits finlit curriculum — asked for a
+teardown), Jasmine Washington (children's librarian, August order season), Vicky Reynal
+(financial psychotherapist — she gets the camp canteen story).
+
 ### 🔴 Send next
 1. **Dr. Erikk D. Bonner** — Assistant State Superintendent, MSDE. He opened with a
    thank-you-for-connecting note. Message ready in `letter-erikk-bonner.md`. **The hook is
