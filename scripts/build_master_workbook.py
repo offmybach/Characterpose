@@ -168,6 +168,16 @@ BLUE, ORANGE, CREAM = "0054A6", "FF6B2B", "F5ECD7"
 thin = Side(style='thin', color='D9D2BF')
 BORD = Border(left=thin, right=thin, top=thin, bottom=thin)
 
+# ---------- Erikk Bonner standalone ----------
+t = open("letter-erikk-bonner.md").read()
+blocks = re.findall(r'```\n(.*?)\n```', t, re.S)
+add(whale='\U0001F40B', batch="Standalone", name="Dr. Erikk D. Bonner",
+    role="Assistant State Superintendent, Maryland State Dept of Education \u2014 leads the agency's largest division",
+    channel="LinkedIn message (1st-degree, he opened)", msg=n(blocks[0]),
+    alt=n(blocks[1]) if len(blocks) > 1 else '',
+    why="State-level, Maryland, local to Baltimore. His division owns access/equity programs. MD has required elementary finlit instruction since the 2010 State Board regs and almost nothing is built against it.",
+    note="Col N = the second message, only after he replies. He sent the thank-you-for-connecting note first.")
+
 # ---------- whales long-form (## N. 🐋 Name / *role* / ```) ----------
 txt = open("letters-whales-longform.md").read()
 for m in re.finditer(r'\n## (\d+)\. 🐋 ([^\n]+)\n\*([^*\n]+)\*(.*?)```\n(.*?)\n```', txt, re.S):
