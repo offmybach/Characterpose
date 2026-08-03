@@ -39,6 +39,8 @@ You have the rarest vantage point in this conversation: you sit in the associati
 
 Jonathan Bach
 Baltimore
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -67,6 +69,8 @@ Does this belong in front of Maryland principals? And if it does, is there a ver
 
 Jonathan Bach
 Baltimore
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -98,6 +102,8 @@ Free teacher materials: https://clarencegetsabargain.com/educator-toolkit.html
 Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan Bach
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -128,6 +134,8 @@ I would rather have a blunt no from you than a polite maybe from anyone else.
 
 Jonathan Bach
 Baltimore
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -158,6 +166,8 @@ If that is nowhere near what you want your year to be about, say so and I will l
 
 Jonathan Bach
 Baltimore
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -186,6 +196,8 @@ It is a book about comparison shopping, so it would be embarrassing if it were n
 
 Jonathan Bach
 Baltimore
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -215,6 +227,8 @@ The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD f
 I am not after an endorsement. I want to know whether a principal would actually use it, or whether it dies in a staff room like most things do.
 
 Jonathan Bach
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -242,6 +256,8 @@ Format, for the record: Lexile AD 620L — Adult Directed. One class period read
 Happy to send anything useful, including the standards crosswalk, if it helps make that case somewhere.
 
 Jonathan Bach
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -274,6 +290,8 @@ I am not asking NAESP for anything yet. I am asking whether the developmental ar
 
 Jonathan Bach
 Baltimore — and a fellow Maryland degree, though yours is the better one
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---

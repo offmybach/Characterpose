@@ -33,6 +33,8 @@ One spec worth having before it reaches a classroom: it's catalogued Lexile AD 6
 Would it be useful on the Eastern Shore, or am I overreaching? Teacher pack: clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -63,4 +65,6 @@ The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD 
 Happy to send you the whole thing. Four-minute flip if you would rather glance first: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```

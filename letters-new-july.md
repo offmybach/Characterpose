@@ -14,6 +14,8 @@ Ten new connections off the LinkedIn screenshots.
 
 ```
 Sandy — FCCLA members are a decade older than my readers, so take this as a service-project idea rather than a curriculum pitch. It's a good one. Your chapters already run community work, and a high schooler reading a money book to a second-grade class is about the cleanest version of that I can think of. Mine is 36 pages, teaches the whole purchase through the register, and the classroom pack behind it is free. Does that fit how chapters choose projects, or am I inventing a use case? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Lesson plans: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ## 2. 🐋 Megan Kirts
@@ -24,6 +26,8 @@ Sandy — FCCLA members are a decade older than my readers, so take this as a se
 
 ```
 Megan — Econiful starts at grade 6, which puts my book directly underneath you rather than beside you. Mine is the K-5 on-ramp: a six-year-old runs one purchase, ad to register, sales tax at the end. Congratulations on the Rising Star, by the way. Genuine question rather than a pitch — do you see elementary as in scope for Econiful, or a gap somebody else has to fill? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. For teachers: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ## 3. 🐋 Daniel Rauen
@@ -34,6 +38,8 @@ Megan — Econiful starts at grade 6, which puts my book directly underneath you
 
 ```
 Daniel — 'story-first financial literacy' is my entire thesis too, which is either a good sign or a crowded room. Mine went narrow: one purchase, ad to register, sales tax at the end, 36 pages. Yours sounds like a universe rather than a single trip. Curious whether we are solving the same problem at different scales, or the same scale from different ends. Trade notes? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ## 4. 🐋 Stephanie Zimmermann
@@ -44,6 +50,8 @@ Daniel — 'story-first financial literacy' is my entire thesis too, which is ei
 
 ```
 Stephanie — an investigations angle rather than a book pitch. Children's financial literacy is a real publishing category, and every title in it teaches saving. I read all 25 on the ABA Foundation's list to be sure. None teaches spending, which is the only money thing a six-year-old actually does. Forty years, one blind spot. I wrote the counterexample, but the gap is the more interesting half. Worth a look, or a colleague who'd want it? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ## 5. 🐋 Danial Khan
@@ -54,6 +62,8 @@ Stephanie — an investigations angle rather than a book pitch. Children's finan
 
 ```
 Danial — 'making money more human' is a good line, and it happens to be the hardest part of teaching a six-year-old. Mine does it by refusing to be a worksheet: a boy, a robot, one real purchase through the register. There's a grant packet behind it with the math already done, 25 copies at $499.75, in case Stanford FCU ever funds a classroom set. Fit a member or community program? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ## 6. Bree Shellito, CCUFC, CUDE
@@ -63,6 +73,8 @@ Danial — 'making money more human' is a good line, and it happens to be the ha
 
 ```
 Bree — a CUDE tends to think about the movement rather than the quarter, which is why I'm asking you rather than a marketing desk. Mine is K-5, the band almost nobody builds for, and the whole teacher materials is free. There's a grant packet with the math done if a credit union ever wanted to fund a classroom set. Fit your well-being work? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ## 7. Sara Wilson
@@ -72,6 +84,8 @@ Bree — a CUDE tends to think about the movement rather than the quarter, which
 
 ```
 Sara — a product innovation question rather than a book pitch. Mine is deliberately low-tech: a printed read-along with free print-ready lessons. No login, no platform, no seats to provision, which either makes it frictionless or makes it a relic. You'd know which. Does analog still work at K-5, or am I fighting the tide? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free classroom materials: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ## 8. Miche Franken
@@ -81,6 +95,8 @@ Sara — a product innovation question rather than a book pitch. Mine is deliber
 
 ```
 Miche — coordinators are the ones who have to make the thing actually work after somebody else picks it, which is why your read is worth more than a director's. Mine needs no prep, no platform, nothing consumable, and the lessons are free. Four 45-minute plans, a pre/post assessment, a 23-row crosswalk. Would it survive contact with a real schedule? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free teaching pack: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ## 9. matt barnes
@@ -90,6 +106,8 @@ Miche — coordinators are the ones who have to make the thing actually work aft
 
 ```
 Matt — 'Question Asker' and 'Helicopter Pilot' in the same headline is a choice, and I respect it. Here's a question for you then: every children's money book teaches saving, and not one teaches spending, which is the only money thing a six-year-old actually does. I wrote the one that does. Real gap, or am I picking a fight nobody asked for? Podcast fit, or just curious? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ## 10. Laura Aguirre
@@ -99,4 +117,6 @@ Matt — 'Question Asker' and 'Helicopter Pilot' in the same headline is a choic
 
 ```
 Laura — the marketing half of your headline is the half I want. Mine teaches six-year-olds to spend well rather than to save, which puts it in a category of roughly one and makes it awkward to shelve. Educator to marketer: does the positioning work, or does 'the spending book' just confuse people? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```

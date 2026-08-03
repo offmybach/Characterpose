@@ -95,4 +95,6 @@ Format, for the record: Lexile AD 620L — Adult Directed. One class period read
 Not a book pitch. A where-does-this-belong question from someone who wrote half of it by accident and wants to know where the other half lives. The book is here if it's ever useful: https://clarencegetsabargain.com
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```

@@ -295,6 +295,8 @@ One thing I'd rather raise than have you find. The teaching pack is free and the
 
 Jonathan Bach
 Baltimore
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 **Why this works and the other four attempts didn't:** it asks a question inside her job
@@ -319,6 +321,8 @@ I've drafted something below so you're not staring at a blank page. Change every
 If you'd rather not, say so plainly and it goes no further. I have other people to ask and I would rather have a friend than a signature.
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -340,6 +344,8 @@ The materials are accurate, standards-aligned, classroom-usable without preparat
 I recommend him as a Clearinghouse Provider without reservation.
 
 Wally Luckeydoo, Ed.D.
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -364,6 +370,8 @@ I'm not asking you to endorse the book. I'm asking whether you'd look at the cla
 Jonathan Bach
 Baltimore
 clarencegetsabargain.com
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -390,6 +398,8 @@ Jonathan Bach
 Baltimore
 clarencegetsabargain.com
 https://heyzine.com/flip-book/eeb1ef6cff.html
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -413,6 +423,8 @@ Jonathan Bach
 Baltimore, attorney and children's book author
 clarencegetsabargain.com
 https://heyzine.com/flip-book/eeb1ef6cff.html
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -434,6 +446,8 @@ The flipbook takes four minutes: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan Bach
 Baltimore
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---

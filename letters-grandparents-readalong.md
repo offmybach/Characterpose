@@ -126,6 +126,8 @@ Happy to be told no. The printable will exist either way and you're welcome to i
 Jonathan Bach
 Author & illustrator, Clarence Gets a Bargain
 questions@clarencegetsabargain.com · clarencegetsabargain.com
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ### 3b. Generations United — the follow-up that delivers the printable
@@ -145,6 +147,8 @@ Yours to use, post, or ignore. If you want it in the Do Something Grand colours 
 
 Jonathan Bach
 questions@clarencegetsabargain.com
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -261,6 +265,8 @@ Attorney. Dad. Keeper of receipts.
 clarencegetsabargain.com
 
 P.S. — At the back there's a 21-term glossary where every definition points to the page where it happened in the story. If a word comes up at the store next week, you can both look it up and land on a scene you read together. That's not a glossary; that's a memory with page numbers.
+
+P.P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 **Grandparent-only opening swap.** Replace the first two paragraphs with:

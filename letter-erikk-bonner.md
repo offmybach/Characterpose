@@ -55,6 +55,8 @@ I wrote the K-5 piece rather than an argument about it — a picture book that t
 So: is elementary financial literacy anybody's portfolio at MSDE, or does it sit with the districts by default? Either answer helps me stop guessing.
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 **Length:** ~1,150 characters. Well under the ~8,000 a 1st-degree message allows, and deliberately so — this is a reply to a courtesy note, not the pitch.
@@ -86,6 +88,8 @@ I'm in Baltimore and happy to come to you.
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -93,8 +97,10 @@ Jonathan
 ## Do not
 
 - Do not send both at once. The first message asks a question; let him answer it.
-- Do not attach the em-dash P.S. here. It plays with authors and journalists; to a state
-  superintendent on a first reply it is noise.
+- **The em-dash P.S. is on message two, not message one.** On a first reply to a state
+  superintendent it reads as noise. Once he has answered and a conversation exists, it is
+  charm rather than clutter — and it gets in front of the AI accusation before anyone raises
+  it, which is worth having on the record with an education official.
 - Do not claim Maryland is a "guarantee state." It is not yet — HB 943 phases in with the
   class of 2030.
 - Do not mention the claw machine, the one-cent shoes, or the boardwalk shirt in message

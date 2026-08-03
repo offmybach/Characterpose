@@ -173,6 +173,8 @@ One practical note for the classroom end: Lexile AD 620L — Adult Directed — 
 Everything free and ungated: clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -274,6 +276,8 @@ Two questions. Is the free classroom set the right thing to submit, rather than 
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -501,6 +505,8 @@ clarencegetsabargain.com/book-facts.html · https://heyzine.com/flip-book/eeb1ef
 
 Jonathan Bach
 Attorney and children's book author, Baltimore
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -575,6 +581,8 @@ Does elementary sit inside what the partnership funds or convenes, or is high sc
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -674,6 +682,8 @@ The question: does NEFE's advocacy work have a position on the elementary band, 
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---

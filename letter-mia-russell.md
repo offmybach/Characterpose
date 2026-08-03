@@ -14,6 +14,8 @@ Four hooks, all verifiable: she ran Money Smart and your book is built against F
 
 ```
 Mia — you ran Money Smart at Maryland Extension, decided what got funded at Wells Fargo, and now teach it at Hopkins. Three chairs, almost nobody has sat in all of them. I wrote a K-5 book aligned to Money Smart that leaves saving out entirely. I'm in Baltimore too. Worth a look?
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ## Step 2 — Once she accepts, or as InMail (1323 / 1900 characters)
@@ -33,6 +35,8 @@ We're also neighbors — I'm in Baltimore. Coffee travels better than a link if 
 
 Concepts and specs: https://clarencegetsabargain.com/book-facts.html
 Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---

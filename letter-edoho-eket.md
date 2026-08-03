@@ -44,6 +44,8 @@ Also, we're practically neighbors — I'm in Baltimore, you're up the road in Ho
 Concepts and specs: https://clarencegetsabargain.com/book-facts.html
 Free classroom materials: https://clarencegetsabargain.com/educator-toolkit.html
 Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---

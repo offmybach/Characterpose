@@ -555,6 +555,8 @@ The question: is there a route for elementary material to sit alongside CEE prog
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
@@ -578,6 +580,8 @@ The question: does CFP Board's pro bono and public-education work reach below hi
 clarencegetsabargain.com/book-facts.html
 
 Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
 ---
@@ -626,6 +630,8 @@ Does elementary sit inside what the Commission convenes or funds, or is high sch
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
 ---
@@ -647,6 +653,8 @@ The question: in your experience, does elementary material get adopted when it i
 clarencegetsabargain.com/educator-toolkit.html
 
 Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
 ---
