@@ -99,6 +99,11 @@ idea-to-post-receipt. Verified per letter, not in aggregate.
 
 ## 4. What is open — the actual to-do
 
+> **▶ START WITH `SEND-QUEUE.md`.** One file, full letter text inline, fourteen letters over
+> four sending days plus two books to post. Tick as you go. Everything below is the reasoning
+> behind that queue.
+
+
 ### ✅ Resolved 3 Aug — the origin story
 The grocery-cart draft is **retired**. The real memory is the **sleepaway-camp canteen
 account**: one deposit for a four-week session, Blow Pops and Fun Dip every visit while

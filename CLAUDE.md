@@ -427,6 +427,9 @@ Each entry includes the page(s) where the term appears in the story.
 
 ## 6b. START HERE after a break
 
+**`SEND-QUEUE.md`** — the actionable list. Full letter text inline, in send order, with
+checkboxes. Open this first if the question is "what do I do now."
+
 **`HANDOFF.md`** — current state, decisions of record, open to-do, and the mistakes worth not
 repeating. Read it before touching outreach.
 **`reference/heavy-hitters.md`** — the lines that make the book sing, ranked by what they do.
