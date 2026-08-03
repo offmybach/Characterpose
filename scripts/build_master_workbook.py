@@ -168,6 +168,16 @@ BLUE, ORANGE, CREAM = "0054A6", "FF6B2B", "F5ECD7"
 thin = Side(style='thin', color='D9D2BF')
 BORD = Border(left=thin, right=thin, top=thin, bottom=thin)
 
+# ---------- new August connections (## N. Name / *role* / ```) ----------
+txt = open("letters-new-aug.md").read()
+for m in re.finditer(r'\n## (?:\d+|\d+\u2013\d+)\. (?:\U0001F40B )?([^\n]+)\n\*([^*\n]+)\*(.*?)```\n(.*?)\n```', txt, re.S):
+    nm, role, meta, msg = m.groups()
+    add(whale='\U0001F40B' if '\U0001F40B' in m.group(0)[:40] else '',
+        batch="New Aug", name=n(nm), role=n(role),
+        channel="LinkedIn message (1st-degree)",
+        why="Connected 30 Jul - 3 Aug 2026. " + n(re.sub(r'\*\*[^*]+\*\*','',meta))[:200],
+        msg=n(msg))
+
 # ---------- Erikk Bonner standalone ----------
 t = open("letter-erikk-bonner.md").read()
 blocks = re.findall(r'```\n(.*?)\n```', t, re.S)
