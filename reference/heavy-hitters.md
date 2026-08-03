@@ -198,18 +198,80 @@ one is about month eighteen, with the parent absent.
 
 ---
 
-## ⏸ HELD — the best asset in the project, unverified
+## ✅ THE ORIGIN STORY — confirmed by Jonathan, 3 Aug 2026
 
-> "I was at a grocery store with my dad. He handed me a $20 and told me to fill the cart for
-> $19. He'd carry the change home. I remember staring at a bag of grapes that was $3.49 and
-> trying to calculate whether I could afford a second snack if I committed to the grapes.
-> **I lost. I came home with no change. I think I picked the Cool Ranch Doritos.**
-> But I remember the math. I remember the panic… **the feeling of being trusted with money
-> before I was technically ready.**"
+Replaces the grocery-cart draft, which is retired. This one is real, it is his, and it is
+the strongest cold open in the project.
 
-If this is a real memory it is the strongest cold open available, and it explains why he
-wrote the spending book rather than another saving book without asserting a thing. **Nothing
-uses it until he confirms.**
+### The facts of record
+
+- Sleepaway camp, **four-week session**.
+- His parents put a fixed amount in his **canteen account** to last the whole session.
+- Most bunkmates bought **an item or two, maybe a soda** per visit.
+- He bought **a handful of Blow Pops, at least one pack of Fun Dip, and sometimes a soda —
+  every visit**, because he thought that was what being cool looked like.
+- The account ran dry **halfway through week three**.
+- He spent the **last week and a half** with no canteen money, watching everyone else buy
+  candy.
+
+⚠️ **The dollar figure is not on record.** He wrote "x dollars." **Do not invent one.** The
+story works without it — the ratio is the point. If he remembers the number, it gets better
+and it goes in exactly as he says it, never rounded.
+
+### Why it beats every constructed line
+
+**He had autonomy and no adult.** Nobody was standing behind him at the counter. That is the
+whole difference from a grocery-store story, and it is why this maps onto adult money
+behaviour rather than childhood obedience.
+
+**It is a run-rate failure, which is what adults actually get wrong.** He did not overspend
+once. He overspent at a steady, cheerful, unexamined pace until the money ended before the
+session did.
+
+**Social comparison is the mechanism.** He was not confused about prices. He was buying a
+performance of being the kid with the most candy, and it cost him a week and a half of
+having any.
+
+**It is a spending failure, not a saving failure** — there was nothing to save; the money was
+already his and already committed. That is the book's thesis, lived, decades before he wrote
+the book.
+
+### The canonical telling
+
+> **My parents put money in my canteen account at sleepaway camp — one deposit, four weeks,
+> no adult standing behind me.**
+>
+> Most of my bunkmates bought a candy bar and maybe a soda. I bought a handful of Blow Pops,
+> at least one pack of Fun Dip, and usually a soda. Every visit. I thought that was what
+> being cool looked like.
+>
+> **Halfway through week three, the account hit zero.**
+>
+> I spent the last week and a half of that summer watching other kids buy candy.
+>
+> Call it budgeting if you want. It was a spending problem. I had no idea what a run rate
+> was, and nobody had ever shown me one.
+
+### Short version — for a LinkedIn post or a podcast cold open
+
+> "I ran out of canteen money halfway through week three of a four-week camp session. Blow
+> Pops and Fun Dip, every visit, because I thought that was what cool looked like. I watched
+> everybody else buy candy for the last week and a half. Forty years later I wrote a
+> children's book about spending. Draw your own conclusions."
+
+### The turn, for press and for anyone asking "why this book"
+
+> "Every kids' money book would have told me to save some of it. That was never the problem.
+> The money was already mine and already spent — I just spent it at a pace nobody had taught
+> me to notice. **That is the book I couldn't find, so I wrote it.**"
+
+### Where it goes
+
+- **Press and podcast letters** — first paragraph. It earns the pitch before any claim.
+- **Ron Lieber** — his beat is exactly how and when to talk to kids about money.
+- **GRAND** and **More Than Grand**, if either replies.
+- The **author's note** or a press-kit answer to "what made you write this."
+- ⚠️ **Not** in the institutional or federal letters. Wrong register.
 
 ---
 

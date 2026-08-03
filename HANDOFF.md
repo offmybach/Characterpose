@@ -99,12 +99,15 @@ idea-to-post-receipt. Verified per letter, not in aggregate.
 
 ## 4. What is open — the actual to-do
 
-### ⏸ Waiting on Jonathan
-**The grocery-cart memory.** *"He handed me a $20 and told me to fill the cart for $19… a bag
-of grapes that was $3.49… I lost. I came home with no change. I think I picked the Cool Ranch
-Doritos."* If it is a real memory it is **the strongest cold open in the project** and it goes
-straight into the press and podcast letters. **Nothing uses it until he confirms.** Full text
-in `reference/heavy-hitters.md` under HELD.
+### ✅ Resolved 3 Aug — the origin story
+The grocery-cart draft is **retired**. The real memory is the **sleepaway-camp canteen
+account**: one deposit for a four-week session, Blow Pops and Fun Dip every visit while
+bunkmates bought one or two things, account empty halfway through week three, last week and
+a half spent watching other kids buy candy. Full text and three registers in
+`reference/heavy-hitters.md`.
+
+⚠️ **The dollar amount is still not on record** — he wrote "x dollars." Never invent one.
+The ratio carries the story without it.
 
 ### 📮 Already sent — promises now owed
 All six grandparent letters went out. Checked against every invariant: **zero defects.**
