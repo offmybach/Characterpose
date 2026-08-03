@@ -425,6 +425,15 @@ Each entry includes the page(s) where the term appears in the story.
 
 ---
 
+## 6b. START HERE after a break
+
+**`HANDOFF.md`** — current state, decisions of record, open to-do, and the mistakes worth not
+repeating. Read it before touching outreach.
+**`reference/heavy-hitters.md`** — the lines that make the book sing, ranked by what they do.
+Take from there before writing anything new.
+
+---
+
 ## 7. Supporting HTML Pages
 
 - `educator-toolkit.html` — teacher resources hub (the doorway to the 6 print-PDFs)
