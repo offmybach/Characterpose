@@ -136,6 +136,8 @@ So I wrote the spending book. One purchase, followed the entire way: a boy wants
 
 Here is why it might fit a parenting audience rather than a classroom one. The concepts are smuggled. Sixteen-plus of them, none announced, nobody saying the word "budget." It reads as a story about a kid and a robot, and the parent doing the read-aloud gets handed the money conversation without having to deliver a lesson. And the kid does not know he's been schooled until he gets to the glossary — twenty-one terms at the end, each page-referenced to the scene it came from. A parent can turn straight back to the exact page.
 
+The whole thing was written to plant a tiny voice in a little noggin — the one that says "Wait… is there a better deal?" — before that noggin becomes a know-it-all tween.
+
 The argument I'd bring to a podcast is the delayed one. It clicks later, in a real store. Months out, a kid says "there's a coupon in my pocket, just like Clarence" or "the sticker price isn't what you pay, there's tax" — recognition first, then the habit, and the parent isn't even in the room when it happens.
 
 For a parenting audience the format may matter more than the content. Lexile AD 620L — the AD is Adult Directed, the industry's own label for a book meant to be read *with* a child rather than left in their room. Mom explains every concept on the page, so the parent gets handed the script instead of being expected to know it. "Do we have a 529?" is a question a seven-year-old asks in the middle of page six, not after. Grandparents get the same deal, and they tend to enjoy it more.
@@ -335,6 +337,8 @@ Cinders — Moneybunnies splits money into Earn, Save, Spend and Give, which mak
 
 I went deep on one of your four. Spending, and specifically the whole transaction rather than the idea of it. Clarence Gets a Bargain follows a single purchase from beginning to end: a boy wants a robot, earns it with chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, meets sales tax, and then has to live with what he picked. Idea to post-receipt.
 
+The one sentence I most want a kid to keep: "newest" is a marketing word, not a measurement.
+
 The reason I think it sits beside Moneybunnies rather than against it: you give a child the four categories, and mine walks them through the mechanics of one. Sixteen-plus concepts, none announced — nobody says "budget" — and twenty-one terms in a glossary in the back, each page-referenced to the scene where it happened.
 
 Author-illustrator to author-illustrator: I did the art as well, so I know exactly how much of the work nobody sees. I'd rather you saw this from me than off a shelf.
@@ -436,6 +440,8 @@ Every children's money book teaches saving. All 25 on the ABA Foundation's list 
 Mine is the spending one, and it follows a single purchase the whole way rather than talking about the idea: a boy wants a robot, earns it through chores and grades, reads the sale inserts at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands the cashier a coupon he has been clutching like a winning lottery ticket, gets hit with sales tax, and then lives with what he chose. Idea to post-receipt.
 
 The design choice: none of the sixteen-plus concepts is announced. Nobody in the book says "budget," which for a book that is largely about budgeting took some doing. The kid does not know she's been schooled until the glossary — twenty-one terms at the end, each page-referenced to the scene it came from. There for the kid who wants it, invisible to the kid who doesn't.
+
+It was written to plant a tiny voice in a little noggin — the one that says "Wait… is there a better deal?" — before that noggin becomes a know-it-all tween.
 
 The claim I'd defend hardest is the delayed one: it clicks later, in a real store. Recognition first, then the habit — the book doing its job when nobody is standing there teaching.
 
