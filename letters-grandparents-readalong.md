@@ -277,6 +277,86 @@ Grandparents buy a lot of books. Most get carried off to a bedroom and you never
 Clarence Gets a Bargain carries a reading level of Lexile AD 620L. The AD stands for "Adult Directed" — the book industry's own label for a title meant to be read WITH a child rather than handed to one. It needs a grown-up in the room. You're cast.
 ```
 
+---
+
+## 7. Follow-up — "where do I send it"
+
+Both DeeDee and Greg were promised a physical hardback in the letters above. Neither
+address is on file — both contacts were email/form only. These two notes exist purely to
+get a mailing address; they do not re-pitch. Send once, then mail the book.
+
+### 7a. DeeDee Moore — More Than Grand
+`deedee@morethangrand.com`
+
+**Subject:** `Where do I send it?`
+
+```
+DeeDee,
+
+I told you I'd mail a hardback of Clarence Gets a Bargain this week, no strings attached — turns out the only string was logistics. I don't have anywhere to send it. Where's good?
+
+Jonathan
+Author & illustrator, Clarence Gets a Bargain
+```
+
+### 7b. Greg — The Cool Grandpa Podcast
+Contact form at `cool-grandpa.us`, or whatever address he replied from.
+
+**Subject:** *none needed — two lines*
+
+```
+Greg,
+
+I said I'd send you a copy of Clarence Gets a Bargain either way — meant it. Where should it go?
+
+Jonathan Bach — Clarence Gets a Bargain
+questions@clarencegetsabargain.com
+```
+
+---
+
+## 8. Enclosure cards — go inside the box, not the inbox
+
+Short, tucked in with the book itself. Not the pitch letter again — the pitch already
+worked. These are what the recipient reads holding the actual book.
+
+### 8a. For DeeDee's copy
+
+```
+DeeDee —
+
+Here's the book. Read it however works — cover to cover, or just Aisle Five and the
+glossary if that's all the time you've got.
+
+If any of it's useful for More Than Grand, I'd be glad to talk. If not, it's still
+yours — no follow-up required.
+
+Thanks for taking a look.
+
+Jonathan Bach
+Attorney. Dad. Keeper of receipts.
+clarencegetsabargain.com
+
+P.S. Page 6 is for the grandparent who already opened the 529 and told no one.
+```
+
+### 8b. For Greg's copy
+
+```
+Greg —
+
+Here's the copy I promised. Fifteen, twenty minutes read aloud — hand it to a grandkid
+if you've got one nearby, or just page through it yourself.
+
+No pitch in this box. Just the book.
+
+Jonathan Bach
+Clarence Gets a Bargain
+clarencegetsabargain.com
+
+P.S. If it ends up worth a segment, I'll be here. If not, keep the robot.
+```
+
 Then continue from "Here's why."
 
 ---

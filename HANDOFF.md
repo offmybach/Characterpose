@@ -120,10 +120,14 @@ Four promises were made in them:
 
 | To | Promised | Status |
 |---|---|---|
-| **DeeDee Moore** (More Than Grand) | "I'll mail you a hardback this week" | **mail it** |
+| **DeeDee Moore** (More Than Grand) | "I'll mail you a hardback this week" | address unknown — **send 7a**, then mail with card 8a |
 | **Generations United** | a free printable | ✅ **built** — send letter **3b** |
 | **Ron Lieber** (NYT) | a copy if useful | wait for reply |
-| **Greg** (Cool Grandpa) | a copy either way | **send it** |
+| **Greg** (Cool Grandpa) | a copy either way | address unknown — **send 7b**, then mail with card 8b |
+
+Neither DeeDee nor Greg ever gave a mailing address — both were email/form contact only.
+Sections 7 and 8 of `letters-grandparents-readalong.md` are the short address-request notes
+and the enclosure cards to tuck in with each book once an address comes back.
 
 **Letter 3b** is the GU follow-up. It is a *delivery*, not a nudge — the printable now exists
 at `resources/grandparents-day-games-print.html`. Send 2–4 days after the first.
