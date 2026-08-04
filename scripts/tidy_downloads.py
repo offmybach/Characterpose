@@ -22,6 +22,19 @@ from collections import defaultdict
 
 FOLDER = "CGB Outreach"
 
+# The only files worth having open. Everything else that is current but not in daily
+# use is parked in CGB Outreach/current/ — still one click away, just not in your face.
+WORKING_SET = [
+    "send-queue.md",                    # the daily driver
+    "cgb_master_outreach.xlsx",         # the database
+    "handoff.md",                       # where things stand
+    "heavy-hitters.md",                 # the voice
+    "letters-new-aug.md",               # sending from these now
+    "letter-erikk-bonner.md",
+    "letters-whales-longform.md",
+    "letters-grandparents-readalong.md",
+]
+
 # Which subfolder an older copy lands in. First match wins, so order matters.
 RULES = [
     ("dbs",            r"^CGB_MASTER_outreach\.xlsx$|\.xlsx$|\.csv$"),
@@ -33,7 +46,7 @@ RULES = [
     ("new-additions",  r"^letters-(new-|grandparents-|whales-|top25-)"),
     ("letters",        r"^letters-|^jumpstart-clearinghouse|^roundup-outreach"),
     ("site-pages",     r"\.html?$"),
-    ("playbooks",      r"^(marketing-blitz|disruptive-campaigns|seo-aeo|competitive-audit|outreach-playbook|linkedin-)"),
+    ("playbooks",      r"^(marketing-blitz|disruptive-campaigns|seo-aeo|competitive-audit|outreach-playbook|linkedin-|research-)"),
 ]
 
 # Only files matching one of these are touched at all.
@@ -43,7 +56,10 @@ KNOWN = re.compile(
     r"reviews-of-record|pereira-review|voice-audit-humor|marketing-blitz|disruptive-campaigns|"
     r"seo-aeo|competitive-audit|outreach-playbook|linkedin-|vs-other-money-books|school-visits|"
     r"money-glossary|teaching-kids-about-money|grandparents-day-games|free-sample-print|"
-    r"clarence)", re.I)
+    r"research-|clarence)", re.I)
+
+# Never file these — they are the tool itself.
+SELF = {"tidy_downloads.py", "tidy cgb downloads.bat"}
 
 # Browser duplicate suffixes only: " (1)", " (2)", " copy", " copy 2".
 # NOT "-1" — that would eat real names like letters-1-198.md and letters-199-396.md.
@@ -88,6 +104,8 @@ def main():
     ap.add_argument("--go", action="store_true", help="actually move files")
     ap.add_argument("--downloads", help="path to your Downloads folder")
     ap.add_argument("--no-pause", action="store_true", help="don't wait for Enter at the end")
+    ap.add_argument("--keep-all", action="store_true",
+                    help="leave every current file visible instead of parking the ones you are not using")
     a = ap.parse_args()
     interactive = not a.go            # double-clicked, or run with no flags
 
@@ -100,7 +118,7 @@ def main():
     for f in dl.iterdir():
         if f.is_dir() or f.name.startswith("."):
             continue
-        if not KNOWN.match(f.name):
+        if f.name.lower() in SELF or not KNOWN.match(f.name):
             continue
         groups[base_name(f)].append(f)
 
@@ -108,12 +126,16 @@ def main():
         print(f"No CGB files found in {dl}")
         return
 
-    keep, move = [], []
+    keep, move, park = [], [], []
     for base, files in sorted(groups.items()):
         files.sort(key=lambda p: p.stat().st_mtime, reverse=True)   # newest first
-        keep.append(files[0])
-        for older in files[1:]:
-            move.append((older, archive / category(older.name) / older.name))
+        newest = files[0]
+        for older in files[1:]:                                     # genuinely outdated
+            move.append((older, archive / "superseded" / category(older.name) / older.name))
+        if a.keep_all or PACKAGE.match(newest.name) or base in WORKING_SET:
+            keep.append(newest)
+        else:                                                       # current, just not in use
+            park.append((newest, archive / "current" / category(newest.name) / newest.name))
 
     print(f"\nDownloads: {dl}")
     print(f"Archive:   {archive}\n")
@@ -122,24 +144,30 @@ def main():
         n = len(groups[base_name(f)])
         print(f"   {f.name}" + (f"   [newest of {n}]" if n > 1 else "   [only copy]"))
 
-    if move:
-        print(f"\nMOVES INTO {FOLDER}/ ({len(move)}):")
+    def show(title, items):
+        if not items: return
+        print(f"\n{title} ({len(items)}):")
         by_cat = defaultdict(list)
-        for src, dst in move:
-            by_cat[dst.parent.name].append(src.name)
+        for src, dst in items:
+            by_cat[str(dst.parent.relative_to(archive))].append(src.name)
         for cat in sorted(by_cat):
             print(f"   {cat}/")
             for n in sorted(by_cat[cat]):
                 print(f"      {n}")
-    else:
-        print("\nNothing to archive — every file is already the only copy.")
+
+    show(f"OUTDATED COPIES -> {FOLDER}/superseded/", move)
+    show(f"CURRENT BUT NOT IN USE -> {FOLDER}/current/", park)
+    if not move and not park:
+        print("\nNothing to file — Downloads is already tidy.")
+
+    move += park
 
     if interactive:
         if not move:
             hold(a); return
         print()
         try:
-            answer = input(f"Move those {len(move)} older copies into '{FOLDER}'?  [y/N] ").strip().lower()
+            answer = input(f"File those {len(move)} into '{FOLDER}'?  [y/N] ").strip().lower()
         except EOFError:
             answer = ""
         if answer not in ("y", "yes"):
@@ -170,7 +198,7 @@ def main():
             f.rename(want)
             renamed += 1
 
-    print(f"\nMoved {done} older copies into {archive}")
+    print(f"\nFiled {done} files into {archive}")
     if renamed:
         print(f"Renamed {renamed} survivors back to their clean names.")
     print(f"{len(keep)} current files left visible in Downloads.")
