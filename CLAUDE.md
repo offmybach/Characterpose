@@ -427,6 +427,11 @@ Each entry includes the page(s) where the term appears in the story.
 
 ## 6b. START HERE after a break
 
+**Downloads hygiene.** `scripts/tidy_downloads.py` keeps only the newest copy of each CGB
+file visible in Jonathan's Downloads and files every older copy under
+`Downloads/CGB Outreach/<category>/`. Run it after any batch of downloads. Dry-run by
+default; `--go` to move. Never deletes, never overwrites, ignores non-CGB files.
+
 **`SEND-QUEUE.md`** — the actionable list. Full letter text inline, in send order, with
 checkboxes. Open this first if the question is "what do I do now."
 
