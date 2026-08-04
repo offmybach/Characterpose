@@ -5,8 +5,12 @@ tidy_downloads.py — keep only the newest copy of each CGB file visible in Down
 Every older copy moves into  Downloads/CGB Outreach/<category>/  and every newest copy
 stays where you can see it, even if only one version ever existed.
 
-    python tidy_downloads.py            # DRY RUN — shows the plan, moves nothing
-    python tidy_downloads.py --go       # actually do it
+DOUBLE-CLICK IT. It shows you the plan, asks whether to go ahead, and waits before
+closing so you can read what happened.
+
+From a terminal, if you prefer:
+    python tidy_downloads.py            # show the plan, then ask
+    python tidy_downloads.py --go       # skip the question, just do it
     python tidy_downloads.py --go --downloads "D:/Stuff/Downloads"
 
 Safe to run as often as you like. It never deletes, never overwrites, and never
@@ -83,7 +87,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--go", action="store_true", help="actually move files")
     ap.add_argument("--downloads", help="path to your Downloads folder")
+    ap.add_argument("--no-pause", action="store_true", help="don't wait for Enter at the end")
     a = ap.parse_args()
+    interactive = not a.go            # double-clicked, or run with no flags
 
     dl = Path(a.downloads) if a.downloads else find_downloads()
     if not dl.exists():
@@ -128,8 +134,18 @@ def main():
     else:
         print("\nNothing to archive — every file is already the only copy.")
 
-    if not a.go:
-        print("\n--- DRY RUN. Nothing moved. Re-run with --go to do it. ---")
+    if interactive:
+        if not move:
+            hold(a); return
+        print()
+        try:
+            answer = input(f"Move those {len(move)} older copies into '{FOLDER}'?  [y/N] ").strip().lower()
+        except EOFError:
+            answer = ""
+        if answer not in ("y", "yes"):
+            print("\nNothing moved.")
+            hold(a); return
+    elif not move:
         return
 
     # 1. archive the older copies first, so the clean name is free
@@ -158,7 +174,25 @@ def main():
     if renamed:
         print(f"Renamed {renamed} survivors back to their clean names.")
     print(f"{len(keep)} current files left visible in Downloads.")
+    hold(a)
+
+
+def hold(a):
+    """Keep the window open when the script was double-clicked."""
+    if getattr(a, "no_pause", False) or a.go:
+        return
+    try:
+        input("\nDone. Press Enter to close.")
+    except EOFError:
+        pass
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:                 # never flash-and-vanish on an error
+        print(f"\nSomething went wrong: {e}")
+        try:
+            input("\nPress Enter to close.")
+        except EOFError:
+            pass
