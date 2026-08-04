@@ -99,9 +99,9 @@ idea-to-post-receipt. Verified per letter, not in aggregate.
 
 ## 4. What is open — the actual to-do
 
-> **▶ START WITH `SEND-QUEUE.md`.** One file, full letter text inline, fourteen letters over
-> four sending days plus two books to post. Tick as you go. Everything below is the reasoning
-> behind that queue.
+> **▶ START WITH `SEND-QUEUE.md`.** The complete cut-and-paste file: **88 letters**, full
+> text, in send order across five weeks, with checkboxes. Nothing else needs opening.
+> Everything below is the reasoning behind that queue.
 
 
 ### ✅ Resolved 3 Aug — the origin story
