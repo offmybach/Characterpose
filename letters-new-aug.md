@@ -49,7 +49,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 ```
 Johanna — a story idea rather than a book pitch, and it works whether or not mine is the book in it.
 
-Every children's money book teaches saving. Piggy banks, lemonade stands, three tins labeled spend-save-give where "spend" gets one page and a guilty look. I read all 25 titles on the ABA Foundation's list to be sure. But saving is the second thing a child does with money. The first is spending, and a six-year-old has already done it — in a store, holding a birthday five, working out whether the thing is worth what it costs.
+Every children's money book teaches saving. Piggy banks, lemonade stands, three tins labeled spend-save-give where "spend" gets one page and a guilty look. I read all 25 titles on the ABA Foundation's list to be sure. But saving is the second thing a child does with money. The first is spending, and a six-year-old has already done it — in a store, holding a birthday five-dollar bill, working out whether the thing is worth what it costs.
 
 Forty years of piggy banks and not one of them has ever been to a store.
 
@@ -465,7 +465,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 ```
 Keanna — an early childhood question, and a doctoral candidate is the right person to tell me whether the evidence exists.
 
-Financial education for children begins with saving, and the sequence looks backwards to me. Saving is the second thing a child does with money. The first is spending — a four-year-old handing over a coin, a first grader at a register with a birthday five. It is the earliest financial act a person performs and it's taught last, or never.
+Financial education for children begins with saving, and the sequence looks backwards to me. Saving is the second thing a child does with money. The first is spending — a four-year-old handing over a coin, a first grader at a register with a birthday five-dollar bill. It is the earliest financial act a person performs and it's taught last, or never.
 
 I built the K-5 piece rather than an argument about it: a picture book that follows one complete purchase from the idea through the receipt, plus a free ungated classroom set crosswalked to five frameworks. Sixteen-plus concepts, none announced. A twenty-one-term glossary page-referenced into the story. Catalogued Lexile AD 620L — Adult Directed — so the intervention is an adult and a child reading together rather than a child reading alone, which also makes it closer to a shared-reading study than a curriculum study.
 

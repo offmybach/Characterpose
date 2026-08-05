@@ -37,7 +37,7 @@ LinkedIn message allows — and every one of them carries **one concrete image**
 ```
 Gretchen — you have spent a career on how financial products get sold to people who don't fully understand them. Here is the entry-level version of that, and nobody covers it.
 
-A child becomes a consumer the first time money leaves their hand. Six years old, a birthday five, a store. From that moment they are a party to transactions, and the entire financial education apparatus treats them as a saver in training instead. We teach them to hold money. Nobody teaches them what happens when they use it, which is the only thing they were ever going to do with it.
+A child becomes a consumer the first time money leaves their hand. Six years old, a birthday five-dollar bill, a store. From that moment they are a party to transactions, and the entire financial education apparatus treats them as a saver in training instead. We teach them to hold money. Nobody teaches them what happens when they use it, which is the only thing they were ever going to do with it.
 
 The scale is small and the mechanics are identical to the ones you write about. A claw machine takes $25 to hand back a basketball that Walmart sells for $9.99, and the child has no way of knowing that. Not a game of skill — a slot machine wearing a carnival hat, aimed at someone with no price memory and no comparison to make.
 
@@ -156,7 +156,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 ```
 Stacy — you write about what happens to ordinary people inside financial systems. There is a version of that beat with no coverage at all, and it starts at about age six.
 
-A child becomes a consumer the first time they hand money to a cashier. Not at eighteen, not at a first paycheck — at six, with a birthday five. From that moment they are party to a transaction and they have rights nobody mentions: the receipt is proof, the price on the shelf has to match the price at the register, a broken thing can go back. Consumer education is the missing wing of children's financial literacy. We teach them to save and never tell them they are already the buyer.
+A child becomes a consumer the first time they hand money to a cashier. Not at eighteen, not at a first paycheck — at six, with a birthday five-dollar bill. From that moment they are party to a transaction and they have rights nobody mentions: the receipt is proof, the price on the shelf has to match the price at the register, a broken thing can go back. Consumer education is the missing wing of children's financial literacy. We teach them to save and never tell them they are already the buyer.
 
 That is why I wrote the book. Clarence Gets a Bargain follows one purchase the entire way — a boy wants a robot, earns it, reads the sale inserts at the kitchen counter, compares two on a shelf, takes the cheaper one on purpose, hands over a coupon, meets sales tax, and lives with what he chose. Idea to post-receipt; sixteen-plus concepts, none announced, and a twenty-one-term glossary in the back, each entry page-referenced to the scene it came from.
 
@@ -258,7 +258,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 ```
 Julie — a segment idea, and it is short enough to survive a live hit.
 
-Every children's money book teaches saving. Piggy banks, lemonade stands, jars. But saving is the second thing a child does with money — the first is spending, and a six-year-old has already done it, in a store, holding a birthday five, deciding whether the thing is worth what it costs.
+Every children's money book teaches saving. Piggy banks, lemonade stands, jars. But saving is the second thing a child does with money — the first is spending, and a six-year-old has already done it, in a store, holding a birthday five-dollar bill, deciding whether the thing is worth what it costs.
 
 The category skipped that for forty years. The arcade did not. A claw machine takes $25 to hand back a basketball that Walmart sells for $9.99, and the kid has no price memory to defend himself with. Once a kid has seen the $9.99, the claw loses its grip.
 
@@ -304,7 +304,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 ```
 Andrew — your audience is adults fixing money habits. I wrote the book that tries to stop the habits forming, and there is an episode in the argument whether or not the book is in it.
 
-Every children's money book teaches saving. Piggy banks, lemonade stands, three jars. A piggy bank, a lemonade stand, a lesson — that is the whole category, and it has never once been to a register. But saving is the second thing a child does with money. The first is spending, and a six-year-old has already done it, in a store, holding a birthday five, working out whether the thing is worth what it costs.
+Every children's money book teaches saving. Piggy banks, lemonade stands, three jars. A piggy bank, a lemonade stand, a lesson — that is the whole category, and it has never once been to a register. But saving is the second thing a child does with money. The first is spending, and a six-year-old has already done it, in a store, holding a birthday five-dollar bill, working out whether the thing is worth what it costs.
 
 Nobody put that in a story. So I did. Clarence Gets a Bargain follows a single purchase the whole way — a boy wants a robot, earns it with chores and grades, reads the sale inserts at the kitchen counter, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, meets sales tax and regards it as a personal insult, then lives with the thing he chose. Idea to post-receipt.
 
@@ -359,7 +359,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 ```
 Professor Mahoney — your work is about what consumers actually do when a price is put in front of them, as opposed to what a model says they should. I want to ask about the earliest version of that decision, because nobody seems to study it.
 
-A six-year-old with a birthday five in an aisle is running a comparison with no price history, no reference class and no idea that anchoring exists. She is the purest case your field could ask for and the least documented. Meanwhile the environment is not naive at all — a boardwalk claw machine takes $25 to hand back a basketball that Walmart sells for $9.99, and the child has no way of knowing the $9.99 exists.
+A six-year-old with a birthday five-dollar bill in an aisle is running a comparison with no price history, no reference class and no idea that anchoring exists. She is the purest case your field could ask for and the least documented. Meanwhile the environment is not naive at all — a boardwalk claw machine takes $25 to hand back a basketball that Walmart sells for $9.99, and the child has no way of knowing the $9.99 exists.
 
 Financial education answers this by teaching saving. But saving is the second thing a person does with money; the first is spending, and it is taught last or not at all.
 
@@ -569,7 +569,7 @@ Martin — you sit where the profession decides what it is responsible for, so t
 
 Planners meet clients' children late, usually at the worst possible moment, and by then the habits are twenty years old. They were formed at six, in a store, with a parent saying no and no reasoning attached to the no.
 
-The field's answer to that is to teach children saving. But saving is the second thing a child does with money. The first is spending, and a six-year-old has already done it, holding a birthday five, deciding whether the thing is worth what it costs.
+The field's answer to that is to teach children saving. But saving is the second thing a child does with money. The first is spending, and a six-year-old has already done it, holding a birthday five-dollar bill, deciding whether the thing is worth what it costs.
 
 I wrote the picture book for that moment. Clarence Gets a Bargain follows one purchase the whole way — earning the reward through chores and grades, working the sale ads at the kitchen counter, comparing two models on a shelf, taking the cheaper one on purpose, redeeming a coupon, meeting sales tax, and then living with what was bought. Idea to post-receipt. Sixteen-plus concepts, none announced. Twenty-one terms in a back-matter glossary, page-referenced to the story. A course at fifteen for a habit set at six is not early intervention; it is a receipt.
 
@@ -989,7 +989,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 ```
 Tom — you got more genuine engagement out of one post about kids and money than anyone else in this category has managed, which tells me you know exactly which part of this parents actually care about. I would like to check my premise against that.
 
-My premise: the whole field has the sequence backwards. Financial education starts children with saving. Saving is the second thing a child does with money. The first is spending, and a six-year-old has already done it, standing in a store holding a birthday five, working out whether the thing is worth what it costs. We teach the second thing first and the first thing never.
+My premise: the whole field has the sequence backwards. Financial education starts children with saving. Saving is the second thing a child does with money. The first is spending, and a six-year-old has already done it, standing in a store holding a birthday five-dollar bill, working out whether the thing is worth what it costs. We teach the second thing first and the first thing never.
 
 So I wrote and illustrated the spending book. Clarence Gets a Bargain follows one purchase the whole way — a boy wants a robot, earns it with chores and grades, reads the newspaper sale inserts at the kitchen counter, compares two models on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, meets sales tax and objects to it, and then lives with what he chose. Idea to post-receipt; sixteen-plus concepts and nobody in the book says "budget." The reader works out he has been schooled only at the glossary — twenty-one terms in the back, page-referenced to the scene each came from. A jar is a storage container. It has never once talked a kid out of anything.
 

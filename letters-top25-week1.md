@@ -47,7 +47,7 @@ Ranzetta this week, hold Espinal for week two.
 ```
 Alex — Planet Money's whole trick is that people will absorb an economics lesson if you hide it inside a story about a guy and a barrel of oil. I did the same thing at a lower reading level.
 
-Here is the pitch in one line: every children's money book teaches saving, and saving is the second thing a kid does with money. The first is spending. A six-year-old has no savings rate. She has stood in an aisle holding a birthday five, deciding whether the thing is worth it.
+Here is the pitch in one line: every children's money book teaches saving, and saving is the second thing a kid does with money. The first is spending. A six-year-old has no savings rate. She has stood in an aisle holding a birthday five-dollar bill, deciding whether the thing is worth it.
 
 So I wrote the spending one. Clarence Gets a Bargain follows a single purchase the entire way — a boy wants a robot, earns it with chores and grades, reads the newspaper sale inserts at the kitchen counter, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, gets ambushed by sales tax, and then lives with the thing he bought. Idea to post-receipt. Name another picture book where the kid reads the sale ads before the trip, compares models in the aisle, hands over a coupon, and pays the sales tax. I read all 25 titles on the ABA Foundation's list looking for one. They are all parked on the earning-and-saving side of the register.
 
@@ -185,7 +185,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 ```
 Paula — "you can afford anything, but not everything" is the best sentence anybody has written about money, and it is a sentence about spending, not saving. That is the entire reason I'm writing to you.
 
-I wrote the children's version of that idea, and I mean that structurally rather than as a compliment. Every kids' money book teaches saving. But saving is the second thing a child does with money — the first is spending, and a six-year-old has already done it, holding a birthday five in an aisle, working out whether the thing is worth what it costs. Which is your thesis at a lower reading level.
+I wrote the children's version of that idea, and I mean that structurally rather than as a compliment. Every kids' money book teaches saving. But saving is the second thing a child does with money — the first is spending, and a six-year-old has already done it, holding a birthday five-dollar bill in an aisle, working out whether the thing is worth what it costs. Which is your thesis at a lower reading level.
 
 Clarence Gets a Bargain follows one purchase the whole way. A boy wants a robot. Earns it with chores and grades. Reads the newspaper sale inserts at the kitchen counter. Compares two models on a shelf and takes the cheaper one on purpose. Hands a coupon to the cashier. Meets sales tax and regards it as a personal insult, correctly. Then lives with what he chose. Most money books end at the checkout; the purchase isn't over when the robot's in the bag, and that back half is the opportunity-cost argument nobody writes for kids.
 
@@ -369,7 +369,7 @@ Leslie — a Money as You Grow question, and then an idea I'd like a CFPB read o
 
 The question first. Is the Bookshelf still evaluating titles, and who owns it now? I have a K-5 picture book that teaches spending rather than saving, and the current shelf leans heavily toward saving.
 
-The idea. A child becomes a consumer the first time they hand money to a cashier. Not at eighteen, not at a first paycheck — at six, at a register, with a birthday five. Everything in youth financial education treats that child as a saver in training. Almost nothing treats her as what she already is: a party to a transaction.
+The idea. A child becomes a consumer the first time they hand money to a cashier. Not at eighteen, not at a first paycheck — at six, at a register, with a birthday five-dollar bill. Everything in youth financial education treats that child as a saver in training. Almost nothing treats her as what she already is: a party to a transaction.
 
 My book follows one purchase the entire way, which is the part I could not find anywhere else — from wanting the thing, through the sale ads, the comparison, the markdown, the coupon, and the sales tax, to living with what was bought. Idea to post-receipt; sixteen-plus concepts, none announced. Twenty-one terms in the glossary, each page-referenced to the scene where it happened.
 
@@ -439,7 +439,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 ```
 Tiffany — you built a career on the thing nobody teaches: what to actually do, in order, with money that is already in your hand. That is why I'm writing about the six-year-old version.
 
-Every children's money book teaches saving. All 25 on the ABA Foundation's list — I checked. Piggy banks, jars, patience. But saving is the second thing a child does with money; the first is spending, and a first grader has already done it, in a store, holding a birthday five, working out whether the thing is worth what it costs.
+Every children's money book teaches saving. All 25 on the ABA Foundation's list — I checked. Piggy banks, jars, patience. But saving is the second thing a child does with money; the first is spending, and a first grader has already done it, in a store, holding a birthday five-dollar bill, working out whether the thing is worth what it costs.
 
 Mine is the spending one, and it follows a single purchase the whole way rather than talking about the idea: a boy wants a robot, earns it through chores and grades, reads the sale inserts at the kitchen counter, compares two models on a shelf, takes the cheaper one on purpose, hands the cashier a coupon he has been clutching like a winning lottery ticket, gets hit with sales tax, and then lives with what he chose. Idea to post-receipt.
 
@@ -645,7 +645,7 @@ Nicolle — your twelve-book roundup is the one I point people to, which is slig
 
 The list is accurate; that's simply what exists. The whole category is parked on the earning-and-saving side of the register. I went looking for the spending book and could not find it, so I wrote it.
 
-The argument in one line: saving is the second thing a child does with money, and the first is spending. A six-year-old has no savings rate and has definitely stood in a store holding a birthday five, deciding whether the thing is worth what it costs.
+The argument in one line: saving is the second thing a child does with money, and the first is spending. A six-year-old has no savings rate and has definitely stood in a store holding a birthday five-dollar bill, deciding whether the thing is worth what it costs.
 
 Clarence Gets a Bargain follows one purchase from the idea to after the receipt. A boy wants a robot, earns it with chores and grades, reads the sale inserts at the kitchen counter, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, meets sales tax, and then lives with what he chose. Sixteen-plus concepts and nobody in the book says "budget." Twenty-one terms in the glossary, each page-referenced to the scene it came from.
 

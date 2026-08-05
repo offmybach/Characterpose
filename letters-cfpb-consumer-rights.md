@@ -57,7 +57,7 @@ Both letters below are 1st-degree DMs.
 ```
 Leslie — I sent a short note a while back about the Money as You Grow Bookshelf. This is the idea behind the book, and it's the one I actually wanted to run past someone at CFPB.
 
-A child becomes a consumer the first time they hand over money. Not at eighteen, not at a first paycheck — at six, at a register, with a birthday five in their fist. That is the whole premise of my book: a boy runs one complete purchase, sale ad to receipt, and picks up comparison shopping, markdowns, coupons, and sales tax on the way. Money as You Grow teaches saving and spending well. The transaction itself — the part where a kid is actually standing at the counter — is the gap the book fills, and the current shelf leans heavily toward saving.
+A child becomes a consumer the first time they hand over money. Not at eighteen, not at a first paycheck — at six, at a register, with a birthday five-dollar bill in their fist. That is the whole premise of my book: a boy runs one complete purchase, sale ad to receipt, and picks up comparison shopping, markdowns, coupons, and sales tax on the way. Money as You Grow teaches saving and spending well. The transaction itself — the part where a kid is actually standing at the counter — is the gap the book fills, and the current shelf leans heavily toward saving.
 
 Here is the piece I keep circling. The moment a kid makes that first purchase, they have entered a relationship that comes with rights, and nobody teaches a seven-year-old they have any. An adult knows to keep the receipt and that a broken thing can go back. A child thinks the deal ends when the bag is handed over.
 
