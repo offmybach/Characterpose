@@ -130,7 +130,7 @@ Family resource management is an actual CFLE content area. This is not a stretch
 ### National Center for Families Learning
 Family literacy at national scale, Louisville-based. Their whole model is a parent and a
 child learning the same thing at the same time, which is exactly how a 36-page read-aloud
-gets used at a kitchen table.
+gets used at a kitchen counter.
 
 ### National PTA / Maryland PTA / Delaware PTA
 Already in `organizations-target-list.md` under youth organizations. Worth naming again here

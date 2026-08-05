@@ -23,7 +23,7 @@ Lemonade stands. Piggy banks. Three little jars labeled spend-save-give, where "
 
 Every one of those books teaches earning or saving. And every kid who reads them will do something else entirely this weekend: spend. Birthday money, allowance, the $5 from Grandma. Spending is the first money skill a child actually uses; it's the one we skip.
 
-Clarence Gets a Bargain starts where the other books stop — at the store. One kid, one robot, one complete purchase: sale ads at the kitchen table, comparison shopping in Aisle Five, a marked-down model next to the shiny new ones, a 10%-off coupon at the register, and the sales tax line on the receipt.
+Clarence Gets a Bargain starts where the other books stop — at the store. One kid, one robot, one complete purchase: sale ads at the kitchen counter, comparison shopping in Aisle Five, a marked-down model next to the shiny new ones, a 10%-off coupon at the register, and the sales tax line on the receipt.
 
 Saving is in there too. So is the 529, the budget, the charity jar. But they ride along in the plot instead of wagging a finger from a sidebar.
 

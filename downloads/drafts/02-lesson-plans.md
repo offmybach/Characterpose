@@ -107,7 +107,7 @@ By the end of this lesson, students will:
 - Page 8 (coupons): *"How many ways does Mom say a coupon can reach you?"* Count them: cut-out, mail, email, text.
 - Page 10 ("just like finding money on the sidewalk"): *"What does that line mean?"*
 
-**Guided practice — Find the Deal (12 min).** Each pair gets ONE flyer. Class agrees on a target item (juice box, paper towels, a snack). Pairs hunt for the item in their flyer and write down the price. Class compares: which store has the lowest price? Highest? *"This is what Clarence and Mom did at the kitchen table."* — that's the comparison-shopping reveal.
+**Guided practice — Find the Deal (12 min).** Each pair gets ONE flyer. Class agrees on a target item (juice box, paper towels, a snack). Pairs hunt for the item in their flyer and write down the price. Class compares: which store has the lowest price? Highest? *"This is what Clarence and Mom did at the kitchen counter."* — that's the comparison-shopping reveal.
 
 **Coupon math (10 min).** Project a $4.00 sale price. Apply three different coupons one at a time:
 - 25¢ off → $3.75

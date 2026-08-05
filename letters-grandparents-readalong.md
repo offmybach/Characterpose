@@ -8,7 +8,7 @@ Six letters. Five to named contacts, one reusable. Contacts and addresses are in
 child rather than handed to one. That is not a marketing claim, it is a cataloging code,
 and it means the adult in the room is cast rather than optional. Mom explains every
 concept inside the text, so whoever holds the book is handed the script instead of being
-expected to know about money. Teacher in a classroom, parent at a kitchen table,
+expected to know about money. Teacher in a classroom, parent at a kitchen counter,
 grandparent on a couch: same pages, same interruptions. The interruptions are the product.
 
 **Guardrails.** No Aisle Five reveal, no last-name wordplay. $19.99 stays exact. The
@@ -34,7 +34,7 @@ Christine,
 
 You're closing September, Grandparents Day is the 13th, and every other pitch on your desk this week is a gift guide. Mine is an afternoon.
 
-I'm an attorney, a mixed-media artist, and a dad, and I wrote and illustrated a children's picture book called Clarence Gets a Bargain. Ages 6–10. A boy earns a robot with chores and grades, then has to figure out how to buy it — sale ads at the kitchen table, two models compared on a shelf, the cheaper one taken on purpose, a coupon handed to the cashier, and sales tax showing up uninvited at the end. Sixteen-plus money concepts are in there and not one of them is announced; nobody in the book ever says the word "budget." A kid doesn't work out he's been taught anything until he reaches the glossary at the back — twenty-one terms, each one pointing back to the page where it happened.
+I'm an attorney, a mixed-media artist, and a dad, and I wrote and illustrated a children's picture book called Clarence Gets a Bargain. Ages 6–10. A boy earns a robot with chores and grades, then has to figure out how to buy it — sale ads at the kitchen counter, two models compared on a shelf, the cheaper one taken on purpose, a coupon handed to the cashier, and sales tax showing up uninvited at the end. Sixteen-plus money concepts are in there and not one of them is announced; nobody in the book ever says the word "budget." A kid doesn't work out he's been taught anything until he reaches the glossary at the back — twenty-one terms, each one pointing back to the page where it happened.
 
 Your readers own the next part. Every children's money book teaches saving. Piggy banks, jars, three little tins labeled spend-save-give where "spend" gets one page and a guilty look, as though wanting something were a character defect. But saving is the second thing a child does with money; the first is spending, and a six-year-old has already done it, in a store, holding a birthday five, deciding whether the thing is worth what it costs. We teach the second thing first and the first thing never.
 
@@ -109,7 +109,7 @@ Grandparents Day falls on September 13 this year, and your activity-ideas page i
 
 The premise behind both: saving is the second thing a child does with money, and spending is the first. The games teach the first one, which is the half nobody covers.
 
-I wrote and illustrated a children's picture book, Clarence Gets a Bargain, about a kid learning how to spend money rather than save it — one purchase followed all the way, from reading the sale ads at the kitchen table to the sales tax at the register. Two of the games in it were written to require more than one person:
+I wrote and illustrated a children's picture book, Clarence Gets a Bargain, about a kid learning how to spend money rather than save it — one purchase followed all the way, from reading the sale ads at the kitchen counter to the sales tax at the register. Two of the games in it were written to require more than one person:
 
 The Grocery Savings Hunt — on the next shopping trip, everyone looks for the biggest markdown. Best find wins. The loser carries the bags in from the car.
 
@@ -174,7 +174,7 @@ But saving is the second thing a child does with money; the first is spending. A
 
 The timing gap sharpens it. Thirty states now guarantee a personal finance course — in high school. Money habits are largely set by seven. We're preparing children for 65 and sending them to the register unarmed today, into a store that spent millions working out how to get the five dollars in their hand.
 
-I wrote the book I couldn't find. Clarence Gets a Bargain, ages 6–10, one kid and one complete purchase: earning it, the sale ads at the kitchen table, two models compared on a shelf, the cheaper one taken deliberately, a coupon at the register, sales tax, and living with the thing afterward. Idea to post-receipt. Sixteen-plus concepts, none of them announced — nobody in the book says the word "budget." The reader doesn't work out he's been schooled until he reaches the glossary in the back, twenty-one terms, each one page-referenced to the scene where it happened.
+I wrote the book I couldn't find. Clarence Gets a Bargain, ages 6–10, one kid and one complete purchase: earning it, the sale ads at the kitchen counter, two models compared on a shelf, the cheaper one taken deliberately, a coupon at the register, sales tax, and living with the thing afterward. Idea to post-receipt. Sixteen-plus concepts, none of them announced — nobody in the book says the word "budget." The reader doesn't work out he's been schooled until he reaches the glossary in the back, twenty-one terms, each one page-referenced to the scene where it happened.
 
 I'm an attorney, which shows: the mother photographs the receipt before the car leaves the parking lot, every time, because a receipt is what makes a return or a warranty claim winnable. Kids are consumers years before anyone tells them they have rights as one. That's a second column and possibly a better one.
 
@@ -201,7 +201,7 @@ Contact form at `cool-grandpa.us`. No published email. Keep it short; it's a for
 ```
 Greg — a grandfather-adjacent pitch, though I'm a dad rather than a grandpa yet, so tell me if that disqualifies me and I'll take it well.
 
-I wrote and illustrated a kids' picture book about the money skill nobody teaches: spending — one kid, one purchase, followed the whole way from the sale ads at the kitchen table to the sales tax on the receipt. Every other book in the aisle is a piggy bank with a plot. Every children's money book is about a piggy bank. But saving is the second thing a kid does with money — the first is spending, usually on a Saturday, at a register, with a grown-up standing right there sweating the total.
+I wrote and illustrated a kids' picture book about the money skill nobody teaches: spending — one kid, one purchase, followed the whole way from the sale ads at the kitchen counter to the sales tax on the receipt. Every other book in the aisle is a piggy bank with a plot. Every children's money book is about a piggy bank. But saving is the second thing a kid does with money — the first is spending, usually on a Saturday, at a register, with a grown-up standing right there sweating the total.
 
 Sixteen-plus money concepts are hidden in it and none are announced — the glossary in the back is the only place the book admits what it was doing, and it's the last thing a kid reads.
 
@@ -235,7 +235,7 @@ Every author wants their book read. I want mine read out loud.
 
 Clarence Gets a Bargain carries a reading level of Lexile AD 620L. The AD stands for "Adult Directed" — the book industry's own label for a title meant to be read WITH a child rather than handed to one. That code isn't an accident. I built the book for the couch, not the corner.
 
-Here's why. In the story, Clarence doesn't learn about money from a worksheet. He learns it from his mom — at the kitchen table with the sale ads, in the car, in the middle of the store. Read the book to your kid and you aren't describing that scene. You're in it.
+Here's why. In the story, Clarence doesn't learn about money from a worksheet. He learns it from his mom — at the kitchen counter with the sale ads, in the car, in the middle of the store. Read the book to your kid and you aren't describing that scene. You're in it.
 
 And the interruptions will come. "Do we have a 529?" "Why do you take pictures of receipts?" "Can I hand the cashier the coupon next time?" "Is the internet a need or a want?" A kid alone in the corner reads a robot story and moves on. A kid pressed against your shoulder reads the same story and starts an argument about whether Wi-Fi counts as shelter. You want that argument. The argument is the product; the robot is the delivery vehicle.
 

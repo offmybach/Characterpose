@@ -91,7 +91,7 @@ When financial literacy shows up in an elementary building, what does a first-ye
 
 Because here is what I found. Delaware's State Board adopted K-12 financial literacy standards in 2018. HB 203 passed last October and sent every resource to the high school course. And when I went looking for K-5 material, nearly every children's money book on the market taught saving. Piggy banks, jars, allowances, wait for it. Almost none of them touched spending — which is the only money thing a second grader has ever actually done.
 
-So I wrote that one. Clarence Gets a Bargain, 36 pages, grades 1-5. A boy earns a robot, reads the sale inserts at the kitchen table, compares two models in the aisle, picks the discounted one over the shiny one, hands a coupon to the cashier, and then meets sales tax and has feelings about it. Sixteen-plus concepts. Nobody in the book ever says "today we're going to learn about budgeting."
+So I wrote that one. Clarence Gets a Bargain, 36 pages, grades 1-5. A boy earns a robot, reads the sale inserts at the kitchen counter, compares two models in the aisle, picks the discounted one over the shiny one, hands a coupon to the cashier, and then meets sales tax and has feelings about it. Sixteen-plus concepts. Nobody in the book ever says "today we're going to learn about budgeting."
 
 The teacher materials are free and ungated — four lesson plans, assessments with answer keys, a 23-row standards crosswalk. Print-to-PDF from a browser. Zero prep, zero budget line, no account to create.
 
@@ -117,7 +117,7 @@ Mr. Keen — congratulations on the building. You took over a school in a town w
 
 I have had a shirt printed that reads PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW, so you may yet see me in it. Half your families were on that boardwalk in July, mid-negotiation with a seven-year-old over a claw machine. That machine takes $25 to hand back a basketball Walmart sells for $9.99, and the kid has no way of knowing that. That is the moment this book is about.
 
-I wrote and illustrated a children's book about money. Clarence Gets a Bargain — 36 pages, grades 1-5, and it does the one thing the rest of the category skips. Every other kids' money book teaches saving. Mine teaches a purchase: a boy earns a robot, reads the sale ads at his kitchen table, compares two on a shelf, walks past the newer one deliberately, redeems a coupon at the register, and gets ambushed by sales tax. He is not thrilled about the sales tax. Neither was I at that age.
+I wrote and illustrated a children's book about money. Clarence Gets a Bargain — 36 pages, grades 1-5, and it does the one thing the rest of the category skips. Every other kids' money book teaches saving. Mine teaches a purchase: a boy earns a robot, reads the sale ads at his kitchen counter, compares two on a shelf, walks past the newer one deliberately, redeems a coupon at the register, and gets ambushed by sales tax. He is not thrilled about the sales tax. Neither was I at that age.
 
 Delaware has had K-12 financial literacy standards since 2018, and HB 203 last October sent the whole rollout to high school. Your grade band has the standard and none of the shopping list.
 
@@ -180,7 +180,7 @@ Delaware adopted financial literacy standards for grades K-12 in 2018. Last Octo
 
 Meanwhile the children's publishing shelf is stacked with saving. Piggy banks, jars, allowances, patience. Save, save, save. Which is fine advice and useless to a seven-year-old, because a seven-year-old has never saved anything and has absolutely stood in an aisle holding a five and had to decide.
 
-Clarence Gets a Bargain is 36 pages, grades 1-5, and it follows one purchase all the way through. Sale ads at the kitchen table. Two models compared on a shelf. A markdown chosen on purpose. A coupon handed to a cashier. Sales tax, which comes as a genuine insult. Sixteen-plus concepts, a 21-term glossary, and not one page that reads like a worksheet.
+Clarence Gets a Bargain is 36 pages, grades 1-5, and it follows one purchase all the way through. Sale ads at the kitchen counter. Two models compared on a shelf. A markdown chosen on purpose. A coupon handed to a cashier. Sales tax, which comes as a genuine insult. Sixteen-plus concepts, a 21-term glossary, and not one page that reads like a worksheet.
 
 The free materials: four 45-minute lesson plans, discussion guide, pre- and post-assessments with answer keys and a tracking sheet, a 23-row crosswalk to Jump$tart, CEE, Common Core Math and ELA, and FDIC Money Smart, plus printable classroom pieces. Browser to PDF. No account, no cost.
 
@@ -208,7 +208,7 @@ Mrs. Davenport — you have a new assistant principal this year and a fall to ge
 
 What I have: a 36-page picture book for grades 1-5 that teaches a kid how to spend money well, and a complete free teacher kit behind it.
 
-Why it's not the usual thing: every other children's money book teaches saving. Mine follows a boy through one purchase, start to finish. He earns a robot for chores and grades, works the sale inserts at his kitchen table, compares two models in the store, picks the discounted one and can tell you exactly why, redeems a coupon at the register, and runs face-first into sales tax. Sixteen-plus concepts, all of them driving the plot instead of interrupting it. Twenty-one-term glossary in the back, page-referenced.
+Why it's not the usual thing: every other children's money book teaches saving. Mine follows a boy through one purchase, start to finish. He earns a robot for chores and grades, works the sale inserts at his kitchen counter, compares two models in the store, picks the discounted one and can tell you exactly why, redeems a coupon at the register, and runs face-first into sales tax. Sixteen-plus concepts, all of them driving the plot instead of interrupting it. Twenty-one-term glossary in the back, page-referenced.
 
 Why it's Delaware's problem specifically: the State Board adopted K-12 financial literacy standards in 2018, and HB 203 last October poured everything into a high school course. Your grades have the requirement and none of the resourcing.
 
@@ -576,7 +576,7 @@ call. Susan Kehoe owns the store; Alexandra Colevas is manager and buyer.
 ```
 James — I have had a shirt printed that reads PREVENT BOARDWALK MELTDOWNS & ARCADE HISSY-FITS, ASK ME HOW, and the plan is to wear it up and down the boardwalk until somebody asks. At which point I will point them toward a book you do not carry. Your front door is four blocks from where I will be standing, so you can see the flaw in my plan as clearly as I can.
 
-I wrote and illustrated Clarence Gets a Bargain. Thirty-six pages, ages 6-10, hardbound. A boy earns a robot for chores and grades, works the sale ads at the kitchen table, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, and then meets sales tax and regards it as a personal insult. Every other children's money book teaches saving. This one teaches the part where a kid is actually standing at a register holding money.
+I wrote and illustrated Clarence Gets a Bargain. Thirty-six pages, ages 6-10, hardbound. A boy earns a robot for chores and grades, works the sale ads at the kitchen counter, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, and then meets sales tax and regards it as a personal insult. Every other children's money book teaches saving. This one teaches the part where a kid is actually standing at a register holding money.
 
 Two reasons to talk to me rather than the next local author with a tote bag.
 

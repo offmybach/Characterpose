@@ -38,7 +38,7 @@ And on page 6 there is something I have not found in any other picture book: a 5
 
 Why this belongs in your practice:
 
-**It opens the conversations you already want to have.** Hand the book to a client family and the 529 discussion starts itself at their kitchen table, on their schedule, with their kid asking the questions. You didn't pitch anything. The robot did.
+**It opens the conversations you already want to have.** Hand the book to a client family and the 529 discussion starts itself at their kitchen counter, on their schedule, with their kid asking the questions. You didn't pitch anything. The robot did.
 
 **It attaches you to the family's money story.** Branded golf balls get lost. Market-commentary emails get archived. The book that taught a client's kid about money — with your card inside the cover — sits on a shelf in that house for a decade and gets read at bedtime by the exact people whose names end up on the accounts.
 

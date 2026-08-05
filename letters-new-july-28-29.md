@@ -56,7 +56,7 @@ Lauren — a story rather than a pitch, and you can kill it in one line.
 
 I read all 25 titles on the ABA Foundation's children's financial literacy list to be sure of this: every single one teaches earning, saving, or investing. Not one teaches spending — the only money thing a seven-year-old has actually done.
 
-That is the gap I wrote into. Clarence Gets a Bargain is a 36-page picture book for grades 1-5 where a boy earns a robot and runs one complete purchase: reads the sale ads at the kitchen table, compares two models, takes the marked-down one on purpose, hands a coupon to the cashier, and gets ambushed by sales tax. His mom photographs every receipt the second she sits down in the car. Nobody in the book ever says the word "budget."
+That is the gap I wrote into. Clarence Gets a Bargain is a 36-page picture book for grades 1-5 where a boy earns a robot and runs one complete purchase: reads the sale ads at the kitchen counter, compares two models, takes the marked-down one on purpose, hands a coupon to the cashier, and gets ambushed by sales tax. His mom photographs every receipt the second she sits down in the car. Nobody in the book ever says the word "budget."
 
 Why you, and why now. Buy Side runs the gift guides and the teach-your-kid-about-money service pieces. You are a Certified Financial Health Counselor, so you will spot in a page whether the substance holds. And this is the season for it. The real angle is bigger than one book: why the entire children's money category skipped the cash register for forty years — told through the one that didn't.
 

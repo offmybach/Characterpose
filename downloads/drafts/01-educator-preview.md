@@ -54,7 +54,7 @@ The book teaches 16+ money concepts. The Big Six the curriculum hits hardest:
 
 - ***Wants vs. Needs***. Mom's first lesson — rewards vs. necessities (pages 1–3).
 - **Budgeting & Bills**. Mortgage, utilities, internet, streaming, charitable giving — Mom walks through the household budget on page 3.
-- **Comparison Shopping**. Done at the kitchen table by reading ads across multiple stores' sale flyers (pages 4–9).
+- **Comparison Shopping**. Done at the kitchen counter by reading ads across multiple stores' sale flyers (pages 4–9).
 - **Coupons & Markdowns**. Cut-outs, mail, email, texted codes, plus the in-store clearance system. The 10%-off coupon at checkout is the payoff (pages 7–8, 16–17, 22).
 - **College Savings (529)**. Mom introduces the account on page 6; Dad confirms it's funded on page 24.
 - **Consumer Awareness**. A good deal isn't a deal if you don't actually use the thing (page 25).

@@ -132,7 +132,7 @@ question**, which is what the magazine author's note already did. Now consistent
 From *The Crabby Guy's Little Book of Beach Etiquette*. Not for schools; excellent for
 librarians, booksellers and press who need to believe he can be funny.
 
-> "That hole you dug, with the diameter of my kitchen table and the depth of a World War I
+> "That hole you dug, with the diameter of my kitchen counter and the depth of a World War I
 > trench, is an open grave."
 
 > "There is a fine line between 'vacation mode' and 'public nuisance,' and you, sir, are

@@ -438,7 +438,7 @@ Professor Mahoney — you describe yourself as an applied micro-economist intere
 
 Every consumer-protection fight starts with a person in front of a price who doesn't have the information, the time, or the habit to evaluate it. That habit has to start somewhere. As far as I can tell it does not start in a classroom, because financial education arrives in ninth grade, and it does not start in children's books, because those all teach saving.
 
-So: a 36-page picture book for grades 1-5 in which a six-year-old runs a complete purchase. Sale ads at the kitchen table. Two models compared on a shelf. A markdown taken on purpose. A coupon at the register. Sales tax, which he takes as a personal insult. Nobody in the book says the word "consumer" until the glossary.
+So: a 36-page picture book for grades 1-5 in which a six-year-old runs a complete purchase. Sale ads at the kitchen counter. Two models compared on a shelf. A markdown taken on purpose. A coupon at the register. Sales tax, which he takes as a personal insult. Nobody in the book says the word "consumer" until the glossary.
 
 You are welcome to tell me this is sentimental and that price comparison at seven predicts nothing. That's a real answer and I'd rather have it than silence. But if you think there's something in it, a sentence from an economist who has actually studied consumer financial markets does more for this than a hundred nice reviews from parents.
 

@@ -280,7 +280,7 @@ Children's financial literacy has ignored that for forty years. I read all 25 ti
 
 But a six-year-old does not save. A six-year-old stands in an aisle holding five dollars, looking at a thing, deciding. That is the transaction they actually perform, and we have been teaching the other one first.
 
-So I wrote the book for the register instead of the piggy bank. A boy earns a robot, reads the sale ad at the kitchen table, compares two models on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, and then meets sales tax for the first time and takes it personally. Thirty-six pages, grades 1-5, and the classroom teacher materials behind it is free and ungated.
+So I wrote the book for the register instead of the piggy bank. A boy earns a robot, reads the sale ad at the kitchen counter, compares two models on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, and then meets sales tax for the first time and takes it personally. Thirty-six pages, grades 1-5, and the classroom teacher materials behind it is free and ungated.
 
 Wally Luckeydoo, Ed.D., endorsed it. He was named 2026 EIFLE Educator of the Year and took the Jump$tart Corey Carlisle Award the same year, which suggests he was not being polite.
 

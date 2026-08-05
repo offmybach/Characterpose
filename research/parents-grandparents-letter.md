@@ -28,7 +28,7 @@ Every author wants their book read. I want mine read out loud.
 
 *Clarence Gets a Bargain* carries a reading level of Lexile AD 620L. The AD stands for "Adult Directed" — the book industry's own label for a book meant to be read WITH a child, not handed to one. That code isn't an accident. I built the book for the couch, not the corner.
 
-Here's why. In the story, Clarence doesn't learn about money from a worksheet; he learns it from his mom — at the kitchen table, in the car, in the middle of Aisle Five. Read the book to your kid and you're not describing that scene. You're in it.
+Here's why. In the story, Clarence doesn't learn about money from a worksheet; he learns it from his mom — at the kitchen counter, in the car, in the middle of Aisle Five. Read the book to your kid and you're not describing that scene. You're in it.
 
 And the interruptions will come. "Do we have a 529?" "Why do you take pictures of receipts?" "Can I hand the cashier the coupon next time?" "Is the internet a need or a want?" A kid alone in the corner reads a robot story and moves on. A kid pressed against your shoulder reads the same story and starts an argument about whether Wi-Fi counts as shelter. You want that argument. That argument is the whole product; the robot is just the delivery vehicle.
 

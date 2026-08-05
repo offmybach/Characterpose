@@ -493,7 +493,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *Financial Well-Being Expert: Financial Well-Being Manager at Credit Union 1 · 1st-degree · DM*
 
 ```
-Michael — Credit Union 1's community work reaches families directly, which is where a read-along earns its keep. The free family activity was built for a kitchen table, not a classroom. Fit? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Michael — Credit Union 1's community work reaches families directly, which is where a read-along earns its keep. The free family activity was built for a kitchen counter, not a classroom. Fit? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
@@ -655,7 +655,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *Financial Wellness Director · 2nd-degree · InMail*
 
 ```
-Peyton — as a financial wellness director you decide what reaches families. Mine is a K-5 read-along with a free family activity built for a kitchen table rather than a classroom. Fit? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Peyton — as a financial wellness director you decide what reaches families. Mine is a K-5 read-along with a free family activity built for a kitchen counter rather than a classroom. Fit? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
@@ -1214,7 +1214,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *Community Engagement Director @ National Financial Educators Council (NFEC) | Florida Financial Educators · 1st-degree · DM*
 
 ```
-Claudia — community engagement at NFEC puts you in front of real families. Mine is a K-5 read-along with a free family activity built for a kitchen table rather than a classroom. Fit your outreach? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Claudia — community engagement at NFEC puts you in front of real families. Mine is a K-5 read-along with a free family activity built for a kitchen counter rather than a classroom. Fit your outreach? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```

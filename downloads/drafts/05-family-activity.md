@@ -30,7 +30,7 @@ Mom handed Clarence a stack of newspapers and told him he had homework: figure o
 - Did you expect that store to win? Why?
 - What might make the *more expensive* one worth buying anyway?
 
-**Why it matters:** This is comparison shopping. Clarence did it at the kitchen table before he ever left the house.
+**Why it matters:** This is comparison shopping. Clarence did it at the kitchen counter before he ever left the house.
 
 ---
 
@@ -115,8 +115,8 @@ After dinner, whenever anyone in Clarence's family scored a great deal that day,
 
 ## A Note for Parents
 
-You don't have to be a finance person to do any of this. Clarence's mom wasn't a finance person — she was a parent at a kitchen table with a stack of ads. The point isn't to drill kids on definitions. The point is to make money a normal thing to talk about. Once it's normal, the lessons stick.
+You don't have to be a finance person to do any of this. Clarence's mom wasn't a finance person — she was a parent at a kitchen counter with a stack of ads. The point isn't to drill kids on definitions. The point is to make money a normal thing to talk about. Once it's normal, the lessons stick.
 
-The book is the assist. The kitchen table is the classroom.
+The book is the assist. The kitchen counter is the classroom.
 
 **Want more?** Free discussion prompts, lesson plans, and printable worksheets at clarencegetsabargain.com/educator-toolkit.

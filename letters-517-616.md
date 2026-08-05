@@ -92,7 +92,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *Director, Family Governance & Education · 1st-degree · DM*
 
 ```
-Emily — family governance and education, plus the AFC, means you bridge money and teaching. Mine is K-5, teaching the transaction itself, and the family activity was built for a kitchen table rather than a boardroom. Fit the families you work with? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Emily — family governance and education, plus the AFC, means you bridge money and teaching. Mine is K-5, teaching the transaction itself, and the family activity was built for a kitchen counter rather than a boardroom. Fit the families you work with? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
@@ -254,7 +254,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *Technology Partnerships & Project Coordination | Public Sector & Community Initiatives | Cross-Functional · 1st-degree · DM*
 
 ```
-Duanda — public-sector and community partnerships puts you close to families. Mine is K-5 with a free family activity built for a kitchen table. Fit a program you touch? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Duanda — public-sector and community partnerships puts you close to families. Mine is K-5 with a free family activity built for a kitchen counter. Fit a program you touch? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
@@ -639,7 +639,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *Program Specialist at Idaho Department of Finance · 1st-degree · DM*
 
 ```
-Kellie — the Idaho Department of Finance reaches consumers directly. Mine is a K-5 book teaching the complete purchase, with a free family activity built for a kitchen table. Fit any consumer or school program the department runs? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Kellie — the Idaho Department of Finance reaches consumers directly. Mine is a K-5 book teaching the complete purchase, with a free family activity built for a kitchen counter. Fit any consumer or school program the department runs? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
@@ -765,7 +765,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *0 Secretary; Secretary of the Puerto Rico Department of Treasury · 1st-degree · DM*
 
 ```
-Secretary Pantoja — Treasury reaches families across Puerto Rico. Mine is a K-5 book teaching the complete purchase, with free ungated materials and a family activity built for a kitchen table. Fit any program the department runs? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Secretary Pantoja — Treasury reaches families across Puerto Rico. Mine is a K-5 book teaching the complete purchase, with free ungated materials and a family activity built for a kitchen counter. Fit any program the department runs? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```

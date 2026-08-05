@@ -75,9 +75,9 @@ The reason I keep pushing on the elementary end, and it sits close to what your 
 
 Teaching a child only to save is advice that assumes surplus. A child who can compare two prices and choose deliberately has a skill that pays on a Saturday, in the household as it actually is. That distinction matters more, not less, for the families your programs are built around.
 
-The book follows one purchase the whole way — the sale ads at the kitchen table, two models compared on a shelf, the marked-down one taken on purpose, a coupon at the register, sales tax, and living with the choice. Sixteen-plus concepts and nobody in it says the word "budget." A twenty-one-term glossary in the back, each entry page-referenced to the scene it came from, so a kid looking something up lands in the story rather than a definition list.
+The book follows one purchase the whole way — the sale ads at the kitchen counter, two models compared on a shelf, the marked-down one taken on purpose, a coupon at the register, sales tax, and living with the choice. Sixteen-plus concepts and nobody in it says the word "budget." A twenty-one-term glossary in the back, each entry page-referenced to the scene it came from, so a kid looking something up lands in the story rather than a definition list.
 
-It reads aloud in one class period. It's catalogued Lexile AD 620L — Adult Directed — so a teacher with no finance background can run it cold, and the same book works at a kitchen table.
+It reads aloud in one class period. It's catalogued Lexile AD 620L — Adult Directed — so a teacher with no finance background can run it cold, and the same book works at a kitchen counter.
 
 Two ways this could be useful to you, and you'd know which if either:
 1. A pilot in a handful of Title I elementary buildings, with the pre/post instrument already written.

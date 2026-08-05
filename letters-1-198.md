@@ -321,7 +321,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *1st-degree · DM*
 
 ```
-Kim — you cover retail. Mine is a six-year-old's first walk through one. Circular at the kitchen table, find the aisle, compare two models, hand a coupon to a cashier, then discover sales tax the hard way. Retail from four feet up, with a robot. Story, or a colleague who'd want it? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Kim — you cover retail. Mine is a six-year-old's first walk through one. Circular at the kitchen counter, find the aisle, compare two models, hand a coupon to a cashier, then discover sales tax the hard way. Retail from four feet up, with a robot. Story, or a colleague who'd want it? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
@@ -421,7 +421,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *1st-degree · DM*
 
 ```
-Saskia — Promise Academy is deliberate about what earns classroom time, which is the right instinct. Mine teaches the complete purchase, sales tax included, and the family activity was built for a kitchen table. Classrooms or family programming — or neither? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Saskia — Promise Academy is deliberate about what earns classroom time, which is the right instinct. Mine teaches the complete purchase, sales tax included, and the family activity was built for a kitchen counter. Classrooms or family programming — or neither? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
@@ -782,7 +782,7 @@ Eva — I'm trying to find the right person at the Bureau to ask whether the Mon
 *Director of Outreach and Community Engagement - Washington State Treasurer · 1st-degree · DM*
 
 ```
-Jesse — the Treasurer's outreach reaches families directly, which is where a read-along does its best work. Mine teaches spending through one purchase, and the free family activity was built for a kitchen table rather than a classroom. Fit for a Washington program? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Jesse — the Treasurer's outreach reaches families directly, which is where a read-along does its best work. Mine teaches spending through one purchase, and the free family activity was built for a kitchen counter rather than a classroom. Fit for a Washington program? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
@@ -1176,7 +1176,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *Financial Wellness Partner; Financial Wellness Partner | Financial Educator | Author of Building Your Fut · 1st-degree · DM*
 
 ```
-Tonia — an author and financial wellness partner meets families where money gets real. Mine teaches a six-year-old the complete purchase, and the free family activity was built for a kitchen table. Fit the families you work with? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Tonia — an author and financial wellness partner meets families where money gets real. Mine teaches a six-year-old the complete purchase, and the free family activity was built for a kitchen counter. Fit the families you work with? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```

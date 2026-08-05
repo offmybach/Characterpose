@@ -130,7 +130,7 @@ Briana — congratulations on the National Outstanding Assistant Principal award
 
 You're the Eastern Shore rep for MAESP and I'm down that way half the year — Rehoboth — so Greensboro is practically the commute.
 
-I wrote and illustrated a K-5 book about the money thing nobody writes about. Every other kids' money book teaches saving. Piggy banks, jars, be patient. Mine teaches a purchase: a boy earns a robot, works the sale inserts at the kitchen table, compares two on a shelf, takes the cheaper one deliberately, hands a coupon to the cashier, and discovers sales tax the way we all did, which is badly and in public.
+I wrote and illustrated a K-5 book about the money thing nobody writes about. Every other kids' money book teaches saving. Piggy banks, jars, be patient. Mine teaches a purchase: a boy earns a robot, works the sale inserts at the kitchen counter, compares two on a shelf, takes the cheaper one deliberately, hands a coupon to the cashier, and discovers sales tax the way we all did, which is badly and in public.
 
 Qualifications, such as they are: I'm a title attorney who draws robots, and I have paid one cent at the same Nordstrom Rack twice — a $293 pair of shoes and a $69.50 shirt. I kept both tags. My kid comes by it honestly.
 

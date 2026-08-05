@@ -51,7 +51,7 @@ parent standing right there sweating the total.
 Nobody put THAT in a story. So I did.
 
 *Clarence Gets a Bargain* (ages 6–10) follows one robot-obsessed kid through a single
-purchase, start to finish: reading the sale ads at the kitchen table, comparing models in
+purchase, start to finish: reading the sale ads at the kitchen counter, comparing models in
 the aisle, finding a marked-down one, handing a coupon to the cashier, and — the part
 every other book skips — watching sales tax land on the total at the end. Real math. Exact
 dollars. One very determined kid.
@@ -93,7 +93,7 @@ account — usually on a Saturday, at a register, with a parent right there swea
 Nobody put THAT in a story. So I did.
 
 *Clarence Gets a Bargain* (grades 1–5) walks one robot-obsessed kid through a single
-purchase, start to finish: sale ads at the kitchen table, comparison shopping in the aisle,
+purchase, start to finish: sale ads at the kitchen counter, comparison shopping in the aisle,
 a clearance markdown, a coupon at the register, and — the part every other book skips —
 sales tax on the total at the end. Real math. Exact dollars. One very determined kid.
 
@@ -135,7 +135,7 @@ usually on a Saturday, at a register, with a parent right there sweating the tot
 Nobody put THAT in a story. So I did.
 
 *Clarence Gets a Bargain* (ages 6–10) follows one robot-obsessed kid through a single
-purchase, start to finish: reading the sale ads at the kitchen table, comparing models in
+purchase, start to finish: reading the sale ads at the kitchen counter, comparing models in
 the aisle, finding a marked-down one, handing a coupon to the cashier, and — the part
 every other book skips — watching sales tax land on the total at the end. Real math. Exact
 dollars. One very determined kid.
@@ -227,7 +227,7 @@ with a parent standing right there sweating the total.
 Nobody put THAT in a story. So I did.
 
 *Clarence Gets a Bargain* (ages 6–10) follows one robot-obsessed kid through a single
-purchase, start to finish: reading the sale ads at the kitchen table, comparing models in
+purchase, start to finish: reading the sale ads at the kitchen counter, comparing models in
 the aisle, finding a marked-down one, handing a coupon to the cashier, and — the part
 every other book skips — watching sales tax land on the total at the end. Real math.
 Exact dollars. One very determined kid.

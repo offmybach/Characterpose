@@ -27,7 +27,7 @@ Mia — you've sat in all three chairs, which almost nobody in this field has. Y
 
 Which makes you exactly the person I want to tell me I'm wrong.
 
-I wrote a K-5 picture book that leaves saving out entirely. It teaches spending — a six-year-old reads the sale ad at the kitchen table, compares two robots on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, then meets sales tax for the first time and takes it personally. It's built against FDIC Money Smart for Young People and four other frameworks, which felt like the right neighborhood given where you've worked.
+I wrote a K-5 picture book that leaves saving out entirely. It teaches spending — a six-year-old reads the sale ad at the kitchen counter, compares two robots on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, then meets sales tax for the first time and takes it personally. It's built against FDIC Money Smart for Young People and four other frameworks, which felt like the right neighborhood given where you've worked.
 
 The premise is that spending competence comes before saving competence, and the whole category has the sequence backwards. Do I have research behind that? No. I have thirty-six pages and an argument. Which is precisely why I'd rather hear it from you than keep saying it out loud at conferences.
 

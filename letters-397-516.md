@@ -23,7 +23,7 @@ All first-degree. Free DMs, no InMail credits, no character cap.
 *1st-degree · DM*
 
 ```
-Jennifer — Harlem Children's Zone is deliberate about what earns a kid's time. Mine teaches the complete purchase, sales tax included, and the family activity was built for a kitchen table rather than a classroom. Fit your programming, or your development conversations? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Jennifer — Harlem Children's Zone is deliberate about what earns a kid's time. Mine teaches the complete purchase, sales tax included, and the family activity was built for a kitchen counter rather than a classroom. Fit your programming, or your development conversations? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
@@ -675,7 +675,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *Financial Educator & Community Advocate; 👉 Helping You Transform Your Financial Future | Financial Litera · 1st-degree · DM*
 
 ```
-Dalia — a financial educator and community advocate meets families where money gets real. Mine teaches a six-year-old the complete purchase, and the free family activity was built for a kitchen table. Fit your community? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Dalia — a financial educator and community advocate meets families where money gets real. Mine teaches a six-year-old the complete purchase, and the free family activity was built for a kitchen counter. Fit your community? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
@@ -882,7 +882,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *AVP, Community Education Officer | Public Speaker | Empowering Others Through Financial Education & Outre · 1st-degree · DM*
 
 ```
-Miria — as a community education officer you decide what reaches families. Mine is a K-5 read-along with a free family activity built for a kitchen table. Fit your outreach? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Miria — as a community education officer you decide what reaches families. Mine is a K-5 read-along with a free family activity built for a kitchen counter. Fit your outreach? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
@@ -927,7 +927,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *Financial Literacy Facilitator; Financial Empowerment Facilitator at Momentum · 1st-degree · DM*
 
 ```
-Rae-Lynn — you sit across from people at the exact moment money gets real. Mine is K-5 with a free family activity built for a kitchen table rather than a classroom. Fit the families you work with? It's catalogued Lexile AD 620L — AD for Adult Directed, the trade's own code for a book read WITH a kid, not handed to one. Mom explains everything on the page, so the grown-up reading aloud gets handed the script. Twenty minutes, interrupted the whole way, and the interruptions are the point. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Rae-Lynn — you sit across from people at the exact moment money gets real. Mine is K-5 with a free family activity built for a kitchen counter rather than a classroom. Fit the families you work with? It's catalogued Lexile AD 620L — AD for Adult Directed, the trade's own code for a book read WITH a kid, not handed to one. Mom explains everything on the page, so the grown-up reading aloud gets handed the script. Twenty minutes, interrupted the whole way, and the interruptions are the point. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```

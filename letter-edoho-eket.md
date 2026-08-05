@@ -29,7 +29,7 @@ Dr. Edoho-Eket — congratulations on the ISTE+ASCD 20 to Watch. What stuck with
 
 Those five-year-olds are my entire readership.
 
-I wrote and illustrated a K-5 picture book that leaves saving out completely. It teaches spending, because that's the only money thing a six-year-old actually does. He reads the sale ad at the kitchen table, compares two robots on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, and then meets sales tax for the first time and takes it personally.
+I wrote and illustrated a K-5 picture book that leaves saving out completely. It teaches spending, because that's the only money thing a six-year-old actually does. He reads the sale ad at the kitchen counter, compares two robots on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, and then meets sales tax for the first time and takes it personally.
 
 Two reasons I think it belongs in your world rather than a bookstore's.
 
