@@ -4,7 +4,7 @@
 
 ## The skinny
 
-Mia Baytop Russell, MBA, PhD, AFC. The LinkedIn headline badly undersells her, which is why my scoring buried her at 446. She is Senior Lecturer at Johns Hopkins Center for Leadership Education and Director of the Clark Scholars Program. Before that she led the Money Smart financial wellness team at University of Maryland Extension, and before that she was Program Lead and VP for Financial Education and Youth Financial Health Philanthropy at the Wells Fargo Foundation. 25+ years across public and private. Her stated focus right now is youth financial education. She is Baltimore-based, so you are neighbours.
+Mia Baytop Russell, MBA, PhD, AFC. The LinkedIn headline badly undersells her, which is why my scoring buried her at 446. She is Senior Lecturer at Johns Hopkins Center for Leadership Education and Director of the Clark Scholars Program. Before that she led the Money Smart financial wellness team at University of Maryland Extension, and before that she was Program Lead and VP for Financial Education and Youth Financial Health Philanthropy at the Wells Fargo Foundation. 25+ years across public and private. Her stated focus right now is youth financial education. She is Baltimore-based, so you are neighbors.
 
 Four hooks, all verifiable: she ran Money Smart and your book is built against FDIC Money Smart; youth financial education is her actual research area, not a side interest; she has sat on the funding side, which matters if the grant packet ever comes up; and Hopkins is down the road from you. She is 2nd-degree, so it is a connection request first, then the longer note.
 

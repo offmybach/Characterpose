@@ -51,7 +51,7 @@ Nordstrom Rack, **same store — 077**. Photographed tag on file.
 
 | Field | Value |
 |---|---|
-| Item | "RB" hangtag · colour **PINE** |
+| Item | "RB" hangtag · color **PINE** |
 | Size | X-LARGE |
 | Original | **$69.50** |
 | **Paid** | **$.01** |
@@ -132,7 +132,7 @@ blur the barcode strips.** Keep everything the story needs and nothing it does n
 | Keep | Remove |
 |---|---|
 | Brand and item (Mephisto Sano · RB) | Barcode strips, both the printed number and the bars |
-| Size, colour | Store number 077 |
+| Size, color | Store number 077 |
 | Compare at $293 · $199.97 · $69.50 | |
 | **$.01** and **"99% Savings"** | |
 

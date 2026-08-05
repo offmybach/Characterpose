@@ -595,7 +595,7 @@ It also gives the boardwalk shirt its punchline. The shirt says PREVENT BOARDWAL
 
 > "One skipped airbrush t-shirt covers it, with change."
 
-**The Cross-Examination** — the attorney register, fully realised, and the single funniest
+**The Cross-Examination** — the attorney register, fully realized, and the single funniest
 thing in the project:
 > "I'm an attorney. On vacation, that mostly means the souvenirs get cross-examined.
 >

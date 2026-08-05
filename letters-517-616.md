@@ -810,7 +810,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *Real Estate Acquisitions Intern / Ember holdings · 1st-degree · DM*
 
 ```
-César — real estate acquisitions and financial literacy is a combination I recognise; I came out of title law myself. Mine is a K-5 book teaching the complete purchase. Fit the people you reach? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+César — real estate acquisitions and financial literacy is a combination I recognize; I came out of title law myself. Mine is a K-5 book teaching the complete purchase. Fit the people you reach? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```

@@ -117,7 +117,7 @@ Guess the Price — after dinner, one person shares something they bought that d
 
 The book itself is catalogued Lexile AD 620L — Adult Directed — which is the trade's way of saying it only works with a grown-up in the room, so the games and the book are built on the same idea: a grandparent and a grandchild, doing something together.
 
-Both are already built as a free one-page printable, and it is live now: clarencegetsabargain.com/resources/grandparents-day-games-print.html. There is no book cover on it, no price, and no purchase link — a grandparent can print it and use it having never heard of me. Scorecards for both games are on the sheet. If you want it in the Do Something Grand look instead, send me the colours and I will rebuild it in a day and hand it over. Everything else on my site for teachers and families is already free and ungated, no email capture and no account, and this is the same.
+Both are already built as a free one-page printable, and it is live now: clarencegetsabargain.com/resources/grandparents-day-games-print.html. There is no book cover on it, no price, and no purchase link — a grandparent can print it and use it having never heard of me. Scorecards for both games are on the sheet. If you want it in the Do Something Grand look instead, send me the colors and I will rebuild it in a day and hand it over. Everything else on my site for teachers and families is already free and ungated, no email capture and no account, and this is the same.
 
 Two questions. Is a submitted activity something the campaign takes from outside, and if so who should I send the draft to? And separately, is there interest in a short piece on why grandparents are the right people to teach the spending half of money — they're the last group who remember layaway and clipping coupons as a survival skill rather than a hobby.
 
@@ -143,7 +143,7 @@ clarencegetsabargain.com/resources/grandparents-day-games-print.html
 
 One page, prints from a browser. The Grocery Savings Hunt with a scorecard, Guess the Price with a scorecard, and a short note for the grandparent on why they're the right person to run it. No book cover, no price, no purchase link — anybody can print it having never heard of me.
 
-Yours to use, post, or ignore. If you want it in the Do Something Grand colours instead, send them over and I'll rebuild it in a day.
+Yours to use, post, or ignore. If you want it in the Do Something Grand colors instead, send them over and I'll rebuild it in a day.
 
 Jonathan Bach
 questions@clarencegetsabargain.com

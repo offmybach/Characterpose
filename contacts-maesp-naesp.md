@@ -79,7 +79,7 @@ executives. Two other routes:
 **She came out of early childhood.** NAEYC is the early childhood body, and her
 work there was developmentally appropriate practice. That is the exact argument
 your book rests on: that spending competence comes before saving competence
-developmentally. She will either recognise that framing immediately or tell you
+developmentally. She will either recognize that framing immediately or tell you
 it is wrong, and both are useful.
 
 **She has a Maryland MBA.** Robert H. Smith is College Park. That is not a deep

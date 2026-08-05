@@ -51,7 +51,7 @@ Here is the pitch in one line: every children's money book teaches saving, and s
 
 So I wrote the spending one. Clarence Gets a Bargain follows a single purchase the entire way — a boy wants a robot, earns it with chores and grades, reads the newspaper sale inserts at the kitchen counter, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, gets ambushed by sales tax, and then lives with the thing he bought. Idea to post-receipt. Name another picture book where the kid reads the sale ads before the trip, compares models in the aisle, hands over a coupon, and pays the sales tax. I read all 25 titles on the ABA Foundation's list looking for one. They are all parked on the earning-and-saving side of the register.
 
-Sixteen-plus concepts are in there and none of them are announced. Nobody says the word "budget." They don't realise they've been schooled until they hit the glossary — twenty-one terms in the back, each page-referenced to the moment it actually happened. That's where the con comes apart, on purpose.
+Sixteen-plus concepts are in there and none of them are announced. Nobody says the word "budget." They don't realize they've been schooled until they hit the glossary — twenty-one terms in the back, each page-referenced to the moment it actually happened. That's where the con comes apart, on purpose.
 
 The segment worth doing has nothing to do with my book. It's the forty-year hole: why an entire publishing category skipped the cash register. There is a Planet Money episode in that whether or not mine is the book that gets mentioned.
 
@@ -620,7 +620,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 ```
 Stacey — you design and produce books for other authors, which makes you one of very few people I can ask this without getting a polite answer: does mine look like it was made by someone who knew what he was doing?
 
-I wrote and illustrated a 36-page hardbound picture book, full colour, 11 by 8.5. I am a mixed-media artist and a real estate attorney, which is a combination that gets me neither the benefit of the doubt on the art nor on the commercial sense. I did the interior, the cover, the whole object.
+I wrote and illustrated a 36-page hardbound picture book, full color, 11 by 8.5. I am a mixed-media artist and a real estate attorney, which is a combination that gets me neither the benefit of the doubt on the art nor on the commercial sense. I did the interior, the cover, the whole object.
 
 The content, briefly, because you'll want to know whether it's worth the production critique. Every children's money book teaches saving. Mine teaches spending, on the argument that saving is the second thing a child does with money and spending is the first. It follows one purchase from the idea to after the receipt — sale ads, comparison, a markdown, a coupon, sales tax, then living with what was bought. Sixteen-plus concepts, none announced; twenty-one terms in a glossary in the back, each page-referenced to the scene it came from.
 
@@ -628,7 +628,7 @@ What I'd actually value from you is the unglamorous part: trim size, the cover, 
 
 And the read-aloud is why I asked about typography at distance rather than at arm's length. It is Lexile AD 620L — Adult Directed — so the object gets held up by an adult with a kid beside them, or a class in front of them, looking at it from three or four feet. If the interior does not hold at that distance the whole use case fails, and that is a production question rather than a content one.
 
-Paid engagement or a favour returned, whichever you prefer. https://heyzine.com/flip-book/eeb1ef6cff.html
+Paid engagement or a favor returned, whichever you prefer. https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 

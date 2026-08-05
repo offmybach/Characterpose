@@ -157,7 +157,7 @@ Clarence Gets a Bargain is a 36-page picture book, ages 6–10, following one ki
 
 The collection case, with the qualifier a librarian will appreciate: most money picture books cover earning or saving. To my knowledge this is the first narrative picture book for this age band that traces the whole consumer arc, wish through receipt. It fills a hole rather than adding a fourth piggy-bank book to the shelf.
 
-Cataloguing: ISBN 979-8-234-07638-0 · LCCN 2026906164 · hardbound, case bound, full colour, 11×8.5″ · Est. Lexile AD 620L, Guided Reading L–N · $19.99. The AD is Adult Directed, which makes it a storytime title and a family take-home at once. Every fact on one page: clarencegetsabargain.com/book-facts.html
+Cataloguing: ISBN 979-8-234-07638-0 · LCCN 2026906164 · hardbound, case bound, full color, 11×8.5″ · Est. Lexile AD 620L, Guided Reading L–N · $19.99. The AD is Adult Directed, which makes it a storytime title and a family take-home at once. Every fact on one page: clarencegetsabargain.com/book-facts.html
 
 Programming is built and free — printable price tags and clearance stickers for a pretend store, a browser-based register kids run themselves, a five-question quiz with a printable certificate. A storytime plus the pretend store is a complete event with no prep budget.
 
@@ -202,7 +202,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *CEO, Center for Financial Social Work*
 
 ```
-Reeta — financial social work starts from the position that behaviour comes before information, which is why I'm writing to you rather than to a curriculum office.
+Reeta — financial social work starts from the position that behavior comes before information, which is why I'm writing to you rather than to a curriculum office.
 
 Children's financial education is almost entirely information, delivered as saving. Save your pennies, wait, be patient. But saving is the second thing a child does with money. The first is spending, and a first grader has done it — at a register, with a parent standing right there, deciding on feeling and no framework.
 
@@ -212,7 +212,7 @@ Clarence Gets a Bargain follows one purchase the whole distance — the sale ads
 
 Catalogued Lexile AD 620L — Adult Directed — so the adult reading it gets handed the script and doesn't have to be the one who already knows about money. That was the design constraint that mattered most: it has to work in a house where nobody feels qualified to teach it.
 
-Does behaviour-first thinking reach down to six and seven in your field, or does the work start later? Everything behind the book is free and ungated either way.
+Does behavior-first thinking reach down to six and seven in your field, or does the work start later? Everything behind the book is free and ungated either way.
 
 clarencegetsabargain.com/educator-toolkit.html
 
@@ -375,7 +375,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 ```
 Therese — a founder-to-founder note about the age band almost everyone in this space skips.
 
-Financial products and programs for young people start at teenagers, sometimes at first jobs. The behaviours they're built to correct were installed years earlier, in a store, with a parent saying no. And the education that exists for children is saving — which is the second thing a person does with money. The first is spending, and a first grader has already done it.
+Financial products and programs for young people start at teenagers, sometimes at first jobs. The behaviors they're built to correct were installed years earlier, in a store, with a parent saying no. And the education that exists for children is saving — which is the second thing a person does with money. The first is spending, and a first grader has already done it.
 
 I wrote the spending book. Clarence Gets a Bargain, ages 6–10, follows one complete purchase the whole way, from the idea to after the receipt: sale ads at the kitchen counter, comparison on a shelf, a markdown taken on purpose, a coupon at the register, sales tax, and living with the choice. Sixteen-plus concepts, none announced, and a twenty-one-term glossary page-referenced back into the story.
 

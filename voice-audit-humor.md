@@ -175,7 +175,7 @@ only the first survived. Recording all three so the two dead ones do not get re-
 `educator-toolkit.html` URL, which must never be touched**, and **189 in prose**. All 189
 replaced across 160 letters with six rotating variants — teacher pack, classroom pack, lesson
 set, teacher materials, classroom materials, teaching pack — assigned per letter, so each
-letter is internally consistent and no two neighbours match. URLs verified still at 111. One
+letter is internally consistent and no two neighbors match. URLs verified still at 111. One
 awkward join ("educator teaching pack") cleaned up after a spot check.
 
 **2. Put the one-cent tags in more letters — MY REASONING WAS WRONG. See below.**

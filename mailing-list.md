@@ -1,6 +1,6 @@
 # Who gets a physical book
 
-A picture book is a physical object. Hardbound, full colour, 11 x 8.5. A flipbook link
+A picture book is a physical object. Hardbound, full color, 11 x 8.5. A flipbook link
 cannot carry that, and the people below all judge books partly by holding them.
 
 Cost is roughly **$25 a copy** landed, book plus media mail. The whole list below is

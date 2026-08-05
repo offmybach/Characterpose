@@ -138,7 +138,7 @@ one is about month eighteen, with the parent absent.
 > **"A trunk is a budget you can see. 'Room for everything' is never one of the options."**
 > "…**reading orange stickers like they owe him money.**"
 
-**The cross-examination — the attorney register, fully realised:**
+**The cross-examination — the attorney register, fully realized:**
 > "THE HERMIT CRAB. Who watches it and feeds it when we go away for the holidays?… And in
 > two weeks, when it dies — **and buddy, it will** — is it worth the tears?
 > **THE RULING. A purchase isn't over when you pay.**"
@@ -222,7 +222,7 @@ and it goes in exactly as he says it, never rounded.
 
 **He had autonomy and no adult.** Nobody was standing behind him at the counter. That is the
 whole difference from a grocery-store story, and it is why this maps onto adult money
-behaviour rather than childhood obedience.
+behavior rather than childhood obedience.
 
 **It is a run-rate failure, which is what adults actually get wrong.** He did not overspend
 once. He overspent at a steady, cheerful, unexamined pace until the money ended before the

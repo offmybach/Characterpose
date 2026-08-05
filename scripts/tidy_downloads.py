@@ -14,7 +14,7 @@ From a terminal, if you prefer:
     python tidy_downloads.py --go --downloads "D:/Stuff/Downloads"
 
 Safe to run as often as you like. It never deletes, never overwrites, and never
-touches a file it doesn't recognise as a CGB file.
+touches a file it doesn't recognize as a CGB file.
 """
 import argparse, os, re, shutil, sys
 from pathlib import Path

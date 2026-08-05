@@ -110,7 +110,7 @@ Amanda — Planet Money's whole trick is that people will sit still for an econo
 
 Every children's money book teaches earning or saving. All 25 on the ABA Foundation's list — I read them to be sure. A piggy bank, a lemonade stand, a lesson. Not one covers the cash register. Forty years of piggy banks and not one of them has ever been to a store. Saving is the second thing a child does with money; spending is the first, and the register is the only place a child has ever actually handled any.
 
-Mine does. A boy wants a robot, earns it with chores and grades, reads the newspaper sale inserts at the kitchen counter, compares two models on a shelf, takes the cheaper one deliberately, hands a coupon to the cashier, gets ambushed by sales tax, and then lives with what he bought. Idea to post-receipt. Sixteen-plus concepts and nobody in the book says the word "budget." They do not realise they have been schooled until they hit the glossary in the back — twenty-one terms, each page-referenced to the moment it happened. That is where the con comes apart, on purpose. It is catalogued AD 620L — Adult Directed — which is the trade's way of saying it only works out loud, with somebody interrupting.
+Mine does. A boy wants a robot, earns it with chores and grades, reads the newspaper sale inserts at the kitchen counter, compares two models on a shelf, takes the cheaper one deliberately, hands a coupon to the cashier, gets ambushed by sales tax, and then lives with what he bought. Idea to post-receipt. Sixteen-plus concepts and nobody in the book says the word "budget." They do not realize they have been schooled until they hit the glossary in the back — twenty-one terms, each page-referenced to the moment it happened. That is where the con comes apart, on purpose. It is catalogued AD 620L — Adult Directed — which is the trade's way of saying it only works out loud, with somebody interrupting.
 
 The numbers on the other side are absurd and nobody has ever put a microphone on them. Twelve hundred arcade tickets for a rubber slinky is an exchange rate that would embarrass a currency trader, and the kid making that trade has no idea he is trading.
 
@@ -187,7 +187,7 @@ Every children's book on the shelf teaches saving. Piggy banks, jars, patience. 
 
 Clarence Gets a Bargain follows one purchase the whole way — earning the reward through chores and grades, working the sale ads at the kitchen counter, comparing two models on a shelf, taking the cheaper one on purpose, handing over a coupon, meeting sales tax, and then living with what was bought. Idea to post-receipt. And on page 6 there is something I have not found in any other picture book: a 529 plan. In the plot. Explained by a mom, eye-rolled at by a kid, and defended by a dad two scenes later.
 
-Sixteen-plus concepts and nobody says "budget." A twenty-one-term glossary in the back, page-referenced to the story. Catalogued Lexile AD 620L — Adult Directed — so it is a read-with, and the conversation happens during the reading rather than after it. The category's own defence is that money is a serious subject. It is. So is getting fleeced in an aisle at the age of seven.
+Sixteen-plus concepts and nobody says "budget." A twenty-one-term glossary in the back, page-referenced to the story. Catalogued Lexile AD 620L — Adult Directed — so it is a read-with, and the conversation happens during the reading rather than after it. The category's own defense is that money is a serious subject. It is. So is getting fleeced in an aisle at the age of seven.
 
 A card is magic; a five-dollar bill is arithmetic. Children now grow up almost entirely inside the first one, which removed the only feedback loop they had.
 
@@ -262,7 +262,7 @@ Every children's money book teaches saving. Piggy banks, lemonade stands, jars. 
 
 The category skipped that for forty years. The arcade did not. A claw machine takes $25 to hand back a basketball that Walmart sells for $9.99, and the kid has no price memory to defend himself with. Once a kid has seen the $9.99, the claw loses its grip.
 
-So I wrote the spending book. Clarence Gets a Bargain, ages 6–10: a boy earns a robot with chores and grades, reads the sale inserts at the kitchen counter, compares two models on a shelf, takes the cheaper one on purpose, hands over a coupon, meets sales tax, and then lives with the thing he picked. Idea to post-receipt; sixteen-plus concepts, none of them announced. Twenty-one terms in a glossary at the back, each page-referenced to where it happened. Catalogued AD 620L — Adult Directed — twenty minutes out loud, interrupted the whole way. The category's own defence is that money is a serious subject. It is. So is getting fleeced in an aisle at the age of seven.
+So I wrote the spending book. Clarence Gets a Bargain, ages 6–10: a boy earns a robot with chores and grades, reads the sale inserts at the kitchen counter, compares two models on a shelf, takes the cheaper one on purpose, hands over a coupon, meets sales tax, and then lives with the thing he picked. Idea to post-receipt; sixteen-plus concepts, none of them announced. Twenty-one terms in a glossary at the back, each page-referenced to where it happened. Catalogued AD 620L — Adult Directed — twenty minutes out loud, interrupted the whole way. The category's own defense is that money is a serious subject. It is. So is getting fleeced in an aisle at the age of seven.
 
 I am an attorney and a mixed-media artist, and I have twice walked out of the same Nordstrom Rack having paid one cent — once for a $293 pair of shoes, once for a $69.50 shirt. I kept both tags. It makes for a good visual if you ever want one on screen.
 
@@ -642,7 +642,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 ```
 Dave — Wisconsin has run a state financial-literacy office longer than most states have had a requirement, so you have seen more of these come and go than almost anyone. I would like a read on one assumption.
 
-Every mandate in the country lands in high school. Thirty of them now. Money habits are largely set by seven, which puts the policy about a decade behind the behaviour. Underneath that sits the belief that children should learn saving first. Saving is the second thing a person does with money; the first is spending — and a first grader has done it, at a register, with a parent right there.
+Every mandate in the country lands in high school. Thirty of them now. Money habits are largely set by seven, which puts the policy about a decade behind the behavior. Underneath that sits the belief that children should learn saving first. Saving is the second thing a person does with money; the first is spending — and a first grader has done it, at a register, with a parent right there.
 
 I built the K–5 piece rather than an argument about it. A 36-page picture book that follows one complete purchase: the sale ads at the kitchen counter, comparison on a shelf, a markdown taken deliberately, a coupon at the register, sales tax, and then living with what was bought. Sixteen-plus concepts, none announced — nobody in the book says the word "budget." A twenty-one-term glossary in the back, each entry page-referenced to the scene it came from. We are very good at teaching this to people who have already made the mistake.
 
@@ -847,7 +847,7 @@ The content premise: every children's money book teaches saving, and saving is t
 
 Why I am writing to development rather than to a classroom: this is unusually easy to fund. A bank or credit union sponsoring a classroom set gets its name on every book that goes home to a family in its assessment area, the curriculum costs the sponsor nothing because it is already free, and I have a CRA-ready memo written in examiner-friendly language. A funder can point at 25 books, one classroom, and a pre/post instrument. And because it is catalogued AD 620L — Adult Directed — it doubles as family engagement: the same book works at a kitchen counter with a parent or a grandparent reading.
 
-Is a sponsored classroom set something HCZ's funders would recognise, or does everything need to attach to an existing program line?
+Is a sponsored classroom set something HCZ's funders would recognize, or does everything need to attach to an existing program line?
 
 clarencegetsabargain.com/resources/grant-in-a-box.html
 
@@ -893,7 +893,7 @@ Clarence Gets a Bargain is a 36-page picture book, ages 6–10, that follows one
 
 The collection case, with the qualifier a librarian will appreciate: most money picture books cover earning or saving. To my knowledge this is the first narrative picture book for this age band that traces the whole consumer arc, wish through receipt. It fills a hole rather than adding a fourth piggy-bank book to the shelf.
 
-Cataloguing: ISBN 979-8-234-07638-0 · LCCN 2026906164 · hardbound, case bound, full colour, 11×8.5″ · Est. Lexile AD 620L, Guided Reading L–N · $19.99. The AD is Adult Directed, which makes it a storytime title and a family take-home at the same time. Every fact is on one page: clarencegetsabargain.com/book-facts.html
+Cataloguing: ISBN 979-8-234-07638-0 · LCCN 2026906164 · hardbound, case bound, full color, 11×8.5″ · Est. Lexile AD 620L, Guided Reading L–N · $19.99. The AD is Adult Directed, which makes it a storytime title and a family take-home at the same time. Every fact is on one page: clarencegetsabargain.com/book-facts.html
 
 Programming is already built and free — printable price tags and clearance stickers for a pretend store, a browser-based register kids run themselves, a five-question quiz with a printable certificate. A storytime plus the pretend store is a complete Money Smart Week event with no prep budget.
 
@@ -916,7 +916,7 @@ Clarence Gets a Bargain is a 36-page picture book, ages 6–10, following one ki
 
 The case for the shelf: nearly every money picture book teaches earning or saving, which is the second thing a child does with money. Spending is the first. To my knowledge this is the first narrative picture book for this band that follows the whole consumer arc, wish through receipt. The back matter carries a twenty-one-term glossary in which every definition cites the page where the term happens in the story, so a child looking something up lands in a scene rather than a definition list. If a money lesson looks like school, it gets filed under school and read at school speed.
 
-Cataloguing: ISBN 979-8-234-07638-0 · LCCN 2026906164 · hardbound, case bound, full colour, 11×8.5″ · Est. Lexile AD 620L, Guided Reading L–N · $19.99. Full record at clarencegetsabargain.com/book-facts.html. The AD in that Lexile stands for Adult Directed, so it does double duty as a read-aloud title and a take-home.
+Cataloguing: ISBN 979-8-234-07638-0 · LCCN 2026906164 · hardbound, case bound, full color, 11×8.5″ · Est. Lexile AD 620L, Guided Reading L–N · $19.99. Full record at clarencegetsabargain.com/book-facts.html. The AD in that Lexile stands for Adult Directed, so it does double duty as a read-aloud title and a take-home.
 
 Programming, already built and free: printable price tags and clearance stickers for a pretend store, a browser-based Sea-Mart register children operate themselves with a markdown, a coupon and sales tax, and a quiz with a printable certificate. No prep budget required for a Financial Literacy Month or Money Smart Week event.
 
