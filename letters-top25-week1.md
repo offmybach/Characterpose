@@ -620,11 +620,11 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 ```
 Stacey — you design and produce books for other authors, which makes you one of very few people I can ask this without getting a polite answer: does mine look like it was made by someone who knew what he was doing?
 
-I wrote and illustrated a 36-page hardbound picture book, full color, 11 by 8.5. I am a mixed-media artist and a real estate attorney, which is a combination that gets me neither the benefit of the doubt on the art nor on the commercial sense. I did the interior, the cover, the whole object.
+I wrote and illustrated a 36-page hardbound picture book, full color, 11 by 8.5 — already printed and on sale, not a proof or a manuscript. I am a mixed-media artist and a real estate attorney, which is a combination that gets me neither the benefit of the doubt on the art nor on the commercial sense. I did the interior, the cover, the whole object, by hand.
 
 The content, briefly, because you'll want to know whether it's worth the production critique. Every children's money book teaches saving. Mine teaches spending, on the argument that saving is the second thing a child does with money and spending is the first. It follows one purchase from the idea to after the receipt — sale ads, comparison, a markdown, a coupon, sales tax, then living with what was bought. Sixteen-plus concepts, none announced; twenty-one terms in a glossary in the back, each page-referenced to the scene it came from.
 
-What I'd actually value from you is the unglamorous part: trim size, the cover, whether the interior typography holds at read-aloud distance, whether the object reads as professionally published or as a very determined amateur. I would rather hear it from you now than infer it from a bookseller later.
+What I'd actually value from you is the unglamorous part: trim size, the cover, whether the interior typography holds at read-aloud distance, whether the object reads as professionally published or as a very determined amateur. It's already out, so this is for whatever I make next rather than a fix on this one — I'd still rather hear it straight from you than guess.
 
 And the read-aloud is why I asked about typography at distance rather than at arm's length. It is Lexile AD 620L — Adult Directed — so the object gets held up by an adult with a kid beside them, or a class in front of them, looking at it from three or four feet. If the interior does not hold at that distance the whole use case fails, and that is a production question rather than a content one.
 
