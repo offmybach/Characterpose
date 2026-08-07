@@ -409,7 +409,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 **Subject:** `The decision that comes before the ones you measure`
 
 ```
-Professor Lusardi — you built the field's measurement instruments, founded GFLEC, and started the journal the field publishes in. So you have better reason than almost anyone to tell me I'm wrong, which is why I'm writing rather than sending a press release.
+Professor Lusardi — you built the field's measurement instruments, founded GFLEC, and started the journal the field publishes in. So you have better reason than almost anyone to tell me I'm wrong, which is why I'm writing rather than sending a press release. The book is already printed and on sale, so I'm asking for your verdict, not your edits.
 
 The claim: financial literacy work, including most of what gets measured, begins with saving, compounding, and risk. Those are the right things to measure in adults. But they are all downstream of one decision a child makes years earlier and nobody scores — standing in front of two prices and picking one.
 

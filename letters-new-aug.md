@@ -22,7 +22,7 @@ spending-first argument sequences second. **Lead with respect and mean it** — 
 line does all the work here. Get this wrong and it reads as a challenge from a stranger.
 
 ```
-Stephen — you wrote Teach a Kid to Save and you run a center for economic education, which makes you the person most likely to tell me my premise is wrong, and the person I'd most rather hear it from.
+Stephen — you wrote Teach a Kid to Save and you run a center for economic education, which makes you the person most likely to tell me my premise is wrong, and the person I'd most rather hear it from. Mine's already written, illustrated, printed and on sale, so I'm after your verdict, not notes before press.
 
 The premise, stated plainly so you can take a swing at it: saving is the second thing a child does with money. The first is spending. A first grader has no savings rate — she has stood at a register holding money and had to choose. My only argument with your book is about order, not content. Teach that moment first and everything Teach a Kid to Save preaches lands harder, because a kid who understands what money buys finally has a reason to keep some.
 

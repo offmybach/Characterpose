@@ -91,6 +91,15 @@ own code for read-*with*. It is in all 749 letters.
 **The five pillars are in every letter:** spending-first · smuggled · glossary · read-along ·
 idea-to-post-receipt. Verified per letter, not in aggregate.
 
+**New rule, 7 Aug — published status.** Any letter that invites an expert to "tell me if my
+premise is wrong" reads, absent a signal otherwise, like the book is still a manuscript.
+Recipients started replying with editorial notes "before print." **Every letter that asks
+someone to challenge the premise must also say, plainly, that the book is already written,
+illustrated, printed and on sale** — one short clause is enough. Fixed in the 10 letters that
+had it (Iris Park, Neale Godfrey, Rishi, Lusardi ×2, Mia Russell, Stephen Day, Ashley
+Whittaker, Talaya Scott, Bonner msg 2) across both the source files and `SEND-QUEUE.md`. Check
+for this on every new "swing at my premise" letter going forward.
+
 **Two deliberate exceptions, recorded in the files so nobody "fixes" them:**
 1. Morgenson states spending-first in her own better words, not the stock phrasing.
 2. The Generations United letter stays a **donation** of two free games, not a pitch.

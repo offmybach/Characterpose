@@ -383,7 +383,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *UW–Madison — the group that selected the CFPB Bookshelf titles · 1st-degree*
 
 ```
-Iris — you were part of the group that chose the titles on the Money as You Grow Bookshelf, so you have read this category more carefully than almost anyone, and you will know immediately whether my premise is wrong.
+Iris — you were part of the group that chose the titles on the Money as You Grow Bookshelf, so you have read this category more carefully than almost anyone, and you will know immediately whether my premise is wrong. The book's already illustrated, printed, and selling, so I'm asking for a verdict, not a revision.
 
 The shelf, as it stands, leans toward saving and earning. Spending is thin, and the transaction itself is thinner — the part where a child stands in front of two prices and picks one. Saving is the second thing a person does with money; spending is the first, and it gets taught last or not at all.
 

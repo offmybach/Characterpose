@@ -79,6 +79,8 @@ The book follows one purchase the whole way — the sale ads at the kitchen coun
 
 It reads aloud in one class period. It's catalogued Lexile AD 620L — Adult Directed — so a teacher with no finance background can run it cold, and the same book works at a kitchen counter.
 
+The book's already written, illustrated, printed and on sale, so neither ask below is about changing it — just about where it could go next.
+
 Two ways this could be useful to you, and you'd know which if either:
 1. A pilot in a handful of Title I elementary buildings, with the pre/post instrument already written.
 2. A pointer to whoever at MSDE would tell me I'm wrong.

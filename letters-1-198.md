@@ -1113,7 +1113,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *COO & Co-Founder | Accountant | Published Author | Professor | Speaker · 1st-degree · DM*
 
 ```
-Talaya — accountant, professor, author: three angles on one question. Mine is whether a picture book can teach sales tax straight without boring a six-year-old. I think it can. Would you tell me if I'm wrong? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Talaya — accountant, professor, author: three angles on one question. Mine is whether a picture book can teach sales tax straight without boring a six-year-old. I think it can, and it's already printed and on sale either way. Would you tell me if I'm wrong? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```

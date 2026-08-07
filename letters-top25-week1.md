@@ -235,7 +235,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *Built the kids-and-money category · NYT #1 bestseller · 1st-degree*
 
 ```
-Neale — you built this category. Money Doesn't Grow on Trees was on the shelf before most of the people currently writing in it could read, so I'm not going to pretend I'm doing something you haven't thought about.
+Neale — you built this category. Money Doesn't Grow on Trees was on the shelf before most of the people currently writing in it could read, so I'm not going to pretend I'm doing something you haven't thought about. Mine is already written, illustrated, printed and selling — $19.99, 36 pages — so what I want from you is a verdict, not notes for a rewrite.
 
 What I think is still open is the sequence. The field starts children with saving, and saving is the second thing a person does with money. The first is spending. A six-year-old has no savings rate. She has stood in a store holding money and decided. We teach that last.
 
@@ -412,7 +412,7 @@ Jonathan
 *Easy Peasy Finance · passed the CFP exam at 16 · CBS, Kiplinger · 1st-degree*
 
 ```
-Rishi — you passed the CFP exam at sixteen, which means you learned this material at an age when the rest of us were being told to save our allowance, so you are unusually well placed to tell me whether my premise is nonsense.
+Rishi — you passed the CFP exam at sixteen, which means you learned this material at an age when the rest of us were being told to save our allowance, so you are unusually well placed to tell me whether my premise is nonsense. It's already printed and on sale, so I'm after your verdict, not a pre-press edit.
 
 The premise: financial education for children starts with saving, and the sequence is backwards. Saving is the second thing a person does with money. The first is spending. A six-year-old has no savings rate and has definitely stood in a store holding money, deciding.
 
@@ -491,7 +491,7 @@ Jonathan
 **Tier B — dry wit only. No bit. She is the most cited person in the field.**
 
 ```
-Professor Lusardi — you built the instruments the field measures itself with, so you have better grounds than anyone to tell me my premise is wrong. That is the reason I'm writing rather than sending a press release.
+Professor Lusardi — you built the instruments the field measures itself with, so you have better grounds than anyone to tell me my premise is wrong. That is the reason I'm writing rather than sending a press release. The book's already in print and selling, so consider this a request for your verdict rather than your edits.
 
 The premise. Financial literacy is measured, sensibly, on saving, compounding and risk. Those are the right things to measure in adults. But each of them is downstream of a decision a child makes years earlier that nobody scores: standing in front of two prices and picking one. Spending is the first financial behavior a person performs. It is taught last, or not at all.
 

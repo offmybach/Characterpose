@@ -93,7 +93,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 - [ ] sent
 
 ```
-Stephen — you wrote Teach a Kid to Save and you run a center for economic education, which makes you the person most likely to tell me my premise is wrong, and the person I'd most rather hear it from.
+Stephen — you wrote Teach a Kid to Save and you run a center for economic education, which makes you the person most likely to tell me my premise is wrong, and the person I'd most rather hear it from. Mine's already written, illustrated, printed and on sale, so I'm after your verdict, not notes before press.
 
 The premise, stated plainly so you can take a swing at it: saving is the second thing a child does with money. The first is spending. A first grader has no savings rate — she has stood at a register holding money and had to choose. My only argument with your book is about order, not content. Teach that moment first and everything Teach a Kid to Save preaches lands harder, because a kid who understands what money buys finally has a reason to keep some.
 
@@ -777,7 +777,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 - [ ] sent
 
 ```
-Rishi — you passed the CFP exam at sixteen, which means you learned this material at an age when the rest of us were being told to save our allowance, so you are unusually well placed to tell me whether my premise is nonsense.
+Rishi — you passed the CFP exam at sixteen, which means you learned this material at an age when the rest of us were being told to save our allowance, so you are unusually well placed to tell me whether my premise is nonsense. It's already printed and on sale, so I'm after your verdict, not a pre-press edit.
 
 The premise: financial education for children starts with saving, and the sequence is backwards. Saving is the second thing a person does with money. The first is spending. A six-year-old has no savings rate and has definitely stood in a store holding money, deciding.
 
@@ -929,7 +929,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 - [ ] sent
 
 ```
-Neale — you built this category. Money Doesn't Grow on Trees was on the shelf before most of the people currently writing in it could read, so I'm not going to pretend I'm doing something you haven't thought about.
+Neale — you built this category. Money Doesn't Grow on Trees was on the shelf before most of the people currently writing in it could read, so I'm not going to pretend I'm doing something you haven't thought about. Mine is already written, illustrated, printed and selling — $19.99, 36 pages — so what I want from you is a verdict, not notes for a rewrite.
 
 What I think is still open is the sequence. The field starts children with saving, and saving is the second thing a person does with money. The first is spending. A six-year-old has no savings rate. She has stood in a store holding money and decided. We teach that last.
 
@@ -1203,7 +1203,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 - [ ] sent
 
 ```
-Professor Lusardi — you built the instruments the field measures itself with, so you have better grounds than anyone to tell me my premise is wrong. That is the reason I'm writing rather than sending a press release.
+Professor Lusardi — you built the instruments the field measures itself with, so you have better grounds than anyone to tell me my premise is wrong. That is the reason I'm writing rather than sending a press release. The book's already in print and selling, so consider this a request for your verdict rather than your edits.
 
 The premise. Financial literacy is measured, sensibly, on saving, compounding and risk. Those are the right things to measure in adults. But each of them is downstream of a decision a child makes years earlier that nobody scores: standing in front of two prices and picking one. Spending is the first financial behavior a person performs. It is taught last, or not at all.
 
@@ -1917,7 +1917,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 - [ ] sent
 
 ```
-Iris — you were part of the group that chose the titles on the Money as You Grow Bookshelf, so you have read this category more carefully than almost anyone, and you will know immediately whether my premise is wrong.
+Iris — you were part of the group that chose the titles on the Money as You Grow Bookshelf, so you have read this category more carefully than almost anyone, and you will know immediately whether my premise is wrong. The book's already illustrated, printed, and selling, so I'm asking for a verdict, not a revision.
 
 The shelf, as it stands, leans toward saving and earning. Spending is thin, and the transaction itself is thinner — the part where a child stands in front of two prices and picks one. Saving is the second thing a person does with money; spending is the first, and it gets taught last or not at all.
 

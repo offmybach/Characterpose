@@ -25,7 +25,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 ```
 Mia — you've sat in all three chairs, which almost nobody in this field has. You ran the Money Smart team at Maryland Extension. You decided what got funded as VP for youth financial health philanthropy at Wells Fargo. Now you teach it at Hopkins. Practitioner, funder, academic, in that order.
 
-Which makes you exactly the person I want to tell me I'm wrong.
+Which makes you exactly the person I want to tell me I'm wrong. It's already written, illustrated, printed and on sale, so your verdict shapes what I write next, not this one.
 
 I wrote a K-5 picture book that leaves saving out entirely. It teaches spending — a six-year-old reads the sale ad at the kitchen counter, compares two robots on a shelf, takes the marked-down one on purpose, hands a coupon to the cashier, then meets sales tax for the first time and takes it personally. It's built against FDIC Money Smart for Young People and four other frameworks, which felt like the right neighborhood given where you've worked.
 

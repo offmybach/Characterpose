@@ -576,7 +576,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *Certified Financial Educator · 1st-degree · DM*
 
 ```
-Ashley — as a Certified Financial Educator you'll spot a thin premise instantly. Mine: spending is the first money skill a kid uses and no picture book is built around it. Point families toward it, or tell me I'm wrong? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Ashley — as a Certified Financial Educator you'll spot a thin premise instantly. Mine: spending is the first money skill a kid uses and no picture book is built around it. It's already printed and on sale, so point families toward it, or tell me I'm wrong? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
