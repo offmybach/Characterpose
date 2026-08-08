@@ -615,7 +615,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ## 23. Stacey J. Aaronson — 92
 *Book designer, editor, publishing partner · author of "Raising, and Losing, My Remarkable Teenaged Son" · 1st-degree*
-**Worth knowing:** she is a production person. Given the AI-cover accusation, her read on the art and the object is separately useful.
+**Worth knowing:** she is a production person, and the object/production read is what's useful here — not the art opinion.
 
 ```
 Stacey — you design and produce books for other authors, which makes you one of very few people I can ask this without getting a polite answer: does mine look like it was made by someone who knew what he was doing?

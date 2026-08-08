@@ -74,23 +74,27 @@ as AI-generated. And the published-status gap isn't theoretical; it produced exa
 ```
 Stacey,
 
-That's a useful read, and it's direct instead of polite — which is exactly what I asked for.
+Appreciate the direct read.
 
-One thing I should've said in the first message and didn't: the book's already published — hardbound, printed, on sale now. Not a manuscript, not a proof. So "before you publish" doesn't quite apply here; whatever comes out of this is for the next one, not a chance to fix this one before it ships. That's on me for not saying so up front.
+One thing I should've said upfront: the book's already published — hardbound, printed, on sale now. Not a manuscript, not a proof. So "before you publish" doesn't quite apply; anything here is for whatever comes next, not a fix on this one.
 
-On the art — it's not AI. I did every page myself, mixed media, by hand. Worth knowing a professional eye reads it that way at a glance regardless, because other people will too. I'm taking that one seriously.
+The dialogue-in-a-box note and the typography-at-distance question are fair, and now they're on record.
 
-The dialogue-in-a-box note and the typography-at-distance question are both fair, and now they're on record for whatever I write next.
-
-Thanks for taking the time on it.
+Thanks for the time on it.
 
 Jonathan
 
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-**Why it's shaped this way:** thanks first, correct the two factual gaps (published status,
-AI art) without arguing the subjective calls (dialogue formatting, whether to hire a
-designer), and close the loop instead of opening a sales conversation — she pitched her
-own services at the end of her note; this reply doesn't take the bait either way, which
+**Why it's shaped this way:** thanks first, correct the one factual gap that mattered
+(published status) without arguing the subjective calls (dialogue formatting, whether to
+hire a designer), and close the loop instead of opening a sales conversation — she pitched
+her own services at the end of her note; this reply doesn't take the bait either way, which
 leaves it open without committing to anything.
+
+**Ruling, 7 Aug 2026 — the AI-art comment is closed.** Jonathan: *"IDGAF what people say
+about my illustrations and ai."* The art stays as-is. No reply defends it, no future letter
+hedges on it, and no audit flags the "AI-cover accusation" note in `letters-top25-week1.md`
+§23 as something to fix or track. It is not being raised a third time. The reply below was
+trimmed to drop the art paragraph entirely — it corrects the published-status fact only.
