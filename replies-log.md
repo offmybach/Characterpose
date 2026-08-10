@@ -78,7 +78,7 @@ Appreciate the direct read.
 
 One thing I should've said upfront: the book's already published — hardbound, printed, on sale now. Not a manuscript, not a proof. So "before you publish" doesn't quite apply; anything here is for whatever comes next, not a fix on this one.
 
-Also worth knowing: a professional graphic designer built the speech boxes, fonts and layout, and two veteran teachers plus my agent worked the manuscript edits before it went to print. So it's not unreviewed — your read's just a different call than theirs, which happens.
+Also worth knowing: a professional graphic designer built the speech boxes, fonts and layout, and two veteran teachers plus my agent worked the manuscript edits before it went to print. So it's not unreviewed — your read's just a different call than theirs, which happens. And I appreciate all the constructive criticism that I can get!
 
 Thanks for the time on it.
 
