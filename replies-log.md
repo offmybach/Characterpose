@@ -99,6 +99,45 @@ hire a designer), and close the loop instead of opening a sales conversation —
 her own services at the end of her note; this reply doesn't take the bait either way, which
 leaves it open without committing to anything.
 
+---
+
+## 2. Flora Teo — 7 Aug 2026
+
+**What she was replying to:** the letter in `letters-whales-longform.md` §27 (Junior
+Achievement of Alaska — President), which closes on a direct question — "Does a read-aloud
+fit how JA Alaska builds a volunteer session, or does everything have to run through
+national curriculum?" — and a link to the educator toolkit.
+
+**Her reply, in full:**
+
+```
+Thank you for your email, I have to say you are well suited in your endeavours as a
+writer - this is a great intro email!
+```
+
+**What it is:** a warm reaction to the letter itself, not an answer to the question it
+asked. No fact to correct here — just a thread that needs the actual ask put back in front
+of her.
+
+### The reply sent
+
+```
+Flora — that's kind of you to say, thank you.
+
+Circling back to the actual question, since I buried it at the end: does a read-aloud fit how JA Alaska runs a volunteer session, or does material have to go through national curriculum first? Happy to work around whichever it is.
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+**Why it's shaped this way:** short, takes the compliment without dwelling on it, and gets
+the one open question back in front of her — that's the only thing this reply needs to do.
+The P.S. is optional here; this is a live thread, not a cold pitch, so dropping it doesn't
+break the voice.
+
+---
+
 **Ruling, 7 Aug 2026 — the AI-art comment is closed.** Jonathan: *"IDGAF what people say
 about my illustrations and ai."* The art stays as-is. No reply defends it, no future letter
 hedges on it, and no audit flags the "AI-cover accusation" note in `letters-top25-week1.md`
