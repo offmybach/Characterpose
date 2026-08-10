@@ -78,7 +78,7 @@ Appreciate the direct read.
 
 One thing I should've said upfront: the book's already published — hardbound, printed, on sale now. Not a manuscript, not a proof. So "before you publish" doesn't quite apply; anything here is for whatever comes next, not a fix on this one.
 
-The dialogue-in-a-box note and the typography-at-distance question are fair, and now they're on record.
+Also worth knowing: a professional graphic designer built the speech boxes, fonts and layout, and two veteran teachers plus my agent worked the manuscript edits before it went to print. So it's not unreviewed — your read's just a different call than theirs, which happens.
 
 Thanks for the time on it.
 
@@ -86,6 +86,12 @@ Jonathan
 
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
+
+**Why the design/editorial credential made the cut and the art defense didn't:** the design
+and editorial note corrects a factual assumption she stated as fact ("pay a book designer,"
+"some professional attention") — one line, not a list, not defensive. The art question was a
+taste opinion Jonathan already closed by ruling; re-litigating taste is a different move than
+correcting a fact, and only the fact belongs in the reply.
 
 **Why it's shaped this way:** thanks first, correct the one factual gap that mattered
 (published status) without arguing the subjective calls (dialogue formatting, whether to
