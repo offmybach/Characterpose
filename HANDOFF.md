@@ -131,12 +131,18 @@ Four promises were made in them:
 |---|---|---|
 | **DeeDee Moore** (More Than Grand) | "I'll mail you a hardback this week" | address unknown — **send 7a**, then mail with card 8a |
 | **Generations United** | a free printable | ✅ **built** — send letter **3b** |
-| **Ron Lieber** (NYT) | a copy if useful | wait for reply |
+| **Ron Lieber** (NYT) | a copy if useful | wait for reply — see live-threads table below |
 | **Greg** (Cool Grandpa) | a copy either way | address unknown — **send 7b**, then mail with card 8b |
 
 Neither DeeDee nor Greg ever gave a mailing address — both were email/form contact only.
 Sections 7 and 8 of `letters-grandparents-readalong.md` are the short address-request notes
 and the enclosure cards to tuck in with each book once an address comes back.
+
+### ⏳ Live threads — waiting, do not follow up early
+| Who | Where it stands | Next move |
+|---|---|---|
+| **Flora Teo** (JA Alaska, whale #27) | Out recovering from surgery until after 15 Aug. Wants to loop her team on how the book fits and how JA Alaska could help. Replied 7 Aug 2026. | Wait. She's coming back to this on her own — don't check in before the 15th. Full thread in `replies-log.md` §2. |
+| **Ron Lieber** (NYT) | Sent a copy, offered "if useful." | wait for reply |
 
 **Letter 3b** is the GU follow-up. It is a *delivery*, not a nudge — the printable now exists
 at `resources/grandparents-day-games-print.html`. Send 2–4 days after the first.

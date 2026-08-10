@@ -108,33 +108,31 @@ Achievement of Alaska — President), which closes on a direct question — "Doe
 fit how JA Alaska builds a volunteer session, or does everything have to run through
 national curriculum?" — and a link to the educator toolkit.
 
-**Her reply, in full:**
+**Her reply, in full (corrected — first pass only had the opening compliment):** she
+called the letter well-suited and a great intro, said she's recovering from surgery and
+out until after 15 Aug, and will get back to him then — she wants to discuss with her team
+how the book might be used and how JA could help in Alaska.
 
-```
-Thank you for your email, I have to say you are well suited in your endeavours as a
-writer - this is a great intro email!
-```
-
-**What it is:** a warm reaction to the letter itself, not an answer to the question it
-asked. No fact to correct here — just a thread that needs the actual ask put back in front
-of her.
+**What it is:** a real, substantive answer, not a content-free compliment. She already
+volunteered exactly what the letter asked for — team discussion on fit and on JA Alaska's
+possible role. Nothing to re-ask. The only live variable is her health and a return date.
 
 ### The reply sent
 
 ```
-Flora — that's kind of you to say, thank you.
+Flora — thank you, and take your time. Surgery comes first; JA Alaska will still be there on the 16th.
 
-Circling back to the actual question, since I buried it at the end: does a read-aloud fit how JA Alaska runs a volunteer session, or does material have to go through national curriculum first? Happy to work around whichever it is.
+Whenever you and your team sit down to talk it over, everything's already free and ready to look at — no forms, no login: clarencegetsabargain.com/educator-toolkit.html. Happy to jump on a call or send anything specific once you're back.
+
+Wishing you a fast recovery.
 
 Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-**Why it's shaped this way:** short, takes the compliment without dwelling on it, and gets
-the one open question back in front of her — that's the only thing this reply needs to do.
-The P.S. is optional here; this is a live thread, not a cold pitch, so dropping it doesn't
-break the voice.
+**Why it's shaped this way:** no push, no follow-up question — she already gave the answer
+the original letter asked for. The only job left is to make the wait easy and put the
+toolkit link where her team can find it without her having to dig it up. No P.S. here; the
+em-dash joke doesn't belong next to a recovery wish.
 
 ---
 
