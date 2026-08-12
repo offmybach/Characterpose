@@ -7,26 +7,43 @@
 <meta name="description" content="A children's book that secretly teaches financial literacy. Budgeting, comparison shopping, coupon math — disguised as a story about a kid and a robot. Ages 6–10. Educator approved.">
 <meta name="keywords" content="children's book, financial literacy, kids money skills, edutainment, Clarence Gets a Bargain, Jonathan Bach, kids budgeting, comparison shopping, ages 6-10, elementary school, financial literacy for kids, money lessons for kids, wants vs needs, saving spending sharing, teach kids money, educational picture book, life skills for kids, classroom ready, kids and money">
 <meta name="author" content="Jonathan Bach">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta property="og:title" content="Clarence Gets a Bargain — A Money Book Kids Actually Read">
 <meta property="og:description" content="We snuck a financial education into a story about a kid and a robot. Budgeting, comparison shopping, coupon math — disguised as adventure. Ages 6–10. Aligned to Jump$tart National Standards.">
 <meta property="og:type" content="book">
 <meta property="og:site_name" content="Clarence Gets a Bargain">
+<meta property="og:url" content="https://www.clarencegetsabargain.com/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://www.clarencegetsabargain.com/images/clarence-og-card.jpg">
+<meta property="og:image:secure_url" content="https://www.clarencegetsabargain.com/images/clarence-og-card.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Clarence Gets a Bargain - Kids Financial Literacy Book by Jonathan Bach">
 <meta property="book:author" content="Jonathan Bach">
+<meta property="book:release_date" content="2026-01-01">
 <meta property="book:tag" content="financial literacy">
 <meta property="book:tag" content="children's book">
+<meta property="book:tag" content="picture book">
+<meta property="book:tag" content="ages 6-10">
+<meta property="book:tag" content="grades 1-5">
+<meta property="og:book:author" content="Jonathan Bach">
+<meta property="og:book:isbn" content="9798234076380">
+<meta property="og:book:release_date" content="2026-01-01">
+<meta property="og:price:amount" content="19.99">
+<meta property="og:price:currency" content="USD">
+<meta property="og:availability" content="instock">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@clarencegetsabargain">
+<meta name="twitter:creator" content="@JonathanBach">
 <meta name="twitter:title" content="Clarence Gets a Bargain — A Money Book Kids Actually Read">
 <meta name="twitter:description" content="We hid a financial education inside a robot story. Kids haven't noticed. Budgeting, coupons, smart shopping. Ages 6–10. ★★★★★">
 <meta name="twitter:image" content="https://www.clarencegetsabargain.com/images/clarence-og-card.jpg">
 <meta name="twitter:image:alt" content="Clarence Gets a Bargain book cover - a children's financial literacy picture book">
-<meta property="og:image" content="https://www.clarencegetsabargain.com/images/clarence-og-card.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Clarence Gets a Bargain - Kids Financial Literacy Book by Jonathan Bach">
-<meta property="og:url" content="https://www.clarencegetsabargain.com/">
-<meta property="og:locale" content="en_US">
-<meta property="book:release_date" content="2026">
+<meta name="twitter:label1" content="Written by">
+<meta name="twitter:data1" content="Jonathan Bach">
+<meta name="twitter:label2" content="Est. read-aloud">
+<meta name="twitter:data2" content="12 minutes">
 <link rel="canonical" href="https://www.clarencegetsabargain.com/">
 <meta name="theme-color" content="#0054a6">
 <meta name="format-detection" content="telephone=no">
@@ -531,14 +548,16 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Book",
+      "@type": ["Product", "Book"],
       "@id": "https://www.clarencegetsabargain.com/#book",
       "name": "Clarence Gets a Bargain",
       "alternateName": "Clarence Gets a Bargain: A Kids Financial Literacy Book",
       "author": {"@id": "https://www.clarencegetsabargain.com/#author"},
-      "publisher": {"@type": "Organization", "name": "Kids Money Book Publishing"},
+      "publisher": {"@id": "https://www.clarencegetsabargain.com/#publisher"},
+      "brand": {"@id": "https://www.clarencegetsabargain.com/#publisher"},
       "description": "A children's book teaching financial literacy through adventure. Clarence earns a robot reward for good grades and chores, then learns budgeting, comparison shopping, markdowns, and coupons on a trip to Sea-Mart. Ages 6-10.",
-      "genre": ["Children's Literature", "Financial Literacy", "Edutainment"],
+      "image": ["https://www.clarencegetsabargain.com/images/frontcover.jpg", "https://www.clarencegetsabargain.com/images/clarence-og-card.jpg"],
+      "genre": ["Children's Literature", "Juvenile Nonfiction", "Financial Literacy", "Money", "Edutainment", "Picture Books"],
       "inLanguage": "en",
       "audience": {
         "@type": "EducationalAudience",
@@ -548,9 +567,24 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
         "suggestedMaxAge": 10
       },
       "typicalAgeRange": "6-10",
+      "educationalLevel": ["Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5"],
       "numberOfPages": 36,
       "bookFormat": "https://schema.org/Hardcover",
+      "isbn": "9798234076380",
+      "sku": "9798234076380",
+      "gtin13": "9798234076380",
       "datePublished": "2026-01-01",
+      "about": [
+        {"@type": "Thing", "name": "Financial literacy for children"},
+        {"@type": "Thing", "name": "Budgeting"},
+        {"@type": "Thing", "name": "Comparison shopping"},
+        {"@type": "Thing", "name": "Wants versus needs"},
+        {"@type": "Thing", "name": "Coupons and markdowns"},
+        {"@type": "Thing", "name": "529 college savings"},
+        {"@type": "Thing", "name": "Consumer awareness"}
+      ],
+      "keywords": "children's financial literacy, picture book, money lessons, budgeting for kids, comparison shopping, wants vs needs, coupons, clearance, K-5, ages 6-10, Jump$tart, Common Core, classroom curriculum",
+      "sameAs": ["https://www.wikidata.org/wiki/Q140147222"],
       "educationalAlignment": [
         {"@type": "AlignmentObject", "alignmentType": "educationalFramework", "targetName": "Jump$tart National Standards for K-12 Personal Finance Education"},
         {"@type": "AlignmentObject", "alignmentType": "educationalFramework", "targetName": "Common Core State Standards (CCSS)"},
@@ -563,8 +597,19 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
         "@type": "Offer",
         "price": "19.99",
         "priceCurrency": "USD",
+        "priceValidUntil": "2026-12-31",
         "availability": "https://schema.org/InStock",
-        "url": "https://www.clarencegetsabargain.com/#buy"
+        "itemCondition": "https://schema.org/NewCondition",
+        "url": "https://www.clarencegetsabargain.com/#buy",
+        "seller": {"@id": "https://www.clarencegetsabargain.com/#publisher"}
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "reviewCount": "4",
+        "ratingCount": "4"
       },
       "review": [
         {
@@ -584,7 +629,24 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
           "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
           "author": {"@type": "Person", "name": "Josie K.", "jobTitle": "Student, Age 10"},
           "reviewBody": "This book was really interesting and fun to read! It taught me how to get sales to save money, which made me feel more grown-up and smart. My favorite part was learning that small decisions, like saving a little at a time, can make a big difference later. I would recommend this book to other kids who want to learn about money in a fun and simple way!"
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "author": {"@type": "Person", "name": "Richard N.", "jobTitle": "Parent"},
+          "reviewBody": "Clarence Gets a Bargain is a bargain at twice the price! Heartfelt and educational, this is a wonderful story about everyday life and how even children can learn the importance of navigating an often-expensive world. With easy-to-follow prose, this book is loaded with awesome artwork which also helps guide us through. Great stuff!"
         }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.clarencegetsabargain.com/#publisher",
+      "name": "Kids Money Book Publishing",
+      "url": "https://www.clarencegetsabargain.com/",
+      "logo": "https://www.clarencegetsabargain.com/images/frontcover.jpg",
+      "founder": {"@id": "https://www.clarencegetsabargain.com/#author"},
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61589717578254"
       ]
     },
     {
@@ -594,7 +656,56 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       "jobTitle": ["Author", "Illustrator", "Attorney"],
       "description": "Attorney, mixed-media artist, and children's book author. Creator of Clarence Gets a Bargain, a financial literacy picture book for ages 6-10.",
       "url": "https://www.clarencegetsabargain.com/",
-      "sameAs": []
+      "knowsAbout": [
+        "Children's financial literacy",
+        "Picture books for ages 6-10",
+        "Budgeting for kids",
+        "Comparison shopping",
+        "Wants versus needs",
+        "Jump$tart National Standards",
+        "Common Core State Standards"
+      ],
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q140147043",
+        "https://www.facebook.com/jonathan.bach.2025/",
+        "https://www.linkedin.com/in/jonathan-bach-joat/"
+      ]
+    },
+    {
+      "@type": "Course",
+      "@id": "https://www.clarencegetsabargain.com/educator-toolkit.html#course",
+      "name": "Clarence Gets a Bargain — Financial Literacy Curriculum",
+      "description": "Four 45-minute lessons that teach budgeting, comparison shopping, coupons, and Wants vs. Needs using the picture book Clarence Gets a Bargain. Designed for grades 1-5. Zero prep.",
+      "provider": {"@id": "https://www.clarencegetsabargain.com/#publisher"},
+      "url": "https://www.clarencegetsabargain.com/educator-toolkit.html",
+      "educationalLevel": "Grades 1-5",
+      "teaches": [
+        "Budgeting",
+        "Comparison shopping",
+        "Coupons and markdowns",
+        "Wants versus needs",
+        "Sales tax",
+        "529 college savings",
+        "Consumer awareness"
+      ],
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "audience": {"@type": "EducationalAudience", "educationalRole": "teacher"},
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "in-person",
+        "courseWorkload": "PT3H",
+        "instructor": {
+          "@type": "Person",
+          "name": "Maryann Milewski Moskal",
+          "jobTitle": "Veteran Elementary School Educator, 30+ Years"
+        }
+      },
+      "educationalAlignment": [
+        {"@type": "AlignmentObject", "alignmentType": "educationalFramework", "targetName": "Jump$tart National Standards for K-12 Personal Finance Education"},
+        {"@type": "AlignmentObject", "alignmentType": "educationalFramework", "targetName": "Common Core State Standards"},
+        {"@type": "AlignmentObject", "alignmentType": "educationalFramework", "targetName": "Council for Economic Education"}
+      ]
     },
     {
       "@type": "WebPage",
@@ -610,23 +721,58 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "What's a good picture book to teach my kid about money?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Clarence Gets a Bargain is a 36-page picture book built for ages 6-10. The plot is a kid earning a robot reward, going shopping with his mom, and using coupons to land a clearance deal on page 22. The money lessons ride inside the story — budgeting, comparison shopping, Wants vs. Needs, markdowns, sales tax. Kids read it for the robot. They walk away knowing what clearance means."}
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best financial literacy book for grades 1-5?",
+          "acceptedAnswer": {"@type": "Answer", "text": "For grades 1-5, Clarence Gets a Bargain covers 16+ concepts across 36 pages and aligns with Jump$tart, Common Core Math, Common Core ELA, and CEE. It was reviewed by Maryann Milewski Moskal, a K-5 teacher with 30+ years of classroom experience. Free print-to-PDF lesson plans, discussion guides, and a standards crosswalk are on the site. Most one-and-done picture books skip the curriculum scaffolding. This one ships with it."}
+        },
+        {
+          "@type": "Question",
+          "name": "How do I teach a 6-year-old the difference between wants and needs?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Start with a story they want to finish. In Clarence Gets a Bargain, Mom uses the family's actual bills — mortgage, internet, hot water, streaming — to explain needs. Then she frames the robot Clarence is chasing as a want. The book defines Wants vs. Needs in bold italic on page 25 and the glossary calls back to it. The companion printable on the site has a 12-card sort activity. Read it together, sort the cards, name one want to save for."}
+        },
+        {
+          "@type": "Question",
+          "name": "Are there picture books that teach kids about budgeting?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes. Clarence Gets a Bargain is one. The book opens with Mom explaining the family budget — bills, savings, charity, the 529 — before Clarence ever sets foot in the store. Budgeting is treated as a real adult activity the kid is being let in on, not a worksheet. First read is for the story. The 21-term back-matter glossary is a post-read teaching tool, built into the book for the second pass. 36 pages. Ages 6-10."}
+        },
+        {
+          "@type": "Question",
+          "name": "What books teach kids about coupons and comparison shopping?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Clarence Gets a Bargain does both. The first act is Mom handing Clarence the newspaper ad inserts as homework before they leave the house — that's comparison shopping. The second act is Clarence finding a clearance-marked robot and remembering a 10% coupon folded in his pocket. The back-matter glossary defines coupon, clearance, markdown, and sale — a post-read teaching tool built into the book itself. The free curriculum companion includes printable mock 10%-off coupons and clearance stickers for a classroom shopping simulation."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is Clarence Gets a Bargain aligned to Common Core or Jump$tart standards?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes — all four. The book maps to Jump$tart National Standards for K-12 Personal Finance Education, Common Core Math (operations with percentages, money, measurement), Common Core ELA (read-aloud comprehension, vocabulary), and CEE (Council for Economic Education) standards. The free 8-page standards crosswalk on the site has a 23-row concept-to-standard matrix. There is also a filterable interactive matrix for educators picking lessons for specific standards."}
+        },
+        {
+          "@type": "Question",
+          "name": "What money concepts should a first grader know?",
+          "acceptedAnswer": {"@type": "Answer", "text": "By the end of first grade, a kid should know: the difference between wants and needs, that money is earned (income), that families plan how to spend it (budgeting), that prices change (sales), and that some money gets saved for later. Clarence Gets a Bargain introduces all five in narrative form. Older first graders pick up sales tax, percentage markdowns, and 529 college savings — all defined in the book's back-matter glossary, the post-read teaching tool. The story is the first read. The glossary is the tool for the second."}
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I buy Clarence Gets a Bargain?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Clarence Gets a Bargain is available in hardcover at $19.99. The buy section at clarencegetsabargain.com lists current retailers, including Amazon and Bookshop.org. Institutional buyers — school districts, credit unions, financial literacy nonprofits — can request bulk pricing and purchase-order terms through the institutional ordering section on the site."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a free lesson plan for Clarence Gets a Bargain?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes. The educator toolkit at clarencegetsabargain.com/educator-toolkit.html includes four 45-minute lesson plans, a discussion guide with the verbatim 21-term glossary, a pre/post assessment with answer key, a 23-row standards crosswalk, a family activity pack, and a curriculum companion with printable sort cards, mock coupons, and clearance stickers. Everything is print-to-PDF in a browser. No sign-up, no email gate, no PDF download wall."}
+        },
+        {
+          "@type": "Question",
           "name": "What age is Clarence Gets a Bargain for?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Ages 6-10 is the sweet spot. First graders love the pictures and the robot drama. Fourth graders pick up on the money lessons. Estimated Guided Reading Level L-N, estimated Lexile AD 620L."}
+          "acceptedAnswer": {"@type": "Answer", "text": "Ages 6 to 10, grades 1 through 5. First graders love the robot drama and the illustrations. Fourth graders catch the wordplay and pick up the percentage math. Estimated Guided Reading Level L-N, estimated Lexile around AD 620L. The book reads aloud in about 12 minutes. The four-lesson curriculum stretches that into a multi-day classroom unit."}
         },
         {
           "@type": "Question",
           "name": "Is Clarence Gets a Bargain a series?",
           "acceptedAnswer": {"@type": "Answer", "text": "For now it is a standalone book, but Clarence has more adventures coming. Sequels are in the works."}
-        },
-        {
-          "@type": "Question",
-          "name": "Can I use this book in a classroom?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Absolutely. Clarence Gets a Bargain is a 36-page narrative tool designed for grades 1-5 classrooms, libraries, and financial education programs. It aligns with Jump$tart National Standards, Common Core Math & ELA, CEE, and FDIC Money Smart frameworks. Free lesson plans and discussion guides are available."}
-        },
-        {
-          "@type": "Question",
-          "name": "What financial concepts does the book teach?",
-          "acceptedAnswer": {"@type": "Answer", "text": "The book covers budgeting, comparison shopping, sale pricing, coupons and percentage markdowns, Wants vs. Needs, receipts and record-keeping, savings and delayed gratification, college savings accounts, and consumer awareness."}
         }
       ]
     }
@@ -840,6 +986,13 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       <p class="t-quote">&ldquo;It taught me how to get sales to save money, which made me feel more grown-up and smart. I would recommend this book to other kids!&rdquo;</p>
       <div class="t-author">Josie K., Age 10</div>
       <div class="t-role">Student Reader</div>
+    </div>
+    <div class="t-card reveal reveal-delay-3">
+      <span class="t-avatar">&#128722;</span>
+      <div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="t-quote">&ldquo;Clarence Gets a Bargain is a bargain at twice the price! Heartfelt and educational, this is a wonderful story about everyday life and how even children can learn the importance of navigating an often-expensive world. With easy-to-follow prose, this book is loaded with awesome artwork which also helps guide us through. Great stuff!&rdquo;</p>
+      <div class="t-author">Richard N.</div>
+      <div class="t-role">Parent</div>
     </div>
   </div>
 </section>
@@ -1319,6 +1472,11 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     </div>
   </div>
   <div class="footer-bottom">
+    <div class="footer-social" aria-label="Follow Clarence Gets a Bargain">
+      <a href="https://www.facebook.com/profile.php?id=61589717578254" target="_blank" rel="noopener me" aria-label="Clarence Gets a Bargain on Facebook" title="Clarence Gets a Bargain on Facebook">CGB</a>
+      <a href="https://www.facebook.com/jonathan.bach.2025/" target="_blank" rel="noopener me" aria-label="Jonathan Bach on Facebook" title="Jonathan Bach on Facebook">JB</a>
+      <a href="https://www.linkedin.com/in/jonathan-bach-joat/" target="_blank" rel="noopener me" aria-label="Jonathan Bach on LinkedIn" title="Jonathan Bach on LinkedIn">in</a>
+    </div>
     &copy; 2026 Jonathan Bach. All rights reserved.
     <br><span style="font-size:.75rem;color:rgba(255,255,255,.35);margin-top:6px;display:inline-block">#ClarenceGetsABargain &bull; #KidsMoneyBook &bull; #FinancialLiteracyForKids &bull; #EdutainmentAtItsFinest &bull; #MoneyLessonsForKids &bull; #WantsVsNeeds &bull; #SavingSpendingSharing &bull; #TeachKidsMoney &bull; #EducationalPictureBook &bull; #LifeSkillsForKids &bull; #ClassroomReady &bull; #KidsAndMoney</span>
   </div>

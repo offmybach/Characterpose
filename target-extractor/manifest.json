@@ -18,12 +18,12 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.linkedin.com/sales/lists/*",
-        "https://www.linkedin.com/sales/search/*",
-        "https://www.linkedin.com/sales/people/*"
+        "https://www.linkedin.com/sales/*",
+        "https://*.linkedin.com/sales/*"
       ],
       "js": ["content.js"],
-      "run_at": "document_idle"
+      "run_at": "document_idle",
+      "all_frames": false
     }
   ],
   "web_accessible_resources": [
