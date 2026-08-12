@@ -1,57 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
   <url>
-    <loc>https://www.clarencegetsabargain.com/</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://clarencegetsabargain.com/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- SEO / content landing pages -->
   <url>
-    <loc>https://www.clarencegetsabargain.com/resources/educator-preview.html</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://clarencegetsabargain.com/teaching-kids-about-money.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.clarencegetsabargain.com/resources/zero-prep-lesson-plans.html</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://clarencegetsabargain.com/wants-vs-needs.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.clarencegetsabargain.com/resources/the-money-talk.html</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://clarencegetsabargain.com/vs-other-money-books.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.clarencegetsabargain.com/resources/smart-shopper-challenge.html</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://clarencegetsabargain.com/money-glossary.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Book info pages -->
   <url>
-    <loc>https://www.clarencegetsabargain.com/resources/sea-mart-secret-mission.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.clarencegetsabargain.com/resources/curriculum-alignment-matrix.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.clarencegetsabargain.com/wants-vs-needs.html</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://clarencegetsabargain.com/book-facts.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.clarencegetsabargain.com/quiz.html</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://clarencegetsabargain.com/press-kit.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://clarencegetsabargain.com/state-of-the-states.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://clarencegetsabargain.com/school-visits.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Educator hub -->
+  <url>
+    <loc>https://clarencegetsabargain.com/educator-toolkit.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Interactive tools (public) -->
+  <url>
+    <loc>https://clarencegetsabargain.com/quiz.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://clarencegetsabargain.com/receipt-builder.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Resource pages (public, interactive versions) -->
+  <url>
+    <loc>https://clarencegetsabargain.com/resources/educator-preview.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://clarencegetsabargain.com/resources/zero-prep-lesson-plans.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://clarencegetsabargain.com/resources/the-money-talk.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://clarencegetsabargain.com/resources/smart-shopper-challenge.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://clarencegetsabargain.com/resources/sea-mart-secret-mission.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://clarencegetsabargain.com/resources/curriculum-alignment-matrix.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://clarencegetsabargain.com/resources/curriculum-companion.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://clarencegetsabargain.com/resources/grant-in-a-box.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://clarencegetsabargain.com/resources/procurement.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://clarencegetsabargain.com/resources/wyze-shopper-certificate.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
 </urlset>
