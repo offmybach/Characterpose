@@ -8,6 +8,8 @@ Disallow: /linkedin-profile-assets.html
 Disallow: /instagram-stories.html
 Disallow: /social-assets.html
 Disallow: /marketing-blitz.html
+Disallow: /badge-generator.html
+Disallow: /review-cards.html
 
 # Contaminated v1 PDFs — DO NOT CITE. Replaced by print-HTML pages in /resources/.
 Disallow: /downloads/
