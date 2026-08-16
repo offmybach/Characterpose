@@ -469,17 +469,21 @@ Take from there before writing anything new.
 
 ### Educator toolkit — print-HTML pages (the live PDFs)
 All open-in-browser → print-to-PDF. No external tooling. Each has a `@media print` stylesheet that hides the screen toolbar and renders a clean branded PDF (Hold-font headers, blue/orange/cream palette, dashed coupon borders, scissors detail, brand strip with orange/blue stripe).
-- `resources/educator-preview-print.html` (8 pp)
-- `resources/lesson-plans-print.html` (7 pp, four 45-min sessions)
-- `resources/discussion-guide-print.html` (11 pp, 6 sections + whole-book themes + verbatim 21-term glossary)
-- `resources/assessment-worksheet-print.html` (8 pp, pre/post + answer key + 25-row tracking table built via JS to dodge the content filter on long repetitive rows)
+- `resources/educator-preview-print.html` (10 pp)
+- `resources/lesson-plans-print.html` (11 pp, four 45-min sessions)
+- `resources/discussion-guide-print.html` (17 pp, 6 sections + whole-book themes + verbatim 21-term glossary)
+- `resources/assessment-worksheet-print.html` (9 pp, pre/post + answer key + 25-row tracking table built via JS to dodge the content filter on long repetitive rows)
 - `resources/family-activity-print.html` (7 pp)
-- `resources/standards-chart-print.html` (8 pp, 23-row concept crosswalk)
+- `resources/standards-chart-print.html` (10 pp, 23-row concept crosswalk)
 - `resources/curriculum-companion.html` (5 printables: sort cards, comparison worksheet, clearance stickers, mock price tags, 10%-off coupons)
 - `resources/wyze-shopper-certificate.html` (typeable student name, landscape print)
 - `resources/grandparents-day-games-print.html` (the two family games from pp. 27–28, one page, no cover / no price / no buy link — built for the Generations United Do Something Grand ask)
 - `resources/curriculum-alignment-matrix.html` (interactive filterable matrix; has both standalone + inline modal copy in `index.html` as `res-curriculum` — edits must hit both)
 - The old contaminated PDFs in `downloads/` are *no longer linked* from the live site. Leave them for diff reference; do not link them.
+
+Page counts above verified 16 Aug 2026 by generating actual PDFs and counting pages (`pypdf`),
+not by reading source or trusting the last person who counted. If content changes later,
+re-verify the same way rather than estimate.
 
 ### Resource modals in index.html
 Six modals open as iframe srcdoc with `<base href="resources/">`. Modal IDs = `res-educator-preview`, `res-zero-prep`, `res-money-talk`, `res-smart-shopper`, `res-sea-mart`, `res-curriculum`. Standalone resource pages live at `resources/the-money-talk.html`, `resources/zero-prep-lesson-plans.html`, `resources/smart-shopper-challenge.html`, `resources/sea-mart-secret-mission.html`, `resources/educator-preview.html`. Standalone + inline modal versions are independent — edits to one don't propagate. All 4 modal/standalone pairs got `@media print` stylesheets this June.
