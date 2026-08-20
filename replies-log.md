@@ -183,6 +183,8 @@ Karen,
 
 Fair question, and it's on me for not saying it plainly: the book's already published — hardbound, printed, on sale now, not a proof or a manuscript. Cover to cover: https://heyzine.com/flip-book/624a154fe6.html
 
+Read it and tell me straight what you think — you offered notes, and I'd take you up on that.
+
 Mindful spending before investing is the whole plot, so yes — we're aligned. And if Clarence makes the cut this year, say the word and copies go out the same day.
 
 "The Things You Have to Do Before I Buy You a Phone" just went on my TBR list, title alone.
@@ -206,3 +208,7 @@ earns the spot. "Happy to mail you copies directly if that's easier than sourcin
 yourself" got that backwards, presuming she needed help and pushing before she'd decided
 anything. Replaced with a conditional that waits on her call and fulfills fast the moment
 she makes it — no offer to source on her behalf, no assumption the decision's already made.
+
+**Added:** Karen offered to Zoom and share notes in her reply; the draft never took her up
+on it. Added a line accepting that offer directly, tied to the book link so the ask has
+something to point at.
