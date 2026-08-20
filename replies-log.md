@@ -183,7 +183,7 @@ Karen,
 
 Fair question, and it's on me for not saying it plainly: the book's already published — hardbound, printed, on sale now, not a proof or a manuscript. Cover to cover: https://heyzine.com/flip-book/624a154fe6.html
 
-Mindful spending before investing is the whole plot, so yes — we're aligned. And ten copies at Jump$tart as a door prize would beat any distribution deal I've managed on my own. Happy to mail you copies directly if that's easier than sourcing them yourself.
+Mindful spending before investing is the whole plot, so yes — we're aligned. And if Clarence makes the cut this year, say the word and copies go out the same day.
 
 "The Things You Have to Do Before I Buy You a Phone" just went on my TBR list, title alone.
 
@@ -193,9 +193,16 @@ P.S. Bargain Olympics is a real event, and I've got the one-cent tags to prove I
 ```
 
 **Why it's shaped this way:** owns the phrasing gap in one line, no groveling, then answers
-her two real questions (proof → the link, alignment → yes) before taking her up on the door
-prize offer. No kid to put the phone book on a shelf for, so the line became a TBR-list nod
-instead — same joke, accurate to his actual life. The original P.S. ("My money's on Bronze
-being an insult") needed decoding to land; the plainer replacement then undersold him ("I'd
-lose badly") against his own documented deal-master reputation — the one-cent shoes and the
+her two real questions (proof → the link, alignment → yes) before addressing the door prize.
+No kid to put the phone book on a shelf for, so the line became a TBR-list nod instead —
+same joke, accurate to his actual life. The original P.S. ("My money's on Bronze being an
+insult") needed decoding to land; the plainer replacement then undersold him ("I'd lose
+badly") against his own documented deal-master reputation — the one-cent shoes and the
 cruise-ship price match. Fixed to claim the medal, not concede it.
+
+**Corrected once more:** Karen didn't ask for help sourcing copies — she said *she* brings
+ten books to Jump$tart each year and *might* bring Clarence this time, if she decides it
+earns the spot. "Happy to mail you copies directly if that's easier than sourcing them
+yourself" got that backwards, presuming she needed help and pushing before she'd decided
+anything. Replaced with a conditional that waits on her call and fulfills fast the moment
+she makes it — no offer to source on her behalf, no assumption the decision's already made.
