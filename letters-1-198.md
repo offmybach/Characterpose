@@ -91,7 +91,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *1st-degree · DM*
 
 ```
-Tim — NGPF owns 9-12 and does it better than anyone. I wrote the K-5 on-ramp: a picture book where a kid runs one real purchase, ad to register, sales tax and all. Genuine question rather than a pitch — do you see elementary as in scope for NGPF, or a gap somebody else has to fill? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Tim — NGPF owns 9-12 and does it better than anyone. I wrote the 1-5 on-ramp: a picture book where a kid runs one real purchase, ad to register, sales tax and all. Genuine question rather than a pitch — do you see elementary as in scope for NGPF, or a gap somebody else has to fill? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -175,7 +175,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *2nd-degree · InMail*
 
 ```
-Yanely — you've said the gaps show up long before high school. I wrote the K-5 version, and it teaches spending because that's the transaction a six-year-old actually performs. Does NGPF ever point teachers below ninth grade, or is that outside the remit? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. For teachers: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Yanely — you've said the gaps show up long before high school. I wrote the 1-5 version, and it teaches spending because that's the transaction a six-year-old actually performs. Does NGPF ever point teachers below ninth grade, or is that outside the remit? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. For teachers: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -197,7 +197,7 @@ Jonathan
 *1st-degree · DM*
 
 ```
-Ken — my book and its free K-5 classroom materials are aligned to Money Smart for Young People, with a crosswalk mapping every concept to the specific standard rather than asking you to take my word. Is there a process for a title to sit alongside Money Smart materials, or is that not how it works? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Print it here: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Ken — my book and its free 1-5 classroom materials are aligned to Money Smart for Young People, with a crosswalk mapping every concept to the specific standard rather than asking you to take my word. Is there a process for a title to sit alongside Money Smart materials, or is that not how it works? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Print it here: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 ```
@@ -231,7 +231,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *1st-degree · DM*
 
 ```
-Lyn — is the Money as You Grow Bookshelf still taking titles? Mine is K-5 and teaches spending: comparison shopping, markdowns, coupons, sales tax at the register. The current shelf leans heavily toward saving. Happy to send it to whoever evaluates. Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Lyn — is the Money as You Grow Bookshelf still taking titles? Mine is 1-5 and teaches spending: comparison shopping, markdowns, coupons, sales tax at the register. The current shelf leans heavily toward saving. Happy to send it to whoever evaluates. Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 ```
@@ -241,7 +241,7 @@ Jonathan
 *1st-degree · DM*
 
 ```
-Professor Lusardi — your work established how early these gaps open and how stubbornly they stay open. I've written a K-5 picture book on a premise I'd like you to puncture if it deserves it: we teach children saving first, but spending is the transaction they actually perform, so the sequence may be backwards. I'm an attorney who draws robots, not a researcher. Tell me if I'm overreaching. Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Professor Lusardi — your work established how early these gaps open and how stubbornly they stay open. I've written a 1-5 picture book on a premise I'd like you to puncture if it deserves it: we teach children saving first, but spending is the transaction they actually perform, so the sequence may be backwards. I'm an attorney who draws robots, not a researcher. Tell me if I'm overreaching. Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -277,7 +277,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *1st-degree · DM*
 
 ```
-Bill — Tennessee's commission decides what reaches classrooms statewide, and elementary is usually where state mandates run thin. Mine is a K-5 picture book with a free zero-prep classroom pack against Jump$tart, CEE, Common Core, and FDIC Money Smart. Route to get it in front of the commission? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Lesson plans: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Bill — Tennessee's commission decides what reaches classrooms statewide, and elementary is usually where state mandates run thin. Mine is a 1-5 picture book with a free zero-prep classroom pack against Jump$tart, CEE, Common Core, and FDIC Money Smart. Route to get it in front of the commission? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Lesson plans: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -289,7 +289,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *1st-degree · DM*
 
 ```
-Dave — Wisconsin has been at this longer than most states. My K-5 book and free lesson set map to five frameworks. Elementary tends to be the underserved band everywhere I look. Is there a submission route, or a person who reviews outside materials? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. For teachers: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Dave — Wisconsin has been at this longer than most states. My 1-5 book and free lesson set map to five frameworks. Elementary tends to be the underserved band everywhere I look. Is there a submission route, or a person who reviews outside materials? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. For teachers: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -409,7 +409,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *1st-degree · DM*
 
 ```
-Bethann — a bankers association reaches classrooms and families at once, which is the distribution a K-5 book needs and rarely gets. Mine is five frameworks, free zero-prep lessons, plus a grant packet if a member bank wanted to fund classroom sets. Fit Utah's outreach? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free classroom materials: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Bethann — a bankers association reaches classrooms and families at once, which is the distribution a 1-5 book needs and rarely gets. Mine is five frameworks, free zero-prep lessons, plus a grant packet if a member bank wanted to fund classroom sets. Fit Utah's outreach? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free classroom materials: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -421,7 +421,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *1st-degree · DM*
 
 ```
-Lynnette — you've built both a body of work and a network around this. Mine is a K-5 picture book teaching spending rather than saving. I'd take your read on where a book like this belongs, and whether FIN is a fit at all. A blunt no is useful too. The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Lynnette — you've built both a body of work and a network around this. Mine is a 1-5 picture book teaching spending rather than saving. I'd take your read on where a book like this belongs, and whether FIN is a fit at all. A blunt no is useful too. The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -433,7 +433,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *1st-degree · DM*
 
 ```
-Ruben — my book and teaching pack are aligned to the CEE standards with a full crosswalk. Is there a route for a K-5 title into CEE's resource library or EconEdLink, and what would you want to see first? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Free teaching pack: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Ruben — my book and teaching pack are aligned to the CEE standards with a full crosswalk. Is there a route for a 1-5 title into CEE's resource library or EconEdLink, and what would you want to see first? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Free teaching pack: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -481,7 +481,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *1st-degree · DM*
 
 ```
-Jillian — Intuit for Education is built around real financial decisions, which is my book's entire structure: one purchase, ad to register, sales tax included. Mine sits at K-5, below your usual band. Does the framing match how you think about curriculum? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Jillian — Intuit for Education is built around real financial decisions, which is my book's entire structure: one purchase, ad to register, sales tax included. Mine sits at 1-5, below your usual band. Does the framing match how you think about curriculum? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -529,7 +529,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *1st-degree · DM*
 
 ```
-Susan — you've directed a center for economic education for years. My K-5 book argues the elementary band is underserved because everything gets built for high school. Aligned to CEE and four others. Does that match what you see? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Susan — you've directed a center for economic education for years. My 1-5 book argues the elementary band is underserved because everything gets built for high school. Aligned to CEE and four others. Does that match what you see? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -553,7 +553,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *1st-degree · DM*
 
 ```
-Dr. Taylor — Montgomery County sets what reaches a lot of classrooms. Mine is a K-5 picture book with a free zero-prep lesson set, five frameworks, nothing consumable to reorder next August. The honest question is placement rather than merit: classroom, library, or family night? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free lesson set: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Dr. Taylor — Montgomery County sets what reaches a lot of classrooms. Mine is a 1-5 picture book with a free zero-prep lesson set, five frameworks, nothing consumable to reorder next August. The honest question is placement rather than merit: classroom, library, or family night? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free lesson set: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -565,7 +565,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *1st-degree · DM*
 
 ```
-Beth — a research question. My K-5 book argues spending competence precedes saving competence developmentally, which would mean the field teaches the wrong skill first. Does that square with your research and impact work, or am I overstating a tidy story? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Beth — a research question. My 1-5 book argues spending competence precedes saving competence developmentally, which would mean the field teaches the wrong skill first. Does that square with your research and impact work, or am I overstating a tidy story? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -601,7 +601,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *1st-degree · DM*
 
 ```
-Billy — a NEFE-shaped question. The research keeps saying money attitudes form by seven, and almost every dollar of material lands at 9-12. I wrote a K-5 picture book teaching spending rather than saving. Does NEFE ever point people to elementary, or is that band still nobody's mandate? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Billy — a NEFE-shaped question. The research keeps saying money attitudes form by seven, and almost every dollar of material lands at 9-12. I wrote a 1-5 picture book teaching spending rather than saving. Does NEFE ever point people to elementary, or is that band still nobody's mandate? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -613,7 +613,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *1st-degree · DM*
 
 ```
-Laura — a Clearinghouse question rather than a pitch. My K-5 teacher pack is built against the National Standards, free, ungated, no email capture and no drip campaign. Is Suzann Knight the right first stop, or is there a step I'm skipping? Wally Luckeydoo endorsed the book, which I mention only because he's your 2026 Corey Carlisle recipient. Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Laura — a Clearinghouse question rather than a pitch. My 1-5 teacher pack is built against the National Standards, free, ungated, no email capture and no drip campaign. Is Suzann Knight the right first stop, or is there a step I'm skipping? Wally Luckeydoo endorsed the book, which I mention only because he's your 2026 Corey Carlisle recipient. Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -656,7 +656,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *Professor of Practice--PersonaI Financial Planning; Professor of Practice | Leader | Personal Finance Edu · 1st-degree · DM*
 
 ```
-Kate — a professor of practice with an AFC tests a premise properly. Mine: we teach kids saving first, but spending is the transaction they actually perform, so the sequencing is backwards. I wrote the K-5 counterexample. Does it hold? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Kate — a professor of practice with an AFC tests a premise properly. Mine: we teach kids saving first, but spending is the transaction they actually perform, so the sequencing is backwards. I wrote the 1-5 counterexample. Does it hold? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -762,7 +762,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *Superintendent- Baltimore born & raised, Educator, Advocate for Children, Life-Long Learner, Ed. Leader,  · 1st-degree · DM*
 
 ```
-Dr. Martin-Knox — a superintendent who's a lifelong learner is the read I hoped for. Mine is K-5 with free standards-aligned lessons, and elementary is where financial literacy gets politely skipped. Where would it fit in your district? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free lesson set: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Dr. Martin-Knox — a superintendent who's a lifelong learner is the read I hoped for. Mine is 1-5 with free standards-aligned lessons, and elementary is where financial literacy gets politely skipped. Where would it fit in your district? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free lesson set: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -806,7 +806,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *O Founder; Founder, 4MQ.org | Financial Literacy Frameworks for Early Childhood and Teens I EdTech Innova · 1st-degree · DM*
 
 ```
-Richard — 4MQ builds financial literacy frameworks for early childhood, which is the band almost nobody serves. Mine is a K-5 picture book plus free teacher pack against five frameworks. Does the approach fit what you're building, or duplicate it? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Free teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Richard — 4MQ builds financial literacy frameworks for early childhood, which is the band almost nobody serves. Mine is a 1-5 picture book plus free teacher pack against five frameworks. Does the approach fit what you're building, or duplicate it? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Free teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -831,7 +831,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *Founder & President, LifeFinanceEd LLC | Financial literacy teacher @ Marlboro H.S. | Council for Economi · 1st-degree · DM*
 
 ```
-Kevin — a CEE Master Teacher running LifeFinanceEd is the read I want most. My K-5 book aligns to CEE, Jump$tart, Common Core, and FDIC Money Smart, and it is a spending book, not a saving one. Does that framing hold up against how you actually teach it? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. For teachers: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Kevin — a CEE Master Teacher running LifeFinanceEd is the read I want most. My 1-5 book aligns to CEE, Jump$tart, Common Core, and FDIC Money Smart, and it is a spending book, not a saving one. Does that framing hold up against how you actually teach it? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. For teachers: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -842,7 +842,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *Head of Marketing Communications & Brand at Jumpstart · 1st-degree · DM*
 
 ```
-Gina — brand and comms at Jump$tart means you see every resource that wants a logo near it. Mine wants a listing, not a logo. K-5 teacher materials against the National Standards, completely free. Anything you need to see beyond the crosswalk before something gets listed? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Gina — brand and comms at Jump$tart means you see every resource that wants a logo near it. Mine wants a listing, not a logo. 1-5 teacher materials against the National Standards, completely free. Anything you need to see beyond the crosswalk before something gets listed? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -853,7 +853,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *O Partnerships Manager; Partnerships Manager @ Next Gen Personal Finance · 1st-degree · DM*
 
 ```
-Ryan — a partnerships question. My K-5 book plus free classroom materials sits below NGPF's grade band, which probably makes it complementary rather than competitive. Is elementary something you partner around, or strictly out of scope? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Print it here: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Ryan — a partnerships question. My 1-5 book plus free classroom materials sits below NGPF's grade band, which probably makes it complementary rather than competitive. Is elementary something you partner around, or strictly out of scope? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Print it here: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -864,7 +864,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *Director, Financial Literacy Programming; O Director, Financial Literacy Programming; Director of Financi · 1st-degree · DM*
 
 ```
-Michael — you decide what programming actually reaches people. Mine is K-5, teaching the complete purchase, sales tax included, with free zero-prep lessons behind it. Elementary is usually the thinnest shelf in the building. Fit your programming? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Michael — you decide what programming actually reaches people. Mine is 1-5, teaching the complete purchase, sales tax included, with free zero-prep lessons behind it. Elementary is usually the thinnest shelf in the building. Fit your programming? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -875,7 +875,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *C) Non-Profit Coalition; Non-Profit Coalition at Jump $tart Utah Coalition · 1st-degree · DM*
 
 ```
-Hello — a Utah Jump$tart question. My K-5 book and free teacher pack are built against the National Standards with a crosswalk. Elementary is usually where state coalitions have the least to hand a teacher. Is there a route to be listed or shared with your network? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Hello — a Utah Jump$tart question. My 1-5 book and free teacher pack are built against the National Standards with a crosswalk. Elementary is usually where state coalitions have the least to hand a teacher. Is there a route to be listed or shared with your network? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -886,7 +886,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *Chief Executive Officer at JumpStart Inc. · 1st-degree · DM*
 
 ```
-Lorne — you back programs that reach kids at scale. Mine is a K-5 picture book teaching spending rather than saving, with a free zero-prep classroom pack behind it. Fit anything JumpStart Inc. runs or funds? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Lesson plans: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Lorne — you back programs that reach kids at scale. Mine is a 1-5 picture book teaching spending rather than saving, with a free zero-prep classroom pack behind it. Fit anything JumpStart Inc. runs or funds? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Lesson plans: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -897,7 +897,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *Senior Manager, Educational Content; Cheerleader for Economics and Personal Finance Education · 1st-degree · DM*
 
 ```
-Ruth — a self-described cheerleader for personal finance education is exactly who I want reading this. My K-5 book comes with free ungated content: four lessons, assessments, a 23-row crosswalk. Any of it fit your educational content? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. For teachers: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Ruth — a self-described cheerleader for personal finance education is exactly who I want reading this. My 1-5 book comes with free ungated content: four lessons, assessments, a 23-row crosswalk. Any of it fit your educational content? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. For teachers: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -908,7 +908,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *Building Financially Savvy Futures | History & Personal Finance Educator | Maine Jump$tart VP | ME Jump$t · 1st-degree · DM*
 
 ```
-Samantha — as Maine Jump$tart VP you know exactly how thin the elementary shelf is. Mine is K-5 against the National Standards with a free teacher materials. Route into what Maine Jump$tart shares with teachers? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
+Samantha — as Maine Jump$tart VP you know exactly how thin the elementary shelf is. Mine is 1-5 against the National Standards with a free teacher materials. Route into what Maine Jump$tart shares with teachers? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -919,7 +919,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *Supervisory Administrative Officer at Consumer Financial Protection Bureau · 1st-degree · DM*
 
 ```
-Eva — I'm trying to find the right person at the Bureau to ask whether the Money as You Grow Bookshelf still adds titles. Mine is a K-5 picture book teaching spending rather than saving. Can you point me? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Print it here: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Eva — I'm trying to find the right person at the Bureau to ask whether the Money as You Grow Bookshelf still adds titles. Mine is a 1-5 picture book teaching spending rather than saving. Can you point me? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Print it here: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 ```
@@ -939,7 +939,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *Senior Director, Digital Products; Senior Director, Products; Social impact deserves great product leader · 1st-degree · DM*
 
 ```
-Andrea — you lead digital products for social impact, so you'll know whether a printed picture book is an asset or a liability in 2026. Mine teaches K-5 spending with free digital lessons behind it. Would you tell me straight? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Andrea — you lead digital products for social impact, so you'll know whether a printed picture book is an asset or a liability in 2026. Mine teaches 1-5 spending with free digital lessons behind it. Would you tell me straight? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -950,7 +950,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *Senior Consumer Education Specialist at Federal Deposit Insurance Corporation (FDIC) · 1st-degree · DM*
 
 ```
-Sandra — my K-5 book and free classroom pack are aligned to Money Smart for Young People, crosswalk included. Is there a route for outside materials to sit alongside Money Smart, or is that closed by policy? Either answer is useful. The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Lesson plans: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Sandra — my 1-5 book and free classroom pack are aligned to Money Smart for Young People, crosswalk included. Is there a route for outside materials to sit alongside Money Smart, or is that closed by policy? Either answer is useful. The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Lesson plans: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 ```
@@ -959,7 +959,7 @@ Jonathan
 *Director of Teacher Success · 2nd-degree · InMail*
 
 ```
-Christian — teacher success is the whole ballgame, and elementary teachers have close to nothing for financial literacy. I built a free K-5 lesson set around a picture book: four lessons, assessments, a crosswalk, zero prep. Would NGPF ever surface something below ninth grade? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. For teachers: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Christian — teacher success is the whole ballgame, and elementary teachers have close to nothing for financial literacy. I built a free 1-5 lesson set around a picture book: four lessons, assessments, a crosswalk, zero prep. Would NGPF ever surface something below ninth grade? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. For teachers: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -970,7 +970,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *Nonprofit; s VMP TART. Nonprofit · 2nd-degree · InMail*
 
 ```
-Hello — my K-5 book and free ungated teacher materials align to the Jump$tart National Standards, crosswalk included. Elementary tends to be the thinnest band for coalition resources. Submission route for Florida's network? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Hello — my 1-5 book and free ungated teacher materials align to the Jump$tart National Standards, crosswalk included. Elementary tends to be the thinnest band for coalition resources. Submission route for Florida's network? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -981,7 +981,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *State President · 2nd-degree · InMail*
 
 ```
-Dan — as state president you back programs that reach whole communities. Mine is a K-5 picture book with a free classroom materials against five frameworks, teaching kids the complete purchase. Fit with what your organization funds or distributes? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Print it here: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Dan — as state president you back programs that reach whole communities. Mine is a 1-5 picture book with a free classroom materials against five frameworks, teaching kids the complete purchase. Fit with what your organization funds or distributes? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Print it here: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -992,7 +992,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *Partnerships Manager · 2nd-degree · InMail*
 
 ```
-Aaron — a partnerships question. My K-5 book plus free teaching pack fills the elementary gap most financial-literacy programs leave wide open, since almost everything is built for high school. Is early elementary something you partner around? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Aaron — a partnerships question. My 1-5 book plus free teaching pack fills the elementary gap most financial-literacy programs leave wide open, since almost everything is built for high school. Is early elementary something you partner around? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -1003,7 +1003,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *Director of Partner and Affiliate Relations · 2nd-degree · InMail*
 
 ```
-Variny — you decide what's worth putting in front of a partner network. Mine is K-5 with a free ungated teacher pack against five frameworks. Elementary is the band most partners have nothing for. Worth a look? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Variny — you decide what's worth putting in front of a partner network. Mine is 1-5 with a free ungated teacher pack against five frameworks. Elementary is the band most partners have nothing for. Worth a look? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -1014,7 +1014,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *Manager, Grants and Research Projects · 2nd-degree · InMail*
 
 ```
-Meghan — a grants question rather than a pitch. My K-5 book has a free classroom pack and a grant-ready packet with the math already done: 25 copies, $499.75. Is early elementary financial literacy something your grants program funds? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Lesson plans: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Meghan — a grants question rather than a pitch. My 1-5 book has a free classroom pack and a grant-ready packet with the math already done: 25 copies, $499.75. Is early elementary financial literacy something your grants program funds? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Lesson plans: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -1036,7 +1036,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *Board Member & Officer · 2nd-degree · InMail*
 
 ```
-Syeda — a CRCM sees the CRA angle immediately. My K-5 book has a grant-ready packet with cost math already done, which makes it easy for a bank to fund locally and report. Something your board would consider? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Syeda — a CRCM sees the CRA angle immediately. My 1-5 book has a grant-ready packet with cost math already done, which makes it easy for a bank to fund locally and report. Something your board would consider? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. The classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -1047,7 +1047,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *Chief Program Officer · 2nd-degree · InMail*
 
 ```
-Christopher — as chief program officer you decide what reaches learners. Mine is K-5, teaching the complete purchase, sales tax included, with free zero-prep lessons. Elementary is usually the thinnest part of any program. Fit? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Print it here: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Christopher — as chief program officer you decide what reaches learners. Mine is 1-5, teaching the complete purchase, sales tax included, with free zero-prep lessons. Elementary is usually the thinnest part of any program. Fit? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Print it here: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -1058,7 +1058,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *Financial Education Administrator · 1st-degree · DM*
 
 ```
-John — as a financial education administrator you decide what actually gets used. Mine is K-5 plus a free zero-prep teaching pack against five frameworks. Elementary is usually the gap. Fit your programs? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+John — as a financial education administrator you decide what actually gets used. Mine is 1-5 plus a free zero-prep teaching pack against five frameworks. Elementary is usually the gap. Fit your programs? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -1069,7 +1069,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *Volunteer Board Member · 1st-degree · DM*
 
 ```
-Jason — a board-level question. Elementary financial literacy is the least funded band and the one the research says matters most, which is an odd combination. I built a K-5 book and free teacher pack for it. Something your board would want to see? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Jason — a board-level question. Elementary financial literacy is the least funded band and the one the research says matters most, which is an odd combination. I built a 1-5 book and free teacher pack for it. Something your board would want to see? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -1342,7 +1342,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *Author of Responsible Money Financial Literacy Curriculum, Teacher, Education Consultant, Financial Liter · 1st-degree · DM*
 
 ```
-Ronald — you built a financial literacy curriculum, so you know what teachers actually pick up versus what they politely accept. It's a 36-page picture book with four zero-prep lessons, aimed at K-5 where most curricula don't reach. Complement Responsible Money, or compete with it? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Ronald — you built a financial literacy curriculum, so you know what teachers actually pick up versus what they politely accept. It's a 36-page picture book with four zero-prep lessons, aimed at 1-5 where most curricula don't reach. Complement Responsible Money, or compete with it? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -1397,7 +1397,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *Founder and Executive Director | Youth Financial Literacy Innovator | Author | EdTech Builder | Cybersecu · 1st-degree · DM*
 
 ```
-Cash — you're building youth financial literacy from the ground up, so we're after the same kid. I made a picture book plus free zero-prep teacher materials for K-5, the band almost nobody serves. Fit anything you're building? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Cash — you're building youth financial literacy from the ground up, so we're after the same kid. I made a picture book plus free zero-prep teacher materials for 1-5, the band almost nobody serves. Fit anything you're building? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -1507,7 +1507,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *Founder of Mentora Money, Certified Financial Education Instructor℠, Author of Money Mentor, Speaker, Con · 1st-degree · DM*
 
 ```
-Anna — Money Mentor and a CFEI; you'll judge fast. Mine teaches K-5 spending rather than saving, against five frameworks. Fit the people Mentora reaches? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Anna — Money Mentor and a CFEI; you'll judge fast. Mine teaches 1-5 spending rather than saving, against five frameworks. Fit the people Mentora reaches? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -1606,7 +1606,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *Chief Relationship Officer/Co-Founder at Electus Global Education Inc.; CEO/President/Chief Relationship  · 1st-degree · DM*
 
 ```
-John — you build learning that scales globally. Mine is K-5 with a free zero-prep classroom materials against five frameworks. Does the approach fit what Electus builds, or duplicate it? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+John — you build learning that scales globally. Mine is 1-5 with a free zero-prep classroom materials against five frameworks. Does the approach fit what Electus builds, or duplicate it? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -2184,7 +2184,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *Associate Editor · 2nd-degree · InMail*
 
 ```
-Dr. Pandow — the thesis first. Financial literacy education is disproportionately weighted toward saving and investing, while consumer transaction competence is taught almost nowhere. I wrote a K-5 picture book addressing it. Worth a look? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Dr. Pandow — the thesis first. Financial literacy education is disproportionately weighted toward saving and investing, while consumer transaction competence is taught almost nowhere. I wrote a 1-5 picture book addressing it. Worth a look? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 

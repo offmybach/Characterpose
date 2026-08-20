@@ -71,7 +71,7 @@ As I read it, Maryland has required a program of financial-literacy instruction 
 
 Everything I can find is built for ninth grade and up. Meanwhile the habits that course is trying to correct were installed at six, in a store, with a parent saying no.
 
-I wrote the K-5 piece rather than an argument about it — a picture book that teaches spending rather than saving, plus a free, ungated classroom set crosswalked to five frameworks. No account, no email capture, no purchase order; it prints from a browser, which matters most in the buildings with no budget line for this.
+I wrote the 1-5 piece rather than an argument about it — a picture book that teaches spending rather than saving, plus a free, ungated classroom set crosswalked to five frameworks. No account, no email capture, no purchase order; it prints from a browser, which matters most in the buildings with no budget line for this.
 
 So: is elementary financial literacy anybody's portfolio at MSDE, or does it sit with the districts by default? Either answer helps me stop guessing.
 
@@ -189,7 +189,7 @@ Billy — you audit financial literacy curriculum for a living, which makes you 
 
 The premise first, because if it's wrong the rest doesn't matter. Financial education starts children with saving. Saving is the second thing a person does with money; the first is spending, and a first grader has already done it at a register. You taught standalone financial literacy at the middle school level — by the time they reached you, the habits were already several years old.
 
-I built the K-5 piece. A 36-page picture book following one complete purchase — sale ads at the kitchen counter, comparison on a shelf, a markdown taken on purpose, a coupon at the register, sales tax, and living with what was bought. Sixteen-plus concepts, none announced; nobody in it says the word "budget." A twenty-one-term glossary in the back, page-referenced to the scene each term came from.
+I built the 1-5 piece. A 36-page picture book following one complete purchase — sale ads at the kitchen counter, comparison on a shelf, a markdown taken on purpose, a coupon at the register, sales tax, and living with what was bought. Sixteen-plus concepts, none announced; nobody in it says the word "budget." A twenty-one-term glossary in the back, page-referenced to the scene each term came from.
 
 Behind it, free and ungated: four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, printable classroom pieces, a browser-based pretend register, and a 23-row crosswalk to the 2021 National Standards plus Common Core Math and ELA, CEE and FDIC Money Smart, cited at the Grade 4 benchmark level rather than claimed generally. No account, no email capture. It prints from a browser.
 
@@ -285,7 +285,7 @@ Every state requirement lands in high school. New Jersey's included. The element
 
 The sequencing assumption is what I keep circling. Financial education starts children with saving. Saving is the second thing a person does with money; the first is spending, and a first grader has done it at a register with a parent standing right there.
 
-I wrote the K-5 piece. A 36-page picture book that follows one purchase from the idea through the receipt — sale ads at the kitchen counter, comparison shopping on a shelf, a markdown taken on purpose, a coupon at the register, sales tax, and living with what was bought. Sixteen-plus concepts, none announced. A twenty-one-term glossary page-referenced back into the story.
+I wrote the 1-5 piece. A 36-page picture book that follows one purchase from the idea through the receipt — sale ads at the kitchen counter, comparison shopping on a shelf, a markdown taken on purpose, a coupon at the register, sales tax, and living with what was bought. Sixteen-plus concepts, none announced. A twenty-one-term glossary page-referenced back into the story.
 
 What matters for a district is that all of it is free. Four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, printable classroom pieces, and a 23-row crosswalk to the 2021 National Standards plus Common Core Math and ELA, CEE and FDIC Money Smart. No account, no email capture, no purchase order; it prints from a browser, so adoption costs a building nothing. Catalogued Lexile AD 620L — Adult Directed — a one-period read-aloud a teacher can run with no finance background.
 
@@ -348,7 +348,7 @@ Federal and state attention to financial education concentrates on high school. 
 
 The assumption underneath is that children begin with saving. Saving is the second thing a person does with money. The first is spending — a first grader has handled money at a register and made that decision with no framework at all.
 
-I built a free, ungated K-5 resource for it: a 36-page picture book that follows one complete purchase from the idea through the receipt — sale ads, comparison shopping, a markdown, a coupon, sales tax — and a classroom set behind it. Four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, printable classroom pieces, a browser-based pretend register, and a 23-row crosswalk to the 2021 National Standards for Personal Financial Education alongside Common Core Math and ELA, CEE and FDIC Money Smart, cited at the Grade 4 benchmark level. No concept is announced anywhere in the text — sixteen-plus of them, and the word "budget" never appears; a twenty-one-term glossary carries the definitions, each page-referenced to where the term occurs.
+I built a free, ungated 1-5 resource for it: a 36-page picture book that follows one complete purchase from the idea through the receipt — sale ads, comparison shopping, a markdown, a coupon, sales tax — and a classroom set behind it. Four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, printable classroom pieces, a browser-based pretend register, and a 23-row crosswalk to the 2021 National Standards for Personal Financial Education alongside Common Core Math and ELA, CEE and FDIC Money Smart, cited at the Grade 4 benchmark level. No concept is announced anywhere in the text — sixteen-plus of them, and the word "budget" never appears; a twenty-one-term glossary carries the definitions, each page-referenced to where the term occurs.
 
 No account, no email capture, no purchase order. It prints from a browser. Catalogued Lexile AD 620L — Adult Directed — a one-period read-aloud requiring no instructor training.
 
@@ -433,7 +433,7 @@ Sara — a CFEI knows what actually teaches versus what only informs, so this is
 
 Financial wellness work almost always starts with adults, or with teenagers at the earliest. The habits being addressed there were installed at six, in a store, with a parent saying no and no reasoning attached. And the field's answer for children is saving — which is the second thing a person does with money. The first is spending, and a first grader has already done it.
 
-I built the K-5 piece. A 36-page picture book following one purchase the whole way — the sale ads at the kitchen counter, two models compared on a shelf, the marked-down one taken on purpose, a coupon at the register, sales tax, and living with the choice. Sixteen-plus concepts, none announced; nobody says "budget." A twenty-one-term glossary in the back, page-referenced to the scene each came from.
+I built the 1-5 piece. A 36-page picture book following one purchase the whole way — the sale ads at the kitchen counter, two models compared on a shelf, the marked-down one taken on purpose, a coupon at the register, sales tax, and living with the choice. Sixteen-plus concepts, none announced; nobody says "budget." A twenty-one-term glossary in the back, page-referenced to the scene each came from.
 
 Why it works for a speaker or an instructor rather than a classroom teacher: it's catalogued Lexile AD 620L — Adult Directed — about twenty minutes out loud, with every concept explained inside the text. Somebody can read it cold to a room and field questions off the page. Nothing to memorise, no prep call. Free ungated set behind it — lesson plans, assessments with answer keys, printable classroom pieces, a browser-based pretend register.
 
@@ -963,7 +963,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 ```
 Joel — a specific question rather than a pitch, and it should take you a minute.
 
-I have a K-5 resource I would like to list in the Jump$tart Clearinghouse, and I have read the listing criteria closely enough to know which route applies to me. I am not a National Partner and have never listed before, so I would be applying under the letter-of-reference route.
+I have a 1-5 resource I would like to list in the Jump$tart Clearinghouse, and I have read the listing criteria closely enough to know which route applies to me. I am not a National Partner and have never listed before, so I would be applying under the letter-of-reference route.
 
 The resource is a free, ungated classroom set built around a 36-page picture book: four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, a 23-row crosswalk to the 2021 National Standards for Personal Financial Education plus Common Core Math and ELA, CEE, and FDIC Money Smart, printable classroom pieces, and a browser-based pretend register. No account, no email capture, no purchase order. It prints from a browser.
 
@@ -993,7 +993,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 ```
 Leslie — a Money as You Grow question, and then an idea I'd like a CFPB read on.
 
-The question first. Is the Bookshelf still evaluating titles, and who owns it now? I have a K-5 picture book that teaches spending rather than saving, and the current shelf leans heavily toward saving.
+The question first. Is the Bookshelf still evaluating titles, and who owns it now? I have a 1-5 picture book that teaches spending rather than saving, and the current shelf leans heavily toward saving.
 
 The idea. A child becomes a consumer the first time they hand money to a cashier. Not at eighteen, not at a first paycheck — at six, at a register, with a birthday five-dollar bill. Everything in youth financial education treats that child as a saver in training. Almost nothing treats her as what she already is: a party to a transaction.
 
@@ -1021,7 +1021,7 @@ Jonathan
 ```
 Ken — a process question about Money Smart for Young People, asked by someone who has already done the alignment work.
 
-I built a free K-5 classroom set around a 36-page picture book and crosswalked it to Money Smart for Young People alongside the 2021 National Standards for Personal Financial Education, CEE, and Common Core Math and ELA. Twenty-three rows, concept by concept, with the Grade 4 benchmark codes rather than a general claim of alignment. It is on the site so a reviewer can check it instead of taking my word.
+I built a free 1-5 classroom set around a 36-page picture book and crosswalked it to Money Smart for Young People alongside the 2021 National Standards for Personal Financial Education, CEE, and Common Core Math and ELA. Twenty-three rows, concept by concept, with the Grade 4 benchmark codes rather than a general claim of alignment. It is on the site so a reviewer can check it instead of taking my word.
 
 What the book covers that Money Smart's book lists mostly do not: spending, and the complete transaction rather than the concept. One purchase followed from the idea to after the receipt — sale ads, comparison shopping, a markdown, a coupon at the register, sales tax, and then living with the thing bought. Sixteen-plus concepts, none announced in the text. A twenty-one-term glossary page-referenced back into the story.
 
@@ -1053,7 +1053,7 @@ Lyn — a direct question about the Money as You Grow Bookshelf, from someone wh
 
 Is the Bookshelf still adding titles, and what does the evaluation look like now?
 
-The reason I ask. The current shelf is weighted toward saving and earning. What is thin is spending, and specifically the transaction itself. I wrote a 36-page K-5 picture book that follows one purchase from the idea to after the receipt — the sale ads at the kitchen counter, comparison shopping in the aisle, a markdown taken on purpose, a coupon handed to a cashier, sales tax, and then living with the thing that was bought. I read all 25 titles on the ABA Foundation's list; not one covers the whole arc.
+The reason I ask. The current shelf is weighted toward saving and earning. What is thin is spending, and specifically the transaction itself. I wrote a 36-page 1-5 picture book that follows one purchase from the idea to after the receipt — the sale ads at the kitchen counter, comparison shopping in the aisle, a markdown taken on purpose, a coupon handed to a cashier, sales tax, and then living with the thing that was bought. I read all 25 titles on the ABA Foundation's list; not one covers the whole arc.
 
 Sixteen-plus concepts are in it and none is announced — no character pauses to define a term, nobody says the word "budget." The proof is the back matter, and so is the reveal: a reader does not know he's been schooled until he reaches the glossary. Twenty-one terms, each page-referenced to the scene it came from — a decoder rather than an appendix.
 
@@ -1081,7 +1081,7 @@ Tracy — a public-private partnership is how a K-5 resource actually reaches cl
 
 The gap I'm working on: every state financial-literacy mandate lands in high school. Thirty of them now. Meanwhile the behaviors being corrected at sixteen were installed at six, in a store, and the sequence nobody questions is that children should learn saving first. Saving is the second thing a person does with money; the first is spending.
 
-I wrote the K-5 piece. One purchase followed from the idea to after the receipt — sale ads at the kitchen counter, comparison shopping, a markdown taken deliberately, a coupon at the register, sales tax, and then living with what was bought. Sixteen-plus concepts, none announced, and a twenty-one-term glossary page-referenced into the story.
+I wrote the 1-5 piece. One purchase followed from the idea to after the receipt — sale ads at the kitchen counter, comparison shopping, a markdown taken deliberately, a coupon at the register, sales tax, and then living with what was bought. Sixteen-plus concepts, none announced, and a twenty-one-term glossary page-referenced into the story.
 
 What matters for a partnership is the rest of it, and it is free. Four 45-minute lesson plans, a discussion guide, pre- and post-assessments with answer keys, a 23-row crosswalk to the 2021 National Standards plus Common Core Math and ELA, CEE and FDIC Money Smart. Ungated, no account, prints from a browser. A district adopting it spends nothing.
 
@@ -1147,7 +1147,7 @@ Every state that mandates personal finance mandates it in high school. Delaware 
 
 The sequence is what I keep coming back to. Financial education starts with saving, and saving is the second thing a person does with money. The first is spending. A first grader has no savings rate; she has stood at a register and chosen.
 
-I wrote the K-5 on-ramp. One purchase, followed the whole distance — wanting a robot, earning it, working the sale inserts at the kitchen counter, comparing two on a shelf, taking the cheaper one on purpose, redeeming a coupon, meeting sales tax, and living with the choice. Idea to post-receipt. I read all 25 titles on the ABA Foundation's list; none does the full arc. Sixteen-plus concepts, none announced, and a twenty-one-term glossary page-referenced back into the story.
+I wrote the 1-5 on-ramp. One purchase, followed the whole distance — wanting a robot, earning it, working the sale inserts at the kitchen counter, comparing two on a shelf, taking the cheaper one on purpose, redeeming a coupon, meeting sales tax, and living with the choice. Idea to post-receipt. I read all 25 titles on the ABA Foundation's list; none does the full arc. Sixteen-plus concepts, none announced, and a twenty-one-term glossary page-referenced back into the story.
 
 The real question, rather than the ask: does NGPF consider elementary in scope, or is it a gap you have consciously left to somebody else? Either answer is useful to me, and the second one tells me whether I'm building alone.
 
@@ -1239,7 +1239,7 @@ Yanely — you spend your time getting personal finance in front of teenagers, a
 
 Every mandate lands in high school. Delaware just became the thirtieth state and put the course in ninth grade. But the habits being corrected at sixteen were installed at six, in a store, with a parent saying no. The sequence is the part I keep circling: financial education starts children with saving, and saving is the second thing a person does with money. The first is spending.
 
-I wrote the K-5 on-ramp — one purchase followed the whole way, from wanting a robot to living with it. Sale ads at the kitchen counter, comparison on a shelf, a markdown taken on purpose, a coupon at the register, sales tax. Sixteen-plus concepts, none announced, and a twenty-one-term glossary page-referenced back into the story. Free ungated classroom set behind it.
+I wrote the 1-5 on-ramp — one purchase followed the whole way, from wanting a robot to living with it. Sale ads at the kitchen counter, comparison on a shelf, a markdown taken on purpose, a coupon at the register, sales tax. Sixteen-plus concepts, none announced, and a twenty-one-term glossary page-referenced back into the story. Free ungated classroom set behind it.
 
 For the teacher side: AD 620L — Adult Directed — one class period out loud, with the mother explaining every concept in the text so a teacher without a finance background can run it cold. The same book does the job at a kitchen counter with a parent or a grandparent, which is the part elementary teachers actually ask for and rarely get.
 
@@ -2556,7 +2556,7 @@ Navya — you scale learning programs nationally, so you'll know immediately whe
 
 The gap: every state mandate lands in high school. The elementary standards exist in most states and almost nothing is built against them, because nothing forces anyone to report on that band. And the field starts children with saving, when saving is the second thing a person does with money — the first is spending, and a first grader has already done it at a register.
 
-I built the K-5 piece: a 36-page picture book following one complete purchase, with sixteen-plus concepts none of which are announced and a twenty-one-term glossary page-referenced back into the story, plus a free ungated classroom set — four 45-minute lesson plans, assessments with answer keys, a 23-row crosswalk to five frameworks, printable classroom pieces, a browser-based pretend register. No account, no email capture, no purchase order; it prints from a browser.
+I built the 1-5 piece: a 36-page picture book following one complete purchase, with sixteen-plus concepts none of which are announced and a twenty-one-term glossary page-referenced back into the story, plus a free ungated classroom set — four 45-minute lesson plans, assessments with answer keys, a 23-row crosswalk to five frameworks, printable classroom pieces, a browser-based pretend register. No account, no email capture, no purchase order; it prints from a browser.
 
 Catalogued Lexile AD 620L — Adult Directed — one class period, no teacher training. That constraint was deliberate: anything requiring training doesn't scale past the first building.
 
@@ -2694,7 +2694,7 @@ Keanna — an early childhood question, and a doctoral candidate is the right pe
 
 Financial education for children begins with saving, and the sequence looks backwards to me. Saving is the second thing a child does with money. The first is spending — a four-year-old handing over a coin, a first grader at a register with a birthday five-dollar bill. It is the earliest financial act a person performs and it's taught last, or never.
 
-I built the K-5 piece rather than an argument about it: a picture book that follows one complete purchase from the idea through the receipt, plus a free ungated classroom set crosswalked to five frameworks. Sixteen-plus concepts, none announced. A twenty-one-term glossary page-referenced into the story. Catalogued Lexile AD 620L — Adult Directed — so the intervention is an adult and a child reading together rather than a child reading alone, which also makes it closer to a shared-reading study than a curriculum study.
+I built the 1-5 piece rather than an argument about it: a picture book that follows one complete purchase from the idea through the receipt, plus a free ungated classroom set crosswalked to five frameworks. Sixteen-plus concepts, none announced. A twenty-one-term glossary page-referenced into the story. Catalogued Lexile AD 620L — Adult Directed — so the intervention is an adult and a child reading together rather than a child reading alone, which also makes it closer to a shared-reading study than a curriculum study.
 
 The question, and it may be dissertation-shaped: is there any literature on when price competence forms? I can't find it, and if it doesn't exist that's worth knowing too.
 
