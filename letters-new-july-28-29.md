@@ -24,7 +24,7 @@ Briana — congratulations on the National Outstanding Assistant Principal award
 
 I'm writing because you're the Eastern Shore rep for MAESP and I'm down your way often — I spend a good part of the year in Rehoboth, so Greensboro is nearly the neighborhood.
 
-I wrote and illustrated a K-5 book about money that does the one thing the rest of the shelf skips. Every other kids' money book teaches saving. Mine teaches a purchase — a boy earns a robot, reads the sale ads, compares two models, takes the marked-down one on purpose, hands a coupon to the cashier, and runs face-first into sales tax. Sixteen-plus concepts, none of them announced as a lesson.
+I wrote and illustrated a 1-5 book about money, already printed and on sale, that does the one thing the rest of the shelf skips. Every other kids' money book teaches saving. Mine teaches a purchase — a boy earns a robot, reads the sale ads, compares two models, takes the marked-down one on purpose, hands a coupon to the cashier, and runs face-first into sales tax. Sixteen-plus concepts, none of them announced as a lesson.
 
 Here is why I'm writing you and not a longer list. MAESP recognized you as a Connected School Leader for actually using the digital tools, and the entire teacher kit behind the book is free, ungated, and prints from a browser — four lesson plans, assessments with answer keys, a standards crosswalk. No account, no budget line. It is exactly the kind of thing that dies in a staff room unless a principal who gets it hands it over.
 

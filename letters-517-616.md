@@ -56,7 +56,7 @@ Jonathan
 *1st-degree · DM*
 
 ```
-Annie — My First Nest Egg and Clarence chase the same kid. Yours is the account; mine is the trip to the store. Spending rather than saving, one purchase, ad to register. Complementary, I think. Worth comparing notes, or trading copies? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Annie — My First Nest Egg and Clarence chase the same kid. Yours is the account; mine is the trip to the store. Spending rather than saving, one purchase, ad to register. Complementary, I think, and already printed and on sale either way. Worth comparing notes, or trading copies? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -174,7 +174,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *AI in Education | EdTech Consultant | Partnerships Manager · 1st-degree · DM*
 
 ```
-Angela — AI in education plus edtech partnerships. Mine is defiantly analog: a printed read-along with free digital lessons behind it. Is print still an asset at K-5, or am I fighting the tide? I'd take the honest answer. The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
+Angela — AI in education plus edtech partnerships. Mine is defiantly analog: a printed read-along with free digital lessons behind it, already in stores. Is print still an asset at K-5, or am I fighting the tide? I'd take the honest answer. The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -350,7 +350,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *Business Instructor · 1st-degree · DM*
 
 ```
-Jennifer — a business instructor sees students arrive with gaps set a decade earlier. Mine tries to close one at six. Does the premise hold from where you stand? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
+Jennifer — a business instructor sees students arrive with gaps set a decade earlier. Mine tries to close one at six, already printed and on sale. Does the premise hold from where you stand? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -756,7 +756,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 *Franchisor Partnerships | Strategic Alliances | HCM & Fintech Expert | Partner Enablement | · 1st-degree · DM*
 
 ```
-James — partnerships and fintech means you'll ask whether this scales. Mine is a book plus a completely free teacher materials, so the only line item is the copies. Does that hold as a model? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+James — partnerships and fintech means you'll ask whether this scales. Mine is a book plus a completely free teacher materials, so the only line item is the copies, already printed and on sale. Does that hold as a model? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -910,7 +910,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *Program Director, Financial Planning (BSBA), CFP® Board–Registered Program · 1st-degree · DM*
 
 ```
-Amit — directing a CFP Board-registered program, you see students arrive with gaps set two decades earlier. Mine tries to close one at six. Does the premise hold from where you teach? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
+Amit — directing a CFP Board-registered program, you see students arrive with gaps set two decades earlier. Mine tries to close one at six, already printed and on sale. Does the premise hold from where you teach? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. More: https://clarencegetsabargain.com/ · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -965,7 +965,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 *Chief Learning Officer; Co-Founder/Chief Learning Officer/Building a global, values-based learning platfo · 1st-degree · DM*
 
 ```
-Beth — as a chief learning officer you'll judge whether the instruction is real or decorative. Mine has four 45-minute plans, a pre/post assessment with answer key, and a 23-row crosswalk, all written alongside the book. Does it hold? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Beth — as a chief learning officer you'll judge whether the instruction is real or decorative. Mine has four 45-minute plans, a pre/post assessment with answer key, and a 23-row crosswalk, all written alongside the book, which is already printed and on sale. Does it hold? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 

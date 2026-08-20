@@ -847,7 +847,7 @@ The segment worth doing has nothing to do with my book. It's the forty-year hole
 
 One structural note, since you make things people take in together: the reading level is Lexile AD 620L, and the AD stands for Adult Directed — the trade's own code for a book meant to be read *with* a child rather than handed to one. That was the design, not the accident. Twenty minutes out loud, interrupted the whole way, and the interruptions are the product. Classroom, kitchen counter, grandparent's couch — same pages, same arguments break out.
 
-Am I wrong that it's a story? clarencegetsabargain.com/book-facts.html has the specs. Four-minute flip: https://heyzine.com/flip-book/eeb1ef6cff.html
+Am I wrong that it's a story? It's already printed and on sale — clarencegetsabargain.com/book-facts.html has the specs. Four-minute flip: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 Jonathan
 
@@ -909,7 +909,7 @@ The claim I'd defend hardest is the delayed one: it clicks later, in a real stor
 
 One more thing about how it gets used, because it changes who it is for. Lexile AD 620L — Adult Directed, the industry's own code for a book meant to be read *with* a child. The mother explains every concept on the page, so the adult reading aloud gets handed the script and does not have to be the one who already knows about money. It counts most in the houses where nobody feels qualified to teach it, which is most houses.
 
-You know better than almost anyone whether a thing lands with the people it's for. Would you look, and tell me if the six-year-old version of your audience would sit still for it?
+It's already printed and on sale. You know better than almost anyone whether a thing lands with the people it's for. Would you look, and tell me if the six-year-old version of your audience would sit still for it?
 
 https://heyzine.com/flip-book/eeb1ef6cff.html
 
@@ -1542,7 +1542,7 @@ One thing I would put to you as a planner: a card is magic, and a five-dollar bi
 
 The claim I would defend hardest is the delayed one. The book is not really working in the twenty minutes it takes to read. It works in month eighteen, in a real store, when the kid hits a money moment and the book fires back — "wait, is the newer one actually better?" Recognition first, then the habit.
 
-Does that hold up against what you see in readers? clarencegetsabargain.com/book-facts.html
+It's already printed and on sale. Does that hold up against what you see in readers? clarencegetsabargain.com/book-facts.html
 
 Jonathan
 

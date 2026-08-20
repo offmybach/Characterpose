@@ -243,7 +243,7 @@ One thing I would put to you as a planner: a card is magic, and a five-dollar bi
 
 The claim I would defend hardest is the delayed one. The book is not really working in the twenty minutes it takes to read. It works in month eighteen, in a real store, when the kid hits a money moment and the book fires back — "wait, is the newer one actually better?" Recognition first, then the habit.
 
-Does that hold up against what you see in readers? clarencegetsabargain.com/book-facts.html
+It's already printed and on sale. Does that hold up against what you see in readers? clarencegetsabargain.com/book-facts.html
 
 Jonathan
 
