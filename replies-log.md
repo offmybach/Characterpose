@@ -189,11 +189,13 @@ Mindful spending before investing is the whole plot, so yes — we're aligned. A
 
 Jonathan
 
-P.S. Bargain Olympics sounds like a real event I'd lose badly at.
+P.S. Bargain Olympics is a real event, and I've got the one-cent tags to prove I'd medal.
 ```
 
 **Why it's shaped this way:** owns the phrasing gap in one line, no groveling, then answers
 her two real questions (proof → the link, alignment → yes) before taking her up on the door
 prize offer. No kid to put the phone book on a shelf for, so the line became a TBR-list nod
 instead — same joke, accurate to his actual life. The original P.S. ("My money's on Bronze
-being an insult") needed decoding to land; replaced with a plainer callback to her own joke.
+being an insult") needed decoding to land; the plainer replacement then undersold him ("I'd
+lose badly") against his own documented deal-master reputation — the one-cent shoes and the
+cruise-ship price match. Fixed to claim the medal, not concede it.
