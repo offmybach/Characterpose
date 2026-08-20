@@ -141,3 +141,59 @@ about my illustrations and ai."* The art stays as-is. No reply defends it, no fu
 hedges on it, and no audit flags the "AI-cover accusation" note in `letters-top25-week1.md`
 §23 as something to fix or track. It is not being raised a third time. The reply below was
 trimmed to drop the art paragraph entirely — it corrects the published-status fact only.
+
+---
+
+## 3. Karen Holland — 20 Aug 2026
+
+**What she was replying to:** the letter in `letters-1-198.md` #88 (GiftingSense.org
+founder), which said "Worth comparing notes?" without ever stating the book is already
+printed and on sale — the same bug flagged separately in the Aug 7 fix, recurring here
+because Karen's letter was added after that pass and never got the clause.
+
+**Her reply, in full:**
+
+```
+Hello Jonathan,
+
+Thanks for reaching out. Can you share a publisher's proof? I'm happy to Zoom sometime and
+share notes. I also believe mindful spending is the ABCs or 123s of becoming "good with
+money," as children tend to spend the little bit of money that comes their way long before
+they're able to invest. It seems we're aligned.
+
+I always take 10 copies of a book with me to the Jump$tart National Educator Conference
+for a door prize - perhaps this year we will bring yours! Last year we brought Adam
+Ferguson's "The Things You Have to Do Before I Buy You a Phone."
+
+With kind regards, Karen
+
+PS: My friends tell me I could medal in the Bargain Olympics - and they're not talking
+Bronze or
+```
+
+**What it confirmed:** the published-status gap isn't limited to the 10 letters fixed on
+Aug 7 — it's a live, recurring failure mode in any letter added since, and a full scan
+found 56 more instances across every letter file. Fixed as a result (see the "Add
+published-status disclosure to every premise-challenge letter" commit).
+
+### The reply sent
+
+```
+Karen,
+
+Fair question, and it's on me for not saying it plainly: the book's already published — hardbound, printed, on sale now, not a proof or a manuscript. Cover to cover: https://heyzine.com/flip-book/624a154fe6.html
+
+Mindful spending before investing is the whole plot, so yes — we're aligned. And ten copies at Jump$tart as a door prize would beat any distribution deal I've managed on my own. Happy to mail you copies directly if that's easier than sourcing them yourself.
+
+"The Things You Have to Do Before I Buy You a Phone" just went on my TBR list, title alone.
+
+Jonathan
+
+P.S. Bargain Olympics sounds like a real event I'd lose badly at.
+```
+
+**Why it's shaped this way:** owns the phrasing gap in one line, no groveling, then answers
+her two real questions (proof → the link, alignment → yes) before taking her up on the door
+prize offer. No kid to put the phone book on a shelf for, so the line became a TBR-list nod
+instead — same joke, accurate to his actual life. The original P.S. ("My money's on Bronze
+being an insult") needed decoding to land; replaced with a plainer callback to her own joke.
