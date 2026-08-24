@@ -511,6 +511,7 @@ Six modals open as iframe srcdoc with `<base href="resources/">`. Modal IDs = `r
 - **Maryann's credentials** → `#educators` (~line 906) — 30+ years, not 20+
 - **Standards alignment** → `.std-cell` grid ~line 1020
 - **Site colors / fonts** → CSS block lines 34–352
+- **Turn signed copies off** → delete `signed-copies-on` from the `<body>` tag in `index.html`. Hides the hero line, gift-tag mention, value-stack row and the whole request block, and reverts Buy Now to the plain Stripe link. Books are signed and shipped from home, so the offer only stands while that is true.
 - **Voice/copy edits** → defer to §2 above; mirror Jonathan's punchy/coupon tone
 
 ---

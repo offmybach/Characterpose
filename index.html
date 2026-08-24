@@ -521,6 +521,10 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 
 /* === SIGNED BY THE AUTHOR === */
 .sig-wrap{max-width:540px;margin:0 auto 24px;background:rgba(255,255,255,.06);border:2px dashed rgba(255,224,102,.45);border-radius:18px;padding:20px 22px;text-align:left}
+/* Delete "signed-copies-on" from the <body> tag to pull the offer off the whole page. */
+body:not(.signed-copies-on) .signed-offer{display:none !important}
+.hero-signed{margin-top:14px;font-size:.9rem;color:#0054a6;font-family:'Hold',sans-serif;letter-spacing:.3px;animation:fadeIn .8s ease-out 1.1s both}
+.hero-signed .hs-free{color:#ff6b2b}
 .sig-title{text-align:center;font-family:'Hold',sans-serif;font-size:.7rem;color:#ffe066;letter-spacing:3px;text-transform:uppercase;margin-bottom:6px}
 .sig-sub{text-align:center;font-size:.85rem;color:rgba(255,255,255,.88);line-height:1.5;margin-bottom:16px}
 .sig-choice{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
@@ -890,7 +894,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EC7YNHV890"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-EC7YNHV890");</script>
 </head>
-<body>
+<body class="signed-copies-on">
 <div id="scroll-progress" aria-hidden="true"></div>
 <a class="skip-nav" href="#main">Skip to Content</a>
 <div class="particles" id="particles" aria-hidden="true"></div>
@@ -909,6 +913,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   <div class="read-along-note">&#128214; A funny read-along for kids and grown-ups. The story gets them laughing. The money conversation follows.</div>
   <div class="author">Written &amp; Illustrated by Jonathan Bach</div>
   <div class="hero-cta"><a href="#buy">Get the Book &mdash; $19.99</a></div>
+  <div class="hero-signed signed-offer">&#9997;&#65039; Signed by the author, <span class="hs-free">free</span> &mdash; made out to whoever you want.</div>
   <div class="hero-trust">
     <span>Endorsed by Maryann Milewski Moskal (30+ Yrs, K&ndash;5) &bull; Wally Luckeydoo Ed.D. (2026 Jump$tart Award)</span>
     <span class="ht-sep">&bull;</span>
@@ -1053,14 +1058,14 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
   <div class="price reveal">$19.99</div>
   <div class="price-note reveal">Hardbound &bull; Full Color &bull; Ages 6&ndash;10 &bull; + $5.99 shipping</div>
   <div style="text-align:center" class="reveal">
-    <span class="gift-tag"><span class="gt-icon">&#127873;</span> Makes a wildly good gift &bull; Ships ready to wrap &bull; Signed on request</span>
+    <span class="gift-tag"><span class="gt-icon">&#127873;</span> Makes a wildly good gift &bull; Ships ready to wrap<span class="signed-offer"> &bull; Signed on request</span></span>
   </div>
 
   <div class="value-stack-wrap reveal">
     <div class="vs-title">Everything You Get &mdash; All Free With The Book</div>
     <div class="vs-list">
       <div class="vs-row"><span class="vs-row-name">&#128218; Clarence Gets a Bargain (36-page hardbound)</span><span class="vs-row-value">The book</span></div>
-      <div class="vs-row"><span class="vs-row-name">&#9997;&#65039; Signed by the author &mdash; made out to whoever you want</span><span class="vs-row-value">Free</span></div>
+      <div class="vs-row signed-offer"><span class="vs-row-name">&#9997;&#65039; Signed by the author &mdash; made out to whoever you want</span><span class="vs-row-value">Free</span></div>
       <div class="vs-row"><span class="vs-row-name">&#128221; Zero-Prep Lesson Plans (3 modules)</span><span class="vs-row-value">~6 hrs saved</span></div>
       <div class="vs-row"><span class="vs-row-name">&#128172; 36 Discussion Prompts (The Money Talk)</span><span class="vs-row-value">~3 hrs saved</span></div>
       <div class="vs-row"><span class="vs-row-name">&#127919; Smart Shopper Challenge + Certificate</span><span class="vs-row-value">~2 hrs saved</span></div>
@@ -1073,9 +1078,9 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       <span class="vs-total-amount">Included &middot; $19.99</span>
     </div>
   </div>
-  <div class="sig-wrap reveal">
+  <div class="sig-wrap reveal signed-offer">
     <div class="sig-title">&#9997;&#65039; Want It Signed?</div>
-    <div class="sig-sub">Jonathan signs copies by hand. No extra charge, no upsell &mdash; just tell us who it&rsquo;s for.</div>
+    <div class="sig-sub">Jonathan signs copies by hand. No extra charge, no upsell &mdash; just tell us who it&rsquo;s for. Signed copies go out within a week.</div>
     <div class="sig-choice">
       <label><input type="radio" name="signed" value="no" checked onchange="sigToggle()"><span>Just the book, thanks</span></label>
       <label><input type="radio" name="signed" value="yes" onchange="sigToggle()"><span>Yes &mdash; sign it</span></label>
@@ -1830,13 +1835,19 @@ function sigMakeCode(){
   return 'CGB-' + out;
 }
 
+// Are we still offering this? Driven by the class on <body>, so the offer and
+// the checkout behaviour can never disagree.
+function sigOfferOn(){
+  return document.body.classList.contains('signed-copies-on');
+}
+
 function sigBeforeBuy(e){
   var btn = document.getElementById('buyNowBtn');
   var yes = document.querySelector('input[name="signed"][value="yes"]');
   var note = document.getElementById('sigNote');
 
-  // Not asking for a signature — plain link, nothing to send.
-  if (!yes || !yes.checked) {
+  // Offer withdrawn, or not asking for a signature — plain link, nothing to send.
+  if (!sigOfferOn() || !yes || !yes.checked) {
     if (btn) btn.href = SIG_STRIPE_URL;
     return true;
   }
