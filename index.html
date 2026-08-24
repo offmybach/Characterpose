@@ -519,6 +519,28 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 .vs-total-label{font-family:'Hold',sans-serif;color:#fff;font-size:.95rem;letter-spacing:.5px}
 .vs-total-amount{font-family:'Hold',sans-serif;color:#ffe066;font-size:1.1rem}
 
+/* === SIGNED BY THE AUTHOR === */
+.sig-wrap{max-width:540px;margin:0 auto 24px;background:rgba(255,255,255,.06);border:2px dashed rgba(255,224,102,.45);border-radius:18px;padding:20px 22px;text-align:left}
+.sig-title{text-align:center;font-family:'Hold',sans-serif;font-size:.7rem;color:#ffe066;letter-spacing:3px;text-transform:uppercase;margin-bottom:6px}
+.sig-sub{text-align:center;font-size:.85rem;color:rgba(255,255,255,.75);line-height:1.5;margin-bottom:16px}
+.sig-choice{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.sig-choice label{flex:1;min-width:170px;display:flex;align-items:center;gap:10px;padding:12px 14px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.14);border-radius:10px;cursor:pointer;font-size:.86rem;color:rgba(255,255,255,.85);transition:border-color .2s,background .2s}
+.sig-choice label:hover{border-color:rgba(255,224,102,.5)}
+.sig-choice input{accent-color:#ff6b2b;width:17px;height:17px;flex-shrink:0;cursor:pointer}
+.sig-choice input:checked + span{color:#ffe066;font-family:'Hold',sans-serif;letter-spacing:.4px}
+.sig-fields{display:none;margin-top:16px}
+.sig-fields.show{display:block}
+.sig-field{margin-bottom:12px}
+.sig-field label{display:block;font-family:'Hold',sans-serif;font-size:.72rem;color:#ffe066;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:7px}
+.sig-field input{width:100%;padding:12px 14px;background:rgba(255,255,255,.9);border:1px solid rgba(255,255,255,.2);border-radius:9px;font-family:inherit;font-size:.95rem;color:#111}
+.sig-field input:focus{outline:none;border-color:#ff6b2b;box-shadow:0 0 0 3px rgba(255,107,43,.25)}
+.sig-hint{font-size:.76rem;color:rgba(255,255,255,.6);margin-top:5px;line-height:1.45}
+.sig-note{display:none;text-align:center;font-size:.84rem;line-height:1.5;margin-top:12px;padding:11px 14px;border-radius:10px}
+.sig-note.show{display:block}
+.sig-note.err{background:rgba(255,107,43,.16);border:1px solid rgba(255,107,43,.5);color:#ffd0b8}
+.sig-note.ok{background:rgba(255,224,102,.14);border:1px solid rgba(255,224,102,.45);color:#ffe066}
+@media(max-width:520px){.sig-choice label{min-width:100%}}
+
 /* === SCARCITY METER === */
 .scarcity-meter{margin-top:14px;margin-bottom:14px}
 .sm-track{height:8px;background:rgba(255,255,255,.1);border-radius:10px;overflow:hidden;border:1px solid rgba(255,224,102,.25);position:relative}
@@ -1049,8 +1071,29 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       <span class="vs-total-amount">Included &middot; $19.99</span>
     </div>
   </div>
+  <div class="sig-wrap reveal">
+    <div class="sig-title">&#9997;&#65039; Want It Signed?</div>
+    <div class="sig-sub">Jonathan signs copies by hand. No extra charge, no upsell &mdash; just tell us who it&rsquo;s for.</div>
+    <div class="sig-choice">
+      <label><input type="radio" name="signed" value="no" checked onchange="sigToggle()"><span>Just the book, thanks</span></label>
+      <label><input type="radio" name="signed" value="yes" onchange="sigToggle()"><span>Yes &mdash; sign it</span></label>
+    </div>
+    <div class="sig-fields" id="sigFields">
+      <div class="sig-field">
+        <label for="sig-to">Make It Out To</label>
+        <input type="text" id="sig-to" maxlength="60" placeholder="Clarence, Josie, Grandma Pat&hellip;" autocomplete="off">
+        <div class="sig-hint">First name is plenty. Spell it the way the kid spells it.</div>
+      </div>
+      <div class="sig-field">
+        <label for="sig-email">Your Email</label>
+        <input type="email" id="sig-email" maxlength="120" placeholder="you@example.com" autocomplete="email">
+        <div class="sig-hint">Use the same email you check out with so we can match your order.</div>
+      </div>
+    </div>
+    <div class="sig-note" id="sigNote"></div>
+  </div>
   <div class="buy-btns reveal">
-    <a class="buy-btn amazon" style="background:#ff6b2b; box-shadow:0 4px 20px rgba(255,107,43,.4);" href="https://buy.stripe.com/8x25kDf3v4JQcOR5pW3Ru00" target="_blank" rel="noopener">Buy Now &mdash; $19.99</a>
+    <a class="buy-btn amazon" id="buyNowBtn" style="background:#ff6b2b; box-shadow:0 4px 20px rgba(255,107,43,.4);" href="https://buy.stripe.com/8x25kDf3v4JQcOR5pW3Ru00" target="_blank" rel="noopener" onclick="return sigBeforeBuy(event);">Buy Now &mdash; $19.99</a>
   </div>
   <div class="guarantee-badge reveal">
     <div class="gb-icon">&#128737;&#65039;</div>
@@ -1755,6 +1798,59 @@ function submitReview(e){
     }
   });
   return false;
+}
+
+// SIGNED-COPY REQUEST — rides along with the Stripe checkout click
+function sigToggle(){
+  var yes = document.querySelector('input[name="signed"][value="yes"]');
+  var fields = document.getElementById('sigFields');
+  var note = document.getElementById('sigNote');
+  if (!yes || !fields) return;
+  if (yes.checked) {
+    fields.classList.add('show');
+    var to = document.getElementById('sig-to');
+    if (to) to.focus();
+  } else {
+    fields.classList.remove('show');
+    if (note) note.classList.remove('show');
+  }
+}
+
+function sigBeforeBuy(e){
+  var yes = document.querySelector('input[name="signed"][value="yes"]');
+  var note = document.getElementById('sigNote');
+  if (!yes || !yes.checked) return true;
+
+  var to = (document.getElementById('sig-to').value || '').trim();
+  var email = (document.getElementById('sig-email').value || '').trim();
+
+  function fail(msg){
+    if (note) { note.className = 'sig-note err show'; note.textContent = msg; }
+    e.preventDefault();
+    return false;
+  }
+  if (!to) { document.getElementById('sig-to').focus(); return fail('Who should Jonathan sign it to? Add a name, then hit Buy Now.'); }
+  if (!email || email.indexOf('@') < 1 || email.indexOf('.') < 0) { document.getElementById('sig-email').focus(); return fail('Add the email you check out with so we can match the signature to your order.'); }
+
+  fetch('https://api.web3forms.com/submit', {
+    method:'POST',
+    headers:{'Content-Type':'application/json','Accept':'application/json'},
+    body: JSON.stringify({
+      access_key: WEB3FORMS_ACCESS_KEY,
+      subject: 'Signed Copy Request — make it out to ' + to,
+      from_name: 'Clarence Signed Copies',
+      name: to,
+      email: email,
+      message: 'Signed copy requested. Inscribe to: ' + to + '. Buyer email: ' + email + '. Sent at checkout click.',
+      source: 'clarencegetsabargain.com #buy'
+    })
+  }).catch(function(){});
+
+  if (note) {
+    note.className = 'sig-note ok show';
+    note.textContent = 'Got it — we\u2019ll sign it to ' + to + '. Finish checkout in the new tab.';
+  }
+  return true;
 }
 
 function submitSignup(e){
