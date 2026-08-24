@@ -522,23 +522,24 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 /* === SIGNED BY THE AUTHOR === */
 .sig-wrap{max-width:540px;margin:0 auto 24px;background:rgba(255,255,255,.06);border:2px dashed rgba(255,224,102,.45);border-radius:18px;padding:20px 22px;text-align:left}
 .sig-title{text-align:center;font-family:'Hold',sans-serif;font-size:.7rem;color:#ffe066;letter-spacing:3px;text-transform:uppercase;margin-bottom:6px}
-.sig-sub{text-align:center;font-size:.85rem;color:rgba(255,255,255,.75);line-height:1.5;margin-bottom:16px}
+.sig-sub{text-align:center;font-size:.85rem;color:rgba(255,255,255,.88);line-height:1.5;margin-bottom:16px}
 .sig-choice{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
 .sig-choice label{flex:1;min-width:170px;display:flex;align-items:center;gap:10px;padding:12px 14px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.14);border-radius:10px;cursor:pointer;font-size:.86rem;color:rgba(255,255,255,.85);transition:border-color .2s,background .2s}
 .sig-choice label:hover{border-color:rgba(255,224,102,.5)}
 .sig-choice input{accent-color:#ff6b2b;width:17px;height:17px;flex-shrink:0;cursor:pointer}
-.sig-choice input:checked + span{color:#ffe066;font-family:'Hold',sans-serif;letter-spacing:.4px}
+.sig-choice input:checked + span{color:#fff;font-family:'Hold',sans-serif;letter-spacing:.4px}
+.sig-choice label:has(input:checked){background:rgba(255,255,255,.18);border-color:#fff}
 .sig-fields{display:none;margin-top:16px}
 .sig-fields.show{display:block}
 .sig-field{margin-bottom:12px}
 .sig-field label{display:block;font-family:'Hold',sans-serif;font-size:.72rem;color:#ffe066;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:7px}
 .sig-field input{width:100%;padding:12px 14px;background:rgba(255,255,255,.9);border:1px solid rgba(255,255,255,.2);border-radius:9px;font-family:inherit;font-size:.95rem;color:#111}
 .sig-field input:focus{outline:none;border-color:#ff6b2b;box-shadow:0 0 0 3px rgba(255,107,43,.25)}
-.sig-hint{font-size:.76rem;color:rgba(255,255,255,.6);margin-top:5px;line-height:1.45}
+.sig-hint{font-size:.76rem;color:rgba(255,255,255,.78);margin-top:5px;line-height:1.45}
 .sig-note{display:none;text-align:center;font-size:.84rem;line-height:1.5;margin-top:12px;padding:11px 14px;border-radius:10px}
 .sig-note.show{display:block}
-.sig-note.err{background:rgba(255,107,43,.16);border:1px solid rgba(255,107,43,.5);color:#ffd0b8}
-.sig-note.ok{background:rgba(255,224,102,.14);border:1px solid rgba(255,224,102,.45);color:#ffe066}
+.sig-note.err{background:#fff;border:1px solid #c0392b;color:#a02020;font-weight:600}
+.sig-note.ok{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.5);color:#fff}
 @media(max-width:520px){.sig-choice label{min-width:100%}}
 
 /* === SCARCITY METER === */
@@ -1087,7 +1088,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
       <div class="sig-field">
         <label for="sig-email">Your Email</label>
         <input type="email" id="sig-email" maxlength="120" placeholder="you@example.com" autocomplete="email">
-        <div class="sig-hint">Use the same email you check out with so we can match your order.</div>
+        <div class="sig-hint">Use the same email you check out with. That&rsquo;s how we reach you if there&rsquo;s a question about the spelling.</div>
       </div>
     </div>
     <div class="sig-note" id="sigNote"></div>
@@ -1816,39 +1817,76 @@ function sigToggle(){
   }
 }
 
+var SIG_STRIPE_URL = 'https://buy.stripe.com/8x25kDf3v4JQcOR5pW3Ru00';
+var sigSent = null; // remembers the last request so a second click doesn't resend
+
+// Short reference code. Alphanumerics and dashes only — Stripe silently drops
+// anything else in client_reference_id.
+function sigMakeCode(){
+  var chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // no I/O/0/1 — people read these aloud
+  var out = '';
+  for (var i = 0; i < 6; i++) out += chars.charAt(Math.floor(Math.random() * chars.length));
+  return 'CGB-' + out;
+}
+
 function sigBeforeBuy(e){
+  var btn = document.getElementById('buyNowBtn');
   var yes = document.querySelector('input[name="signed"][value="yes"]');
   var note = document.getElementById('sigNote');
-  if (!yes || !yes.checked) return true;
+
+  // Not asking for a signature — plain link, nothing to send.
+  if (!yes || !yes.checked) {
+    if (btn) btn.href = SIG_STRIPE_URL;
+    return true;
+  }
 
   var to = (document.getElementById('sig-to').value || '').trim();
   var email = (document.getElementById('sig-email').value || '').trim();
 
-  function fail(msg){
+  function fail(msg, focusId){
     if (note) { note.className = 'sig-note err show'; note.textContent = msg; }
+    var f = document.getElementById(focusId);
+    if (f) f.focus();
     e.preventDefault();
     return false;
   }
-  if (!to) { document.getElementById('sig-to').focus(); return fail('Who should Jonathan sign it to? Add a name, then hit Buy Now.'); }
-  if (!email || email.indexOf('@') < 1 || email.indexOf('.') < 0) { document.getElementById('sig-email').focus(); return fail('Add the email you check out with so we can match the signature to your order.'); }
+  if (!to) return fail('Who should Jonathan sign it to? Add a name, then hit Buy Now.', 'sig-to');
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return fail('Add the email you check out with so we can match the signature to your order.', 'sig-email');
 
-  fetch('https://api.web3forms.com/submit', {
-    method:'POST',
-    headers:{'Content-Type':'application/json','Accept':'application/json'},
-    body: JSON.stringify({
-      access_key: WEB3FORMS_ACCESS_KEY,
-      subject: 'Signed Copy Request — make it out to ' + to,
-      from_name: 'Clarence Signed Copies',
-      name: to,
-      email: email,
-      message: 'Signed copy requested. Inscribe to: ' + to + '. Buyer email: ' + email + '. Sent at checkout click.',
-      source: 'clarencegetsabargain.com #buy'
-    })
-  }).catch(function(){});
+  // Same details as the last click? Reuse the code and skip the resend.
+  var resend = !(sigSent && sigSent.to === to && sigSent.email === email);
+  var code = resend ? sigMakeCode() : sigSent.code;
+
+  if (resend) {
+    sigSent = { to: to, email: email, code: code };
+    fetch('https://api.web3forms.com/submit', {
+      method:'POST',
+      headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body: JSON.stringify({
+        access_key: WEB3FORMS_ACCESS_KEY,
+        subject: 'Signed Copy ' + code + ' — to ' + to + ' (pending payment)',
+        from_name: 'Clarence Signed Copies',
+        name: to,
+        email: email,
+        message: 'Reference: ' + code
+          + '\nInscribe to: ' + to
+          + '\nBuyer email: ' + email
+          + '\n\nSent when they clicked Buy Now, BEFORE payment. Confirm a Stripe payment exists'
+          + ' for this buyer before signing. No matching payment means they did not finish checkout.',
+        source: 'clarencegetsabargain.com #buy'
+      })
+    }).catch(function(){});
+  }
+
+  // Ride the code along to Stripe so the payment can be matched to the request.
+  // The name itself stays out of the URL — Stripe warns that links carrying
+  // parameters can surface in places you did not intend.
+  if (btn) btn.href = SIG_STRIPE_URL + '?client_reference_id=' + encodeURIComponent(code);
 
   if (note) {
     note.className = 'sig-note ok show';
-    note.textContent = 'Got it — we\u2019ll sign it to ' + to + '. Finish checkout in the new tab.';
+    note.innerHTML = 'Got it — signed to <strong>' + to.replace(/[<>&]/g, '') + '</strong>. '
+      + 'Finish checkout in the new tab. Your reference is <strong>' + code + '</strong>.';
   }
   return true;
 }
