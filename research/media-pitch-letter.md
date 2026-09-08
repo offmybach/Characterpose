@@ -45,7 +45,7 @@ The book is endorsed by a 30-year veteran K–5 educator and by the 2026 EIFLE E
 
 I'm available for interviews, guest segments, written Q&As, and speaking dates for parent, teacher, and financial-education audiences. I keep answers short, I don't do jargon, and I bring the shoes story.
 
-Everything you'd need is at one link: **www.clarencegetsabargain.com/press-kit.html** — bios in three lengths, cover art, the fact sheet, and suggested interview questions. Full specs for fact-checkers: www.clarencegetsabargain.com/book-facts.html.
+Everything you'd need is at one link: **clarencegetsabargain.com/press-kit.html** — bios in three lengths, cover art, the fact sheet, and suggested interview questions. Full specs for fact-checkers: clarencegetsabargain.com/book-facts.html.
 
 Thanks for reading this far. The kid gets the robot; your audience gets the reason he deserved it.
 
@@ -53,7 +53,7 @@ Jonathan Bach
 Author & illustrator, *Clarence Gets a Bargain*
 Attorney. Dad. Keeper of receipts.
 questions@clarencegetsabargain.com
-www.clarencegetsabargain.com
+clarencegetsabargain.com
 
 ---
 

@@ -29,9 +29,9 @@ Two requests come to your desk all week. A kid wants a robot book. A parent want
 
 Here's the collection-development case, with the qualifier a librarian will appreciate: most money picture books cover earning or saving. To our knowledge, this is the first narrative picture book for this age group that traces the whole consumer arc — wish through receipt. It fills a hole in the money shelf rather than adding a fourth piggy-bank book to it.
 
-**Cataloging data:** ISBN 979-8-234-07638-0 · LCCN 2026906164 · hardbound, case bound, full color, 11×8.5″ · Est. Lexile AD 620L, Guided Reading L–N · $19.99. Full record: www.clarencegetsabargain.com/book-facts.html
+**Cataloging data:** ISBN 979-8-234-07638-0 · LCCN 2026906164 · hardbound, case bound, full color, 11×8.5″ · Est. Lexile AD 620L, Guided Reading L–N · $19.99. Full record: clarencegetsabargain.com/book-facts.html
 
-**Programming, done for you.** The site carries a free program kit that needs no prep budget: printable price tags and clearance stickers for a pretend store, a five-question Smart Shopper Quiz with a printable certificate, an interactive Sea-Mart register kids run themselves, and discussion guides. If you build programming for Financial Literacy Month or Money Smart Week, a storytime plus the pretend store is a complete event. Everything: www.clarencegetsabargain.com/educator-toolkit.html
+**Programming, done for you.** The site carries a free program kit that needs no prep budget: printable price tags and clearance stickers for a pretend store, a five-question Smart Shopper Quiz with a printable certificate, an interactive Sea-Mart register kids run themselves, and discussion guides. If you build programming for Financial Literacy Month or Money Smart Week, a storytime plus the pretend store is a complete event. Everything: clarencegetsabargain.com/educator-toolkit.html
 
 The book is endorsed by a veteran K–5 educator with 30+ years in the classroom and by the 2026 EIFLE Educator of the Year. I'm also glad to do an author visit or virtual storytime — I illustrate live and I take questions from six-year-olds very seriously.
 
@@ -40,7 +40,7 @@ Review copy on request. Thanks for what you do at that desk.
 Jonathan Bach
 Author & illustrator, *Clarence Gets a Bargain*
 Attorney. Dad. Keeper of receipts.
-questions@clarencegetsabargain.com · www.clarencegetsabargain.com
+questions@clarencegetsabargain.com · clarencegetsabargain.com
 
 ---
 
@@ -56,11 +56,11 @@ Thirty states now guarantee a personal finance course — in high school. Money 
 
 *Clarence Gets a Bargain* is a 36-page picture book, grades 1–5, that walks one kid through one complete purchase: earning the reward, researching the sale ads, comparison shopping in the aisle, a clearance markdown, a coupon at the register, sales tax on the receipt — and the receipt photographed and kept, because that's what makes returns and warranty claims possible. The story leads; the money concepts ride inside the plot. A 21-term back-matter glossary cross-references each definition to the story page where it happens, so vocabulary review points kids back into the book instead of away from it.
 
-**The teacher-collaboration case.** The read-aloud runs 15–20 minutes — one class period with discussion. The free companion toolkit is built for the teachers you support: four 45-minute lesson plans, a discussion guide, pre/post assessments with answer key, family take-home activities, and a standards chart mapped to Jump$tart, Common Core Math, Common Core ELA, CEE, and FDIC Money Smart. No sign-up wall. Print and hand to your third-grade team: www.clarencegetsabargain.com/educator-toolkit.html
+**The teacher-collaboration case.** The read-aloud runs 15–20 minutes — one class period with discussion. The free companion toolkit is built for the teachers you support: four 45-minute lesson plans, a discussion guide, pre/post assessments with answer key, family take-home activities, and a standards chart mapped to Jump$tart, Common Core Math, Common Core ELA, CEE, and FDIC Money Smart. No sign-up wall. Print and hand to your third-grade team: clarencegetsabargain.com/educator-toolkit.html
 
-**Specs for the record:** ISBN 979-8-234-07638-0 · LCCN 2026906164 · hardbound, case bound, full color, 11×8.5″ · Est. Lexile AD 620L, Guided Reading L–N · $19.99. Full data: www.clarencegetsabargain.com/book-facts.html
+**Specs for the record:** ISBN 979-8-234-07638-0 · LCCN 2026906164 · hardbound, case bound, full color, 11×8.5″ · Est. Lexile AD 620L, Guided Reading L–N · $19.99. Full data: clarencegetsabargain.com/book-facts.html
 
-**Purchasing is built for schools.** POs accepted, Net 30, W-9 on request, sole-source justification letter available, Title I pricing for bulk orders. Vendor packet: www.clarencegetsabargain.com/resources/procurement.html
+**Purchasing is built for schools.** POs accepted, Net 30, W-9 on request, sole-source justification letter available, Title I pricing for bulk orders. Vendor packet: clarencegetsabargain.com/resources/procurement.html
 
 Endorsed by a veteran K–5 educator with 30+ years in the classroom and by the 2026 EIFLE Educator of the Year. Author visits — in person or virtual — are on the table; I illustrate live and I've never lost a Q&A to a fifth grader, though several have come close.
 
@@ -69,7 +69,7 @@ Review copy on request. Thanks for reading.
 Jonathan Bach
 Author & illustrator, *Clarence Gets a Bargain*
 Attorney. Dad. Keeper of receipts.
-questions@clarencegetsabargain.com · www.clarencegetsabargain.com
+questions@clarencegetsabargain.com · clarencegetsabargain.com
 
 ---
 

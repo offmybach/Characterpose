@@ -173,14 +173,14 @@ opens "Dear Team" gets filed accordingly.
 > It's built against Jump$tart National Standards, Common Core Math and ELA, CEE,
 > and FDIC Money Smart. The crosswalk maps every concept to the specific standard,
 > so you can check the alignment claim rather than take my word for it:
-> https://www.clarencegetsabargain.com/resources/curriculum-alignment-matrix.html
+> https://clarencegetsabargain.com/resources/curriculum-alignment-matrix.html
 >
 > Nothing in it sells a financial product. There's no sponsor and no bank behind
 > it. It was reviewed by Maryann Milewski Moskal, a K–5 teacher with 30+ years in
 > the classroom, and endorsed by Wally Luckeydoo, Ed.D., your 2026 Corey Carlisle
 > Award recipient.
 >
-> Toolkit: https://www.clarencegetsabargain.com/educator-toolkit.html
+> Toolkit: https://clarencegetsabargain.com/educator-toolkit.html
 >
 > Happy to send whatever the listing criteria need.
 >
@@ -210,7 +210,7 @@ opens "Dear Team" gets filed accordingly.
 > Smart. 21-term glossary with page references in the back.
 >
 > Free classroom materials, no gate:
-> https://www.clarencegetsabargain.com/educator-toolkit.html
+> https://clarencegetsabargain.com/educator-toolkit.html
 >
 > Glad to send a review copy.
 >
@@ -237,7 +237,7 @@ opens "Dear Team" gets filed accordingly.
 > a full crosswalk. Lexile AD 620L. LCCN 2026906164. Free lesson plans, discussion
 > guide, and assessments, all ungated.
 >
-> https://www.clarencegetsabargain.com/educator-toolkit.html
+> https://clarencegetsabargain.com/educator-toolkit.html
 >
 > Review copies ready whenever you are.
 >
