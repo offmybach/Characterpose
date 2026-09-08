@@ -7,7 +7,7 @@ The other five recent adds are tier-2 or skip: Lauren Saunders (NCLC — adult c
 protection, credibility not adoption), Melissa McCall (early-literacy trainer, preschool —
 below the age band), and Sebastian Gomez-Cardona, Travis Klein, Tiffany Zachmeier (adult
 investment / retirement / university financial literacy). None wrong; none worth their own
-letter for a K–5 book.
+letter for a grades 1-5 book.
 
 🐋 = whale.
 
