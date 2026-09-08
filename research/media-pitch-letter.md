@@ -5,7 +5,7 @@ reporters. Drafted July 12, 2026.
 
 How to use:
 - Swap the opening line per outlet (notes at the bottom).
-- Send from jonbachlaw@gmail.com or questions@clarencegetsabargain.com.
+- Send from jb@clarencegetsabargain.com or questions@clarencegetsabargain.com.
 - Keep it in the email body. No attachments; the press kit link does that job.
 - The "first book" claim is qualified on purpose. Keep the qualifier. It's
   honest, it's defensible, and the attorney framing turns it into a bit.

@@ -185,7 +185,7 @@ opens "Dear Team" gets filed accordingly.
 > Happy to send whatever the listing criteria need.
 >
 > Jonathan Bach
-> jonbachlaw@gmail.com
+> jb@clarencegetsabargain.com
 
 ### B. ABA Foundation book list
 
