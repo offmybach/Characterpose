@@ -1,6 +1,6 @@
 # SEND QUEUE — the complete cut-and-paste file
 
-**88 letters. Full text. In order. Nothing else to open.**
+**86 letters. Full text. In order. Nothing else to open.**
 
 Every letter below is the current, audited version pulled straight from source, so what you
 read here is what ships. Work top to bottom and tick as you go.
@@ -23,9 +23,9 @@ volume — leave yourself room to answer whoever writes back.
 **Five letters here deliberately skip a pillar. Leave them.**
 **1 Bonner** answers a courtesy note with one question and stops; the argument is in his held
 message 2. **14 Generations United** delivers a thing you promised rather than pitching.
-**30 Chrisler** and **31 Leslie Jones** say "teaches spending rather than saving" in the
-procedural register their desks want. **56 Stacy Cowley** puts it better than the stock line:
-*"We teach them to save and never tell them they are already the buyer."* And **58 Boglarski**
+**29 Chrisler** and **30 Leslie Jones** say "teaches spending rather than saving" in the
+procedural register their desks want. **54 Stacy Cowley** puts it better than the stock line:
+*"We teach them to save and never tell them they are already the buyer."* And **56 Boglarski**
 keeps "the only metric that matters" because that sentence is yours, recovered verbatim.
 
 ---
@@ -474,7 +474,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-# WEEK 2 — the top 25
+# WEEK 2 — the top 23
 
 Ordered warmest first. Peers and near-peers reply fastest and cost nothing to have pending.
 
@@ -856,37 +856,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 27. Michelle Singletary
-*Washington Post — syndicated personal finance columnist · 2nd-degree · InMail*
-
-**Channel:** LinkedIn message (1st-degree)  
-**Subject:** `The kids' money book that skips the piggy bank`  
-**Source:** `letters-top25-week1.md`
-
-- [ ] sent
-
-```
-Michelle — you have written for twenty years that the money conversation with children has to start early, and I wrote the book for the earliest version of it. One question at the end, and it is a column question rather than a book question.
-
-Every children's financial literacy book teaches saving. I read all 25 on the ABA Foundation's list to be certain. Piggy banks, jars, patience. But saving is the second thing a child does with money; the first is spending, and a six-year-old has already done it — in a store, holding money, deciding whether the thing is worth what it costs.
-
-Mine follows one purchase the entire way. A boy wants a robot, earns it with chores and grades, reads the newspaper sale inserts at the kitchen counter, compares two models on a shelf, takes the cheaper one on purpose, hands a coupon to the cashier, meets sales tax, and then lives with what he bought. Idea to post-receipt. Sixteen-plus concepts and nobody in the book says "budget." Twenty-one terms in the glossary, each page-referenced to the scene it came from.
-
-The format is part of the argument. Lexile AD 620L — Adult Directed, the industry's own code for a book meant to be read *with* a child. Which means the conversation you have been telling parents to have for twenty years happens on its own: an adult reads, a kid interrupts, and somebody in the room has to answer "do we have one of those?" out loud. It works the same when the adult is a grandparent, which is often who is actually sitting there.
-
-The column, if there is one: an entire publishing category has taught children to save for forty years and skipped the cash register, which is the only place a child has ever actually handled money. That is a story about the field, not about me.
-
-clarencegetsabargain.com/press-kit.html
-
-Jonathan Bach
-Baltimore
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
----
-
-## 28. Tiffany "The Budgetnista" Aliche
+## 27. Tiffany "The Budgetnista" Aliche
 *NYT bestseller, Get Good with Money · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -920,7 +890,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 29. Neale Godfrey
+## 28. Neale Godfrey
 *Built the kids-and-money category · NYT #1 bestseller · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -950,7 +920,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 30. Joel Chrisler
+## 29. Joel Chrisler
 *Jump$tart — Director of Teacher Engagement · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -982,7 +952,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 31. Leslie Jones
+## 30. Leslie Jones
 *CFPB — Youth Financial Education · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1010,7 +980,7 @@ Jonathan
 
 ---
 
-## 32. Ken Worthey Jr
+## 31. Ken Worthey Jr
 *FDIC — Assistant Director, Consumer Education (Money Smart) · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1038,7 +1008,7 @@ Jonathan
 
 ---
 
-## 33. Lyn Haralson
+## 32. Lyn Haralson
 *CFPB — Money as You Grow Bookshelf · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1068,7 +1038,7 @@ Jonathan
 
 ---
 
-## 34. Tracy Godat
+## 33. Tracy Godat
 *Executive Director, Financial Education Public-Private Partnership (State of Washington) · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1098,7 +1068,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 35. Hunter Field
+## 34. Hunter Field
 *Senior Manager, Policy & Advocacy, NEFE · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1130,13 +1100,14 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 36. Tim Ranzetta
+## 35. Tim Ranzetta
 *Co-founder, Next Gen Personal Finance · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
 **Source:** `letters-top25-week1.md`
 
-> Send Ranzetta this week. Hold Yanely Espinal (#11) until next — same building.
+> Yanely Espinal — same building, NGPF — is 2nd-degree and moved to `letters-inmail-required.md`
+> until you have InMail credits. Send Ranzetta now; stagger Espinal from there once you can.
 
 - [ ] sent
 
@@ -1162,7 +1133,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 37. Sandy Spavone
+## 36. Sandy Spavone
 *Executive Director, FCCLA — 257,000+ members, 5,300+ chapters, 49 states · connected Jul 25*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1192,7 +1163,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 38. Annamaria Lusardi
+## 37. Annamaria Lusardi
 *Director, Initiative for Financial Decision-Making, Stanford · Founder, GFLEC · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1223,37 +1194,6 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 39. Yanely Espinal
-*NGPF — Director of Educational Outreach · 2nd-degree · InMail*
-
-**Channel:** LinkedIn message (1st-degree)  
-**Subject:** `The grade band below yours`  
-**Source:** `letters-top25-week1.md`
-
-> ⏸ HOLD until week two.
-
-- [ ] sent
-
-```
-Yanely — you spend your time getting personal finance in front of teenagers, and I want to ask about the years before you get them.
-
-Every mandate lands in high school. Delaware just became the thirtieth state and put the course in ninth grade. But the habits being corrected at sixteen were installed at six, in a store, with a parent saying no. The sequence is the part I keep circling: financial education starts children with saving, and saving is the second thing a person does with money. The first is spending.
-
-I wrote the 1-5 on-ramp — one purchase followed the whole way, from wanting a robot to living with it. Sale ads at the kitchen counter, comparison on a shelf, a markdown taken on purpose, a coupon at the register, sales tax. Sixteen-plus concepts, none announced, and a twenty-one-term glossary page-referenced back into the story. Free ungated classroom set behind it.
-
-For the teacher side: AD 620L — Adult Directed — one class period out loud, with the mother explaining every concept in the text so a teacher without a finance background can run it cold. The same book does the job at a kitchen counter with a parent or a grandparent, which is the part elementary teachers actually ask for and rarely get.
-
-Honest question rather than a pitch: when you talk to teachers, does elementary ever come up as something they want and cannot find? I am trying to work out whether I am filling a gap or inventing one.
-
-clarencegetsabargain.com/educator-toolkit.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
----
-
 # WEEKS 3–4 — the 42 whales
 
 Rewritten long-form, one concrete image each. Peers, then media, then the desks, then
@@ -1261,7 +1201,7 @@ researchers, then the institutions that reply slowest — send those early for t
 
 ---
 
-## 40. Sam X Renick
+## 38. Sam X Renick
 *Sammy Rabbit — 20+ years, 250,000 children · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1289,7 +1229,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 41. Prince Dykes
+## 39. Prince Dykes
 *Wesley Learns series — the closest kid-investing peer · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1319,7 +1259,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 42. Annie Shoen
+## 40. Annie Shoen
 *My First Nest Egg — co-founder · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1347,7 +1287,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 43. Tom Henske
+## 41. Tom Henske
 *Highest-engagement post in the entire category (22 comments / 3K) · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1375,7 +1315,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 44. Lynnette Khalfani-Cox
+## 42. Lynnette Khalfani-Cox
 *The Money Coach · founder, Financial Influencer Network · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1405,7 +1345,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 45. Rob Phelan
+## 43. Rob Phelan
 *Financial education resource creator — teacher reach · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1435,7 +1375,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 46. Kim Bhasin
+## 44. Kim Bhasin
 *New York Times — retail correspondent · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1463,7 +1403,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 47. Amanda Aronczyk
+## 45. Amanda Aronczyk
 *Planet Money — co-host · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1491,7 +1431,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 48. Terry Savage
+## 46. Terry Savage
 *Nationally syndicated financial columnist · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1521,7 +1461,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 49. Beth Pinsker, CFP®
+## 47. Beth Pinsker, CFP®
 *Financial planning columnist and author · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1551,7 +1491,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 50. Kate Dore
+## 48. Kate Dore
 *CNBC — personal finance reporter · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1581,7 +1521,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 51. Andrew Giancola
+## 49. Andrew Giancola
 *The Personal Finance Podcast — 20M+ downloads · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1611,7 +1551,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 52. Julie Hyman
+## 50. Julie Hyman
 *Yahoo Finance — anchor · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1639,7 +1579,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 53. Matt Schulz
+## 51. Matt Schulz
 *LendingTree chief analyst and author · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1667,7 +1607,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 54. Gretchen Morgenson
+## 52. Gretchen Morgenson
 *NBC / Reuters — senior financial investigations · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1695,7 +1635,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 55. Ben Eisen I
+## 53. Ben Eisen I
 *Wall Street Journal — Bureau Chief, Personal Finance · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1725,7 +1665,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 56. Stacy Cowley
+## 54. Stacy Cowley
 *New York Times — consumer finance · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1755,7 +1695,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 57. Veronica Dagher
+## 55. Veronica Dagher
 *Wall Street Journal — senior wealth reporter · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1787,7 +1727,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 58. Amy Boglarski
+## 56. Amy Boglarski
 *Boston Public Library — children's librarian · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1815,7 +1755,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 59. Sarah Wright
+## 57. Sarah Wright
 *New York Public Library — children's librarian · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1845,7 +1785,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 60. Carly Urban
+## 58. Carly Urban
 *Montana State — the definitive research on financial-literacy mandates · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1876,7 +1816,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 61. Neale Mahoney
+## 59. Neale Mahoney
 *Stanford SIEPR — Director · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1908,7 +1848,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 62. Iris SooJin Park
+## 60. Iris SooJin Park
 *UW–Madison — the group that selected the CFPB Bookshelf titles · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1938,7 +1878,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 63. Susan Doty
+## 61. Susan Doty
 *UT Tyler — Center for Economic Education, founding director · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1968,7 +1908,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 64. Beth Bean, Ph.D.
+## 62. Beth Bean, Ph.D.
 *SVP, Research & Impact · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -1999,7 +1939,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 65. Jeff Larrimore
+## 63. Jeff Larrimore
 *Federal Reserve — Chief, Consumer & Community Research · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2030,7 +1970,7 @@ Attorney and children's book author, Baltimore
 
 ---
 
-## 66. Laura L. Levine
+## 64. Laura L. Levine
 *Jump$tart Coalition — CEO · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2064,7 +2004,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 67. Billy J. Hensley
+## 65. Billy J. Hensley
 *NEFE — President & CEO · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2097,7 +2037,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 68. Ruben Rivera
+## 66. Ruben Rivera
 *Council for Economic Education — Senior Director, National Academic Programs · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2125,7 +2065,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 69. Martin Seay
+## 67. Martin Seay
 *CFP Board — Chair-Elect · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2155,7 +2095,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 70. Vince Shorb
+## 68. Vince Shorb
 *NFEC — CEO, thousands of certified instructors · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2185,7 +2125,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 71. Bill Parker
+## 69. Bill Parker
 *Tennessee Financial Literacy Commission — Director · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2215,7 +2155,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 72. Dave Mancl
+## 70. Dave Mancl
 *Wisconsin Office of Financial Literacy — Director · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2243,7 +2183,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 73. Bethann Parker
+## 71. Bethann Parker
 *Utah Bankers Association — Director of Education · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2273,7 +2213,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 74. Flora Teo
+## 72. Flora Teo
 *Junior Achievement of Alaska — President · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2303,7 +2243,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 75. Bina Shrimali
+## 73. Bina Shrimali
 *Federal Reserve Bank of San Francisco — VP, Community Engagement & Analysis · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2330,7 +2270,7 @@ Attorney and children's book author, Baltimore
 
 ---
 
-## 76. Elizabeth Coogan
+## 74. Elizabeth Coogan
 *U.S. Department of Education — Financial Education · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2361,7 +2301,7 @@ Attorney and children's book author, Baltimore
 
 ---
 
-## 77. Ed Pacchetti
+## 75. Ed Pacchetti
 *U.S. Department of Education — Director · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2388,7 +2328,7 @@ Attorney and children's book author, Baltimore
 
 ---
 
-## 78. Thomas Taylor
+## 76. Thomas Taylor
 *Montgomery County Public Schools — Superintendent · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2421,7 +2361,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 79. Saskia Brown
+## 77. Saskia Brown
 *Harlem Children's Zone Promise Academy — Superintendent · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2451,7 +2391,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 80. Jennifer Klein
+## 78. Jennifer Klein
 *Harlem Children's Zone — Chief Development Officer · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2479,7 +2419,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 81. Jillian Moskovitz
+## 79. Jillian Moskovitz
 *Intuit for Education — Head of Curriculum · 1st-degree*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2515,7 +2455,7 @@ contact.
 
 ---
 
-## 82. Erin Weber, CFP®, CPFC®
+## 80. Erin Weber, CFP®, CPFC®
 *Vice President, Weber Group of Raymond James*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2543,7 +2483,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 83. Navya Prakash
+## 81. Navya Prakash
 *Education Program & Product Leader · Scaling National Learning Programs · EdTech*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2571,7 +2511,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 84. Therese Faessler
+## 82. Therese Faessler
 *Co-Founder, Equitika*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2599,7 +2539,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 85. Nickhil Earla
+## 83. Nickhil Earla
 *Co-Founder, Finora*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2627,7 +2567,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 ---
 
-## 86. Jasper Lawler
+## 84. Jasper Lawler
 *Financial Content Marketing, TradingWriters*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2653,7 +2593,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ---
 
-## 87. Hayley Lorenzo
+## 85. Hayley Lorenzo
 *Head of Early Years · UK-trained EYFS specialist · International British Curriculum, Asia*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2681,7 +2621,7 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 
 ---
 
-## 88. Keanna Buckett-Espinoza
+## 86. Keanna Buckett-Espinoza
 *Early Childhood Education Leader · Doctoral Candidate*
 
 **Channel:** LinkedIn message (1st-degree)  
@@ -2709,10 +2649,11 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 # After these — the long tail
 
-**620 shorter letters** sit in `letters-1-198.md`, `letters-199-396.md`, `letters-397-516.md`
-and `letters-517-616.md`. They carry all five pillars, the em-dash P.S. and clean voice, and
+**499 shorter letters** sit in `letters-1-198.md`, `letters-199-396.md`, `letters-397-516.md`
+and `letters-517-616.md` — plus **121 more** in `letters-inmail-required.md` that need
+InMail credits or a paid LinkedIn subscription to reach. They carry all five pillars, the em-dash P.S. and clean voice, and
 they run about 730 characters each. They are honest and correct; they are also mostly
-argument rather than scene. Work them once the 88 above are out and you have seen what
+argument rather than scene. Work them once the 86 above are out and you have seen what
 replies look like.
 
 **Held deliberately:** Bonner's message 2, until he answers message 1. It's in

@@ -1,8 +1,9 @@
-# Letters 199–396
+# Letters 168–279
 
-Heavier on district, curriculum, academic and credit union contacts.
+Heavier on district, curriculum, academic and credit union contacts. First-degree only —
+2nd/3rd-degree contacts moved to `letters-inmail-required.md`.
 
-**198 letters — 4 whales.** Copy the block under each name.
+**112 letters — 4 whales.** Copy the block under each name.
 
 🐋 = whale. One yes from these moves the needle by itself.
 
@@ -12,12 +13,12 @@ Heavier on district, curriculum, academic and credit union contacts.
 
 | | Who | Why they matter |
 |---|---|---|
-| 203 | [Carly Urban](#203-carly-urban) | Montana State — definitive research on finlit mandates |
-| 204 | [Iris SooJin Park](#204-iris-soojin-park) | UW-Madison — the group that picked the CFPB Bookshelf titles |
-| 205 | [Neale Mahoney](#205-neale-mahoney) | Stanford SIEPR — Director |
-| 206 | [Bina Shrimali](#206-bina-shrimali) | SF Fed — VP, Community Engagement & Analysis |
+| 168 | [Carly Urban](#168-carly-urban) | Montana State — definitive research on finlit mandates |
+| 169 | [Iris SooJin Park](#169-iris-soojin-park) | UW-Madison — the group that picked the CFPB Bookshelf titles |
+| 170 | [Neale Mahoney](#170-neale-mahoney) | Stanford SIEPR — Director |
+| 171 | [Bina Shrimali](#171-bina-shrimali) | SF Fed — VP, Community Engagement & Analysis |
 
-### 🐋 203. Carly Urban
+### 🐋 168. Carly Urban
 *Montana State — definitive research on finlit mandates*  
 *1st-degree · DM*
 
@@ -29,7 +30,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 🐋 204. Iris SooJin Park
+### 🐋 169. Iris SooJin Park
 *UW-Madison — the group that picked the CFPB Bookshelf titles*  
 *1st-degree · DM*
 
@@ -40,7 +41,7 @@ Jonathan
 
 ```
 
-### 🐋 205. Neale Mahoney
+### 🐋 170. Neale Mahoney
 *Stanford SIEPR — Director*  
 *1st-degree · DM*
 
@@ -52,7 +53,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 🐋 206. Bina Shrimali
+### 🐋 171. Bina Shrimali
 *SF Fed — VP, Community Engagement & Analysis*  
 *1st-degree · DM*
 
@@ -69,10 +70,9 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 # Everything else
 
-
 ## Academic
 
-### 207. Hanna Yu
+### 172. Hanna Yu
 *Ph.D. Candidate | Financial Literacy & Well-Being | Consumer & Family Science | Educator · 1st-degree · DM*
 
 ```
@@ -83,7 +83,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 208. Casey Halliley
+### 173. Casey Halliley
 *Award-winning financial literacy educator, Speaker, Professor, Founder of The Orchard Method · 1st-degree · DM*
 
 ```
@@ -94,7 +94,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 209. Clarissa Theiss
+### 174. Clarissa Theiss
 *Financial Literacy Ambassador; President of Penn State Mock Trial Association | Schreyer Scholar at Penn  · 1st-degree · DM*
 
 ```
@@ -105,7 +105,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 210. Nicholas Hotalen
+### 175. Nicholas Hotalen
 *Senior Financial Literacy Student Ambassador; Economics and Mathematics (Systems Analysis) Student at Pen · 1st-degree · DM*
 
 ```
@@ -116,7 +116,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 211. Mark Duggan
+### 176. Mark Duggan
 *The Wayne and Jodi Cooperman Professor of Economics at Stanford University · 1st-degree · DM*
 
 ```
@@ -127,7 +127,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 212. Derek Tharp
+### 177. Derek Tharp
 *Professor | Financial Planner | Researcher · 1st-degree · DM*
 
 ```
@@ -138,7 +138,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 213. Shinae Choi
+### 178. Shinae Choi
 *Associate Professor at The University of Alabama · 1st-degree · DM*
 
 ```
@@ -149,7 +149,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 214. Angela Fontes
+### 179. Angela Fontes
 *Executive Director | Academic Researcher | Bridging data and hands-on work in the community to improve fi · 1st-degree · DM*
 
 ```
@@ -160,7 +160,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 215. Melanie D. Jewkes
+### 180. Melanie D. Jewkes
 *Extension Professor · 1st-degree · DM*
 
 ```
@@ -171,7 +171,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 216. Anjana Ranjit MPH
+### 181. Anjana Ranjit MPH
 *Adjunct Professor; Associate Lecturer @ Curry College | Doctoral Candidate ABD · 1st-degree · DM*
 
 ```
@@ -182,7 +182,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 217. Dr. Chelsea Dowell
+### 182. Dr. Chelsea Dowell
 *Lecturer in Economics; Business Economist, Educator, & Consultant uplifting communities with servant lead · 1st-degree · DM*
 
 ```
@@ -193,7 +193,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 218. Narmin Nahidi
+### 183. Narmin Nahidi
 *Assistant Professor in Finance, Ph.D. | Program Director, International Business MSc · 1st-degree · DM*
 
 ```
@@ -204,7 +204,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 219. Andrea Sticha
+### 184. Andrea Sticha
 *Research Director · 1st-degree · DM*
 
 ```
@@ -215,7 +215,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 220. Jordan Hall
+### 185. Jordan Hall
 *Graduate Student; Masters Student at Alvernia University · 1st-degree · DM*
 
 ```
@@ -226,7 +226,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 221. William McKeel III
+### 186. William McKeel III
 *Finance Instructor - Delta Charter School, MST | BBA in Finance - Northwestern State University · 1st-degree · DM*
 
 ```
@@ -237,7 +237,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 222. Sloane Moriarty
+### 187. Sloane Moriarty
 *English & Education Student at the University of California, Berkeley · 1st-degree · DM*
 
 ```
@@ -248,29 +248,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 223. Chalese Connors, CEPF
-*Executive Director of the Student Money Management Center · 2nd-degree · InMail*
-
-```
-Chalese — a money management center sees exactly which gaps students arrive with. Mine tries to close one at six rather than nineteen. Does the premise match what walks through your door? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 224. Dr. Pushpa Wood ONZM
-*Director · 2nd-degree · InMail*
-
-```
-Dr. Wood — you've built financial capability work at national scale. My claim, already printed and on sale either way: K-5 is structurally underserved because funding follows high school. Does that hold internationally, or is it a US problem? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 225. Eduardo Mesquita
+### 188. Eduardo Mesquita
 *Professor | Digital Consumer Behavior · 1st-degree · DM*
 
 ```
@@ -281,230 +259,9 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 226. Joel Philistin, MPA, AF...
-*Director of Financial Wellness · 2nd-degree · InMail*
-
-```
-Joel — an AFC with an MPA judges both the content and the delivery. It's a 36-page picture book plus four free zero-prep lessons. Fit a program you run? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 227. Ryan H. Law, MS, CFP...
-*Money Success Center Director · 2nd-degree · InMail*
-
-```
-Ryan — a money success center sees the downstream cost of what nobody taught at eight. Mine teaches the complete purchase at six, sales tax included. Does starting that early actually stick, in your experience? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 228. Megan McCoy, Ph.D., L...
-*Acting Personal Financial Planning Program Chair · 2nd-degree · InMail*
-
-```
-Dr. McCoy — financial therapy says money behavior is emotional and early. Mine meets a six-year-old at the first want in a store and walks him to his own decision. Does that land clinically, or is it wishful? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 229. Kim Holder
-*Managing Director, Center for Economic Education · 2nd-degree · InMail*
-
-```
-Kim — a center for economic education knows what teachers actually adopt versus politely accept. Mine is aligned to CEE and four others with a full crosswalk, and elementary is usually the thinnest shelf. Fit your teacher work? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 230. Maria Edlin King
-*Director, TN Council on Economic & Free Enterprise Education · 2nd-degree · InMail*
-
-```
-Maria — Tennessee's council decides what reaches classrooms. Mine is 1-5 plus a free zero-prep classroom pack against five frameworks. Elementary is where most states have the least. Route in? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 231. Panu Kalmi
-*Professor · 2nd-degree · InMail*
-
-```
-Professor Kalmi — your work on financial education crosses national contexts. My premise is that spending competence is taught almost nowhere at primary level, in any country I've checked. It's already printed and on sale. Does that hold in the European data? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 232. Anna LO PRETE
-*Associate Professor · 2nd-degree · InMail*
-
-```
-Professor Lo Prete — a question from outside the academy. My children's book, already printed and on sale, argues spending competence precedes saving competence developmentally. Is there literature that settles the sequencing either way? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 233. Lamya Alsaadi, Ph.D.
-*Assistant Professor, Finance · 2nd-degree · InMail*
-
-```
-Dr. Alsaadi — as a finance professor you'll test a premise quickly. Mine, already printed and on sale: children's financial education teaches saving almost exclusively while spending is the first transaction kids perform. Does it hold? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 234. Jaycob A. Arbogast CF...
-*Director - Center for Excellence in Finance · 2nd-degree · InMail*
-
-```
-Jaycob — a center for excellence in finance sees where competence actually comes from. Mine argues it starts with one supervised purchase at six. Does that framing interest you? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 235. Beau Brannan
-*Visiting Professor · 2nd-degree · InMail*
-
-```
-Beau — a visiting professor's read is useful precisely because you see many programs. Mine is a spending book, not a saving one, 1-5, five frameworks, already printed and on sale. Does the premise hold up? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 236. CMA Dr. Niranjan Mah ...
-*Associate Professor (Finance) in School of Business Management · 2nd-degree · InMail*
-
-```
-Dr. Niranjan — a finance academic's read on a children's book premise: spending competence precedes saving competence and is taught almost nowhere. Does that survive in your context? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 237. Jay Sexton, MBA, Doct .. .
-*Instructor of Business · 2nd-degree · InMail*
-
-```
-Jay — as a business instructor you see students arrive with gaps set a decade earlier. Mine tries to close one at six. Would the premise hold up in your classroom? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 238. Sebastian Sanders, MBA
-*Adjunct Professor · 2nd-degree · InMail*
-
-```
-Sebastian — an adjunct's read is useful because you see the practical end. Mine teaches the complete purchase, sales tax included, to six-year-olds. Right first lesson, or wrong one? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 239. Bryan Bulmer
-*Advisor II, College of Arts and Sciences · 2nd-degree · InMail*
-
-```
-Bryan — you advise students who often arrive without the basics. Mine plants one at six: compare before you buy, and know what the register adds. Fit anything you point families toward? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 240. Carly Escue
-*Director of Executive Education - Jones College of Business · 2nd-degree · InMail*
-
-```
-Carly — executive education is a long way from a picture book, so briefly: mine teaches the complete purchase to six-year-olds. If your college does community or K-12 outreach, would it fit? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 241. Ali Ibrahimov
-*Financial Analyst II · 2nd-degree · InMail*
-
-```
-Ali — an analyst's read on a simple claim: children's financial education teaches saving and skips the transaction entirely. I wrote the counterexample for ages 6-10. Does the gap look real to you? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 242. Ashley Danielle
-*Sport Management Instructor · 2nd-degree · InMail*
-
-```
-Ashley — outside your field, so quickly. I wrote a children's book teaching six-year-olds to spend deliberately. If you work with young athletes or families, it may be useful. Worth a look? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 243. Jaime Barajas, M. A.
-*C) Ethnic Studies Assistant Professor · 2nd-degree · InMail*
-
-```
-Jaime — an ethnic studies lens raises a fair question about my book: it's a working family talking straight about bills and tradeoffs, which is rarer in this category than it should be — already printed and on sale. Would you tell me whether it rings true? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 244. Didine Erskine, CFP®
-*Certified Financial Planner · 2nd-degree · InMail*
-
-```
-Didine — a CFP's read on a children's book. Mine teaches the complete purchase, sales tax included, to six-year-olds. Does it get the money right, and would you point families to it? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 245. Samantha Hicks, MBA,...
-*Assistant Vice President of Financial Aid and Scholarships · 2nd-degree · InMail*
-
-```
-Samantha — financial aid sees the end of a long chain that starts absurdly early. Mine starts at six with spending rather than saving. Fit any family-facing program you run? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-
 ## Credit union / Bank
 
-### 246. Cherry Dale
+### 189. Cherry Dale
 *Senior Vice President Financial Education; Sr. Vice President of Financial Education at Virginia Credit U · 1st-degree · DM*
 
 ```
@@ -515,7 +272,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 247. Monica Van Arsdale
+### 190. Monica Van Arsdale
 *Financial Education Program Manager at Virginia Credit Union · 1st-degree · DM*
 
 ```
@@ -526,7 +283,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 248. Angela De Gennaro
+### 191. Angela De Gennaro
 *In-School Financial Wellness Officer, Visions Federal Credit Union · 1st-degree · DM*
 
 ```
@@ -537,7 +294,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 249. Jon Cofield
+### 192. Jon Cofield
 *Financial Education Specialist @ Cy-Fair Federal Credit Union | Psychology · 1st-degree · DM*
 
 ```
@@ -548,7 +305,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 250. Brittney Owens
+### 193. Brittney Owens
 *Financial Education Specialist; Financial Education Specialist at SchoolsFirst Federal Credit Union · 1st-degree · DM*
 
 ```
@@ -559,7 +316,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 251. Judette Kurasz
+### 194. Judette Kurasz
 *V.P. Financial Literacy Officer; V.P. Financial Literacy Officer at Byline Bank · 1st-degree · DM*
 
 ```
@@ -570,7 +327,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 252. Kayleigh Erwin
+### 195. Kayleigh Erwin
 *O Financial Educator; HRCU Financial Educator - CTE Banking Instructor · 1st-degree · DM*
 
 ```
@@ -581,7 +338,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 253. Kenda Carfagno, FSCP, ...
+### 196. Kenda Carfagno, FSCP, ...
 *Financial Wellness Officer · 1st-degree · DM*
 
 ```
@@ -592,7 +349,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 254. Michael D. Fluker
+### 197. Michael D. Fluker
 *Financial Well-Being Expert: Financial Well-Being Manager at Credit Union 1 · 1st-degree · DM*
 
 ```
@@ -603,7 +360,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 255. Sarah Willmett-Whiteman
+### 198. Sarah Willmett-Whiteman
 *Financial Education Specialist at MidFirst Bank · 1st-degree · DM*
 
 ```
@@ -614,7 +371,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 256. Alyssa Osorio
+### 199. Alyssa Osorio
 *Corporate Training & Financial Literacy Officer at Falcon International Bank · 1st-degree · DM*
 
 ```
@@ -625,7 +382,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 257. Mass B Santos CRUZ
+### 200. Mass B Santos CRUZ
 *Senior Relationship Banker; Experienced Program Director | Financial Empowerment Advocate | International · 1st-degree · DM*
 
 ```
@@ -636,7 +393,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 258. Corey G.
+### 201. Corey G.
 *Personal Finance Educator · 1st-degree · DM*
 
 ```
@@ -647,7 +404,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 259. Dan Littman
+### 202. Dan Littman
 *Retired, Federal Reserve Bank of Cleveland · 1st-degree · DM*
 
 ```
@@ -658,7 +415,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 260. Seema Sheth
+### 203. Seema Sheth
 *SVP Federal Reserve Bank of St. Louis | Regional Executive | Louisville Branch | Local Passion - National · 1st-degree · DM*
 
 ```
@@ -669,7 +426,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 261. Alfredo Martinez
+### 204. Alfredo Martinez
 *Financial Inclusion & Education Officer; Financial Counselor | CUDE | Board Member · 1st-degree · DM*
 
 ```
@@ -680,7 +437,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 262. Jennifer Webb
+### 205. Jennifer Webb
 *Vice President/Community Development Officer at UP Federal Credit Union · 1st-degree · DM*
 
 ```
@@ -691,7 +448,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 263. Juli Lewis
+### 206. Juli Lewis
 *VP of Community Engagement at USF Federal Credit Union, Chief Relationship Officer at Michael Walters Adv · 1st-degree · DM*
 
 ```
@@ -702,7 +459,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 264. Rick Durante
+### 207. Rick Durante
 *Vice President, Director of Social Corporate Responsibility & Government Affairs; Director of Corporate S · 1st-degree · DM*
 
 ```
@@ -713,7 +470,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 265. Mark Miyamoto
+### 208. Mark Miyamoto
 *The Salus platform enables credit unions and community banks the ability attract and service GenZ with re · 1st-degree · DM*
 
 ```
@@ -724,7 +481,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 266. Veronica Frisancho
+### 209. Veronica Frisancho
 *Chief Economist at CAF (Development Bank of Latin America) · 1st-degree · DM*
 
 ```
@@ -735,98 +492,9 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 267. Aziza Gary-Smith , CC...
-*Assistant Vice President of Financial Wellness · 2nd-degree · InMail*
-
-```
-Aziza — as an AVP of financial wellness you know the lessons that stick start young, and that elementary rarely gets a budget line. Mine has a grant-ready funding packet behind it. Fit a family program? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 268. Brittany Haley
-*AVP, Financial Education Manager · 2nd-degree · InMail*
-
-```
-Brittany — a financial education manager needs material that works without you standing in the room. Mine is a read-aloud with zero-prep lessons a teacher or parent runs alone. Fit your programs? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 269. Kayde Denny
-*Financial Education Coordinator · 2nd-degree · InMail*
-
-```
-Kayde — as coordinator you're the one who has to make it work on the ground, which is a different job from choosing it. Mine needs no prep, no platform, nothing consumable. Fit a program you coordinate? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 270. Kristi Harr
-*Director of Financial Literacy · 2nd-degree · InMail*
-
-```
-Kristi — directing financial literacy means choosing what actually reaches people. Mine is 1-5, which is usually the band with nothing at all. Picture book plus free ungated teacher materials. Worth a look? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 271. Marshall M Moore
-*Director of Community Impact and Financial Well-being · 2nd-degree · InMail*
-
-```
-Marshall — community impact and financial wellbeing is where a K-5 resource matters most, because elementary rarely gets its own funding. Mine has a grant-ready packet with cost math. Fit? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 272. Peyton Craft
-*Financial Wellness Director · 2nd-degree · InMail*
-
-```
-Peyton — as a financial wellness director you decide what reaches families. Mine is a 1-5 read-along with a free family activity built for a kitchen counter rather than a classroom. Fit? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 273. Salman Shehzad
-*Project Director — Financial Literacy Integration & National Program Cascia Lynn Fonta • 2 nd 2 Lists Exe · 2nd-degree · InMail*
-
-```
-Salman — national program integration is exactly the scale where K-5 gets forgotten. Mine runs 36 pages plus free ungated classroom materials against five frameworks. Fit your integration work? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Funding packet: https://clarencegetsabargain.com/resources/grant-in-a-box.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-
 ## District / Curriculum
 
-### 274. Debbie Schultz
-*Vice President of System Procurement Centers of Excellence & Centralized Support · 2nd-degree · InMail*
-
-```
-Debbie — system procurement means total cost, not sticker price. Mine is hardcover with nothing consumable and free ungated teacher materials, so the cost is one-time and the reorder is never. Route into your review process? One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Specs and PO terms: https://clarencegetsabargain.com/resources/procurement.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 275. Melissa Jordan
+### 210. Melissa Jordan
 *Curriculum Specialist at Lanier Elementary School · 1st-degree · DM*
 
 ```
@@ -837,7 +505,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 276. Samantha Zimdars
+### 211. Samantha Zimdars
 *Curriculum Developer | Reading Intervention & Social Emotional Learning Specialist | Elementary & Middle  · 1st-degree · DM*
 
 ```
@@ -848,7 +516,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 277. Suzanne Devitt
+### 212. Suzanne Devitt
 *Director- Early Childhood Education/ School Readiness at Stockton Unified School District · 1st-degree · DM*
 
 ```
@@ -859,7 +527,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 278. Jacquelyn Alvarez
+### 213. Jacquelyn Alvarez
 *School Principal | MEd in Educational Administration and Supervision
 Experience as a Principal, Assistant · 1st-degree · DM*
 
@@ -871,7 +539,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 279. Bruce Merritt
+### 214. Bruce Merritt
 *Assistant Director of Purchasing @ Auburn SD | NIGP-CPP Certified Procurement Professional | Certified Sc · 1st-degree · DM*
 
 ```
@@ -882,7 +550,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 280. Jake Lappi
+### 215. Jake Lappi
 *Instructional Superintendent at District of Columbia Public Schools (DCPS) · 1st-degree · DM*
 
 ```
@@ -893,7 +561,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 281. Shawn Joseph
+### 216. Shawn Joseph
 *Incoming Superintendent | ShawnJosephEdD.org · 1st-degree · DM*
 
 ```
@@ -904,7 +572,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 282. David Pinder
+### 217. David Pinder
 *Superintendent of Schools · 1st-degree · DM*
 
 ```
@@ -915,7 +583,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 283. Mallory Wright Gayle
+### 218. Mallory Wright Gayle
 *Educational Leader | Ed.D. | Leadership Development, Student Success & Organizational Change | Assistant  · 1st-degree · DM*
 
 ```
@@ -926,7 +594,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 284. Angela Allen
+### 219. Angela Allen
 *Head of School · 1st-degree · DM*
 
 ```
@@ -937,7 +605,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 285. Kristen Johnson
+### 220. Kristen Johnson
 *Director Of Education and Leadership Development · 1st-degree · DM*
 
 ```
@@ -948,18 +616,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 286. Sarah Galetti, Ed.D.
-*Director of Curriculum and Instruction · 2nd-degree · InMail*
-
-```
-Sarah — curriculum and instruction is where a book like this lives or dies. Mine has a 23-row crosswalk and four 45-minute lessons written alongside the book rather than added after. Would you look at whether that claim holds? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 287. Malori Bigler
+### 221. Malori Bigler
 *O Curriculum Lead; Financial Literacy Curriculum Lead | Educational Game Creator · 1st-degree · DM*
 
 ```
@@ -970,7 +627,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 288. Michael Sheffer
+### 222. Michael Sheffer
 *Director of Education And Outreach; Director of Education and Outreach at Troutwood · 1st-degree · DM*
 
 ```
@@ -981,7 +638,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 289. Peggy Muldoon
+### 223. Peggy Muldoon
 *Founder, Altitude Learning Group - Financial Education Consultant & Instructional Designer | K–12 Teacher · 1st-degree · DM*
 
 ```
@@ -992,7 +649,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 290. Kim M. Braud
+### 224. Kim M. Braud
 *Financial Power For Life™ Proprietary Financial Literacy Framework | Principal Strategist | Publisher | C · 1st-degree · DM*
 
 ```
@@ -1003,7 +660,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 291. Peter Myers
+### 225. Peter Myers
 *Financial Literacy Advisory Committee Member; Financial Literacy Educator & Curriculum Designer Specializ · 1st-degree · DM*
 
 ```
@@ -1014,7 +671,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 292. Nechama Yaffe
+### 226. Nechama Yaffe
 *Early Childhood Consultant, M.S. Ed., IMH-E · 1st-degree · DM*
 
 ```
@@ -1025,7 +682,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 293. Amy-Marie Rivera
+### 227. Amy-Marie Rivera
 *Head of Early Childhood at The Center for Early Education · 1st-degree · DM*
 
 ```
@@ -1036,7 +693,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 294. Cynthia Lynn-Garbe
+### 228. Cynthia Lynn-Garbe
 *Director at Westminster Early Childhood Programs · 1st-degree · DM*
 
 ```
@@ -1047,7 +704,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 295. Ann Loorz
+### 229. Ann Loorz
 *Executive Director, Purchasing; Executive Director, Purchasing, Warehouse and Graphics at Fresno Unified  · 1st-degree · DM*
 
 ```
@@ -1058,7 +715,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 296. Gina Klug
+### 230. Gina Klug
 *Purchasing Agent; Purchasing Agent at Smithtown CSD | NYSAMPO Board Member | Elevating Public Procurement · 1st-degree · DM*
 
 ```
@@ -1069,7 +726,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 297. Michael J. Martirano
+### 231. Michael J. Martirano
 *Superintendent, Allegany County Public Schools. Sr Fellow, Center for Digital Education. Former Superinte · 1st-degree · DM*
 
 ```
@@ -1080,7 +737,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 298. Christopher Dormer
+### 232. Christopher Dormer
 *Superintendent; Proud to serve as the Superintendent of Schools of the NORRISTOWN AREA SCHOOL DISTRICT · 1st-degree · DM*
 
 ```
@@ -1091,7 +748,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 299. Stephanie Schoembs
+### 233. Stephanie Schoembs
 *Curriculum Developer; K–8 Curriculum Leader | AI-Enabled Curriculum Transformation | EdTech & Publishing · 1st-degree · DM*
 
 ```
@@ -1102,7 +759,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 300. Mansi Dodiya
+### 234. Mansi Dodiya
 *Educator | Curriculum Design | Academic Coordination | Creating Classrooms that Inspire · 1st-degree · DM*
 
 ```
@@ -1113,7 +770,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 301. Nikole Clayton
+### 235. Nikole Clayton
 *O Director of Education; Director of Education at Banzai, Inc · 1st-degree · DM*
 
 ```
@@ -1124,7 +781,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 302. Hema Mangatoo
+### 236. Hema Mangatoo
 *DIRECTOR - EXECUTIVE DIRECTOR | HEAD OF SCHOOL Early Childhood Education | Business Operations | Enrollme · 1st-degree · DM*
 
 ```
@@ -1135,7 +792,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 303. Kevin Wright
+### 237. Kevin Wright
 *Specializes in Operations & Culture | Learning & Instructional Design | Leadership & Supervision Developm · 1st-degree · DM*
 
 ```
@@ -1146,161 +803,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 304. Ashley Villalobos
-*Elementary Educator & Curriculum & Educational Technology · 3rd-degree · InMail*
-
-```
-Ashley — an elementary educator who also does curriculum and ed tech sees both sides. Mine is a printed read-aloud with free digital lessons. Would it work in your classroom? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 305. Bailey Shimp
-*Elementary Curriculum Developer · 3rd-degree · InMail*
-
-```
-Bailey — elementary curriculum development is where my materials get judged. Mine were built alongside the book: four zero-prep lessons, assessments, a 23-row crosswalk. Would you look? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free lesson set: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 306. Debra Riedl
-*Director, Elementary Curriculum · 3rd-degree · InMail*
-
-```
-Debra — as director of elementary curriculum you decide what reaches K-5, which is the band financial literacy skips entirely. Mine has a full standards crosswalk. Clear your bar? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 307. Ellen Kramer
-*Elementary Curriculum & Instruction Facilitator · 3rd-degree · InMail*
-
-```
-Ellen — curriculum facilitators see whether teachers actually adopt something or shelve it without telling you. Mine needs no prep and nothing consumable. Survive your elementary classrooms? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free classroom materials: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 308. Esabel Cervantes
-*Director of Curriculum And Instruction · 3rd-degree · InMail*
-
-```
-Esabel — you'll ask about standards first. Mine maps to Jump$tart, Common Core Math and ELA, CEE, and FDIC Money Smart, with a 23-row crosswalk. Worth a review? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free teaching pack: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 309. Jessica H.
-*Elementary Curriculum & Instruction Specialist · 3rd-degree · InMail*
-
-```
-Jessica — an elementary curriculum specialist knows what teachers abandon halfway through. Mine is a 36-page read-aloud with zero-prep lessons and nothing to reorder. Survive your classrooms? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 310. Julie Helton
-*Senior Director, Elementary Curriculum and Instruction · 3rd-degree · InMail*
-
-```
-Julie — as senior director of elementary curriculum you decide what reaches a lot of classrooms. Mine teaches the complete purchase, sales tax included, with a full crosswalk. Worth a look? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 311. Katie Gullett
-*Director of Elementary Curriculum and Instruction Amy Pinnay • 2 rd 1 List Supervisor of Elementary Curri · 3rd-degree · InMail*
-
-```
-Katie — elementary curriculum is exactly the band that gets skipped on financial literacy. I made a picture book plus four free zero-prep lessons. Fit your district? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free lesson set: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 312. Marcella Soriano, M.Ed.
-*O Curriculum and Instruction Specialist · 3rd-degree · InMail*
-
-```
-Marcella — a curriculum and instruction specialist will test whether the lessons match the book. Mine were written alongside it, 23-row crosswalk included. Would you look at the alignment? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free teacher materials: https://clarencegetsabargain.com/educator-toolkit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 313. Mona Berry Ed.D
-*Director of Elementary Curriculum · 3rd-degree · InMail*
-
-```
-Dr. Berry — as director of elementary curriculum you set what K-5 actually gets. Financial literacy usually stops before fifth grade entirely. I wrote a picture book plus free standards-aligned lessons. Worth reviewing? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free classroom materials: https://clarencegetsabargain.com/educator-toolkit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 314. Shelly Kelly
-*Elementary Curriculum Coordinator · 3rd-degree · InMail*
-
-```
-Shelly — an elementary curriculum coordinator sees what teachers actually pick up. Mine requires no prep, nothing consumable, and it's a story kids finish. Fit your schools? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free teaching pack: https://clarencegetsabargain.com/educator-toolkit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 315. Suzan Dincer
-*Elementary Curriculum Director · 3rd-degree · InMail*
-
-```
-Suzan — elementary curriculum directors are the right filter for this. Mine is 1-5, teaching spending, with assessments and a 23-row crosswalk behind it. Worth a review? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 316. Tamika Ford
-*Elementary Curriculum Specialist · 3rd-degree · InMail*
-
-```
-Tamika — an elementary curriculum specialist knows whether something fits a real scope and sequence. Mine is one 36-page book plus four 45-minute lessons against five frameworks. Would you look? One spec worth having before it reaches a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free classroom pack: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 317. Toby McQuerrey
-*Coordinator of Elementary Curriculum (ELA, MATH, SCIENCE, SOCIAL STUDIES) · 3rd-degree · InMail*
-
-```
-Toby — you coordinate across ELA, math, and social studies, which is unusual and useful: mine hits all three at once. Comparison math, a read-aloud narrative, and consumer economics. Fit? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free lesson set: https://clarencegetsabargain.com/educator-toolkit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 318. Gerri Latting
+### 238. Gerri Latting
 *Director, Early Childhood Programs · 1st-degree · DM*
 
 ```
@@ -1311,7 +814,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 319. Noelani Mussman
+### 239. Noelani Mussman
 *Professional Learning Design | Adult Learning | Instructional Coaching | Leadership Development | Equity  · 1st-degree · DM*
 
 ```
@@ -1322,7 +825,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 320. Jennifer Huff
+### 240. Jennifer Huff
 *EdTech Leadership | Director of Implementation & State Program Success | M.Ed. & Principal Certified | Dr · 1st-degree · DM*
 
 ```
@@ -1333,18 +836,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 321. Gil Coble
-*Curriculum Developer / SME — Financial Literacy Math (Contract) · 2nd-degree · InMail*
-
-```
-Gil — a curriculum developer working on financial literacy math will care that mine has real arithmetic in it: comparing two prices, applying a percentage off, adding sales tax. Fit what you're building? The classroom spec, for what it is worth: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. Free teacher pack: https://clarencegetsabargain.com/educator-toolkit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 322. Amanda Reardon,
+### 241. Amanda Reardon,
 *Head of Early Childhood Education · 1st-degree · DM*
 
 ```
@@ -1355,7 +847,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 323. Charlene McVety
+### 242. Charlene McVety
 *Director of Early Childhood Education · 1st-degree · DM*
 
 ```
@@ -1366,10 +858,9 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-
 ## Gatekeeper
 
-### 324. Dr. Tiina K.O. Rodrigue, EdD
+### 243. Dr. Tiina K.O. Rodrigue, EdD
 *CISO · 1st-degree · DM*
 
 ```
@@ -1380,7 +871,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 325. Jennifer Stockett
+### 244. Jennifer Stockett
 *Deputy Assistant Director, Office of Financial Institutions, External Affairs · 1st-degree · DM*
 
 ```
@@ -1391,7 +882,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 326. Leslie Parrish
+### 245. Leslie Parrish
 *Deputy Assistant Director - Markets · 1st-degree · DM*
 
 ```
@@ -1402,10 +893,9 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-
 ## Kids-finance founder
 
-### 327. Sito Narcisse
+### 246. Sito Narcisse
 *K-12 Education Leader | Strategist | Consultant · 1st-degree · DM*
 
 ```
@@ -1416,7 +906,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 328. Dr. Ashley C. Williams
+### 247. Dr. Ashley C. Williams
 *Board Member; ECE Strategist | Always in service of children, families & educators. Never at the expense  · 1st-degree · DM*
 
 ```
@@ -1427,7 +917,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 329. Dominic DeLaquil
+### 248. Dominic DeLaquil
 *Founder, Millionaire Habits for Families - Helping Parents Raise Money-Smart Kids with a Simple, Habit-Ba · 1st-degree · DM*
 
 ```
@@ -1438,7 +928,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 330. Cassandra Russell
+### 249. Cassandra Russell
 *Director of Operations; Financial Educator | Financial Literacy, Education · 1st-degree · DM*
 
 ```
@@ -1449,7 +939,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 331. Chris Scott
+### 250. Chris Scott
 *O Founder & Product Lead; Founder, CoinSprout Kids | Financial Literacy for Kids | Programs • Schools • C · 1st-degree · DM*
 
 ```
@@ -1460,7 +950,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 332. Christina Lartey
+### 251. Christina Lartey
 *Founder @ Think Pieces | Financial Education for Children | AXA Startup Angel Runner Up 2025 · 1st-degree · DM*
 
 ```
@@ -1471,7 +961,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 333. Claudia Martins
+### 252. Claudia Martins
 *Community Engagement Director @ National Financial Educators Council (NFEC) | Florida Financial Educators · 1st-degree · DM*
 
 ```
@@ -1482,7 +972,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 334. Gayatri Upasani
+### 253. Gayatri Upasani
 *Founder of FIntelligenZ- A platform which teaches financial literacy to kids and teens · 1st-degree · DM*
 
 ```
@@ -1493,7 +983,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 335. J.P. Servideo
+### 254. J.P. Servideo
 *Financial Literacy Speaker for Teens · 1st-degree · DM*
 
 ```
@@ -1504,7 +994,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 336. Ta'Donna Nagle
+### 255. Ta'Donna Nagle
 *Financial Education Consultant Supporting Program Leaders of Schools and Youth Organizations Deliver Meas · 1st-degree · DM*
 
 ```
@@ -1515,7 +1005,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 337. Val Chapman
+### 256. Val Chapman
 *Financial Literacy Disruptor; Founder & CEO | Leading Early Financial Education Initiatives | Social Impa · 1st-degree · DM*
 
 ```
@@ -1526,7 +1016,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 338. Vanessa Busia
+### 257. Vanessa Busia
 *Founder of Money Adventures | Financial Literacy Educator | Helping Kids Build Money Confidence · 1st-degree · DM*
 
 ```
@@ -1537,7 +1027,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 339. Kimberly Evans Sulfridge
+### 258. Kimberly Evans Sulfridge
 *Financial Professional & Founder of Kidz Money Lab, helping families raise money-smart kids · 1st-degree · DM*
 
 ```
@@ -1548,7 +1038,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 340. Liberty Venn
+### 259. Liberty Venn
 *Founder at Children's Book Project UK · 1st-degree · DM*
 
 ```
@@ -1559,10 +1049,9 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-
 ## Librarian
 
-### 341. Kellyanne Healey, MEd, MI
+### 260. Kellyanne Healey, MEd, MI
 *Children's Librarian, Lake Hiawatha Branch Library · 1st-degree · DM*
 
 ```
@@ -1573,7 +1062,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 342. Rae Ellyn Kelley
+### 261. Rae Ellyn Kelley
 *Children's Librarian · 1st-degree · DM*
 
 ```
@@ -1584,7 +1073,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 343. Ashlie Giuffre
+### 262. Ashlie Giuffre
 *Library Director at Melrose Park Public Library · 1st-degree · DM*
 
 ```
@@ -1595,10 +1084,9 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-
 ## Parenting
 
-### 344. Varun Gupta
+### 263. Varun Gupta
 *The "Knotty" Economist at Wharton County Jr. College · 1st-degree · DM*
 
 ```
@@ -1609,10 +1097,9 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-
 ## Peer author
 
-### 345. Ramat Oyetunji
+### 264. Ramat Oyetunji
 *Founder; Founder, FLEX Financial Education™| K–8 financial education for Pennsylvania schools | Growing f · 1st-degree · DM*
 
 ```
@@ -1623,7 +1110,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 346. Alex R. Claycomb
+### 265. Alex R. Claycomb
 *Financial Literacy Published Author, Speaker & Educator · 1st-degree · DM*
 
 ```
@@ -1634,18 +1121,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 347. Lisa A. Crayton, M.F.A.
-*Author, Children's Books · 2nd-degree · InMail*
-
-```
-Lisa — children's author to children's author. My worry is craft, not content: does a 36-page arc about one shopping trip hold a young reader? I'd value your read as a writer rather than a subject expert. It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 348. Kago Wamuyu
+### 266. Kago Wamuyu
 *Africa’s relatable financial storyteller. Let’s build your future, together 💪Personal Finance Coach & Edu · 1st-degree · DM*
 
 ```
@@ -1656,7 +1132,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 349. James Redelsheimer
+### 267. James Redelsheimer
 *Education Manager; Barron’s AP Economics Author | Education Manager at the Foundation for Economic Educat · 1st-degree · DM*
 
 ```
@@ -1667,7 +1143,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 350. Larry Faulkner
+### 268. Larry Faulkner
 *Certified Financial Instructor | Bestselling Author of The Illustrated Guide to Financial Independence · 1st-degree · DM*
 
 ```
@@ -1678,7 +1154,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 351. Donna L Martin
+### 269. Donna L Martin
 *KidLit Author · 1st-degree · DM*
 
 ```
@@ -1689,7 +1165,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 352. Ilene Dudek
+### 270. Ilene Dudek
 *Book Author · 1st-degree · DM*
 
 ```
@@ -1700,7 +1176,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 353. Patricia Mott
+### 271. Patricia Mott
 *Book Author at Self-Employed · 1st-degree · DM*
 
 ```
@@ -1711,7 +1187,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 354. Corwin Melvin
+### 272. Corwin Melvin
 *Author Coach | Self-Publishing Expert | Writing Mentor | I Help Everyday People Turn Their Stories Into P · 1st-degree · DM*
 
 ```
@@ -1722,7 +1198,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 355. Cathy L. Davis
+### 273. Cathy L. Davis
 *Professional Publishing Consultant, #1 International Best-Selling Author, Publisher/Ghost Publisher, · 1st-degree · DM*
 
 ```
@@ -1733,7 +1209,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 356. Michele DeFilippo
+### 274. Michele DeFilippo
 *Helping Independent Authors Create Outstanding Books with Full Control and Profits | One-Stop Publishing  · 1st-degree · DM*
 
 ```
@@ -1744,7 +1220,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 357. Bill Corbett
+### 275. Bill Corbett
 *Author / Speaker · 1st-degree · DM*
 
 ```
@@ -1755,7 +1231,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 358. Cara Tyrrell,
+### 276. Cara Tyrrell,
 *ECE Keynote Speaker | Author | Teacher Trainer | Collaborative Discipline · 1st-degree · DM*
 
 ```
@@ -1766,43 +1242,9 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 359. Chad Foster
-*Author / Entrepreneur · 2nd-degree · InMail*
-
-```
-Chad — you've built a career teaching young people what school skips. Mine goes younger than most: six-year-olds, and the skill is spending rather than saving. Does that age band hold a real lesson? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. More: https://clarencegetsabargain.com/ · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 360. David Delisle
-*Author · 2nd-degree · InMail*
-
-```
-David — The Squeaky Wheel proved a kids' money book can be properly funny. Mine tries the same trick on spending rather than saving, already printed and on sale. Author to author, would you tell me if the humor lands or thuds? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 361. Courtney Reinhold
-*Author and Founder · 3rd-degree · InMail*
-
-```
-Courtney — author and founder, so you'll see both the book and the business question. Mine teaches 1-5 spending and sells direct rather than through Amazon. Worth a look, or a bad decision? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. More: https://clarencegetsabargain.com/ · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-
 ## Podcast
 
-### 362. Aarav Pant
+### 277. Aarav Pant
 *Co-Host of Street Entrepreneurship Podcast | Founder, Rich Lessons · 1st-degree · DM*
 
 ```
@@ -1813,395 +1255,9 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-
 ## Press / Editor
 
-### 363. Kathryn Vasel
-*Journalist | Personal Finance Reporter; Journalist I Personal Finance Reporter · 2nd-degree · InMail*
-
-```
-Kathryn — a claim you can check over coffee: every children's money book teaches saving. I read all 25 on the ABA Foundation's list rather than assume it. None teaches spending, which is the only transaction a six-year-old performs. Mine does, sales tax included. Story, or wrong desk? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 364. Mike Winters
-*Lead Money Reporter · 2nd-degree · InMail*
-
-```
-Mike — you write for people building habits right now. Mine starts them at six and skips saving entirely: one purchase, sale ad to register, including the moment sales tax shows up uninvited. Is there a story in what kids' money books leave out? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 365. Pete Grieve
-*Lead News Reporter · 2nd-degree · InMail*
-
-```
-Pete — a small odd fact you may be able to use. I wrote a children's picture book in which a six-year-old pays sales tax and asks where it went. I can't find another kids' book that does it. Story, or just a strange thing to have made? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 366. Liz Knueven
-*Lead Reporter · 2nd-degree · InMail*
-
-```
-Liz — a kids' money book with no piggy bank in it. Deliberate. It teaches spending: comparison, markdowns, coupons, sales tax. The story is the forty-year gap in the category, not my book. Interested, or a better contact? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 367. Kerri Anne Renzulli
-*Personal Finance Writer and Editor · 2nd-degree · InMail*
-
-```
-Kerri Anne — you know a story beats a lecture, which is the entire design. Six-year-old runs one real purchase and takes the cheaper older model on purpose. No saving lesson anywhere in it. Something here for you? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 368. Leslie Albrecht
-*Personal Finance Editor · 2nd-degree · InMail*
-
-```
-Leslie — as an editor you decide what earns a reader's time. My angle: children's money books are almost entirely saving, and the skill kids use first is spending. I wrote the counterexample. Worth a look? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 369. Jill Cornfield
-*Personal Finance Editor & Content Producer · 2nd-degree · InMail*
-
-```
-Jill — a kids' money book that teaches sales tax. Six-year-old reaches the register, total's higher than the sticker, and he gets an explanation rather than a shrug. I don't believe another picture book does it. Story, or a better contact? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 370. J.R. Duren
-*Consumer and Personal Finance Editor · 2nd-degree · InMail*
-
-```
-J.R. — consumer and personal finance is exactly where my book sits, just at reading level 620L. Sale ad, comparison, coupon, tax. A consumer education in 36 pages. Angle for you? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 371. Casey Bond
-*Lead Editor and Content Strategist, Banking · 2nd-degree · InMail*
-
-```
-Casey — you lead banking content, so here's the odd end of that funnel: a picture book teaching a six-year-old the mechanics of a purchase, register and sales tax included. That's where a banking customer actually starts. Story, or a colleague? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 372. Kelly (Dilworth) Campbell
-*Writer, Editor, Designer and Reporter + Veteran Consumer Finance Journalist · 2nd-degree · InMail*
-
-```
-Kelly — a veteran consumer finance journalist will know instantly whether this gap is real or convenient. Every children's money book teaches saving; none teaches the transaction. Mine does, already printed and on sale. Does that hold up to you? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 373. Deborah Kearns
-*Writer, Editor & Content Strategist · 2nd-degree · InMail*
-
-```
-Deborah — a content strategist's question as much as a reporter's. Children's financial literacy is 90% saving and nobody covers spending. Is the gap itself the story? Happy to send the book either way. It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 374. Jessica Walrack
-*Freelance Finance Writer and Journalist · 2nd-degree · InMail*
-
-```
-Jessica — a kids' picture book teaching spending rather than saving, sales tax at the register, ages 6-10. The interesting part is what forty years of children's money books skipped. Something here for you? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 375. Rachel Christian
-*Contributing Writer · 2nd-degree · InMail*
-
-```
-Rachel — mine teaches six-year-olds the money skill that never gets its own title: spending. One purchase, ad to register. Is there a piece in why children's financial literacy is all piggy banks and no cash registers? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 376. Venessa Wong
-*Personal Finance Reporter · 2nd-degree · InMail*
-
-```
-Venessa — you cover the consumer side. Mine is a consumer origin story: a six-year-old's first purchase, complete with discovering the sticker price was never the price. 36 pages. Story, or a better name? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 377. Maureen Farrell
-*Finance Reporter · 2nd-degree · InMail*
-
-```
-Maureen — well off your beat, so briefly. I wrote the only children's picture book I can find that skips saving and teaches spending. If there's someone at the Times who'd want it, I'd take the name. The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 378. Suman Bhattacharyya
-*Business Writer and Reporter · 2nd-degree · InMail*
-
-```
-Suman — a business angle rather than a book pitch. Children's financial literacy is a real category with a structural hole in it: everything teaches saving, nothing teaches the transaction. Worth a look? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 379. Christine Dobby
-*Canadian Finance Reporter · 2nd-degree · InMail*
-
-```
-Christine — you cover finance in Canada, and my claim travels: no children's picture book teaches the complete purchase, through the register, sales tax included. Mine does. Is there a story in the omission? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 380. Megan Harwood-Baynes
-*Senior Money Reporter · 2nd-degree · InMail*
-
-```
-Megan — a money desk fact you may enjoy: my children's picture book teaches sales tax. The six-year-old pays it, notices, and objects. Everything else in the category stops at saving. Story, or a better contact? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 381. Barbara Shecter
-*Business Correspondent · 2nd-degree · InMail*
-
-```
-Barbara — well off your beat, so briefly. I wrote a children's book teaching spending rather than saving, and the story is what the category ignored. If a colleague covers consumer or family money, I'd take the name. One spec worth knowing: Lexile AD 620L — AD is Adult Directed, the industry's code for a book meant to be read WITH a kid rather than handed over. Mom explains everything inside the text, so the adult reading gets handed the script. Teacher, parent or grandparent, same result. Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 382. Mike Lowe
-*News Reporter · 2nd-degree · InMail*
-
-```
-Mike — a local angle: an attorney wrote and illustrated a children's book teaching kids to shop, sales tax at the register included. It's the only one I can find that does. Segment, or wrong desk? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 383. Damilola Esebame, CFEI®
-*Personal Finance Analyst; Personal Finance Analyst & Journalist · 2nd-degree · InMail*
-
-```
-Damilola — you hold the CFEI and write personal finance, so you'll test the premise. Mine: spending competence precedes saving competence, and the category has the sequence backwards, already printed and on sale. Does that hold? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 384. Marc Guberti, CPFC
-*Investing Writer · 2nd-degree · InMail*
-
-```
-Marc — you write about investing for people well past first grade. Mine starts at six with the skill that comes before all of it: spending on purpose. Angle for your readers? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 385. Robin Amos
-*Freelance Journalist/Finance Writer; Chief Reporter/Data Editor at Investment Week · 2nd-degree · InMail*
-
-```
-Robin — a data point rather than a pitch. I checked the ABA Foundation's 25-title children's financial literacy list. Every one teaches earning, saving, or investing. None teaches spending. That gap became a book. Worth a story? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 386. Rui Zhou
-*Financial Journalist · 2nd-degree · InMail*
-
-```
-Rui — a children's picture book teaching the complete purchase, sales tax included, apparently unique in the category. Ages 6-10. Something here for you, or a better contact? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 387. Sarah Elizabeth Neary
-*Senior Editor (Remotely) · 2nd-degree · InMail*
-
-```
-Sarah — you'll want the angle before the book. Mine: children's financial literacy teaches saving almost exclusively while spending is what kids actually do. I wrote the counterexample. Worth a look? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 388. Manisha Thakor
-*Trustee, Independent Mutual Fund Board of Directors Kato CFP®, FA 2 Lists Personal Finance Reporter · 2nd-degree · InMail*
-
-```
-Manisha — your work is about money and wellbeing, and the emotional part starts absurdly young. Mine meets a six-year-old at the first want in a store aisle and walks him to a decision he makes himself. Does that land for you? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 389. Helen Reis I
-*Deputy Editor, On the Money · 2nd-degree · InMail*
-
-```
-Helen — you'll want the angle, not the book. Children's financial literacy is all saving and no spending, and has been for forty years. I wrote the counterexample. Worth a look? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 390. Mark Fuitt
-*Senior Editor · 2nd-degree · InMail*
-
-```
-Mark — a senior editor's filter, so a checkable claim: no children's picture book teaches the complete purchase through the register, sales tax included. I checked the ABA's 25-title list. Mine is the exception. Story? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 391. Jason Nark
-*Staff writer · 3rd-degree · InMail*
-
-```
-Jason — a feature rather than a finance story. An attorney and mixed-media artist wrote and illustrated a picture book teaching six-year-olds how to shop, then gave the classroom materials away free. Worth a look? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 392. Katie Balevic
-*Reporter · 3rd-degree · InMail*
-
-```
-Katie — a kids' money book that skips saving entirely: read the ad, compare, use the coupon, pay the tax. Ages 6-10. Story in the gap, or a better contact? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · First pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 393. Josyana Joshua
-*Personal Finance Reporter · 3rd-degree · InMail*
-
-```
-Josyana — mine teaches six-year-olds the complete purchase, sales tax included, which appears to be unique in children's financial literacy. Story for you, or someone else on the desk? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 394. Claire Dickey
-*Editor, Personal Finance · 3rd-degree · InMail*
-
-```
-Claire — the claim is that children's money publishing has a spending-shaped hole in it, forty years wide. I wrote the book that fills it. Interested in the gap, the book, or neither? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 395. Melina Chalkia
-*Leveraged Finance Reporter · 3rd-degree · InMail*
-
-```
-Melina — a long way from leveraged finance, so I'll be brief. I wrote a children's book teaching six-year-olds how a purchase actually works, tax and all. If a colleague covers consumer or family money, I'd take the name. The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
-```
-
-### 396. Danielle Librizzo
-*Producer · 3rd-degree · InMail*
-
-```
-Danielle — a segment idea. An attorney wrote and illustrated a children's book teaching kids to shop properly, sales tax included, then gave the lesson plans away free. Work for you, or a better producer? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 397. Mark Talercio
-*Executive Producer · 3rd-degree · InMail*
-
-```
-Mark — producer-level pitch, one line. Every children's money book teaches saving; mine teaches spending, and the six-year-old pays sales tax on page 22. Worth a look, or wrong show? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
-```
-
-### 398. Mark Evitt
+### 278. Mark Evitt
 *Senior Editor · 1st-degree · DM*
 
 ```
@@ -2212,18 +1268,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 399. Alisha Isable
-*Reading Content Editor · 3rd-degree · InMail*
-
-```
-Alisha — as a reading content editor you'll care about the literacy side as much as the money. 36 pages, built as a read-along so a kid and a grown-up do it out loud. Fit your coverage? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
-
-Jonathan
-
-P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
-```
-
-### 400. Brian C.
+### 279. Brian C.
 *Finance Reporter · 1st-degree · DM*
 
 ```

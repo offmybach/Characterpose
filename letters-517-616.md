@@ -1,4 +1,4 @@
-# Letters 517–616 — First-Degree
+# Letters 400–499 — First-Degree
 
 All first-degree. The last of the pool worth writing.
 
@@ -12,12 +12,12 @@ All first-degree. The last of the pool worth writing.
 
 | | Who | Why they matter |
 |---|---|---|
-| 521 | [Martin Seay](#521-martin-seay) | CFP Board — Chair-Elect |
-| 522 | [Ed Pacchetti](#522-ed-pacchetti) | U.S. Department of Education — Director |
-| 523 | [Jeff Larrimore](#523-jeff-larrimore) | Federal Reserve — Chief, Consumer & Community Research |
-| 524 | [Annie Shoen](#524-annie-shoen) | My First Nest Egg co-founder |
+| 400 | [Martin Seay](#400-martin-seay) | CFP Board — Chair-Elect |
+| 401 | [Ed Pacchetti](#401-ed-pacchetti) | U.S. Department of Education — Director |
+| 402 | [Jeff Larrimore](#402-jeff-larrimore) | Federal Reserve — Chief, Consumer & Community Research |
+| 403 | [Annie Shoen](#403-annie-shoen) | My First Nest Egg co-founder |
 
-### 🐋 521. Martin Seay
+### 🐋 400. Martin Seay
 *CFP Board — Chair-Elect*  
 *1st-degree · DM*
 
@@ -29,7 +29,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 🐋 522. Ed Pacchetti
+### 🐋 401. Ed Pacchetti
 *U.S. Department of Education — Director*  
 *1st-degree · DM*
 
@@ -40,7 +40,7 @@ Jonathan
 
 ```
 
-### 🐋 523. Jeff Larrimore
+### 🐋 402. Jeff Larrimore
 *Federal Reserve — Chief, Consumer & Community Research*  
 *1st-degree · DM*
 
@@ -51,7 +51,7 @@ Jonathan
 
 ```
 
-### 🐋 524. Annie Shoen
+### 🐋 403. Annie Shoen
 *My First Nest Egg co-founder*  
 *1st-degree · DM*
 
@@ -68,10 +68,9 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 
 # Everything else
 
-
 ## Kids-finance founder
 
-### 525. Alohaa Chin
+### 404. Alohaa Chin
 *School Based Literacy Coach @ Maryland State Department of Education | National Board of Certification- L · 1st-degree · DM*
 
 ```
@@ -82,7 +81,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 526. Christie Biggerstaff
+### 405. Christie Biggerstaff
 *Director of Early Literacy; O Director of Early Literacy; Kentucky Department of Education, Director of E · 1st-degree · DM*
 
 ```
@@ -93,7 +92,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 527. Diego Mendez-Carbajo
+### 406. Diego Mendez-Carbajo
 *Senior Economic Education Specialist · 1st-degree · DM*
 
 ```
@@ -104,7 +103,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 528. Emily Koochel
+### 407. Emily Koochel
 *Director, Family Governance & Education · 1st-degree · DM*
 
 ```
@@ -115,7 +114,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 529. ZION GARCIA
+### 408. ZION GARCIA
 *Philanthropist | Helping Organizations Implement Financial Literacy & AI Programs | Founder, Young Boss N · 1st-degree · DM*
 
 ```
@@ -126,7 +125,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 530. Angelina Cook
+### 409. Angelina Cook
 *Empowering K–3 Students to Learn & Grow | Visual Storyteller & Social Media Pro | Passionate About Connec · 1st-degree · DM*
 
 ```
@@ -137,7 +136,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 531. Melissa Gordon
+### 410. Melissa Gordon
 *Teacher; Business, Finance & CTE Teacher | 2025 MACUL Innovative Teacher · 1st-degree · DM*
 
 ```
@@ -148,7 +147,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 532. Tony DeSanctis
+### 411. Tony DeSanctis
 *Banking Geek Helping Financial Institutions Navigate Strategy | Educator, Speaker & Banking Industry Comm · 1st-degree · DM*
 
 ```
@@ -159,7 +158,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 533. Meaghan Vitale
+### 412. Meaghan Vitale
 *Economic Education Specialist · 1st-degree · DM*
 
 ```
@@ -170,7 +169,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 534. Angela Schumann
+### 413. Angela Schumann
 *AI in Education | EdTech Consultant | Partnerships Manager · 1st-degree · DM*
 
 ```
@@ -181,7 +180,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 535. Jaymyi Lesmond
+### 414. Jaymyi Lesmond
 *High School Teacher & Licensed Financial Professional | FSRA Licensed | Founder, Cashademics · 1st-degree · DM*
 
 ```
@@ -192,7 +191,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 536. Mirella Nespoli
+### 415. Mirella Nespoli
 *Former Teacher 🍎 I help teachers: ✔ understand their benefits (TRS, retirement, etc.) · 1st-degree · DM*
 
 ```
@@ -203,7 +202,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 537. Shawn Brigham, M.Ed.,...
+### 416. Shawn Brigham, M.Ed.,...
 *Educator / Financial Literacy Advocate | helping individuals break free from debt in underserved communit · 1st-degree · DM*
 
 ```
@@ -214,7 +213,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 538. Jim Curran
+### 417. Jim Curran
 *Director, Financial Know-How · 1st-degree · DM*
 
 ```
@@ -225,7 +224,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 539. Christopher Power
+### 418. Christopher Power
 *OCD is my superpower I Director of Strategy at Netrise Industrial Networks — Driving Bids & Partnerships  · 1st-degree · DM*
 
 ```
@@ -236,7 +235,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 540. David G. O'Neil
+### 419. David G. O'Neil
 *Co-Founder; Once a teacher, always a teacher. · 1st-degree · DM*
 
 ```
@@ -247,7 +246,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 541. Devona Little-Fleming
+### 420. Devona Little-Fleming
 *Credit Structure Strategist | Credit Education Consultant | Identity Protection Advocate | Helping Indivi · 1st-degree · DM*
 
 ```
@@ -258,7 +257,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 542. Suzanne Wilburn
+### 421. Suzanne Wilburn
 *teacher at Garrett Co. Bd. of Ed · 1st-degree · DM*
 
 ```
@@ -269,7 +268,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 543. Amanda Stiglbauer
+### 422. Amanda Stiglbauer
 *Educational Consultant · 1st-degree · DM*
 
 ```
@@ -280,7 +279,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 544. Timothy Lightman
+### 423. Timothy Lightman
 *Educational Consultant · 1st-degree · DM*
 
 ```
@@ -291,7 +290,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 545. Aren Inan
+### 424. Aren Inan
 *Junior @ Bergen County Technical High School · 1st-degree · DM*
 
 ```
@@ -302,7 +301,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 546. Duanda Dixon
+### 425. Duanda Dixon
 *Technology Partnerships & Project Coordination | Public Sector & Community Initiatives | Cross-Functional · 1st-degree · DM*
 
 ```
@@ -313,7 +312,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 547. Larry Lisenby
+### 426. Larry Lisenby
 *O Senior Consultant; CLC Consulting: Empowering financial journeys with culturally aware education since  · 1st-degree · DM*
 
 ```
@@ -324,7 +323,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 548. Sheena Young
+### 427. Sheena Young
 *Licensed Financial Advisor at 11 Financial: Services include financial planning, child education planning · 1st-degree · DM*
 
 ```
@@ -335,7 +334,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 549. Emily Schwartz
+### 428. Emily Schwartz
 *Speaker, Speaking Coach, Educator · 1st-degree · DM*
 
 ```
@@ -346,7 +345,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 550. Jennifer Steinert
+### 429. Jennifer Steinert
 *Business Instructor · 1st-degree · DM*
 
 ```
@@ -357,7 +356,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 551. Brenna Greenwood
+### 430. Brenna Greenwood
 *On a mission to help as many people as possible grow into the best version of themselves | Mom | Credenti · 1st-degree · DM*
 
 ```
@@ -368,7 +367,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 552. Tory Thompson
+### 431. Tory Thompson
 *Founder, Elysium School of Innovation | Education Leader Defining the Age of Innovation | Champion for Pe · 1st-degree · DM*
 
 ```
@@ -379,7 +378,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 553. Walter McKenzie
+### 432. Walter McKenzie
 *Co-Founder; Champion and Mentor to Educators · 1st-degree · DM*
 
 ```
@@ -390,7 +389,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 554. William Ramirez
+### 433. William Ramirez
 *Magnet of Banking and Finance Teacher @ Miami-Dade County Public Schools | MBA in Leadership · 1st-degree · DM*
 
 ```
@@ -401,7 +400,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 555. Clare Baggaley
+### 434. Clare Baggaley
 *Creative Director at The Book Makers | Publisher at A Mischief of Magpies Publishing · 1st-degree · DM*
 
 ```
@@ -412,7 +411,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 556. Judy Weintraub
+### 435. Judy Weintraub
 *Publisher I Self-Publishing Expert I Ghostwriter I; Self-Publishing Expert helps business owners get thei · 1st-degree · DM*
 
 ```
@@ -423,7 +422,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 557. Marcus R Griffin
+### 436. Marcus R Griffin
 *Senior Consultant at Federal Reserve Board · 1st-degree · DM*
 
 ```
@@ -433,7 +432,7 @@ Jonathan
 
 ```
 
-### 558. Sunayna Tuteja
+### 437. Sunayna Tuteja
 *Fmr. Chief Innovation Officer at Federal Reserve System · 1st-degree · DM*
 
 ```
@@ -444,7 +443,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 559. Bonnie Wallace
+### 438. Bonnie Wallace
 *Head of financial Health Philanthropy; Wells Fargo Foundation · 1st-degree · DM*
 
 ```
@@ -455,7 +454,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 560. Declan Sheehy
+### 439. Declan Sheehy
 *Chief Advancement Officer | Philanthropy Professional | Planned Gift Planning Professional | AI | Speaker · 1st-degree · DM*
 
 ```
@@ -466,7 +465,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 561. Jasmine Frater
+### 440. Jasmine Frater
 *Strategic Leader | Governance, ESG & Sustainability Advocate | Driving Purpose- Driven Growth & Community · 1st-degree · DM*
 
 ```
@@ -477,7 +476,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 562. Jon Dauphiné
+### 441. Jon Dauphiné
 *CEO at Foundation for Financial Planning · 1st-degree · DM*
 
 ```
@@ -488,7 +487,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 563. Jordan Tobias
+### 442. Jordan Tobias
 *Manager, Program & Grants Manager at Foundation for Financial Planning · 1st-degree · DM*
 
 ```
@@ -499,7 +498,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 564. Keith Niehaus
+### 443. Keith Niehaus
 *Founder & Executive Director | NextGen Prosperity Foundation, Inc. · 1st-degree · DM*
 
 ```
@@ -510,7 +509,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 565. Kimberly Cole
+### 444. Kimberly Cole
 *Community Engagement Manager at Navicore Solutions · 1st-degree · DM*
 
 ```
@@ -521,7 +520,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 566. Meri Mikoyan
+### 445. Meri Mikoyan
 *Founder; Incoming Marketing Intern @ ANEUVO | National EVP of FBLA Collegiate | Marketing Assistant @ Art · 1st-degree · DM*
 
 ```
@@ -532,7 +531,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 567. Michelle Stepp
+### 446. Michelle Stepp
 *Building community | Alumni Relations | Connector & Celebrator · 1st-degree · DM*
 
 ```
@@ -543,7 +542,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 568. Natasha Burroughs Dale
+### 447. Natasha Burroughs Dale
 *Vice President, Director of Corporate Philanthropy | Community Engagement, Corporate Communications · 1st-degree · DM*
 
 ```
@@ -554,7 +553,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 569. Portia Watkins
+### 448. Portia Watkins
 *Award-Winning Human Resources Executive | 2025 Inclusion Leader Awards Finalist | Building Inclusive, Eng · 1st-degree · DM*
 
 ```
@@ -565,7 +564,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 570. Rukiya Kelly
+### 449. Rukiya Kelly
 *Global Head of Corporate Impact and Engagement; Global Head of Corporate Impact @ FICO | Aspen Institute  · 1st-degree · DM*
 
 ```
@@ -576,7 +575,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 571. Stephanie Hochman
+### 450. Stephanie Hochman
 *Senior Vice President, U.S. Community Relations, Community Investing and Development · 1st-degree · DM*
 
 ```
@@ -587,7 +586,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 572. Valentino Sabuco
+### 451. Valentino Sabuco
 *Executive Director at The Financial Awareness Foundation · 1st-degree · DM*
 
 ```
@@ -598,7 +597,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 573. Mart Vainu
+### 452. Mart Vainu
 *Make financial education fun | CEO & Founder @ Cashy · 1st-degree · DM*
 
 ```
@@ -609,7 +608,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 574. Jeremiah Riesenbeck
+### 453. Jeremiah Riesenbeck
 *Financial education instructor (CFEI) | Educator · 1st-degree · DM*
 
 ```
@@ -620,7 +619,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 575. Gregory Mazen
+### 454. Gregory Mazen
 *Director at Boy Scouts of America · 1st-degree · DM*
 
 ```
@@ -631,7 +630,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 576. Neziah Osayi
+### 455. Neziah Osayi
 *Financial Literacy Advocate | Filmmaker | Lifelong Learner · 1st-degree · DM*
 
 ```
@@ -642,7 +641,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 577. Melanie McGinn
+### 456. Melanie McGinn
 *Consumer Education / Consumer Vulnerability / Training & Coaching · 1st-degree · DM*
 
 ```
@@ -653,7 +652,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 578. Sajeev Pillai
+### 457. Sajeev Pillai
 *Director | Driving Financial Literacy & Teacher Training Initiatives · 1st-degree · DM*
 
 ```
@@ -664,7 +663,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 579. Clarity Burke
+### 458. Clarity Burke
 *Democratizing finance and decolonizing financial education · 1st-degree · DM*
 
 ```
@@ -675,7 +674,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 580. Oliver V. Brooks
+### 459. Oliver V. Brooks
 *CFO | Mentor & Coach | Certified Financial Education Instructor · 1st-degree · DM*
 
 ```
@@ -686,7 +685,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 581. Lorraine C-K
+### 460. Lorraine C-K
 *Accountant (LedgerWolf) | Educator · 1st-degree · DM*
 
 ```
@@ -697,7 +696,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 582. Jacob Yunger
+### 461. Jacob Yunger
 *FinTech Innovation ​><​ Regulation · 1st-degree · DM*
 
 ```
@@ -708,7 +707,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 583. Amber Ussery
+### 462. Amber Ussery
 *Financial Advisor at Wells Fargo Advisors · 1st-degree · DM*
 
 ```
@@ -719,7 +718,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 584. Cole Loveland
+### 463. Cole Loveland
 *Wealth Advisor @ EP Wealth Advisors | Helping Clients Pursue Life’s Most Important Endeavors | Ultimate F · 1st-degree · DM*
 
 ```
@@ -730,7 +729,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 585. Erick Sanon
+### 464. Erick Sanon
 *O Owner; President & CEO @ BrightBridge Insurance | Business Administration · 1st-degree · DM*
 
 ```
@@ -741,7 +740,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 586. Fatima Perez-Luthi
+### 465. Fatima Perez-Luthi
 *Founder, CEO & Financial Health Coach Insurance Agency Owner, Broker & Agent · 1st-degree · DM*
 
 ```
@@ -752,7 +751,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 587. James Curran
+### 466. James Curran
 *Franchisor Partnerships | Strategic Alliances | HCM & Fintech Expert | Partner Enablement | · 1st-degree · DM*
 
 ```
@@ -763,7 +762,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 588. Jamila Owens
+### 467. Jamila Owens
 *O Investment Operations Specialist I Investments & Wealth Management; Investment Operations Specialist at · 1st-degree · DM*
 
 ```
@@ -774,7 +773,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 589. Kellie Lockmer
+### 468. Kellie Lockmer
 *Program Specialist at Idaho Department of Finance · 1st-degree · DM*
 
 ```
@@ -785,7 +784,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 590. Maria Castillo Dominguez
+### 469. Maria Castillo Dominguez
 *Founder and Certified Financial Planner@; Financial Planner for Women in Tech | Equity Compensation Plann · 1st-degree · DM*
 
 ```
@@ -796,7 +795,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 591. Melissa Caro
+### 470. Melissa Caro
 *Helping Financial Advisors Close the Gap Between Good Meetings and Client Decisions | Creator, Financial  · 1st-degree · DM*
 
 ```
@@ -807,7 +806,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 592. Robert Pagliarini
+### 471. Robert Pagliarini
 *Specializing in Retirement Planning & Sudden Wealth Management · 1st-degree · DM*
 
 ```
@@ -818,7 +817,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 593. Spencer Betts
+### 472. Spencer Betts
 *Empowering clients with financial services and investment advice. · 1st-degree · DM*
 
 ```
@@ -829,7 +828,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 594. Veronica Crippen
+### 473. Veronica Crippen
 *The Wealth Whisperer | Helping Women Who Serve Build Peaceful Financial Futures | Legacy, Protection, Ste · 1st-degree · DM*
 
 ```
@@ -840,7 +839,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 595. Steven Walton
+### 474. Steven Walton
 *Founder/President | Small Business Specialist | Financial Educator · 1st-degree · DM*
 
 ```
@@ -851,7 +850,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 596. Stacia Ragolia
+### 475. Stacia Ragolia
 *Influential and Innovative Digital Transformation Leader · 1st-degree · DM*
 
 ```
@@ -862,7 +861,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 597. Richard “RichE” Otey
+### 476. Richard “RichE” Otey
 *🎬 Social Commerce & Live Shopping Strategist | Advisor to brands, retailers & creators | Driving real-tim · 1st-degree · DM*
 
 ```
@@ -873,7 +872,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 598. Peter Komolafe DipFA
+### 477. Peter Komolafe DipFA
 *I help high earners turn financial overwhelm into calm, consistent control · 1st-degree · DM*
 
 ```
@@ -884,7 +883,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 599. Dr. Tara Downes
+### 478. Dr. Tara Downes
 *Director of Multi-Tiered Systems of Support (MTSS) · 1st-degree · DM*
 
 ```
@@ -895,7 +894,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 600. AMBER DOLPHIN KING
+### 479. AMBER DOLPHIN KING
 *EXECUTIVE LEADER | REVENUE GROWTH | STRATEGIC PARTNERSHIPS | CUSTOMER EXPERIENCE · 1st-degree · DM*
 
 ```
@@ -906,7 +905,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 601. Amit Bansal
+### 480. Amit Bansal
 *Program Director, Financial Planning (BSBA), CFP® Board–Registered Program · 1st-degree · DM*
 
 ```
@@ -917,7 +916,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 602. Andi Tonietti
+### 481. Andi Tonietti
 *Senior Sales Director; Senior Sales Director @ SavvyMoney | CRM, Strategy, Team Building, ‘Merica 🇺🇸 · 1st-degree · DM*
 
 ```
@@ -928,7 +927,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 603. Angel Pantoja
+### 482. Angel Pantoja
 *0 Secretary; Secretary of the Puerto Rico Department of Treasury · 1st-degree · DM*
 
 ```
@@ -939,7 +938,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 604. Annette Rose
+### 483. Annette Rose
 *Program Manager & Engagement Specialist ◆ Change that sticks, communities that thrive ◆ Digital & Financi · 1st-degree · DM*
 
 ```
@@ -950,7 +949,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 605. Beth Darius
+### 484. Beth Darius
 *Senior Program Analyst; DoD Financial Readiness Senior Program Analyst at United States Department of Def · 1st-degree · DM*
 
 ```
@@ -961,7 +960,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 606. Beth Zemble
+### 485. Beth Zemble
 *Chief Learning Officer; Co-Founder/Chief Learning Officer/Building a global, values-based learning platfo · 1st-degree · DM*
 
 ```
@@ -972,7 +971,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 607. Cédric Berry-Croguennec
+### 486. Cédric Berry-Croguennec
 *I help founders get their next clients from LinkedIn by building SaaS and Service | Solo maker · 1st-degree · DM*
 
 ```
@@ -983,7 +982,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 608. César Martinez
+### 487. César Martinez
 *Real Estate Acquisitions Intern / Ember holdings · 1st-degree · DM*
 
 ```
@@ -994,7 +993,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 609. Chris Fraenza
+### 488. Chris Fraenza
 *Chief Revenue Officer; CRO @ SavvyMoney | Builder of high-performing teams, crusher of quotas, and cultur · 1st-degree · DM*
 
 ```
@@ -1005,7 +1004,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 610. Christina Lynn
+### 489. Christina Lynn
 *Helping planning-first financial advisors use Motivational Interviewing to build trust and spark meaningf · 1st-degree · DM*
 
 ```
@@ -1016,7 +1015,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 611. D. Crystal Alford-Cooper
+### 490. D. Crystal Alford-Cooper
 *Vice President Planning at Law & Associates, Inc · 1st-degree · DM*
 
 ```
@@ -1027,7 +1026,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 612. Dave Goldberg
+### 491. Dave Goldberg
 *Board of Directors, Private Equity Advisor · 1st-degree · DM*
 
 ```
@@ -1038,7 +1037,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 613. Derek N.H. Notman
+### 492. Derek N.H. Notman
 *Founder & CEO; Founder & CEO at Couplr AI | Organic Growth Engine and Smart Advisor Matching for firms wi · 1st-degree · DM*
 
 ```
@@ -1049,7 +1048,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 614. Drew Hawkins
+### 493. Drew Hawkins
 *CEO and Founder at Edyoucore Sports & Entertainment · 1st-degree · DM*
 
 ```
@@ -1060,7 +1059,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 615. Emily Barczak
+### 494. Emily Barczak
 *VP, Insights Director - Empowering Financial Advisors | Driving Growth Through Impactful and Lasting Prac · 1st-degree · DM*
 
 ```
@@ -1071,7 +1070,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 616. Evgenii Shtrikov
+### 495. Evgenii Shtrikov
 *Financial Planner & Tax Strategist | CFP® | Enrolled Agent (EA) | HNW & UHNW Clients · 1st-degree · DM*
 
 ```
@@ -1082,7 +1081,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 617. Gary Brandeis
+### 496. Gary Brandeis
 *CEO - Scholar Hotels; Managing Partner-Real Estate Capital Mgmt. LLC · 1st-degree · DM*
 
 ```
@@ -1093,7 +1092,7 @@ Jonathan
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
 
-### 618. Georgie Frost
+### 497. Georgie Frost
 *Award-winning freelance financial broadcaster & speaker · 1st-degree · DM*
 
 ```
@@ -1104,7 +1103,7 @@ Jonathan
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
 
-### 619. Greer Ahlquist
+### 498. Greer Ahlquist
 *Non-profit Leadership | Program Design | Partnership Management · 1st-degree · DM*
 
 ```
@@ -1115,7 +1114,7 @@ Jonathan
 P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
 ```
 
-### 620. Jamie Strayer
+### 499. Jamie Strayer
 *CEO, Opportunity Knocks; Opportunity Knocks on PBS | National Economic Mobility Infrastructure Builder |  · 1st-degree · DM*
 
 ```
