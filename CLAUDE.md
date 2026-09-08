@@ -427,6 +427,11 @@ Each entry includes the page(s) where the term appears in the story.
 
 ## 6b. START HERE after a break
 
+**`CONTACTS-LOG.md`** — the high-water mark for LinkedIn contacts. Says who was added last,
+which batch they were in, and where every batch lives. **Read it before adding contacts and
+update it the moment you finish.** Sessions have no memory between conversations; a name that
+is not written down here is not tracked anywhere.
+
 **Downloads hygiene.** `scripts/tidy_downloads.py` keeps only the newest copy of each CGB
 file visible in Jonathan's Downloads and files every older copy under
 `Downloads/CGB Outreach/<category>/`. Run it after any batch of downloads. Dry-run by
