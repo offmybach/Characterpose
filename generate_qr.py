@@ -18,7 +18,7 @@ from PIL import Image, ImageDraw, ImageFilter
 ROOT = Path(__file__).resolve().parent
 PIGGY_SRC = ROOT / "images" / "piggy-bank.png"
 OUT_PATH = ROOT / "images" / "clarence-qr.png"
-URL = "https://www.clarencegetsabargain.com"
+URL = "https://clarencegetsabargain.com"
 
 # Gradient endpoints sampled from the reference QR
 TOP_LEFT = (108, 28, 200)     # vivid purple

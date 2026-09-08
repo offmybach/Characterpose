@@ -48,14 +48,14 @@ Why this belongs in your practice:
 
 **Your compliance officer will not blink.** It's a $19.99 children's book, not a soft-dollar problem. It is endorsed by a veteran K–5 educator with 30+ years in the classroom and by the 2026 EIFLE Educator of the Year, so it also survives the client who googles everything.
 
-Specs, if you're the diligence type (you are): ISBN 979-8-234-07638-0, LCCN 2026906164, hardbound, full color, est. Lexile AD 620L. Full reference: www.clarencegetsabargain.com/book-facts.html. Bulk and gifting orders: orders@clarencegetsabargain.com — POs and Net 30 accepted.
+Specs, if you're the diligence type (you are): ISBN 979-8-234-07638-0, LCCN 2026906164, hardbound, full color, est. Lexile AD 620L. Full reference: clarencegetsabargain.com/book-facts.html. Bulk and gifting orders: orders@clarencegetsabargain.com — POs and Net 30 accepted.
 
 Twenty-five copies run $499.75. If one of those twenty-five families opens one 529 you'd have missed — or one heir stays put in 2046 because your firm was part of the furniture — the box paid for itself several hundred times over. You can check my math; it's that kind of book.
 
 Jonathan Bach
 Author & illustrator, *Clarence Gets a Bargain*
 Attorney. Dad. Keeper of receipts.
-questions@clarencegetsabargain.com · www.clarencegetsabargain.com
+questions@clarencegetsabargain.com · clarencegetsabargain.com
 
 ---
 

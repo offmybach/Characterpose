@@ -5,7 +5,7 @@ reporters. Drafted July 12, 2026.
 
 How to use:
 - Swap the opening line per outlet (notes at the bottom).
-- Send from jonbachlaw@gmail.com or questions@clarencegetsabargain.com.
+- Send from jb@clarencegetsabargain.com or questions@clarencegetsabargain.com.
 - Keep it in the email body. No attachments; the press kit link does that job.
 - The "first book" claim is qualified on purpose. Keep the qualifier. It's
   honest, it's defensible, and the attorney framing turns it into a bit.
@@ -45,7 +45,7 @@ The book is endorsed by a 30-year veteran K–5 educator and by the 2026 EIFLE E
 
 I'm available for interviews, guest segments, written Q&As, and speaking dates for parent, teacher, and financial-education audiences. I keep answers short, I don't do jargon, and I bring the shoes story.
 
-Everything you'd need is at one link: **www.clarencegetsabargain.com/press-kit.html** — bios in three lengths, cover art, the fact sheet, and suggested interview questions. Full specs for fact-checkers: www.clarencegetsabargain.com/book-facts.html.
+Everything you'd need is at one link: **clarencegetsabargain.com/press-kit.html** — bios in three lengths, cover art, the fact sheet, and suggested interview questions. Full specs for fact-checkers: clarencegetsabargain.com/book-facts.html.
 
 Thanks for reading this far. The kid gets the robot; your audience gets the reason he deserved it.
 
@@ -53,7 +53,7 @@ Jonathan Bach
 Author & illustrator, *Clarence Gets a Bargain*
 Attorney. Dad. Keeper of receipts.
 questions@clarencegetsabargain.com
-www.clarencegetsabargain.com
+clarencegetsabargain.com
 
 ---
 

@@ -208,6 +208,11 @@ nav .links a.cta-nav{padding:8px 16px;font-size:.78rem}
 .footer-text p{font-size:1.05rem;line-height:1.7;margin-bottom:16px;color:#fff;font-weight:600}
 .footer-text h4{font-family:'Hold',sans-serif;font-size:1.1rem;color:#FFB74D;margin-bottom:8px}
 .footer-bottom{text-align:center;margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,255,255,.15);font-size:.85rem;color:rgba(255,255,255,.5)}
+.footer-nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px;text-align:left;max-width:1000px;margin:0 auto 28px;padding-bottom:22px;border-bottom:1px solid rgba(255,255,255,.12)}
+.footer-nav-col h5{font-family:'Hold',sans-serif;font-size:.95rem;color:#FFB74D;margin-bottom:10px;letter-spacing:.02em}
+.footer-nav-col a{display:block;color:rgba(255,255,255,.72);text-decoration:none;font-size:.86rem;line-height:1.9;transition:color .2s}
+.footer-nav-col a:hover{color:#ff6b2b}
+@media(max-width:600px){.footer-nav{text-align:center;gap:22px}}
 
 /* === MAGAZINE SECTION on cream bg === */
 .mag-section{background:transparent;padding:30px 10px 20px;text-align:center;position:relative;z-index:1;overflow:hidden}
@@ -604,6 +609,13 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
         "suggestedMaxAge": 10
       },
       "typicalAgeRange": "6-10",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "numberOfPages": 36,
       "bookFormat": "https://schema.org/Hardcover",
       "datePublished": "2026-01-01",
@@ -1637,7 +1649,36 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
     </div>
   </div>
   <div class="footer-bottom">
-    <span style="display:inline-block;margin-bottom:10px"><a href="press-kit.html" style="color:rgba(255,255,255,.7);margin:0 10px">Press Kit</a> &bull; <a href="book-facts.html" style="color:rgba(255,255,255,.7);margin:0 10px">Book Facts</a> &bull; <a href="state-of-the-states.html" style="color:rgba(255,255,255,.7);margin:0 10px">State of the States</a> &bull; <a href="resources/procurement.html" style="color:rgba(255,255,255,.7);margin:0 10px">Procurement</a></span><br>
+    <nav class="footer-nav" aria-label="Site sections">
+      <div class="footer-nav-col">
+        <h5>For parents</h5>
+        <a href="teaching-kids-about-money.html">Teach Kids About Money, Age by Age</a>
+        <a href="wants-vs-needs.html">Wants vs. Needs</a>
+        <a href="money-glossary.html">21 Money Words, Explained</a>
+        <a href="resources/free-sample-print.html">Read the First Five Pages Free</a>
+        <a href="vs-other-money-books.html">How It Stacks Up</a>
+        <a href="resources/grandparents-day-games-print.html">Two Games for Grandparents</a>
+      </div>
+      <div class="footer-nav-col">
+        <h5>For teachers &amp; librarians</h5>
+        <a href="educator-toolkit.html">Educator Toolkit &mdash; All Six Files</a>
+        <a href="resources/educator-preview.html">Educator Preview</a>
+        <a href="resources/zero-prep-lesson-plans.html">Zero-Prep Lesson Plans</a>
+        <a href="resources/curriculum-alignment-matrix.html">Standards Crosswalk</a>
+        <a href="resources/smart-shopper-challenge.html">Smart Shopper Challenge</a>
+        <a href="resources/sea-mart-secret-mission.html">Sea-Mart Secret Mission</a>
+        <a href="resources/the-money-talk.html">The Money Talk</a>
+        <a href="school-visits.html">Book an Author Visit</a>
+      </div>
+      <div class="footer-nav-col">
+        <h5>The paperwork people</h5>
+        <a href="resources/procurement.html">Procurement &amp; PO Terms</a>
+        <a href="resources/grant-in-a-box.html">Grant in a Box</a>
+        <a href="state-of-the-states.html">State of the States</a>
+        <a href="book-facts.html">Book Facts</a>
+        <a href="press-kit.html">Press Kit</a>
+      </div>
+    </nav>
     <span style="display:inline-block;margin-bottom:10px">Follow along: <a href="https://www.facebook.com/profile.php?id=61589717578254" rel="me noopener" target="_blank" style="color:rgba(255,255,255,.7);margin:0 8px">Clarence on Facebook</a> &bull; <a href="https://www.linkedin.com/in/jonathan-bach-joat" rel="me noopener" target="_blank" style="color:rgba(255,255,255,.7);margin:0 8px">Jonathan on LinkedIn</a> &bull; <a href="https://www.facebook.com/jonathan.bach.2025/" rel="me noopener" target="_blank" style="color:rgba(255,255,255,.7);margin:0 8px">Jonathan on Facebook</a></span><br>
     &copy; 2026 Jonathan Bach. All rights reserved.
     <br><span style="font-size:.75rem;color:rgba(255,255,255,.35);margin-top:6px;display:inline-block">#ClarenceGetsABargain &bull; #KidsMoneyBook &bull; #FinancialLiteracyForKids &bull; #EdutainmentAtItsFinest &bull; #MoneyLessonsForKids &bull; #WantsVsNeeds &bull; #SavingSpendingSharing &bull; #TeachKidsMoney &bull; #EducationalPictureBook &bull; #LifeSkillsForKids &bull; #ClassroomReady &bull; #KidsAndMoney</span>

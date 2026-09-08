@@ -52,7 +52,7 @@ The whole book runs 15 to 20 minutes out loud. Your kid will reread it alone aft
 Jonathan Bach
 Author & illustrator, *Clarence Gets a Bargain*
 Attorney. Dad. Keeper of receipts.
-www.clarencegetsabargain.com
+clarencegetsabargain.com
 
 P.S. — When you finish, the back of the book has a 21-term glossary where every definition points to the page where it happened in the story. If a word comes up at the store next week, you can both look it up and land on a scene you read together. That's not a glossary; that's a memory with page numbers.
 

@@ -39,7 +39,7 @@ By the end of this lesson, students will:
 
 ### Materials
 - Clarence Gets a Bargain (1 copy, or projected pages)
-- 10 Wants vs. Needs sort cards — print page 1 of the [Curriculum Companion](https://www.clarencegetsabargain.com/resources/curriculum-companion.html#sort-cards), cut along dashed lines
+- 10 Wants vs. Needs sort cards — print page 1 of the [Curriculum Companion](https://clarencegetsabargain.com/resources/curriculum-companion.html#sort-cards), cut along dashed lines
 - Whiteboard / chart paper
 - Crayons or markers
 
@@ -93,7 +93,7 @@ By the end of this lesson, students will:
 ### Materials
 - Clarence Gets a Bargain
 - 3–4 real sale flyers from different stores (Sunday paper inserts work — collect ahead)
-- Comparison worksheet — print page 2 of the [Curriculum Companion](https://www.clarencegetsabargain.com/resources/curriculum-companion.html#worksheet) (one per pair)
+- Comparison worksheet — print page 2 of the [Curriculum Companion](https://clarencegetsabargain.com/resources/curriculum-companion.html#worksheet) (one per pair)
 - Scissors (one pair per pair of kids)
 - A few sample paper coupons to model (10% off, 25¢ off, BOGO)
 
@@ -148,9 +148,9 @@ By the end of this lesson, students will:
 ### Materials
 - Clarence Gets a Bargain
 - Two near-identical classroom items at different prices (one "marked down")
-- Clearance stickers — print page 3 of the [Curriculum Companion](https://www.clarencegetsabargain.com/resources/curriculum-companion.html#stickers) (12 per page, orange and yellow alternating)
-- Mock price tags — print page 4 of the [Curriculum Companion](https://www.clarencegetsabargain.com/resources/curriculum-companion.html#tags) (one regular, one clearance)
-- 10% OFF clearance coupons — print page 5 of the [Curriculum Companion](https://www.clarencegetsabargain.com/resources/curriculum-companion.html#coupons) (4 per page)
+- Clearance stickers — print page 3 of the [Curriculum Companion](https://clarencegetsabargain.com/resources/curriculum-companion.html#stickers) (12 per page, orange and yellow alternating)
+- Mock price tags — print page 4 of the [Curriculum Companion](https://clarencegetsabargain.com/resources/curriculum-companion.html#tags) (one regular, one clearance)
+- 10% OFF clearance coupons — print page 5 of the [Curriculum Companion](https://clarencegetsabargain.com/resources/curriculum-companion.html#coupons) (4 per page)
 - Play money or printable coins
 - Calculators (grades 3–5)
 - Optional: image of a real clearance sign (orange or yellow) to project at warm-up
