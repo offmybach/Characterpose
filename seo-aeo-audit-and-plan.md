@@ -119,15 +119,25 @@ playing it entirely on-site.**
 `CNAME` = `clarencegetsabargain.com` (apex), but every `<link rel=canonical>`, `og:url`, sitemap
 entry, and llms.txt URL uses `www.`. GitHub Pages 301-redirects one host to the other based on
 the CNAME, so **every canonical currently points at a URL that redirects.** Pick one host and make
-everything agree. Simplest fix: change `CNAME` to `www.clarencegetsabargain.com` so the apex
-redirects to www and all existing canonicals become correct. (One-line change, re-verify domain in
-GitHub Pages settings.) Alternative: rewrite all canonicals/OG/sitemap to apex. Either works; the
-mismatch does not.
+everything agree. Two routes: point `CNAME` at `www.clarencegetsabargain.com` so the apex
+redirects to www and the existing canonicals become correct, or rewrite all canonicals/OG/sitemap
+to the apex. **Do not take the `www.` route** — see the 2026-09-08 update below.
 
 > **Resolved 2026-07-10** — took the in-repo route (rewrote all 100 canonical/`og:url`/sitemap/
 > llms.txt/robots references from `www.` to the apex to match the existing CNAME) rather than
 > changing `CNAME` to `www.`, which would depend on unverifiable `www` DNS and could take the live
 > site down on a wrong guess. Same result, zero DNS risk.
+
+> **Update 2026-09-08 — the `www.` route is now known-bad, not merely riskier.** GitHub Pages
+> never provisioned a certificate covering `www`, so `https://www.clarencegetsabargain.com` fails
+> the TLS handshake outright (`SEC_E_WRONG_PRINCIPAL`). DNS is correct — apex on the four Pages A
+> records, `www` CNAME'd to `offmybach.github.io` — the certificate simply never issued. Had we
+> switched `CNAME` to `www.`, the whole site would now be unreachable over https. Two pages
+> (`money-glossary`, `teaching-kids-about-money`) still carried `www` canonicals until 2026-09-07
+> and were pointing Google at that dead host; the printed QR in `images/clarence-qr.png` and the
+> `research/` pitch-letter templates did the same for humans until 2026-09-08. All are now apex.
+> Remaining action is on the GitHub side: remove and re-add the custom domain in Settings → Pages
+> to force certificate re-issue. Until that completes, treat any `www.` URL as broken.
 
 **P1 — schema depth.**
 - Add `AggregateRating` to the Book schema (you have three `Review`s; engines surface star ratings
