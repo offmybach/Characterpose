@@ -65,10 +65,11 @@ committed here, no amount of searching here will find it — ask for the file.
 | Standalone / CFPB / Jump$tart | ~8 | 660–665 | `letter-*.md` files |
 | New Aug (30 Jul – 3 Aug) | 19 | 666–684 | folded into `letters-517-616.md` #500–509, #517–529 |
 | Grandparents | 6 | 686–691 | `letters-grandparents-readalong.md` |
-| New Sept batch 1 (4–8 Sep) | 40 | — | `letters-new-sept.md` #535–574 |
-| New Sept batch 2 (4–8 Sep) | 26 | — | **not written yet** — reserved #575–600 |
+| New Sept batch 1 (4–8 Sep) | 40 | added 9 Sep | `letters-new-sept.md` #535–574 |
+| New Sept batch 2 (4–8 Sep) | 26 | added 9 Sep | **blocked on titles** — reserved #575–600 |
 | August workbook drafts, 1st-degree | 175 | merged master | `letters-601-775.md` #601–775 |
 | August workbook drafts, 2nd/3rd | 21 | merged master | `letters-inmail-required.md` #122–142 |
+| New Aug 23–26 (4 screens, captured 9 Sep) | 36 | added 9 Sep | `letters-776-809.md` #776–809 |
 
 After the degree split (Sep 2026), the four main files hold **first-degree only**, numbered
 as one running sequence 1–534, continued by `letters-new-sept.md` (535–574) and
@@ -79,20 +80,46 @@ as one running sequence 1–534, continued by `letters-new-sept.md` (535–574) 
 Dustin LeMay through Justin Stok — which goes in `letters-new-sept.md` under batch 1. Write
 those next and the running sequence closes up.
 
-### Last contact added
+### LAST CONTACT ADDED — read this line, don't go searching
 
-**Justin Stok**, September screenshot batch, still awaiting a letter. The last contact with a
-letter written is **#775, Peter Komolafe DipFA, CII MP** (`letters-601-775.md`, Other / Review).
+**Ma Charisse Joanne Labadan** — last row added to the workbook, from the 23–26 Aug LinkedIn
+screens captured 9 Sep 2026. Letter written: **#809, Bodo Sidès** (`letters-776-809.md`).
+
+**Highest letter number in use: 809.** The next letter written gets 810, unless it belongs to
+September batch 2, which owns the reserved block 575–600.
+
+### Workbook status, 9 Sep 2026 — 1,430 rows
+
+| Letter Status | Rows |
+|---|---|
+| Finished (letter written, file + number in `Notes (CGB)`) | 967 |
+| blank (no letter, not yet triaged) | 430 |
+| NEEDS LETTER (triaged, letter owed) | 26 |
+| Skip — low fit | 7 |
+
+Every letter in every `letters-*.md` file now has a workbook row. That was not true before
+today: the four names flagged below as a known gap had letters and no rows, and **none of the
+66 September contacts had ever been added at all** — their letters were written straight into
+`letters-new-sept.md` and the workbook never heard about it. Both are fixed.
+
+`Notes (CGB)` now carries the file and number for every finished letter, so you can go from a
+workbook row to the letter text without grepping.
 
 ---
 
 ## Known gaps — fix these when you get to them
 
-- **Ra Chan · Tripti · Jennifer Pasteur · Jamie Brydone-Jack.** Letters exist
-  (`letters-new-aug.md` #20–23, folded in as `letters-517-616.md` #531–534) but these four
-  were **never added to the workbook**. The New Aug batch is 19 workbook rows against 23
-  people in the file. Their opening lines still need personalising from each profile before
-  anything is sent.
+- **September batch 2 is blocked on titles.** 26 contacts, Dustin LeMay through Justin Stok,
+  hold the reserved numbers 575–600 in `letters-new-sept.md`. The names were saved; **the job
+  titles were not.** They only ever existed in the screenshots, and screenshots don't survive a
+  session. Writing letters off a bare name means guessing what someone does for a living, which
+  is how you send a superintendent a letter addressed to a credit union. **Re-send the
+  screenshots covering those 26** and they can be drafted in one pass. Full list of the 26 is in
+  the workbook: filter `Letter Status` = NEEDS LETTER.
+- **Ra Chan · Tripti · Jamie Brydone-Jack.** Rows added 9 Sep 2026, so they are tracked now.
+  Their letters (`letters-517-616.md` #531–534) still have generic opening lines that need
+  personalising from each profile before anything is sent. Jennifer Pasteur turned out to be
+  already present and needed nothing.
 - **Duplicate source files.** `letters-new-aug.md`, `letters-new-july.md` and
   `letters-new-july-28-29.md` still exist alongside the folded copies in
   `letters-517-616.md`. Not deleted. Decide whether to keep them.
@@ -103,10 +130,18 @@ letter written is **#775, Peter Komolafe DipFA, CII MP** (`letters-601-775.md`, 
 
 When you add contacts from a LinkedIn screenshot batch:
 
-1. Add them to `CGB_MASTER_outreach.xlsx` (Master sheet), giving the batch a name in column B.
-2. Write the letters into the appropriate `letters-*.md` file, continuing the running number.
-3. **Come back here** and update: the Last-contact-added table, the batch table, and any gap
-   you knowingly left open.
+1. **Write the name AND the job title down immediately**, before writing a single letter. The
+   title is what makes the letter personal, and it lives nowhere but the screenshot. A name
+   with no title is a contact you cannot write to later.
+2. Add them to `CGB_MASTER_merged.xlsx` (Master sheet) — **this is the master now**, not
+   `CGB_MASTER_outreach.xlsx`. Give the batch a name in `CGB Batch`.
+3. Write the letters into the appropriate `letters-*.md` file, continuing the running number,
+   and put the file and number in the row's `Notes (CGB)`.
+4. **Come back here** and update the LAST CONTACT ADDED line, the batch table, and any gap you
+   knowingly left open.
+
+Step 2 is the one that got skipped for all 66 September contacts. The letters existed, the rows
+did not, so the next session had no way to see the batch had happened.
 
 A name in a screenshot that is not in this file is not tracked anywhere. Screenshots are not
 storage.
