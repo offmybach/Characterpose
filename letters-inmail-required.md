@@ -1378,3 +1378,254 @@ Jonathan
 
 P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
 ```
+
+
+---
+
+# Recovered August drafts — 2nd/3rd degree
+
+21 more letters out of the same August workbook merge (9 Sep 2026). Same treatment as the
+775-letter run: sign-off, rotated P.S., published-status clause where the letter asks for
+something. They land here rather than in `letters-601-775.md` for the same reason as everything
+above — LinkedIn won't let you DM them for free.
+
+Numbered 122–142, continuing this file's own sequence.
+
+## Educators & Schools
+
+### 122. Amy Broekhuizen
+*family and consumer science educator · 2nd-degree · InMail*
+
+```
+Hi Amy — a family and consumer science educator teaches exactly the skills this book lives on. Mine teaches the one kids use first, spending wisely, not saving, a boy and a robot, built with a 30-year K–5 teacher and standards-aligned. Already printed and on sale, either way. Would it fit your classroom? I'd value your read.
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+## Financial Literacy & Financial Education
+
+### 123. Bethany Smith
+*Financial Educator · 2nd-degree · InMail*
+
+```
+Hi Bethany — as a financial educator you know spending is where habits form. Any book can teach a kid to save; the hard part is teaching them to spend, a boy and a robot, built with a 30-year K–5 teacher and zero-prep lessons. Already printed and on sale, either way. Would it fit the learners you reach? I'd value your read.
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 124. Donna Jo Johnson
+*Financial Wellness Educator and Advocate · 2nd-degree · InMail*
+
+```
+Hi Donna Jo — a financial-wellness educator and advocate knows spending is where it gets real. Any book can teach a kid to save; the hard part is teaching them to spend, a boy and a robot. Every other money book stops at the piggy bank; this one walks a kid from I want it to is it worth it. It's already printed and on sale. Would it fit the families you reach? I'd value your read.
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 125. Ronjon Bose
+*Financial Educator · 2nd-degree · InMail*
+
+```
+Hi Ronjon — as a financial educator you know the basics start young. It's not a book about saving money; it's about spending it wisely, a boy and a robot, built with a 30-year K–5 teacher and zero-prep lessons. The book's already printed and on sale. Would it fit the learners you reach? I'd value your read.
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 126. John Nolan
+*Senior Vice President, Workplace Financial Wellness · 2nd-degree · InMail*
+
+```
+Hi John — leading workplace financial wellness, you meet adults after the habits set; mine starts before they do. Every money book stops at the piggy bank; mine starts where kids start, spending, a boy and a robot, aligned to five standards frameworks and built with a 30-year K–5 teacher. It's already printed and on sale. Would it fit a family-facing benefit you offer? I'd value your read.
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 127. Kristen Ruhl
+*Vice President · 2nd-degree · InMail*
+
+```
+Hi Kristen — as a VP in financial wellness you know the basics start young. Any book can teach a kid to save; the hard part is teaching them to spend, a boy and a robot, built with a 30-year K–5 teacher. It's printed and on sale now. Would it fit the families or employees you reach? I'd value your read.
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 128. Matt Lucas, MBA, AFC
+*Director of Financial Wellness · 2nd-degree · InMail*
+
+```
+Hi Matt — directing financial wellness with an AFC behind you, you know what actually reaches people. Every money book stops at the piggy bank; mine starts where kids start, spending, a boy and a robot, aligned to five standards frameworks and built with a 30-year K–5 teacher. It's already printed and on sale. Would it fit a family program you run? I'd value your read.
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 129. Peter Asare Nyarko
+*Executive Director · 2nd-degree · InMail*
+
+```
+Hi Peter — as an executive director you decide which programs are worth backing. Every money book stops at the piggy bank; mine starts where kids start, spending, a boy and a robot, aligned to five standards frameworks and built with a 30-year K–5 teacher. The book's already printed and on sale. Would it fit the families you serve? I'd value your read.
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 130. Thea Garon
+*Director, Financial Well-Being Hub · 2nd-degree · InMail*
+
+```
+Hi Thea — running a Financial Well-Being Hub, you sit on top of the research on what actually helps. Every money book stops at the piggy bank; mine starts where kids start, spending, a boy and a robot, aligned to five standards frameworks and built with a 30-year K–5 teacher. It's already printed and on sale. Does the framing hold up against the evidence? I'd value your read.
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+## Media & Journalists
+
+### 131. Gregory lacurci
+*Personal Finance Reporter · 2nd-degree · InMail*
+
+```
+Hi Gregory — covering personal finance, you know most of it starts long before adulthood. Mine starts at six: the skill kids use first, spending wisely, a boy and a robot. By the last page the kid has done real register math, comparing prices, catching a markdown, paying the tax. Is there a story here, or a better contact? Glad to send a copy.
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+## Government, Policy & Regulators
+
+### 132. Anjanette Kichline
+*Assistant Vice President · 2nd-degree · InMail*
+
+```
+Hi Anjanette — your work in financial policy sits above the day-to-day, but a book like this needs champions there. Every money book stops at the piggy bank; mine starts where kids start, spending, a boy and a robot, aligned to five standards frameworks and built with a 30-year K–5 teacher. It's already printed and on sale. Where might it fit? I'd value your read.
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 133. Anna Paulson
+*President and CEO · 2nd-degree · InMail*
+
+```
+Hi Anna — leading a Federal Reserve bank, you've seen how financial capability shapes whole communities. Mine starts at the earliest input: kids. It teaches the skill they use first, spending wisely, a boy and a robot, aligned to five standards frameworks. I'd value your read on where a book like this belongs. The book's already printed and on sale. Worth a look?
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 134. Beth Hammack
+*President and Chief Executive Officer · 2nd-degree · InMail*
+
+```
+Hi Beth — as president of a Federal Reserve bank you think about financial capability at the level of a whole region. Mine starts at age six: the skill kids use first, spending wisely, a boy and a robot, aligned to five standards frameworks and built with a 30-year K–5 teacher. It's printed and on sale now. Would it fit any community or education program the bank touches? I'd value your read.
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 135. Jessica Brooks
+*Corporate Strategist, Innovation | Head of Content & Community; Corporate Strategist, Innovation I Head of Content & Community · 2nd-degree · InMail*
+
+```
+Hi Jessica — heading content and community, you know what actually reaches people. Any book can teach a kid to save; the hard part is teaching them to spend, a boy and a robot, built with a 30-year K–5 teacher. It's printed and on sale now. Would a spend-first kids' book fit your audience? I'd value your read.
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 136. Joe Puglisi
+*Vice President, Head of System IT Communications & Marketing · 2nd-degree · InMail*
+
+```
+Hi Joe — your work in communications and marketing puts you close to how a message travels. Any book can teach a kid to save; the hard part is teaching them to spend, a boy and a robot, built with a 30-year K–5 teacher. Already printed and on sale, either way. Would a spend-first kids' book fit anything you touch? I'd value your read.
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 137. Margaret DeBoer
+*Senior Associate Director · 2nd-degree · InMail*
+
+```
+Hi Margaret — your work in financial policy sits above the classroom, but that's where a book like this needs a champion. Every money book stops at the piggy bank; mine starts where kids start, spending, a boy and a robot, aligned to five standards frameworks and built with a 30-year K–5 teacher. The book's already printed and on sale. Where might it fit? I'd value your read.
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 138. Randall Mueller
+*Asst. Vice President · 2nd-degree · InMail*
+
+```
+Hi Randall — your work at the Fed sits above the day-to-day of financial education, but you've seen the gaps compound. Mine starts closing them at age six: the skill kids use first, spending wisely, a boy and a robot, aligned to five standards frameworks. I'd value your read on where a book like this belongs. It's already printed and on sale. Worth a look?
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 139. Tian Liu I
+*Vice President · 2nd-degree · InMail*
+
+```
+Hi Tian — your work at the Fed sits above the classroom, but a book like this needs champions there. Every money book stops at the piggy bank; mine starts where kids start, spending, a boy and a robot, aligned to five standards frameworks and built with a 30-year K–5 teacher. Already printed and on sale, either way. Where might it fit? I'd value your read.
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 140. Angelyque Campbell
+*Assistant Director, Consumer Markets and Policy · 3rd-degree · InMail*
+
+```
+Hi Angelyque — your work on consumer markets and policy is exactly where a book like this could matter. Every money book stops at the piggy bank; mine starts where kids start, spending, a boy and a robot, aligned to five standards frameworks and built with a 30-year K–5 teacher. Already printed and on sale, either way. Where might it fit? I'd value your read.
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 141. Dorothy Anderson
+*Assistant Vice President, Marketing and Industry Communications · 3rd-degree · InMail*
+
+```
+Hi Dorothy — your work in marketing and industry communications puts you close to how a message travels. Any book can teach a kid to save; the hard part is teaching them to spend, a boy and a robot, built with a 30-year K–5 teacher. Already printed and on sale, either way. Would a spend-first kids' book fit anything you touch? I'd value your read.
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 142. Jennifer Liu
+*Deputy Director · 3rd-degree · InMail*
+
+```
+Hi Jennifer — as a deputy director you help decide which programs are worth backing. Every money book stops at the piggy bank; mine starts where kids start, spending, a boy and a robot, aligned to five standards frameworks and built with a 30-year K–5 teacher. It's already printed and on sale. Where might it fit? I'd value your read.
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```

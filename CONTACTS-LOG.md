@@ -31,11 +31,15 @@ destroyed 432 finished letters; keeping only the repo copy would have dropped 60
 | | |
 |---|---|
 | Finished letter (from `CGB_MASTER_outreach.xlsx`) | 690 |
-| Draft only (from the August workbook) | 196 |
+| ~~Draft only (from the August workbook)~~ → extracted 9 Sep | 196 |
 | **No letter yet** | **442** |
 
 The 442 are the real backlog. `august_top100_letters.md` holds 37 finished letters, 34 of
 which are for contacts this repo had never heard of.
+
+**The 196 drafts are done (9 Sep 2026).** They now live in real letter files, signed, with the
+P.S. and the published-status clause: 175 first-degree in `letters-601-775.md`, 21 second- and
+third-degree appended to `letters-inmail-required.md` as #122–142.
 
 ### The lesson, recorded so it doesn't repeat
 
@@ -61,10 +65,24 @@ committed here, no amount of searching here will find it — ask for the file.
 | Standalone / CFPB / Jump$tart | ~8 | 660–665 | `letter-*.md` files |
 | New Aug (30 Jul – 3 Aug) | 19 | 666–684 | folded into `letters-517-616.md` #500–509, #517–529 |
 | Grandparents | 6 | 686–691 | `letters-grandparents-readalong.md` |
+| New Sept batch 1 (4–8 Sep) | 40 | — | `letters-new-sept.md` #535–574 |
+| New Sept batch 2 (4–8 Sep) | 26 | — | **not written yet** — reserved #575–600 |
+| August workbook drafts, 1st-degree | 175 | merged master | `letters-601-775.md` #601–775 |
+| August workbook drafts, 2nd/3rd | 21 | merged master | `letters-inmail-required.md` #122–142 |
 
 After the degree split (Sep 2026), the four main files hold **first-degree only**, numbered
-as one running sequence 1–534. All 2nd/3rd-degree contacts live in
-`letters-inmail-required.md`, numbered separately 1–121.
+as one running sequence 1–534, continued by `letters-new-sept.md` (535–574) and
+`letters-601-775.md` (601–775). All 2nd/3rd-degree contacts live in
+`letters-inmail-required.md`, numbered separately 1–142.
+
+**575–600 are reserved, not missing.** They belong to September batch 2 — the 26 contacts from
+Dustin LeMay through Justin Stok — which goes in `letters-new-sept.md` under batch 1. Write
+those next and the running sequence closes up.
+
+### Last contact added
+
+**Justin Stok**, September screenshot batch, still awaiting a letter. The last contact with a
+letter written is **#775, Peter Komolafe DipFA, CII MP** (`letters-601-775.md`, Other / Review).
 
 ---
 
