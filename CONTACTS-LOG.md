@@ -52,6 +52,19 @@ committed here, no amount of searching here will find it — ask for the file.
 
 ## Where the contacts actually live
 
+**Screenshot batches, newest connection date first.** This is the order that matters when you
+ask "what's the most recent thing added" — not the order rows landed in the workbook.
+
+| Screenshot batch | Connections dated | Count | Letter file |
+|---|---|---|---|
+| 8 screens, sent 8 Sep | **4–8 Sep** ← newest | 66 | `letters-new-sept.md` #535–574 · 26 still owed |
+| 4 screens, sent 9 Sep | 23–26 Aug | 36 | `letters-776-809.md` #776–809 |
+| New Aug | 30 Jul – 3 Aug | 19 | folded into `letters-517-616.md` |
+| New Jul 28–29 | 28–29 Jul | 2 | folded into `letters-517-616.md` #510–511 |
+| New July | 19–27 Jul | 10 | folded into `letters-517-616.md` |
+
+Everything else, by how it was assembled rather than when it connected:
+
 | Batch | Count | Workbook rows | Letter file |
 |---|---|---|---|
 | 1–202 (rescored master) | 202 | 2–203 | `letters-1-198.md` |
@@ -69,7 +82,7 @@ committed here, no amount of searching here will find it — ask for the file.
 | New Sept batch 2 (4–8 Sep) | 26 | added 9 Sep | **blocked on titles** — reserved #575–600 |
 | August workbook drafts, 1st-degree | 175 | merged master | `letters-601-775.md` #601–775 |
 | August workbook drafts, 2nd/3rd | 21 | merged master | `letters-inmail-required.md` #122–142 |
-| New Aug 23–26 (4 screens, captured 9 Sep) | 36 | added 9 Sep | `letters-776-809.md` #776–809 |
+| New Aug 23–26 (4 screens, sent 9 Sep) | 36 | added 9 Sep | `letters-776-809.md` #776–809 |
 
 After the degree split (Sep 2026), the four main files hold **first-degree only**, numbered
 as one running sequence 1–534, continued by `letters-new-sept.md` (535–574) and
@@ -80,13 +93,27 @@ as one running sequence 1–534, continued by `letters-new-sept.md` (535–574) 
 Dustin LeMay through Justin Stok — which goes in `letters-new-sept.md` under batch 1. Write
 those next and the running sequence closes up.
 
-### LAST CONTACT ADDED — read this line, don't go searching
+### HIGH-WATER MARK — read these three lines, don't go searching
 
-**Ma Charisse Joanne Labadan** — last row added to the workbook, from the 23–26 Aug LinkedIn
-screens captured 9 Sep 2026. Letter written: **#809, Bodo Sidès** (`letters-776-809.md`).
+**Newest connection processed: James Totton, M.Ed, MBA.** Top of the 8 screens sent 8 Sep 2026,
+which covered connections made 4–8 September. Nothing newer than him has been touched — anything
+that connected after that capture is unprocessed. He has a letter, `letters-new-sept.md` #535.
+
+**Scroll resumes below: Ma Charisse Joanne Labadan** (connected 24 Aug). She is the bottom of
+the oldest screen processed, so on LinkedIn's My Network page everything above her is handled
+and you start scrolling from the next name down.
 
 **Highest letter number in use: 809.** The next letter written gets 810, unless it belongs to
 September batch 2, which owns the reserved block 575–600.
+
+Those first two are different questions and it's worth keeping them apart. Newest-processed
+tells you whether a fresh batch has appeared since. Scroll-resumes-below tells you where to
+start capturing. The order of rows in the workbook answers neither — rows get appended in
+whatever order a batch was worked, so the last row added is meaningless as a marker.
+
+LinkedIn lists My Network newest first, so the top of a screen is the most recent connection.
+The 66 September names were captured in screen order, which is how James Totton is known to be
+the newest of them; their individual connection dates were not recorded, only the 4–8 Sep range.
 
 ### Workbook status, 9 Sep 2026 — 1,430 rows
 
