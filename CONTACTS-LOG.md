@@ -63,6 +63,36 @@ ask "what's the most recent thing added" — not the order rows landed in the wo
 | New Jul 28–29 | 28–29 Jul | 2 | folded into `letters-517-616.md` #510–511 |
 | New July | 19–27 Jul | 10 | folded into `letters-517-616.md` |
 
+### Coverage timeline — there are two holes in it
+
+Checked 9 Sep 2026: **zero names appear in both screenshot batches.** The 8 screens sent 8 Sep
+and the 4 screens sent 9 Sep share nothing. Three names on the 9 Sep screens were already in the
+workbook, but all three came from old sources (`1-202`, `wally`), not from the September capture,
+so they don't join the two batches either.
+
+No shared name means the captures were never proven to be contiguous, and lining up the date
+ranges shows they aren't:
+
+| Window | Status |
+|---|---|
+| 19–27 Jul | captured — New July |
+| 28–29 Jul | captured — New Jul 28–29 |
+| 30 Jul – 3 Aug | captured — New Aug |
+| **4 – 22 Aug** | **NOT CAPTURED — 19 days** |
+| 23–26 Aug | captured — 4 screens sent 9 Sep |
+| **27 Aug – 3 Sep** | **NOT CAPTURED — about 8 days** |
+| 4–8 Sep | captured — 8 screens sent 8 Sep |
+| after 8 Sep | nothing captured since |
+
+So yes: contacts were missed, and roughly 27 days of connections are unaccounted for. The 4–22
+August hole is the big one. The 27 Aug – 3 Sep hole is sized off the *label* on the September
+batch rather than recorded dates, so treat it as approximate — the individual connection dates
+for those 66 were never written down.
+
+**Capture one screen of overlap from now on.** Scroll back far enough that the top of a new
+batch repeats two or three names from the bottom of the last one. A repeated name proves the
+two captures touch. Zero repeats proves nothing, which is how 27 days went missing.
+
 Everything else, by how it was assembled rather than when it connected:
 
 | Batch | Count | Workbook rows | Letter file |
@@ -100,8 +130,9 @@ which covered connections made 4–8 September. Nothing newer than him has been 
 that connected after that capture is unprocessed. He has a letter, `letters-new-sept.md` #535.
 
 **Scroll resumes below: Ma Charisse Joanne Labadan** (connected 24 Aug). She is the bottom of
-the oldest screen processed, so on LinkedIn's My Network page everything above her is handled
-and you start scrolling from the next name down.
+the most recent screen batch — but **do not treat everything above her as handled.** Two windows
+inside that range were never captured (4–22 Aug and roughly 27 Aug – 3 Sep). See the coverage
+timeline below before deciding where to scroll.
 
 **Highest letter number in use: 809.** The next letter written gets 810, unless it belongs to
 September batch 2, which owns the reserved block 575–600.
