@@ -165,6 +165,14 @@ workbook row to the letter text without grepping.
 
 ---
 
+## Leads without names
+
+**`targets-curriculum-directors.md`** — 19 elementary and district curriculum directors off three
+LinkedIn People searches, 9 Sep 2026. Role, district, location and tenure captured; **no names**,
+because LinkedIn shows out-of-network profiles as "LinkedIn Member". Not in the workbook, because
+a row with no name is not a contact. The file explains the three ways to get a name; once you
+have one, the letter joins the running sequence at 810.
+
 ## Known gaps — fix these when you get to them
 
 - **September batch 2 is blocked on titles.** 26 contacts, Dustin LeMay through Justin Stok,
