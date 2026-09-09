@@ -125,7 +125,8 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 ```
 
 ### 9. Amy Pridemore
-*Executive Director, VCU Financial Success Center by Virginia Credit Union/lnstructor, FIRE Dept · 2nd-degree · InMail*
+*Executive Director, VCU Financial Success Center by Virginia Credit Union/lnstructor, FIRE Dept · **now 1st-degree — send as a free DM***
+*She accepted on 24 Aug 2026, confirmed on a LinkedIn screen 9 Sep. No InMail credit needed. Letter text below stands.*
 
 ```
 Amy — a credit-union-backed financial success center sees where the gaps started. Mine tries to close one at six, and there's a grant packet with cost math if VCU or the credit union wanted to fund a local set. Worth a look? Format, for the record: Lexile AD 620L — Adult Directed. One class period read aloud, the text carries the explanations so no instructor training is needed, and the same book does the family-engagement job at home. Concepts and specs: https://clarencegetsabargain.com/book-facts.html · Sample: https://heyzine.com/flip-book/eeb1ef6cff.html
