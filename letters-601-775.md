@@ -772,7 +772,7 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 *Speaker on Financial Literacy & Behavioral Finance | Founder, Brown Way to Money | Top 100 Money Experts | Storytelling · 1st-degree · DM*
 
 ```
-Hi Alejandra — you transform financial wellness through storytelling, which is my whole bet with kids. Spending well is the first money skill a kid uses, and no picture book was built around it, so I built one, a boy and a robot. Every other money book stops at the piggy bank; mine walks a kid from I want it to is it worth it. Already printed and on sale, either way. As a storyteller in this space, does it land? I'd value your read.
+Hi Alejandra — you teach money through story, which is my whole bet with kids. Spending well is the first money skill a kid uses, and no picture book was built around it, so I built one, a boy and a robot. Every other money book stops at the piggy bank; mine walks a kid from I want it to is it worth it. Already printed and on sale, either way. As a storyteller in this space, does it land? I'd value your read.
 
 Jonathan
 

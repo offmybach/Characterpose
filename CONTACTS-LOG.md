@@ -34,8 +34,18 @@ destroyed 432 finished letters; keeping only the repo copy would have dropped 60
 | ~~Draft only (from the August workbook)~~ → extracted 9 Sep | 196 |
 | **No letter yet** | **442** |
 
-The 442 are the real backlog. `august_top100_letters.md` holds 37 finished letters, 34 of
-which are for contacts this repo had never heard of.
+The 442 are the real backlog. ~~`august_top100_letters.md` holds 37 finished letters, 34 of
+which are for contacts this repo had never heard of.~~ **Closed 9 Sep 2026 — all 37 are covered.**
+
+**`august_top100_letters.md` is fully absorbed. Don't re-import it.** Re-checked 9 Sep against
+every letter file: 37 of 37 now have a repo letter. It was drawn from the same `Draft Letter`
+column the 196 extraction came from, so its text *is* the repo text — the repo copies just also
+carry the published-status clause, the sign-off and the P.S., which that file has on none of its
+37. Nothing there to salvage.
+
+**The uploaded `finlit_contacts_categorized_bespoke_groups.xlsx` is fully absorbed too.** Three
+copies were sent on 9 Sep; all three are the same 1,129-row file, and all 1,121 distinct names
+are already in `CGB_MASTER_merged.xlsx`. Re-uploading it adds nothing.
 
 **The 196 drafts are done (9 Sep 2026).** They now live in real letter files, signed, with the
 P.S. and the published-status clause: 175 first-degree in `letters-601-775.md`, 21 second- and
