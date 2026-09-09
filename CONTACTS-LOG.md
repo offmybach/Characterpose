@@ -9,17 +9,40 @@ for a name you already processed. That has already happened once.
 
 ---
 
-## Last contact added
+## Current master: `CGB_MASTER_merged.xlsx` — 1,328 contacts
+
+**9 Sep 2026.** `CGB_MASTER_outreach.xlsx` was never the whole picture. A second contact
+database built during August — 1,129 contacts with scoring, bespoke email groups, connection
+degree and drafted letters — lived outside this repository entirely. 609 of its contacts
+appeared nowhere here. It has been recovered and merged.
 
 | | |
 |---|---|
-| **Name** | **Keanna Buckett-Espinoza** |
-| Batch | New Aug (30 Jul – 3 Aug 2026) |
-| Workbook row | 684 |
-| Letter lives in | `letters-new-aug.md` #19, folded into `letters-517-616.md` as **#527** |
-| Added | 3 Aug 2026 |
+| **Master file** | **`CGB_MASTER_merged.xlsx`** (1,328 contacts, 41 columns) |
+| Built from | `CGB_MASTER_outreach.xlsx` (690) + `finlit_contacts_categorized_bespoke_groups.xlsx` (1,129) |
+| Overlap | 491 in both · 638 uploaded-only · 199 repo-only |
+| Verified | 689/689 finished letters preserved · 1,128/1,128 uploaded contacts preserved · zero losses |
 
-Everything provided after that date is unprocessed unless this file says otherwise.
+Neither source was a superset, so neither could be discarded. A straight replace would have
+destroyed 432 finished letters; keeping only the repo copy would have dropped 609 contacts.
+
+### Letter coverage across the merged list
+
+| | |
+|---|---|
+| Finished letter (from `CGB_MASTER_outreach.xlsx`) | 690 |
+| Draft only (from the August workbook) | 196 |
+| **No letter yet** | **442** |
+
+The 442 are the real backlog. `august_top100_letters.md` holds 37 finished letters, 34 of
+which are for contacts this repo had never heard of.
+
+### The lesson, recorded so it doesn't repeat
+
+Searching git history, row counts and all 38 branches proves what is *in the repository*. It
+proves nothing about what work exists. Both are true at once: nothing had been committed
+since 3 Aug, **and** hundreds of contacts had been added during August. If a file is not
+committed here, no amount of searching here will find it — ask for the file.
 
 ---
 
