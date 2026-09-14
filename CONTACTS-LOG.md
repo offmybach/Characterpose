@@ -248,7 +248,7 @@ have one, the letter joins the running sequence at 810.
   | Batch | Numbers | Status |
   |---|---|---|
   | 1 | 810–849 | **done** — 14 Sep |
-  | 2 | 850–889 | to do |
+  | 2 | 850–889 | **done** — 14 Sep |
   | 3 | 890–929 | to do |
   | 4 | 930–956 | to do (27 letters) |
 

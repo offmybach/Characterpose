@@ -9,8 +9,8 @@ rest, newest connections ahead of older ones.
 
 | Batch | Numbers | Status |
 |---|---|---|
-| 1 | 810–849 | written |
-| 2 | 850–889 | to do |
+| 1 | 810–849 | **written** |
+| 2 | 850–889 | **written** |
 | 3 | 890–929 | to do |
 | 4 | 930–956 | to do (27 letters) |
 
@@ -452,6 +452,448 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 
 ```
 Cathryn — a church school can put something on the shelf without a committee, which isn't true of most places I write to. Mine is 36 pages, grades 1–5, about a boy who earns a robot and then chooses the cheaper one on purpose. There's giving in it too: the family sets money aside for charity before anything fun, and they choose the charities together. Already printed and on sale. Does that sit well with what you teach, or oddly next to it?
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+## Batch 2 — 850–889
+
+### 850. Jake Daggett
+*K-5 Literacy Director, Greater Holy Temple Christian Academy · connected 1 Sep · 1st-degree · DM*
+
+```
+Jake — a K–5 literacy director is exactly the reader I want, because you'll judge the text before the topic. It's catalogued Lexile AD 620L, Adult Directed, built as a read-aloud, with a 21-term glossary at the back. Grades 1–5. Already printed and on sale. Does the writing hold up as literacy material, or is it only carrying the money content?
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 851. Mayra Arreola, Ed.D.
+*Principal, International Leadership of Texas · connected 1 Sep · 1st-degree · DM*
+
+```
+Mayra — ILTexas runs a longer day than most schools, which is usually where something like this fits without displacing anything. Mine is 36 pages, grades 1–5, one class period, no finance background needed, and the teacher pack is free. Already printed and on sale. Is there room in your day for it, or is every minute already committed?
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 852. Shawntel L. Green
+*Chief Executive Officer, Early Education Career Institute · connected 1 Sep · 1st-degree · DM*
+
+```
+Shawntel — you train people entering early education, so the question isn't whether I like the book, it's whether a brand-new educator can run it cold. Mine is built for that: Mom explains every concept inside the story's own dialogue, so the adult never has to be the finance expert. Grades 1–5, four 45-minute lessons, free. Already printed and on sale. Would a first-year educator manage it unaided?
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 853. Chris Zilinski
+*Chief Executive Officer, Bridge Preparatory Charter School · connected 1 Sep · 1st-degree · DM*
+
+```
+Chris — Bridge Prep is built around students with dyslexia, which makes read-aloud the whole question rather than a footnote. Mine is catalogued AD 620L, Adult Directed, so the money content isn't gated behind decoding. Grades 1–5. Already printed and on sale. Does that genuinely serve your students, or is it a format I'm hiding behind?
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 854. Robert Phelps, Ed.D.
+*Director of Curriculum & Elementary Education, Bloomfield Hills Schools · connected 1 Sep · 1st-degree · DM*
+
+```
+Robert — you turned up in a search I ran for elementary curriculum directors, anonymised the way LinkedIn does, so I'm glad to have the name. Mine is grades 1–5, 36 pages, and it fits three places at once: ELA as a read-aloud, math as percentage and comparison work, social studies as consumer economics. Four 45-minute lessons, free. Already printed and on sale. Does it fit a real sequence at Bloomfield Hills?
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 855. Jessica Ziegler
+*Director of Development, School in the Square · connected 1 Sep · 1st-degree · DM*
+
+```
+Jessica — development is the one office that knows what a funder will actually pay for. Mine arrives with the grant packet already written: 25 copies for $499.75, the cost maths done, pre and post assessments included. Grades 1–5. Already printed and on sale. Is an ask that size worth a funder's time, or too small to bother writing up?
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 856. Nick Rose
+*Co-Founder, Curriculum Makers · connected 1 Sep · 1st-degree · DM*
+
+```
+Nick — building curriculum from scratch means you know how much scaffolding a teacher actually needs, as against how much gets added out of nervousness. Mine ships with four 45-minute lessons and nothing else, because the story carries the explaining itself. Grades 1–5, free. Already printed and on sale. Too thin, or about right?
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 857. Peter Cunningham
+*Director of Instruction and Personnel, Diamond Lake School District 76 · connected 1 Sep · 1st-degree · DM*
+
+```
+Peter — holding instruction and personnel together means you see both what ought to be taught and who has the capacity to teach it. Mine needs no capacity: one class period, no finance background, and the story does the explaining. Grades 1–5, free pack. Already printed and on sale. Which side of your job would object first?
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 858. Cosimo Tangorra Jr., Ed.D.
+*Chairperson, New York State Educational Conference Board · connected 1 Sep · 1st-degree · DM*
+
+```
+Cosimo — the Conference Board speaks for the whole New York coalition, which is a wider hearing than any single district gives. New York's finance mandate lands on high schoolers; mine is the grades 1–5 warm-up nobody built. 36 pages, five frameworks, free classroom pack. Already printed and on sale. Is elementary money education anywhere on the Board's agenda?
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 859. Aruna Gilbert
+*Executive Vice President, Chief Program and Policy — Early Learning Coalition of Palm Beach · connected 1 Sep · 1st-degree · DM*
+
+```
+Aruna — a coalition decides once and reaches every provider beneath it, which is why I'm writing here rather than to a single centre. Mine is ages 6–10, so it may sit just above your band; tell me if it does. 36 pages, read-aloud, free activity pack including the two family games from the story. Already printed and on sale. Right age for Palm Beach's families, or a year or two out?
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 860. Laura Candeloro
+*Founder & Principal Consultant, Candlelight Strategies · connected 1 Sep · 1st-degree · DM*
+
+```
+Laura — consultants stake their name on every recommendation, which makes you a harder read than any district. Mine is 36 pages, grades 1–5, spending rather than saving, with four 45-minute lessons free behind it. Already printed and on sale. Would you recommend it, or tell me what's thin first? I'd take the second answer just as readily.
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 861. Shannon Riley Ayers, PhD
+*Director, Custom Solutions Division — Lakeshore Learning Materials · connected 1 Sep · 1st-degree · DM*
+
+```
+Shannon — Lakeshore is in more elementary classrooms than most publishers manage, and custom solutions is where a book either becomes part of a kit or stays a book. Mine is 36 pages, grades 1–5, and the free pack already includes printable price tags, clearance stickers and coupons built as classroom manipulatives. Already printed and on sale. Is there a version of this that belongs in a Lakeshore kit, or is it too niche?
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 862. Dr. Christian J. Rubalcaba
+*Superintendent, Redwood City School District · connected 1 Sep · 1st-degree · DM*
+
+```
+Christian — Redwood City runs K–8, so grades 1–5 sits squarely inside your band rather than at the edge of it. 36 pages, five frameworks, free teacher pack, one class period, nothing to reorder. Already printed and on sale. What would stop it at Redwood City — budget, standards, or that nobody is asking?
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 863. Ismael Jimenez
+*Director of Social Studies Curriculum, The School District of Philadelphia · connected 1 Sep · 1st-degree · DM*
+
+```
+Ismael — social studies is where consumer economics actually lives, and it's usually the last subject anyone hands a money book to. Mine is grades 1–5: a kid reads an ad, compares two prices, uses a coupon, then pays sales tax to the state and learns why the state gets it. Already printed and on sale. Does it belong in a social studies sequence, or is that stretching what the subject is for?
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 864. Matthew Boynton
+*Director of Education, Academics West · connected 1 Sep · 1st-degree · DM*
+
+```
+Matthew — small independent schools can decide in a week what a district takes a year to approve. Mine is grades 1–5, 36 pages, free teacher pack, nothing to procure and nothing to reorder. Already printed and on sale. Worth a look at Academics West, or not the sort of thing you add mid-year?
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 865. Dr. William Rice
+*Superintendent, Ross Local School District · connected 1 Sep · 1st-degree · DM*
+
+```
+William — Ohio requires financial literacy for graduation, which means it arrives when the habits are already formed. Mine is grades 1–5, where they form: one boy, one purchase, sale ad to receipt. 36 pages, free teacher pack. Already printed and on sale. Would Ross's elementary teachers pick it up voluntarily, or does it take a mandate to move anything?
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 866. Stephanie Mucci
+*Principal, AMS Glendale · connected 1 Sep · 1st-degree · DM*
+
+```
+Stephanie — principals decide what gets a Tuesday, which is the only currency that matters here. Mine asks for one class period and no finance background. Grades 1–5, four 45-minute lessons, free and printable, no account. Already printed and on sale. Is one period a realistic ask in your building, or am I underestimating what that costs you?
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 867. Matthew Pierson
+*Associate Director, Nebraska Council on Economic Education · connected 1 Sep · 1st-degree · DM*
+
+```
+Matthew — the Council is a CEE affiliate and my book aligns to CEE among five frameworks, so we're already speaking the same language. What's unusual is the band: grades 1–5, where affiliate materials thin out fast. 36 pages, free teacher pack, and 25 copies runs $499.75 if Nebraska ever wanted a classroom set. Already printed and on sale. Is elementary anywhere in what the Council gets asked for?
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 868. Dr. Frank Rodriguez
+*Superintendent, Beaufort County School District · connected 1 Sep · 1st-degree · DM*
+
+```
+Frank — Beaufort County spans a wide range of family circumstance inside one district, which is exactly the tension this book sits in. The story is about a kid who can't buy the expensive one and ends up glad he didn't. Grades 1–5, 36 pages, free teacher pack. Already printed and on sale. Does that read as respectful across your whole district, or only part of it?
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 869. Maveonien 'Mori' Creamer, M.A.
+*Chief Academic Officer, Charter One · connected 1 Sep · 1st-degree · DM*
+
+```
+Mori — a chief academic officer owns the part nobody else will defend: whether the thing is any good, separate from whether it's cheap or convenient. Mine is cheap and convenient, and I'd rather you ignored both. It's 36 pages, grades 1–5, and it teaches spending instead of saving because spending is the transaction a six-year-old actually performs. Already printed and on sale. Judge it on the academics: does that premise stand up?
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 870. Dan Ryder
+*Director of Design & Innovation, Community Regional Charter School · connected 1 Sep · 1st-degree · DM*
+
+```
+Dan — design thinking and this book have the same shape: a real constraint, two options, and a decision the kid has to own. Mine puts a six-year-old in front of two robots with a fixed amount of money and lets him work it out on the page. Grades 1–5. Already printed and on sale. Does it hold up as a design problem, or is the outcome too settled for that?
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 871. Dan Hanson, Ed.D
+*Director of Learning and Development, Cherry Creek School District · connected 31 Aug · 1st-degree · DM*
+
+```
+Dan — learning and development means you're judging whether teachers can run this without you training them first. They can: the story explains every concept in its own dialogue, so the teacher is never the expert. Grades 1–5, four 45-minute lessons, free. Already printed and on sale. Does zero-prep read as a strength in your world, or as a warning sign?
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 872. Kimberli Smith
+*Director of Curriculum Development, Pearson · connected 31 Aug · 1st-degree · DM*
+
+```
+Kimberli — Pearson has more elementary curriculum in circulation than almost anyone, so you'll know instantly whether this fills a real gap or one I've invented. My claim: every children's money book teaches saving, spending is the transaction a kid performs first, and almost nothing exists for it at grades 1–5. Already printed and on sale. Does that hold from where you sit, or is the shelf less empty than I think?
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 873. Brian L. Cunningham, Ed. D.
+*Assistant Principal, Fayette County Public Schools TN · connected 31 Aug · 1st-degree · DM*
+
+```
+Brian — an assistant principal usually hears the objection before the principal does. So: 36 pages, grades 1–5, one class period, no finance background, everything free and printable. Already printed and on sale. What would land on your desk about it first — the time, the content, or the fact that nobody asked for it?
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 874. Dr. Hope Walker
+*Director of Middle School Literacy, KIPP Capital Region Public Schools · connected 31 Aug · 1st-degree · DM*
+
+```
+Hope — middle school literacy often means repairing what didn't happen in elementary. Mine aims upstream of you: grades 1–5, read-aloud, AD 620L, with the money vocabulary defined in a 21-term glossary at the back. Already printed and on sale. From where you sit, what do you wish had reached them three years earlier? I'd like to know whether my list matches yours.
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 875. Rashaun Martin
+*Director of Education, Willow Hill School · connected 31 Aug · 1st-degree · DM*
+
+```
+Rashaun — Willow Hill works with students who learn differently, so the honest question is whether a read-aloud picture book reaches them or talks past them. Mine is catalogued AD 620L, Adult Directed, so decoding isn't the gate, and the concepts are carried in dialogue rather than exposition. Already printed and on sale. Does that work for your students, or am I assuming too much?
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 876. Deowarski McDonald, Ed.D.
+*Deputy Director of Accountability and Support, Mississippi Charter School Authorizer Board · connected 31 Aug · 1st-degree · DM*
+
+```
+Deowarski — an authorizer sees across every school in the portfolio, which is a wider view than any single leader gets. Mine is grades 1–5, 36 pages, five frameworks, with pre and post assessments included so a school can show something actually happened. Free. Already printed and on sale. Does a resource like this travel across a portfolio, or is it always school by school?
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 877. Matthew A. Gutierrez, Ed.D.
+*Superintendent, Del Valle Independent School District · connected 30 Aug · 1st-degree · DM*
+
+```
+Matthew — Texas wrote its own personal finance strand before most states bothered, and elementary is still where the material runs thin. Mine is grades 1–5, 36 pages, one purchase from the sale ad to the receipt with the sales tax line included. Free teacher pack. Already printed and on sale. Is there room for a story-first book at Del Valle, or is it all locked to adopted materials?
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 878. Chad Brakke
+*Superintendent, Baldwin-Woodville Area School District · connected 30 Aug · 1st-degree · DM*
+
+```
+Chad — Wisconsin leaves personal finance largely to districts, which means somebody at Baldwin-Woodville decides whether it happens in elementary at all. Mine is grades 1–5, 36 pages, free teacher pack, four 45-minute lessons, nothing to reorder. Already printed and on sale. Is that decision yours, or does it sit with a curriculum committee?
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 879. Alyssa Stevenson
+*Director of Literacy & Social Studies, Southwest Public Schools · connected 30 Aug · 1st-degree · DM*
+
+```
+Alyssa — holding literacy and social studies together is unusual, and useful here, because mine works both sides at once: a read-aloud narrative, and consumer economics with real arithmetic in it. Grades 1–5, four 45-minute lessons, free. Already printed and on sale. Does one book doing both jobs appeal, or does it end up serving neither properly?
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 880. Bridget Cheney
+*Assistant Superintendent, Muskegon Public Schools · connected 30 Aug · 1st-degree · DM*
+
+```
+Bridget — innovation inside a district usually means finding something that works without a new budget line. Mine costs nothing past the book: lessons, worksheets and assessments all free and printable, no account, no seats. Grades 1–5. Already printed and on sale. Does free actually help at Muskegon, or does it just mean nobody owns it?
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 881. Ronald Banner
+*Superintendent, Clover Park School District · connected 29 Aug · 1st-degree · DM*
+
+```
+Ronald — Clover Park serves a lot of military families, where money conversations tend to happen earlier and more concretely than in most households. Mine is grades 1–5: a boy earns a reward, then has to decide what it's actually worth. 36 pages, free teacher pack. Already printed and on sale. Does that land with your families, or am I reading the district wrong?
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 882. Trevor Greene, EdD
+*Superintendent, Yakima School District #7 · connected 29 Aug · 1st-degree · DM*
+
+```
+Trevor — free means something different in Yakima than it does in a wealthy district. Mine costs a school nothing past the book: every teacher material is printable, no login, no seats, no reorder. Grades 1–5, and the story is about a kid choosing the cheaper option and feeling good about it. Already printed and on sale. Does it read as respectful to your families?
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 883. Vickie Maruniak
+*Superintendent, Triad Local Schools · connected 29 Aug · 1st-degree · DM*
+
+```
+Vickie — a small Ohio district doesn't get to buy things twice. Mine is one 36-page book and a teacher pack that costs nothing: four 45-minute lessons, worksheets, pre and post assessments, all printable. Grades 1–5. Already printed and on sale. What's the real barrier at Triad — the money, the minutes, or that it isn't required yet?
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 884. Spencer Delisle
+*Principal, Damascus Elementary School — Montgomery County Public Schools · connected 29 Aug · 1st-degree · DM*
+
+```
+Spencer — Damascus is close enough to home that I'd rather have a blunt local answer than a polite distant one. Mine is grades 1–5, 36 pages, teaching kids to spend well, with everything for teachers free behind it. Already printed and on sale. Would a teacher at Damascus actually use it, or does it go in the pile? I'd drive a copy over if it's worth a look.
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 885. Alicia Maphies, EdD
+*Director of K-12 Curriculum & Instruction, Dripping Springs ISD · connected 29 Aug · 1st-degree · DM*
+
+```
+Alicia — K–12 curriculum means grades 1–5 is a small slice of what you oversee, so this either fits cleanly or it isn't worth your time. It fits three places: ELA as a read-aloud, math as percentage and comparison work, social studies as consumer economics, with the Texas finance strand inside the five frameworks. Free. Already printed and on sale. Clean fit, or three shallow ones?
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 886. Amy Irvine, CFP®, EA, MPAS®
+*Owner / Principal, Irvine Wealth Planning Strategies · connected 29 Aug · 1st-degree · DM*
+
+```
+Amy — planners spend their days with people whose money habits were set decades before they walked in. Mine goes to the source: a six-year-old, one purchase, spending rather than saving. 36 pages, ages 6–10. Already printed and on sale. Would the families you advise hand this to their kids, or is that not a conversation that comes up?
+
+Jonathan
+
+P.S. Yes, the em dashes are load-bearing. I've used them as long as I can remember and I'm not quitting now on account of the robots.
+```
+
+### 887. Hugh Broomall
+*Deputy Superintendent, Red Clay Consolidated School District · connected 28 Aug · 1st-degree · DM*
+
+```
+Hugh — I've written to a fair few people in Delaware about this, so you may have heard the pitch already. Short version: 36 pages, grades 1–5, spending rather than saving, five frameworks, free teacher pack, nothing to reorder. Already printed and on sale. Red Clay is big enough to matter statewide — is there a route in, or does it go school by school?
+
+Jonathan
+
+P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
+```
+
+### 888. Colleen Brazill-Murray, Ed.D.
+*Founder & Principal Consultant, Dr. Murray Learning · connected 28 Aug · 1st-degree · DM*
+
+```
+Colleen — consultants get asked "what should we use?" and have to answer with something specific. Mine is 36 pages, grades 1–5, four 45-minute lessons, all free, teaching spending rather than saving. Already printed and on sale. Is it specific enough to be an answer to that question, or too small to name out loud?
+
+Jonathan
+
+P.S. I've used em dashes as long as I can remember and I'm not about to stop now because somebody might accuse me of being AI.
+```
+
+### 889. Jennifer Heyman
+*Vice President, School Improvement — Charter School Specialists · connected 28 Aug · 1st-degree · DM*
+
+```
+Jennifer — school improvement work is judged on whether anything actually changed, not on what got adopted. Mine is small enough to measure: four 45-minute lessons with pre and post assessments included, so a school can see whether the needle moved at all. Grades 1–5, free. Already printed and on sale. Is a single-book intervention worth measuring, or too small to show up?
 
 Jonathan
 
