@@ -9,7 +9,7 @@ for a name you already processed. That has already happened once.
 
 ---
 
-## Current master: `CGB_MASTER_merged.xlsx` — 1,328 contacts
+## Current master: `CGB_MASTER_merged.xlsx` — 1,469 contacts
 
 **9 Sep 2026.** `CGB_MASTER_outreach.xlsx` was never the whole picture. A second contact
 database built during August — 1,129 contacts with scoring, bespoke email groups, connection
@@ -18,7 +18,7 @@ appeared nowhere here. It has been recovered and merged.
 
 | | |
 |---|---|
-| **Master file** | **`CGB_MASTER_merged.xlsx`** (1,328 contacts, 41 columns) |
+| **Master file** | **`CGB_MASTER_merged.xlsx`** (1,469 contacts, 41 columns — grown from the 1,328 of the original merge) |
 | Built from | `CGB_MASTER_outreach.xlsx` (690) + `finlit_contacts_categorized_bespoke_groups.xlsx` (1,129) |
 | Overlap | 491 in both · 638 uploaded-only · 199 repo-only |
 | Verified | 689/689 finished letters preserved · 1,128/1,128 uploaded contacts preserved · zero losses |
@@ -32,9 +32,13 @@ destroyed 432 finished letters; keeping only the repo copy would have dropped 60
 |---|---|
 | Finished letter (from `CGB_MASTER_outreach.xlsx`) | 690 |
 | ~~Draft only (from the August workbook)~~ → extracted 9 Sep | 196 |
-| **No letter yet** | **442** |
+| ~~No letter yet~~ *(figure from the original merge)* | ~~442~~ |
 
-The 442 are the real backlog. ~~`august_top100_letters.md` holds 37 finished letters, 34 of
+**Current counts, 14 Sep 2026:** 1,469 rows — **1,033 finished**, 429 with no letter, 7 skipped.
+Nothing reads NEEDS LETTER. The live backlog is `gap-backlog.xlsx`, not the 442 figure below,
+which described the workbook as it stood before the LinkedIn export.
+
+The 442 were the backlog as of the merge. ~~`august_top100_letters.md` holds 37 finished letters, 34 of
 which are for contacts this repo had never heard of.~~ **Closed 9 Sep 2026 — all 37 are covered.**
 
 **`august_top100_letters.md` is fully absorbed. Don't re-import it.** Re-checked 9 Sep against
@@ -67,7 +71,7 @@ ask "what's the most recent thing added" — not the order rows landed in the wo
 
 | Screenshot batch | Connections dated | Count | Letter file |
 |---|---|---|---|
-| 8 screens, sent 8 Sep | **4–8 Sep** ← newest | 66 | `letters-new-sept.md` #535–574 · 26 still owed |
+| 8 screens, sent 8 Sep | **4–8 Sep** ← newest | 66 | `letters-new-sept.md` #535–600 — complete |
 | 4 screens, sent 9 Sep | 23–26 Aug | 36 | `letters-776-809.md` #776–809 |
 | New Aug | 30 Jul – 3 Aug | 19 | folded into `letters-517-616.md` |
 | New Jul 28–29 | 28–29 Jul | 2 | folded into `letters-517-616.md` #510–511 |
@@ -120,7 +124,7 @@ Everything else, by how it was assembled rather than when it connected:
 | New Aug (30 Jul – 3 Aug) | 19 | 666–684 | folded into `letters-517-616.md` #500–509, #517–529 |
 | Grandparents | 6 | 686–691 | `letters-grandparents-readalong.md` |
 | New Sept batch 1 (4–8 Sep) | 40 | added 9 Sep | `letters-new-sept.md` #535–574 |
-| New Sept batch 2 (4–8 Sep) | 26 | added 9 Sep | **blocked on titles** — reserved #575–600 |
+| New Sept batch 2 (4–8 Sep) | 26 | added 9 Sep | `letters-new-sept.md` #575–600 |
 | August workbook drafts, 1st-degree | 175 | merged master | `letters-601-775.md` #601–775 |
 | August workbook drafts, 2nd/3rd | 21 | merged master | `letters-inmail-required.md` #122–142 |
 | New Aug 23–26 (4 screens, sent 9 Sep) | 36 | added 9 Sep | `letters-776-809.md` #776–809 |
@@ -130,9 +134,9 @@ as one running sequence 1–534, continued by `letters-new-sept.md` (535–574) 
 `letters-601-775.md` (601–775). All 2nd/3rd-degree contacts live in
 `letters-inmail-required.md`, numbered separately 1–142.
 
-**575–600 are reserved, not missing.** They belong to September batch 2 — the 26 contacts from
-Dustin LeMay through Justin Stok — which goes in `letters-new-sept.md` under batch 1. Write
-those next and the running sequence closes up.
+**575–600 are written** (14 Sep), so the run 535–600 is continuous and no block is reserved any
+more. The gap-backlog educator letters continue the sequence from 810 in
+`letters-gap-educators.md`.
 
 ### HIGH-WATER MARK — 14 Sep 2026
 
