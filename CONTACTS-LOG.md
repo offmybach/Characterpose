@@ -34,7 +34,7 @@ destroyed 432 finished letters; keeping only the repo copy would have dropped 60
 | ~~Draft only (from the August workbook)~~ → extracted 9 Sep | 196 |
 | ~~No letter yet~~ *(figure from the original merge)* | ~~442~~ |
 
-**Current counts, 14 Sep 2026:** 1,469 rows — **1,033 finished**, 429 with no letter, 7 skipped.
+**Current counts, 14 Sep 2026:** 1,469 rows — **1,066 finished**, 391 with no letter, 12 skipped.
 Nothing reads NEEDS LETTER. The live backlog is `gap-backlog.xlsx`, not the 442 figure below,
 which described the workbook as it stood before the LinkedIn export.
 
@@ -97,6 +97,40 @@ Even the "captured" windows were short — 36 of 42, and 66 of 77. Screenshots m
 
 Of everyone in those windows, **231 have no letter**. They are listed with full titles in
 **`gap-backlog.md`**, grouped by category and ready to draft with no further capture needed.
+
+### Whales & HVTs — `whales-and-hvts.xlsx`
+
+**The whale flagging had stopped dead after the New Aug batch (30 Jul – 3 Aug).** The 23–26 Aug
+screens, the 4–8 Sep screens and the entire gap backlog were never assessed at all — so anything
+added from late August onward was invisible to a whale or HVT filter. That's now fixed.
+
+| | |
+|---|---|
+| Flagged in total | **114 whales · 537 HVTs** |
+| Added 1 Aug onward | 138 |
+| With no letter | **0** |
+
+Both passes are in one sheet, sorted whales first, then anyone missing a letter, then the
+August-forward wave. Column **Flagged by** separates the two:
+
+- **hand-judged** — the original editorial pass. Never overwritten.
+- **auto** — assessed 14 Sep from the LinkedIn export by role and employer reach. **Needs your
+  eye.** A big organisation doesn't mean the person can say yes; the first pass promoted a
+  school psychologist and an early-childhood instructor purely because their districts were
+  large, and those were pulled back. Two still worth checking: Raquel Sheetz and Arielle Wright.
+
+**Every flagged whale and HVT already has a letter.** The five that looked like gaps were data
+artifacts — org names in the Name field, notes sitting in the Title field — and are marked
+"NOT A GAP" in the workbook.
+
+### A matching bug worth knowing about
+
+Ten letter files don't use the `### N. Name` heading format: the MAESP/NAESP file uses `## N.`,
+Delaware and the standalone `letter-*.md` files use `#`, the consider-tier file uses no headings
+at all, and grandparents uses sub-lettered numbers (3b, 7a). Any script that indexes letters by
+that one pattern will under-count by about 130 and invent gaps that don't exist. Index on all of
+`#`, `##`, `###`, allow sub-letters, and fall back to a raw full-name match — initials like
+"J.J." and "R P" collapse to a single token and vanish otherwise.
 
 ### How to add contacts from now on
 
