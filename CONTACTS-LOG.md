@@ -9,7 +9,7 @@ for a name you already processed. That has already happened once.
 
 ---
 
-## Current master: `CGB_MASTER_merged.xlsx` — 1,581 contacts
+## Current master: `CGB_MASTER_merged.xlsx` — 1,606 contacts
 
 **9 Sep 2026.** `CGB_MASTER_outreach.xlsx` was never the whole picture. A second contact
 database built during August — 1,129 contacts with scoring, bespoke email groups, connection
@@ -18,7 +18,7 @@ appeared nowhere here. It has been recovered and merged.
 
 | | |
 |---|---|
-| **Master file** | **`CGB_MASTER_merged.xlsx`** (1,581 contacts, 41 columns — grown from the 1,328 of the original merge) |
+| **Master file** | **`CGB_MASTER_merged.xlsx`** (1,606 contacts, 41 columns — grown from the 1,328 of the original merge) |
 | Built from | `CGB_MASTER_outreach.xlsx` (690) + `finlit_contacts_categorized_bespoke_groups.xlsx` (1,129) |
 | Overlap | 491 in both · 638 uploaded-only · 199 repo-only |
 | Verified | 689/689 finished letters preserved · 1,128/1,128 uploaded contacts preserved · zero losses |
@@ -34,7 +34,7 @@ destroyed 432 finished letters; keeping only the repo copy would have dropped 60
 | ~~Draft only (from the August workbook)~~ → extracted 9 Sep | 196 |
 | ~~No letter yet~~ *(figure from the original merge)* | ~~442~~ |
 
-**Current counts, 14 Sep 2026:** 1,581 rows — **1,178 finished**, 391 with no letter, 12 skipped.
+**Current counts, 14 Sep 2026:** 1,606 rows — **1,203 finished**, 391 with no letter, 12 skipped.
 Nothing reads NEEDS LETTER. The live backlog is `gap-backlog.xlsx`, not the 442 figure below,
 which described the workbook as it stood before the LinkedIn export.
 
@@ -95,10 +95,18 @@ The gaps were real and larger than the estimate:
 
 Even the "captured" windows were short — 36 of 42, and 66 of 77. Screenshots miss rows.
 
-Of everyone in those windows, 231 appeared to have no letter. **The educator and media blocks are
-both now complete**: 147 educator letters (`letters-gap-educators.md` #810–956) and 5 media letters
-(`letters-gap-media.md` #957–961). **76 remain** — 29 financial literacy & services, 47 other.
-Listed with titles in `gap-backlog.md` and `gap-backlog.xlsx`.
+Of everyone in those windows, 231 appeared to have no letter. **Three of the four blocks are now
+complete:**
+
+| Block | Letters | Count |
+|---|---|---|
+| Educators & Schools | `letters-gap-educators.md` #810–956 | 147 |
+| Media & Journalists | `letters-gap-media.md` #957–961 | 5 |
+| Financial Literacy & Services | `letters-gap-finlit.md` #962–990 | 29 |
+| **Other / Review** | — | **47 remaining** |
+
+The last 47 are leftovers whose role didn't sort into any block — consultants, founders, tech,
+some thin headlines. Worth skimming before drafting; a few may not deserve a letter at all.
 
 Two of the seven flagged journalists already had letters: Kaylen Tucker (`letters-maesp-naesp.md`
 #3) and R P Stevens (`letters-601-775.md` #761).
