@@ -202,9 +202,20 @@ have one, the letter joins the running sequence at 810.
 - ~~**September batch 2 is blocked on titles.**~~ **Done, 14 Sep 2026.** The LinkedIn export
   supplied the role, employer and connection date for all 26, so they are written:
   `letters-new-sept.md` #575–600. Nothing in the workbook reads NEEDS LETTER any more.
-- **`gap-backlog.md` — 231 connections with no letter.** The people in the capture windows nobody
-  screenshotted, plus everyone who connected after 8 Sep. Titles already in hand; they need
-  drafting, not capturing. Biggest block is 183 people from 27 Aug – 3 Sep, 117 of them educators.
+- **`gap-backlog.md` / `gap-backlog.xlsx` — 231 connections with no letter.** The people in the
+  capture windows nobody screenshotted, plus everyone who connected after 8 Sep. Titles already in
+  hand from the export; they need drafting, not capturing.
+  **Educators are being worked 40 at a time in `letters-gap-educators.md`.**
+
+  | Batch | Numbers | Status |
+  |---|---|---|
+  | 1 | 810–849 | **done** — 14 Sep |
+  | 2 | 850–889 | to do |
+  | 3 | 890–929 | to do |
+  | 4 | 930–956 | to do (27 letters) |
+
+  147 educators in total: 117 from the 27 Aug – 3 Sep window, 17 who connected after 8 Sep, 13
+  from 4–22 Aug. After those, 30 finance, 7 media and 47 other remain untouched.
 - **Ra Chan · Tripti · Jamie Brydone-Jack.** Rows added 9 Sep 2026, so they are tracked now.
   Their letters (`letters-517-616.md` #531–534) still have generic opening lines that need
   personalising from each profile before anything is sent. Jennifer Pasteur turned out to be
