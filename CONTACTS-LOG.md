@@ -73,35 +73,36 @@ ask "what's the most recent thing added" — not the order rows landed in the wo
 | New Jul 28–29 | 28–29 Jul | 2 | folded into `letters-517-616.md` #510–511 |
 | New July | 19–27 Jul | 10 | folded into `letters-517-616.md` |
 
-### Coverage timeline — there are two holes in it
+### Coverage timeline — measured against the real data, 14 Sep 2026
 
-Checked 9 Sep 2026: **zero names appear in both screenshot batches.** The 8 screens sent 8 Sep
-and the 4 screens sent 9 Sep share nothing. Three names on the 9 Sep screens were already in the
-workbook, but all three came from old sources (`1-202`, `wally`), not from the September capture,
-so they don't join the two batches either.
+**Screenshot capture is retired.** The LinkedIn data export settles what the screens could only
+estimate. `Connections.csv` from the export of 10 Sep 2026 holds **4,244 connections** with name,
+URL, company, position and exact connection date — every field the screenshots kept losing.
 
-No shared name means the captures were never proven to be contiguous, and lining up the date
-ranges shows they aren't:
+The gaps were real and larger than the estimate:
 
-| Window | Status |
-|---|---|
-| 19–27 Jul | captured — New July |
-| 28–29 Jul | captured — New Jul 28–29 |
-| 30 Jul – 3 Aug | captured — New Aug |
-| **4 – 22 Aug** | **NOT CAPTURED — 19 days** |
-| 23–26 Aug | captured — 4 screens sent 9 Sep |
-| **27 Aug – 3 Sep** | **NOT CAPTURED — about 8 days** |
-| 4–8 Sep | captured — 8 screens sent 8 Sep |
-| after 8 Sep | nothing captured since |
+| Window | Actual connections | Captured by screenshot | Missed |
+|---|---|---|---|
+| **4 – 22 Aug** | 104 | 0 | **104** |
+| 23–26 Aug | 42 | 36 | 6 |
+| **27 Aug – 3 Sep** | 184 | 0 | **184** |
+| 4–8 Sep | 77 | 66 | 11 |
+| **since 8 Sep** | 22 | 0 | **22** |
 
-So yes: contacts were missed, and roughly 27 days of connections are unaccounted for. The 4–22
-August hole is the big one. The 27 Aug – 3 Sep hole is sized off the *label* on the September
-batch rather than recorded dates, so treat it as approximate — the individual connection dates
-for those 66 were never written down.
+Even the "captured" windows were short — 36 of 42, and 66 of 77. Screenshots miss rows.
 
-**Capture one screen of overlap from now on.** Scroll back far enough that the top of a new
-batch repeats two or three names from the bottom of the last one. A repeated name proves the
-two captures touch. Zero repeats proves nothing, which is how 27 days went missing.
+Of everyone in those windows, **231 have no letter**. They are listed with full titles in
+**`gap-backlog.md`**, grouped by category and ready to draft with no further capture needed.
+
+### How to add contacts from now on
+
+**Ask for a fresh LinkedIn export, not screenshots.** Settings → Data Privacy → Get a copy of your
+data → Connections. It arrives within a day and carries the title and the exact date for every
+connection, which is what makes a letter personal and what makes gaps visible. One export replaces
+every screenshot batch and cannot skip a row.
+
+The old screenshot rules — capture overlap, write titles down first — only apply if the export
+route is unavailable. Both failures they guarded against are solved by the export.
 
 Everything else, by how it was assembled rather than when it connected:
 
@@ -133,7 +134,20 @@ as one running sequence 1–534, continued by `letters-new-sept.md` (535–574) 
 Dustin LeMay through Justin Stok — which goes in `letters-new-sept.md` under batch 1. Write
 those next and the running sequence closes up.
 
-### HIGH-WATER MARK — read these three lines, don't go searching
+### HIGH-WATER MARK — 14 Sep 2026
+
+**Source of truth is now the LinkedIn export, not screenshots.** `Connections.csv` from the
+export of 10 Sep 2026: 4,244 connections, each with title, employer, profile URL and exact
+connection date. Ask for a fresh one whenever you want to know what's new.
+
+**Newest connection on record: 9 Sep 2026.** Everyone connected on or before 8 Sep who deserves
+a letter either has one or is listed in `gap-backlog.md`. The 22 who connected after 8 Sep are in
+that file too.
+
+**Highest letter number in use: 809.** Sequence 535–600 is closed — the reserved block is gone,
+September batch 2 is written. Next new letter gets 810.
+
+### The old screenshot markers, kept for reference
 
 **Newest connection processed: James Totton, M.Ed, MBA.** Top of the 8 screens sent 8 Sep 2026,
 which covered connections made 4–8 September. Nothing newer than him has been touched — anything
@@ -185,13 +199,12 @@ have one, the letter joins the running sequence at 810.
 
 ## Known gaps — fix these when you get to them
 
-- **September batch 2 is blocked on titles.** 26 contacts, Dustin LeMay through Justin Stok,
-  hold the reserved numbers 575–600 in `letters-new-sept.md`. The names were saved; **the job
-  titles were not.** They only ever existed in the screenshots, and screenshots don't survive a
-  session. Writing letters off a bare name means guessing what someone does for a living, which
-  is how you send a superintendent a letter addressed to a credit union. **Re-send the
-  screenshots covering those 26** and they can be drafted in one pass. Full list of the 26 is in
-  the workbook: filter `Letter Status` = NEEDS LETTER.
+- ~~**September batch 2 is blocked on titles.**~~ **Done, 14 Sep 2026.** The LinkedIn export
+  supplied the role, employer and connection date for all 26, so they are written:
+  `letters-new-sept.md` #575–600. Nothing in the workbook reads NEEDS LETTER any more.
+- **`gap-backlog.md` — 231 connections with no letter.** The people in the capture windows nobody
+  screenshotted, plus everyone who connected after 8 Sep. Titles already in hand; they need
+  drafting, not capturing. Biggest block is 183 people from 27 Aug – 3 Sep, 117 of them educators.
 - **Ra Chan · Tripti · Jamie Brydone-Jack.** Rows added 9 Sep 2026, so they are tracked now.
   Their letters (`letters-517-616.md` #531–534) still have generic opening lines that need
   personalising from each profile before anything is sent. Jennifer Pasteur turned out to be

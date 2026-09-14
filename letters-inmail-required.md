@@ -6,8 +6,14 @@ InMail in the source, which needs Sales Navigator or a Premium plan you don't ha
 connection request first (then it's a free DM once accepted), or come back to this file
 once you have InMail credits.
 
-**121 letters — 7 whales.** Numbered 1 onward, independent of the
+**142 letters — 7 whales.** Numbered 1 onward, independent of the
 numbering in the four main files.
+
+**Eight of these have since accepted and are free DMs now.** The LinkedIn export of 10 Sep 2026
+confirms them as 1st-degree, so send these without spending an InMail credit — each is flagged in
+place under its heading: **#9** Amy Pridemore · **#32** Christian Sherrill · **#46** David Delisle ·
+**#51** Lorie Konish · **#75** Venessa Wong · **#82** Damilola Esebame · **#83** Marc Guberti ·
+**#94** Melina Chalkia. Two are reporters, which makes them the ones to send first.
 
 🐋 = whale. One yes from these moves the needle by itself.
 
@@ -381,7 +387,8 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 ## Gatekeeper
 
 ### 32. Christian Sherrill
-*Director of Teacher Success · 2nd-degree · InMail*
+*Director of Teacher Success*
+***Now 1st-degree — send as a free DM.** Accepted 27 Jun 2026, confirmed by the LinkedIn export of 10 Sep 2026. No InMail credit needed; the letter below stands.*
 
 ```
 Christian — teacher success is the whole ballgame, and elementary teachers have close to nothing for financial literacy. I built a free 1-5 lesson set around a picture book: four lessons, assessments, a crosswalk, zero prep. Would NGPF ever surface something below ninth grade? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. For teachers: https://clarencegetsabargain.com/educator-toolkit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -539,7 +546,8 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 ```
 
 ### 46. David Delisle
-*Author · 2nd-degree · InMail*
+*Author*
+***Now 1st-degree — send as a free DM.** Accepted 31 Jul 2026, confirmed by the LinkedIn export of 10 Sep 2026. No InMail credit needed; the letter below stands.*
 
 ```
 David — The Squeaky Wheel proved a kids' money book can be properly funny. Mine tries the same trick on spending rather than saving, already printed and on sale. Author to author, would you tell me if the humor lands or thuds? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. More: https://clarencegetsabargain.com/ · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -596,7 +604,8 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 ```
 
 ### 51. Lorie Konish
-*Personal finance reporter · 2nd-degree · InMail*
+*Personal finance reporter*
+***Now 1st-degree — send as a free DM.** Accepted 19 Aug 2026, confirmed by the LinkedIn export of 10 Sep 2026. No InMail credit needed; the letter below stands.*
 
 ```
 Lorie — a kids' money book that skips saving entirely and teaches spending instead, sales tax and all. The story is what the category ignored for forty years, not my book. Interested, or a better contact at CNBC? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · Preview: https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -860,7 +869,8 @@ P.S. Yes, the em dashes are load-bearing. I've used them as long as I can rememb
 ```
 
 ### 75. Venessa Wong
-*Personal Finance Reporter · 2nd-degree · InMail*
+*Personal Finance Reporter*
+***Now 1st-degree — send as a free DM.** Accepted 11 Jun 2026, confirmed by the LinkedIn export of 10 Sep 2026. No InMail credit needed; the letter below stands.*
 
 ```
 Venessa — you cover the consumer side. Mine is a consumer origin story: a six-year-old's first purchase, complete with discovering the sticker price was never the price. 36 pages. Story, or a better name? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · Flip through it: https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -937,7 +947,8 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 ```
 
 ### 82. Damilola Esebame, CFEI®
-*Personal Finance Analyst; Personal Finance Analyst & Journalist · 2nd-degree · InMail*
+*Personal Finance Analyst; Personal Finance Analyst & Journalist*
+***Now 1st-degree — send as a free DM.** Accepted 28 Jul 2026, confirmed by the LinkedIn export of 10 Sep 2026. No InMail credit needed; the letter below stands.*
 
 ```
 Damilola — you hold the CFEI and write personal finance, so you'll test the premise. Mine: spending competence precedes saving competence, and the category has the sequence backwards, already printed and on sale. Does that hold? The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -948,7 +959,8 @@ P.S. The em dashes are mine. I've used them as long as I can remember and I'm no
 ```
 
 ### 83. Marc Guberti, CPFC
-*Investing Writer · 2nd-degree · InMail*
+*Investing Writer*
+***Now 1st-degree — send as a free DM.** Accepted 28 Jul 2026, confirmed by the LinkedIn export of 10 Sep 2026. No InMail credit needed; the letter below stands.*
 
 ```
 Marc — you write about investing for people well past first grade. Mine starts at six with the skill that comes before all of it: spending on purpose. Angle for your readers? It's written for an adult voice — Lexile AD 620L, Adult Directed, read-with rather than read-alone — with Mom carrying every explanation, so whoever reads aloud gets handed the script. That constraint shaped every page. Press kit: https://clarencegetsabargain.com/press-kit.html · Peek: https://heyzine.com/flip-book/eeb1ef6cff.html
@@ -1069,7 +1081,8 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 ```
 
 ### 94. Melina Chalkia
-*Leveraged Finance Reporter · 3rd-degree · InMail*
+*Leveraged Finance Reporter*
+***Now 1st-degree — send as a free DM.** Accepted 22 Jun 2026, confirmed by the LinkedIn export of 10 Sep 2026. No InMail credit needed; the letter below stands.*
 
 ```
 Melina — a long way from leveraged finance, so I'll be brief. I wrote a children's book teaching six-year-olds how a purchase actually works, tax and all. If a colleague covers consumer or family money, I'd take the name. The format is part of the story: Lexile AD 620L — AD is Adult Directed, the industry's own code for read-WITH. An adult reads, a kid interrupts, and somebody has to answer "do we have one of those?" out loud. Same whether the adult is a teacher, a parent, or a grandparent. Press kit: https://clarencegetsabargain.com/press-kit.html · A few pages: https://heyzine.com/flip-book/eeb1ef6cff.html
