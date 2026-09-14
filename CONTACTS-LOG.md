@@ -9,7 +9,7 @@ for a name you already processed. That has already happened once.
 
 ---
 
-## Current master: `CGB_MASTER_merged.xlsx` — 1,549 contacts
+## Current master: `CGB_MASTER_merged.xlsx` — 1,576 contacts
 
 **9 Sep 2026.** `CGB_MASTER_outreach.xlsx` was never the whole picture. A second contact
 database built during August — 1,129 contacts with scoring, bespoke email groups, connection
@@ -18,7 +18,7 @@ appeared nowhere here. It has been recovered and merged.
 
 | | |
 |---|---|
-| **Master file** | **`CGB_MASTER_merged.xlsx`** (1,549 contacts, 41 columns — grown from the 1,328 of the original merge) |
+| **Master file** | **`CGB_MASTER_merged.xlsx`** (1,576 contacts, 41 columns — grown from the 1,328 of the original merge) |
 | Built from | `CGB_MASTER_outreach.xlsx` (690) + `finlit_contacts_categorized_bespoke_groups.xlsx` (1,129) |
 | Overlap | 491 in both · 638 uploaded-only · 199 repo-only |
 | Verified | 689/689 finished letters preserved · 1,128/1,128 uploaded contacts preserved · zero losses |
@@ -34,7 +34,7 @@ destroyed 432 finished letters; keeping only the repo copy would have dropped 60
 | ~~Draft only (from the August workbook)~~ → extracted 9 Sep | 196 |
 | ~~No letter yet~~ *(figure from the original merge)* | ~~442~~ |
 
-**Current counts, 14 Sep 2026:** 1,549 rows — **1,146 finished**, 391 with no letter, 12 skipped.
+**Current counts, 14 Sep 2026:** 1,576 rows — **1,173 finished**, 391 with no letter, 12 skipped.
 Nothing reads NEEDS LETTER. The live backlog is `gap-backlog.xlsx`, not the 442 figure below,
 which described the workbook as it stood before the LinkedIn export.
 
@@ -95,9 +95,10 @@ The gaps were real and larger than the estimate:
 
 Even the "captured" windows were short — 36 of 42, and 66 of 77. Screenshots miss rows.
 
-Of everyone in those windows, 231 had no letter. **120 are now written** (educator batches 1–3,
-letters 810–929), leaving **111**. The full list with titles is in **`gap-backlog.md`** and
-**`gap-backlog.xlsx`**, grouped by category and ready to draft with no further capture needed.
+Of everyone in those windows, 231 had no letter. **The entire educator block is now written** —
+all 147, letters 810–956 in `letters-gap-educators.md`. **84 remain**: 30 financial literacy &
+services, 7 media & journalists, 47 other. Listed with full titles in **`gap-backlog.md`** and
+**`gap-backlog.xlsx`**, ready to draft with no further capture needed.
 
 ### Whales & HVTs — `whales-and-hvts.xlsx`
 
@@ -251,7 +252,7 @@ have one, the letter joins the running sequence at 810.
   | 1 | 810–849 | **done** — 14 Sep |
   | 2 | 850–889 | **done** — 14 Sep |
   | 3 | 890–929 | **done** — 14 Sep |
-  | 4 | 930–956 | to do (27 letters) |
+  | 4 | 930–956 | **done** — 14 Sep, 27 letters |
 
   147 educators in total: 117 from the 27 Aug – 3 Sep window, 17 who connected after 8 Sep, 13
   from 4–22 Aug. After those, 30 finance, 7 media and 47 other remain untouched.
