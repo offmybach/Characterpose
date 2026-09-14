@@ -9,7 +9,7 @@ for a name you already processed. That has already happened once.
 
 ---
 
-## Current master: `CGB_MASTER_merged.xlsx` — 1,576 contacts
+## Current master: `CGB_MASTER_merged.xlsx` — 1,581 contacts
 
 **9 Sep 2026.** `CGB_MASTER_outreach.xlsx` was never the whole picture. A second contact
 database built during August — 1,129 contacts with scoring, bespoke email groups, connection
@@ -18,7 +18,7 @@ appeared nowhere here. It has been recovered and merged.
 
 | | |
 |---|---|
-| **Master file** | **`CGB_MASTER_merged.xlsx`** (1,576 contacts, 41 columns — grown from the 1,328 of the original merge) |
+| **Master file** | **`CGB_MASTER_merged.xlsx`** (1,581 contacts, 41 columns — grown from the 1,328 of the original merge) |
 | Built from | `CGB_MASTER_outreach.xlsx` (690) + `finlit_contacts_categorized_bespoke_groups.xlsx` (1,129) |
 | Overlap | 491 in both · 638 uploaded-only · 199 repo-only |
 | Verified | 689/689 finished letters preserved · 1,128/1,128 uploaded contacts preserved · zero losses |
@@ -34,7 +34,7 @@ destroyed 432 finished letters; keeping only the repo copy would have dropped 60
 | ~~Draft only (from the August workbook)~~ → extracted 9 Sep | 196 |
 | ~~No letter yet~~ *(figure from the original merge)* | ~~442~~ |
 
-**Current counts, 14 Sep 2026:** 1,576 rows — **1,173 finished**, 391 with no letter, 12 skipped.
+**Current counts, 14 Sep 2026:** 1,581 rows — **1,178 finished**, 391 with no letter, 12 skipped.
 Nothing reads NEEDS LETTER. The live backlog is `gap-backlog.xlsx`, not the 442 figure below,
 which described the workbook as it stood before the LinkedIn export.
 
@@ -95,10 +95,34 @@ The gaps were real and larger than the estimate:
 
 Even the "captured" windows were short — 36 of 42, and 66 of 77. Screenshots miss rows.
 
-Of everyone in those windows, 231 had no letter. **The entire educator block is now written** —
-all 147, letters 810–956 in `letters-gap-educators.md`. **84 remain**: 30 financial literacy &
-services, 7 media & journalists, 47 other. Listed with full titles in **`gap-backlog.md`** and
-**`gap-backlog.xlsx`**, ready to draft with no further capture needed.
+Of everyone in those windows, 231 appeared to have no letter. **The educator and media blocks are
+both now complete**: 147 educator letters (`letters-gap-educators.md` #810–956) and 5 media letters
+(`letters-gap-media.md` #957–961). **76 remain** — 29 financial literacy & services, 47 other.
+Listed with titles in `gap-backlog.md` and `gap-backlog.xlsx`.
+
+Two of the seven flagged journalists already had letters: Kaylen Tucker (`letters-maesp-naesp.md`
+#3) and R P Stevens (`letters-601-775.md` #761).
+
+**Five of the seven journalists were British**, which changed the pitch entirely. Sales tax is the
+book's climax — Clarence learns at the till that the sticker price was never the price — and UK VAT
+is already inside the shelf price, so that lesson doesn't exist there. Four of the five letters lead
+with that difference rather than hiding it: it gives a money journalist an actual story. The rest of
+the backlog is not like this; 73 of the other 77 are US.
+
+### Matching names: use `scripts/letter_index.py`
+
+Do not write another one-off regex for "does this person already have a letter". Three separate
+matchers this session invented gaps that weren't real and nearly caused duplicate letters. The
+failure modes, all now handled:
+
+- Ten files don't use `### N. Name` headings — MAESP uses `## N.`, Delaware and the standalone
+  `letter-*.md` files use `#`, the consider-tier file uses none, grandparents uses `3b`/`7a`.
+- Initials collapse: "J.J. McCorvey" and "R P Stevens" reduce to one token and vanish.
+- The export's name form drifts from the letter's: pronouns `(he/him)`, a trailing ` SME`, an
+  appended ` - Author of ...`, an honorific `Mrs.`, one more credential than the heading carries.
+- **`re.X` strips literal spaces.** A verbose-mode skip-list turned `the ` into `the` and silently
+  dropped every name beginning with those letters — Theresa, Theodore. Two real letters went
+  missing that way. The script carries a comment saying not to reintroduce it.
 
 ### Whales & HVTs — `whales-and-hvts.xlsx`
 
