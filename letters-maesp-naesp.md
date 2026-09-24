@@ -247,7 +247,7 @@ Financial literacy mandates keep passing. Most states have one now. Almost every
 
 Which leaves elementary principals holding an expectation with no mandate, no funding, and no materials — because the publishers followed the money to ninth grade too. I read all 25 titles on the ABA Foundation's children's list. Every one teaches saving. None teaches the transaction a six-year-old actually performs, which is spending.
 
-The research keeps saying money habits form by seven. The policy keeps arriving at fourteen. That gap is a story your members live inside.
+The research says kids have the money basics by seven, learned from watching the adults around them. The policy keeps arriving at fourteen. That gap is a story your members live inside.
 
 I wrote a K-5 book for it and gave the classroom lesson set away free, which is my interest declared. But the advocacy point stands whether or not you ever look at the book: elementary is doing financial literacy work nobody funded and nobody wrote for.
 
