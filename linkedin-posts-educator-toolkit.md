@@ -280,7 +280,7 @@ When someone replies, don't just react with a 👍 emoji. The algo rewards back-
 
 # Recurring Series: "First Money Memory at 7"
 
-Steal-and-adapt from Sam X Renick's "What was your first money memory?" series — but tighter, age-specific, and built around the Cambridge research saying money habits form by age 7.
+Steal-and-adapt from Sam X Renick's "What was your first money memory?" series — but tighter, age-specific, and built around the Cambridge research: kids have the money basics by about age 7, and they learn money by watching the adults around them.
 
 Run it weekly. One post every Tuesday (or pick a day and stick to it). Tag people. Feature their answers. Stack them.
 
@@ -292,7 +292,7 @@ Here's the question:
 
 > *What's a money moment you remember from when you were 7?*
 
-There's a Cambridge study — I won't cite it because you won't click the link and we both know it — that says money habits form by age 7. Most adults can't tell you what they ate for lunch yesterday but can describe a quarter their grandmother handed them in 1986, including which pocket they put it in and what they almost bought with it but didn't.
+There's a Cambridge study — I won't cite it because you won't click the link and we both know it — that says kids have the money basics down by about age 7, and they learn them by watching the grown-ups around them. Most adults can't tell you what they ate for lunch yesterday but can describe a quarter their grandmother handed them in 1986, including which pocket they put it in and what they almost bought with it but didn't.
 
 I want those quarters.
 
