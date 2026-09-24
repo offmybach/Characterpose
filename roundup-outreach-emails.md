@@ -29,9 +29,10 @@ Send one at a time. Five a week, max. A blast is a coupon nobody clips.
 
 ## Before you hit send — the 30-second checklist
 
-1. Open their list. Make sure the book you're complimenting is still on it. Forbes blocked a
-   direct read on 24 Sep, so *Little Critter* in email #1 is confirmed from search results
-   only. Check that one first.
+1. Open their list. Make sure the book you're complimenting is still on it. (Email #1 praises
+   the Forbes series structure instead of a title, because Forbes blocked a direct read and no
+   single book on it could be confirmed. If you open the article and want a title in there,
+   swap one in.)
 2. Swap every `[bracket]`. If a bracket ships, you've lost.
 3. Offer the hardback, never a PDF. A book on a desk gets read; a PDF gets a "thanks!"
 4. One ask per email: add it, or take a copy. Nothing else.
@@ -65,9 +66,9 @@ Send one at a time. Five a week, max. A blast is a coupon nobody clips.
 
 Hi Liz,
 
-Your KidFinLit series is the one I send parents to. Part 1 was saving, then earning, and
-putting *Little Critter: Just Saving My Money* in the saving list was the right call. Every
-parent has had that skateboard conversation.
+Your KidFinLit series is the one I send parents to. Splitting it by skill — saving first,
+then earning — is how a parent actually teaches this stuff, one habit at a time. Most roundups
+dump thirty books in a pile and call it a day.
 
 Here's the installment I'd love to see: spending. Your own book is called *Beyond Piggy Banks
 and Lemonade Stands*, so I suspect you already know the gap. A kid spends money years before
