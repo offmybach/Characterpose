@@ -52,7 +52,7 @@ questions@clarencegetsabargain.com · clarencegetsabargain.com
 
 Dear [Name],
 
-Thirty states now guarantee a personal finance course — in high school. Money habits form around age 7. Your building holds the kids in between, and there hasn't been much to hand them. I wrote something for that shelf.
+Thirty states now guarantee a personal finance course — in high school. Kids have the money basics by about age 7, and they learn them by watching adults. Your building holds the kids in between, and there hasn't been much to hand them. I wrote something for that shelf.
 
 *Clarence Gets a Bargain* is a 36-page picture book, grades 1–5, that walks one kid through one complete purchase: earning the reward, researching the sale ads, comparison shopping in the aisle, a clearance markdown, a coupon at the register, sales tax on the receipt — and the receipt photographed and kept, because that's what makes returns and warranty claims possible. The story leads; the money concepts ride inside the plot. A 21-term back-matter glossary cross-references each definition to the story page where it happens, so vocabulary review points kids back into the book instead of away from it.
 

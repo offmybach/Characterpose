@@ -15,7 +15,7 @@ How to use:
 ## Subject line options
 
 1. The first kids' book to follow a purchase from wish to receipt (an attorney dad wrote it)
-2. 30 states teach kids about money in high school. Habits form at 7. I wrote a book about the gap.
+2. 30 states teach kids about money in high school. Kids have the money basics by 7. I wrote a book about the gap.
 3. A children's book that teaches SPENDING — story pitch + interview offer
 
 ---
@@ -36,7 +36,7 @@ The rest of the book works the same way. Sixteen-plus financial concepts are hid
 
 Why this is timely for your audience:
 
-- **The gap is real and measurable.** Thirty states now guarantee a personal finance course — in high school. Money habits form around age 7. That's roughly a decade of nothing, and it's where this book lives.
+- **The gap is real and measurable.** Thirty states now guarantee a personal finance course — in high school. Kids have the money basics by about age 7, and they learn them by watching adults. That's roughly a decade of nothing, and it's where this book lives.
 - **Kids are consumers years before anyone tells them they have rights as one.** Receipts, price accuracy, returns, warranties. A conversation nobody is having at the elementary level.
 - **Seasonal hooks built in.** The book closes with Mom promising future lessons on Black Friday, Cyber Monday, and Prime Day. Holiday-shopping segments and back-to-school features write themselves.
 - **The author story has teeth.** Attorney by day, mixed-media artist after hours, dad throughout. I once paid one cent for a pair of shoes that compared at $293 — a clearance sticker reading "99% Savings," and I kept the tag. Separately, I got a merchant on a cruise ship to match the sale price on his own company's website. Ask me about either on air; both hold up, and both are just comparison shopping with the receipts.
@@ -62,7 +62,7 @@ clarencegetsabargain.com
 - **Local newspaper / TV:** "A [CITY]-area attorney spent his nights illustrating a children's book about the one money skill nobody teaches kids: how to spend."
 - **Parenting podcast:** "Your listeners have bought the piggy-bank books. Here's the one that covers what happens when the pig gets opened."
 - **Personal-finance podcast / writer:** "You cover how adults undo bad money habits. I wrote a book that tries to keep 7-year-olds from forming them — starting at the register, not the piggy bank."
-- **Education reporter:** "Thirty states guarantee personal finance in high school. Money habits form at age 7. I wrote a picture book — and a free K–5 toolkit — for the decade in between."
+- **Education reporter:** "Thirty states guarantee personal finance in high school. Kids have the money basics by age 7. I wrote a picture book — and a free K–5 toolkit — for the decade in between."
 - **Speaker booker:** "If you book financial-literacy or parenting speakers: I'm the attorney who wrote and illustrated the kids' book that teaches spending first, and I bring the photographed tag from the day I paid one cent for a $293 pair of shoes."
 
 ## What NOT to alter
