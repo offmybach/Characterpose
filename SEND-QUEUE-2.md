@@ -1736,7 +1736,7 @@ P.S. I've used em dashes as long as I can remember and I'm not about to stop now
 - [ ] sent
 
 ```
-Becky — 28 years helping people out of debt means you've traced a lot of it back to habits set at eight. Mine tries to set the good one at six: compare before you buy, know what tax adds, take the cheaper thing on purpose. Fit the families you coach? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
+Becky — 28 years helping people out of debt means you've traced a lot of it back to habits that started young. Mine tries to set the good one at six: compare before you buy, know what tax adds, take the cheaper thing on purpose. Fit the families you coach? The one spec that counts in a classroom: it's catalogued Lexile AD 620L — AD for Adult Directed, meaning read-with rather than read-alone. One class period out loud, and Mom explains every concept inside the text, so a teacher needs no finance background to run it. More: https://clarencegetsabargain.com/ · See it: https://heyzine.com/flip-book/eeb1ef6cff.html
 
 P.S. The em dashes are mine. I've used them as long as I can remember and I'm not giving them up now because a machine got hold of them.
 ```
