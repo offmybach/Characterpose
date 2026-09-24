@@ -509,7 +509,7 @@ Six modals open as iframe srcdoc with `<base href="resources/">`. Modal IDs = `r
 - The six toolkit `-print.html` pages carry `noindex, follow` and stay out of `sitemap.xml`. `free-sample-print` and `grandparents-day-games-print` stay indexed (no interactive twin).
 - Nothing disallowed in `robots.txt` may appear in `sitemap.xml`.
 - Homepage `<title>` stays under 60 chars and includes "Children's" — the bare title collides with the 2023 film *The Book of Clarence*.
-- **Age-seven claim:** Whitebread & Bingham (2013) found core money *concepts* are in place by about seven, and that kids learn money by watching adults, not from explicit teaching. "Money habits are set by age seven" is the popular misread. Use the accurate version in new copy.
+- **Age-seven claim:** Whitebread & Bingham (2013) found core money *concepts* are in place by about seven, and that kids learn money by watching adults, not from explicit teaching. "Money habits are set by age seven" is the popular misread. Use the accurate version in new copy. This applies only to Jonathan's own copy. **Never change the age-seven claim where someone else makes it** — quotes, other people's posts, competitor write-ups. Their words stay as they wrote them.
 
 ## 8. Common Tasks → Where to Touch
 
