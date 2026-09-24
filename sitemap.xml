@@ -82,18 +82,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  <url>
-    <loc>https://clarencegetsabargain.com/badge-generator.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://clarencegetsabargain.com/review-cards.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
 
   <!-- Resource pages — standalone/interactive versions -->
   <url>
@@ -145,43 +133,7 @@
     <priority>0.5</priority>
   </url>
 
-  <!-- Resource pages — print-to-PDF versions -->
-  <url>
-    <loc>https://clarencegetsabargain.com/resources/educator-preview-print.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://clarencegetsabargain.com/resources/lesson-plans-print.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://clarencegetsabargain.com/resources/discussion-guide-print.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://clarencegetsabargain.com/resources/assessment-worksheet-print.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://clarencegetsabargain.com/resources/standards-chart-print.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://clarencegetsabargain.com/resources/family-activity-print.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <!-- Print pages with no interactive twin. The six toolkit print pages are noindex and stay out of the sitemap. -->
   <url>
     <loc>https://clarencegetsabargain.com/resources/free-sample-print.html</loc>
     <lastmod>2026-08-18</lastmod>
@@ -209,4 +161,16 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://clarencegetsabargain.com/spend-or-save-first.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://clarencegetsabargain.com/privacy.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>

@@ -457,8 +457,10 @@ Take from there before writing anything new.
 - `social-media-campaigns-april.html` — April campaign
 - `marketing-blitz.html` — July–Sept 2026 two-front blitz playbook: "Boardwalk-Proof Your Kid" (parents, Jul 13–Aug 16) + back-to-school ground game (teachers/librarians, Aug 3–Sep 11). Competitor recon, 22 dated posts, 5 outreach templates. Internal, robots-blocked. **Recovered 30 Jul 2026 from branch `claude/cgb-marketing-blitz-g5g1wb`; it had never reached main.**
 - `vs-other-money-books.html` — the gracious comparison page other assets funnel into
-- `school-visits.html` — "The Clearance Aisle Assembly": four visit formats, run of show, school funding lines (MD/DE/DC Metro)
+- `school-visits.html` — "The Aisle Five Assembly" (renamed from "The Clearance Aisle Assembly" 24 Sep 2026: a headline with "Clearance" in it telegraphs the pp. 13–15 gag): four visit formats, run of show, school funding lines (MD/DE/DC Metro)
 - `money-glossary.html`, `teaching-kids-about-money.html` — SEO landing pages
+- `spend-or-save-first.html` — AEO page answering "spend or save first?" (Article + FAQPage schema). Cites Whitebread & Bingham 2013 accurately.
+- `privacy.html` — privacy policy (COPPA + district vetting). Linked from index footer, both index forms, and every kid tool. **If you add analytics, a form, or any network call to a page, update this file the same day.** GA4 currently runs only on index + 6 `/resources/` modal pages; kid tools load none.
 - `state-of-the-states.html` — interactive US tile map of state finlit requirements (30 guarantee states per NGPF May 2026; verify before editing data)
 - `receipt-builder.html` — kid-facing interactive Sea-Mart register (clearance markdown + 10% coupon + sales tax; prices in cents, book-accurate coupon rule: clearance toys only)
 - `press-kit.html` — media kit: bios ×3 lengths, fact sheet, art downloads, interview Qs (Q5 protects the Aisle Five spoiler — keep it that way)
@@ -502,6 +504,12 @@ Six modals open as iframe srcdoc with `<base href="resources/">`. Modal IDs = `r
 - `image_dedupe_manager.py`, `image_prompt_search.py`, `streamlit_image_search_app.py`, `generate_qr.py`
 
 ---
+
+### SEO invariants (set 24 Sep 2026)
+- The six toolkit `-print.html` pages carry `noindex, follow` and stay out of `sitemap.xml`. `free-sample-print` and `grandparents-day-games-print` stay indexed (no interactive twin).
+- Nothing disallowed in `robots.txt` may appear in `sitemap.xml`.
+- Homepage `<title>` stays under 60 chars and includes "Children's" — the bare title collides with the 2023 film *The Book of Clarence*.
+- **Age-seven claim:** Whitebread & Bingham (2013) found core money *concepts* are in place by about seven, and that kids learn money by watching adults, not from explicit teaching. "Money habits are set by age seven" is the popular misread. Use the accurate version in new copy.
 
 ## 8. Common Tasks → Where to Touch
 
